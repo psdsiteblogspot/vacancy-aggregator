@@ -6,6 +6,10 @@ on:
     - cron: '0 */4 * * *'
   workflow_dispatch:  # Позволяет запускать вручную
 
+# Даем права на запись
+permissions:
+  contents: write
+
 jobs:
   update-vacancies:
     runs-on: ubuntu-latest
@@ -13,7 +17,9 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-      
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
     - name: Setup Python
       uses: actions/setup-python@v4
       with:
@@ -27,16 +33,31 @@ jobs:
       run: |
         python update_vacancies.py
         
+    - name: Check if file was created
+      run: |
+        if [ -f "hh_vacancies.json" ]; then
+          echo "✅ File hh_vacancies.json was created successfully"
+          echo "File size: $(stat -c%s hh_vacancies.json) bytes"
+          echo "First 500 characters:"
+          head -c 500 hh_vacancies.json
+        else
+          echo "❌ File hh_vacancies.json was not created"
+          exit 1
+        fi
+        
     - name: Commit and push if changed
       run: |
-        git config --global user.name 'GitHub Actions Bot'
-        git config --global user.email 'actions@github.com'
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
         git add hh_vacancies.json
-        git diff --staged --quiet || (git commit -m "Update HH vacancies [skip ci]" && git push)
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Update HH vacancies [skip ci]"
+          git push
+        fi
         
-    # Опциональный FTP деплой (если используете внешний хостинг)
+    # Альтернативный способ для FTP (если нужен)
     - name: Upload to FTP (optional)
       if: ${{ vars.USE_FTP == 'true' }}
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
