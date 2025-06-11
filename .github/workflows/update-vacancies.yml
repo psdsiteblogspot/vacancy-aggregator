@@ -23,7 +23,7 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
-        cache: 'pip'
+        # Убираем cache: 'pip' так как нет requirements.txt
         
     - name: Install dependencies
       run: |
@@ -33,7 +33,7 @@ jobs:
     - name: Test API connectivity and get sample data
       run: |
         echo "🔗 Тестируем подключение к API HeadHunter..."
-        python -c "
+        python3 -c "
         import requests
         import json
         try:
@@ -52,6 +52,9 @@ jobs:
                 data = response.json()
                 print(f'📊 Найдено вакансий: {data.get(\"found\", 0)}')
                 print(f'📄 На странице: {len(data.get(\"items\", []))}')
+                if data.get('items'):
+                    sample = data['items'][0]
+                    print(f'📝 Пример вакансии: {sample.get(\"name\", \"N/A\")}')
             else:
                 print(f'⚠️  Неожиданный ответ: {response.text[:200]}')
         except Exception as e:
@@ -62,7 +65,7 @@ jobs:
     - name: Update vacancies
       run: |
         echo "🚀 Запуск обновления вакансий..."
-        python update_vacancies.py
+        python3 update_vacancies.py
         
     - name: Verify JSON file
       run: |
@@ -70,10 +73,27 @@ jobs:
         if [ -f "hh_vacancies.json" ]; then
           echo "✅ Файл hh_vacancies.json создан"
           echo "📊 Размер файла: $(du -h hh_vacancies.json | cut -f1)"
-          echo "📈 Количество вакансий: $(python -c "import json; data=json.load(open('hh_vacancies.json')); print(len(data.get('vacancies', [])))")"
-          echo "🕒 Время обновления: $(python -c "import json; data=json.load(open('hh_vacancies.json')); print(data.get('updated', 'не указано'))")"
+          
+          # Проверяем содержимое JSON
+          python3 -c "
+          import json
+          try:
+              with open('hh_vacancies.json', 'r', encoding='utf-8') as f:
+                  data = json.load(f)
+              print(f'📈 Количество вакансий: {len(data.get(\"vacancies\", []))}')
+              print(f'🕒 Время обновления: {data.get(\"updated\", \"не указано\")}')
+              print(f'📊 Статистика: {data.get(\"statistics\", {})}')
+              
+              # Показываем пример вакансии
+              if data.get('vacancies'):
+                  sample = data['vacancies'][0]
+                  print(f'📝 Пример: {sample.get(\"title\", \"N/A\")} - {sample.get(\"salary\", \"N/A\")}')
+          except Exception as e:
+              print(f'❌ Ошибка при проверке JSON: {e}')
+              exit(1)
+          "
         else
-          echo "❌ Файл не найден!"
+          echo "❌ Файл hh_vacancies.json не найден!"
           exit 1
         fi
         
@@ -85,22 +105,24 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./
         server-dir: /www/Vacancy/
-        # Загружаем только нужные файлы
+        # Загружаем только JSON файл (HTML обновляется отдельно)
         include: |
           hh_vacancies.json
-          vacancy_aggregator.html
-        # Исключаем ненужные файлы
+        # Исключаем все остальное
         exclude: |
           .git*
           .github/
           *.py
           *.md
+          *.html
+          *.yml
+          *.yaml
           
     - name: Notification on success
       if: success()
       run: |
         echo "✅ Вакансии успешно обновлены и загружены на сервер"
-        echo "🌐 Доступны по адресу: https://gradelift.ru/Vacancy/vacancy_aggregator.html"
+        echo "🌐 Страница: https://gradelift.ru/Vacancy/vacancy_aggregator.html"
         echo "📄 JSON данные: https://gradelift.ru/Vacancy/hh_vacancies.json"
         echo "🕒 Время обновления: $(date '+%Y-%m-%d %H:%M:%S %Z')"
         
@@ -109,3 +131,7 @@ jobs:
       run: |
         echo "❌ Ошибка при обновлении вакансий"
         echo "🔍 Проверьте логи выше для диагностики"
+        echo "📧 Возможные причины:"
+        echo "   - Проблемы с API HeadHunter"
+        echo "   - Неверные FTP реквизиты"
+        echo "   - Ошибки в Python скрипте"
