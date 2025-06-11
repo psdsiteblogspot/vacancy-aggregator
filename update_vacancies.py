@@ -1,166 +1,184 @@
-name: Update Vacancies from HeadHunter API
+#!/usr/bin/env python3
+import json
+import requests
+import time
+from datetime import datetime
 
-on:
-  schedule:
-    # Запуск каждые 4 часа для актуальных данных
-    - cron: '0 */4 * * *'
-  workflow_dispatch:
-    # Возможность запуска вручную
-
-env:
-  # Таймзона для логов
-  TZ: Europe/Moscow
-
-jobs:
-  update-vacancies:
-    runs-on: ubuntu-latest
+def get_vacancies():
+    """Получение вакансий с API HeadHunter"""
     
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.11'
-        # Убираем cache: 'pip' так как нет requirements.txt
+    url = "https://api.hh.ru/vacancies"
+    headers = {
+        'User-Agent': 'VacancyAggregator/1.0 (gradelift.ru)'
+    }
+    
+    params = {
+        'text': 'Системный администратор',
+        'area': '113',  # Россия
+        'search_field': 'name',
+        'per_page': 50,
+        'page': 0,
+        'order_by': 'salary_desc',
+        'search_period': 3,
+        'only_with_salary': 'true',
+        'schedule': 'remote',
+        'currency': 'RUR'
+    }
+    
+    try:
+        print("🔍 Запрос к API HeadHunter...")
+        response = requests.get(url, params=params, headers=headers, timeout=10)
         
-    - name: Install dependencies
-      run: |
-        pip install --upgrade pip
-        pip install requests
+        print(f"📡 Статус: {response.status_code}")
         
-    - name: Test API connectivity and get sample data
-      run: |
-        echo "🔗 Тестируем подключение к API HeadHunter..."
-        python3 -c "
-        import requests
-        import json
-        try:
-            # Тестируем с теми же параметрами что в скрипте
-            params = {
-                'text': 'Системный администратор',
-                'area': '113',
-                'search_field': 'name',
-                'per_page': 5,
-                'only_with_salary': 'true',
-                'schedule': 'remote'
-            }
-            response = requests.get('https://api.hh.ru/vacancies', params=params, timeout=10)
-            print(f'✅ API доступен, статус: {response.status_code}')
-            if response.status_code == 200:
-                data = response.json()
-                print(f'📊 Найдено вакансий: {data.get(\"found\", 0)}')
-                print(f'📄 На странице: {len(data.get(\"items\", []))}')
-                if data.get('items'):
-                    sample = data['items'][0]
-                    print(f'📝 Пример вакансии: {sample.get(\"name\", \"N/A\")}')
+        if response.status_code == 200:
+            data = response.json()
+            items = data.get('items', [])
+            found = data.get('found', 0)
+            
+            print(f"✅ Найдено: {found} вакансий")
+            print(f"📄 Получено: {len(items)} вакансий")
+            
+            return items
+        else:
+            print(f"❌ Ошибка API: {response.status_code}")
+            return []
+            
+    except Exception as e:
+        print(f"❌ Ошибка: {e}")
+        return []
+
+def format_vacancy(item):
+    """Форматирование одной вакансии"""
+    try:
+        # Базовые данные
+        vacancy_id = str(item.get('id', ''))
+        title = item.get('name', 'Без названия')
+        url = item.get('alternate_url', '')
+        
+        # Работодатель
+        employer = item.get('employer') or {}
+        company = employer.get('name', 'Не указана')
+        
+        # Зарплата
+        salary_data = item.get('salary')
+        if salary_data:
+            salary_from = salary_data.get('from')
+            salary_to = salary_data.get('to')
+            currency = salary_data.get('currency', 'RUR')
+            
+            if salary_from and salary_to:
+                salary = f"от {salary_from:,} до {salary_to:,} руб.".replace(',', ' ')
+            elif salary_from:
+                salary = f"от {salary_from:,} руб.".replace(',', ' ')
             else:
-                print(f'⚠️  Неожиданный ответ: {response.text[:200]}')
-        except Exception as e:
-            print(f'❌ Ошибка API: {e}')
-            exit(1)
-        "
+                salary = "Зарплата не указана"
+        else:
+            salary = "Зарплата не указана"
         
-    - name: Update vacancies
-      run: |
-        echo "🚀 Запуск обновления вакансий..."
-        python3 update_vacancies.py
+        # Дата публикации
+        published = item.get('published_at', '')
+        if published:
+            try:
+                dt = datetime.fromisoformat(published.replace('Z', '+00:00'))
+                publish_date = dt.strftime('%Y-%m-%d')
+            except:
+                publish_date = published[:10] if len(published) >= 10 else ''
+        else:
+            publish_date = ''
         
-    - name: Verify JSON file
-      run: |
-        echo "🔍 Проверяем созданный JSON файл..."
-        if [ -f "hh_vacancies.json" ]; then
-          echo "✅ Файл hh_vacancies.json создан"
-          echo "📊 Размер файла: $(du -h hh_vacancies.json | cut -f1)"
-          
-          # Показываем первые несколько строк для диагностики
-          echo "📝 Первые 10 строк файла:"
-          head -10 hh_vacancies.json
-          
-          # Проверяем валидность JSON
-          echo "🔍 Проверка валидности JSON..."
-          python3 -c "
-          import json
-          import sys
-          try:
-              with open('hh_vacancies.json', 'r', encoding='utf-8') as f:
-                  content = f.read()
-                  print(f'📄 Размер содержимого: {len(content)} символов')
-                  
-                  # Проверяем JSON
-                  data = json.loads(content)
-                  print('✅ JSON валиден!')
-                  
-                  print(f'📈 Количество вакансий: {len(data.get(\"vacancies\", []))}')
-                  print(f'🕒 Время обновления: {data.get(\"updated\", \"не указано\")}')
-                  
-                  # Показываем статистику если есть
-                  stats = data.get('statistics', {})
-                  if stats:
-                      print(f'📊 Статистика: найдено {stats.get(\"total_found\", 0)}, обработано {stats.get(\"unique_vacancies\", 0)}')
-                  
-                  # Показываем пример вакансии
-                  vacancies = data.get('vacancies', [])
-                  if vacancies:
-                      sample = vacancies[0]
-                      print(f'📝 Пример вакансии:')
-                      print(f'   Название: {sample.get(\"title\", \"N/A\")}')
-                      print(f'   Компания: {sample.get(\"company\", \"N/A\")}')
-                      print(f'   Зарплата: {sample.get(\"salary\", \"N/A\")}')
-                  else:
-                      print('⚠️ Вакансий в файле нет')
-                      
-              except json.JSONDecodeError as e:
-                  print(f'❌ JSON невалиден: {e}')
-                  print(f'Строка {e.lineno}, позиция {e.colno}')
-                  sys.exit(1)
-              except Exception as e:
-                  print(f'❌ Ошибка при проверке: {e}')
-                  sys.exit(1)
-          "
-        else
-          echo "❌ Файл hh_vacancies.json не найден!"
-          echo "📂 Содержимое текущей директории:"
-          ls -la
-          exit 1
-        fi
+        # Дополнительные данные
+        area_data = item.get('area') or {}
+        area = area_data.get('name', '')
         
-    - name: Upload to FTP
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-      with:
-        server: ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./
-        server-dir: /www/Vacancy/
-        # Загружаем только JSON файл (HTML обновляется отдельно)
-        include: |
-          hh_vacancies.json
-        # Исключаем все остальное
-        exclude: |
-          .git*
-          .github/
-          *.py
-          *.md
-          *.html
-          *.yml
-          *.yaml
-          
-    - name: Notification on success
-      if: success()
-      run: |
-        echo "✅ Вакансии успешно обновлены и загружены на сервер"
-        echo "🌐 Страница: https://gradelift.ru/Vacancy/vacancy_aggregator.html"
-        echo "📄 JSON данные: https://gradelift.ru/Vacancy/hh_vacancies.json"
-        echo "🕒 Время обновления: $(date '+%Y-%m-%d %H:%M:%S %Z')"
+        experience_data = item.get('experience') or {}
+        experience = experience_data.get('name', '')
         
-    - name: Notification on failure  
-      if: failure()
-      run: |
-        echo "❌ Ошибка при обновлении вакансий"
-        echo "🔍 Проверьте логи выше для диагностики"
-        echo "📧 Возможные причины:"
-        echo "   - Проблемы с API HeadHunter"
-        echo "   - Неверные FTP реквизиты"
-        echo "   - Ошибки в Python скрипте"
+        employment_data = item.get('employment') or {}
+        employment = employment_data.get('name', '')
+        
+        schedule_data = item.get('schedule') or {}
+        schedule = schedule_data.get('name', '')
+        
+        return {
+            'id': vacancy_id,
+            'title': title,
+            'company': company,
+            'salary': salary,
+            'publishDate': publish_date,
+            'url': url,
+            'area': area,
+            'experience': experience,
+            'employment': employment,
+            'schedule': schedule
+        }
+        
+    except Exception as e:
+        print(f"⚠️ Ошибка обработки вакансии: {e}")
+        return None
+
+def main():
+    print("🚀 Запуск парсера вакансий HH.ru")
+    print("=" * 50)
+    
+    # Получаем вакансии
+    raw_vacancies = get_vacancies()
+    
+    if not raw_vacancies:
+        print("❌ Не удалось получить вакансии")
+        # Создаем пустой файл
+        empty_data = {
+            'source': 'hh.ru',
+            'updated': datetime.now().isoformat() + 'Z',
+            'vacancies': []
+        }
+        with open('hh_vacancies.json', 'w', encoding='utf-8') as f:
+            json.dump(empty_data, f, ensure_ascii=False, indent=2)
+        return
+    
+    # Обрабатываем вакансии
+    formatted_vacancies = []
+    for item in raw_vacancies:
+        formatted = format_vacancy(item)
+        if formatted:
+            formatted_vacancies.append(formatted)
+    
+    print(f"✅ Обработано: {len(formatted_vacancies)} вакансий")
+    
+    # Создаем итоговый JSON
+    result = {
+        'source': 'hh.ru',
+        'updated': datetime.now().isoformat() + 'Z',
+        'search_parameters': {
+            'text': 'Системный администратор',
+            'area': '113',
+            'schedule': 'remote',
+            'only_with_salary': True
+        },
+        'statistics': {
+            'total_loaded': len(formatted_vacancies)
+        },
+        'vacancies': formatted_vacancies
+    }
+    
+    # Сохраняем файл
+    try:
+        with open('hh_vacancies.json', 'w', encoding='utf-8') as f:
+            json.dump(result, f, ensure_ascii=False, indent=2)
+        
+        print(f"✅ Файл hh_vacancies.json создан!")
+        print(f"📁 Сохранено: {len(formatted_vacancies)} вакансий")
+        print(f"🕒 Время: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        
+        # Показываем примеры
+        if formatted_vacancies:
+            print("\n🔍 Примеры вакансий:")
+            for i, v in enumerate(formatted_vacancies[:3], 1):
+                print(f"{i}. {v['title']}")
+                print(f"   {v['company']} - {v['salary']}")
+        
+    except Exception as e:
+        print(f"❌ Ошибка сохранения: {e}")
+
+if __name__ == "__main__":
+    main()
