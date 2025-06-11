@@ -1,10 +1,9 @@
-# .github/workflows/update-vacancies.yml
 name: Update Vacancies from HeadHunter
 
 on:
   schedule:
-    - cron: '0 */4 * * *'  # Каждые 4 часа
-  workflow_dispatch:  # Ручной запуск
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
 
 jobs:
   update-vacancies:
@@ -26,13 +25,13 @@ jobs:
     - name: Update vacancies
       run: python update_vacancies.py
       
-    - name: Upload to FTP
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-      with:
-        server: ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./
-        server-dir: /Vacancy/
-        include: |
-          hh_vacancies.json
+    # - name: Upload to FTP
+    #   uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+    #   with:
+    #     server: ${{ secrets.FTP_SERVER }}
+    #     username: ${{ secrets.FTP_USERNAME }}
+    #     password: ${{ secrets.FTP_PASSWORD }}
+    #     local-dir: ./
+    #     server-dir: /Vacancy/
+    #     include: |
+    #       hh_vacancies.json
