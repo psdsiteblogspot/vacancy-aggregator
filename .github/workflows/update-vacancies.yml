@@ -1,9 +1,10 @@
-name: Update Vacancies from HeadHunter
+name: Update HH Vacancies
 
 on:
   schedule:
+    # Запускать каждые 4 часа
     - cron: '0 */4 * * *'
-  workflow_dispatch:
+  workflow_dispatch:  # Позволяет запускать вручную
 
 jobs:
   update-vacancies:
@@ -20,12 +21,24 @@ jobs:
         
     - name: Install dependencies
       run: |
-        pip install requests beautifulsoup4
+        pip install requests
         
-    - name: Update vacancies
-      run: python update_vacancies.py
-      
-    - name: Upload to FTP
+    - name: Update vacancies from HH.ru
+      run: |
+        python update_vacancies.py
+        
+    - name: Commit and push if changed
+      run: |
+        git config --global user.name 'GitHub Actions Bot'
+        git config --global user.email 'actions@github.com'
+        git add hh_vacancies.json
+        git diff --staged --quiet || (git commit -m "Update HH vacancies [skip ci]" && git push)
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+    # Опциональный FTP деплой (если используете внешний хостинг)
+    - name: Upload to FTP (optional)
+      if: ${{ vars.USE_FTP == 'true' }}
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ${{ secrets.FTP_SERVER }}
@@ -33,3 +46,6 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./
         server-dir: /Vacancy/
+        include: |
+          hh_vacancies.json
+          vacancy_aggregator.html
