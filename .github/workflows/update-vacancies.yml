@@ -1,165 +1,69 @@
-name: Update Vacancies (Debug)
+name: Test FTP Connection
 
 on:
   workflow_dispatch: # Ручной запуск
-    inputs:
-      force_update:
-        description: 'Принудительное обновление'
-        required: false
-        default: 'true'
 
 jobs:
-  update-vacancies:
+  test-ftp:
     runs-on: ubuntu-latest
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.9'
-          
-      - name: Install dependencies
+      - name: Create test file
         run: |
-          python -m pip install --upgrade pip
-          pip install requests
-          
-      - name: Debug - Check initial state
-        run: |
-          echo "=== НАЧАЛЬНОЕ СОСТОЯНИЕ ==="
-          echo "Рабочая директория: $(pwd)"
-          echo "Содержимое директории:"
-          ls -la
-          echo "Существует ли hh_vacancies.json?"
-          if [ -f "hh_vacancies.json" ]; then
-            echo "ДА - размер: $(stat -c%s hh_vacancies.json) байт"
-          else
-            echo "НЕТ - файл отсутствует"
-          fi
-          
-      - name: Create JSON file (guaranteed)
-        run: |
-          echo "=== ПРИНУДИТЕЛЬНОЕ СОЗДАНИЕ JSON ФАЙЛА ==="
-          
-          # Создаем простой JSON с текущим временем
-          cat > hh_vacancies.json << EOF
-          {
-            "updated_at": "$(date -u +%Y-%m-%dT%H:%M:%S.000Z)",
-            "total_count": 0,
-            "status": "manual_test_creation",
-            "message": "Файл создан принудительно для тестирования",
-            "timestamp": "$(date)",
-            "test_data": true,
-            "vacancies": []
-          }
+          echo "=== СОЗДАНИЕ ТЕСТОВОГО ФАЙЛА ==="
+          cat > test_ftp_connection.txt << EOF
+          Тест FTP подключения
+          Время: $(date)
+          Статус: Тестирование загрузки
           EOF
           
-          echo "✅ JSON файл создан принудительно"
-          echo "Размер файла: $(stat -c%s hh_vacancies.json) байт"
-          echo "Содержимое файла:"
-          cat hh_vacancies.json
+          echo "Тестовый файл создан:"
+          cat test_ftp_connection.txt
           
-      - name: Try to get real vacancies
+      - name: Test FTP credentials
         run: |
-          echo "=== ПОПЫТКА ПОЛУЧИТЬ РЕАЛЬНЫЕ ВАКАНСИИ ==="
-          
-          python3 << 'EOF'
-          import requests
-          import json
-          from datetime import datetime
-          
-          def create_vacancies_file():
-              print("Пытаемся получить вакансии с HeadHunter...")
-              
-              try:
-                  url = "https://api.hh.ru/vacancies"
-                  headers = {'User-Agent': 'Mozilla/5.0 (compatible; VacancyBot)'}
-                  params = {
-                      'text': 'системный администратор',
-                      'area': '113',
-                      'per_page': '10'
-                  }
-                  
-                  print(f"URL: {url}")
-                  print(f"Параметры: {params}")
-                  
-                  response = requests.get(url, params=params, headers=headers, timeout=30)
-                  print(f"Статус ответа: {response.status_code}")
-                  
-                  if response.status_code == 200:
-                      data = response.json()
-                      items = data.get('items', [])
-                      print(f"Получено {len(items)} вакансий")
-                      
-                      # Создаем файл с реальными данными
-                      result = {
-                          'updated_at': datetime.now().isoformat(),
-                          'total_count': len(items),
-                          'status': 'success_with_real_data',
-                          'api_response_code': response.status_code,
-                          'vacancies': []
-                      }
-                      
-                      for item in items[:10]:  # Берем только первые 10
-                          vacancy = {
-                              'id': item.get('id'),
-                              'name': item.get('name', ''),
-                              'company': item.get('employer', {}).get('name', '') if item.get('employer') else '',
-                              'url': item.get('alternate_url', ''),
-                              'published_at': item.get('published_at', ''),
-                              'area': item.get('area', {}).get('name', '') if item.get('area') else ''
-                          }
-                          result['vacancies'].append(vacancy)
-                      
-                      # Перезаписываем файл
-                      with open('hh_vacancies.json', 'w', encoding='utf-8') as f:
-                          json.dump(result, f, ensure_ascii=False, indent=2)
-                      
-                      print("✅ Файл обновлен реальными данными")
-                      return True
-                  else:
-                      print(f"❌ Ошибка API: {response.status_code}")
-                      print(f"Ответ: {response.text}")
-                      return False
-                      
-              except Exception as e:
-                  print(f"❌ Ошибка: {e}")
-                  return False
-          
-          success = create_vacancies_file()
-          print(f"Результат: {'УСПЕХ' if success else 'ОШИБКА'}")
-          EOF
-          
-      - name: Verify file creation
-        run: |
-          echo "=== ПРОВЕРКА СОЗДАННОГО ФАЙЛА ==="
-          if [ -f "hh_vacancies.json" ]; then
-            echo "✅ Файл существует"
-            echo "Размер: $(stat -c%s hh_vacancies.json) байт"
-            echo "Права доступа: $(stat -c%a hh_vacancies.json)"
-            echo "Первые 10 строк:"
-            head -10 hh_vacancies.json
+          echo "=== ПРОВЕРКА FTP СЕКРЕТОВ ==="
+          if [ -z "${{ secrets.FTP_SERVER }}" ]; then
+            echo "❌ FTP_SERVER не установлен!"
           else
-            echo "❌ КРИТИЧЕСКАЯ ОШИБКА: Файл не существует!"
-            exit 1
+            echo "✅ FTP_SERVER: установлен (${#FTP_SERVER} символов)"
           fi
           
-      - name: Force git commit
+          if [ -z "${{ secrets.FTP_USERNAME }}" ]; then
+            echo "❌ FTP_USERNAME не установлен!"
+          else
+            echo "✅ FTP_USERNAME: установлен (${#FTP_USERNAME} символов)"
+          fi
+          
+          if [ -z "${{ secrets.FTP_PASSWORD }}" ]; then
+            echo "❌ FTP_PASSWORD не установлен!"
+          else
+            echo "✅ FTP_PASSWORD: установлен (${#FTP_PASSWORD} символов)"
+          fi
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          
+      - name: Test FTP connection with curl
         run: |
-          echo "=== ПРИНУДИТЕЛЬНЫЙ КОММИТ ==="
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          echo "=== ТЕСТ ПОДКЛЮЧЕНИЯ ЧЕРЕЗ CURL ==="
           
-          # Добавляем файл принудительно
-          git add hh_vacancies.json -f
+          # Создаем простой тестовый файл
+          echo "Test FTP upload at $(date)" > curl_test.txt
           
-          # Коммитим
-          git commit -m "🔄 Тестовое обновление JSON $(date)" || echo "Коммит не удался"
-          git push || echo "Push не удался"
+          # Пытаемся загрузить через curl
+          echo "Попытка загрузки через curl..."
           
-      - name: Deploy via FTP
+          curl -v -T curl_test.txt \
+            ftp://${{ secrets.FTP_SERVER }}/home/c54971/gradelift.ru/Vacancy/ \
+            --user "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" \
+            --ftp-create-dirs || echo "Curl загрузка не удалась"
+            
+      - name: Try FTP Deploy Action (simple)
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
@@ -169,10 +73,8 @@ jobs:
           port: 21
           local-dir: "./"
           server-dir: "/home/c54971/gradelift.ru/Vacancy/"
-          state-name: ".ftp-deploy-sync-state.json"
           dry-run: false
           log-level: verbose
-          dangerous-clean-slate: false
           exclude: |
             **/.git*
             **/.git*/**
@@ -180,17 +82,16 @@ jobs:
             **/.github/**
             **/README.md
             **/.ftp-deploy-sync-state.json
+            **/update_vacancies.py
+            **/minimal_update.py
+            **/test_api.py
             
-      - name: Final verification
+      - name: Verify what happened
         run: |
-          echo "=== ФИНАЛЬНАЯ ПРОВЕРКА ==="
-          echo "Локальный файл после деплоя:"
-          if [ -f "hh_vacancies.json" ]; then
-            ls -la hh_vacancies.json
-            echo "updated_at из файла:"
-            grep '"updated_at"' hh_vacancies.json || echo "updated_at не найден"
-          else
-            echo "❌ Локальный файл исчез!"
-          fi
+          echo "=== РЕЗУЛЬТАТЫ ТЕСТИРОВАНИЯ ==="
+          echo "Локальные файлы после FTP деплоя:"
+          ls -la
           
-          echo "✅ Процесс завершен. Проверьте файл на FTP сервере."
+          echo ""
+          echo "Если FTP работает, файлы должны появиться на сервере."
+          echo "Если нет - проверьте секреты в настройках репозитория."
