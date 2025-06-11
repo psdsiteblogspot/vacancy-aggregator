@@ -1,69 +1,246 @@
-name: Test FTP Connection
+name: Update Vacancies
 
 on:
+  schedule:
+    # Запуск каждые 6 часов
+    - cron: '0 */6 * * *'
   workflow_dispatch: # Ручной запуск
+    inputs:
+      force_update:
+        description: 'Принудительное обновление'
+        required: false
+        default: 'false'
 
 jobs:
-  test-ftp:
+  update-vacancies:
     runs-on: ubuntu-latest
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         
-      - name: Create test file
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+          
+      - name: Install dependencies
         run: |
-          echo "=== СОЗДАНИЕ ТЕСТОВОГО ФАЙЛА ==="
-          cat > test_ftp_connection.txt << EOF
-          Тест FTP подключения
-          Время: $(date)
-          Статус: Тестирование загрузки
+          python -m pip install --upgrade pip
+          pip install requests
+          
+      - name: Update vacancies data
+        run: |
+          # Переходим в корневую папку проекта
+          cd ${{ github.workspace }}
+          
+          echo "=== Информация о текущем JSON файле ==="
+          if [ -f "hh_vacancies.json" ]; then
+            ls -la hh_vacancies.json
+            echo "Первые строки файла:"
+            head -5 hh_vacancies.json
+          else
+            echo "Файл hh_vacancies.json не найден"
+          fi
+          
+          # Создаем минимальный скрипт прямо здесь
+          cat > simple_update.py << 'EOF'
+          import requests
+          import json
+          import os
+          from datetime import datetime
+          
+          def main():
+              print("=== ПОЛНАЯ ПЕРЕЗАПИСЬ ДАННЫХ О ВАКАНСИЯХ ===")
+              print(f"Рабочая директория: {os.getcwd()}")
+              print(f"Время: {datetime.now()}")
+              
+              # ВСЕГДА удаляем старый файл перед началом
+              filename = 'hh_vacancies.json'
+              if os.path.exists(filename):
+                  old_size = os.path.getsize(filename)
+                  os.remove(filename)
+                  print(f"✅ Старый файл удален (был {old_size} байт)")
+              else:
+                  print("ℹ️ Старого файла не было")
+              
+              url = "https://api.hh.ru/vacancies"
+              headers = {'User-Agent': 'VacancyBot/1.0'}
+              params = {
+                  'text': 'системный администратор', 
+                  'area': '113',
+                  'per_page': '50'  # Увеличиваем количество для заметной разницы
+              }
+              
+              print(f"🔄 Запрос к API: {url}")
+              print(f"📋 Параметры: {params}")
+              
+              try:
+                  response = requests.get(url, params=params, headers=headers, timeout=30)
+                  print(f"📡 Статус ответа: {response.status_code}")
+                  
+                  if response.status_code == 200:
+                      data = response.json()
+                      items = data.get('items', [])
+                      print(f"✅ Получено {len(items)} новых вакансий")
+                      
+                      if len(items) == 0:
+                          print("⚠️ ВНИМАНИЕ: Получено 0 вакансий!")
+                          # Создаем пустой файл даже если вакансий нет
+                          result = {
+                              'updated_at': datetime.now().isoformat(),
+                              'total_count': 0,
+                              'status': 'no_vacancies_found',
+                              'source': 'HeadHunter API',
+                              'search_params': params,
+                              'vacancies': []
+                          }
+                      else:
+                          # Создаем НОВУЮ структуру данных (без старых данных)
+                          result = {
+                              'updated_at': datetime.now().isoformat(),
+                              'total_count': len(items),
+                              'status': 'success',
+                              'source': 'HeadHunter API',
+                              'search_params': params,
+                              'vacancies': []
+                          }
+                          
+                          print("🔄 Обрабатываем новые вакансии...")
+                          for i, item in enumerate(items):
+                              # Форматируем дату публикации
+                              pub_date = item.get('published_at', '')
+                              formatted_date = pub_date
+                              if pub_date:
+                                  try:
+                                      dt = datetime.fromisoformat(pub_date.replace('Z', '+00:00'))
+                                      formatted_date = dt.strftime('%d.%m.%Y %H:%M')
+                                  except:
+                                      pass
+                              
+                              vacancy = {
+                                  'id': item.get('id'),
+                                  'name': item.get('name', ''),
+                                  'company': item.get('employer', {}).get('name', '') if item.get('employer') else '',
+                                  'company_url': item.get('employer', {}).get('alternate_url', '') if item.get('employer') else '',
+                                  'url': item.get('alternate_url', ''),
+                                  'published_at': pub_date,
+                                  'published_date_formatted': formatted_date,
+                                  'area': item.get('area', {}).get('name', '') if item.get('area') else '',
+                                  'salary': item.get('salary'),
+                                  'snippet': item.get('snippet', {}),
+                                  'experience': item.get('experience', {}).get('name', '') if item.get('experience') else '',
+                                  'employment': item.get('employment', {}).get('name', '') if item.get('employment') else '',
+                                  'schedule': item.get('schedule', {}).get('name', '') if item.get('schedule') else ''
+                              }
+                              result['vacancies'].append(vacancy)
+                              
+                              if (i + 1) % 10 == 0:
+                                  print(f"   📝 Обработано {i + 1} вакансий...")
+                      
+                      # СОЗДАЕМ ПОЛНОСТЬЮ НОВЫЙ ФАЙЛ
+                      print(f"💾 Создаем новый файл: {filename}")
+                      
+                      with open(filename, 'w', encoding='utf-8') as f:
+                          json.dump(result, f, ensure_ascii=False, indent=2)
+                      
+                      # Проверяем результат
+                      if os.path.exists(filename):
+                          new_size = os.path.getsize(filename)
+                          print(f"✅ НОВЫЙ файл создан! Размер: {new_size} байт")
+                          print(f"📊 Содержит {len(result['vacancies'])} вакансий")
+                          print(f"🕒 Время обновления: {result['updated_at']}")
+                          
+                          return True
+                      else:
+                          print("❌ ОШИБКА: Файл не был создан!")
+                          return False
+                  else:
+                      print(f"❌ Ошибка API: {response.status_code}")
+                      print(f"📄 Ответ: {response.text}")
+                      
+                      # Создаем файл с информацией об ошибке
+                      error_result = {
+                          'updated_at': datetime.now().isoformat(),
+                          'total_count': 0,
+                          'status': 'api_error',
+                          'error_code': response.status_code,
+                          'error_message': response.text,
+                          'vacancies': []
+                      }
+                      
+                      with open(filename, 'w', encoding='utf-8') as f:
+                          json.dump(error_result, f, ensure_ascii=False, indent=2)
+                      
+                      return False
+              except Exception as e:
+                  print(f"❌ Критическая ошибка: {e}")
+                  import traceback
+                  traceback.print_exc()
+                  
+                  # Создаем файл с информацией об ошибке
+                  error_result = {
+                      'updated_at': datetime.now().isoformat(),
+                      'total_count': 0,
+                      'status': 'system_error',
+                      'error_message': str(e),
+                      'vacancies': []
+                  }
+                  
+                  with open(filename, 'w', encoding='utf-8') as f:
+                      json.dump(error_result, f, ensure_ascii=False, indent=2)
+                  
+                  return False
+          
+          if __name__ == "__main__":
+              success = main()
+              print(f"🏁 Результат: {'УСПЕХ' if success else 'ОШИБКА'}")
+              exit(0 if success else 1)
           EOF
           
-          echo "Тестовый файл создан:"
-          cat test_ftp_connection.txt
+          # Запускаем созданный скрипт
+          python simple_update.py
           
-      - name: Test FTP credentials
+          echo "=== Информация о файле после обновления ==="
+          if [ -f "hh_vacancies.json" ]; then
+            ls -la hh_vacancies.json
+            echo "Первые строки обновленного файла:"
+            head -5 hh_vacancies.json
+          else
+            echo "ОШИБКА: Файл hh_vacancies.json не был создан!"
+          fi
+          
+      - name: Force commit and push changes
         run: |
-          echo "=== ПРОВЕРКА FTP СЕКРЕТОВ ==="
-          if [ -z "${{ secrets.FTP_SERVER }}" ]; then
-            echo "❌ FTP_SERVER не установлен!"
-          else
-            echo "✅ FTP_SERVER: установлен (${#FTP_SERVER} символов)"
+          cd ${{ github.workspace }}
+          
+          echo "=== Принудительный коммит изменений ==="
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Добавляем файл принудительно
+          git add hh_vacancies.json -f
+          
+          # Проверяем что есть изменения
+          if git diff --staged --quiet; then
+            echo "⚠️ Нет изменений для коммита"
+            # Принудительно изменяем файл чтобы создать коммит
+            echo "Последнее обновление: $(date)" >> hh_vacancies.json
+            git add hh_vacancies.json -f
           fi
           
-          if [ -z "${{ secrets.FTP_USERNAME }}" ]; then
-            echo "❌ FTP_USERNAME не установлен!"
-          else
-            echo "✅ FTP_USERNAME: установлен (${#FTP_USERNAME} символов)"
-          fi
+          # Делаем коммит
+          git commit -m "🔄 Автообновление вакансий $(date '+%Y-%m-%d %H:%M:%S')" || echo "Коммит не удался"
+          git push || echo "Push не удался"
           
-          if [ -z "${{ secrets.FTP_PASSWORD }}" ]; then
-            echo "❌ FTP_PASSWORD не установлен!"
-          else
-            echo "✅ FTP_PASSWORD: установлен (${#FTP_PASSWORD} символов)"
-          fi
-        env:
-          FTP_SERVER: ${{ secrets.FTP_SERVER }}
-          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
-          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          echo "=== Статус git после коммита ==="
+          git status
           
-      - name: Test FTP connection with curl
+      - name: Commit changes (if any)
         run: |
-          echo "=== ТЕСТ ПОДКЛЮЧЕНИЯ ЧЕРЕЗ CURL ==="
+          echo "⏭️ Шаг коммита пропущен - используется принудительный коммит выше"
           
-          # Создаем простой тестовый файл
-          echo "Test FTP upload at $(date)" > curl_test.txt
-          
-          # Пытаемся загрузить через curl
-          echo "Попытка загрузки через curl..."
-          
-          curl -v -T curl_test.txt \
-            ftp://${{ secrets.FTP_SERVER }}/home/c54971/gradelift.ru/Vacancy/ \
-            --user "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" \
-            --ftp-create-dirs || echo "Curl загрузка не удалась"
-            
-      - name: Try FTP Deploy Action (simple)
+      - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
@@ -73,25 +250,26 @@ jobs:
           port: 21
           local-dir: "./"
           server-dir: "/home/c54971/gradelift.ru/Vacancy/"
+          state-name: ".ftp-deploy-sync-state.json"
           dry-run: false
           log-level: verbose
+          dangerous-clean-slate: false
           exclude: |
             **/.git*
             **/.git*/**
             **/node_modules/**
             **/.github/**
             **/README.md
-            **/.ftp-deploy-sync-state.json
             **/update_vacancies.py
-            **/minimal_update.py
-            **/test_api.py
+            **/simple_update.py
             
-      - name: Verify what happened
+      - name: Verify deployment
         run: |
-          echo "=== РЕЗУЛЬТАТЫ ТЕСТИРОВАНИЯ ==="
-          echo "Локальные файлы после FTP деплоя:"
-          ls -la
+          echo "=== Проверка успешности деплоя ==="
+          echo "Локальный файл:"
+          ls -la hh_vacancies.json || echo "Локальный файл не найден"
           
-          echo ""
-          echo "Если FTP работает, файлы должны появиться на сервере."
-          echo "Если нет - проверьте секреты в настройках репозитория."
+          echo "Содержимое updated_at из локального файла:"
+          grep -o '"updated_at":[^,]*' hh_vacancies.json || echo "updated_at не найден"
+          
+          echo "✅ Деплой завершен. Проверьте файл на сервере."
