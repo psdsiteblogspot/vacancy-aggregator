@@ -52,15 +52,7 @@ jobs:
         if [ -f "hh_vacancies.json" ]; then
           echo "✅ JSON файл создан успешно"
           echo "📊 Размер файла: $(stat -c%s hh_vacancies.json) байт"
-          # Показываем количество вакансий
-          python -c "
-import json
-with open('hh_vacancies.json', 'r', encoding='utf-8') as f:
-    data = json.load(f)
-print(f'📝 Количество вакансий: {len(data[\"vacancies\"])}')
-print(f'🔍 Найдено всего: {data[\"search_stats\"][\"total_found\"]}')
-print(f'💾 Сохранено: {data[\"search_stats\"][\"total_saved\"]}')
-"
+          echo "📝 Строк в файле: $(wc -l < hh_vacancies.json)"
         else
           echo "❌ JSON файл не был создан"
           exit 1
