@@ -162,56 +162,64 @@ class VacancyAggregator:
             return None
     
     def save_to_json(self, vacancies, filename='hh_vacancies.json'):
-        """Сохранение вакансий в JSON файл"""
+        """Сохранение вакансий в JSON с полной перезаписью"""
         import os
         
-        # Убеждаемся что сохраняем в корневую папку проекта
+        # Определяем путь к файлу
         if 'GITHUB_WORKSPACE' in os.environ:
             filepath = os.path.join(os.environ['GITHUB_WORKSPACE'], filename)
         else:
             filepath = filename
             
+        # ВСЕГДА удаляем старый файл перед созданием нового
+        if os.path.exists(filepath):
+            old_size = os.path.getsize(filepath)
+            os.remove(filepath)
+            print(f"Старый файл удален (размер был: {old_size} байт)")
+        
+        # Создаем НОВУЮ структуру данных (без старых данных)
         data = {
             'updated_at': datetime.now().isoformat(),
             'total_count': len(vacancies),
+            'status': 'success' if vacancies else 'no_data',
+            'source': 'HeadHunter API',
+            'note': 'Файл полностью перезаписывается при каждом обновлении',
             'vacancies': vacancies
         }
         
         try:
+            # Создаем полностью новый файл
             with open(filepath, 'w', encoding='utf-8') as f:
                 json.dump(data, f, ensure_ascii=False, indent=2)
-            print(f"Сохранено {len(vacancies)} вакансий в файл {filepath}")
-            return True
+            
+            # Проверяем результат
+            if os.path.exists(filepath):
+                new_size = os.path.getsize(filepath)
+                print(f"НОВЫЙ файл создан: {filepath}")
+                print(f"Размер: {new_size} байт")
+                print(f"Содержит: {len(vacancies)} вакансий")
+                return True
+            else:
+                print("ОШИБКА: Файл не был создан!")
+                return False
+                
         except Exception as e:
             print(f"Ошибка при сохранении файла: {e}")
             return False
     
     def load_existing_data(self, filename='hh_vacancies.json'):
-        """Загрузка существующих данных"""
-        import os
-        
-        # Убеждаемся что читаем из правильного места
-        if 'GITHUB_WORKSPACE' in os.environ:
-            filepath = os.path.join(os.environ['GITHUB_WORKSPACE'], filename)
-        else:
-            filepath = filename
-            
-        try:
-            with open(filepath, 'r', encoding='utf-8') as f:
-                return json.load(f)
-        except FileNotFoundError:
-            print(f"Файл {filepath} не найден, создаем новый")
-            return None
-        except Exception as e:
-            print(f"Ошибка при загрузке файла: {e}")
-            return None
+        """Загрузка существующих данных - НЕ ИСПОЛЬЗУЕТСЯ при полной перезаписи"""
+        # При полной перезаписи мы НЕ загружаем старые данные
+        print("Режим полной перезаписи: старые данные НЕ загружаются")
+        return None
     
     def run_update(self):
-        """Основной метод обновления"""
-        print("Начинаем обновление вакансий...")
+        """Основной метод обновления - ПОЛНАЯ ПЕРЕЗАПИСЬ"""
+        print("=== РЕЖИМ ПОЛНОЙ ПЕРЕЗАПИСИ ДАННЫХ ===")
+        print("Старые данные будут полностью удалены!")
         print(f"Время запуска: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
         
-        # Получаем новые вакансии с разными параметрами
+        # Получаем НОВЫЕ вакансии (без объединения со старыми)
         print("\n=== Поиск удаленных вакансий системного администратора ===")
         remote_vacancies = self.get_vacancies(
             text="Системный администратор",
@@ -237,41 +245,22 @@ class VacancyAggregator:
                 unique_vacancies.append(vacancy)
                 seen_ids.add(vacancy['id'])
         
-        print(f"\nИтого уникальных вакансий: {len(unique_vacancies)}")
+        print(f"\nИтого уникальных НОВЫХ вакансий: {len(unique_vacancies)}")
         
         if not unique_vacancies:
-            print("Не удалось получить новые вакансии")
-            return False
+            print("ВНИМАНИЕ: Не получено новых вакансий")
+            print("Создаем пустой файл...")
+            unique_vacancies = []
         
-        # Загружаем существующие данные
-        existing_data = self.load_existing_data()
-        
-        if existing_data:
-            existing_ids = {v['id'] for v in existing_data.get('vacancies', [])}
-            # Фильтруем только новые вакансии
-            really_new = [v for v in unique_vacancies if v['id'] not in existing_ids]
-            
-            if really_new:
-                print(f"Найдено {len(really_new)} действительно новых вакансий")
-                # Объединяем с существующими (новые в начале)
-                all_vacancies_final = really_new + existing_data.get('vacancies', [])
-                
-                # Ограничиваем общее количество (например, последние 500)
-                all_vacancies_final = all_vacancies_final[:500]
-            else:
-                print("Новых вакансий не найдено, используем существующие данные")
-                all_vacancies_final = existing_data.get('vacancies', [])
-        else:
-            all_vacancies_final = unique_vacancies
-        
-        # Сохраняем обновленные данные
-        success = self.save_to_json(all_vacancies_final)
+        # СОХРАНЯЕМ ТОЛЬКО НОВЫЕ ДАННЫЕ (без старых)
+        success = self.save_to_json(unique_vacancies)
         
         if success:
-            print("Обновление завершено успешно!")
+            print("=== ПОЛНАЯ ПЕРЕЗАПИСЬ ЗАВЕРШЕНА УСПЕШНО! ===")
+            print(f"Файл содержит {len(unique_vacancies)} вакансий")
             return True
         else:
-            print("Ошибка при сохранении данных")
+            print("ОШИБКА при сохранении данных")
             return False
 
 def main():
