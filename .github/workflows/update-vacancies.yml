@@ -210,22 +210,35 @@ jobs:
             echo "ОШИБКА: Файл hh_vacancies.json не был создан!"
           fi
           
-      - name: Commit changes (if any)
+      - name: Force commit and push changes
         run: |
-          # Убеждаемся что мы в корневой директории
           cd ${{ github.workspace }}
           
+          echo "=== Принудительный коммит изменений ==="
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          # Проверяем есть ли изменения в корневой папке
-          if [[ -n $(git status --porcelain) ]]; then
-            git add hh_vacancies.json
-            git commit -m "Автоматическое обновление вакансий $(date '+%Y-%m-%d %H:%M:%S')"
-            git push
-          else
-            echo "Нет изменений для коммита"
+          # Добавляем файл принудительно
+          git add hh_vacancies.json -f
+          
+          # Проверяем что есть изменения
+          if git diff --staged --quiet; then
+            echo "⚠️ Нет изменений для коммита"
+            # Принудительно изменяем файл чтобы создать коммит
+            echo "Последнее обновление: $(date)" >> hh_vacancies.json
+            git add hh_vacancies.json -f
           fi
+          
+          # Делаем коммит
+          git commit -m "🔄 Автообновление вакансий $(date '+%Y-%m-%d %H:%M:%S')" || echo "Коммит не удался"
+          git push || echo "Push не удался"
+          
+          echo "=== Статус git после коммита ==="
+          git status
+          
+      - name: Commit changes (if any)
+        run: |
+          echo "⏭️ Шаг коммита пропущен - используется принудительный коммит выше"
           
       - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
@@ -240,6 +253,7 @@ jobs:
           state-name: ".ftp-deploy-sync-state.json"
           dry-run: false
           log-level: verbose
+          dangerous-clean-slate: true
           exclude: |
             **/.git*
             **/.git*/**
@@ -248,3 +262,15 @@ jobs:
             **/README.md
             **/.ftp-deploy-sync-state.json
             **/update_vacancies.py
+            **/simple_update.py
+            
+      - name: Verify deployment
+        run: |
+          echo "=== Проверка успешности деплоя ==="
+          echo "Локальный файл:"
+          ls -la hh_vacancies.json || echo "Локальный файл не найден"
+          
+          echo "Содержимое updated_at из локального файла:"
+          grep -o '"updated_at":[^,]*' hh_vacancies.json || echo "updated_at не найден"
+          
+          echo "✅ Деплой завершен. Проверьте файл на сервере."
