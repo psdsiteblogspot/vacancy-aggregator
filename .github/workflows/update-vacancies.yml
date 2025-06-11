@@ -1,283 +1,74 @@
-name: Diagnostic Update
+name: Update Vacancies
 
+# Запуск каждые 3 часа
 on:
-  workflow_dispatch: # Ручной запуск
+  schedule:
+    - cron: '0 */3 * * *'  # В 00:00, 03:00, 06:00, 09:00, 12:00, 15:00, 18:00, 21:00 UTC
+  
+  # Возможность ручного запуска
+  workflow_dispatch:
 
 jobs:
-  diagnostic-update:
+  update-vacancies:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
         
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests
-          
-      - name: Test different search periods
-        run: |
-          echo "=== ТЕСТИРОВАНИЕ РАЗНЫХ ПЕРИОДОВ ПОИСКА ==="
-          
-          python3 << 'EOF'
-          import requests
-          import json
-          from datetime import datetime, timedelta
-          
-          url = "https://api.hh.ru/vacancies"
-          headers = {'User-Agent': 'VacancyBot/1.0'}
-          
-          # Тестируем разные периоды
-          periods = [
-              ('1', 'За 1 день'),
-              ('3', 'За 3 дня'), 
-              ('7', 'За 7 дней'),
-              ('30', 'За 30 дней')
-          ]
-          
-          all_results = {}
-          
-          for period_num, period_desc in periods:
-              print(f"\n--- {period_desc} (search_period={period_num}) ---")
-              
-              params = {
-                  'text': 'Системный администратор',
-                  'area': '113',
-                  'search_field': 'name',
-                  'order_by': 'publication_time',  # Сортировка по времени публикации
-                  'search_period': period_num,
-                  'per_page': '20'
-              }
-              
-              try:
-                  response = requests.get(url, params=params, headers=headers, timeout=30)
-                  print(f"Статус: {response.status_code}")
-                  
-                  if response.status_code == 200:
-                      data = response.json()
-                      items = data.get('items', [])
-                      found = data.get('found', 0)
-                      
-                      print(f"Найдено всего: {found}")
-                      print(f"Получено на странице: {len(items)}")
-                      
-                      if items:
-                          # Показываем даты первых вакансий
-                          for i, item in enumerate(items[:3]):
-                              pub_date = item.get('published_at', '')
-                              name = item.get('name', '')[:50]
-                              print(f"  {i+1}. {pub_date} - {name}...")
-                          
-                          all_results[period_num] = {
-                              'total_found': found,
-                              'received': len(items),
-                              'items': items
-                          }
-                      else:
-                          print("  Нет вакансий")
-                          all_results[period_num] = {
-                              'total_found': 0,
-                              'received': 0,
-                              'items': []
-                          }
-                  else:
-                      print(f"Ошибка: {response.status_code}")
-                      print(f"Ответ: {response.text}")
-                      
-              except Exception as e:
-                  print(f"Ошибка запроса: {e}")
-          
-          # Выбираем лучший период с максимальным количеством вакансий
-          best_period = '7'  # По умолчанию 7 дней
-          max_found = 0
-          
-          for period, result in all_results.items():
-              if result['total_found'] > max_found:
-                  max_found = result['total_found']
-                  best_period = period
-          
-          print(f"\n=== ВЫБРАН ЛУЧШИЙ ПЕРИОД: {best_period} дней (найдено: {max_found}) ===")
-          
-          # Сохраняем результат
-          with open('best_period.txt', 'w') as f:
-              f.write(best_period)
-              
-          # Сохраняем данные лучшего периода
-          if best_period in all_results:
-              best_data = all_results[best_period]
-              with open('vacancies_data.json', 'w', encoding='utf-8') as f:
-                  json.dump(best_data, f, ensure_ascii=False, indent=2)
-              print(f"Сохранены данные за {best_period} дней")
-          EOF
-          
-      - name: Create comprehensive JSON
-        run: |
-          echo "=== СОЗДАНИЕ ПОЛНОГО JSON С АКТУАЛЬНЫМИ ДАННЫМИ ==="
-          
-          python3 << 'EOF'
-          import requests
-          import json
-          from datetime import datetime
-          import time
-          
-          # Читаем лучший период
-          with open('best_period.txt', 'r') as f:
-              best_period = f.read().strip()
-              
-          print(f"Используем период: {best_period} дней")
-          
-          url = "https://api.hh.ru/vacancies"
-          headers = {'User-Agent': 'VacancyBot/1.0'}
-          
-          all_vacancies = []
-          
-          # Делаем несколько запросов с разными сортировками
-          search_configs = [
-              {
-                  'order_by': 'publication_time',
-                  'name': 'По времени публикации'
-              },
-              {
-                  'order_by': 'salary_desc', 
-                  'name': 'По зарплате'
-              }
-          ]
-          
-          for config in search_configs:
-              print(f"\n--- Поиск: {config['name']} ---")
-              
-              params = {
-                  'text': 'Системный администратор',
-                  'area': '113',
-                  'search_field': 'name',
-                  'order_by': config['order_by'],
-                  'search_period': best_period,
-                  'per_page': '100'
-              }
-              
-              try:
-                  response = requests.get(url, params=params, headers=headers, timeout=30)
-                  print(f"Статус: {response.status_code}")
-                  
-                  if response.status_code == 200:
-                      data = response.json()
-                      items = data.get('items', [])
-                      print(f"Получено: {len(items)} вакансий")
-                      
-                      all_vacancies.extend(items)
-                  else:
-                      print(f"Ошибка: {response.status_code}")
-                      
-              except Exception as e:
-                  print(f"Ошибка: {e}")
-          
-          # Удаляем дубликаты по ID
-          unique_vacancies = {}
-          for item in all_vacancies:
-              vacancy_id = item.get('id')
-              if vacancy_id and vacancy_id not in unique_vacancies:
-                  unique_vacancies[vacancy_id] = item
-          
-          final_vacancies = list(unique_vacancies.values())
-          print(f"\nУникальных вакансий: {len(final_vacancies)}")
-          
-          # Обрабатываем вакансии
-          processed_vacancies = []
-          for item in final_vacancies:
-              # Форматируем дату
-              pub_date = item.get('published_at', '')
-              formatted_date = pub_date
-              if pub_date:
-                  try:
-                      dt = datetime.fromisoformat(pub_date.replace('Z', '+00:00'))
-                      formatted_date = dt.strftime('%d.%m.%Y %H:%M')
-                  except:
-                      pass
-              
-              vacancy = {
-                  'id': item.get('id'),
-                  'name': item.get('name', ''),
-                  'company': item.get('employer', {}).get('name', '') if item.get('employer') else '',
-                  'company_url': item.get('employer', {}).get('alternate_url', '') if item.get('employer') else '',
-                  'url': item.get('alternate_url', ''),
-                  'published_at': pub_date,
-                  'published_date_formatted': formatted_date,
-                  'area': item.get('area', {}).get('name', '') if item.get('area') else '',
-                  'salary': item.get('salary'),
-                  'snippet': item.get('snippet', {}),
-                  'experience': item.get('experience', {}).get('name', '') if item.get('experience') else '',
-                  'employment': item.get('employment', {}).get('name', '') if item.get('employment') else '',
-                  'schedule': item.get('schedule', {}).get('name', '') if item.get('schedule') else ''
-              }
-              processed_vacancies.append(vacancy)
-          
-          # Сортируем по дате (новые сначала)
-          processed_vacancies.sort(key=lambda x: x.get('published_at', ''), reverse=True)
-          
-          # Создаем финальный JSON с диагностической информацией
-          current_time = datetime.now()
-          result = {
-              'updated_at': current_time.isoformat(),
-              'unix_timestamp': int(time.time()),
-              'diagnostic_update': True,
-              'search_period_used': f"{best_period} дней",
-              'total_count': len(processed_vacancies),
-              'status': 'diagnostic_success',
-              'update_method': 'comprehensive_search',
-              'api_source': 'HeadHunter',
-              'creation_time': current_time.strftime('%d.%m.%Y %H:%M:%S'),
-              'vacancies': processed_vacancies
-          }
-          
-          # Показываем диапазон дат
-          if processed_vacancies:
-              newest = processed_vacancies[0].get('published_date_formatted', 'неизвестно')
-              oldest = processed_vacancies[-1].get('published_date_formatted', 'неизвестно')
-              print(f"Диапазон дат: {oldest} - {newest}")
-              result['date_range'] = {
-                  'newest': newest,
-                  'oldest': oldest
-              }
-          
-          # Сохраняем файл
-          with open('hh_vacancies.json', 'w', encoding='utf-8') as f:
-              json.dump(result, f, ensure_ascii=False, indent=2)
-          
-          import os
-          if os.path.exists('hh_vacancies.json'):
-              size = os.path.getsize('hh_vacancies.json')
-              print(f"\n✅ Файл создан! Размер: {size} байт")
-              print(f"📊 Содержит: {len(processed_vacancies)} вакансий")
-          EOF
-          
-      - name: Upload to FTP
-        run: |
-          echo "=== ЗАГРУЗКА НА FTP ==="
-          
-          if [ -f "hh_vacancies.json" ]; then
-            echo "Загружаем обновленный файл..."
-            
-            curl -v -T hh_vacancies.json \
-              ftp://${{ secrets.FTP_SERVER }}/www/Vacancy/hh_vacancies.json \
-              --user "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" \
-              --ftp-create-dirs
-              
-            echo "✅ Файл загружен"
-            
-            # Показываем размер файла для проверки
-            echo "Локальный размер файла: $(stat -c%s hh_vacancies.json) байт"
-          else
-            echo "❌ Файл не найден"
-          fi
-          
-      - name: Verification
-        run: |
-          echo "=== ПРОВЕРКА РЕЗУЛЬТАТА ==="
-          echo "🌐 Файл должен быть обновлен: https://gradelift.ru/Vacancy/hh_vacancies.json"
-          echo "📄 Страница с вакансиями: https://gradelift.ru/Vacancy/vacancy_aggregator.html"
-          echo ""
-          echo "Проверьте:"
-          echo "1. Изменился ли размер файла на FTP"
-          echo "2. Обновилось ли время модификации"
-          echo "3. Показываются ли новые вакансии на сайте"
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+        
+    - name: Run vacancy aggregator
+      run: |
+        python update_vacancies.py
+        
+    - name: Check if JSON was created
+      run: |
+        if [ -f "hh_vacancies.json" ]; then
+          echo "✅ JSON файл создан успешно"
+          echo "📊 Размер файла: $(stat -c%s hh_vacancies.json) байт"
+          # Показываем количество вакансий
+          python -c "
+import json
+with open('hh_vacancies.json', 'r', encoding='utf-8') as f:
+    data = json.load(f)
+print(f'📝 Количество вакансий: {len(data[\"vacancies\"])}')
+print(f'🔍 Найдено всего: {data[\"search_stats\"][\"total_found\"]}')
+print(f'💾 Сохранено: {data[\"search_stats\"][\"total_saved\"]}')
+"
+        else
+          echo "❌ JSON файл не был создан"
+          exit 1
+        fi
+        
+    - name: Upload to FTP
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./
+        server-dir: /www/Vacancy/
+        include: |
+          hh_vacancies.json
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add hh_vacancies.json
+        if git diff --staged --quiet; then
+          echo "📄 Нет изменений в данных"
+        else
+          git commit -m "🔄 Обновление вакансий $(date '+%Y-%m-%d %H:%M UTC')"
+          git push
+          echo "✅ Данные обновлены в репозитории"
+        fi
