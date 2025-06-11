@@ -25,10 +25,27 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install requests
+      run: |
+        echo "🐍 Python version:"
+        python --version
+        echo "📦 Installed packages:"
+        pip list
+        echo "📁 Current directory:"
+        ls -la
+        echo "🔍 Checking if update_vacancies.py exists:"
+        if [ -f "update_vacancies.py" ]; then
+          echo "✅ update_vacancies.py found"
+        else
+          echo "❌ update_vacancies.py NOT found"
+          echo "📁 Files in current directory:"
+          find . -name "*.py" -type f
+        fi
         
     - name: Run vacancy aggregator
       run: |
+        echo "🚀 Запуск парсера вакансий..."
         python update_vacancies.py
+        echo "✅ Парсер завершен"
         
     - name: Check if JSON was created
       run: |
