@@ -50,6 +50,8 @@ print(f'💾 Сохранено: {data[\"search_stats\"][\"total_saved\"]}')
         fi
         
     - name: Upload to FTP
+      if: success()
+      continue-on-error: true
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ${{ secrets.FTP_SERVER }}
@@ -61,6 +63,7 @@ print(f'💾 Сохранено: {data[\"search_stats\"][\"total_saved\"]}')
           hh_vacancies.json
         
     - name: Commit and push changes
+      continue-on-error: true
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
