@@ -29,9 +29,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4 lxml
           
+      - name: Test HH API
+        run: |
+          # Сначала проверяем доступность API простым запросом
+          cd ${{ github.workspace }}
+          python test_api.py
+          
       - name: Update vacancies data
         run: |
-          # Переходим в корневую папку проекта
+          # Если тест прошел, запускаем полное обновление
           cd ${{ github.workspace }}
           python update_vacancies.py
           
