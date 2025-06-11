@@ -1,326 +1,268 @@
 #!/usr/bin/env python3
-"""
-Скрипт для получения вакансий системных администраторов с HeadHunter API
-Использует точные параметры поиска как на сайте hh.ru
-API HeadHunter не требует ключа для базовых запросов
-"""
+# -*- coding: utf-8 -*-
 
-import json
 import requests
+import json
 import time
-from datetime import datetime
-from urllib.parse import quote
+from datetime import datetime, timedelta
+import re
+from urllib.parse import urlencode, parse_qs, urlparse
 
-class HeadHunterParser:
+class VacancyAggregator:
     def __init__(self):
-        self.base_url = "https://api.hh.ru"
+        self.base_url = "https://api.hh.ru/vacancies"
         self.headers = {
-            'User-Agent': 'VacancyAggregator/1.0 (gradelift.ru)'
+            'User-Agent': 'VacancyAggregator/1.0 (gradelift.ru)',
+            'HH-User-Agent': 'VacancyAggregator/1.0 (gradelift.ru)'
         }
+        self.vacancies = []
         
-    def search_vacancies(self, text="Системный администратор", area="113", work_format="remote"):
+    def get_vacancies(self, text="Системный администратор", area=113, 
+                     schedule=None, salary_from=None, per_page=100):
         """
-        Поиск вакансий через API HeadHunter с параметрами как на сайте
+        Получение вакансий с HeadHunter API за последние 24 часа
         
         Args:
             text: поисковый запрос
-            area: регион (113 = Россия)
-            work_format: формат работы (remote = удаленная работа)
+            area: регион (113 - Россия)
+            schedule: график работы (remote, fullDay, etc.)
+            salary_from: минимальная зарплата
+            per_page: количество вакансий на странице (макс 100)
         """
         
-        # Параметры точно как в вашей ссылке
+        # Базовые параметры запроса - точно как в ссылке HH
         params = {
             'text': text,
-            'area': area,  # 113 = Россия
-            'search_field': 'name',  # Поиск по названию вакансии
-            'per_page': 100,  # Максимум вакансий на страницу
+            'area': area,
+            'search_field': 'name',
+            'order_by': 'salary_desc',  # Сортировка по зарплате
+            'search_period': 1,  # За последний день (24 часа)
+            'per_page': min(per_page, 100),  # Максимум 100
             'page': 0,
-            'order_by': 'salary_desc',  # Сортировка по зарплате по убыванию
-            'search_period': 1,  # За последний день
-            'only_with_salary': 'true',  # Только с указанной зарплатой
-            'currency': 'RUR'
+            'enable_snippets': 'false'
         }
         
-        # Добавляем удаленную работу если указано
-        if work_format == "remote":
+        # Добавляем опциональные параметры только если они заданы
+        if schedule == "remote":
             params['schedule'] = 'remote'
             
-        try:
-            print(f"🔍 Поиск вакансий: '{text}' в регионе {area}")
-            print(f"📋 Параметры: {params}")
+        if salary_from:
+            params['salary'] = salary_from
             
-            response = requests.get(
-                f"{self.base_url}/vacancies",
-                params=params,
-                headers=self.headers,
-                timeout=15
-            )
+        all_vacancies = []
+        page = 0
+        max_pages = 10  # Увеличиваем до 10 страниц для получения больше вакансий
+        
+        print(f"Поиск вакансий: '{text}' в регионе {area} за последние 24 часа")
+        print(f"Параметры поиска: {params}")
+        
+        while page < max_pages:
+            params['page'] = page
             
-            print(f"🌐 URL запроса: {response.url}")
-            
-            if response.status_code == 200:
+            try:
+                print(f"Загружаем страницу {page + 1}...")
+                
+                # Делаем запрос к API
+                response = requests.get(self.base_url, params=params, headers=self.headers, timeout=30)
+                
+                print(f"URL запроса: {response.url}")
+                print(f"Статус ответа: {response.status_code}")
+                
+                if response.status_code == 400:
+                    print(f"Ошибка 400: {response.text}")
+                    break
+                    
+                response.raise_for_status()
+                
                 data = response.json()
+                vacancies = data.get('items', [])
                 total_found = data.get('found', 0)
-                items = data.get('items', [])
+                total_pages = data.get('pages', 1)
                 
-                print(f"✅ Всего найдено: {total_found} вакансий")
-                print(f"📄 Получено на странице: {len(items)} вакансий")
+                print(f"Получено {len(vacancies)} вакансий на странице {page + 1}")
+                print(f"Всего найдено: {total_found}, всего страниц: {total_pages}")
                 
-                return {
-                    'items': items,
-                    'total_found': total_found,
-                    'pages': data.get('pages', 1),
-                    'per_page': data.get('per_page', 100)
+                if not vacancies:
+                    print("Больше вакансий нет")
+                    break
+                    
+                # Обрабатываем каждую вакансию
+                for vacancy in vacancies:
+                    processed_vacancy = self.process_vacancy(vacancy)
+                    if processed_vacancy:
+                        all_vacancies.append(processed_vacancy)
+                
+                # Проверяем есть ли еще страницы
+                if page >= total_pages - 1:
+                    print("Достигнута последняя страница")
+                    break
+                    
+                page += 1
+                
+                # Пауза между запросами для соблюдения лимитов API
+                time.sleep(1)
+                
+            except requests.exceptions.Timeout:
+                print("Превышен таймаут запроса")
+                break
+            except requests.exceptions.RequestException as e:
+                print(f"Ошибка при запросе к API: {e}")
+                break
+            except Exception as e:
+                print(f"Неожиданная ошибка: {e}")
+                break
+                
+        print(f"Всего загружено {len(all_vacancies)} уникальных вакансий за последние 24 часа")
+        return all_vacancies
+    
+    def process_vacancy(self, vacancy):
+        """Обработка одной вакансии"""
+        try:
+            # Извлекаем основную информацию
+            processed = {
+                'id': vacancy.get('id'),
+                'name': vacancy.get('name', ''),
+                'company': vacancy.get('employer', {}).get('name', ''),
+                'company_url': vacancy.get('employer', {}).get('alternate_url', ''),
+                'url': vacancy.get('alternate_url', ''),
+                'published_at': vacancy.get('published_at', ''),
+                'created_at': vacancy.get('created_at', ''),
+                'area': vacancy.get('area', {}).get('name', ''),
+                'experience': vacancy.get('experience', {}).get('name', ''),
+                'employment': vacancy.get('employment', {}).get('name', ''),
+                'schedule': vacancy.get('schedule', {}).get('name', ''),
+                'snippet': {
+                    'requirement': vacancy.get('snippet', {}).get('requirement', ''),
+                    'responsibility': vacancy.get('snippet', {}).get('responsibility', '')
+                }
+            }
+            
+            # Обрабатываем зарплату
+            salary = vacancy.get('salary')
+            if salary:
+                processed['salary'] = {
+                    'from': salary.get('from'),
+                    'to': salary.get('to'),
+                    'currency': salary.get('currency', 'RUR'),
+                    'gross': salary.get('gross', False)
                 }
             else:
-                print(f"❌ Ошибка API: {response.status_code}")
-                print(f"📝 Ответ: {response.text[:500]}...")
-                return {'items': [], 'total_found': 0}
+                processed['salary'] = None
                 
-        except requests.RequestException as e:
-            print(f"❌ Ошибка сети: {e}")
-            return {'items': [], 'total_found': 0}
+            # Форматируем дату для отображения
+            if processed['published_at']:
+                try:
+                    pub_date = datetime.fromisoformat(processed['published_at'].replace('Z', '+00:00'))
+                    processed['published_date_formatted'] = pub_date.strftime('%d.%m.%Y %H:%M')
+                except:
+                    processed['published_date_formatted'] = processed['published_at']
+            
+            return processed
+            
+        except Exception as e:
+            print(f"Ошибка при обработке вакансии {vacancy.get('id', 'unknown')}: {e}")
+            return None
     
-    def get_multiple_pages(self, text="Системный администратор", max_pages=5):
-        """Получение нескольких страниц результатов"""
-        all_items = []
+    def save_to_json(self, vacancies, filename='hh_vacancies.json'):
+        """Сохранение вакансий в JSON с полной перезаписью"""
+        import os
         
-        # Первый запрос для получения общей информации
-        first_result = self.search_vacancies(text=text)
-        all_items.extend(first_result['items'])
-        
-        total_pages = min(first_result.get('pages', 1), max_pages)
-        total_found = first_result.get('total_found', 0)
-        
-        print(f"📊 Всего страниц: {total_pages}, найдено вакансий: {total_found}")
-        
-        # Запросы дополнительных страниц
-        for page in range(1, total_pages):
-            print(f"📄 Загружаем страницу {page + 1}/{total_pages}")
+        # Определяем путь к файлу
+        if 'GITHUB_WORKSPACE' in os.environ:
+            filepath = os.path.join(os.environ['GITHUB_WORKSPACE'], filename)
+        else:
+            filepath = filename
             
-            params = {
-                'text': text,
-                'area': '113',  # Россия
-                'search_field': 'name',
-                'per_page': 100,
-                'page': page,
-                'order_by': 'salary_desc',
-                'search_period': 1,
-                'only_with_salary': 'true',
-                'schedule': 'remote',
-                'currency': 'RUR'
-            }
+        # ВСЕГДА удаляем старый файл перед созданием нового
+        if os.path.exists(filepath):
+            old_size = os.path.getsize(filepath)
+            os.remove(filepath)
+            print(f"Старый файл удален (размер был: {old_size} байт)")
+        
+        # Создаем НОВУЮ структуру данных (без старых данных)
+        data = {
+            'updated_at': datetime.now().isoformat(),
+            'total_count': len(vacancies),
+            'status': 'success' if vacancies else 'no_data',
+            'source': 'HeadHunter API',
+            'note': 'Файл полностью перезаписывается при каждом обновлении',
+            'vacancies': vacancies
+        }
+        
+        try:
+            # Создаем полностью новый файл
+            with open(filepath, 'w', encoding='utf-8') as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
             
-            try:
-                response = requests.get(
-                    f"{self.base_url}/vacancies",
-                    params=params,
-                    headers=self.headers,
-                    timeout=15
-                )
+            # Проверяем результат
+            if os.path.exists(filepath):
+                new_size = os.path.getsize(filepath)
+                print(f"НОВЫЙ файл создан: {filepath}")
+                print(f"Размер: {new_size} байт")
+                print(f"Содержит: {len(vacancies)} вакансий")
+                return True
+            else:
+                print("ОШИБКА: Файл не был создан!")
+                return False
                 
-                if response.status_code == 200:
-                    data = response.json()
-                    items = data.get('items', [])
-                    all_items.extend(items)
-                    print(f"✅ Страница {page + 1}: добавлено {len(items)} вакансий")
-                else:
-                    print(f"❌ Ошибка на странице {page + 1}: {response.status_code}")
-                    
-            except Exception as e:
-                print(f"❌ Ошибка при загрузке страницы {page + 1}: {e}")
-            
-            # Пауза между запросами
-            time.sleep(0.5)
-        
-        return {
-            'items': all_items,
-            'total_found': total_found,
-            'pages_loaded': len(all_items) // 100 + (1 if len(all_items) % 100 else 0)
-        }
+        except Exception as e:
+            print(f"Ошибка при сохранении файла: {e}")
+            return False
     
-    def format_salary(self, salary_data):
-        """Форматирование зарплаты"""
-        if not salary_data:
-            return "Зарплата не указана"
-            
-        salary_from = salary_data.get('from')
-        salary_to = salary_data.get('to')
-        currency = salary_data.get('currency', 'RUR')
-        gross = salary_data.get('gross', True)
-        
-        currency_symbol = {
-            'RUR': 'руб.',
-            'USD': '$',
-            'EUR': '€',
-            'KZT': 'тенге',
-            'UZS': 'сум'
-        }.get(currency, currency)
-        
-        gross_text = "" if gross else " на руки"
-        
-        if salary_from and salary_to:
-            return f"от {salary_from:,} до {salary_to:,} {currency_symbol}{gross_text}".replace(',', ' ')
-        elif salary_from:
-            return f"от {salary_from:,} {currency_symbol}{gross_text}".replace(',', ' ')
-        elif salary_to:
-            return f"до {salary_to:,} {currency_symbol}{gross_text}".replace(',', ' ')
-        else:
-            return "Зарплата не указана"
+    def load_existing_data(self, filename='hh_vacancies.json'):
+        """Загрузка существующих данных - НЕ ИСПОЛЬЗУЕТСЯ при полной перезаписи"""
+        # При полной перезаписи мы НЕ загружаем старые данные
+        print("Режим полной перезаписи: старые данные НЕ загружаются")
+        return None
     
-    def format_vacancy(self, vacancy):
-        """Форматирование данных вакансии"""
-        published_date = vacancy.get('published_at', '')
-        if published_date:
-            # Преобразуем формат даты
-            try:
-                dt = datetime.fromisoformat(published_date.replace('Z', '+00:00'))
-                formatted_date = dt.strftime('%Y-%m-%d')
-            except:
-                formatted_date = published_date[:10]
+    def run_update(self):
+        """Основной метод обновления - получение ТОЛЬКО актуальных вакансий за 24 часа"""
+        print("=== ПОЛУЧЕНИЕ АКТУАЛЬНЫХ ВАКАНСИЙ ЗА 24 ЧАСА ===")
+        print(f"Время запуска: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        
+        # Получаем ТОЛЬКО свежие вакансии за последние 24 часа
+        print("\n=== Поиск актуальных вакансий системного администратора ===")
+        fresh_vacancies = self.get_vacancies(
+            text="Системный администратор",
+            area=113  # Россия
+        )
+        
+        print(f"\nПолучено {len(fresh_vacancies)} актуальных вакансий за последние 24 часа")
+        
+        if not fresh_vacancies:
+            print("ВНИМАНИЕ: Не найдено вакансий за последние 24 часа")
+            print("Возможные причины:")
+            print("- Сегодня не публиковались новые вакансии")
+            print("- Проблемы с API HeadHunter")
+            fresh_vacancies = []
         else:
-            formatted_date = ''
-            
-        return {
-            'id': vacancy.get('id'),
-            'title': vacancy.get('name', 'Без названия'),
-            'company': vacancy.get('employer', {}).get('name', 'Компания не указана'),
-            'salary': self.format_salary(vacancy.get('salary')),
-            'publishDate': formatted_date,
-            'url': vacancy.get('alternate_url', ''),
-            'area': vacancy.get('area', {}).get('name', ''),
-            'experience': vacancy.get('experience', {}).get('name', ''),
-            'employment': vacancy.get('employment', {}).get('name', ''),
-            'schedule': vacancy.get('schedule', {}).get('name', ''),
-            'premium': vacancy.get('premium', False),
-            'has_test': vacancy.get('has_test', False),
-            'response_letter_required': vacancy.get('response_letter_required', False)
-        }
+            # Сортируем по дате публикации (новые сначала)
+            fresh_vacancies.sort(key=lambda x: x.get('published_at', ''), reverse=True)
+            print(f"Самая новая вакансия: {fresh_vacancies[0].get('published_date_formatted', 'дата неизвестна')}")
+            print(f"Самая старая вакансия: {fresh_vacancies[-1].get('published_date_formatted', 'дата неизвестна')}")
+        
+        # Сохраняем актуальные данные
+        success = self.save_to_json(fresh_vacancies)
+        
+        if success:
+            print("=== ОБНОВЛЕНИЕ ЗАВЕРШЕНО УСПЕШНО! ===")
+            print(f"Файл содержит {len(fresh_vacancies)} актуальных вакансий")
+            return True
+        else:
+            print("ОШИБКА при сохранении данных")
+            return False
 
 def main():
-    print("🚀 Запуск обновления вакансий с HeadHunter API...")
-    print("📅 Используются параметры поиска как на сайте hh.ru")
+    aggregator = VacancyAggregator()
     
-    parser = HeadHunterParser()
-    
-    # Поисковые запросы с высокими зарплатами для системных администраторов
-    search_queries = [
-        "Системный администратор",
-        "DevOps engineer", 
-        "Senior системный администратор",
-        "Ведущий системный администратор",
-        "Старший системный администратор"
-    ]
-    
-    all_vacancies = []
-    search_stats = {}
-    
-    for query in search_queries:
-        print(f"\n{'='*50}")
-        print(f"🔍 Поиск по запросу: {query}")
-        print(f"{'='*50}")
-        
-        # Получаем несколько страниц результатов
-        result = parser.get_multiple_pages(text=query, max_pages=3)
-        
-        if result['items']:
-            formatted_vacancies = [parser.format_vacancy(v) for v in result['items']]
-            all_vacancies.extend(formatted_vacancies)
-            search_stats[query] = {
-                'found': result['total_found'],
-                'loaded': len(formatted_vacancies)
-            }
-            print(f"✅ По запросу '{query}': найдено {result['total_found']}, загружено {len(formatted_vacancies)} вакансий")
-        else:
-            search_stats[query] = {'found': 0, 'loaded': 0}
-            print(f"⚠️  По запросу '{query}': вакансии не найдены")
-            
-        # Пауза между разными запросами
-        time.sleep(1)
-    
-    # Удаляем дубликаты по ID
-    unique_vacancies = []
-    seen_ids = set()
-    
-    for vacancy in all_vacancies:
-        if vacancy['id'] and vacancy['id'] not in seen_ids:
-            unique_vacancies.append(vacancy)
-            seen_ids.add(vacancy['id'])
-    
-    # Сортируем по дате публикации (новые сначала)
-    unique_vacancies.sort(key=lambda x: x['publishDate'], reverse=True)
-    
-    print(f"\n{'='*50}")
-    print(f"📊 ИТОГОВАЯ СТАТИСТИКА")
-    print(f"{'='*50}")
-    
-    for query, stats in search_stats.items():
-        print(f"📋 {query}: найдено {stats['found']}, загружено {stats['loaded']}")
-    
-    print(f"\n📈 Всего обработано: {len(all_vacancies)} вакансий")
-    print(f"🎯 Уникальных: {len(unique_vacancies)} вакансий")
-    
-    # Анализ зарплат
-    salaries = []
-    for v in unique_vacancies:
-        salary_text = v['salary']
-        if 'от' in salary_text:
-            try:
-                # Извлекаем первое число (минимальная зарплата)
-                import re
-                numbers = re.findall(r'\d+', salary_text.replace(' ', ''))
-                if numbers:
-                    salaries.append(int(numbers[0]))
-            except:
-                pass
-    
-    if salaries:
-        avg_salary = sum(salaries) // len(salaries)
-        min_salary = min(salaries)
-        max_salary = max(salaries)
-        print(f"💰 Средняя зарплата: {avg_salary:,} руб.".replace(',', ' '))
-        print(f"💰 Диапазон: {min_salary:,} - {max_salary:,} руб.".replace(',', ' '))
-    
-    # Создаем финальную структуру данных
-    result = {
-        'source': 'hh.ru',
-        'updated': datetime.now().isoformat() + 'Z',
-        'search_parameters': {
-            'area': '113',  # Россия
-            'search_field': 'name',
-            'order_by': 'salary_desc',
-            'search_period': 1,
-            'only_with_salary': True,
-            'schedule': 'remote'
-        },
-        'search_queries': list(search_stats.keys()),
-        'statistics': {
-            'total_found': sum(s['found'] for s in search_stats.values()),
-            'total_loaded': len(all_vacancies),
-            'unique_vacancies': len(unique_vacancies),
-            'avg_salary': avg_salary if salaries else 0,
-            'salary_range': {'min': min_salary, 'max': max_salary} if salaries else None
-        },
-        'vacancies': unique_vacancies[:100]  # Ограничиваем до 100 лучших вакансий
-    }
-    
-    # Сохраняем в файл
     try:
-        with open('hh_vacancies.json', 'w', encoding='utf-8') as f:
-            json.dump(result, f, ensure_ascii=False, indent=2)
-        
-        print(f"\n✅ Файл hh_vacancies.json успешно обновлен!")
-        print(f"📁 Сохранено {len(result['vacancies'])} вакансий")
-        print(f"🕒 Время обновления: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-        
-        # Показываем примеры вакансий
-        if result['vacancies']:
-            print(f"\n🔍 Примеры найденных вакансий:")
-            for i, v in enumerate(result['vacancies'][:3], 1):
-                print(f"{i}. {v['title']} - {v['company']} - {v['salary']}")
-        
+        success = aggregator.run_update()
+        if success:
+            exit(0)
+        else:
+            exit(1)
     except Exception as e:
-        print(f"❌ Ошибка при сохранении файла: {e}")
+        print(f"Критическая ошибка: {e}")
         exit(1)
 
 if __name__ == "__main__":
