@@ -19,7 +19,7 @@ def get_vacancies():
         'per_page': 50,
         'page': 0,
         'order_by': 'salary_desc',
-        'search_period': 3,
+        'search_period': 1,  # За последний день (как на hh.ru)
         'only_with_salary': 'true',
         'schedule': 'remote',
         'currency': 'RUR'
