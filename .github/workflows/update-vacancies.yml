@@ -74,26 +74,17 @@ jobs:
           echo "✅ Файл hh_vacancies.json создан"
           echo "📊 Размер файла: $(du -h hh_vacancies.json | cut -f1)"
           
-          # Проверяем содержимое JSON
-          python3 -c "
-          import json
-          try:
-              with open('hh_vacancies.json', 'r', encoding='utf-8') as f:
-                  data = json.load(f)
-              print(f'📈 Количество вакансий: {len(data.get(\"vacancies\", []))}')
-              print(f'🕒 Время обновления: {data.get(\"updated\", \"не указано\")}')
-              print(f'📊 Статистика: {data.get(\"statistics\", {})}')
-              
-              # Показываем пример вакансии
-              if data.get('vacancies'):
-                  sample = data['vacancies'][0]
-                  print(f'📝 Пример: {sample.get(\"title\", \"N/A\")} - {sample.get(\"salary\", \"N/A\")}')
-          except Exception as e:
-              print(f'❌ Ошибка при проверке JSON: {e}')
-              exit(1)
-          "
+          # Показываем первые несколько строк
+          echo "📝 Начало файла:"
+          head -5 hh_vacancies.json
+          
+          # Простая проверка JSON
+          echo "🔍 Проверка JSON..."
+          python3 -c "import json; data=json.load(open('hh_vacancies.json')); print(f'✅ JSON валиден! Вакансий: {len(data.get(\"vacancies\", []))}')"
+          
         else
-          echo "❌ Файл hh_vacancies.json не найден!"
+          echo "❌ Файл не найден!"
+          ls -la
           exit 1
         fi
         
