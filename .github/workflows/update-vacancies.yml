@@ -5,5 +5,4 @@
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./
-        server-dir: /domains/gradelift.ru/public_html/Vacancy/
-        include: hh_vacancies.json
+        server-dir: /Vacancy/
