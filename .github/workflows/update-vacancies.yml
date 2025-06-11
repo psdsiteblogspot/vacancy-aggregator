@@ -1,163 +1,179 @@
-name: Simple JSON Upload
+name: Full FTP Diagnostic
 
 on:
   workflow_dispatch: # Ручной запуск
 
 jobs:
-  upload-json:
+  diagnose-ftp:
     runs-on: ubuntu-latest
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         
-      - name: Install dependencies
+      - name: Create test file
         run: |
-          python -m pip install --upgrade pip
-          pip install requests
+          echo "=== СОЗДАНИЕ ТЕСТОВОГО ФАЙЛА ==="
           
-      - name: Create fresh JSON file
-        run: |
-          echo "=== СОЗДАНИЕ НОВОГО JSON ФАЙЛА ==="
-          
-          # Удаляем старый файл если есть
-          rm -f hh_vacancies.json
-          
-          python3 << 'EOF'
-          import requests
-          import json
-          from datetime import datetime
-          import time
-          
-          print("Получаем свежие вакансии...")
-          
-          try:
-              url = "https://api.hh.ru/vacancies"
-              headers = {'User-Agent': 'VacancyBot/1.0'}
-              params = {
-                  'text': 'системный администратор',
-                  'area': '113',
-                  'per_page': '20'
-              }
-              
-              response = requests.get(url, params=params, headers=headers, timeout=30)
-              print(f"API статус: {response.status_code}")
-              
-              if response.status_code == 200:
-                  data = response.json()
-                  items = data.get('items', [])
-                  print(f"Получено {len(items)} вакансий")
-                  
-                  # Создаем уникальный JSON файл
-                  result = {
-                      'created_at': datetime.now().isoformat(),
-                      'unix_timestamp': int(time.time()),
-                      'total_count': len(items),
-                      'status': 'fresh_data',
-                      'api_source': 'HeadHunter',
-                      'deploy_version': f"v{int(time.time())}",
-                      'vacancies': []
-                  }
-                  
-                  # Обрабатываем вакансии
-                  for item in items:
-                      # Форматируем дату
-                      pub_date = item.get('published_at', '')
-                      formatted_date = pub_date
-                      if pub_date:
-                          try:
-                              from datetime import datetime
-                              dt = datetime.fromisoformat(pub_date.replace('Z', '+00:00'))
-                              formatted_date = dt.strftime('%d.%m.%Y %H:%M')
-                          except:
-                              pass
-                      
-                      vacancy = {
-                          'id': item.get('id'),
-                          'name': item.get('name', ''),
-                          'company': item.get('employer', {}).get('name', '') if item.get('employer') else '',
-                          'company_url': item.get('employer', {}).get('alternate_url', '') if item.get('employer') else '',
-                          'url': item.get('alternate_url', ''),
-                          'published_at': pub_date,
-                          'published_date_formatted': formatted_date,
-                          'area': item.get('area', {}).get('name', '') if item.get('area') else '',
-                          'salary': item.get('salary'),
-                          'snippet': item.get('snippet', {}),
-                          'experience': item.get('experience', {}).get('name', '') if item.get('experience') else '',
-                          'employment': item.get('employment', {}).get('name', '') if item.get('employment') else '',
-                          'schedule': item.get('schedule', {}).get('name', '') if item.get('schedule') else ''
-                      }
-                      result['vacancies'].append(vacancy)
-                  
-                  # Сохраняем
-                  with open('hh_vacancies.json', 'w', encoding='utf-8') as f:
-                      json.dump(result, f, ensure_ascii=False, indent=2)
-                  
-                  print(f"✅ JSON файл создан с {len(items)} вакансиями")
-                  
-              else:
-                  print(f"❌ Ошибка API: {response.status_code}")
-                  # Создаем пустой файл
-                  result = {
-                      'created_at': datetime.now().isoformat(),
-                      'unix_timestamp': int(time.time()),
-                      'total_count': 0,
-                      'status': 'api_error',
-                      'error_code': response.status_code,
-                      'vacancies': []
-                  }
-                  
-                  with open('hh_vacancies.json', 'w', encoding='utf-8') as f:
-                      json.dump(result, f, ensure_ascii=False, indent=2)
-                  
-          except Exception as e:
-              print(f"❌ Ошибка: {e}")
-              # Создаем файл с ошибкой
-              result = {
-                  'created_at': datetime.now().isoformat(),
-                  'unix_timestamp': int(time.time()),
-                  'total_count': 0,
-                  'status': 'error',
-                  'error_message': str(e),
-                  'vacancies': []
-              }
-              
-              with open('hh_vacancies.json', 'w', encoding='utf-8') as f:
-                  json.dump(result, f, ensure_ascii=False, indent=2)
+          # Создаем простой тестовый файл
+          cat > test_upload.txt << EOF
+          Тест загрузки файла на FTP
+          Время: $(date)
+          Уникальный ID: $(date +%s)
           EOF
           
-          echo "=== ПРОВЕРКА СОЗДАННОГО ФАЙЛА ==="
-          if [ -f "hh_vacancies.json" ]; then
-            echo "✅ Файл создан"
-            echo "Размер: $(stat -c%s hh_vacancies.json) байт"
-            echo "Первые строки:"
-            head -3 hh_vacancies.json
-          else
-            echo "❌ Файл не создан!"
-            exit 1
-          fi
+          echo "Создан тестовый файл:"
+          cat test_upload.txt
           
-      - name: Upload via curl (direct)
+      - name: Test different FTP paths
         run: |
-          echo "=== ПРЯМАЯ ЗАГРУЗКА ЧЕРЕЗ CURL ==="
+          echo "=== ТЕСТИРОВАНИЕ РАЗНЫХ ПУТЕЙ FTP ==="
           
-          if [ -f "hh_vacancies.json" ]; then
-            echo "Загружаем файл через curl..."
-            
-            curl -v -T hh_vacancies.json \
-              ftp://${{ secrets.FTP_SERVER }}/home/c54971/gradelift.ru/Vacancy/ \
-              --user "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" \
-              --ftp-create-dirs
-            
-            echo "✅ Curl загрузка завершена"
-          else
-            echo "❌ Файл для загрузки не найден!"
-            exit 1
-          fi
+          echo "1. Тест корневой директории"
+          curl -v -T test_upload.txt \
+            ftp://${{ secrets.FTP_SERVER }}/ \
+            --user "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" \
+            -o /dev/null || echo "Корневая директория не удалась"
           
-      - name: Verify upload success
+          echo ""
+          echo "2. Тест папки /home/"
+          curl -v -T test_upload.txt \
+            ftp://${{ secrets.FTP_SERVER }}/home/ \
+            --user "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" \
+            --ftp-create-dirs -o /dev/null || echo "Папка /home/ не удалась"
+          
+          echo ""
+          echo "3. Тест папки /home/c54971/"
+          curl -v -T test_upload.txt \
+            ftp://${{ secrets.FTP_SERVER }}/home/c54971/ \
+            --user "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" \
+            --ftp-create-dirs -o /dev/null || echo "Папка /home/c54971/ не удалась"
+          
+          echo ""
+          echo "4. Тест полного пути"
+          curl -v -T test_upload.txt \
+            ftp://${{ secrets.FTP_SERVER }}/home/c54971/gradelift.ru/Vacancy/ \
+            --user "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" \
+            --ftp-create-dirs -o /dev/null || echo "Полный путь не удался"
+          
+      - name: List FTP directories
         run: |
-          echo "=== ПРОВЕРКА РЕЗУЛЬТАТА ==="
-          echo "Файл должен появиться на FTP сервере:"
-          echo "Путь: /home/c54971/gradelift.ru/Vacancy/hh_vacancies.json"
-          echo "Проверьте файловый менеджер хостинга."
+          echo "=== ПРОСМОТР СОДЕРЖИМОГО FTP ДИРЕКТОРИЙ ==="
+          
+          echo "1. Содержимое корневой директории:"
+          curl -v --list-only \
+            ftp://${{ secrets.FTP_SERVER }}/ \
+            --user "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" || echo "Не удалось получить список корневой директории"
+          
+          echo ""
+          echo "2. Содержимое /home/:"
+          curl -v --list-only \
+            ftp://${{ secrets.FTP_SERVER }}/home/ \
+            --user "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" || echo "Не удалось получить список /home/"
+          
+          echo ""
+          echo "3. Содержимое /home/c54971/:"
+          curl -v --list-only \
+            ftp://${{ secrets.FTP_SERVER }}/home/c54971/ \
+            --user "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" || echo "Не удалось получить список /home/c54971/"
+          
+          echo ""
+          echo "4. Содержимое /home/c54971/gradelift.ru/:"
+          curl -v --list-only \
+            ftp://${{ secrets.FTP_SERVER }}/home/c54971/gradelift.ru/ \
+            --user "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" || echo "Не удалось получить список /home/c54971/gradelift.ru/"
+          
+          echo ""
+          echo "5. Содержимое /home/c54971/gradelift.ru/Vacancy/:"
+          curl -v --list-only \
+            ftp://${{ secrets.FTP_SERVER }}/home/c54971/gradelift.ru/Vacancy/ \
+            --user "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" || echo "Не удалось получить список /home/c54971/gradelift.ru/Vacancy/"
+          
+      - name: Test alternative paths
+        run: |
+          echo "=== ТЕСТИРОВАНИЕ АЛЬТЕРНАТИВНЫХ ПУТЕЙ ==="
+          
+          echo "Возможно путь другой. Тестируем варианты:"
+          
+          echo "1. Тест пути /public_html/:"
+          curl -v --list-only \
+            ftp://${{ secrets.FTP_SERVER }}/public_html/ \
+            --user "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" || echo "Путь /public_html/ не существует"
+          
+          echo ""
+          echo "2. Тест пути /www/:"
+          curl -v --list-only \
+            ftp://${{ secrets.FTP_SERVER }}/www/ \
+            --user "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" || echo "Путь /www/ не существует"
+          
+          echo ""
+          echo "3. Тест пути /domains/:"
+          curl -v --list-only \
+            ftp://${{ secrets.FTP_SERVER }}/domains/ \
+            --user "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" || echo "Путь /domains/ не существует"
+          
+          echo ""
+          echo "4. Тест пути без /home/:"
+          curl -v --list-only \
+            ftp://${{ secrets.FTP_SERVER }}/c54971/ \
+            --user "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" || echo "Путь /c54971/ не существует"
+          
+      - name: Create JSON and upload to working path
+        run: |
+          echo "=== СОЗДАНИЕ JSON И ЗАГРУЗКА В РАБОЧИЙ ПУТЬ ==="
+          
+          # Создаем JSON файл
+          cat > hh_vacancies.json << 'EOF'
+          {
+            "created_at": "2025-06-11T14:00:00.000Z",
+            "total_count": 0,
+            "status": "diagnostic_test",
+            "message": "Этот файл создан для диагностики FTP загрузки",
+            "test_timestamp": "1686484800",
+            "vacancies": []
+          }
+          EOF
+          
+          echo "JSON файл создан:"
+          cat hh_vacancies.json
+          
+          echo ""
+          echo "Пытаемся загрузить в несколько локаций:"
+          
+          # Пробуем загрузить в разные места
+          echo "1. Загрузка в корень:"
+          curl -v -T hh_vacancies.json \
+            ftp://${{ secrets.FTP_SERVER }}/hh_vacancies_root.json \
+            --user "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" || echo "Загрузка в корень не удалась"
+          
+          echo ""
+          echo "2. Загрузка в /home/c54971/:"
+          curl -v -T hh_vacancies.json \
+            ftp://${{ secrets.FTP_SERVER }}/home/c54971/hh_vacancies_c54971.json \
+            --user "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" --ftp-create-dirs || echo "Загрузка в /home/c54971/ не удалась"
+          
+          echo ""
+          echo "3. Загрузка в /home/c54971/gradelift.ru/:"
+          curl -v -T hh_vacancies.json \
+            ftp://${{ secrets.FTP_SERVER }}/home/c54971/gradelift.ru/hh_vacancies_gradelift.json \
+            --user "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" --ftp-create-dirs || echo "Загрузка в gradelift.ru не удалась"
+          
+          echo ""
+          echo "4. Загрузка в целевую папку:"
+          curl -v -T hh_vacancies.json \
+            ftp://${{ secrets.FTP_SERVER }}/home/c54971/gradelift.ru/Vacancy/hh_vacancies.json \
+            --user "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" --ftp-create-dirs || echo "Загрузка в Vacancy не удалась"
+          
+      - name: Final verification
+        run: |
+          echo "=== ФИНАЛЬНАЯ ПРОВЕРКА ==="
+          echo "Диагностика завершена!"
+          echo ""
+          echo "Проверьте в файловом менеджере хостинга наличие тестовых файлов:"
+          echo "- test_upload.txt (в разных папках)"
+          echo "- hh_vacancies_root.json (в корне)"
+          echo "- hh_vacancies_c54971.json (в /home/c54971/)"
+          echo "- hh_vacancies_gradelift.json (в /home/c54971/gradelift.ru/)"
+          echo "- hh_vacancies.json (в /home/c54971/gradelift.ru/Vacancy/)"
+          echo ""
+          echo "Один из этих файлов должен появиться, если FTP работает правильно."
