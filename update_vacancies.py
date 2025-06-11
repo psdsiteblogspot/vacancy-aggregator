@@ -12,54 +12,73 @@ class VacancyAggregator:
     def __init__(self):
         self.base_url = "https://api.hh.ru/vacancies"
         self.headers = {
-            'User-Agent': 'VacancyAggregator/1.0 (your-email@example.com)'
+            'User-Agent': 'VacancyAggregator/1.0 (gradelift.ru)',
+            'HH-User-Agent': 'VacancyAggregator/1.0 (gradelift.ru)'
         }
         self.vacancies = []
         
     def get_vacancies(self, text="Системный администратор", area=113, 
-                     work_format="REMOTE", salary_from=None, per_page=100):
+                     schedule=None, salary_from=None, per_page=100):
         """
         Получение вакансий с HeadHunter API
         
         Args:
             text: поисковый запрос
             area: регион (113 - Россия)
-            work_format: формат работы (REMOTE, FULL_TIME, etc.)
+            schedule: график работы (remote, fullDay, etc.)
             salary_from: минимальная зарплата
             per_page: количество вакансий на странице (макс 100)
         """
         
+        # Базовые параметры запроса
         params = {
             'text': text,
             'area': area,
             'search_field': 'name',
             'order_by': 'salary_desc',
             'search_period': 1,  # За последний день
-            'per_page': per_page,
+            'per_page': min(per_page, 100),  # Максимум 100
             'page': 0
         }
         
-        if work_format:
-            params['schedule'] = work_format
+        # Добавляем опциональные параметры только если они заданы
+        if schedule:
+            params['schedule'] = schedule
             
         if salary_from:
-            params['salary_from'] = salary_from
+            params['salary'] = salary_from
             
         all_vacancies = []
         page = 0
+        max_pages = 5  # Ограничиваем количество страниц
         
-        while True:
+        print(f"Поиск вакансий: '{text}' в регионе {area}")
+        
+        while page < max_pages:
             params['page'] = page
             
             try:
                 print(f"Загружаем страницу {page + 1}...")
-                response = requests.get(self.base_url, params=params, headers=self.headers)
+                
+                # Делаем запрос к API
+                response = requests.get(self.base_url, params=params, headers=self.headers, timeout=30)
+                
+                print(f"URL запроса: {response.url}")
+                print(f"Статус ответа: {response.status_code}")
+                
+                if response.status_code == 400:
+                    print(f"Ошибка 400: {response.text}")
+                    break
+                    
                 response.raise_for_status()
                 
                 data = response.json()
                 vacancies = data.get('items', [])
                 
+                print(f"Получено {len(vacancies)} вакансий на странице {page + 1}")
+                
                 if not vacancies:
+                    print("Больше вакансий нет")
                     break
                     
                 # Обрабатываем каждую вакансию
@@ -69,14 +88,21 @@ class VacancyAggregator:
                         all_vacancies.append(processed_vacancy)
                 
                 # Проверяем есть ли еще страницы
-                if page >= data.get('pages', 1) - 1:
+                total_pages = data.get('pages', 1)
+                print(f"Всего страниц: {total_pages}")
+                
+                if page >= total_pages - 1:
+                    print("Достигнута последняя страница")
                     break
                     
                 page += 1
                 
-                # Пауза между запросами
-                time.sleep(0.5)
+                # Пауза между запросами для соблюдения лимитов API
+                time.sleep(1)
                 
+            except requests.exceptions.Timeout:
+                print("Превышен таймаут запроса")
+                break
             except requests.exceptions.RequestException as e:
                 print(f"Ошибка при запросе к API: {e}")
                 break
@@ -84,6 +110,7 @@ class VacancyAggregator:
                 print(f"Неожиданная ошибка: {e}")
                 break
                 
+        print(f"Всего загружено {len(all_vacancies)} вакансий")
         return all_vacancies
     
     def process_vacancy(self, vacancy):
@@ -184,14 +211,37 @@ class VacancyAggregator:
         print("Начинаем обновление вакансий...")
         print(f"Время запуска: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
         
-        # Получаем новые вакансии
-        new_vacancies = self.get_vacancies()
+        # Получаем новые вакансии с разными параметрами
+        print("\n=== Поиск удаленных вакансий системного администратора ===")
+        remote_vacancies = self.get_vacancies(
+            text="Системный администратор",
+            area=113,  # Россия
+            schedule="remote"  # Удаленная работа
+        )
         
-        if not new_vacancies:
+        print(f"\n=== Поиск всех вакансий системного администратора ===")
+        all_vacancies = self.get_vacancies(
+            text="Системный администратор",
+            area=113  # Россия, без ограничения по типу работы
+        )
+        
+        # Объединяем результаты и убираем дубликаты
+        combined_vacancies = remote_vacancies + all_vacancies
+        
+        # Удаляем дубликаты по ID
+        unique_vacancies = []
+        seen_ids = set()
+        
+        for vacancy in combined_vacancies:
+            if vacancy['id'] not in seen_ids:
+                unique_vacancies.append(vacancy)
+                seen_ids.add(vacancy['id'])
+        
+        print(f"\nИтого уникальных вакансий: {len(unique_vacancies)}")
+        
+        if not unique_vacancies:
             print("Не удалось получить новые вакансии")
             return False
-        
-        print(f"Получено {len(new_vacancies)} новых вакансий")
         
         # Загружаем существующие данные
         existing_data = self.load_existing_data()
@@ -199,23 +249,23 @@ class VacancyAggregator:
         if existing_data:
             existing_ids = {v['id'] for v in existing_data.get('vacancies', [])}
             # Фильтруем только новые вакансии
-            really_new = [v for v in new_vacancies if v['id'] not in existing_ids]
+            really_new = [v for v in unique_vacancies if v['id'] not in existing_ids]
             
             if really_new:
                 print(f"Найдено {len(really_new)} действительно новых вакансий")
                 # Объединяем с существующими (новые в начале)
-                all_vacancies = really_new + existing_data.get('vacancies', [])
+                all_vacancies_final = really_new + existing_data.get('vacancies', [])
                 
-                # Ограничиваем общее количество (например, последние 1000)
-                all_vacancies = all_vacancies[:1000]
+                # Ограничиваем общее количество (например, последние 500)
+                all_vacancies_final = all_vacancies_final[:500]
             else:
-                print("Новых вакансий не найдено")
-                all_vacancies = existing_data.get('vacancies', [])
+                print("Новых вакансий не найдено, используем существующие данные")
+                all_vacancies_final = existing_data.get('vacancies', [])
         else:
-            all_vacancies = new_vacancies
+            all_vacancies_final = unique_vacancies
         
         # Сохраняем обновленные данные
-        success = self.save_to_json(all_vacancies)
+        success = self.save_to_json(all_vacancies_final)
         
         if success:
             print("Обновление завершено успешно!")
