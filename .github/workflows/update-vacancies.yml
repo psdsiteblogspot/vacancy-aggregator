@@ -29,17 +29,18 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4 lxml
           
-      - name: Test HH API
+      - name: Debug - Check files
         run: |
-          # Сначала проверяем доступность API простым запросом
-          cd ${{ github.workspace }}
-          python test_api.py
+          echo "=== Содержимое рабочей директории ==="
+          ls -la ${{ github.workspace }}
+          echo "=== Проверяем существование скриптов ==="
+          ls -la ${{ github.workspace }}/*.py || echo "Python файлы не найдены"
           
       - name: Update vacancies data
         run: |
-          # Если тест прошел, запускаем полное обновление
+          # Переходим в корневую папку проекта
           cd ${{ github.workspace }}
-          python update_vacancies.py
+          python minimal_update.py
           
       - name: Commit changes (if any)
         run: |
