@@ -1,14 +1,15 @@
-name: Update HH Vacancies
+name: Update Vacancies from HeadHunter API
 
 on:
   schedule:
-    # Запускать каждые 4 часа
+    # Запуск каждые 4 часа для актуальных данных
     - cron: '0 */4 * * *'
-  workflow_dispatch:  # Позволяет запускать вручную
+  workflow_dispatch:
+    # Возможность запуска вручную
 
-# Даем права на запись
-permissions:
-  contents: write
+env:
+  # Таймзона для логов
+  TZ: Europe/Moscow
 
 jobs:
   update-vacancies:
@@ -17,56 +18,94 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        
+      
     - name: Setup Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
+        cache: 'pip'
         
     - name: Install dependencies
       run: |
+        pip install --upgrade pip
         pip install requests
         
-    - name: Update vacancies from HH.ru
+    - name: Test API connectivity and get sample data
       run: |
+        echo "🔗 Тестируем подключение к API HeadHunter..."
+        python -c "
+        import requests
+        import json
+        try:
+            # Тестируем с теми же параметрами что в скрипте
+            params = {
+                'text': 'Системный администратор',
+                'area': '113',
+                'search_field': 'name',
+                'per_page': 5,
+                'only_with_salary': 'true',
+                'schedule': 'remote'
+            }
+            response = requests.get('https://api.hh.ru/vacancies', params=params, timeout=10)
+            print(f'✅ API доступен, статус: {response.status_code}')
+            if response.status_code == 200:
+                data = response.json()
+                print(f'📊 Найдено вакансий: {data.get(\"found\", 0)}')
+                print(f'📄 На странице: {len(data.get(\"items\", []))}')
+            else:
+                print(f'⚠️  Неожиданный ответ: {response.text[:200]}')
+        except Exception as e:
+            print(f'❌ Ошибка API: {e}')
+            exit(1)
+        "
+        
+    - name: Update vacancies
+      run: |
+        echo "🚀 Запуск обновления вакансий..."
         python update_vacancies.py
         
-    - name: Check if file was created
+    - name: Verify JSON file
       run: |
+        echo "🔍 Проверяем созданный JSON файл..."
         if [ -f "hh_vacancies.json" ]; then
-          echo "✅ File hh_vacancies.json was created successfully"
-          echo "File size: $(stat -c%s hh_vacancies.json) bytes"
-          echo "First 500 characters:"
-          head -c 500 hh_vacancies.json
+          echo "✅ Файл hh_vacancies.json создан"
+          echo "📊 Размер файла: $(du -h hh_vacancies.json | cut -f1)"
+          echo "📈 Количество вакансий: $(python -c "import json; data=json.load(open('hh_vacancies.json')); print(len(data.get('vacancies', [])))")"
+          echo "🕒 Время обновления: $(python -c "import json; data=json.load(open('hh_vacancies.json')); print(data.get('updated', 'не указано'))")"
         else
-          echo "❌ File hh_vacancies.json was not created"
+          echo "❌ Файл не найден!"
           exit 1
         fi
         
-    - name: Commit and push if changed
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add hh_vacancies.json
-        if git diff --staged --quiet; then
-          echo "No changes to commit"
-        else
-          git commit -m "Update HH vacancies [skip ci]"
-          git push
-        fi
-        
-    # Альтернативный способ для FTP (если нужен)
-    - name: Upload to FTP (optional)
-      if: ${{ vars.USE_FTP == 'true' }}
+    - name: Upload to FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./
-        server-dir: /Vacancy/
+        server-dir: /www/Vacancy/
+        # Загружаем только нужные файлы
         include: |
           hh_vacancies.json
           vacancy_aggregator.html
+        # Исключаем ненужные файлы
+        exclude: |
+          .git*
+          .github/
+          *.py
+          *.md
+          
+    - name: Notification on success
+      if: success()
+      run: |
+        echo "✅ Вакансии успешно обновлены и загружены на сервер"
+        echo "🌐 Доступны по адресу: https://gradelift.ru/Vacancy/vacancy_aggregator.html"
+        echo "📄 JSON данные: https://gradelift.ru/Vacancy/hh_vacancies.json"
+        echo "🕒 Время обновления: $(date '+%Y-%m-%d %H:%M:%S %Z')"
+        
+    - name: Notification on failure  
+      if: failure()
+      run: |
+        echo "❌ Ошибка при обновлении вакансий"
+        echo "🔍 Проверьте логи выше для диагностики"
