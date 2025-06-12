@@ -25,18 +25,26 @@ jobs:
     - name: Run vacancy updater
       run: python update_vacancies.py
     
-    - name: Upload to FTP
-      uses: SamKirkland/FTP-Deploy-Action@4.3.0
+    - name: Deploy to FTP
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./
         server-dir: /home/c54971/gradelift.ru/www/Vacancy/
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          .github/**
+          *.py
+          *.md
+          *.yml
+          .gitignore
         include: |
           hh_vacancies.json
     
-    - name: Commit to GitHub (optional)
+    - name: Commit to GitHub
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
