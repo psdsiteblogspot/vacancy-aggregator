@@ -99,7 +99,7 @@ jobs:
           --output "vacancies_${GROUP_NAME}_$(date +%Y%m%d_%H%M%S).json"
     
     - name: Upload artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: vacancies-${{ matrix.region_group.name }}-${{ github.run_number }}
         path: vacancies_*.json
@@ -121,7 +121,7 @@ jobs:
     - uses: actions/checkout@v4
     
     - name: Download all artifacts
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         path: artifacts
     
