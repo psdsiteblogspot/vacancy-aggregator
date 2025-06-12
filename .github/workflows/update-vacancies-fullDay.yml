@@ -61,7 +61,15 @@ jobs:
               
               params = {
                   'text': keyword,
-                  'area': ['1', '2019'],      # Россия
+                  'area': '1',      # Москва
+                  'schedule': 'fullDay',      # Полный день
+                  'search_field': 'name',     # Искать в названии
+                  'per_page': '100',          # Максимум на страницу
+                  'page': '0'
+              }
+              params = {
+                  'text': keyword,
+                  'area': '2',                # Санкт-Петербург
                   'schedule': 'fullDay',      # Полный день
                   'search_field': 'name',     # Искать в названии
                   'per_page': '100',          # Максимум на страницу
