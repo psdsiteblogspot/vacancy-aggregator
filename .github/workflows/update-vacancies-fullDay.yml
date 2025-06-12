@@ -1,20 +1,16 @@
-name: Update Vacancies - Optimized
+name: Update Vacancies Full Day
 
 on:
   schedule:
-    # Запуск несколько раз в день для разных регионов
-    - cron: '0 2 * * *'    # 02:00 UTC - крупные города
-    - cron: '0 8 * * *'    # 08:00 UTC - средние города
-    - cron: '0 14 * * *'   # 14:00 UTC - малые города
-    - cron: '0 20 * * *'   # 20:00 UTC - обновление популярных регионов
+    # Запуск 4 раза в день для разных групп регионов
+    - cron: '0 0 * * *'    # 00:00 UTC
+    - cron: '0 6 * * *'    # 06:00 UTC
+    - cron: '0 12 * * *'   # 12:00 UTC
+    - cron: '0 18 * * *'   # 18:00 UTC
   workflow_dispatch:
     inputs:
       regions:
-        description: 'Список ID регионов через запятую (оставить пустым для всех)'
-        required: false
-        default: ''
-      date_from:
-        description: 'Дата начала в формате YYYY-MM-DD'
+        description: 'Region IDs (comma-separated)'
         required: false
         default: ''
 
@@ -22,8 +18,8 @@ jobs:
   parse-vacancies:
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
-        # Разбиваем регионы на группы для параллельной обработки
         region_group:
           - name: "major_cities"
             regions: "1,2,3,4,5,6,7,8,9,10"
@@ -45,7 +41,7 @@ jobs:
             regions: "81,82,83,84,85,86,87,88,89,90"
           - name: "small_cities_5"
             regions: "91,92,93,94,95,96,97,98,99,100,101,102,103,104,2019"
-      max-parallel: 3  # Ограничиваем параллельные задачи
+      max-parallel: 3
     
     steps:
     - uses: actions/checkout@v4
@@ -55,109 +51,119 @@ jobs:
       with:
         python-version: '3.10'
     
-    - name: Cache dependencies
-      uses: actions/cache@v3
-      with:
-        path: ~/.cache/pip
-        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-        restore-keys: |
-          ${{ runner.os }}-pip-
-    
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install requests pandas pytz
-    
-    - name: Determine regions to parse
-      id: regions
-      run: |
-        if [ "${{ github.event.inputs.regions }}" != "" ]; then
-          echo "regions=${{ github.event.inputs.regions }}" >> $GITHUB_OUTPUT
-        else
-          # Определяем регионы на основе времени запуска
-          HOUR=$(date -u +%H)
-          if [ $HOUR -eq 2 ]; then
-            echo "regions=${{ matrix.region_group.regions }}" >> $GITHUB_OUTPUT
-          elif [ $HOUR -eq 8 ]; then
-            echo "regions=${{ matrix.region_group.regions }}" >> $GITHUB_OUTPUT
-          elif [ $HOUR -eq 14 ]; then
-            echo "regions=${{ matrix.region_group.regions }}" >> $GITHUB_OUTPUT
-          else
-            echo "regions=${{ matrix.region_group.regions }}" >> $GITHUB_OUTPUT
-          fi
-        fi
+        pip install requests
     
     - name: Parse vacancies
       env:
-        REGIONS: ${{ steps.regions.outputs.regions }}
-        DATE_FROM: ${{ github.event.inputs.date_from }}
-        GROUP_NAME: ${{ matrix.region_group.name }}
+        REGIONS: ${{ github.event.inputs.regions || matrix.region_group.regions }}
+        OUTPUT_FILE: vacancies_${{ matrix.region_group.name }}.json
       run: |
-        python update_vacancies_optimized.py \
-          --regions "$REGIONS" \
-          --date-from "$DATE_FROM" \
-          --output "vacancies_${GROUP_NAME}_$(date +%Y%m%d_%H%M%S).json"
+        python update_vacancies_fullDay.py
     
-    - name: Upload artifacts
+    - name: Upload results
       uses: actions/upload-artifact@v4
       with:
-        name: vacancies-${{ matrix.region_group.name }}-${{ github.run_number }}
-        path: vacancies_*.json
+        name: vacancies-${{ matrix.region_group.name }}
+        path: vacancies_${{ matrix.region_group.name }}.json
         retention-days: 7
-    
-    - name: Check API limits
-      if: always()
-      run: |
-        # Проверка использования API
-        if [ -f "api_usage.json" ]; then
-          echo "API Usage Report:"
-          cat api_usage.json
-        fi
 
   merge-results:
     needs: parse-vacancies
     runs-on: ubuntu-latest
+    if: success()
+    
     steps:
     - uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
     
     - name: Download all artifacts
       uses: actions/download-artifact@v4
       with:
         path: artifacts
     
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-    
-    - name: Install dependencies
+    - name: Merge vacancy files
       run: |
-        python -m pip install --upgrade pip
-        pip install pandas
-    
-    - name: Merge all vacancy files
-      run: |
-        python merge_vacancies.py --input-dir artifacts --output merged_vacancies.json
-    
-    - name: Generate statistics
-      run: |
-        python generate_stats.py --input merged_vacancies.json --output vacancy_stats.md
-    
-    - name: Commit results
-      uses: EndBug/add-and-commit@v9
-      with:
-        add: 'merged_vacancies.json vacancy_stats.md'
-        message: 'Update vacancies - ${{ github.run_number }}'
-        default_author: github_actions
+        python -c "
+import json
+import os
+from datetime import datetime
 
-  cleanup-old-data:
-    needs: merge-results
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v4
+# Собираем все файлы
+all_vacancies = {}
+total = 0
+
+for root, dirs, files in os.walk('artifacts'):
+    for file in files:
+        if file.endswith('.json'):
+            with open(os.path.join(root, file), 'r') as f:
+                data = json.load(f)
+                for region, vacancies in data.get('vacancies_by_region', {}).items():
+                    if region not in all_vacancies:
+                        all_vacancies[region] = []
+                    all_vacancies[region].extend(vacancies)
+                    total += len(vacancies)
+
+# Сохраняем объединенный файл
+result = {
+    'merge_date': datetime.now().isoformat(),
+    'total_vacancies': total,
+    'regions_count': len(all_vacancies),
+    'vacancies_by_region': all_vacancies
+}
+
+with open('all_vacancies.json', 'w') as f:
+    json.dump(result, f, ensure_ascii=False, indent=2)
+
+print(f'Merged {total} vacancies from {len(all_vacancies)} regions')
+        "
     
-    - name: Clean up old data
+    - name: Generate summary
       run: |
-        # Удаляем файлы старше 7 дней
-        find . -name "vacancies_*.json" -mtime +7 -delete
-        find . -name "merged_vacancies_*.json" -mtime +30 -delete
+        python -c "
+import json
+from datetime import datetime
+
+with open('all_vacancies.json', 'r') as f:
+    data = json.load(f)
+
+summary = f'''# Vacancy Parse Summary
+
+**Date:** {datetime.now().strftime('%Y-%m-%d %H:%M')}
+**Total vacancies:** {data['total_vacancies']:,}
+**Regions processed:** {data['regions_count']}
+
+## Top regions by vacancy count:
+'''
+
+# Подсчет вакансий по регионам
+region_counts = [(r, len(v)) for r, v in data['vacancies_by_region'].items()]
+region_counts.sort(key=lambda x: x[1], reverse=True)
+
+for region, count in region_counts[:10]:
+    summary += f'- Region {region}: {count:,} vacancies\\n'
+
+with open('summary.md', 'w') as f:
+    f.write(summary)
+
+print(summary)
+        "
+    
+    - name: Create release
+      if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+      uses: softprops/action-gh-release@v1
+      with:
+        tag_name: vacancies-${{ github.run_number }}
+        name: Vacancies Update ${{ github.run_number }}
+        body_path: summary.md
+        files: |
+          all_vacancies.json
+          summary.md
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
