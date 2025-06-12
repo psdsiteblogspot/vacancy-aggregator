@@ -157,7 +157,7 @@ def collect_all_vacancies() -> List[Dict]:
     return all_vacancies
 
 
-def save_vacancies(vacancies: List[Dict], filename: str = 'hh_vacancies.json'):
+def save_vacancies(vacancies: List[Dict], filename: str = 'hh_vacancies_fullDay.json'):
     """
     Сохраняет вакансии в JSON файл
     
