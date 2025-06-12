@@ -1,112 +1,250 @@
-#!/usr/bin/env python3
-"""Скрипт для объединения файлов с вакансиями"""
-
+import requests
 import json
-import os
-import sys
 from datetime import datetime
+import time
+from typing import List, Dict, Optional
+
+# API HH.ru
+BASE_URL = "https://api.hh.ru/vacancies"
+
+# Параметры поиска
+SEARCH_PARAMS = {
+    'text': 'системный администратор',  # Ключевые слова
+    'area': ['1', '2'],                        # Россия
+    'schedule': 'remote',               # Удаленная работа
+    'search_field': 'name',             # Искать только в названии вакансии
+    'per_page': 1000,                    # Максимум вакансий на страницу
+    'page': 0
+}
+
+# Заголовки для запросов
+HEADERS = {
+    'User-Agent': 'VacancyParser/1.0 (contact@example.com)'  # Более информативный User-Agent
+}
+
+# Задержка между запросами (в секундах)
+REQUEST_DELAY = 0.5
 
 
-def merge_vacancy_files(input_dir='artifacts'):
-    """Объединить все JSON файлы с вакансиями"""
-    all_vacancies = {}
-    total_count = 0
-    files_processed = 0
+def get_vacancies_page(page: int) -> Optional[Dict]:
+    """
+    Получает одну страницу вакансий из API HH.ru
     
-    # Проходим по всем файлам в директории artifacts
-    for root, dirs, files in os.walk(input_dir):
-        for file in files:
-            if file.endswith('.json') and file.startswith('vacancies_'):
-                file_path = os.path.join(root, file)
-                print(f"Processing: {file_path}")
-                
-                try:
-                    with open(file_path, 'r', encoding='utf-8') as f:
-                        data = json.load(f)
-                    
-                    # Извлекаем вакансии по регионам
-                    vacancies_by_region = data.get('vacancies_by_region', {})
-                    
-                    for region_id, vacancies in vacancies_by_region.items():
-                        if region_id not in all_vacancies:
-                            all_vacancies[region_id] = []
-                        
-                        # Добавляем вакансии, избегая дубликатов
-                        existing_ids = {v['id'] for v in all_vacancies[region_id]}
-                        for vacancy in vacancies:
-                            if vacancy['id'] not in existing_ids:
-                                all_vacancies[region_id].append(vacancy)
-                                total_count += 1
-                    
-                    files_processed += 1
-                    
-                except Exception as e:
-                    print(f"Error processing {file_path}: {e}")
-                    continue
+    Args:
+        page: Номер страницы
+        
+    Returns:
+        Словарь с данными или None в случае ошибки
+    """
+    params = SEARCH_PARAMS.copy()
+    params['page'] = page
     
-    print(f"\nProcessed {files_processed} files")
-    print(f"Total unique vacancies: {total_count}")
-    print(f"Regions: {len(all_vacancies)}")
+    try:
+        response = requests.get(BASE_URL, params=params, headers=HEADERS)
+        response.raise_for_status()
+        return response.json()
+    except requests.exceptions.RequestException as e:
+        print(f"Ошибка при запросе страницы {page}: {e}")
+        return None
+    except json.JSONDecodeError as e:
+        print(f"Ошибка при разборе JSON на странице {page}: {e}")
+        return None
+
+
+def parse_vacancy(item: Dict) -> Dict:
+    """
+    Парсит данные одной вакансии
     
-    # Сохранение объединенного результата
-    result = {
-        'merge_date': datetime.now().isoformat(),
-        'total_vacancies': total_count,
-        'regions_count': len(all_vacancies),
-        'files_processed': files_processed,
-        'vacancies_by_region': all_vacancies
+    Args:
+        item: Словарь с данными вакансии из API
+        
+    Returns:
+        Отформатированный словарь с данными вакансии
+    """
+    vacancy = {
+        'id': item.get('id', ''),
+        'title': item.get('name', ''),
+        'company': item.get('employer', {}).get('name', ''),
+        'company_url': item.get('employer', {}).get('alternate_url', ''),
+        'salary': 'не указана',
+        'experience': item.get('experience', {}).get('name', ''),
+        'schedule': item.get('schedule', {}).get('name', ''),
+        'employment': item.get('employment', {}).get('name', ''),
+        'area': item.get('area', {}).get('name', ''),
+        'publishDate': item.get('published_at', '')[:10],  # Только дата
+        'url': item.get('alternate_url', ''),
+        'requirement': item.get('snippet', {}).get('requirement', ''),
+        'responsibility': item.get('snippet', {}).get('responsibility', '')
     }
     
-    with open('all_vacancies.json', 'w', encoding='utf-8') as f:
-        json.dump(result, f, ensure_ascii=False, indent=2)
+    # Обработка зарплаты
+    if item.get('salary'):
+        salary_data = item['salary']
+        salary_from = salary_data.get('from')
+        salary_to = salary_data.get('to')
+        currency = salary_data.get('currency', 'RUR')
+        gross = salary_data.get('gross', False)
+        
+        if salary_from and salary_to:
+            vacancy['salary'] = f"от {salary_from:,} до {salary_to:,} {currency}"
+        elif salary_from:
+            vacancy['salary'] = f"от {salary_from:,} {currency}"
+        elif salary_to:
+            vacancy['salary'] = f"до {salary_to:,} {currency}"
+            
+        # Добавляем информацию о типе зарплаты
+        if gross:
+            vacancy['salary'] += " (до вычета налогов)"
+        else:
+            vacancy['salary'] += " (на руки)"
     
-    return result
+    return vacancy
 
 
-def generate_summary(data):
-    """Генерация summary в формате Markdown"""
-    summary = f"""# Vacancy Parse Summary
+def collect_all_vacancies() -> List[Dict]:
+    """
+    Собирает все вакансии со всех страниц
+    
+    Returns:
+        Список всех найденных вакансий
+    """
+    all_vacancies = []
+    page = 0
+    total_pages = None
+    
+    print("Начинаем сбор вакансий...")
+    print(f"Параметры поиска:")
+    print(f"  - Текст: '{SEARCH_PARAMS['text']}'")
+    print(f"  - Регион: Россия")
+    print(f"  - Формат работы: Удалённо")
+    print(f"  - Поиск в: названии вакансии")
+    print("-" * 50)
+    
+    while True:
+        # Получаем страницу
+        data = get_vacancies_page(page)
+        
+        if data is None:
+            print(f"Не удалось получить страницу {page}. Пропускаем...")
+            page += 1
+            continue
+        
+        # На первой странице узнаем общее количество
+        if total_pages is None:
+            total_pages = data.get('pages', 0)
+            total_found = data.get('found', 0)
+            print(f"Найдено вакансий: {total_found}")
+            print(f"Страниц для обработки: {total_pages}")
+            print("-" * 50)
+        
+        # Обрабатываем вакансии на странице
+        items = data.get('items', [])
+        for item in items:
+            vacancy = parse_vacancy(item)
+            all_vacancies.append(vacancy)
+        
+        # Выводим прогресс
+        print(f"Обработано страниц: {page + 1}/{total_pages} | Собрано вакансий: {len(all_vacancies)}")
+        
+        # Проверяем, есть ли еще страницы
+        page += 1
+        if page >= total_pages:
+            break
+        
+        # Задержка между запросами
+        time.sleep(REQUEST_DELAY)
+    
+    return all_vacancies
 
-**Date:** {datetime.now().strftime('%Y-%m-%d %H:%M')}
-**Total vacancies:** {data['total_vacancies']:,}
-**Regions processed:** {data['regions_count']}
-**Files merged:** {data.get('files_processed', 'N/A')}
 
-## Top 10 regions by vacancy count:
+def save_vacancies(vacancies: List[Dict], filename: str = 'hh_vacancies.json'):
+    """
+    Сохраняет вакансии в JSON файл
+    
+    Args:
+        vacancies: Список вакансий
+        filename: Имя файла для сохранения
+    """
+    output = {
+        'source': 'hh.ru',
+        'search_params': {
+            'text': SEARCH_PARAMS['text'],
+            'area': 'Россия',
+            'schedule': 'Удалённая работа',
+            'search_field': 'В названии вакансии'
+        },
+        'updated': datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ'),
+        'total_count': len(vacancies),
+        'vacancies': vacancies
+    }
+    
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+    
+    print(f"\n✅ Файл {filename} успешно создан!")
+    print(f"📊 Всего сохранено вакансий: {len(vacancies)}")
 
-| Region ID | Vacancies |
-|-----------|-----------|
-"""
+
+def print_statistics(vacancies: List[Dict]):
+    """
+    Выводит статистику по собранным вакансиям
     
-    # Подсчет вакансий по регионам
-    region_counts = [(region_id, len(vacancies)) 
-                     for region_id, vacancies in data['vacancies_by_region'].items()]
-    region_counts.sort(key=lambda x: x[1], reverse=True)
+    Args:
+        vacancies: Список вакансий
+    """
+    print("\n📈 Статистика по вакансиям:")
+    print("-" * 50)
     
-    for region_id, count in region_counts[:10]:
-        summary += f"| {region_id} | {count:,} |\n"
+    # Топ компаний
+    companies = {}
+    for v in vacancies:
+        company = v['company']
+        companies[company] = companies.get(company, 0) + 1
     
-    # Добавляем общую статистику
-    if region_counts:
-        avg_vacancies = sum(c[1] for c in region_counts) / len(region_counts)
-        summary += f"\n**Average vacancies per region:** {avg_vacancies:.0f}"
+    top_companies = sorted(companies.items(), key=lambda x: x[1], reverse=True)[:10]
+    print("\n🏢 Топ-10 компаний по количеству вакансий:")
+    for i, (company, count) in enumerate(top_companies, 1):
+        print(f"{i:2d}. {company}: {count} вакансий")
     
-    with open('summary.md', 'w', encoding='utf-8') as f:
-        f.write(summary)
+    # Статистика по зарплатам
+    with_salary = sum(1 for v in vacancies if v['salary'] != 'не указана')
+    print(f"\n💰 Вакансий с указанной зарплатой: {with_salary} ({with_salary/len(vacancies)*100:.1f}%)")
     
-    print("\nSummary:")
-    print(summary)
+    # Статистика по регионам
+    regions = {}
+    for v in vacancies:
+        region = v['area']
+        regions[region] = regions.get(region, 0) + 1
     
-    return summary
+    top_regions = sorted(regions.items(), key=lambda x: x[1], reverse=True)[:10]
+    print("\n🌍 Топ-10 регионов:")
+    for i, (region, count) in enumerate(top_regions, 1):
+        print(f"{i:2d}. {region}: {count} вакансий")
+
+
+def main():
+    """
+    Основная функция программы
+    """
+    try:
+        # Собираем все вакансии
+        vacancies = collect_all_vacancies()
+        
+        if not vacancies:
+            print("❌ Не удалось найти ни одной вакансии")
+            return
+        
+        # Сохраняем результаты
+        save_vacancies(vacancies)
+        
+        # Выводим статистику
+        print_statistics(vacancies)
+        
+    except KeyboardInterrupt:
+        print("\n\n⚠️ Сбор вакансий прерван пользователем")
+    except Exception as e:
+        print(f"\n❌ Произошла ошибка: {e}")
 
 
 if __name__ == "__main__":
-    # Объединяем файлы
-    result = merge_vacancy_files()
-    
-    # Генерируем summary
-    if result['total_vacancies'] > 0:
-        generate_summary(result)
-    else:
-        print("No vacancies found!")
-        sys.exit(1)
+    main()
