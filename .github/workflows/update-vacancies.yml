@@ -25,35 +25,12 @@ jobs:
     - name: Run vacancy updater
       run: python update_vacancies.py
     
-    - name: Show file info
-      run: |
-        echo "File size:"
-        ls -la hh_vacancies.json
-        echo "File content (first 500 chars):"
-        head -c 500 hh_vacancies.json
-    
-    - name: Upload to FTP with verbose
+    - name: Upload to FTP
       run: |
         echo "Uploading to FTP..."
-        curl -v -T hh_vacancies.json \
-          "ftp://${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}@${{ secrets.FTP_SERVER }}/Vacancy/hh_vacancies.json" \
-          --ftp-create-dirs \
-          --ftp-pasv
-    
-    - name: Alternative FTP upload using lftp
-      if: failure()
-      run: |
-        echo "Trying alternative method with lftp..."
-        sudo apt-get install -y lftp
-        lftp -c "
-        set ftp:ssl-allow no
-        set ftp:passive-mode yes
-        open -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_SERVER }}
-        cd /Vacancy
-        put hh_vacancies.json
-        ls -la
-        bye
-        "
+        curl -T hh_vacancies.json \
+          "ftp://${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}@${{ secrets.FTP_SERVER }}/c54971/gradelift.ru/www/Vacancy/hh_vacancies.json" \
+          --ftp-create-dirs
     
     - name: Commit to GitHub
       run: |
