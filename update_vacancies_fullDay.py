@@ -1,258 +1,256 @@
 import requests
 import json
-from datetime import datetime
 import time
+from datetime import datetime, timedelta
 from typing import List, Dict, Optional
+import logging
 
-# API HH.ru
-BASE_URL = "https://api.hh.ru/vacancies"
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
-# Параметры поиска
-SEARCH_PARAMS = {
-    'text': 'системный администратор',  # Ключевые слова
-    'area': '1',                        # Москва
-    'schedule': 'fullDay',              # Полный день
-    'search_field': 'name',             # Искать только в названии вакансии
-    'per_page': 100,                    # Максимум вакансий на страницу
-    'page': 0
-}
-SEARCH_PARAMS = {
-    'text': 'системный администратор',  # Ключевые слова
-    'area': '2',                        # Санкт-Петербург
-    'schedule': 'fullDay',              # Полный день
-    'search_field': 'name',             # Искать только в названии вакансии
-    'per_page': 100,                    # Максимум вакансий на страницу
-    'page': 0
-}
-
-# Заголовки для запросов
-HEADERS = {
-    'User-Agent': 'VacancyParser/1.0 (contact@example.com)'  # Более информативный User-Agent
-}
-
-# Задержка между запросами (в секундах)
-REQUEST_DELAY = 0.5
-
-
-def get_vacancies_page(page: int) -> Optional[Dict]:
-    """
-    Получает одну страницу вакансий из API HH.ru
+class HHVacancyParser:
+    """Оптимизированный парсер вакансий с HH.ru"""
     
-    Args:
-        page: Номер страницы
+    def __init__(self):
+        self.base_url = "https://api.hh.ru/vacancies"
+        self.headers = {
+            'User-Agent': 'VacancyAggregator/1.0 (your@email.com)'
+        }
+        self.session = requests.Session()
+        self.session.headers.update(self.headers)
         
-    Returns:
-        Словарь с данными или None в случае ошибки
-    """
-    params = SEARCH_PARAMS.copy()
-    params['page'] = page
-    
-    try:
-        response = requests.get(BASE_URL, params=params, headers=HEADERS)
-        response.raise_for_status()
-        return response.json()
-    except requests.exceptions.RequestException as e:
-        print(f"Ошибка при запросе страницы {page}: {e}")
-        return None
-    except json.JSONDecodeError as e:
-        print(f"Ошибка при разборе JSON на странице {page}: {e}")
-        return None
-
-
-def parse_vacancy(item: Dict) -> Dict:
-    """
-    Парсит данные одной вакансии
-    
-    Args:
-        item: Словарь с данными вакансии из API
+        # Основные регионы России (исключая ID 113)
+        self.regions = [
+            1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+            21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38,
+            39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56,
+            57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74,
+            75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92,
+            93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 2019
+        ]
         
-    Returns:
-        Отформатированный словарь с данными вакансии
-    """
-    vacancy = {
-        'id': item.get('id', ''),
-        'title': item.get('name', ''),
-        'company': item.get('employer', {}).get('name', ''),
-        'company_url': item.get('employer', {}).get('alternate_url', ''),
-        'salary': 'не указана',
-        'experience': item.get('experience', {}).get('name', ''),
-        'schedule': item.get('schedule', {}).get('name', ''),
-        'employment': item.get('employment', {}).get('name', ''),
-        'area': item.get('area', {}).get('name', ''),
-        'publishDate': item.get('published_at', '')[:10],  # Только дата
-        'url': item.get('alternate_url', ''),
-        'requirement': item.get('snippet', {}).get('requirement', ''),
-        'responsibility': item.get('snippet', {}).get('responsibility', '')
-    }
-    
-    # Обработка зарплаты
-    if item.get('salary'):
-        salary_data = item['salary']
-        salary_from = salary_data.get('from')
-        salary_to = salary_data.get('to')
-        currency = salary_data.get('currency', 'RUR')
-        gross = salary_data.get('gross', False)
+        # Лимиты API
+        self.max_requests_per_region = 2000
+        self.max_pages = 100  # HH.ru ограничивает до 100 страниц
+        self.per_page = 20    # Максимум 100, но 20 оптимально для баланса
         
-        if salary_from and salary_to:
-            vacancy['salary'] = f"от {salary_from:,} до {salary_to:,} {currency}"
-        elif salary_from:
-            vacancy['salary'] = f"от {salary_from:,} {currency}"
-        elif salary_to:
-            vacancy['salary'] = f"до {salary_to:,} {currency}"
+    def get_vacancies_for_region(self, region_id: int, date_from: Optional[str] = None) -> List[Dict]:
+        """Получить вакансии для конкретного региона"""
+        vacancies = []
+        page = 0
+        total_pages = 1
+        requests_count = 0
+        
+        # Если не указана дата, берем вакансии за последние сутки
+        if not date_from:
+            date_from = (datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d')
+        
+        params = {
+            'area': region_id,
+            'date_from': date_from,
+            'per_page': self.per_page,
+            'page': page
+        }
+        
+        while page < total_pages and page < self.max_pages and requests_count < self.max_requests_per_region:
+            try:
+                response = self.session.get(self.base_url, params=params)
+                requests_count += 1
+                
+                if response.status_code == 200:
+                    data = response.json()
+                    vacancies.extend(data.get('items', []))
+                    
+                    # Обновляем общее количество страниц
+                    if page == 0:
+                        total_pages = data.get('pages', 1)
+                        logger.info(f"Регион {region_id}: найдено {data.get('found', 0)} вакансий на {total_pages} страницах")
+                    
+                    page += 1
+                    params['page'] = page
+                    
+                    # Задержка между запросами для соблюдения rate limits
+                    time.sleep(0.5)
+                    
+                elif response.status_code == 403:
+                    logger.warning(f"Превышен лимит запросов для региона {region_id}")
+                    break
+                else:
+                    logger.error(f"Ошибка {response.status_code} для региона {region_id}")
+                    break
+                    
+            except Exception as e:
+                logger.error(f"Ошибка при получении вакансий для региона {region_id}: {e}")
+                break
+        
+        logger.info(f"Регион {region_id}: получено {len(vacancies)} вакансий за {requests_count} запросов")
+        return vacancies
+    
+    def get_vacancy_details(self, vacancy_id: str) -> Optional[Dict]:
+        """Получить детальную информацию о вакансии"""
+        try:
+            response = self.session.get(f"{self.base_url}/{vacancy_id}")
+            if response.status_code == 200:
+                return response.json()
+            else:
+                logger.error(f"Ошибка {response.status_code} при получении деталей вакансии {vacancy_id}")
+                return None
+        except Exception as e:
+            logger.error(f"Ошибка при получении деталей вакансии {vacancy_id}: {e}")
+            return None
+    
+    def parse_all_regions(self, date_from: Optional[str] = None) -> Dict[int, List[Dict]]:
+        """Парсинг вакансий по всем регионам"""
+        all_vacancies = {}
+        
+        for region_id in self.regions:
+            logger.info(f"Начинаем парсинг региона {region_id}")
+            vacancies = self.get_vacancies_for_region(region_id, date_from)
+            if vacancies:
+                all_vacancies[region_id] = vacancies
             
-        # Добавляем информацию о типе зарплаты
-        if gross:
-            vacancy['salary'] += " (до вычета налогов)"
-        else:
-            vacancy['salary'] += " (на руки)"
+            # Большая задержка между регионами
+            time.sleep(2)
+        
+        return all_vacancies
     
-    return vacancy
+    def save_vacancies(self, vacancies: Dict[int, List[Dict]], filename: str = "vacancies.json"):
+        """Сохранить вакансии в файл"""
+        output_data = {
+            'parse_date': datetime.now().isoformat(),
+            'total_vacancies': sum(len(v) for v in vacancies.values()),
+            'regions_count': len(vacancies),
+            'vacancies_by_region': vacancies
+        }
+        
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(output_data, f, ensure_ascii=False, indent=2)
+        
+        logger.info(f"Сохранено {output_data['total_vacancies']} вакансий в файл {filename}")
+    
+    def get_vacancy_ids_with_details(self, vacancies: List[Dict], max_details: int = 100) -> List[Dict]:
+        """Получить детальную информацию для списка вакансий"""
+        detailed_vacancies = []
+        
+        for i, vacancy in enumerate(vacancies[:max_details]):
+            if i > 0 and i % 10 == 0:
+                logger.info(f"Получено деталей: {i}/{min(len(vacancies), max_details)}")
+                time.sleep(1)  # Дополнительная задержка каждые 10 запросов
+            
+            details = self.get_vacancy_details(vacancy['id'])
+            if details:
+                detailed_vacancies.append(details)
+            
+            time.sleep(0.5)  # Задержка между запросами
+        
+        return detailed_vacancies
 
 
-def collect_all_vacancies() -> List[Dict]:
-    """
-    Собирает все вакансии со всех страниц
+# Дополнительные стратегии для оптимизации
+
+class OptimizedHHParser(HHVacancyParser):
+    """Расширенный парсер с дополнительными оптимизациями"""
     
-    Returns:
-        Список всех найденных вакансий
-    """
-    all_vacancies = []
-    page = 0
-    total_pages = None
+    def __init__(self):
+        super().__init__()
+        
+        # Группировка регионов по федеральным округам для параллельной обработки
+        self.federal_districts = {
+            'central': [1, 32, 35, 38, 40, 41, 42, 44, 48, 50, 53, 54, 55, 62, 66, 2019],
+            'northwest': [2, 49, 52, 58, 60, 68, 82, 87],
+            'south': [10, 16, 45, 46, 51, 73, 93],
+            'north_caucasus': [27, 57, 64, 76],
+            'volga': [5, 6, 11, 18, 20, 22, 25, 36, 37, 61, 71, 79, 90],
+            'ural': [3, 7, 43, 52],
+            'siberian': [4, 12, 21, 23, 28, 30, 31, 65, 72, 85, 99],
+            'far_east': [24, 26, 67, 84, 96, 97]
+        }
     
-    print("Начинаем сбор вакансий...")
-    print(f"Параметры поиска:")
-    print(f"  - Текст: '{SEARCH_PARAMS['text']}'")
-    print(f"  - Регион: Россия")
-    print(f"  - Формат работы: Удалённо")
-    print(f"  - Поиск в: названии вакансии")
-    print("-" * 50)
+    def get_vacancies_with_filters(self, region_id: int, filters: Dict) -> List[Dict]:
+        """Получить вакансии с дополнительными фильтрами для уменьшения количества страниц"""
+        vacancies = []
+        
+        # Базовые параметры
+        base_params = {
+            'area': region_id,
+            'per_page': 50,  # Увеличиваем для меньшего количества запросов
+            **filters
+        }
+        
+        # Стратегия разбиения по зарплатам
+        salary_ranges = [
+            {'salary': None},  # Без указания зарплаты
+            {'salary': 30000, 'only_with_salary': True},
+            {'salary': 50000, 'only_with_salary': True},
+            {'salary': 100000, 'only_with_salary': True},
+            {'salary': 200000, 'only_with_salary': True}
+        ]
+        
+        for salary_filter in salary_ranges:
+            params = {**base_params, **salary_filter}
+            page = 0
+            
+            while page < 40:  # Ограничиваем количество страниц для каждого диапазона
+                params['page'] = page
+                
+                try:
+                    response = self.session.get(self.base_url, params=params)
+                    if response.status_code == 200:
+                        data = response.json()
+                        items = data.get('items', [])
+                        if not items:
+                            break
+                        vacancies.extend(items)
+                        page += 1
+                        time.sleep(0.3)
+                    else:
+                        break
+                except Exception as e:
+                    logger.error(f"Ошибка при получении вакансий: {e}")
+                    break
+        
+        # Удаляем дубликаты
+        unique_vacancies = {v['id']: v for v in vacancies}
+        return list(unique_vacancies.values())
     
-    while True:
-        # Получаем страницу
-        data = get_vacancies_page(page)
+    def parse_by_schedule(self) -> Dict[int, List[Dict]]:
+        """Парсинг с учетом расписания для разных типов вакансий"""
+        all_vacancies = {}
         
-        if data is None:
-            print(f"Не удалось получить страницу {page}. Пропускаем...")
-            page += 1
-            continue
+        # Разные стратегии для разных дней
+        today = datetime.now().weekday()
         
-        # На первой странице узнаем общее количество
-        if total_pages is None:
-            total_pages = data.get('pages', 0)
-            total_found = data.get('found', 0)
-            print(f"Найдено вакансий: {total_found}")
-            print(f"Страниц для обработки: {total_pages}")
-            print("-" * 50)
+        if today in [0, 2, 4]:  # Понедельник, среда, пятница - крупные города
+            target_regions = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        elif today in [1, 3]:  # Вторник, четверг - средние города
+            target_regions = self.regions[10:50]
+        else:  # Выходные - остальные регионы
+            target_regions = self.regions[50:]
         
-        # Обрабатываем вакансии на странице
-        items = data.get('items', [])
-        for item in items:
-            vacancy = parse_vacancy(item)
-            all_vacancies.append(vacancy)
+        for region_id in target_regions:
+            vacancies = self.get_vacancies_for_region(region_id)
+            if vacancies:
+                all_vacancies[region_id] = vacancies
+            time.sleep(1.5)
         
-        # Выводим прогресс
-        print(f"Обработано страниц: {page + 1}/{total_pages} | Собрано вакансий: {len(all_vacancies)}")
-        
-        # Проверяем, есть ли еще страницы
-        page += 1
-        if page >= total_pages:
-            break
-        
-        # Задержка между запросами
-        time.sleep(REQUEST_DELAY)
-    
-    return all_vacancies
+        return all_vacancies
 
 
-def save_vacancies(vacancies: List[Dict], filename: str = 'hh_vacancies_fullDay.json'):
-    """
-    Сохраняет вакансии в JSON файл
-    
-    Args:
-        vacancies: Список вакансий
-        filename: Имя файла для сохранения
-    """
-    output = {
-        'source': 'hh.ru',
-        'search_params': {
-            'text': SEARCH_PARAMS['text'],
-            'area': 'Россия',
-            'schedule': 'Удалённая работа',
-            'search_field': 'В названии вакансии'
-        },
-        'updated': datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ'),
-        'total_count': len(vacancies),
-        'vacancies': vacancies
-    }
-    
-    with open(filename, 'w', encoding='utf-8') as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
-    
-    print(f"\n✅ Файл {filename} успешно создан!")
-    print(f"📊 Всего сохранено вакансий: {len(vacancies)}")
-
-
-def print_statistics(vacancies: List[Dict]):
-    """
-    Выводит статистику по собранным вакансиям
-    
-    Args:
-        vacancies: Список вакансий
-    """
-    print("\n📈 Статистика по вакансиям:")
-    print("-" * 50)
-    
-    # Топ компаний
-    companies = {}
-    for v in vacancies:
-        company = v['company']
-        companies[company] = companies.get(company, 0) + 1
-    
-    top_companies = sorted(companies.items(), key=lambda x: x[1], reverse=True)[:10]
-    print("\n🏢 Топ-10 компаний по количеству вакансий:")
-    for i, (company, count) in enumerate(top_companies, 1):
-        print(f"{i:2d}. {company}: {count} вакансий")
-    
-    # Статистика по зарплатам
-    with_salary = sum(1 for v in vacancies if v['salary'] != 'не указана')
-    print(f"\n💰 Вакансий с указанной зарплатой: {with_salary} ({with_salary/len(vacancies)*100:.1f}%)")
-    
-    # Статистика по регионам
-    regions = {}
-    for v in vacancies:
-        region = v['area']
-        regions[region] = regions.get(region, 0) + 1
-    
-    top_regions = sorted(regions.items(), key=lambda x: x[1], reverse=True)[:10]
-    print("\n🌍 Топ-10 регионов:")
-    for i, (region, count) in enumerate(top_regions, 1):
-        print(f"{i:2d}. {region}: {count} вакансий")
-
-
-def main():
-    """
-    Основная функция программы
-    """
-    try:
-        # Собираем все вакансии
-        vacancies = collect_all_vacancies()
-        
-        if not vacancies:
-            print("❌ Не удалось найти ни одной вакансии")
-            return
-        
-        # Сохраняем результаты
-        save_vacancies(vacancies)
-        
-        # Выводим статистику
-        print_statistics(vacancies)
-        
-    except KeyboardInterrupt:
-        print("\n\n⚠️ Сбор вакансий прерван пользователем")
-    except Exception as e:
-        print(f"\n❌ Произошла ошибка: {e}")
-
-
+# Пример использования
 if __name__ == "__main__":
-    main()
+    # Базовый парсер
+    parser = HHVacancyParser()
+    
+    # Парсинг вакансий за последние сутки
+    vacancies = parser.parse_all_regions()
+    
+    # Сохранение результатов
+    parser.save_vacancies(vacancies, f"vacancies_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json")
+    
+    # Для получения деталей по некоторым вакансиям
+    if vacancies and 1 in vacancies:  # Если есть вакансии из Москвы
+        moscow_vacancies = vacancies[1][:10]  # Первые 10 вакансий
+        detailed = parser.get_vacancy_ids_with_details(moscow_vacancies)
+        
+        with open("detailed_vacancies.json", "w", encoding="utf-8") as f:
+            json.dump(detailed, f, ensure_ascii=False, indent=2)
