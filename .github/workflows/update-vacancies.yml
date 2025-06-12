@@ -2,8 +2,8 @@ name: Update Vacancies
 
 on:
   schedule:
-    # Запуск каждые 6 часов
-    - cron: '0 */6 * * *'
+    # Запуск каждый 1 часов
+    - cron: '0 */1 * * *'
   workflow_dispatch: # Ручной запуск
 
 jobs:
