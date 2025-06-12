@@ -25,24 +25,12 @@ jobs:
     - name: Run vacancy updater
       run: python update_vacancies.py
     
-    - name: Deploy to FTP
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-      with:
-        server: ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: /home/c54971/gradelift.ru/www/Vacancy/
-        exclude: |
-          **/.git*
-          **/.git*/**
-          **/node_modules/**
-          .github/**
-          *.py
-          *.md
-          *.yml
-          .gitignore
-        include: |
-          hh_vacancies.json
+    - name: Upload to FTP via curl
+      run: |
+        curl -T hh_vacancies.json \
+          ftp://${{ secrets.FTP_SERVER }}/home/c54971/gradelift.ru/www/Vacancy/ \
+          --user ${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }} \
+          --ftp-create-dirs
     
     - name: Commit to GitHub
       run: |
