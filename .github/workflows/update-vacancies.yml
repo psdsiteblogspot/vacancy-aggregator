@@ -5,15 +5,11 @@ on:
     # Запуск каждые 6 часов
     - cron: '0 */6 * * *'
   workflow_dispatch: # Ручной запуск
-    inputs:
-      force_update:
-        description: 'Принудительное обновление'
-        required: false
-        default: 'false'
 
 jobs:
   update-vacancies:
     runs-on: ubuntu-latest
+    timeout-minutes: 30  # Увеличиваем таймаут для сбора детальной информации
     
     steps:
       - name: Checkout repository
@@ -29,51 +25,48 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
           
-      - name: Update vacancies data
+      - name: Create enhanced vacancy collector script
         run: |
-          # Переходим в корневую папку проекта
-          cd ${{ github.workspace }}
-          
-          echo "=== Информация о текущем JSON файле ==="
-          if [ -f "hh_vacancies.json" ]; then
-            ls -la hh_vacancies.json
-            echo "Количество вакансий в старом файле:"
-            grep -o '"id"' hh_vacancies.json | wc -l || echo "0"
-          else
-            echo "Файл hh_vacancies.json не найден"
-          fi
-          
-          # Создаем скрипт для сбора ВСЕХ вакансий
-          cat > update_all_vacancies.py << 'EOF'
+          cat > collect_vacancies.py << 'EOF'
           import requests
           import json
-          import os
           import time
           from datetime import datetime
+          from typing import List, Dict, Optional, Set
+          import re
           
-          def collect_all_vacancies():
-              """Собирает ВСЕ вакансии со всех страниц"""
-              print("=== СБОР ВСЕХ ВАКАНСИЙ СИСТЕМНОГО АДМИНИСТРАТОРА (УДАЛЕНКА) ===")
-              print(f"Время начала: {datetime.now()}")
+          # API HH.ru
+          BASE_URL = "https://api.hh.ru/vacancies"
+          VACANCY_DETAIL_URL = "https://api.hh.ru/vacancies/{id}"
+          
+          # Заголовки для запросов
+          HEADERS = {
+              'User-Agent': 'VacancyAggregator/2.0 (https://gradelift.ru)'
+          }
+          
+          # Задержка между запросами (в секундах)
+          REQUEST_DELAY = 0.3
+          
+          # Ключевые слова для поиска
+          SEARCH_KEYWORDS = [
+              'системный администратор',
+              'сисадмин',
+              'system administrator'
+          ]
+          
+          
+          def get_vacancies_by_keyword(keyword: str) -> List[Dict]:
+              """Получает все вакансии по одному ключевому слову"""
+              print(f"\n🔍 Поиск по ключевому слову: '{keyword}'")
               
-              url = "https://api.hh.ru/vacancies"
-              headers = {'User-Agent': 'VacancyBot/1.0'}
-              
-              # ПРАВИЛЬНЫЕ параметры с фильтрами
               params = {
-                  'text': 'системный администратор',
+                  'text': keyword,
                   'area': '113',              # Россия
-                  'schedule': 'remote',        # Удаленная работа
-                  'search_field': 'name',      # Искать в названии
-                  'per_page': '100',           # Максимум на страницу
+                  'schedule': 'remote',       # Удаленная работа
+                  'search_field': 'name',     # Искать в названии
+                  'per_page': '100',          # Максимум на страницу
                   'page': '0'
               }
-              
-              print(f"📋 Параметры поиска:")
-              print(f"   - Текст: {params['text']}")
-              print(f"   - Регион: Россия")
-              print(f"   - График: Удаленная работа")
-              print(f"   - Поиск в: названии вакансии")
               
               all_vacancies = []
               page = 0
@@ -83,61 +76,47 @@ jobs:
                   params['page'] = str(page)
                   
                   try:
-                      print(f"\n🔄 Запрос страницы {page + 1}...")
-                      response = requests.get(url, params=params, headers=headers, timeout=30)
+                      response = requests.get(BASE_URL, params=params, headers=HEADERS, timeout=30)
                       
                       if response.status_code == 200:
                           data = response.json()
                           
-                          # На первой странице узнаем общее количество
                           if total_pages is None:
                               total_pages = data.get('pages', 0)
                               total_found = data.get('found', 0)
-                              print(f"📊 Найдено всего: {total_found} вакансий")
-                              print(f"📄 Страниц для обработки: {total_pages}")
+                              print(f"   Найдено: {total_found} вакансий ({total_pages} страниц)")
                           
                           items = data.get('items', [])
-                          print(f"✅ Получено {len(items)} вакансий на странице {page + 1}")
+                          all_vacancies.extend(items)
                           
-                          # Обрабатываем вакансии
-                          for item in items:
-                              vacancy = {
-                                  'id': item.get('id'),
-                                  'name': item.get('name', ''),
-                                  'company': item.get('employer', {}).get('name', '') if item.get('employer') else '',
-                                  'company_url': item.get('employer', {}).get('alternate_url', '') if item.get('employer') else '',
-                                  'url': item.get('alternate_url', ''),
-                                  'published_at': item.get('published_at', ''),
-                                  'area': item.get('area', {}).get('name', '') if item.get('area') else '',
-                                  'salary': format_salary(item.get('salary')),
-                                  'experience': item.get('experience', {}).get('name', '') if item.get('experience') else '',
-                                  'employment': item.get('employment', {}).get('name', '') if item.get('employment') else '',
-                                  'schedule': item.get('schedule', {}).get('name', '') if item.get('schedule') else '',
-                                  'requirement': item.get('snippet', {}).get('requirement', '') if item.get('snippet') else '',
-                                  'responsibility': item.get('snippet', {}).get('responsibility', '') if item.get('snippet') else ''
-                              }
-                              all_vacancies.append(vacancy)
-                          
-                          # Переход к следующей странице
                           page += 1
                           if page >= total_pages:
-                              print(f"\n✅ Обработаны все {total_pages} страниц")
                               break
                           
-                          # Задержка между запросами
-                          time.sleep(0.5)
-                          
+                          time.sleep(REQUEST_DELAY)
                       else:
-                          print(f"❌ Ошибка API на странице {page + 1}: {response.status_code}")
+                          print(f"   ❌ Ошибка API: {response.status_code}")
                           break
                           
                   except Exception as e:
-                      print(f"❌ Ошибка при запросе страницы {page + 1}: {e}")
+                      print(f"   ❌ Ошибка: {e}")
                       break
               
+              print(f"   ✅ Собрано: {len(all_vacancies)} вакансий")
               return all_vacancies
           
-          def format_salary(salary_data):
+          
+          def clean_html(html_text: str) -> str:
+              """Очищает HTML теги из текста"""
+              if not html_text:
+                  return ""
+              clean = re.sub('<.*?>', '', html_text)
+              clean = clean.replace('&nbsp;', ' ').replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>')
+              clean = ' '.join(clean.split())
+              return clean
+          
+          
+          def format_salary(salary_data: Dict) -> str:
               """Форматирует информацию о зарплате"""
               if not salary_data:
                   return "не указана"
@@ -147,57 +126,136 @@ jobs:
               currency = salary_data.get('currency', 'RUR')
               gross = salary_data.get('gross', False)
               
+              if salary_from:
+                  salary_from = f"{salary_from:,}".replace(',', ' ')
+              if salary_to:
+                  salary_to = f"{salary_to:,}".replace(',', ' ')
+              
               if salary_from and salary_to:
-                  result = f"от {salary_from:,} до {salary_to:,} {currency}".replace(',', ' ')
+                  result = f"{salary_from} - {salary_to} {currency}"
               elif salary_from:
-                  result = f"от {salary_from:,} {currency}".replace(',', ' ')
+                  result = f"от {salary_from} {currency}"
               elif salary_to:
-                  result = f"до {salary_to:,} {currency}".replace(',', ' ')
+                  result = f"до {salary_to} {currency}"
               else:
                   return "не указана"
               
               if gross:
-                  result += " (до вычета налогов)"
+                  result += " до вычета налогов"
               else:
-                  result += " (на руки)"
+                  result += " на руки"
               
               return result
           
-          def main():
-              # Удаляем старый файл
-              filename = 'hh_vacancies.json'
-              if os.path.exists(filename):
-                  os.remove(filename)
-                  print(f"✅ Старый файл удален")
+          
+          def parse_vacancy(item: Dict) -> Dict:
+              """Парсит данные вакансии"""
+              vacancy = {
+                  'id': item.get('id', ''),
+                  'name': item.get('name', ''),
+                  'company': item.get('employer', {}).get('name', ''),
+                  'company_id': item.get('employer', {}).get('id', ''),
+                  'company_url': item.get('employer', {}).get('alternate_url', ''),
+                  'company_logo': item.get('employer', {}).get('logo_urls', {}).get('original', ''),
+                  'url': item.get('alternate_url', ''),
+                  'published_at': item.get('published_at', ''),
+                  'created_at': item.get('created_at', ''),
+                  'area': item.get('area', {}).get('name', ''),
+                  'salary': format_salary(item.get('salary')),
+                  'salary_raw': item.get('salary'),
+                  'experience': item.get('experience', {}).get('name', ''),
+                  'schedule': item.get('schedule', {}).get('name', ''),
+                  'employment': item.get('employment', {}).get('name', ''),
+                  'requirement': clean_html(item.get('snippet', {}).get('requirement', '')),
+                  'responsibility': clean_html(item.get('snippet', {}).get('responsibility', '')),
+                  'type': item.get('type', {}).get('name', ''),
+                  'professional_roles': [role.get('name', '') for role in item.get('professional_roles', [])],
+                  'has_test': item.get('has_test', False),
+                  'premium': item.get('premium', False),
+                  'accept_handicapped': item.get('accept_handicapped', False),
+                  'accept_kids': item.get('accept_kids', False),
+                  'accept_temporary': item.get('accept_temporary', False)
+              }
               
-              # Собираем все вакансии
-              vacancies = collect_all_vacancies()
+              return vacancy
+          
+          
+          def collect_all_vacancies() -> List[Dict]:
+              """Собирает все вакансии по всем ключевым словам"""
+              print("=== СБОР ВСЕХ ВАКАНСИЙ ПО СИСТЕМНОМУ АДМИНИСТРИРОВАНИЮ ===")
+              print(f"Время начала: {datetime.now()}")
+              print(f"Ключевые слова для поиска: {', '.join(SEARCH_KEYWORDS)}")
               
-              print(f"\n📊 ИТОГО собрано вакансий: {len(vacancies)}")
+              unique_vacancy_ids: Set[str] = set()
+              all_vacancies: List[Dict] = []
               
-              # Создаем результат
-              result = {
+              for keyword in SEARCH_KEYWORDS:
+                  vacancies = get_vacancies_by_keyword(keyword)
+                  
+                  new_count = 0
+                  for item in vacancies:
+                      vacancy_id = item.get('id')
+                      if vacancy_id and vacancy_id not in unique_vacancy_ids:
+                          unique_vacancy_ids.add(vacancy_id)
+                          vacancy = parse_vacancy(item)
+                          all_vacancies.append(vacancy)
+                          new_count += 1
+                          
+                          if len(all_vacancies) % 25 == 0:
+                              print(f"   📊 Обработано вакансий: {len(all_vacancies)}")
+                  
+                  print(f"   📌 Новых уникальных вакансий: {new_count}")
+              
+              all_vacancies.sort(key=lambda x: x.get('published_at', ''), reverse=True)
+              
+              return all_vacancies
+          
+          
+          def save_vacancies(vacancies: List[Dict], filename: str = 'hh_vacancies.json'):
+              """Сохраняет вакансии в JSON файл"""
+              stats = {
+                  'total': len(vacancies),
+                  'with_salary': sum(1 for v in vacancies if v['salary'] != 'не указана'),
+                  'companies': len(set(v['company'] for v in vacancies if v['company'])),
+                  'cities': len(set(v['area'] for v in vacancies if v['area'])),
+                  'premium': sum(1 for v in vacancies if v.get('premium', False)),
+                  'with_test': sum(1 for v in vacancies if v.get('has_test', False))
+              }
+              
+              output = {
                   'source': 'hh.ru',
+                  'search_keywords': SEARCH_KEYWORDS,
                   'search_params': {
-                      'text': 'системный администратор',
                       'area': 'Россия',
                       'schedule': 'Удалённая работа',
                       'search_field': 'В названии вакансии'
                   },
                   'updated': datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ'),
-                  'total_count': len(vacancies),
+                  'statistics': stats,
                   'vacancies': vacancies
               }
               
-              # Сохраняем файл
               with open(filename, 'w', encoding='utf-8') as f:
-                  json.dump(result, f, ensure_ascii=False, indent=2)
+                  json.dump(output, f, ensure_ascii=False, indent=2)
               
-              print(f"✅ Файл {filename} создан")
-              print(f"📁 Размер файла: {os.path.getsize(filename)} байт")
-              
-              # Выводим статистику
-              if vacancies:
+              print(f"\n✅ Файл {filename} успешно создан!")
+              print(f"📊 Статистика:")
+              for key, value in stats.items():
+                  print(f"   - {key}: {value}")
+          
+          
+          def main():
+              """Основная функция"""
+              try:
+                  vacancies = collect_all_vacancies()
+                  
+                  if not vacancies:
+                      print("\n❌ Не удалось найти ни одной вакансии")
+                      return False
+                  
+                  save_vacancies(vacancies)
+                  
+                  # Топ компаний
                   companies = {}
                   for v in vacancies:
                       company = v['company']
@@ -208,35 +266,47 @@ jobs:
                   print("\n🏢 Топ-5 компаний:")
                   for company, count in top_companies:
                       print(f"   - {company}: {count} вакансий")
-              
-              return len(vacancies) > 0
+                  
+                  print("\n✨ Готово!")
+                  return True
+                  
+              except Exception as e:
+                  print(f"\n❌ Произошла ошибка: {e}")
+                  import traceback
+                  traceback.print_exc()
+                  return False
+          
           
           if __name__ == "__main__":
               success = main()
-              print(f"\n🏁 Результат: {'УСПЕХ' if success else 'ОШИБКА'}")
               exit(0 if success else 1)
           EOF
           
-          # Запускаем скрипт
-          python update_all_vacancies.py
+      - name: Collect vacancies
+        run: |
+          echo "=== Старт сбора вакансий ==="
+          python collect_vacancies.py
           
+      - name: Verify results
+        run: |
           echo ""
-          echo "=== Информация о файле после обновления ==="
+          echo "=== Проверка результатов ==="
           if [ -f "hh_vacancies.json" ]; then
-            ls -la hh_vacancies.json
-            echo "Количество вакансий в новом файле:"
-            grep -o '"id"' hh_vacancies.json | wc -l || echo "0"
+            FILE_SIZE=$(stat -f%z "hh_vacancies.json" 2>/dev/null || stat -c%s "hh_vacancies.json")
+            VACANCY_COUNT=$(grep -o '"id"' hh_vacancies.json | wc -l)
+            echo "✅ Файл создан"
+            echo "📁 Размер: $FILE_SIZE байт"
+            echo "📊 Вакансий: $VACANCY_COUNT"
             echo ""
-            echo "Первые 3 вакансии:"
-            head -50 hh_vacancies.json | grep -E '"name"|"company"' | head -6
+            echo "🔍 Примеры вакансий:"
+            grep -A1 '"name"' hh_vacancies.json | head -10
           else
-            echo "ОШИБКА: Файл hh_vacancies.json не был создан!"
+            echo "❌ Файл не создан!"
+            exit 1
           fi
           
       - name: Commit and push changes
         run: |
-          cd ${{ github.workspace }}
-          
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
@@ -246,7 +316,8 @@ jobs:
             echo "⚠️ Нет изменений для коммита"
           else
             VACANCY_COUNT=$(grep -o '"id"' hh_vacancies.json | wc -l || echo "0")
-            git commit -m "🔄 Обновление вакансий: найдено $VACANCY_COUNT вакансий $(date '+%Y-%m-%d %H:%M:%S')"
+            COMPANY_COUNT=$(grep -o '"company"' hh_vacancies.json | sort -u | wc -l || echo "0")
+            git commit -m "🔄 Обновление вакансий: $VACANCY_COUNT вакансий от $COMPANY_COUNT компаний [$(date '+%Y-%m-%d %H:%M')]"
             git push
           fi
           
@@ -262,25 +333,12 @@ jobs:
           server-dir: "www/Vacancy/"
           state-name: ".ftp-deploy-sync-state.json"
           dry-run: false
-          log-level: verbose
-          dangerous-clean-slate: false
+          log-level: standard
           exclude: |
             **/.git*
             **/.git*/**
             **/node_modules/**
             **/.github/**
             **/README.md
-            **/update_vacancies.py
-            **/update_all_vacancies.py
-            **/simple_update.py
-            
-      - name: Verify deployment
-        run: |
-          echo "=== Проверка успешности деплоя ==="
-          echo "Количество вакансий в файле:"
-          grep -o '"id"' hh_vacancies.json | wc -l || echo "0"
-          echo ""
-          echo "Дата обновления:"
-          grep -o '"updated":[^,]*' hh_vacancies.json || echo "updated не найден"
-          echo ""
-          echo "✅ Деплой завершен. Проверьте файл на сервере."
+            **/*.py
+            **/.ftp-deploy-sync-state.json
