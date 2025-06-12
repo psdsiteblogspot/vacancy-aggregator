@@ -25,7 +25,18 @@ jobs:
     - name: Run vacancy updater
       run: python update_vacancies.py
     
-    - name: Commit and push if changed
+    - name: Upload to FTP
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./
+        server-dir: /home/c54971/gradelift.ru/www/Vacancy/
+        include: |
+          hh_vacancies.json
+    
+    - name: Commit to GitHub (optional)
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
