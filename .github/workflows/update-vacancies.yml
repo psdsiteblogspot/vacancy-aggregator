@@ -1,8 +1,5 @@
 name: Update Vacancies
 
-on:
-  schedule:
-    # Запуск каждый 1 часов
     on:
   schedule:
     - cron: '5 */2 * * *'     # 00:05, 02:05, 04:05... 
