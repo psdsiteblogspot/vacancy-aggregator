@@ -3,7 +3,8 @@ name: update-vacancies-fullDay_2
 on:
   schedule:
     # Запуск каждый 1 часов
-    - cron: '0 */1 * * *'
+    - cron: '25 */2 * * *'    # 00:25, 02:25, 04:25...
+    - cron: '35 1,3,5,7,9,11,13,15,17,19,21,23 * * *'  # 01:35, 03:35...
   workflow_dispatch: # Ручной запуск
 
 jobs:
