@@ -10,16 +10,77 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-06-13T06:55:02Z",
+  "updated": "2025-06-13T07:33:24Z",
   "statistics": {
-    "total": 121,
-    "with_salary": 46,
+    "total": 122,
+    "with_salary": 47,
     "companies": 108,
     "cities": 3,
     "premium": 0,
     "with_test": 13
   },
   "vacancies": [
+    {
+      "id": "121615582",
+      "name": "Системный администратор",
+      "company": "Никулина Виктория Павловна",
+      "company_id": "12039550",
+      "company_url": "https://hh.ru/employer/12039550",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1428447.png",
+      "url": "https://hh.ru/vacancy/121615582",
+      "published_at": "2025-06-13T10:17:29+0300",
+      "created_at": "2025-06-13T10:17:29+0300",
+      "area": "Москва",
+      "salary": "60 000 - 120 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 60000,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Частичная занятость",
+      "requirement": "Знание ОС Windows, Linux и аппаратной составляющей. Знание принципов информационной безопасности. Опыт работы с веб-серверам. Ответственность, самостоятельность, организованность.",
+      "responsibility": "Удаленное обслуживание серверов. Настройка и поддержка корпоративной сети. Мониторинг состояния компьютерной техники. Введение технической документации.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
+      "id": "120958929",
+      "name": "Системный администратор",
+      "company": "PIX Robotics",
+      "company_id": "4570942",
+      "company_url": "https://hh.ru/employer/4570942",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1027079.png",
+      "url": "https://hh.ru/vacancy/120958929",
+      "published_at": "2025-06-13T09:54:04+0300",
+      "created_at": "2025-06-13T09:54:04+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Опыт администрирования серверов на Windows Server и ОС Linux. Опыт работы с облачными ресурсами, в частности vmWare vCloud.",
+      "responsibility": "Выполнением DevOps задач для внутренних и внешних заказчиков по продуктам компании PIX: PIX BI, PIX RPA, PIX PM.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "120949366",
       "name": "Системный администратор",
@@ -991,34 +1052,6 @@
       "employment": "Полная занятость",
       "requirement": "Понимаете, как реализован сетевой стек. Имеете практический опыт траблшутинга и дебага. Применяли практики CI/CD, работали с Ansible.",
       "responsibility": "Готовы проводить код ревью и писать документацию. Создавать, внедрять и поддерживать высоконагруженные, геораспределенные, отказоустойчивые решения. Готовы эксплуатировать системы высокой доступности...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120958929",
-      "name": "Системный администратор",
-      "company": "PIX Robotics",
-      "company_id": "4570942",
-      "company_url": "https://hh.ru/employer/4570942",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1027079.png",
-      "url": "https://hh.ru/vacancy/120958929",
-      "published_at": "2025-06-10T09:54:04+0300",
-      "created_at": "2025-06-10T09:54:04+0300",
-      "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Опыт администрирования серверов на Windows Server и ОС Linux. Опыт работы с облачными ресурсами, в частности vmWare vCloud.",
-      "responsibility": "Выполнением DevOps задач для внутренних и внешних заказчиков по продуктам компании PIX: PIX BI, PIX RPA, PIX PM.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
