@@ -10,16 +10,44 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-06-14T15:47:46Z",
+  "updated": "2025-06-14T16:53:15Z",
   "statistics": {
-    "total": 877,
-    "with_salary": 667,
-    "companies": 680,
+    "total": 875,
+    "with_salary": 665,
+    "companies": 679,
     "cities": 148,
     "premium": 1,
     "with_test": 11
   },
   "vacancies": [
+    {
+      "id": "120836268",
+      "name": "Системный администратор",
+      "company": "ITooLabs",
+      "company_id": "53879",
+      "company_url": "https://hh.ru/employer/53879",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1400745.png",
+      "url": "https://hh.ru/vacancy/120836268",
+      "published_at": "2025-06-14T18:40:19+0300",
+      "created_at": "2025-06-14T18:40:19+0300",
+      "area": "Тула",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт администрирования серверов на базе Linux. Навыки администрирования рабочих станций и серверов на базе Windows. Опыт работы с Ansible.",
+      "responsibility": "Эксплуатация физической и виртуальной серверной инфраструктуры (Linux, Windows). Настройка и обслуживание гипервизоров, СХД, сетевого оборудования (в т.ч.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "121579046",
       "name": "Системный администратор",
@@ -2821,34 +2849,6 @@
       "employment": "Полная занятость",
       "requirement": "Вы уверенный системный администратор с навыками настройки Windows и Linux систем? Уверенно разбираетесь в сетях IPv4? Стремитесь или уже...",
       "responsibility": "Администрирование виртуальных и физических серверов (преимущественно Ubuntu). Администрирование Git сервера, настройка CI/CD. Администрирование серверов nginx. Настройка Docker контейнеров для...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120836268",
-      "name": "Системный администратор",
-      "company": "ITooLabs",
-      "company_id": "53879",
-      "company_url": "https://hh.ru/employer/53879",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1400745.png",
-      "url": "https://hh.ru/vacancy/120836268",
-      "published_at": "2025-06-11T18:40:19+0300",
-      "created_at": "2025-06-11T18:40:19+0300",
-      "area": "Тула",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт администрирования серверов на базе Linux. Навыки администрирования рабочих станций и серверов на базе Windows. Опыт работы с Ansible.",
-      "responsibility": "Эксплуатация физической и виртуальной серверной инфраструктуры (Linux, Windows). Настройка и обслуживание гипервизоров, СХД, сетевого оборудования (в т.ч.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -10663,16 +10663,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121375009",
+      "id": "121375008",
       "name": "Системный администратор",
       "company": "LAB Industries",
       "company_id": "9821",
       "company_url": "https://hh.ru/employer/9821",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1394206.png",
-      "url": "https://hh.ru/vacancy/121375009",
+      "url": "https://hh.ru/vacancy/121375008",
       "published_at": "2025-06-05T11:30:19+0300",
       "created_at": "2025-06-05T11:30:19+0300",
-      "area": "Энгельс",
+      "area": "Саратов",
       "salary": "до 100 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -10696,16 +10696,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121375008",
+      "id": "121375009",
       "name": "Системный администратор",
       "company": "LAB Industries",
       "company_id": "9821",
       "company_url": "https://hh.ru/employer/9821",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1394206.png",
-      "url": "https://hh.ru/vacancy/121375008",
+      "url": "https://hh.ru/vacancy/121375009",
       "published_at": "2025-06-05T11:30:19+0300",
       "created_at": "2025-06-05T11:30:19+0300",
-      "area": "Саратов",
+      "area": "Энгельс",
       "salary": "до 100 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -27838,72 +27838,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Специалист технической поддержки"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120605098",
-      "name": "Системный администратор",
-      "company": "Ретач клаб",
-      "company_id": "6119540",
-      "company_url": "https://hh.ru/employer/6119540",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/120605098",
-      "published_at": "2025-05-15T19:11:52+0300",
-      "created_at": "2025-05-15T19:11:52+0300",
-      "area": "Казань",
-      "salary": "от 20 000 RUR на руки",
-      "salary_raw": {
-        "from": 20000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Влиять на результат и видеть эффект от своей работы.",
-      "responsibility": "Вести коммуникацию с потенциальными клиентами по email, помогать выстраивать диалог и доводить до следующего шага. Следить за состоянием и актуальностью...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120605095",
-      "name": "Системный администратор",
-      "company": "Ретач клаб",
-      "company_id": "6119540",
-      "company_url": "https://hh.ru/employer/6119540",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/120605095",
-      "published_at": "2025-05-15T19:11:52+0300",
-      "created_at": "2025-05-15T19:11:52+0300",
-      "area": "Нижний Новгород",
-      "salary": "от 20 000 RUR на руки",
-      "salary_raw": {
-        "from": 20000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Влиять на результат и видеть эффект от своей работы.",
-      "responsibility": "Вести коммуникацию с потенциальными клиентами по email, помогать выстраивать диалог и доводить до следующего шага. Следить за состоянием и актуальностью...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
       ],
       "has_test": false,
       "premium": false,
