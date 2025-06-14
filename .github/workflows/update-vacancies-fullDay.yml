@@ -3,13 +3,13 @@ name: update-vacancies-fullDay
 on:
   schedule:
     # Запуск каждый 1 часов
-    - cron: '15 * * * *'      # каждый час в 15 минут
+    - cron: '20 * * * *'      # каждый час в 15 минут
   workflow_dispatch: # Ручной запуск
 
 jobs:
   update-vacancies:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 15
     
     steps:
       - name: Checkout repository
