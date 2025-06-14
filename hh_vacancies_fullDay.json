@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-06-14T10:46:17Z",
+  "updated": "2025-06-14T11:30:28Z",
   "statistics": {
-    "total": 1034,
-    "with_salary": 748,
-    "companies": 759,
+    "total": 1033,
+    "with_salary": 747,
+    "companies": 758,
     "cities": 206,
     "premium": 0,
     "with_test": 8
   },
   "vacancies": [
+    {
+      "id": "120819019",
+      "name": "Техник по эксплуатации оргтехники (системный администратор)",
+      "company": "Инсит",
+      "company_id": "999271",
+      "company_url": "https://hh.ru/employer/999271",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/626384.png",
+      "url": "https://hh.ru/vacancy/120819019",
+      "published_at": "2025-06-14T13:47:28+0300",
+      "created_at": "2025-06-14T13:47:28+0300",
+      "area": "Челябинск",
+      "salary": "от 50 000 RUR на руки",
+      "salary_raw": {
+        "from": 50000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Среднее профессиональное образование. Уверенное пользование ПК. Хорошее здоровье. Знание и умение работать с ОС Windows, ОС Linux, MS Office, 1...",
+      "responsibility": "Обеспечивать бесперебойную работу оргтехники. Выявлять и устранять причины неисправностей в работе оргтехники. Осуществлять настройку, техническое обслуживание оргтехники.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121221912",
+      "name": "Системный администратор/техник",
+      "company": "УК Северный Берег",
+      "company_id": "10110050",
+      "company_url": "https://hh.ru/employer/10110050",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/121221912",
+      "published_at": "2025-06-14T13:15:38+0300",
+      "created_at": "2025-06-14T13:15:38+0300",
+      "area": "Сургут",
+      "salary": "от 50 000 RUR на руки",
+      "salary_raw": {
+        "from": 50000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание и понимание работы основных сетевых сервисов, основных сетевых протоколов, принципов работы компьютерных сетей. Знания операционных систем. Знания почтовых служб...",
+      "responsibility": "Техническая поддержка и консультирование пользователей. Антивирусная защита, обеспечение информационной безопасности. Настройка, внедрение терминальных станций.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "118899798",
       "name": "Младший системный администратор",
@@ -4282,39 +4348,6 @@
       "accept_temporary": false
     },
     {
-      "id": "120819019",
-      "name": "Техник по эксплуатации оргтехники (системный администратор)",
-      "company": "Инсит",
-      "company_id": "999271",
-      "company_url": "https://hh.ru/employer/999271",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/626384.png",
-      "url": "https://hh.ru/vacancy/120819019",
-      "published_at": "2025-06-11T13:47:28+0300",
-      "created_at": "2025-06-11T13:47:28+0300",
-      "area": "Челябинск",
-      "salary": "от 50 000 RUR на руки",
-      "salary_raw": {
-        "from": 50000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Среднее профессиональное образование. Уверенное пользование ПК. Хорошее здоровье. Знание и умение работать с ОС Windows, ОС Linux, MS Office, 1...",
-      "responsibility": "Обеспечивать бесперебойную работу оргтехники. Выявлять и устранять причины неисправностей в работе оргтехники. Осуществлять настройку, техническое обслуживание оргтехники.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "120482815",
       "name": "Ведущий системный администратор",
       "company": "Центр Семейной Медицины",
@@ -4365,39 +4398,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание принципов работы 1С, Windows Server, развёртывание, настройки, обслуживание. - Знание технологии функционирования и построения сетей, Wi-Fi. -",
       "responsibility": "Конфигурация, настройка и администрирование персональных компьютеров и периферийных устройств. Поддержка локальной (LAN), глобальной (WAN) и телефонной сетей. Конфигурация, настройка и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121221912",
-      "name": "Системный администратор/техник",
-      "company": "УК Северный Берег",
-      "company_id": "10110050",
-      "company_url": "https://hh.ru/employer/10110050",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/121221912",
-      "published_at": "2025-06-11T13:15:38+0300",
-      "created_at": "2025-06-11T13:15:38+0300",
-      "area": "Сургут",
-      "salary": "от 50 000 RUR на руки",
-      "salary_raw": {
-        "from": 50000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание и понимание работы основных сетевых сервисов, основных сетевых протоколов, принципов работы компьютерных сетей. Знания операционных систем. Знания почтовых служб...",
-      "responsibility": "Техническая поддержка и консультирование пользователей. Антивирусная защита, обеспечение информационной безопасности. Настройка, внедрение терминальных станций.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -29974,16 +29974,16 @@
       "accept_temporary": false
     },
     {
-      "id": "120708791",
+      "id": "120708789",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/120708791",
+      "url": "https://hh.ru/vacancy/120708789",
       "published_at": "2025-05-19T13:54:28+0300",
       "created_at": "2025-05-19T13:54:28+0300",
-      "area": "Мирный (Республика Саха (Якутия))",
+      "area": "Айхал",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -30007,16 +30007,16 @@
       "accept_temporary": false
     },
     {
-      "id": "120708789",
+      "id": "120708791",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/120708789",
+      "url": "https://hh.ru/vacancy/120708791",
       "published_at": "2025-05-19T13:54:28+0300",
       "created_at": "2025-05-19T13:54:28+0300",
-      "area": "Айхал",
+      "area": "Мирный (Республика Саха (Якутия))",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -32581,39 +32581,6 @@
       "accept_temporary": false
     },
     {
-      "id": "120592693",
-      "name": "Системный администратор",
-      "company": "ПремьерСтройДизайн",
-      "company_id": "1064350",
-      "company_url": "https://hh.ru/employer/1064350",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/480267.png",
-      "url": "https://hh.ru/vacancy/120592693",
-      "published_at": "2025-05-15T14:53:03+0300",
-      "created_at": "2025-05-15T14:53:03+0300",
-      "area": "Омск",
-      "salary": "от 120 000 RUR на руки",
-      "salary_raw": {
-        "from": 120000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Вахтовый метод",
-      "employment": "Полная занятость",
-      "requirement": "высшее техническое образование (либо среднетехническое). Опыт ремонта и обслуживания компьютерной техники и ЛВС. Опыт в построении ЛВС. Опыт в системном...",
-      "responsibility": "Поддержание работоспособности парка оборудования ИТ (150 АРМ). Поддержание работоспособности ЛВС организации. Поддержание работоспособности серверного оборудования организации. Составление технической документации.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "120592692",
       "name": "Системный администратор",
       "company": "ПремьерСтройДизайн",
@@ -32647,28 +32614,28 @@
       "accept_temporary": false
     },
     {
-      "id": "120589814",
+      "id": "120592693",
       "name": "Системный администратор",
-      "company": "Геба",
-      "company_id": "2236091",
-      "company_url": "https://hh.ru/employer/2236091",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/679543.png",
-      "url": "https://hh.ru/vacancy/120589814",
-      "published_at": "2025-05-15T14:09:49+0300",
-      "created_at": "2025-05-15T14:09:49+0300",
+      "company": "ПремьерСтройДизайн",
+      "company_id": "1064350",
+      "company_url": "https://hh.ru/employer/1064350",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/480267.png",
+      "url": "https://hh.ru/vacancy/120592693",
+      "published_at": "2025-05-15T14:53:03+0300",
+      "created_at": "2025-05-15T14:53:03+0300",
       "area": "Омск",
-      "salary": "от 40 000 RUR на руки",
+      "salary": "от 120 000 RUR на руки",
       "salary_raw": {
-        "from": 40000,
+        "from": 120000,
         "to": null,
         "currency": "RUR",
         "gross": false
       },
       "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
+      "schedule": "Вахтовый метод",
       "employment": "Полная занятость",
-      "requirement": "Профильное образование. Опыт работы в аналогичной должности. Опыт построения и администрирования ЛВС, понимание принципов TCP/IP, технологии VLAN.",
-      "responsibility": "Установка, настройка, обслуживание ПО. Поддержание работоспособности компьютеров (профилактика, ремонт), телефонных и компьютерных сетей, в том числе и прокладка новых линий.",
+      "requirement": "высшее техническое образование (либо среднетехническое). Опыт ремонта и обслуживания компьютерной техники и ЛВС. Опыт в построении ЛВС. Опыт в системном...",
+      "responsibility": "Поддержание работоспособности парка оборудования ИТ (150 АРМ). Поддержание работоспособности ЛВС организации. Поддержание работоспособности серверного оборудования организации. Составление технической документации.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
