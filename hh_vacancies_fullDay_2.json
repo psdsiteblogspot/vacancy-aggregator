@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-06-15T14:47:58Z",
+  "updated": "2025-06-15T15:50:19Z",
   "statistics": {
-    "total": 853,
-    "with_salary": 647,
-    "companies": 663,
+    "total": 851,
+    "with_salary": 646,
+    "companies": 661,
     "cities": 146,
     "premium": 1,
     "with_test": 11
   },
   "vacancies": [
+    {
+      "id": "121485400",
+      "name": "Системный администратор",
+      "company": "Дом Книги, Книготорговая сеть",
+      "company_id": "113756",
+      "company_url": "https://hh.ru/employer/113756",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1393687.png",
+      "url": "https://hh.ru/vacancy/121485400",
+      "published_at": "2025-06-15T17:37:14+0300",
+      "created_at": "2025-06-15T17:37:14+0300",
+      "area": "Казань",
+      "salary": "от 70 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 70000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знания в области технических и программных средств. Знания принципов построения локальных сетей. Знания и навыки администрирования Windows, сетевого оборудования.",
+      "responsibility": "Обработка запросов в системе Service Desk, внутренняя поддержка пользователей. Выполнение заявок в соответствии со сроками и приоритетами. Установка, настройка, диагностика...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "117933656",
       "name": "Системный администратор",
@@ -2539,67 +2572,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание установки и настройки Windows XP/7/8/10. Будет преимуществом опыт конфигурирования роутеров и коммутаторов (маршрутизация, VPN, знание стека...",
       "responsibility": "Работа в офисе (удаленная тех. поддержка) и с выездом к клиентам. Большинство выполняемых задач регламентировано инструкциями. Выполнение регламентных и срочных...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120649051",
-      "name": "Системный администратор Directum/DevOps",
-      "company": "König Labs",
-      "company_id": "1874878",
-      "company_url": "https://hh.ru/employer/1874878",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/601409.jpg",
-      "url": "https://hh.ru/vacancy/120649051",
-      "published_at": "2025-06-12T17:51:29+0300",
-      "created_at": "2025-06-12T17:51:29+0300",
-      "area": "Казань",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Опыт в сфере IT от 5-ти лет в роли системного администратора/DevOps инженера. Опыт внедрения Directum RX и/или...",
-      "responsibility": "Подготовкой к установке системы на ОС Linux и Windows в редких случаях. Базовой установкой системы. Работать с сертификатами.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121485400",
-      "name": "Системный администратор",
-      "company": "Дом Книги, Книготорговая сеть",
-      "company_id": "113756",
-      "company_url": "https://hh.ru/employer/113756",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1393687.png",
-      "url": "https://hh.ru/vacancy/121485400",
-      "published_at": "2025-06-12T17:37:14+0300",
-      "created_at": "2025-06-12T17:37:14+0300",
-      "area": "Казань",
-      "salary": "от 70 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 70000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знания в области технических и программных средств. Знания принципов построения локальных сетей. Знания и навыки администрирования Windows, сетевого оборудования.",
-      "responsibility": "Обработка запросов в системе Service Desk, внутренняя поддержка пользователей. Выполнение заявок в соответствии со сроками и приоритетами. Установка, настройка, диагностика...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -27096,39 +27068,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание принципа построения ЛВС. Тонкая настройка MSSQL. Знание платформ NIX, BSD, WIN. Управление службами AD, DNS, DHCP, TS.",
       "responsibility": "Обеспечение бесперебойной работы локальных сетей организации, серверов, сетевых устройств. Инсталляция и настройка системного программного обеспечения. Осуществление конфигурации программного обеспечения на...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120649411",
-      "name": "Системный администратор",
-      "company": "Плюс Компани",
-      "company_id": "9593873",
-      "company_url": "https://hh.ru/employer/9593873",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1142007.jpg",
-      "url": "https://hh.ru/vacancy/120649411",
-      "published_at": "2025-05-16T17:56:54+0300",
-      "created_at": "2025-05-16T17:56:54+0300",
-      "area": "Владимир",
-      "salary": "от 50 000 RUR на руки",
-      "salary_raw": {
-        "from": 50000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "Устанавливать на серверы и рабочие станции необходимое для работы программное обеспечение. -Поддерживать в работоспособном состоянии программное обеспечение офиса и рабочих...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
