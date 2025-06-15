@@ -10,16 +10,77 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-06-15T17:33:41Z",
+  "updated": "2025-06-15T18:47:30Z",
   "statistics": {
-    "total": 1466,
-    "with_salary": 831,
+    "total": 1465,
+    "with_salary": 830,
     "companies": 1167,
     "cities": 83,
     "premium": 1,
     "with_test": 58
   },
   "vacancies": [
+    {
+      "id": "120459012",
+      "name": "Младший системный администратор",
+      "company": "BlaBlaCar",
+      "company_id": "1460422",
+      "company_url": "https://hh.ru/employer/1460422",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/531670.png",
+      "url": "https://hh.ru/vacancy/120459012",
+      "published_at": "2025-06-15T20:48:45+0300",
+      "created_at": "2025-06-15T20:48:45+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в сфере ИТ-поддержки 1 и 2 уровня. Хорошие коммуникативные навыки: ежедневный контакт с сотрудниками из разных региональных...",
+      "responsibility": "Установка и обеспечение технической рабочей среды для конечных пользователей, в том числе в удаленных офисах компании. Подготовка и удаление учетных...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "120730103",
+      "name": "Системный администратор",
+      "company": "АНО ПО Колледж Мировой Экономики и Передовых Технологий (КМЭПТ)",
+      "company_id": "10267285",
+      "company_url": "https://hh.ru/employer/10267285",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1253267.png",
+      "url": "https://hh.ru/vacancy/120730103",
+      "published_at": "2025-06-15T20:27:52+0300",
+      "created_at": "2025-06-15T20:27:52+0300",
+      "area": "Москва",
+      "salary": "от 93 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 93000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание ОС Windows 10, 11 на уровне уверенного пользователя. MS Office – уверенный пользователь. Знание компьютерного железа на уровне блочного ремонта...",
+      "responsibility": "Поддержание работоспособности парка ПК. Выполнение технических заявок (Help Desk). Оперативное решение возникающих инцидентов. Обслуживание оргтехники. Сборка и ремонт ПК.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "121485294",
       "name": "Ведущий/старший системный администратор",
@@ -43,6 +104,39 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы в сфере ВЭД и с ПО \"Альта-софт\". Умение и желание работать в команде руками, а не просто...",
       "responsibility": "Участие в проектах компании по развитию IT-инфраструктуры. Администрирование доменных служб для функционирования в многодоменной среде: DHCP, DNS, Domain Trusts...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121100697",
+      "name": "Помощник системного администратора",
+      "company": "СКАНДА РУС",
+      "company_id": "5952762",
+      "company_url": "https://hh.ru/employer/5952762",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/927284.png",
+      "url": "https://hh.ru/vacancy/121100697",
+      "published_at": "2025-06-15T20:05:09+0300",
+      "created_at": "2025-06-15T20:05:09+0300",
+      "area": "Москва",
+      "salary": "100 000 - 100 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 100000,
+        "to": 100000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Аппаратной части ПК и периферии. Принципов построения и устройства сетей на базе стека TCP/IP. Операционной системы MS Windows Server...",
+      "responsibility": "Приём, обработка и выполнение пользовательских заявок, актуализация данных. Оказание помощи пользователям очно, по телефону, в формате электронной переписки и средствами...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -10686,100 +10780,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": true
-    },
-    {
-      "id": "120459012",
-      "name": "Младший системный администратор",
-      "company": "BlaBlaCar",
-      "company_id": "1460422",
-      "company_url": "https://hh.ru/employer/1460422",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/531670.png",
-      "url": "https://hh.ru/vacancy/120459012",
-      "published_at": "2025-06-12T20:48:45+0300",
-      "created_at": "2025-06-12T20:48:45+0300",
-      "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в сфере ИТ-поддержки 1 и 2 уровня. Хорошие коммуникативные навыки: ежедневный контакт с сотрудниками из разных региональных...",
-      "responsibility": "Установка и обеспечение технической рабочей среды для конечных пользователей, в том числе в удаленных офисах компании. Подготовка и удаление учетных...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120730103",
-      "name": "Системный администратор",
-      "company": "АНО ПО Колледж Мировой Экономики и Передовых Технологий (КМЭПТ)",
-      "company_id": "10267285",
-      "company_url": "https://hh.ru/employer/10267285",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1253267.png",
-      "url": "https://hh.ru/vacancy/120730103",
-      "published_at": "2025-06-12T20:27:52+0300",
-      "created_at": "2025-06-12T20:27:52+0300",
-      "area": "Москва",
-      "salary": "от 93 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 93000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание ОС Windows 10, 11 на уровне уверенного пользователя. MS Office – уверенный пользователь. Знание компьютерного железа на уровне блочного ремонта...",
-      "responsibility": "Поддержание работоспособности парка ПК. Выполнение технических заявок (Help Desk). Оперативное решение возникающих инцидентов. Обслуживание оргтехники. Сборка и ремонт ПК.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121100697",
-      "name": "Помощник системного администратора",
-      "company": "СКАНДА РУС",
-      "company_id": "5952762",
-      "company_url": "https://hh.ru/employer/5952762",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/927284.png",
-      "url": "https://hh.ru/vacancy/121100697",
-      "published_at": "2025-06-12T20:05:09+0300",
-      "created_at": "2025-06-12T20:05:09+0300",
-      "area": "Москва",
-      "salary": "100 000 - 100 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 100000,
-        "to": 100000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Аппаратной части ПК и периферии. Принципов построения и устройства сетей на базе стека TCP/IP. Операционной системы MS Windows Server...",
-      "responsibility": "Приём, обработка и выполнение пользовательских заявок, актуализация данных. Оказание помощи пользователям очно, по телефону, в формате электронной переписки и средствами...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
     },
     {
       "id": "118361128",
@@ -34521,39 +34521,6 @@
       "employment": "Полная занятость",
       "requirement": "Среднее/высшее техническое образование. Свободное владение ПК (установка софта, настройка доступа, решение возникающих проблем). Понимание принципов построения сетевых протоколов, Ethernet...",
       "responsibility": "Работа в «ДубльДоме» - это работа в команде лидера рынка модульного домостроения в России. Перспективы развития сотрудников: стабильно высокий объем выпускаемой...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121040933",
-      "name": "Системный администратор (специалист техподдержки)",
-      "company": "Группа компаний ЕКС",
-      "company_id": "1143452",
-      "company_url": "https://hh.ru/employer/1143452",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/781012.jpg",
-      "url": "https://hh.ru/vacancy/121040933",
-      "published_at": "2025-05-27T16:04:27+0300",
-      "created_at": "2025-05-27T16:04:27+0300",
-      "area": "Москва",
-      "salary": "100 000 - 120 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
