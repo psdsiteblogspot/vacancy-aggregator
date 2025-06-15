@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-06-14T23:43:58Z",
+  "updated": "2025-06-15T03:44:31Z",
   "statistics": {
-    "total": 1022,
-    "with_salary": 738,
-    "companies": 752,
+    "total": 1017,
+    "with_salary": 734,
+    "companies": 748,
     "cities": 206,
     "premium": 0,
     "with_test": 8
   },
   "vacancies": [
+    {
+      "id": "119791384",
+      "name": "Системный администратор",
+      "company": "Рич Фэмили",
+      "company_id": "1157883",
+      "company_url": "https://hh.ru/employer/1157883",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1085893.png",
+      "url": "https://hh.ru/vacancy/119791384",
+      "published_at": "2025-06-15T05:03:00+0300",
+      "created_at": "2025-06-15T05:03:00+0300",
+      "area": "Новосибирск",
+      "salary": "от 91 900 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 91900,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в аналогичной должности от 1 года. Знание операционных систем Microsoft Windows на уровне администратора, знание сетевых протоколов ТСР...",
+      "responsibility": "Техническая поддержка пользователей компании, включая удаленные подразделения. Оперативное решение возникающих проблем. Установка, настройка, обслуживание компьютеров и оргтехники. Установка, настройка и...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Специалист технической поддержки"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "120837653",
       "name": "Выездной системный администратор (эникейщик)",
@@ -3682,39 +3715,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "119791384",
-      "name": "Системный администратор",
-      "company": "Рич Фэмили",
-      "company_id": "1157883",
-      "company_url": "https://hh.ru/employer/1157883",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1085893.png",
-      "url": "https://hh.ru/vacancy/119791384",
-      "published_at": "2025-06-12T05:03:00+0300",
-      "created_at": "2025-06-12T05:03:00+0300",
-      "area": "Новосибирск",
-      "salary": "от 91 900 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 91900,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в аналогичной должности от 1 года. Знание операционных систем Microsoft Windows на уровне администратора, знание сетевых протоколов ТСР...",
-      "responsibility": "Техническая поддержка пользователей компании, включая удаленные подразделения. Оперативное решение возникающих проблем. Установка, настройка, обслуживание компьютеров и оргтехники. Установка, настройка и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Специалист технической поддержки"
       ],
       "has_test": false,
       "premium": false,
@@ -9167,39 +9167,6 @@
       "accept_temporary": true
     },
     {
-      "id": "119854452",
-      "name": "Системный администратор Распределительного Центра",
-      "company": "Обермейстер",
-      "company_id": "3789323",
-      "company_url": "https://hh.ru/employer/3789323",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/708222.png",
-      "url": "https://hh.ru/vacancy/119854452",
-      "published_at": "2025-06-09T08:26:17+0300",
-      "created_at": "2025-06-09T08:26:17+0300",
-      "area": "Новороссийск",
-      "salary": "от 60 000 RUR на руки",
-      "salary_raw": {
-        "from": 60000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Полная занятость",
-      "requirement": "Имеет техническое образование. Знает операционные системы Microsoft на уровне администратора. Умеет работать с сетевым оборудованием (маршрутизаторы Cisco, D-Link).",
-      "responsibility": "Установка и настройка программного обеспечения. Поддержка IT-инфраструктуры, офисного ПО, систем 1С, операционных систем Windows и Linux.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
       "id": "120676958",
       "name": "Системный администратор",
       "company": "Обермейстер",
@@ -9222,6 +9189,39 @@
       "employment": "Полная занятость",
       "requirement": "Специалистов с опытом ремонта и обслуживания ИТ-оборудования. Умеющих работать с паяльником и монтажными инструментами. Специалиста с базовым знанием ОС...",
       "responsibility": "Работа на выезде. Установка и ремонт оборудования в магазинах. Зона ответственности: Зона ответственности: Г. Стерлитамак, с. Стерлибашево, г. Ишимбай, с.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
+      "id": "119854452",
+      "name": "Системный администратор Распределительного Центра",
+      "company": "Обермейстер",
+      "company_id": "3789323",
+      "company_url": "https://hh.ru/employer/3789323",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/708222.png",
+      "url": "https://hh.ru/vacancy/119854452",
+      "published_at": "2025-06-09T08:26:17+0300",
+      "created_at": "2025-06-09T08:26:17+0300",
+      "area": "Новороссийск",
+      "salary": "от 60 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Полная занятость",
+      "requirement": "Имеет техническое образование. Знает операционные системы Microsoft на уровне администратора. Умеет работать с сетевым оборудованием (маршрутизаторы Cisco, D-Link).",
+      "responsibility": "Установка и настройка программного обеспечения. Поддержка IT-инфраструктуры, офисного ПО, систем 1С, операционных систем Windows и Linux.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -10231,16 +10231,16 @@
       "accept_temporary": false
     },
     {
-      "id": "116723730",
+      "id": "116723719",
       "name": "Системный администратор в Норильск",
       "company": "ГУ МВД России по Красноярскому краю",
       "company_id": "11314982",
       "company_url": "https://hh.ru/employer/11314982",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/116723730",
+      "url": "https://hh.ru/vacancy/116723719",
       "published_at": "2025-06-09T02:11:42+0300",
       "created_at": "2025-06-09T02:11:42+0300",
-      "area": "Лесосибирск",
+      "area": "Октябрьский (Красноярский край)",
       "salary": "от 126 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 126000,
@@ -10297,16 +10297,16 @@
       "accept_temporary": false
     },
     {
-      "id": "116723719",
+      "id": "116723730",
       "name": "Системный администратор в Норильск",
       "company": "ГУ МВД России по Красноярскому краю",
       "company_id": "11314982",
       "company_url": "https://hh.ru/employer/11314982",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/116723719",
+      "url": "https://hh.ru/vacancy/116723730",
       "published_at": "2025-06-09T02:11:42+0300",
       "created_at": "2025-06-09T02:11:42+0300",
-      "area": "Октябрьский (Красноярский край)",
+      "area": "Лесосибирск",
       "salary": "от 126 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 126000,
@@ -32126,166 +32126,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "119614284",
-      "name": "Системный администратор",
-      "company": "СКБ Турбина",
-      "company_id": "1751495",
-      "company_url": "https://hh.ru/employer/1751495",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/379502.jpg",
-      "url": "https://hh.ru/vacancy/119614284",
-      "published_at": "2025-05-16T06:34:46+0300",
-      "created_at": "2025-05-16T06:34:46+0300",
-      "area": "Челябинск",
-      "salary": "80 000 - 90 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": 90000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Образование высшее (желательно). Опыт настройки настройки и эксплуатации серверов мониторинга (zabbix), создание шаблонов. Понимание RAID-массивов. Практический опыт работы с...",
-      "responsibility": "Системное администрирование серверных ОС MS Windows Server 2008/2012/2016/2022: DHCP, Astra Linux, Debian, DNS, AD, Terminal Services, GPO...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120609201",
-      "name": "Системный администратор",
-      "company": "ФГБУЗ Центральная медико-санитарная часть № 28 Федерального медико-биологического агентства",
-      "company_id": "9669123",
-      "company_url": "https://hh.ru/employer/9669123",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1180129.jpg",
-      "url": "https://hh.ru/vacancy/120609201",
-      "published_at": "2025-05-16T05:52:59+0300",
-      "created_at": "2025-05-16T05:52:59+0300",
-      "area": "Ангарск",
-      "salary": "от 70 000 RUR на руки",
-      "salary_raw": {
-        "from": 70000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование. Технический английский язык. Знание СКЗИ. Ответственность. Коммуникабельность.",
-      "responsibility": "Администрирование серверов и рабочих станций Windows, Linux. Администрирование домена, почтового сервера, сайта. Администрирование коммуникационного оборудования. Обеспечение защиты данных и информационной...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "118243594",
-      "name": "Системный администратор",
-      "company": "СтройПроектСервис",
-      "company_id": "2391102",
-      "company_url": "https://hh.ru/employer/2391102",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1398680.png",
-      "url": "https://hh.ru/vacancy/118243594",
-      "published_at": "2025-05-16T05:33:41+0300",
-      "created_at": "2025-05-16T05:33:41+0300",
-      "area": "Иркутск",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в аналогичной должности от 3 лет. Уверенные знания/опыт работы с ОС семейства Windows. Знание устройства и опыт...",
-      "responsibility": "3 линия поддержки. Настройка, обслуживание Microsoft Windows/Windows Server (Active Directory: GPO, DNS,...), серверов Microsoft SQL Server, Unix/Linux систем...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "117584007",
-      "name": "Помощник системного администратора",
-      "company": "СтройПроектСервис",
-      "company_id": "2391102",
-      "company_url": "https://hh.ru/employer/2391102",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1398680.png",
-      "url": "https://hh.ru/vacancy/117584007",
-      "published_at": "2025-05-16T05:27:39+0300",
-      "created_at": "2025-05-16T05:27:39+0300",
-      "area": "Иркутск",
-      "salary": "40 000 - 40 000 RUR на руки",
-      "salary_raw": {
-        "from": 40000,
-        "to": 40000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Активность, коммуникабельность. Обучаемость и умение работать в команде. Нацеленность на выполнение поставленных задач. Знание принципов построения локальной сети.",
-      "responsibility": "Обслуживание (администрирование) преимущественно серверных систем. Диагностика неисправностей ИС. Регламентные работы (обновление ПО, контроль состояния систем). Устанавливает права доступа и контролирует...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "111923072",
-      "name": "Ведущий системный администратор",
-      "company": "Научно-Производственное Объединение Элсиб",
-      "company_id": "106725",
-      "company_url": "https://hh.ru/employer/106725",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1387502.png",
-      "url": "https://hh.ru/vacancy/111923072",
-      "published_at": "2025-05-16T04:08:31+0300",
-      "created_at": "2025-05-16T04:08:31+0300",
-      "area": "Новосибирск",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование (техническое). Знание принципов функционирования персонального компьютера, сервера, периферийных устройств, сетей передачи данных. Знание технологий построения локальных сетей масштаба...",
-      "responsibility": "Установка на сервера и рабочие станции операционных систем. Поддержка работоспособности ОС и ПО серверов и рабочих станций. Установка прав доступа...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный инженер"
       ],
       "has_test": false,
       "premium": false,
