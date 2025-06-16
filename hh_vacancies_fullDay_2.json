@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-06-16T19:43:45Z",
+  "updated": "2025-06-16T20:52:11Z",
   "statistics": {
     "total": 896,
     "with_salary": 679,
@@ -20,6 +20,39 @@
     "with_test": 11
   },
   "vacancies": [
+    {
+      "id": "120658439",
+      "name": "Системный администратор",
+      "company": "Helpteam (ИП Евтушенко Геннадий Владимирович)",
+      "company_id": "5651058",
+      "company_url": "https://hh.ru/employer/5651058",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/880077.jpg",
+      "url": "https://hh.ru/vacancy/120658439",
+      "published_at": "2025-06-16T23:26:32+0300",
+      "created_at": "2025-06-16T23:26:32+0300",
+      "area": "Кострома",
+      "salary": "65 000 - 75 000 RUR на руки",
+      "salary_raw": {
+        "from": 65000,
+        "to": 75000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание операционных систем Windows 7/8/10/11. Знание стандартных офисных приложений. Знание основ сетевых технологий. Умение грамотно и доступно...",
+      "responsibility": "Контроль систем мониторинга. Регистрация и маршрутизация заявок от пользователей. Оказание технической поддержки.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "121697983",
       "name": "Системный администратор",
@@ -2035,16 +2068,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121666419",
+      "id": "121666421",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121666419",
+      "url": "https://hh.ru/vacancy/121666421",
       "published_at": "2025-06-16T11:45:20+0300",
       "created_at": "2025-06-16T11:45:20+0300",
-      "area": "Великий Устюг",
+      "area": "Бабаево",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -2063,16 +2096,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121666421",
+      "id": "121666419",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121666421",
+      "url": "https://hh.ru/vacancy/121666419",
       "published_at": "2025-06-16T11:45:20+0300",
       "created_at": "2025-06-16T11:45:20+0300",
-      "area": "Бабаево",
+      "area": "Великий Устюг",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -23182,16 +23215,16 @@
       "accept_temporary": false
     },
     {
-      "id": "120951308",
+      "id": "120951307",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/120951308",
+      "url": "https://hh.ru/vacancy/120951307",
       "published_at": "2025-05-26T08:31:28+0300",
       "created_at": "2025-05-26T08:31:28+0300",
-      "area": "Нарьян-Мар",
+      "area": "Кулебаки",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -23210,16 +23243,16 @@
       "accept_temporary": false
     },
     {
-      "id": "120951307",
+      "id": "120951308",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/120951307",
+      "url": "https://hh.ru/vacancy/120951308",
       "published_at": "2025-05-26T08:31:28+0300",
       "created_at": "2025-05-26T08:31:28+0300",
-      "area": "Кулебаки",
+      "area": "Нарьян-Мар",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -28460,39 +28493,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы на линуксовых ОС. Опыт работы с БД.",
       "responsibility": "Обеспечение безотказной работы и безопасности сети и сетевого оборудования. Сопровождение ПО. Резервное копирование. Сертификация специалиста.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120658439",
-      "name": "Системный администратор",
-      "company": "Helpteam (ИП Евтушенко Геннадий Владимирович)",
-      "company_id": "5651058",
-      "company_url": "https://hh.ru/employer/5651058",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/880077.jpg",
-      "url": "https://hh.ru/vacancy/120658439",
-      "published_at": "2025-05-17T23:26:31+0300",
-      "created_at": "2025-05-17T23:26:31+0300",
-      "area": "Кострома",
-      "salary": "65 000 - 75 000 RUR на руки",
-      "salary_raw": {
-        "from": 65000,
-        "to": 75000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание операционных систем Windows 7/8/10/11. Знание стандартных офисных приложений. Знание основ сетевых технологий. Умение грамотно и доступно...",
-      "responsibility": "Контроль систем мониторинга. Регистрация и маршрутизация заявок от пользователей. Оказание технической поддержки.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
