@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-06-16T19:26:53Z",
+  "updated": "2025-06-16T20:40:20Z",
   "statistics": {
     "total": 1518,
     "with_salary": 865,
@@ -20,6 +20,39 @@
     "with_test": 59
   },
   "vacancies": [
+    {
+      "id": "120784523",
+      "name": "Системный администратор",
+      "company": "Офис 11",
+      "company_id": "616231",
+      "company_url": "https://hh.ru/employer/616231",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/164194.gif",
+      "url": "https://hh.ru/vacancy/120784523",
+      "published_at": "2025-06-16T22:25:28+0300",
+      "created_at": "2025-06-16T22:25:28+0300",
+      "area": "Санкт-Петербург",
+      "salary": "от 130 000 RUR на руки",
+      "salary_raw": {
+        "from": 130000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Linux - Debian, Ubuntu. (iptables, postfix, spamassasin, vsftpd, fail2ban). MAC OS (+iOS) Умение настроить почту, vpn, добавить сертификаты для...",
+      "responsibility": "Сопровождение работы сетевого и серверного оборудования. Организация и поддержка СКС (ЛВС, телефония, Интернет, видеонаблюдение, СКУД). Ведение IT проектов.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "121700149",
       "name": "Младший системный администратор",
@@ -4671,10 +4704,10 @@
         "gross": false
       },
       "experience": "От 1 года до 3 лет",
-      "schedule": "Сменный график",
+      "schedule": "Гибкий график",
       "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "Поддержание работоспособности IP телефонии. Обеспечение бесперебойной работы сети и систем. Техническая поддержка пользователей (помощь в решении проблем с ПО, оборудованием...",
+      "requirement": "Знание Windows Server 2016-2022 на уровне опытного пользователя. Базовые навыки администрирования Linux (CentOS/Ubuntu). Знание на уровне администратора оборудования...",
+      "responsibility": "Администрирование Windows-инфраструктуры (Active Directory, Group Policy, Виртуализация (Hyper-V/VMware), Резервное копирование (Veeam, Veeam Backup & Replication)). Работа с системами...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -16452,39 +16485,6 @@
       "employment": "Полная занятость",
       "requirement": "Практический опыт работы с ОС Windows и аппаратным обеспечением ПК. Базовые знания сетевых технологий и принципов шифрования данных.",
       "responsibility": "Формат работы - разъездной. Настройка и обслуживание банковских POS-терминалов. Диагностика и ремонт оборудования. Ведение учета активов в корпоративных системах.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120784523",
-      "name": "Системный администратор",
-      "company": "Офис 11",
-      "company_id": "616231",
-      "company_url": "https://hh.ru/employer/616231",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/164194.gif",
-      "url": "https://hh.ru/vacancy/120784523",
-      "published_at": "2025-06-13T22:25:28+0300",
-      "created_at": "2025-06-13T22:25:28+0300",
-      "area": "Санкт-Петербург",
-      "salary": "от 130 000 RUR на руки",
-      "salary_raw": {
-        "from": 130000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Linux - Debian, Ubuntu. (iptables, postfix, spamassasin, vsftpd, fail2ban). MAC OS (+iOS) Умение настроить почту, vpn, добавить сертификаты для...",
-      "responsibility": "Сопровождение работы сетевого и серверного оборудования. Организация и поддержка СКС (ЛВС, телефония, Интернет, видеонаблюдение, СКУД). Ведение IT проектов.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -46837,8 +46837,8 @@
       "experience": "От 3 до 6 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "Опыт работы на аналогичной должности от 3-х лет. Опыт администрирования ОС Linux Server (дистрибутивы на основе RedHat).",
-      "responsibility": "Мониторинг, диагностика и оперативное решение проблем в функционировании информационных систем АО «Петербургская Биржа». Взаимодействие с разработчиками информационных систем АО «Петербургская...",
+      "requirement": "",
+      "responsibility": "",
       "type": "Открытая",
       "professional_roles": [
         "DevOps-инженер"
