@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-06-17T16:54:35Z",
+  "updated": "2025-06-17T17:40:01Z",
   "statistics": {
     "total": 1565,
     "with_salary": 892,
@@ -20,6 +20,67 @@
     "with_test": 60
   },
   "vacancies": [
+    {
+      "id": "120837103",
+      "name": "Системный администратор Linux",
+      "company": "РОСТ",
+      "company_id": "12003743",
+      "company_url": "https://hh.ru/employer/12003743",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/120837103",
+      "published_at": "2025-06-17T19:53:26+0300",
+      "created_at": "2025-06-17T19:53:26+0300",
+      "area": "Москва",
+      "salary": "от 200 000 RUR на руки",
+      "salary_raw": {
+        "from": 200000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Более 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы системным администратором Linux более 6 лет. Глубокие знания и опыт работы с технологиями: Zimbra, Docker, Freeipa, Samba, Jira...",
+      "responsibility": "Управление и поддержка серверов на базе Linux. Настройка и администрирование различных систем. Обеспечение бесперебойной работы ИТ-инфраструктуры. Мониторинг и оптимизация...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121253860",
+      "name": "Ведущий системный администратор",
+      "company": "Кучер Кулешов Максименко и партнеры",
+      "company_id": "10108658",
+      "company_url": "https://hh.ru/employer/10108658",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1426321.png",
+      "url": "https://hh.ru/vacancy/121253860",
+      "published_at": "2025-06-17T19:19:27+0300",
+      "created_at": "2025-06-17T19:19:27+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Супер быстро узнавать о проблеме, желательно до аварии. Супер быстро понимать причину проблемы. Инженера, для которого готовность прийти на помощь...",
+      "responsibility": "",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "121756065",
       "name": "Системный администратор Windows",
@@ -43,6 +104,39 @@
       "employment": "Полная занятость",
       "requirement": "Большой опыт поддержки различных продуктов и технологий на платформе Microsoft. Опыт работы с современными версиями ОС Windows. Наличие экспертизы в...",
       "responsibility": "Сопровождать виртуальные и физические сервера на базе Microsoft и ПО, работающие на них. Поддерживать и развивать сервисы виртуализации на основе...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121398004",
+      "name": "Системный администратор",
+      "company": "KERAMA MARAZZI (ООО БАЛТКЕРАМА)",
+      "company_id": "167880",
+      "company_url": "https://hh.ru/employer/167880",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/914647.jpg",
+      "url": "https://hh.ru/vacancy/121398004",
+      "published_at": "2025-06-17T18:59:26+0300",
+      "created_at": "2025-06-17T18:59:26+0300",
+      "area": "Санкт-Петербург",
+      "salary": "от 110 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 110000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Владение технико-эксплуатационными характеристиками оборудования, конструктивные особенности и назначение оборудования, правила технической эксплуатации оборудования. Аппаратное и программное обеспечение сетей.",
+      "responsibility": "Обеспечение бесперебойной работы IT-инфраструктуры компании, включая проведение диагностики и ремонта оборудования, подключение оборудования к ЛВС. Работа с профильной технической...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -19565,100 +19659,6 @@
       "employment": "Полная занятость",
       "requirement": "Нужен минимальный опыт работы в Linux, надо понимать как происходит процесс загрузки, базовые навыки работы в shell, работа с ssh.",
       "responsibility": "Поддержка продуктивных микросервисов. Поддержка кластеров lxd / k8s. Поддержка систем мониторинга. Администрирование баз данных MySQL. Поддержка и развитие CI...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120837103",
-      "name": "Системный администратор Linux",
-      "company": "РОСТ",
-      "company_id": "12003743",
-      "company_url": "https://hh.ru/employer/12003743",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/120837103",
-      "published_at": "2025-06-14T19:53:26+0300",
-      "created_at": "2025-06-14T19:53:26+0300",
-      "area": "Москва",
-      "salary": "от 200 000 RUR на руки",
-      "salary_raw": {
-        "from": 200000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Более 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы системным администратором Linux более 6 лет. Глубокие знания и опыт работы с технологиями: Zimbra, Docker, Freeipa, Samba, Jira...",
-      "responsibility": "Управление и поддержка серверов на базе Linux. Настройка и администрирование различных систем. Обеспечение бесперебойной работы ИТ-инфраструктуры. Мониторинг и оптимизация...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121253860",
-      "name": "Ведущий системный администратор",
-      "company": "Кучер Кулешов Максименко и партнеры",
-      "company_id": "10108658",
-      "company_url": "https://hh.ru/employer/10108658",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1426321.png",
-      "url": "https://hh.ru/vacancy/121253860",
-      "published_at": "2025-06-14T19:19:27+0300",
-      "created_at": "2025-06-14T19:19:27+0300",
-      "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Супер быстро узнавать о проблеме, желательно до аварии. Супер быстро понимать причину проблемы. Инженера, для которого готовность прийти на помощь...",
-      "responsibility": "",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121398004",
-      "name": "Системный администратор",
-      "company": "KERAMA MARAZZI (ООО БАЛТКЕРАМА)",
-      "company_id": "167880",
-      "company_url": "https://hh.ru/employer/167880",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/914647.jpg",
-      "url": "https://hh.ru/vacancy/121398004",
-      "published_at": "2025-06-14T18:59:26+0300",
-      "created_at": "2025-06-14T18:59:26+0300",
-      "area": "Санкт-Петербург",
-      "salary": "от 110 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 110000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Владение технико-эксплуатационными характеристиками оборудования, конструктивные особенности и назначение оборудования, правила технической эксплуатации оборудования. Аппаратное и программное обеспечение сетей.",
-      "responsibility": "Обеспечение бесперебойной работы IT-инфраструктуры компании, включая проведение диагностики и ремонта оборудования, подключение оборудования к ЛВС. Работа с профильной технической...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -39660,8 +39660,8 @@
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "",
+      "requirement": "Понимание модели OSI. Создание и изменение учетных записей AD/Exchange. Опыт поддержки пользователей на базе ПО Microsoft (Office, Outlook).",
+      "responsibility": "Техническая поддержка пользователей. Диагностика неисправностей ПК, настройка и агрегатная замена. Организация новых рабочих мест. Оперативное решение проблем пользователей с программным...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -48288,8 +48288,8 @@
       "experience": "От 3 до 6 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "Опыт работы на аналогичной должности от 3-х лет. Опыт администрирования ОС Linux Server (дистрибутивы на основе RedHat).",
-      "responsibility": "Мониторинг, диагностика и оперативное решение проблем в функционировании информационных систем АО «Петербургская Биржа». Взаимодействие с разработчиками информационных систем АО «Петербургская...",
+      "requirement": "",
+      "responsibility": "",
       "type": "Открытая",
       "professional_roles": [
         "DevOps-инженер"
