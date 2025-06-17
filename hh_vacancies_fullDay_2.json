@@ -10,16 +10,181 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-06-17T09:01:17Z",
+  "updated": "2025-06-17T09:52:35Z",
   "statistics": {
-    "total": 914,
-    "with_salary": 682,
-    "companies": 699,
+    "total": 916,
+    "with_salary": 685,
+    "companies": 701,
     "cities": 157,
     "premium": 1,
-    "with_test": 12
+    "with_test": 15
   },
   "vacancies": [
+    {
+      "id": "119742853",
+      "name": "Ведущий системный администратор",
+      "company": "ФГБУ Приморское УГМС",
+      "company_id": "3944980",
+      "company_url": "https://hh.ru/employer/3944980",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/923137.png",
+      "url": "https://hh.ru/vacancy/119742853",
+      "published_at": "2025-06-17T12:48:30+0300",
+      "created_at": "2025-06-17T12:48:30+0300",
+      "area": "Владивосток",
+      "salary": "от 63 000 RUR на руки",
+      "salary_raw": {
+        "from": 63000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование в области информационных технологий или смежных специальностей. Понимание принципов работы основных протоколов (DNS, DHCP, IP...). Без опыта работы...",
+      "responsibility": "Обеспечение бесперебойной работы IT-Инфраструктуры. Администрирование продуктов семейства Microsoft (AD, GPO, RDS). Составление отчетной документации. Поддержка пользовательского оборудования.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121382925",
+      "name": "Системный администратор",
+      "company": "Ломбард Пионер",
+      "company_id": "2321336",
+      "company_url": "https://hh.ru/employer/2321336",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1360079.jpg",
+      "url": "https://hh.ru/vacancy/121382925",
+      "published_at": "2025-06-17T12:19:28+0300",
+      "created_at": "2025-06-17T12:19:28+0300",
+      "area": "Тольятти",
+      "salary": "90 000 - 110 000 RUR на руки",
+      "salary_raw": {
+        "from": 90000,
+        "to": 110000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее/среднее специальное образование. - Опыт работы на соответствующей должности от 2 лет. - Уметь быстро разобраться в возникшей проблеме и оперативно...",
+      "responsibility": "Администрирование и модернизация ИТ-инфраструктуры компании. - Анализ, локализация и устранение отказов и сбоев в работе. - Администрирование физических и виртуальных серверов...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121728615",
+      "name": "Системный администратор",
+      "company": "ГК Основа (Отели бренда Hampton by Hilton)",
+      "company_id": "729043",
+      "company_url": "https://hh.ru/employer/729043",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/121728615",
+      "published_at": "2025-06-17T12:06:38+0300",
+      "created_at": "2025-06-17T12:06:38+0300",
+      "area": "Воронеж",
+      "salary": "от 70 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 70000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Понимание принципов работы СКУД и систем видеонаблюдения. Базовые знания HTML, CSS. Требования: Высшее профильное образование. Опыт работы не менее 1...",
+      "responsibility": "Администрирование серверных операционных систем Windows Server 2008 R2, Windows Server 2012 R2 (Контроллер Домена, DNS, File Server, Windows...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121067387",
+      "name": "Системный администратор (отдел интеграции)",
+      "company": "Группа Компаний Астрал",
+      "company_id": "1276490",
+      "company_url": "https://hh.ru/employer/1276490",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/478189.png",
+      "url": "https://hh.ru/vacancy/121067387",
+      "published_at": "2025-06-17T12:06:25+0300",
+      "created_at": "2025-06-17T12:06:25+0300",
+      "area": "Калуга",
+      "salary": "до 69 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": null,
+        "to": 69000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее / средне-специальное образование. Опыт работы с российскими СЗИ (ViPNet, КриптоАРМ, Secret Net Studio и др.). Знание ОС Astra, Alt...",
+      "responsibility": "Аттестация объектов информатизации (подготовка, проверка, сопровождение). Внедрение и настройка СЗИ (ViPNet, Secret Net, \"Континент\", КриптоПРО). Консультирование заказчиков по вопросам защиты...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121728198",
+      "name": "Системный администратор",
+      "company": "ТМК-СЕРВИС",
+      "company_id": "4313407",
+      "company_url": "https://hh.ru/employer/4313407",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1220807.jpg",
+      "url": "https://hh.ru/vacancy/121728198",
+      "published_at": "2025-06-17T12:01:42+0300",
+      "created_at": "2025-06-17T12:01:42+0300",
+      "area": "Воронеж",
+      "salary": "от 60 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Образование в области информационных технологий или смежных сферах. Опыт работы на аналогичной должности от 1 года. Знание основ работы с...",
+      "responsibility": "Диагностика неполадок и их устранение. Замена картриджей и других расходных материалов. Создание новых пользователей и настройка учетных записей.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "121553369",
       "name": "Системный администратор/DevOps",
@@ -209,16 +374,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121726922",
+      "id": "121726926",
       "name": "Системный администратор Linux (г. Ялта)",
       "company": "Мрия (Mriya Resort)",
       "company_id": "1659845",
       "company_url": "https://hh.ru/employer/1659845",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1390981.png",
-      "url": "https://hh.ru/vacancy/121726922",
+      "url": "https://hh.ru/vacancy/121726926",
       "published_at": "2025-06-17T11:48:16+0300",
       "created_at": "2025-06-17T11:48:16+0300",
-      "area": "Ялта",
+      "area": "Севастополь",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -237,16 +402,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121726926",
+      "id": "121726922",
       "name": "Системный администратор Linux (г. Ялта)",
       "company": "Мрия (Mriya Resort)",
       "company_id": "1659845",
       "company_url": "https://hh.ru/employer/1659845",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1390981.png",
-      "url": "https://hh.ru/vacancy/121726926",
+      "url": "https://hh.ru/vacancy/121726922",
       "published_at": "2025-06-17T11:48:16+0300",
       "created_at": "2025-06-17T11:48:16+0300",
-      "area": "Севастополь",
+      "area": "Ялта",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -1134,16 +1299,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121707757",
+      "id": "121707764",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121707757",
+      "url": "https://hh.ru/vacancy/121707764",
       "published_at": "2025-06-17T08:07:24+0300",
       "created_at": "2025-06-17T08:07:24+0300",
-      "area": "Альметьевск",
+      "area": "Кузнецк",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -1162,16 +1327,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121707764",
+      "id": "121707757",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121707764",
+      "url": "https://hh.ru/vacancy/121707757",
       "published_at": "2025-06-17T08:07:24+0300",
       "created_at": "2025-06-17T08:07:24+0300",
-      "area": "Кузнецк",
+      "area": "Альметьевск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -6429,7 +6594,7 @@
         "currency": "RUR",
         "gross": true
       },
-      "experience": "Нет опыта",
+      "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
       "requirement": "Среднее образование. Понимание устройства локальных сетей. Операционные системы: MS Windows (XP, 7,8,10). Уверенные знания сетевых технологий LAN, WAN.",
@@ -7867,9 +8032,9 @@
       "published_at": "2025-06-12T09:55:26+0300",
       "created_at": "2025-06-12T09:55:26+0300",
       "area": "Рязань",
-      "salary": "от 150 000 RUR до вычета налогов",
+      "salary": "от 120 000 RUR до вычета налогов",
       "salary_raw": {
-        "from": 150000,
+        "from": 120000,
         "to": null,
         "currency": "RUR",
         "gross": true
@@ -7883,7 +8048,7 @@
       "professional_roles": [
         "Системный администратор"
       ],
-      "has_test": false,
+      "has_test": true,
       "premium": false,
       "accept_handicapped": false,
       "accept_kids": false,
@@ -8332,16 +8497,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121556719",
+      "id": "121556722",
       "name": "Системный администратор",
       "company": "Недилько Арсений Николаевич",
       "company_id": "12003793",
       "company_url": "https://hh.ru/employer/12003793",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/121556719",
+      "url": "https://hh.ru/vacancy/121556722",
       "published_at": "2025-06-11T12:52:50+0300",
       "created_at": "2025-06-11T12:52:50+0300",
-      "area": "Ижевск",
+      "area": "Саратов",
       "salary": "80 000 - 120 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 80000,
@@ -8365,16 +8530,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121556722",
+      "id": "121556719",
       "name": "Системный администратор",
       "company": "Недилько Арсений Николаевич",
       "company_id": "12003793",
       "company_url": "https://hh.ru/employer/12003793",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/121556722",
+      "url": "https://hh.ru/vacancy/121556719",
       "published_at": "2025-06-11T12:52:50+0300",
       "created_at": "2025-06-11T12:52:50+0300",
-      "area": "Саратов",
+      "area": "Ижевск",
       "salary": "80 000 - 120 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 80000,
@@ -11512,34 +11677,6 @@
       "accept_temporary": false
     },
     {
-      "id": "121067387",
-      "name": "Системный администратор (отдел интеграции)",
-      "company": "Группа Компаний Астрал",
-      "company_id": "1276490",
-      "company_url": "https://hh.ru/employer/1276490",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/478189.png",
-      "url": "https://hh.ru/vacancy/121067387",
-      "published_at": "2025-06-09T15:33:19+0300",
-      "created_at": "2025-06-09T15:33:19+0300",
-      "area": "Калуга",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее / средне-специальное образование. Опыт работы с российскими СЗИ (ViPNet, КриптоАРМ, Secret Net Studio и др.). Знание ОС Astra, Alt...",
-      "responsibility": "Аттестация объектов информатизации (подготовка, проверка, сопровождение). Внедрение и настройка СЗИ (ViPNet, Secret Net, \"Континент\", КриптоПРО). Консультирование заказчиков по вопросам защиты...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "120952099",
       "name": "Младший системный администратор / Junior DevOps Engineer",
       "company": "Козлов Михаил Юрьевич",
@@ -14143,39 +14280,6 @@
       "employment": "Полная занятость",
       "requirement": "Среднее специальное или высшее образование в области IT или технических наук.",
       "responsibility": "Обеспечение бесперебойной работы ИТ-инфраструктуры компании. Обеспечение технической поддержки пользователей. Контроль выполнения задач подчинёнными. Бюджетирование и оптимизация затрат.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121382925",
-      "name": "Системный администратор",
-      "company": "Ломбард Пионер",
-      "company_id": "2321336",
-      "company_url": "https://hh.ru/employer/2321336",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1360079.jpg",
-      "url": "https://hh.ru/vacancy/121382925",
-      "published_at": "2025-06-05T13:34:18+0300",
-      "created_at": "2025-06-05T13:34:18+0300",
-      "area": "Тольятти",
-      "salary": "90 000 - 110 000 RUR на руки",
-      "salary_raw": {
-        "from": 90000,
-        "to": 110000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее/среднее специальное образование. - Опыт работы на соответствующей должности от 2 лет. - Уметь быстро разобраться в возникшей проблеме и оперативно...",
-      "responsibility": "Администрирование и модернизация ИТ-инфраструктуры компании. - Анализ, локализация и устранение отказов и сбоев в работе. - Администрирование физических и виртуальных серверов...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -17707,16 +17811,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121233870",
+      "id": "121233874",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121233870",
+      "url": "https://hh.ru/vacancy/121233874",
       "published_at": "2025-06-02T16:12:42+0300",
       "created_at": "2025-06-02T16:12:42+0300",
-      "area": "Бугуруслан",
+      "area": "Сызрань",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -17735,16 +17839,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121233874",
+      "id": "121233870",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121233874",
+      "url": "https://hh.ru/vacancy/121233870",
       "published_at": "2025-06-02T16:12:42+0300",
       "created_at": "2025-06-02T16:12:42+0300",
-      "area": "Сызрань",
+      "area": "Бугуруслан",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -20705,7 +20809,7 @@
       "professional_roles": [
         "Системный администратор"
       ],
-      "has_test": false,
+      "has_test": true,
       "premium": false,
       "accept_handicapped": false,
       "accept_kids": false,
@@ -25099,7 +25203,7 @@
       "professional_roles": [
         "Системный администратор"
       ],
-      "has_test": false,
+      "has_test": true,
       "premium": false,
       "accept_handicapped": false,
       "accept_kids": false,
@@ -28642,16 +28746,16 @@
       "accept_temporary": false
     },
     {
-      "id": "120681790",
+      "id": "120681791",
       "name": "Младший системный администратор",
       "company": "ЭФКО",
       "company_id": "53797",
       "company_url": "https://hh.ru/employer/53797",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/752189.jpg",
-      "url": "https://hh.ru/vacancy/120681790",
+      "url": "https://hh.ru/vacancy/120681791",
       "published_at": "2025-05-19T09:25:44+0300",
       "created_at": "2025-05-19T09:25:44+0300",
-      "area": "Алексеевка",
+      "area": "Бирюч",
       "salary": "до 117 450 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -28675,16 +28779,16 @@
       "accept_temporary": false
     },
     {
-      "id": "120681791",
+      "id": "120681790",
       "name": "Младший системный администратор",
       "company": "ЭФКО",
       "company_id": "53797",
       "company_url": "https://hh.ru/employer/53797",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/752189.jpg",
-      "url": "https://hh.ru/vacancy/120681791",
+      "url": "https://hh.ru/vacancy/120681790",
       "published_at": "2025-05-19T09:25:44+0300",
       "created_at": "2025-05-19T09:25:44+0300",
-      "area": "Бирюч",
+      "area": "Алексеевка",
       "salary": "до 117 450 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -28758,39 +28862,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт программирования и работы в 1С приветствуется.",
       "responsibility": "Обслуживание сервера. Обслуживание телефонии. Закупка и установка компьютерной периферии. Обсаживание бесперебойной работы автоматизированных рабочих мест. Проводка ЛВС кабелей.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "119742853",
-      "name": "Ведущий системный администратор",
-      "company": "ФГБУ Приморское УГМС",
-      "company_id": "3944980",
-      "company_url": "https://hh.ru/employer/3944980",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/923137.png",
-      "url": "https://hh.ru/vacancy/119742853",
-      "published_at": "2025-05-19T08:26:15+0300",
-      "created_at": "2025-05-19T08:26:15+0300",
-      "area": "Владивосток",
-      "salary": "от 63 000 RUR на руки",
-      "salary_raw": {
-        "from": 63000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование в области информационных технологий или смежных специальностей. Понимание принципов работы основных протоколов (DNS, DHCP, IP...). Без опыта работы...",
-      "responsibility": "Обеспечение бесперебойной работы IT-Инфраструктуры. Администрирование продуктов семейства Microsoft (AD, GPO, RDS). Составление отчетной документации. Поддержка пользовательского оборудования.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
