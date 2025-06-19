@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-06-19T03:38:15Z",
+  "updated": "2025-06-19T04:52:14Z",
   "statistics": {
-    "total": 1570,
-    "with_salary": 897,
-    "companies": 1230,
+    "total": 1572,
+    "with_salary": 899,
+    "companies": 1231,
     "cities": 86,
     "premium": 2,
     "with_test": 63
   },
   "vacancies": [
+    {
+      "id": "119823689",
+      "name": "Инженер-программист (системный администратор)",
+      "company": "ФГУП ВНИИФТРИ",
+      "company_id": "647626",
+      "company_url": "https://hh.ru/employer/647626",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/158442.jpg",
+      "url": "https://hh.ru/vacancy/119823689",
+      "published_at": "2025-06-19T07:49:19+0300",
+      "created_at": "2025-06-19T07:49:19+0300",
+      "area": "Зеленоград",
+      "salary": "от 100 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 100000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование. Уверенное знание: ОС семейства WINDOWS и LINUX; реляционных баз данных (MSSQL, MySQL, Postgre); высокоуровневых языков программирования (C++, Python...",
+      "responsibility": "Настройка и поддержка серверов DHCP, SMB, LDAP, IMAP, POP3, SMTP, WEB (WP, Joomla, Bitrix, Apache, Nginx), SNMP, Zabbix, VPN...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Другое"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121814379",
+      "name": "Системный администратор",
+      "company": "Спектр, НППФ",
+      "company_id": "718091",
+      "company_url": "https://hh.ru/employer/718091",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1359996.png",
+      "url": "https://hh.ru/vacancy/121814379",
+      "published_at": "2025-06-19T07:43:43+0300",
+      "created_at": "2025-06-19T07:43:43+0300",
+      "area": "Москва",
+      "salary": "90 000 - 120 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 90000,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание ОС Linux (CentOS, Debian). Знание и понимание работы стека протоколов TCP/IP. Знание и практический опыт настройки VPN-каналов...",
+      "responsibility": "Заниматься развитием и поддержкой существующей инфраструктуры. Конфигурировать серверы(ОС Linux, QNX, Windows) для установки на них прикладного ПО (собственная разработка).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "120884986",
       "name": "Системный администратор",
@@ -402,6 +468,39 @@
       "accept_temporary": true
     },
     {
+      "id": "121807517",
+      "name": "Помощник системного администратора / Начинающий специалист",
+      "company": "NV GROUP",
+      "company_id": "579783",
+      "company_url": "https://hh.ru/employer/579783",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
+      "url": "https://hh.ru/vacancy/121807517",
+      "published_at": "2025-06-18T19:09:10+0300",
+      "created_at": "2025-06-18T19:09:10+0300",
+      "area": "Наро-Фоминск (Московская область)",
+      "salary": "от 60 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Ответственное отношение к работе, внимательность и желание заработать. Опыт работы не требуется – мы объясним и покажем, что нужно делать.",
+      "responsibility": "Планово-профилактические работы в офисах и торговых точках (протирание от пыли оборудования, проверка рабочего состояния – включение / выключение, разматывание кабелей и...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
       "id": "121807516",
       "name": "Помощник системного администратора / Начинающий специалист",
       "company": "NV GROUP",
@@ -435,16 +534,16 @@
       "accept_temporary": true
     },
     {
-      "id": "121807517",
+      "id": "121807512",
       "name": "Помощник системного администратора / Начинающий специалист",
       "company": "NV GROUP",
       "company_id": "579783",
       "company_url": "https://hh.ru/employer/579783",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
-      "url": "https://hh.ru/vacancy/121807517",
+      "url": "https://hh.ru/vacancy/121807512",
       "published_at": "2025-06-18T19:09:10+0300",
       "created_at": "2025-06-18T19:09:10+0300",
-      "area": "Наро-Фоминск (Московская область)",
+      "area": "Дмитров (Московская область)",
       "salary": "от 60 000 RUR на руки",
       "salary_raw": {
         "from": 60000,
@@ -511,39 +610,6 @@
       "published_at": "2025-06-18T19:09:10+0300",
       "created_at": "2025-06-18T19:09:10+0300",
       "area": "Подольск (Московская область)",
-      "salary": "от 60 000 RUR на руки",
-      "salary_raw": {
-        "from": 60000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Ответственное отношение к работе, внимательность и желание заработать. Опыт работы не требуется – мы объясним и покажем, что нужно делать.",
-      "responsibility": "Планово-профилактические работы в офисах и торговых точках (протирание от пыли оборудования, проверка рабочего состояния – включение / выключение, разматывание кабелей и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
-      "id": "121807512",
-      "name": "Помощник системного администратора / Начинающий специалист",
-      "company": "NV GROUP",
-      "company_id": "579783",
-      "company_url": "https://hh.ru/employer/579783",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
-      "url": "https://hh.ru/vacancy/121807512",
-      "published_at": "2025-06-18T19:09:10+0300",
-      "created_at": "2025-06-18T19:09:10+0300",
-      "area": "Дмитров (Московская область)",
       "salary": "от 60 000 RUR на руки",
       "salary_raw": {
         "from": 60000,
@@ -11251,16 +11317,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121728896",
+      "id": "121728898",
       "name": "Системный администратор",
       "company": "ПрофХолод",
       "company_id": "190764",
       "company_url": "https://hh.ru/employer/190764",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/709263.png",
-      "url": "https://hh.ru/vacancy/121728896",
+      "url": "https://hh.ru/vacancy/121728898",
       "published_at": "2025-06-17T12:10:47+0300",
       "created_at": "2025-06-17T12:10:47+0300",
-      "area": "Фрязино (Московская область)",
+      "area": "Королев (Московская область)",
       "salary": "110 000 - 130 000 RUR на руки",
       "salary_raw": {
         "from": 110000,
@@ -11284,16 +11350,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121728898",
+      "id": "121728896",
       "name": "Системный администратор",
       "company": "ПрофХолод",
       "company_id": "190764",
       "company_url": "https://hh.ru/employer/190764",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/709263.png",
-      "url": "https://hh.ru/vacancy/121728898",
+      "url": "https://hh.ru/vacancy/121728896",
       "published_at": "2025-06-17T12:10:47+0300",
       "created_at": "2025-06-17T12:10:47+0300",
-      "area": "Королев (Московская область)",
+      "area": "Фрязино (Московская область)",
       "salary": "110 000 - 130 000 RUR на руки",
       "salary_raw": {
         "from": 110000,
@@ -41528,6 +41594,39 @@
       "accept_temporary": false
     },
     {
+      "id": "121040933",
+      "name": "Системный администратор (специалист техподдержки)",
+      "company": "Группа компаний ЕКС",
+      "company_id": "1143452",
+      "company_url": "https://hh.ru/employer/1143452",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/781012.jpg",
+      "url": "https://hh.ru/vacancy/121040933",
+      "published_at": "2025-05-27T16:04:27+0300",
+      "created_at": "2025-05-27T16:04:27+0300",
+      "area": "Москва",
+      "salary": "100 000 - 120 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Понимание модели OSI. Создание и изменение учетных записей AD/Exchange. Опыт поддержки пользователей на базе ПО Microsoft (Office, Outlook).",
+      "responsibility": "Техническая поддержка пользователей. Диагностика неисправностей ПК, настройка и агрегатная замена. Организация новых рабочих мест. Оперативное решение проблем пользователей с программным...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "120491289",
       "name": "Системный администратор",
       "company": "НПО Алмаз",
@@ -47337,39 +47436,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "119823689",
-      "name": "Инженер-программист (системный администратор)",
-      "company": "ФГУП ВНИИФТРИ",
-      "company_id": "647626",
-      "company_url": "https://hh.ru/employer/647626",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/158442.jpg",
-      "url": "https://hh.ru/vacancy/119823689",
-      "published_at": "2025-05-21T07:50:36+0300",
-      "created_at": "2025-05-21T07:50:36+0300",
-      "area": "Зеленоград",
-      "salary": "от 100 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 100000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование. Уверенное знание: ОС семейства WINDOWS и LINUX; реляционных баз данных (MSSQL, MySQL, Postgre); высокоуровневых языков программирования (C++, Python...",
-      "responsibility": "Настройка и поддержка серверов DHCP, SMB, LDAP, IMAP, POP3, SMTP, WEB (WP, Joomla, Bitrix, Apache, Nginx), SNMP, Zabbix, VPN...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Другое"
       ],
       "has_test": false,
       "premium": false,
