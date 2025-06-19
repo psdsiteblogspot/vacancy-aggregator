@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-06-19T21:45:41Z",
+  "updated": "2025-06-19T22:50:27Z",
   "statistics": {
-    "total": 913,
-    "with_salary": 689,
-    "companies": 702,
+    "total": 914,
+    "with_salary": 690,
+    "companies": 703,
     "cities": 150,
     "premium": 0,
     "with_test": 16
   },
   "vacancies": [
+    {
+      "id": "113704013",
+      "name": "Ведущий системный администратор в отдел поддержки инфраструктуры",
+      "company": "ЮНИЛАБ",
+      "company_id": "1414554",
+      "company_url": "https://hh.ru/employer/1414554",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/708659.png",
+      "url": "https://hh.ru/vacancy/113704013",
+      "published_at": "2025-06-20T01:29:07+0300",
+      "created_at": "2025-06-20T01:29:07+0300",
+      "area": "Владивосток",
+      "salary": "215 000 - 255 000 RUR на руки",
+      "salary_raw": {
+        "from": 215000,
+        "to": 255000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Более 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт администрирование инфраструктуры Microsoft: AD DS, DNS, Exchange, Hyper-V, DHCP, WSUS, IIS, RDS, DFS. Опыт администрирование Linuх серверов.",
+      "responsibility": "Масштабирование текущих серверов и сервисов компании. Развертывание сервисов в рамках поддержки существующей ИТ инфраструктуры. Поддержка и консультирование пользователей (внутренних клиентов).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121859369",
+      "name": "Ведущий системный администратор (поддержка)",
+      "company": "Хабаровский отряд ФГП ВО ЖДТ России на ДВЖД",
+      "company_id": "4288511",
+      "company_url": "https://hh.ru/employer/4288511",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/121859369",
+      "published_at": "2025-06-20T01:13:00+0300",
+      "created_at": "2025-06-20T01:13:00+0300",
+      "area": "Хабаровск",
+      "salary": "58 500 - 64 000 RUR на руки",
+      "salary_raw": {
+        "from": 58500,
+        "to": 64000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Должен иметь среднее профессиональное образование.",
+      "responsibility": "Обязанности: Обслуживание сервера, сетевого оборудования. Управление пользователями и их доступом к системам и данным. Обслуживание видео регистраторов. Обеспечение бесперебойной работы...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "121857048",
       "name": "Системный администратор Linux",
@@ -6408,16 +6474,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121726926",
+      "id": "121726922",
       "name": "Системный администратор Linux (г. Ялта)",
       "company": "Мрия (Mriya Resort)",
       "company_id": "1659845",
       "company_url": "https://hh.ru/employer/1659845",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1390981.png",
-      "url": "https://hh.ru/vacancy/121726926",
+      "url": "https://hh.ru/vacancy/121726922",
       "published_at": "2025-06-17T11:48:16+0300",
       "created_at": "2025-06-17T11:48:16+0300",
-      "area": "Севастополь",
+      "area": "Ялта",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -6436,16 +6502,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121726922",
+      "id": "121726926",
       "name": "Системный администратор Linux (г. Ялта)",
       "company": "Мрия (Mriya Resort)",
       "company_id": "1659845",
       "company_url": "https://hh.ru/employer/1659845",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1390981.png",
-      "url": "https://hh.ru/vacancy/121726922",
+      "url": "https://hh.ru/vacancy/121726926",
       "published_at": "2025-06-17T11:48:16+0300",
       "created_at": "2025-06-17T11:48:16+0300",
-      "area": "Ялта",
+      "area": "Севастополь",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -27995,39 +28061,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее (техническое образование), стаж работы на должностях направления информационных технологий. Опыт администрирования серверов на базе GNU Linux, MS Windows Server.",
       "responsibility": "Сопровождение ИТ-инфраструктуры филиала: - техподдержка пользователей. - техническое обслуживание оргтехники. - обслуживание каналов связи (мобильная связь, VoIP-телефония, Интернет). - администрирование серверов на...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "113704013",
-      "name": "Ведущий системный администратор в отдел поддержки инфраструктуры",
-      "company": "ЮНИЛАБ",
-      "company_id": "1414554",
-      "company_url": "https://hh.ru/employer/1414554",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/708659.png",
-      "url": "https://hh.ru/vacancy/113704013",
-      "published_at": "2025-05-23T02:48:52+0300",
-      "created_at": "2025-05-23T02:48:52+0300",
-      "area": "Владивосток",
-      "salary": "215 000 - 255 000 RUR на руки",
-      "salary_raw": {
-        "from": 215000,
-        "to": 255000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Более 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт администрирование инфраструктуры Microsoft: AD DS, DNS, Exchange, Hyper-V, DHCP, WSUS, IIS, RDS, DFS. Опыт администрирование Linuх серверов.",
-      "responsibility": "Масштабирование текущих серверов и сервисов компании. Развертывание сервисов в рамках поддержки существующей ИТ инфраструктуры. Поддержка и консультирование пользователей (внутренних клиентов).",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
