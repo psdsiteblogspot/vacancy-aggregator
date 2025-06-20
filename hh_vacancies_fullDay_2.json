@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-06-20T17:47:05Z",
+  "updated": "2025-06-20T18:57:34Z",
   "statistics": {
-    "total": 913,
-    "with_salary": 686,
-    "companies": 698,
+    "total": 912,
+    "with_salary": 685,
+    "companies": 697,
     "cities": 149,
     "premium": 0,
     "with_test": 14
   },
   "vacancies": [
+    {
+      "id": "121629287",
+      "name": "Стажер/системный администратор (Junior Linux Engineer)",
+      "company": "RocketCloud",
+      "company_id": "3069866",
+      "company_url": "https://hh.ru/employer/3069866",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1338550.png",
+      "url": "https://hh.ru/vacancy/121629287",
+      "published_at": "2025-06-20T20:43:52+0300",
+      "created_at": "2025-06-20T20:43:52+0300",
+      "area": "Ярославль",
+      "salary": "60 000 - 90 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 60000,
+        "to": 90000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Базовые навыки использования командной строки Linux. Желание учиться и развиваться, в том числе самостоятельно. Начальные знания о стеке протоколов TCP...",
+      "responsibility": "Сборка и тестирование серверов и сетевого оборудование. Отгрузка оборудование в датацентры и клиента (ведение склада серверов). Работа в команде, опытные...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "121398271",
       "name": "Системный администратор Linux",
@@ -823,8 +856,8 @@
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "",
+      "requirement": "Высшее образование. Отличные знания Active Directory, Group Policy, DNS, DHCP, MSSQL. Уверенное Сетевое администрирование, установка, настройка, администрирование систем виртуализации Hyper...",
+      "responsibility": "Обеспечение бесперебойной работы IT-инфраструктуры, локальных сетей, серверов, сетевых устройств. Поддержание в актуальном состоянии пользовательских учетных записей Active Directory на...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -1946,39 +1979,6 @@
       "accept_temporary": true
     },
     {
-      "id": "121648260",
-      "name": "Системный администратор",
-      "company": "Обермейстер",
-      "company_id": "3789323",
-      "company_url": "https://hh.ru/employer/3789323",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/708222.png",
-      "url": "https://hh.ru/vacancy/121648260",
-      "published_at": "2025-06-20T09:31:14+0300",
-      "created_at": "2025-06-20T09:31:14+0300",
-      "area": "Бузулук",
-      "salary": "от 70 000 RUR на руки",
-      "salary_raw": {
-        "from": 70000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Гибкий график",
-      "employment": "Полная занятость",
-      "requirement": "Специалистов с опытом ремонта и обслуживания ИТ-оборудования. Умеющих работать с паяльником и монтажными инструментами. Специалиста с базовым знанием ОС...",
-      "responsibility": "Работа на выезде. Установка и ремонт оборудования в магазинах. Зона ответственности: Зона ответственности: Г. Бузулук, п. Первомайский, с. Грачевка, п.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
       "id": "121541648",
       "name": "Системный администратор",
       "company": "Обермейстер",
@@ -2001,6 +2001,39 @@
       "employment": "Полная занятость",
       "requirement": "Опыт ремонта электроники/торгового IT-оборудования от 6 месяцев (сервисные центры, розничные сети, ИТ-поддержка). Умение паять и работать с...",
       "responsibility": "Установка и настройка нового оборудования. Модульный ремонт (замена компонентов, пайка) и профилактическое ТО торгового IT-оборудования: кассы, ПК, ТСД, принтеры...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
+      "id": "121648260",
+      "name": "Системный администратор",
+      "company": "Обермейстер",
+      "company_id": "3789323",
+      "company_url": "https://hh.ru/employer/3789323",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/708222.png",
+      "url": "https://hh.ru/vacancy/121648260",
+      "published_at": "2025-06-20T09:31:14+0300",
+      "created_at": "2025-06-20T09:31:14+0300",
+      "area": "Бузулук",
+      "salary": "от 70 000 RUR на руки",
+      "salary_raw": {
+        "from": 70000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Гибкий график",
+      "employment": "Полная занятость",
+      "requirement": "Специалистов с опытом ремонта и обслуживания ИТ-оборудования. Умеющих работать с паяльником и монтажными инструментами. Специалиста с базовым знанием ОС...",
+      "responsibility": "Работа на выезде. Установка и ремонт оборудования в магазинах. Зона ответственности: Зона ответственности: Г. Бузулук, п. Первомайский, с. Грачевка, п.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -7353,39 +7386,6 @@
       "accept_temporary": false
     },
     {
-      "id": "121629287",
-      "name": "Стажер/системный администратор (Junior Linux Engineer)",
-      "company": "RocketCloud",
-      "company_id": "3069866",
-      "company_url": "https://hh.ru/employer/3069866",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1338550.png",
-      "url": "https://hh.ru/vacancy/121629287",
-      "published_at": "2025-06-17T20:43:52+0300",
-      "created_at": "2025-06-17T20:43:52+0300",
-      "area": "Ярославль",
-      "salary": "60 000 - 90 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 60000,
-        "to": 90000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Базовые навыки использования командной строки Linux. Желание учиться и развиваться, в том числе самостоятельно. Начальные знания о стеке протоколов TCP...",
-      "responsibility": "Сборка и тестирование серверов и сетевого оборудование. Отгрузка оборудование в датацентры и клиента (ведение склада серверов). Работа в команде, опытные...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "121754001",
       "name": "Системный администратор",
       "company": "Планета Фитнес",
@@ -8880,16 +8880,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121707765",
+      "id": "121707764",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121707765",
+      "url": "https://hh.ru/vacancy/121707764",
       "published_at": "2025-06-17T08:07:24+0300",
       "created_at": "2025-06-17T08:07:24+0300",
-      "area": "Мамадыш",
+      "area": "Кузнецк",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -8908,16 +8908,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121707764",
+      "id": "121707765",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121707764",
+      "url": "https://hh.ru/vacancy/121707765",
       "published_at": "2025-06-17T08:07:24+0300",
       "created_at": "2025-06-17T08:07:24+0300",
-      "area": "Кузнецк",
+      "area": "Мамадыш",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -10902,16 +10902,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121666424",
+      "id": "121666419",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121666424",
+      "url": "https://hh.ru/vacancy/121666419",
       "published_at": "2025-06-16T11:45:20+0300",
       "created_at": "2025-06-16T11:45:20+0300",
-      "area": "Шахунья",
+      "area": "Великий Устюг",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -10930,16 +10930,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121666419",
+      "id": "121666424",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121666419",
+      "url": "https://hh.ru/vacancy/121666424",
       "published_at": "2025-06-16T11:45:20+0300",
       "created_at": "2025-06-16T11:45:20+0300",
-      "area": "Великий Устюг",
+      "area": "Шахунья",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -11613,7 +11613,7 @@
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "",
+      "requirement": "Наличие собственного автомобиля.",
       "responsibility": "Сопровождение и обслуживание кассового оборудования. Сопровождение и организация ремонта оргтехники и компьютеров по \"железу\". Сопровождение по ПО. Сопровождение ремонта техники...",
       "type": "Открытая",
       "professional_roles": [
@@ -28971,39 +28971,6 @@
       "employment": "Полная занятость",
       "requirement": "Понимание операционных систем Windows.",
       "responsibility": "Установка, настройка программного обеспечения, оборудования. Диагностика, ремонт и обслуживание вверенного оборудования (кассовое, торговое, офисное). Обеспечение бесперебойного функционирования СКС (протяжка, наладка...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120821323",
-      "name": "Системный администратор",
-      "company": "Универсал",
-      "company_id": "864524",
-      "company_url": "https://hh.ru/employer/864524",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1287813.png",
-      "url": "https://hh.ru/vacancy/120821323",
-      "published_at": "2025-05-21T14:18:43+0300",
-      "created_at": "2025-05-21T14:18:43+0300",
-      "area": "Самара",
-      "salary": "от 126 000 RUR на руки",
-      "salary_raw": {
-        "from": 126000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Среднее профессиональное или высшее образование (техническое). Опыт работы: от 3 лет. Умение работать с большим количеством информации. Навыки работы: ОС...",
-      "responsibility": "Управление операционными системами: - Установка, настройка и администрирование серверов на базе Windows и Linux. - Обеспечение безопасности и обновление операционных систем. -",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
