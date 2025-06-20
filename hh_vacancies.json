@@ -10,16 +10,115 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-06-20T17:38:05Z",
+  "updated": "2025-06-20T18:51:52Z",
   "statistics": {
-    "total": 1541,
-    "with_salary": 883,
-    "companies": 1200,
+    "total": 1538,
+    "with_salary": 881,
+    "companies": 1199,
     "cities": 88,
     "premium": 2,
     "with_test": 56
   },
   "vacancies": [
+    {
+      "id": "121903120",
+      "name": "Системный администратор",
+      "company": "Metacommerce",
+      "company_id": "1842732",
+      "company_url": "https://hh.ru/employer/1842732",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/534153.jpg",
+      "url": "https://hh.ru/vacancy/121903120",
+      "published_at": "2025-06-20T21:18:47+0300",
+      "created_at": "2025-06-20T21:18:47+0300",
+      "area": "Москва",
+      "salary": "80 000 - 110 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": 110000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы с серверами Linux, пакетными менеджерами, сборка собственных пакетов и организация репозиториев приветствуется. Практический опыт физического обслуживания серверов (установка...",
+      "responsibility": "Администрирование серверов Linux (Debian/Ubuntu), включая профилактику, устранение неисправностей и обновление ПО. Физическое обслуживание серверов в московском ЦОД (центре обработки...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
+      "id": "121594911",
+      "name": "Системный администратор / SRE",
+      "company": "amoCRM",
+      "company_id": "999442",
+      "company_url": "https://hh.ru/employer/999442",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1400028.png",
+      "url": "https://hh.ru/vacancy/121594911",
+      "published_at": "2025-06-20T20:51:48+0300",
+      "created_at": "2025-06-20T20:51:48+0300",
+      "area": "Москва",
+      "salary": "до 160 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": null,
+        "to": 160000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Нужен минимальный опыт работы в Linux, надо понимать как происходит процесс загрузки, базовые навыки работы в shell, работа с ssh.",
+      "responsibility": "Поддержка продуктивных микросервисов. Поддержка кластеров lxd / k8s. Поддержка систем мониторинга. Администрирование баз данных MySQL. Поддержка и развитие CI...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "120435982",
+      "name": "Старший системный администратор",
+      "company": "Авиком Бизнес Технологии",
+      "company_id": "336",
+      "company_url": "https://hh.ru/employer/336",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/418999.jpg",
+      "url": "https://hh.ru/vacancy/120435982",
+      "published_at": "2025-06-20T20:50:27+0300",
+      "created_at": "2025-06-20T20:50:27+0300",
+      "area": "Москва",
+      "salary": "от 180 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 180000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Более 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Профильное высшее образование и/или опыт заменяющий его. Понимание основ построения и работы серверной инфраструктуры. Опыт работы в поддержке не...",
+      "responsibility": "Поддержка, развитие облачной инфраструктуры продукта - Windows, Ubuntu, несколько провайдеров IaaS. Поддержка внутренней инфраструктуры компании (Win/Linux/AD/Exchange/SQL Server).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "120910491",
       "name": "Системный администратор",
@@ -6467,39 +6566,6 @@
       "accept_temporary": false
     },
     {
-      "id": "120995615",
-      "name": "Системный администратор в загородном клубе \"RIVIERA Fitness & SPA\" (Одинцовский район)",
-      "company": "Ривьера-К",
-      "company_id": "2387117",
-      "company_url": "https://hh.ru/employer/2387117",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1397931.png",
-      "url": "https://hh.ru/vacancy/120995615",
-      "published_at": "2025-06-19T17:42:25+0300",
-      "created_at": "2025-06-19T17:42:25+0300",
-      "area": "Одинцово (Московская область)",
-      "salary": "от 100 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 100000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Требуемые компетенции и знания. Область. Требования. Программные продукты 1С. Опыт администрирования и поддержки, знание обмена с внешними системами, настройка...",
-      "responsibility": "Администрирование и поддержка программных продуктов 1С (Предприятие, Фитнес КОРП, ЗУП, Кабинет сотрудника), настройка обмена с бухгалтерией и внешними сервисами...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "120803819",
       "name": "Системный администратор (строительство)",
       "company": "Новые Строительные Технологии",
@@ -11721,72 +11787,6 @@
       "accept_temporary": false
     },
     {
-      "id": "121807509",
-      "name": "Помощник системного администратора / Начинающий специалист",
-      "company": "NV GROUP",
-      "company_id": "579783",
-      "company_url": "https://hh.ru/employer/579783",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
-      "url": "https://hh.ru/vacancy/121807509",
-      "published_at": "2025-06-18T19:09:10+0300",
-      "created_at": "2025-06-18T19:09:10+0300",
-      "area": "Подольск (Московская область)",
-      "salary": "от 60 000 RUR на руки",
-      "salary_raw": {
-        "from": 60000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Ответственное отношение к работе, внимательность и желание заработать. Опыт работы не требуется – мы объясним и покажем, что нужно делать.",
-      "responsibility": "Планово-профилактические работы в офисах и торговых точках (протирание от пыли оборудования, проверка рабочего состояния – включение / выключение, разматывание кабелей и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
-      "id": "121807515",
-      "name": "Помощник системного администратора / Начинающий специалист",
-      "company": "NV GROUP",
-      "company_id": "579783",
-      "company_url": "https://hh.ru/employer/579783",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
-      "url": "https://hh.ru/vacancy/121807515",
-      "published_at": "2025-06-18T19:09:10+0300",
-      "created_at": "2025-06-18T19:09:10+0300",
-      "area": "Кашира (Московская область)",
-      "salary": "от 60 000 RUR на руки",
-      "salary_raw": {
-        "from": 60000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Ответственное отношение к работе, внимательность и желание заработать. Опыт работы не требуется – мы объясним и покажем, что нужно делать.",
-      "responsibility": "Планово-профилактические работы в офисах и торговых точках (протирание от пыли оборудования, проверка рабочего состояния – включение / выключение, разматывание кабелей и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
       "id": "121807519",
       "name": "Помощник системного администратора / Начинающий специалист",
       "company": "NV GROUP",
@@ -11820,6 +11820,39 @@
       "accept_temporary": true
     },
     {
+      "id": "121807509",
+      "name": "Помощник системного администратора / Начинающий специалист",
+      "company": "NV GROUP",
+      "company_id": "579783",
+      "company_url": "https://hh.ru/employer/579783",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
+      "url": "https://hh.ru/vacancy/121807509",
+      "published_at": "2025-06-18T19:09:10+0300",
+      "created_at": "2025-06-18T19:09:10+0300",
+      "area": "Подольск (Московская область)",
+      "salary": "от 60 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Ответственное отношение к работе, внимательность и желание заработать. Опыт работы не требуется – мы объясним и покажем, что нужно делать.",
+      "responsibility": "Планово-профилактические работы в офисах и торговых точках (протирание от пыли оборудования, проверка рабочего состояния – включение / выключение, разматывание кабелей и...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
       "id": "121807516",
       "name": "Помощник системного администратора / Начинающий специалист",
       "company": "NV GROUP",
@@ -11830,6 +11863,39 @@
       "published_at": "2025-06-18T19:09:10+0300",
       "created_at": "2025-06-18T19:09:10+0300",
       "area": "Можайск (Московская область)",
+      "salary": "от 60 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Ответственное отношение к работе, внимательность и желание заработать. Опыт работы не требуется – мы объясним и покажем, что нужно делать.",
+      "responsibility": "Планово-профилактические работы в офисах и торговых точках (протирание от пыли оборудования, проверка рабочего состояния – включение / выключение, разматывание кабелей и...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
+      "id": "121807515",
+      "name": "Помощник системного администратора / Начинающий специалист",
+      "company": "NV GROUP",
+      "company_id": "579783",
+      "company_url": "https://hh.ru/employer/579783",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
+      "url": "https://hh.ru/vacancy/121807515",
+      "published_at": "2025-06-18T19:09:10+0300",
+      "created_at": "2025-06-18T19:09:10+0300",
+      "area": "Кашира (Московская область)",
       "salary": "от 60 000 RUR на руки",
       "salary_raw": {
         "from": 60000,
@@ -11985,6 +12051,39 @@
       "accept_temporary": true
     },
     {
+      "id": "121807517",
+      "name": "Помощник системного администратора / Начинающий специалист",
+      "company": "NV GROUP",
+      "company_id": "579783",
+      "company_url": "https://hh.ru/employer/579783",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
+      "url": "https://hh.ru/vacancy/121807517",
+      "published_at": "2025-06-18T19:09:10+0300",
+      "created_at": "2025-06-18T19:09:10+0300",
+      "area": "Наро-Фоминск (Московская область)",
+      "salary": "от 60 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Ответственное отношение к работе, внимательность и желание заработать. Опыт работы не требуется – мы объясним и покажем, что нужно делать.",
+      "responsibility": "Планово-профилактические работы в офисах и торговых точках (протирание от пыли оборудования, проверка рабочего состояния – включение / выключение, разматывание кабелей и...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
       "id": "121807518",
       "name": "Помощник системного администратора / Начинающий специалист",
       "company": "NV GROUP",
@@ -12028,39 +12127,6 @@
       "published_at": "2025-06-18T19:09:10+0300",
       "created_at": "2025-06-18T19:09:10+0300",
       "area": "Долгопрудный (Московская область)",
-      "salary": "от 60 000 RUR на руки",
-      "salary_raw": {
-        "from": 60000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Ответственное отношение к работе, внимательность и желание заработать. Опыт работы не требуется – мы объясним и покажем, что нужно делать.",
-      "responsibility": "Планово-профилактические работы в офисах и торговых точках (протирание от пыли оборудования, проверка рабочего состояния – включение / выключение, разматывание кабелей и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
-      "id": "121807517",
-      "name": "Помощник системного администратора / Начинающий специалист",
-      "company": "NV GROUP",
-      "company_id": "579783",
-      "company_url": "https://hh.ru/employer/579783",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
-      "url": "https://hh.ru/vacancy/121807517",
-      "published_at": "2025-06-18T19:09:10+0300",
-      "created_at": "2025-06-18T19:09:10+0300",
-      "area": "Наро-Фоминск (Московская область)",
       "salary": "от 60 000 RUR на руки",
       "salary_raw": {
         "from": 60000,
@@ -17113,39 +17179,6 @@
       "accept_temporary": false
     },
     {
-      "id": "121067602",
-      "name": "Системный администратор в загородном клубе \"RIVIERA Fitness & SPA\" (Одинцовский район)",
-      "company": "Ривьера-К",
-      "company_id": "2387117",
-      "company_url": "https://hh.ru/employer/2387117",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1397931.png",
-      "url": "https://hh.ru/vacancy/121067602",
-      "published_at": "2025-06-18T10:06:55+0300",
-      "created_at": "2025-06-18T10:06:55+0300",
-      "area": "Москва",
-      "salary": "от 100 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 100000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Требуемые компетенции и знания. Область. Требования. Программные продукты 1С. Опыт администрирования и поддержки, знание обмена с внешними системами, настройка...",
-      "responsibility": "Администрирование и поддержка программных продуктов 1С (Предприятие, Фитнес КОРП, ЗУП, Кабинет сотрудника), настройка обмена с бухгалтерией и внешними сервисами...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "121516716",
       "name": "Системный администратор в офис",
       "company": "Акцент",
@@ -17196,39 +17229,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание Linux систем и опыт их администрирования. Практический опыт написания скриптов на различных языках программирования. Опыт работы с сетевыми устройствами...",
       "responsibility": "Управление и поддержка Linux систем. Написание скриптов на различных языках для автоматизации задач. Настройка и администрирование сетевых устройств, включая mikrotik.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120435982",
-      "name": "Старший системный администратор",
-      "company": "Авиком Бизнес Технологии",
-      "company_id": "336",
-      "company_url": "https://hh.ru/employer/336",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/418999.jpg",
-      "url": "https://hh.ru/vacancy/120435982",
-      "published_at": "2025-06-18T09:45:00+0300",
-      "created_at": "2025-06-18T09:45:00+0300",
-      "area": "Москва",
-      "salary": "от 180 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 180000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Более 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Профильное высшее образование и/или опыт заменяющий его. Понимание основ построения и работы серверной инфраструктуры. Опыт работы в поддержке не...",
-      "responsibility": "Поддержка, развитие облачной инфраструктуры продукта - Windows, Ubuntu, несколько провайдеров IaaS. Поддержка внутренней инфраструктуры компании (Win/Linux/AD/Exchange/SQL Server).",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -18089,39 +18089,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": true
-    },
-    {
-      "id": "121594911",
-      "name": "Системный администратор / SRE",
-      "company": "amoCRM",
-      "company_id": "999442",
-      "company_url": "https://hh.ru/employer/999442",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1400028.png",
-      "url": "https://hh.ru/vacancy/121594911",
-      "published_at": "2025-06-17T20:51:48+0300",
-      "created_at": "2025-06-17T20:51:48+0300",
-      "area": "Москва",
-      "salary": "до 160 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": null,
-        "to": 160000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Нужен минимальный опыт работы в Linux, надо понимать как происходит процесс загрузки, базовые навыки работы в shell, работа с ssh.",
-      "responsibility": "Поддержка продуктивных микросервисов. Поддержка кластеров lxd / k8s. Поддержка систем мониторинга. Администрирование баз данных MySQL. Поддержка и развитие CI...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
     },
     {
       "id": "121756065",
@@ -42903,39 +42870,6 @@
       "accept_temporary": false
     },
     {
-      "id": "121040933",
-      "name": "Системный администратор (специалист техподдержки)",
-      "company": "Группа компаний ЕКС",
-      "company_id": "1143452",
-      "company_url": "https://hh.ru/employer/1143452",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/781012.jpg",
-      "url": "https://hh.ru/vacancy/121040933",
-      "published_at": "2025-05-27T16:04:27+0300",
-      "created_at": "2025-05-27T16:04:27+0300",
-      "area": "Москва",
-      "salary": "100 000 - 120 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "120491289",
       "name": "Системный администратор",
       "company": "НПО Алмаз",
@@ -47517,34 +47451,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы от 3-х лет в роли системного инженера/системного администратора. Навыки администрирования Linux, Windows. Опыт работы с системами...",
       "responsibility": "Обеспечение непрерывной доступности ИТ систем компании. Настройки мониторинга Zabbix/Grafana/Prometheus. Автоматизация рутинных задач - Ansible/Terraform/Скрипты. Администрирование ОС Linux...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120837664",
-      "name": "Системный администратор",
-      "company": "Парламентское телевидение Государственной Думы",
-      "company_id": "3403470",
-      "company_url": "https://hh.ru/employer/3403470",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1279219.png",
-      "url": "https://hh.ru/vacancy/120837664",
-      "published_at": "2025-05-21T21:28:04+0300",
-      "created_at": "2025-05-21T21:28:04+0300",
-      "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее профессиональное образование с опытом практической работы в области системного администрирования; дополнительное профессиональное образование - программы повышения квалификации, программы профессиональной переподготовки...",
-      "responsibility": "Обслуживание и поддержка локальной вычислительной сети офисных помещений Редакции. Установка картриджей, необходимых для функционирования принтеров и копиров. Расчет потребности в...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
