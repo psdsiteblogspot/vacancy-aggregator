@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-06-21T14:45:21Z",
+  "updated": "2025-06-21T15:43:08Z",
   "statistics": {
-    "total": 1056,
-    "with_salary": 790,
-    "companies": 795,
+    "total": 1055,
+    "with_salary": 789,
+    "companies": 794,
     "cities": 209,
     "premium": 0,
     "with_test": 17
   },
   "vacancies": [
+    {
+      "id": "121805067",
+      "name": "Системный администратор",
+      "company": "Красное & Белое, розничная сеть",
+      "company_id": "1035394",
+      "company_url": "https://hh.ru/employer/1035394",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/90459.jpg",
+      "url": "https://hh.ru/vacancy/121805067",
+      "published_at": "2025-06-21T17:40:14+0300",
+      "created_at": "2025-06-21T17:40:14+0300",
+      "area": "Калининград",
+      "salary": "95 000 - 104 000 RUR на руки",
+      "salary_raw": {
+        "from": 95000,
+        "to": 104000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в аналогичной должности. Знание офисных и почтовых программ. Опыт программного и аппаратного ремонта. Понимание устройства локальных сетей и...",
+      "responsibility": "Обслуживание ПК и орг. техники, торгового оборудования, систем видеонаблюдения на магазинах торговой сети.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "121328262",
       "name": "Системный администратор отдела информационных технологий и АСУ",
@@ -5262,39 +5295,6 @@
       "accept_temporary": false
     },
     {
-      "id": "116723731",
-      "name": "Системный администратор в Норильск",
-      "company": "ГУ МВД России по Красноярскому краю",
-      "company_id": "11314982",
-      "company_url": "https://hh.ru/employer/11314982",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/116723731",
-      "published_at": "2025-06-19T15:45:43+0300",
-      "created_at": "2025-06-19T15:45:43+0300",
-      "area": "Енисейск",
-      "salary": "от 126 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 126000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее техническое образование (в области информационных технологий, телекоммуникаций, информационной безопасности). Наличие минимального практического опыта системного администрирования: - знание основ работы сети...",
-      "responsibility": "Установка, настройка и обеспечение бесперебойного функционирования (в случае необходимости – принятие оперативных мер по устранению сбоев): - операционных систем и прикладного программного...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "116723730",
       "name": "Системный администратор в Норильск",
       "company": "ГУ МВД России по Красноярскому краю",
@@ -5338,6 +5338,39 @@
       "published_at": "2025-06-19T15:45:43+0300",
       "created_at": "2025-06-19T15:45:43+0300",
       "area": "Светлогорск (Красноярский край)",
+      "salary": "от 126 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 126000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее техническое образование (в области информационных технологий, телекоммуникаций, информационной безопасности). Наличие минимального практического опыта системного администрирования: - знание основ работы сети...",
+      "responsibility": "Установка, настройка и обеспечение бесперебойного функционирования (в случае необходимости – принятие оперативных мер по устранению сбоев): - операционных систем и прикладного программного...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "116723731",
+      "name": "Системный администратор в Норильск",
+      "company": "ГУ МВД России по Красноярскому краю",
+      "company_id": "11314982",
+      "company_url": "https://hh.ru/employer/11314982",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/116723731",
+      "published_at": "2025-06-19T15:45:43+0300",
+      "created_at": "2025-06-19T15:45:43+0300",
+      "area": "Енисейск",
       "salary": "от 126 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 126000,
@@ -8271,72 +8304,6 @@
       "accept_temporary": false
     },
     {
-      "id": "120882460",
-      "name": "Системный администратор",
-      "company": "Патриот Гарант",
-      "company_id": "5787573",
-      "company_url": "https://hh.ru/employer/5787573",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1048099.png",
-      "url": "https://hh.ru/vacancy/120882460",
-      "published_at": "2025-06-18T18:05:28+0300",
-      "created_at": "2025-06-18T18:05:28+0300",
-      "area": "Волгоград",
-      "salary": "от 40 000 RUR на руки",
-      "salary_raw": {
-        "from": 40000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Понимание принципов работы TCP/IP.Либо желания ОБУЧАТЬСЯ. Опыт настройки локальных проводных и беспроводных сетей(ЖЕЛАТЕЛЬНО). Навыки установки и настройки периферийного...",
-      "responsibility": "Установка, настройка и обновление офисного и прикладного программного обеспечения. Настройка локальной сети офиса (устранения аварийных ситуаций). Ведение учета оборудования, находящегося...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121805067",
-      "name": "Системный администратор",
-      "company": "Красное & Белое, розничная сеть",
-      "company_id": "1035394",
-      "company_url": "https://hh.ru/employer/1035394",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/90459.jpg",
-      "url": "https://hh.ru/vacancy/121805067",
-      "published_at": "2025-06-18T17:40:14+0300",
-      "created_at": "2025-06-18T17:40:14+0300",
-      "area": "Калининград",
-      "salary": "95 000 - 104 000 RUR на руки",
-      "salary_raw": {
-        "from": 95000,
-        "to": 104000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в аналогичной должности. Знание офисных и почтовых программ. Опыт программного и аппаратного ремонта. Понимание устройства локальных сетей и...",
-      "responsibility": "Обслуживание ПК и орг. техники, торгового оборудования, систем видеонаблюдения на магазинах торговой сети.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "121804809",
       "name": "Системный администратор",
       "company": "ГазНефтеХолдинг",
@@ -8822,16 +8789,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121789383",
+      "id": "121789386",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121789383",
+      "url": "https://hh.ru/vacancy/121789386",
       "published_at": "2025-06-18T13:40:13+0300",
       "created_at": "2025-06-18T13:40:13+0300",
-      "area": "Ирбит",
+      "area": "Кропоткин",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -8850,16 +8817,16 @@
       "accept_temporary": true
     },
     {
-      "id": "121789386",
+      "id": "121789383",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121789386",
+      "url": "https://hh.ru/vacancy/121789383",
       "published_at": "2025-06-18T13:40:13+0300",
       "created_at": "2025-06-18T13:40:13+0300",
-      "area": "Кропоткин",
+      "area": "Ирбит",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -23124,16 +23091,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121346658",
+      "id": "121346659",
       "name": "Системный администратор",
       "company": "Сыктывкар Тиссью Груп",
       "company_id": "160621",
       "company_url": "https://hh.ru/employer/160621",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1427394.png",
-      "url": "https://hh.ru/vacancy/121346658",
+      "url": "https://hh.ru/vacancy/121346659",
       "published_at": "2025-06-04T15:39:28+0300",
       "created_at": "2025-06-04T15:39:28+0300",
-      "area": "Воркута",
+      "area": "Усинск",
       "salary": "от 104 500 RUR на руки",
       "salary_raw": {
         "from": 104500,
@@ -23157,16 +23124,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121346659",
+      "id": "121346658",
       "name": "Системный администратор",
       "company": "Сыктывкар Тиссью Груп",
       "company_id": "160621",
       "company_url": "https://hh.ru/employer/160621",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1427394.png",
-      "url": "https://hh.ru/vacancy/121346659",
+      "url": "https://hh.ru/vacancy/121346658",
       "published_at": "2025-06-04T15:39:28+0300",
       "created_at": "2025-06-04T15:39:28+0300",
-      "area": "Усинск",
+      "area": "Воркута",
       "salary": "от 104 500 RUR на руки",
       "salary_raw": {
         "from": 104500,
@@ -33493,8 +33460,8 @@
       "experience": "От 3 до 6 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "Опыт работы системным администратором от 3-х лет. Базовые знания HTML/CSS/PHP для решения мелких технических вопросов.",
-      "responsibility": "Проектирование и внедрение корпоративных порталов на платформе Битрикс. Интеграция CRM-системы Битрикс24 с внутренними системами компании. Настройка бизнес-процессов...",
+      "requirement": "",
+      "responsibility": "",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
