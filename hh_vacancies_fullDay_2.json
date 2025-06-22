@@ -10,11 +10,11 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-06-22T07:44:44Z",
+  "updated": "2025-06-22T08:54:34Z",
   "statistics": {
-    "total": 892,
-    "with_salary": 670,
-    "companies": 687,
+    "total": 889,
+    "with_salary": 668,
+    "companies": 685,
     "cities": 149,
     "premium": 0,
     "with_test": 13
@@ -43,6 +43,72 @@
       "employment": "Полная занятость",
       "requirement": "Уровень профессионального образования: высшее образование не ниже уровня специалитета, магистратуры с учетом установленных законодательством Российской Федерации о государственной гражданской службе...",
       "responsibility": "устанавливает, настраивает и поддерживает рабочее состояние программного обеспечения на серверах, персональных компьютерах и периферийных устройствах. - обновляет серверные операционные системы и...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "120963477",
+      "name": "Системный администратор",
+      "company": "Страховая компания Чулпан",
+      "company_id": "1246410",
+      "company_url": "https://hh.ru/employer/1246410",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/120963477",
+      "published_at": "2025-06-22T10:42:30+0300",
+      "created_at": "2025-06-22T10:42:30+0300",
+      "area": "Альметьевск",
+      "salary": "48 000 - 52 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 48000,
+        "to": 52000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание устройства ПК. Знание системного ПО на базе Windows (8,10). Знание системного серверного ПО (2008 и выше) (AD, DNS...",
+      "responsibility": "",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121656308",
+      "name": "Системный администратор Linux",
+      "company": "Юстронг",
+      "company_id": "1105108",
+      "company_url": "https://hh.ru/employer/1105108",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1431478.png",
+      "url": "https://hh.ru/vacancy/121656308",
+      "published_at": "2025-06-22T10:09:44+0300",
+      "created_at": "2025-06-22T10:09:44+0300",
+      "area": "Тула",
+      "salary": "700 - 800 RUR на руки",
+      "salary_raw": {
+        "from": 700,
+        "to": 800,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Частичная занятость",
+      "requirement": "Отличное знание стека технологий для администрирования серверов Linux под Битрикс. Быть на связи (телефон/Telegram). Ответственность.",
+      "responsibility": "Виртуальные веб-серверы на 1vds (Debian, ISP), падений нет. Около 10 сайтов, без высокой нагрузки. Бэкапы на ruvds.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -1915,8 +1981,8 @@
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "",
+      "requirement": "Высшее образование. Отличные знания Active Directory, Group Policy, DNS, DHCP, MSSQL. Уверенное Сетевое администрирование, установка, настройка, администрирование систем виртуализации Hyper...",
+      "responsibility": "Обеспечение бесперебойной работы IT-инфраструктуры, локальных сетей, серверов, сетевых устройств. Поддержание в актуальном состоянии пользовательских учетных записей Active Directory на...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -5159,39 +5225,6 @@
       "accept_temporary": false
     },
     {
-      "id": "120963477",
-      "name": "Системный администратор",
-      "company": "Страховая компания Чулпан",
-      "company_id": "1246410",
-      "company_url": "https://hh.ru/employer/1246410",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/120963477",
-      "published_at": "2025-06-19T10:42:30+0300",
-      "created_at": "2025-06-19T10:42:30+0300",
-      "area": "Альметьевск",
-      "salary": "48 000 - 52 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 48000,
-        "to": 52000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание устройства ПК. Знание системного ПО на базе Windows (8,10). Знание системного серверного ПО (2008 и выше) (AD, DNS...",
-      "responsibility": "",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "121825291",
       "name": "Системный администратор / ИТ инженер",
       "company": "Софко",
@@ -5247,39 +5280,6 @@
       "employment": "Полная занятость",
       "requirement": "Среднее профессиональное в области компьютерных и телекоммуникационных технологий.",
       "responsibility": "Администрирование локальных вычислительных сетей. Установка и настройка программного обеспечения. Ремонт и модернизация вычислительной, офисной техники. Техническая поддержка пользователей.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121656308",
-      "name": "Системный администратор Linux",
-      "company": "Юстронг",
-      "company_id": "1105108",
-      "company_url": "https://hh.ru/employer/1105108",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1431478.png",
-      "url": "https://hh.ru/vacancy/121656308",
-      "published_at": "2025-06-19T10:09:44+0300",
-      "created_at": "2025-06-19T10:09:44+0300",
-      "area": "Тула",
-      "salary": "700 - 800 RUR на руки",
-      "salary_raw": {
-        "from": 700,
-        "to": 800,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Частичная занятость",
-      "requirement": "Отличное знание стека технологий для администрирования серверов Linux под Битрикс. Быть на связи (телефон/Telegram). Ответственность.",
-      "responsibility": "Виртуальные веб-серверы на 1vds (Debian, ISP), падений нет. Около 10 сайтов, без высокой нагрузки. Бэкапы на ruvds.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -10107,16 +10107,16 @@
       "accept_temporary": true
     },
     {
-      "id": "121685972",
+      "id": "121685970",
       "name": "Дежурный системный администратор",
       "company": "Завидово Парк",
       "company_id": "11651491",
       "company_url": "https://hh.ru/employer/11651491",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/121685972",
+      "url": "https://hh.ru/vacancy/121685970",
       "published_at": "2025-06-16T15:28:43+0300",
       "created_at": "2025-06-16T15:28:43+0300",
-      "area": "Тверь",
+      "area": "Конаково",
       "salary": "до 85 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -10140,16 +10140,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121685970",
+      "id": "121685972",
       "name": "Дежурный системный администратор",
       "company": "Завидово Парк",
       "company_id": "11651491",
       "company_url": "https://hh.ru/employer/11651491",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/121685970",
+      "url": "https://hh.ru/vacancy/121685972",
       "published_at": "2025-06-16T15:28:43+0300",
       "created_at": "2025-06-16T15:28:43+0300",
-      "area": "Конаково",
+      "area": "Тверь",
       "salary": "до 85 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -19467,16 +19467,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121349485",
+      "id": "121349486",
       "name": "Инженер по компьютерным системам / Системный администратор (г.Алушта)",
       "company": "Отель MORE SPA & RESORT (ООО АФОРРА-РЕЗОРТ)",
       "company_id": "10330901",
       "company_url": "https://hh.ru/employer/10330901",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1173916.jpg",
-      "url": "https://hh.ru/vacancy/121349485",
+      "url": "https://hh.ru/vacancy/121349486",
       "published_at": "2025-06-04T16:24:52+0300",
       "created_at": "2025-06-04T16:24:52+0300",
-      "area": "Воронеж",
+      "area": "Севастополь",
       "salary": "от 68 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 68000,
@@ -19500,16 +19500,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121349486",
+      "id": "121349485",
       "name": "Инженер по компьютерным системам / Системный администратор (г.Алушта)",
       "company": "Отель MORE SPA & RESORT (ООО АФОРРА-РЕЗОРТ)",
       "company_id": "10330901",
       "company_url": "https://hh.ru/employer/10330901",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1173916.jpg",
-      "url": "https://hh.ru/vacancy/121349486",
+      "url": "https://hh.ru/vacancy/121349485",
       "published_at": "2025-06-04T16:24:52+0300",
       "created_at": "2025-06-04T16:24:52+0300",
-      "area": "Севастополь",
+      "area": "Воронеж",
       "salary": "от 68 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 68000,
@@ -26584,16 +26584,16 @@
       "accept_temporary": false
     },
     {
-      "id": "120991914",
+      "id": "120991912",
       "name": "Младший системный администратор",
       "company": "ЭФКО",
       "company_id": "53797",
       "company_url": "https://hh.ru/employer/53797",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/752189.jpg",
-      "url": "https://hh.ru/vacancy/120991914",
+      "url": "https://hh.ru/vacancy/120991912",
       "published_at": "2025-05-26T16:35:11+0300",
       "created_at": "2025-05-26T16:35:11+0300",
-      "area": "Новый Оскол",
+      "area": "Острогожск",
       "salary": "до 117 450 RUR на руки",
       "salary_raw": {
         "from": null,
@@ -26617,16 +26617,16 @@
       "accept_temporary": false
     },
     {
-      "id": "120991912",
+      "id": "120991914",
       "name": "Младший системный администратор",
       "company": "ЭФКО",
       "company_id": "53797",
       "company_url": "https://hh.ru/employer/53797",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/752189.jpg",
-      "url": "https://hh.ru/vacancy/120991912",
+      "url": "https://hh.ru/vacancy/120991914",
       "published_at": "2025-05-26T16:35:11+0300",
       "created_at": "2025-05-26T16:35:11+0300",
-      "area": "Острогожск",
+      "area": "Новый Оскол",
       "salary": "до 117 450 RUR на руки",
       "salary_raw": {
         "from": null,
@@ -28242,100 +28242,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы системный администратором с похожим функционалом от года.",
       "responsibility": "Установка и Настройка ПК на базе ОС Windows, Linux. Работа с системами виртуализации на базе KVM/Proxmox VE.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120901403",
-      "name": "Младший системный администратор (в отдел техподдержки)",
-      "company": "БИТС-Сервис",
-      "company_id": "667501",
-      "company_url": "https://hh.ru/employer/667501",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1288658.png",
-      "url": "https://hh.ru/vacancy/120901403",
-      "published_at": "2025-05-23T11:32:40+0300",
-      "created_at": "2025-05-23T11:32:40+0300",
-      "area": "Воронеж",
-      "salary": "25 000 - 40 000 RUR на руки",
-      "salary_raw": {
-        "from": 25000,
-        "to": 40000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Личностные качества: Ответственность, коммуникабельность, тактичность. Исполнительность, инициативность. Мотивация на развитие и профессиональный рост. Нацеленность на результат. Системный подход к организации...",
-      "responsibility": "Прием заявок от Заказчиков через телефон и электронную почту. Обработка Заявок, их категорирование и отслеживание статуса. Отработка Заявок по оборудованию...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Специалист технической поддержки"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120899626",
-      "name": "Системный администратор (приходящий)",
-      "company": "ВОГ, Торговая компания",
-      "company_id": "90597",
-      "company_url": "https://hh.ru/employer/90597",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1405867.png",
-      "url": "https://hh.ru/vacancy/120899626",
-      "published_at": "2025-05-23T11:06:09+0300",
-      "created_at": "2025-05-23T11:06:09+0300",
-      "area": "Самара",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Диагностика неисправностей ПК и ОС Windows. Уверенная работа в MS Office.",
-      "responsibility": "Установка и настройка ОС Windows и сопутствующих программ. Выявления неисправностей сети (мелкий ремонт без применения строительных инструментов). Обслуживание (поддержание в...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
-      "id": "120821323",
-      "name": "Системный администратор",
-      "company": "Универсал",
-      "company_id": "864524",
-      "company_url": "https://hh.ru/employer/864524",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1287813.png",
-      "url": "https://hh.ru/vacancy/120821323",
-      "published_at": "2025-05-21T14:18:43+0300",
-      "created_at": "2025-05-21T14:18:43+0300",
-      "area": "Самара",
-      "salary": "от 126 000 RUR на руки",
-      "salary_raw": {
-        "from": 126000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
