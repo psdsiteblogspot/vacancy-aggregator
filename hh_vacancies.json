@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-06-22T17:39:00Z",
+  "updated": "2025-06-22T18:49:04Z",
   "statistics": {
-    "total": 1466,
-    "with_salary": 834,
+    "total": 1465,
+    "with_salary": 833,
     "companies": 1145,
     "cities": 87,
     "premium": 2,
     "with_test": 57
   },
   "vacancies": [
+    {
+      "id": "121858277",
+      "name": "System Administrator/SRE (работа по графику офиса США)",
+      "company": "Americor Funding Inc",
+      "company_id": "4354272",
+      "company_url": "https://hh.ru/employer/4354272",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/690861.png",
+      "url": "https://hh.ru/vacancy/121858277",
+      "published_at": "2025-06-22T20:12:49+0300",
+      "created_at": "2025-06-22T20:12:49+0300",
+      "area": "Москва",
+      "salary": "от 4 500 USD до вычета налогов",
+      "salary_raw": {
+        "from": 4500,
+        "to": null,
+        "currency": "USD",
+        "gross": true
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "5+ лет опыта поддержки высокодоступной инфраструктуры в условиях высокой нагрузки. Экспертные знания в системах Linux и веб-стеке (Nginx...",
+      "responsibility": "Операционные системы: CentOS / AlmaLinux OS. Хранение данных: GlusterFS. Инструменты мониторинга: Datadog, Sentry, Pingdom. IaC: Terraform, Ansible. Система оповещения: OpsGenie.",
+      "type": "Открытая",
+      "professional_roles": [
+        "DevOps-инженер"
+      ],
+      "has_test": true,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121858149",
+      "name": "Системный администратор",
+      "company": "НефтьГаз инвест",
+      "company_id": "2029758",
+      "company_url": "https://hh.ru/employer/2029758",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/121858149",
+      "published_at": "2025-06-22T19:55:57+0300",
+      "created_at": "2025-06-22T19:55:57+0300",
+      "area": "Москва",
+      "salary": "100 000 - 120 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Среднее профессиональное образование и стаж работы в данной области не менее 3-х лет/ высшее профессиональное образование в области компьютерных...",
+      "responsibility": "Конфигурация, настройка и администрирование серверов, персональных компьютеров и периферийных устройств. Установка и настройка сетевого оборудования.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "120435982",
       "name": "Старший системный администратор",
@@ -12160,72 +12226,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы с виртуализацией (VmWare и аналоги). Опыт в администрировании Linux серверов. Понимание сетевых технологий и опыт сетевой диагностики.",
       "responsibility": "Ваша роль будет заключаться не только в обработке входящих запросов, но и в плотной работе с виртуальными машинами, виртуальной инфраструктурой...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121858277",
-      "name": "System Administrator/SRE (работа по графику офиса США)",
-      "company": "Americor Funding Inc",
-      "company_id": "4354272",
-      "company_url": "https://hh.ru/employer/4354272",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/690861.png",
-      "url": "https://hh.ru/vacancy/121858277",
-      "published_at": "2025-06-19T20:12:49+0300",
-      "created_at": "2025-06-19T20:12:49+0300",
-      "area": "Москва",
-      "salary": "от 4 500 USD до вычета налогов",
-      "salary_raw": {
-        "from": 4500,
-        "to": null,
-        "currency": "USD",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "5+ лет опыта поддержки высокодоступной инфраструктуры в условиях высокой нагрузки. Экспертные знания в системах Linux и веб-стеке (Nginx...",
-      "responsibility": "Операционные системы: CentOS / AlmaLinux OS. Хранение данных: GlusterFS. Инструменты мониторинга: Datadog, Sentry, Pingdom. IaC: Terraform, Ansible. Система оповещения: OpsGenie.",
-      "type": "Открытая",
-      "professional_roles": [
-        "DevOps-инженер"
-      ],
-      "has_test": true,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121858149",
-      "name": "Системный администратор",
-      "company": "НефтьГаз инвест",
-      "company_id": "2029758",
-      "company_url": "https://hh.ru/employer/2029758",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/121858149",
-      "published_at": "2025-06-19T19:55:57+0300",
-      "created_at": "2025-06-19T19:55:57+0300",
-      "area": "Москва",
-      "salary": "100 000 - 120 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Среднее профессиональное образование и стаж работы в данной области не менее 3-х лет/ высшее профессиональное образование в области компьютерных...",
-      "responsibility": "Конфигурация, настройка и администрирование серверов, персональных компьютеров и периферийных устройств. Установка и настройка сетевого оборудования.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -42166,39 +42166,6 @@
       "employment": "Полная занятость",
       "requirement": "Среднее/высшее техническое образование. Свободное владение ПК (установка софта, настройка доступа, решение возникающих проблем). Понимание принципов построения сетевых протоколов, Ethernet...",
       "responsibility": "Работа в «ДубльДоме» - это работа в команде лидера рынка модульного домостроения в России. Перспективы развития сотрудников: стабильно высокий объем выпускаемой...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121040933",
-      "name": "Системный администратор (специалист техподдержки)",
-      "company": "Группа компаний ЕКС",
-      "company_id": "1143452",
-      "company_url": "https://hh.ru/employer/1143452",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/781012.jpg",
-      "url": "https://hh.ru/vacancy/121040933",
-      "published_at": "2025-05-27T16:04:27+0300",
-      "created_at": "2025-05-27T16:04:27+0300",
-      "area": "Москва",
-      "salary": "100 000 - 120 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Понимание модели OSI. Создание и изменение учетных записей AD/Exchange. Опыт поддержки пользователей на базе ПО Microsoft (Office, Outlook).",
-      "responsibility": "Техническая поддержка пользователей. Диагностика неисправностей ПК, настройка и агрегатная замена. Организация новых рабочих мест. Оперативное решение проблем пользователей с программным...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
