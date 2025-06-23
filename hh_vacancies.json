@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-06-23T19:27:54Z",
+  "updated": "2025-06-23T20:40:32Z",
   "statistics": {
-    "total": 1519,
-    "with_salary": 860,
+    "total": 1518,
+    "with_salary": 859,
     "companies": 1183,
     "cities": 88,
     "premium": 1,
     "with_test": 62
   },
   "vacancies": [
+    {
+      "id": "121255473",
+      "name": "Системный администратор (помощник системного администратора)",
+      "company": "ССПБ",
+      "company_id": "5310198",
+      "company_url": "https://hh.ru/employer/5310198",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/121255473",
+      "published_at": "2025-06-23T22:44:37+0300",
+      "created_at": "2025-06-23T22:44:37+0300",
+      "area": "Москва",
+      "salary": "50 000 - 90 000 RUR на руки",
+      "salary_raw": {
+        "from": 50000,
+        "to": 90000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "В команду перспективного проекта требуется ответственный системный администратор, имеющий опыт работы по поддержке офиса (от компьютеров, до настройки внутренних серверов).",
+      "responsibility": "Техническая поддержка пользователей. Установка, обновление и настройка ПО. Обслуживание оргтехники, заказ расходников. Монтаж, обслуживание СКС. Диагностика неисправностей, модульный ремонт.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "121399001",
       "name": "Системный администратор",
@@ -392,39 +425,6 @@
       "accept_temporary": true
     },
     {
-      "id": "121807516",
-      "name": "Помощник системного администратора / Начинающий специалист",
-      "company": "NV GROUP",
-      "company_id": "579783",
-      "company_url": "https://hh.ru/employer/579783",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
-      "url": "https://hh.ru/vacancy/121807516",
-      "published_at": "2025-06-23T18:42:52+0300",
-      "created_at": "2025-06-23T18:42:52+0300",
-      "area": "Можайск (Московская область)",
-      "salary": "от 60 000 RUR на руки",
-      "salary_raw": {
-        "from": 60000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Ответственное отношение к работе, внимательность и желание заработать. Опыт работы не требуется – мы объясним и покажем, что нужно делать.",
-      "responsibility": "Планово-профилактические работы в офисах и торговых точках (протирание от пыли оборудования, проверка рабочего состояния – включение / выключение, разматывание кабелей и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
       "id": "121807514",
       "name": "Помощник системного администратора / Начинающий специалист",
       "company": "NV GROUP",
@@ -458,16 +458,16 @@
       "accept_temporary": true
     },
     {
-      "id": "121807515",
+      "id": "121807516",
       "name": "Помощник системного администратора / Начинающий специалист",
       "company": "NV GROUP",
       "company_id": "579783",
       "company_url": "https://hh.ru/employer/579783",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
-      "url": "https://hh.ru/vacancy/121807515",
+      "url": "https://hh.ru/vacancy/121807516",
       "published_at": "2025-06-23T18:42:52+0300",
       "created_at": "2025-06-23T18:42:52+0300",
-      "area": "Кашира (Московская область)",
+      "area": "Можайск (Московская область)",
       "salary": "от 60 000 RUR на руки",
       "salary_raw": {
         "from": 60000,
@@ -501,6 +501,39 @@
       "published_at": "2025-06-23T18:42:52+0300",
       "created_at": "2025-06-23T18:42:52+0300",
       "area": "Сергиев Посад (Московская область)",
+      "salary": "от 60 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Ответственное отношение к работе, внимательность и желание заработать. Опыт работы не требуется – мы объясним и покажем, что нужно делать.",
+      "responsibility": "Планово-профилактические работы в офисах и торговых точках (протирание от пыли оборудования, проверка рабочего состояния – включение / выключение, разматывание кабелей и...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
+      "id": "121807515",
+      "name": "Помощник системного администратора / Начинающий специалист",
+      "company": "NV GROUP",
+      "company_id": "579783",
+      "company_url": "https://hh.ru/employer/579783",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
+      "url": "https://hh.ru/vacancy/121807515",
+      "published_at": "2025-06-23T18:42:52+0300",
+      "created_at": "2025-06-23T18:42:52+0300",
+      "area": "Кашира (Московская область)",
       "salary": "от 60 000 RUR на руки",
       "salary_raw": {
         "from": 60000,
@@ -15648,39 +15681,6 @@
       "employment": "Полная занятость",
       "requirement": "Ответственность. Коммуникабельность. Умение планировать рабочий день, расставлять приоритеты задач. Умение оперативно решать текущие задачи. Знания работы и уметь ремонтировать ПК.",
       "responsibility": "Поддержание работоспособности ПК сотрудников. Обслуживание ЛВС, сетевого оборудования, протяжка кабеля, настройка wi-fi. Обслуживание оргтехники. Обслуживание систем видеонаблюдения.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121255473",
-      "name": "Системный администратор (помощник системного администратора)",
-      "company": "ССПБ",
-      "company_id": "5310198",
-      "company_url": "https://hh.ru/employer/5310198",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/121255473",
-      "published_at": "2025-06-20T22:44:37+0300",
-      "created_at": "2025-06-20T22:44:37+0300",
-      "area": "Москва",
-      "salary": "50 000 - 90 000 RUR на руки",
-      "salary_raw": {
-        "from": 50000,
-        "to": 90000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "В команду перспективного проекта требуется ответственный системный администратор, имеющий опыт работы по поддержке офиса (от компьютеров, до настройки внутренних серверов).",
-      "responsibility": "Техническая поддержка пользователей. Установка, обновление и настройка ПО. Обслуживание оргтехники, заказ расходников. Монтаж, обслуживание СКС. Диагностика неисправностей, модульный ремонт.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -44457,39 +44457,6 @@
       "accept_temporary": false
     },
     {
-      "id": "121040933",
-      "name": "Системный администратор (специалист техподдержки)",
-      "company": "Группа компаний ЕКС",
-      "company_id": "1143452",
-      "company_url": "https://hh.ru/employer/1143452",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/781012.jpg",
-      "url": "https://hh.ru/vacancy/121040933",
-      "published_at": "2025-05-27T16:04:27+0300",
-      "created_at": "2025-05-27T16:04:27+0300",
-      "area": "Москва",
-      "salary": "100 000 - 120 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "120491289",
       "name": "Системный администратор",
       "company": "НПО Алмаз",
@@ -44617,16 +44584,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121033222",
+      "id": "121033221",
       "name": "Системный администратор",
       "company": "ТСТ Карго",
       "company_id": "3279189",
       "company_url": "https://hh.ru/employer/3279189",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/714400.png",
-      "url": "https://hh.ru/vacancy/121033222",
+      "url": "https://hh.ru/vacancy/121033221",
       "published_at": "2025-05-27T14:09:06+0300",
       "created_at": "2025-05-27T14:09:06+0300",
-      "area": "Зеленоград",
+      "area": "Долгопрудный (Московская область)",
       "salary": "от 100 000 RUR на руки",
       "salary_raw": {
         "from": 100000,
@@ -44650,16 +44617,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121033221",
+      "id": "121033222",
       "name": "Системный администратор",
       "company": "ТСТ Карго",
       "company_id": "3279189",
       "company_url": "https://hh.ru/employer/3279189",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/714400.png",
-      "url": "https://hh.ru/vacancy/121033221",
+      "url": "https://hh.ru/vacancy/121033222",
       "published_at": "2025-05-27T14:09:06+0300",
       "created_at": "2025-05-27T14:09:06+0300",
-      "area": "Долгопрудный (Московская область)",
+      "area": "Зеленоград",
       "salary": "от 100 000 RUR на руки",
       "salary_raw": {
         "from": 100000,
@@ -46840,8 +46807,8 @@
       "experience": "От 3 до 6 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "",
+      "requirement": "Опыт работы на аналогичной должности от 3-х лет. Опыт администрирования ОС Linux Server (дистрибутивы на основе RedHat).",
+      "responsibility": "Мониторинг, диагностика и оперативное решение проблем в функционировании информационных систем АО «Петербургская Биржа». Взаимодействие с разработчиками информационных систем АО «Петербургская...",
       "type": "Открытая",
       "professional_roles": [
         "DevOps-инженер"
