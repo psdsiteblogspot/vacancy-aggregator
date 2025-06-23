@@ -10,16 +10,138 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-06-23T04:58:42Z",
+  "updated": "2025-06-23T05:44:39Z",
   "statistics": {
     "total": 1467,
-    "with_salary": 836,
-    "companies": 1147,
-    "cities": 87,
+    "with_salary": 835,
+    "companies": 1146,
+    "cities": 86,
     "premium": 2,
     "with_test": 57
   },
   "vacancies": [
+    {
+      "id": "121286267",
+      "name": "Системный администратор",
+      "company": "МонАрх Москва Отель",
+      "company_id": "245498",
+      "company_url": "https://hh.ru/employer/245498",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1341667.jpg",
+      "url": "https://hh.ru/vacancy/121286267",
+      "published_at": "2025-06-23T08:26:16+0300",
+      "created_at": "2025-06-23T08:26:16+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание системы 1С на уровне администратора. Знание и опыт настройки интерфейсов отельных систем. Опыт работы MS Windows всех версий.",
+      "responsibility": "Организация и координация технической поддержки для сотрудников и гостей отеля. Решение проблем, связанных с программным и аппаратным обеспечением.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "120547587",
+      "name": "Системный администратор",
+      "company": "СКБ МО РФ",
+      "company_id": "5102998",
+      "company_url": "https://hh.ru/employer/5102998",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1045052.png",
+      "url": "https://hh.ru/vacancy/120547587",
+      "published_at": "2025-06-23T08:23:43+0300",
+      "created_at": "2025-06-23T08:23:43+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Linux, AD, vSphere, vSAN, HA, SIP, Zabbix. Planet, Mikrotik, LEMP, LAMP, NGINX, Mail server. Fluke, Hyper-V, Veeam, Freebsd, Windows...",
+      "responsibility": "Обеспечение безотказной работы IT инфраструктуры. Поддержка пользователей. Обслуживание IT систем и периферийного оборудования. Администрирование серверной и сетевой инфраструктуры.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "119652692",
+      "name": "Системный администратор",
+      "company": "Коломяжское",
+      "company_id": "988078",
+      "company_url": "https://hh.ru/employer/988078",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1045467.png",
+      "url": "https://hh.ru/vacancy/119652692",
+      "published_at": "2025-06-23T08:21:06+0300",
+      "created_at": "2025-06-23T08:21:06+0300",
+      "area": "Санкт-Петербург",
+      "salary": "от 120 000 RUR на руки",
+      "salary_raw": {
+        "from": 120000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Уверенные знание и опыт работы с серверными ОС Windows Server и Linux. Знание сетевых технологий и протоколов (TCP/IP, DNS...",
+      "responsibility": "Работа с серверами на базе ОС Windows Server 2016-2021 (установка, настройка и администрирование). Администрирование систем: AD DS, GPO, DHCP...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "118852978",
+      "name": "Системный администратор",
+      "company": "АО НИТИ им. П.И. Снегирева",
+      "company_id": "3337397",
+      "company_url": "https://hh.ru/employer/3337397",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1212329.png",
+      "url": "https://hh.ru/vacancy/118852978",
+      "published_at": "2025-06-23T08:15:20+0300",
+      "created_at": "2025-06-23T08:15:20+0300",
+      "area": "Железнодорожный  (Московская область)",
+      "salary": "от 100 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 100000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование. Опыт администрирования VMware vSphere. Знания инфраструктуры Microsoft: Active Directory, FileServices, GPO, DNS. Навыки администрирования Microsoft SQL Server.",
+      "responsibility": "Администрирование инфраструктуры (Mikrotik, HPE,QTECH,ELTEX). Администрирование инфраструктуры виртуализации VMware vSphere. Администрирование серверов пол управлением MS Windows Server и Linux.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "119846191",
       "name": "Системный администратор (на склад)",
@@ -10859,39 +10981,6 @@
       "accept_temporary": false
     },
     {
-      "id": "119652692",
-      "name": "Системный администратор",
-      "company": "Коломяжское",
-      "company_id": "988078",
-      "company_url": "https://hh.ru/employer/988078",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1045467.png",
-      "url": "https://hh.ru/vacancy/119652692",
-      "published_at": "2025-06-20T11:17:17+0300",
-      "created_at": "2025-06-20T11:17:17+0300",
-      "area": "Санкт-Петербург",
-      "salary": "от 120 000 RUR на руки",
-      "salary_raw": {
-        "from": 120000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Уверенные знание и опыт работы с серверными ОС Windows Server и Linux. Знание сетевых технологий и протоколов (TCP/IP, DNS...",
-      "responsibility": "Работа с серверами на базе ОС Windows Server 2016-2021 (установка, настройка и администрирование). Администрирование систем: AD DS, GPO, DHCP...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "121724047",
       "name": "Системный администратор",
       "company": "ВАТЕК КОРП",
@@ -12116,34 +12205,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы c MS AD, MS SQL Server, Продуктами 1С. Практические навыки построения ЛВС и создания СКС.",
       "responsibility": "Обеспечение бесперебойной работы парка АРМ (ноутбуки, моноблоки, техника Apple). Подготовка, настройка, организация новых АРМ. Администрирование централизованной антивирусной защиты KSC, KES...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120547587",
-      "name": "Системный администратор",
-      "company": "СКБ МО РФ",
-      "company_id": "5102998",
-      "company_url": "https://hh.ru/employer/5102998",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1045052.png",
-      "url": "https://hh.ru/vacancy/120547587",
-      "published_at": "2025-06-20T08:47:36+0300",
-      "created_at": "2025-06-20T08:47:36+0300",
-      "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Linux, AD, vSphere, vSAN, HA, SIP, Zabbix. Planet, Mikrotik, LEMP, LAMP, NGINX, Mail server. Fluke, Hyper-V, Veeam, Freebsd, Windows...",
-      "responsibility": "Обеспечение безотказной работы IT инфраструктуры. Поддержка пользователей. Обслуживание IT систем и периферийного оборудования. Администрирование серверной и сетевой инфраструктуры.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -14580,16 +14641,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121807509",
+      "id": "121807519",
       "name": "Помощник системного администратора / Начинающий специалист",
       "company": "NV GROUP",
       "company_id": "579783",
       "company_url": "https://hh.ru/employer/579783",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
-      "url": "https://hh.ru/vacancy/121807509",
+      "url": "https://hh.ru/vacancy/121807519",
       "published_at": "2025-06-18T19:09:10+0300",
       "created_at": "2025-06-18T19:09:10+0300",
-      "area": "Подольск (Московская область)",
+      "area": "Чехов (Московская область)",
       "salary": "от 60 000 RUR на руки",
       "salary_raw": {
         "from": 60000,
@@ -14613,16 +14674,16 @@
       "accept_temporary": true
     },
     {
-      "id": "121807519",
+      "id": "121807509",
       "name": "Помощник системного администратора / Начинающий специалист",
       "company": "NV GROUP",
       "company_id": "579783",
       "company_url": "https://hh.ru/employer/579783",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
-      "url": "https://hh.ru/vacancy/121807519",
+      "url": "https://hh.ru/vacancy/121807509",
       "published_at": "2025-06-18T19:09:10+0300",
       "created_at": "2025-06-18T19:09:10+0300",
-      "area": "Чехов (Московская область)",
+      "area": "Подольск (Московская область)",
       "salary": "от 60 000 RUR на руки",
       "salary_raw": {
         "from": 60000,
@@ -14679,16 +14740,16 @@
       "accept_temporary": true
     },
     {
-      "id": "121807515",
+      "id": "121807516",
       "name": "Помощник системного администратора / Начинающий специалист",
       "company": "NV GROUP",
       "company_id": "579783",
       "company_url": "https://hh.ru/employer/579783",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
-      "url": "https://hh.ru/vacancy/121807515",
+      "url": "https://hh.ru/vacancy/121807516",
       "published_at": "2025-06-18T19:09:10+0300",
       "created_at": "2025-06-18T19:09:10+0300",
-      "area": "Кашира (Московская область)",
+      "area": "Можайск (Московская область)",
       "salary": "от 60 000 RUR на руки",
       "salary_raw": {
         "from": 60000,
@@ -14712,16 +14773,16 @@
       "accept_temporary": true
     },
     {
-      "id": "121807516",
+      "id": "121807515",
       "name": "Помощник системного администратора / Начинающий специалист",
       "company": "NV GROUP",
       "company_id": "579783",
       "company_url": "https://hh.ru/employer/579783",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
-      "url": "https://hh.ru/vacancy/121807516",
+      "url": "https://hh.ru/vacancy/121807515",
       "published_at": "2025-06-18T19:09:10+0300",
       "created_at": "2025-06-18T19:09:10+0300",
-      "area": "Можайск (Московская область)",
+      "area": "Кашира (Московская область)",
       "salary": "от 60 000 RUR на руки",
       "salary_raw": {
         "from": 60000,
@@ -14910,16 +14971,16 @@
       "accept_temporary": true
     },
     {
-      "id": "121807512",
+      "id": "121807508",
       "name": "Помощник системного администратора / Начинающий специалист",
       "company": "NV GROUP",
       "company_id": "579783",
       "company_url": "https://hh.ru/employer/579783",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
-      "url": "https://hh.ru/vacancy/121807512",
+      "url": "https://hh.ru/vacancy/121807508",
       "published_at": "2025-06-18T19:09:10+0300",
       "created_at": "2025-06-18T19:09:10+0300",
-      "area": "Дмитров (Московская область)",
+      "area": "Троицк (Москва)",
       "salary": "от 60 000 RUR на руки",
       "salary_raw": {
         "from": 60000,
@@ -14943,16 +15004,16 @@
       "accept_temporary": true
     },
     {
-      "id": "121807508",
+      "id": "121807512",
       "name": "Помощник системного администратора / Начинающий специалист",
       "company": "NV GROUP",
       "company_id": "579783",
       "company_url": "https://hh.ru/employer/579783",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
-      "url": "https://hh.ru/vacancy/121807508",
+      "url": "https://hh.ru/vacancy/121807512",
       "published_at": "2025-06-18T19:09:10+0300",
       "created_at": "2025-06-18T19:09:10+0300",
-      "area": "Троицк (Москва)",
+      "area": "Дмитров (Московская область)",
       "salary": "от 60 000 RUR на руки",
       "salary_raw": {
         "from": 60000,
@@ -19283,34 +19344,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Другое"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121286267",
-      "name": "Системный администратор",
-      "company": "МонАрх Москва Отель",
-      "company_id": "245498",
-      "company_url": "https://hh.ru/employer/245498",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1341667.jpg",
-      "url": "https://hh.ru/vacancy/121286267",
-      "published_at": "2025-06-17T12:46:12+0300",
-      "created_at": "2025-06-17T12:46:12+0300",
-      "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание системы 1С на уровне администратора. Знание и опыт настройки интерфейсов отельных систем. Опыт работы MS Windows всех версий.",
-      "responsibility": "Организация и координация технической поддержки для сотрудников и гостей отеля. Решение проблем, связанных с программным и аппаратным обеспечением.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
       ],
       "has_test": false,
       "premium": false,
@@ -30584,39 +30617,6 @@
       "accept_temporary": false
     },
     {
-      "id": "121452459",
-      "name": "Системный администратор",
-      "company": "Пластик Репаблик",
-      "company_id": "2229",
-      "company_url": "https://hh.ru/employer/2229",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1385579.png",
-      "url": "https://hh.ru/vacancy/121452459",
-      "published_at": "2025-06-09T09:24:45+0300",
-      "created_at": "2025-06-09T09:24:45+0300",
-      "area": "Вязьма",
-      "salary": "от 45 000 RUR на руки",
-      "salary_raw": {
-        "from": 45000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "Знания принципов построения и работы локальной и Wi-Fi сетей (DLink, Keenetic). Знание семейства ОС Windows, настройка, администрирование.",
-      "responsibility": "Техническая и консультационная поддержка пользователей (1-я линия). Установка компьютерной техники рабочих мест пользователей и периферийных устройств. Диагностика неисправностей и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "121451265",
       "name": "Системный администратор",
       "company": "МФК Олимпийский",
@@ -31719,39 +31719,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы с сервисами Microsoft: Active Directory, DNS, DFS, GPO, Print Server и т.д. Знание на уровне администратора операционных...",
       "responsibility": "Поддержка пользователей офиса. Работа с заявками в HelpDesk. Помощь системным администраторам с решением вопросов в филиалах. Подбор и закупка компьютерной...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "118852978",
-      "name": "Системный администратор",
-      "company": "АО НИТИ им. П.И. Снегирева",
-      "company_id": "3337397",
-      "company_url": "https://hh.ru/employer/3337397",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1212329.png",
-      "url": "https://hh.ru/vacancy/118852978",
-      "published_at": "2025-06-06T14:22:05+0300",
-      "created_at": "2025-06-06T14:22:05+0300",
-      "area": "Железнодорожный  (Московская область)",
-      "salary": "от 100 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 100000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование. Опыт администрирования VMware vSphere. Знания инфраструктуры Microsoft: Active Directory, FileServices, GPO, DNS. Навыки администрирования Microsoft SQL Server.",
-      "responsibility": "Администрирование инфраструктуры (Mikrotik, HPE,QTECH,ELTEX). Администрирование инфраструктуры виртуализации VMware vSphere. Администрирование серверов пол управлением MS Windows Server и Linux.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -45269,6 +45236,34 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "118953439",
+      "name": "Системный администратор, DevOps",
+      "company": "Петербургская Биржа",
+      "company_id": "738493",
+      "company_url": "https://hh.ru/employer/738493",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1412987.png",
+      "url": "https://hh.ru/vacancy/118953439",
+      "published_at": "2025-04-27T09:14:06+0300",
+      "created_at": "2025-04-27T09:14:06+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "",
+      "responsibility": "",
+      "type": "Открытая",
+      "professional_roles": [
+        "DevOps-инженер"
       ],
       "has_test": false,
       "premium": false,
