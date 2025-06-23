@@ -10,16 +10,77 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-06-23T17:40:46Z",
+  "updated": "2025-06-23T18:53:47Z",
   "statistics": {
     "total": 1518,
-    "with_salary": 860,
-    "companies": 1182,
+    "with_salary": 859,
+    "companies": 1183,
     "cities": 88,
     "premium": 1,
-    "with_test": 61
+    "with_test": 62
   },
   "vacancies": [
+    {
+      "id": "121973451",
+      "name": "Ведущий системный администратор",
+      "company": "VK",
+      "company_id": "15478",
+      "company_url": "https://hh.ru/employer/15478",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1297111.png",
+      "url": "https://hh.ru/vacancy/121973451",
+      "published_at": "2025-06-23T21:00:06+0300",
+      "created_at": "2025-06-23T21:00:06+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Технологический стек: Linux (Debian/CentOS/Ubuntu), Docker, Salt/Puppet/Ansible, GitLab CI/CD, мониторинг (Zabbix, Icinga, Nagios), HAProxy, NGINX, BIRD...",
+      "responsibility": "Эксплуатация, развитие и автоматизация инфраструктуры. Мониторинг и анализ стабильности систем. Взаимодействие с командами разработки, эксплуатации и техподдержки. Ведение технической документации.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": true,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121594911",
+      "name": "Системный администратор / SRE",
+      "company": "amoCRM",
+      "company_id": "999442",
+      "company_url": "https://hh.ru/employer/999442",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1400028.png",
+      "url": "https://hh.ru/vacancy/121594911",
+      "published_at": "2025-06-23T20:51:48+0300",
+      "created_at": "2025-06-23T20:51:48+0300",
+      "area": "Москва",
+      "salary": "до 160 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": null,
+        "to": 160000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Нужен минимальный опыт работы в Linux, надо понимать как происходит процесс загрузки, базовые навыки работы в shell, работа с ssh.",
+      "responsibility": "Поддержка продуктивных микросервисов. Поддержка кластеров lxd / k8s. Поддержка систем мониторинга. Администрирование баз данных MySQL. Поддержка и развитие CI...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "120824770",
       "name": "Системный администратор Linux (Senior)",
@@ -9005,39 +9066,6 @@
       "accept_temporary": false
     },
     {
-      "id": "103517074",
-      "name": "Помощник системного администратора (на склад)",
-      "company": "Красное & Белое, розничная сеть",
-      "company_id": "1035394",
-      "company_url": "https://hh.ru/employer/1035394",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/90459.jpg",
-      "url": "https://hh.ru/vacancy/103517074",
-      "published_at": "2025-06-23T07:56:47+0300",
-      "created_at": "2025-06-23T07:56:47+0300",
-      "area": "Клин (Московская область)",
-      "salary": "до 95 000 RUR на руки",
-      "salary_raw": {
-        "from": null,
-        "to": 95000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с торговым оборудованием. Знание устройства ПК на уровне опытного пользователя. Опыт работы на складе. Обучаемость, ответственность, трудолюбие.",
-      "responsibility": "Прием техники с магазинов. Диагностика, сортировка на рабочее/не рабочее. Подготовка оборудования к отправке. Сбор заявок. Прием/размещение оборудования на...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "102709816",
       "name": "Системный администратор на склад",
       "company": "Красное & Белое, розничная сеть",
@@ -9093,6 +9121,39 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы в аналогичной должности. Знание устройства ПК на уровне администратора. Знание офисных и почтовых программ. Знание принципов построения сетей...",
       "responsibility": "Обслуживание рабочих мест (100 станций). Обслуживание оргтехники. Контроль работоспособности серверов. Контроль остатков ИТ склада. Проведение локальных ревизий ИТ склада.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "103517074",
+      "name": "Помощник системного администратора (на склад)",
+      "company": "Красное & Белое, розничная сеть",
+      "company_id": "1035394",
+      "company_url": "https://hh.ru/employer/1035394",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/90459.jpg",
+      "url": "https://hh.ru/vacancy/103517074",
+      "published_at": "2025-06-23T07:56:47+0300",
+      "created_at": "2025-06-23T07:56:47+0300",
+      "area": "Клин (Московская область)",
+      "salary": "до 95 000 RUR на руки",
+      "salary_raw": {
+        "from": null,
+        "to": 95000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы с торговым оборудованием. Знание устройства ПК на уровне опытного пользователя. Опыт работы на складе. Обучаемость, ответственность, трудолюбие.",
+      "responsibility": "Прием техники с магазинов. Диагностика, сортировка на рабочее/не рабочее. Подготовка оборудования к отправке. Сбор заявок. Прием/размещение оборудования на...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -15662,39 +15723,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": true
-    },
-    {
-      "id": "121594911",
-      "name": "Системный администратор / SRE",
-      "company": "amoCRM",
-      "company_id": "999442",
-      "company_url": "https://hh.ru/employer/999442",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1400028.png",
-      "url": "https://hh.ru/vacancy/121594911",
-      "published_at": "2025-06-20T20:51:48+0300",
-      "created_at": "2025-06-20T20:51:48+0300",
-      "area": "Москва",
-      "salary": "до 160 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": null,
-        "to": 160000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Нужен минимальный опыт работы в Linux, надо понимать как происходит процесс загрузки, базовые навыки работы в shell, работа с ssh.",
-      "responsibility": "Поддержка продуктивных микросервисов. Поддержка кластеров lxd / k8s. Поддержка систем мониторинга. Администрирование баз данных MySQL. Поддержка и развитие CI...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
     },
     {
       "id": "120910491",
@@ -44429,39 +44457,6 @@
       "accept_temporary": false
     },
     {
-      "id": "121040933",
-      "name": "Системный администратор (специалист техподдержки)",
-      "company": "Группа компаний ЕКС",
-      "company_id": "1143452",
-      "company_url": "https://hh.ru/employer/1143452",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/781012.jpg",
-      "url": "https://hh.ru/vacancy/121040933",
-      "published_at": "2025-05-27T16:04:27+0300",
-      "created_at": "2025-05-27T16:04:27+0300",
-      "area": "Москва",
-      "salary": "100 000 - 120 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "120491289",
       "name": "Системный администратор",
       "company": "НПО Алмаз",
@@ -44655,16 +44650,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121033223",
+      "id": "121033224",
       "name": "Системный администратор",
       "company": "ТСТ Карго",
       "company_id": "3279189",
       "company_url": "https://hh.ru/employer/3279189",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/714400.png",
-      "url": "https://hh.ru/vacancy/121033223",
+      "url": "https://hh.ru/vacancy/121033224",
       "published_at": "2025-05-27T14:09:06+0300",
       "created_at": "2025-05-27T14:09:06+0300",
-      "area": "Лобня (Московская область)",
+      "area": "Химки (Московская область)",
       "salary": "от 100 000 RUR на руки",
       "salary_raw": {
         "from": 100000,
@@ -44688,16 +44683,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121033224",
+      "id": "121033223",
       "name": "Системный администратор",
       "company": "ТСТ Карго",
       "company_id": "3279189",
       "company_url": "https://hh.ru/employer/3279189",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/714400.png",
-      "url": "https://hh.ru/vacancy/121033224",
+      "url": "https://hh.ru/vacancy/121033223",
       "published_at": "2025-05-27T14:09:06+0300",
       "created_at": "2025-05-27T14:09:06+0300",
-      "area": "Химки (Московская область)",
+      "area": "Лобня (Московская область)",
       "salary": "от 100 000 RUR на руки",
       "salary_raw": {
         "from": 100000,
@@ -46812,8 +46807,8 @@
       "experience": "От 3 до 6 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "",
+      "requirement": "Опыт работы на аналогичной должности от 3-х лет. Опыт администрирования ОС Linux Server (дистрибутивы на основе RedHat).",
+      "responsibility": "Мониторинг, диагностика и оперативное решение проблем в функционировании информационных систем АО «Петербургская Биржа». Взаимодействие с разработчиками информационных систем АО «Петербургская...",
       "type": "Открытая",
       "professional_roles": [
         "DevOps-инженер"
