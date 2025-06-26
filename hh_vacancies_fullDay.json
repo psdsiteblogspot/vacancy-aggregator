@@ -10,16 +10,181 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-06-26T03:41:14Z",
+  "updated": "2025-06-26T04:57:34Z",
   "statistics": {
     "total": 1080,
-    "with_salary": 807,
-    "companies": 805,
+    "with_salary": 808,
+    "companies": 804,
     "cities": 216,
     "premium": 0,
     "with_test": 14
   },
   "vacancies": [
+    {
+      "id": "120887036",
+      "name": "Системный администратор(Ресторан)",
+      "company": "Restme",
+      "company_id": "9269807",
+      "company_url": "https://hh.ru/employer/9269807",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1022267.png",
+      "url": "https://hh.ru/vacancy/120887036",
+      "published_at": "2025-06-26T07:56:44+0300",
+      "created_at": "2025-06-26T07:56:44+0300",
+      "area": "Новосибирск",
+      "salary": "от 90 000 RUR на руки",
+      "salary_raw": {
+        "from": 90000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт сопровождения операционных систем и корпоративных сервисов, развернутых на ОС MS Windows 10\\11\\2016\\2019\\2022, CentOS, MacOS.",
+      "responsibility": "Установка и сопровождение рабочих станций пользователей организации. Установка ПО необходимого для рабочего процесса. Установка и сопровождение периферийного оборудования, первичная диагностика...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122076659",
+      "name": "Системный администратор",
+      "company": "Ленинский районный суд города Перми",
+      "company_id": "9792393",
+      "company_url": "https://hh.ru/employer/9792393",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/122076659",
+      "published_at": "2025-06-26T07:46:28+0300",
+      "created_at": "2025-06-26T07:46:28+0300",
+      "area": "Пермь",
+      "salary": "от 40 000 RUR на руки",
+      "salary_raw": {
+        "from": 40000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы приветствуется. Требования: Высшее профильное образование.",
+      "responsibility": "Обеспечении функционирования оргтехники в организации. Работа с программным обеспечением суда (система ГАС-Правосудие).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121834495",
+      "name": "Системный администратор Linux",
+      "company": "ИОТ",
+      "company_id": "4837179",
+      "company_url": "https://hh.ru/employer/4837179",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1389559.png",
+      "url": "https://hh.ru/vacancy/121834495",
+      "published_at": "2025-06-26T07:28:41+0300",
+      "created_at": "2025-06-26T07:28:41+0300",
+      "area": "Иркутск",
+      "salary": "150 000 - 150 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 150000,
+        "to": 150000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Уверенные знания Linux (Debian-based / RedHat-based). Навыки работы с Bash, Python. Умение работать с API различных сервисов с использованием...",
+      "responsibility": "Разработка новых продуктов и услуг в сфере хостинга и IT, внутренних инструментов, систем управления. Развитие и совершенствование функционала и качества...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121705848",
+      "name": "Системный администратор / Инженер IT-инфраструктуры",
+      "company": "Башкирский регистр социальных карт",
+      "company_id": "754169",
+      "company_url": "https://hh.ru/employer/754169",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/456654.png",
+      "url": "https://hh.ru/vacancy/121705848",
+      "published_at": "2025-06-26T07:17:58+0300",
+      "created_at": "2025-06-26T07:17:58+0300",
+      "area": "Уфа",
+      "salary": "от 90 000 RUR на руки",
+      "salary_raw": {
+        "from": 90000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Создание, настройка, развертывание и управление виртуальными машинами (ВМ). Конфигурирование ресурсов ВМ (vCPU, RAM, диск, сеть). Применение функций кластеризации (vSphere HA...",
+      "responsibility": "Linux (одно или несколько распространенных дистрибутивов: RHEL/CentOS, Ubuntu Server, Debian): Установка, настройка, обновление, патчинг. Администрирование пользователей, групп, прав доступа.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122075228",
+      "name": "Системный администратор",
+      "company": "Российские железные дороги",
+      "company_id": "23427",
+      "company_url": "https://hh.ru/employer/23427",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/227200.gif",
+      "url": "https://hh.ru/vacancy/122075228",
+      "published_at": "2025-06-26T06:50:06+0300",
+      "created_at": "2025-06-26T06:50:06+0300",
+      "area": "Улан-Удэ",
+      "salary": "55 000 - 65 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 55000,
+        "to": 65000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Образование среднее специальное (профильное).",
+      "responsibility": "Оформление и получение ЭЦП ключей. Установка и продление программ обеспечения специалистов на участках. Контроль работы оргтехники и оформление заявок на...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Другое"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "116314346",
       "name": "Системный администратор",
@@ -3107,72 +3272,6 @@
       "accept_temporary": false
     },
     {
-      "id": "121834495",
-      "name": "Системный администратор Linux",
-      "company": "ИОТ",
-      "company_id": "4837179",
-      "company_url": "https://hh.ru/employer/4837179",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1389559.png",
-      "url": "https://hh.ru/vacancy/121834495",
-      "published_at": "2025-06-25T07:58:29+0300",
-      "created_at": "2025-06-25T07:58:29+0300",
-      "area": "Иркутск",
-      "salary": "150 000 - 150 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 150000,
-        "to": 150000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Уверенные знания Linux (Debian-based / RedHat-based). Навыки работы с Bash, Python. Умение работать с API различных сервисов с использованием...",
-      "responsibility": "Разработка новых продуктов и услуг в сфере хостинга и IT, внутренних инструментов, систем управления. Развитие и совершенствование функционала и качества...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120887036",
-      "name": "Системный администратор(Ресторан)",
-      "company": "Restme",
-      "company_id": "9269807",
-      "company_url": "https://hh.ru/employer/9269807",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1022267.png",
-      "url": "https://hh.ru/vacancy/120887036",
-      "published_at": "2025-06-25T07:56:45+0300",
-      "created_at": "2025-06-25T07:56:45+0300",
-      "area": "Новосибирск",
-      "salary": "от 90 000 RUR на руки",
-      "salary_raw": {
-        "from": 90000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт сопровождения операционных систем и корпоративных сервисов, развернутых на ОС MS Windows 10\\11\\2016\\2019\\2022, CentOS, MacOS.",
-      "responsibility": "Установка и сопровождение рабочих станций пользователей организации. Установка ПО необходимого для рабочего процесса. Установка и сопровождение периферийного оборудования, первичная диагностика...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "121918227",
       "name": "Старший системный администратор",
       "company": "Торгово-производственная компания",
@@ -3460,16 +3559,16 @@
       "accept_temporary": false
     },
     {
-      "id": "118473750",
+      "id": "118473752",
       "name": "Системный администратор",
       "company": "ФКУ ИК-1 ГУФСИН России по Челябинской области",
       "company_id": "7534395",
       "company_url": "https://hh.ru/employer/7534395",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/118473750",
+      "url": "https://hh.ru/vacancy/118473752",
       "published_at": "2025-06-25T06:44:36+0300",
       "created_at": "2025-06-25T06:44:36+0300",
-      "area": "Еманжелинка",
+      "area": "Зауральский",
       "salary": "38 000 - 50 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 38000,
@@ -3493,16 +3592,16 @@
       "accept_temporary": false
     },
     {
-      "id": "118473752",
+      "id": "118473750",
       "name": "Системный администратор",
       "company": "ФКУ ИК-1 ГУФСИН России по Челябинской области",
       "company_id": "7534395",
       "company_url": "https://hh.ru/employer/7534395",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/118473752",
+      "url": "https://hh.ru/vacancy/118473750",
       "published_at": "2025-06-25T06:44:36+0300",
       "created_at": "2025-06-25T06:44:36+0300",
-      "area": "Зауральский",
+      "area": "Еманжелинка",
       "salary": "38 000 - 50 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 38000,
@@ -3880,7 +3979,7 @@
     },
     {
       "id": "122027458",
-      "name": "Помощник системного администратора",
+      "name": "Системный администратор",
       "company": "Вираж",
       "company_id": "1729388",
       "company_url": "https://hh.ru/employer/1729388",
@@ -5420,16 +5519,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122004686",
+      "id": "122004693",
       "name": "Системный администратор",
       "company": "INZARE",
       "company_id": "6008748",
       "company_url": "https://hh.ru/employer/6008748",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/943525.png",
-      "url": "https://hh.ru/vacancy/122004686",
+      "url": "https://hh.ru/vacancy/122004693",
       "published_at": "2025-06-24T13:10:32+0300",
       "created_at": "2025-06-24T13:10:32+0300",
-      "area": "Астрахань",
+      "area": "Пермь",
       "salary": "140 000 - 140 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 140000,
@@ -5453,16 +5552,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122004693",
+      "id": "122004686",
       "name": "Системный администратор",
       "company": "INZARE",
       "company_id": "6008748",
       "company_url": "https://hh.ru/employer/6008748",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/943525.png",
-      "url": "https://hh.ru/vacancy/122004693",
+      "url": "https://hh.ru/vacancy/122004686",
       "published_at": "2025-06-24T13:10:32+0300",
       "created_at": "2025-06-24T13:10:32+0300",
-      "area": "Пермь",
+      "area": "Астрахань",
       "salary": "140 000 - 140 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 140000,
@@ -5783,16 +5882,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122004680",
+      "id": "122004681",
       "name": "Системный администратор",
       "company": "INZARE",
       "company_id": "6008748",
       "company_url": "https://hh.ru/employer/6008748",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/943525.png",
-      "url": "https://hh.ru/vacancy/122004680",
+      "url": "https://hh.ru/vacancy/122004681",
       "published_at": "2025-06-24T13:10:32+0300",
       "created_at": "2025-06-24T13:10:32+0300",
-      "area": "Аргун",
+      "area": "Урус-Мартан",
       "salary": "140 000 - 140 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 140000,
@@ -5816,16 +5915,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122004681",
+      "id": "122004680",
       "name": "Системный администратор",
       "company": "INZARE",
       "company_id": "6008748",
       "company_url": "https://hh.ru/employer/6008748",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/943525.png",
-      "url": "https://hh.ru/vacancy/122004681",
+      "url": "https://hh.ru/vacancy/122004680",
       "published_at": "2025-06-24T13:10:32+0300",
       "created_at": "2025-06-24T13:10:32+0300",
-      "area": "Урус-Мартан",
+      "area": "Аргун",
       "salary": "140 000 - 140 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 140000,
@@ -10710,39 +10809,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121705848",
-      "name": "Системный администратор / Инженер IT-инфраструктуры",
-      "company": "Башкирский регистр социальных карт",
-      "company_id": "754169",
-      "company_url": "https://hh.ru/employer/754169",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/456654.png",
-      "url": "https://hh.ru/vacancy/121705848",
-      "published_at": "2025-06-23T07:17:58+0300",
-      "created_at": "2025-06-23T07:17:58+0300",
-      "area": "Уфа",
-      "salary": "от 90 000 RUR на руки",
-      "salary_raw": {
-        "from": 90000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Создание, настройка, развертывание и управление виртуальными машинами (ВМ). Конфигурирование ресурсов ВМ (vCPU, RAM, диск, сеть). Применение функций кластеризации (vSphere HA...",
-      "responsibility": "Linux (одно или несколько распространенных дистрибутивов: RHEL/CentOS, Ubuntu Server, Debian): Установка, настройка, обновление, патчинг. Администрирование пользователей, групп, прав доступа.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный инженер"
       ],
       "has_test": false,
       "premium": false,
@@ -15701,16 +15767,16 @@
       "accept_temporary": true
     },
     {
-      "id": "121787067",
+      "id": "121787062",
       "name": "Приходящий системный администратор/инженер",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121787067",
+      "url": "https://hh.ru/vacancy/121787062",
       "published_at": "2025-06-18T13:04:59+0300",
       "created_at": "2025-06-18T13:04:59+0300",
-      "area": "Саянск",
+      "area": "Прохладный",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -15729,16 +15795,16 @@
       "accept_temporary": true
     },
     {
-      "id": "121787062",
+      "id": "121787067",
       "name": "Приходящий системный администратор/инженер",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121787062",
+      "url": "https://hh.ru/vacancy/121787067",
       "published_at": "2025-06-18T13:04:59+0300",
       "created_at": "2025-06-18T13:04:59+0300",
-      "area": "Прохладный",
+      "area": "Саянск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -19024,34 +19090,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": false
-    },
-    {
-      "id": "121461297",
-      "name": "Системный администратор/эникей",
-      "company": "Neo Stack Technology",
-      "company_id": "5563417",
-      "company_url": "https://hh.ru/employer/5563417",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/868129.jpg",
-      "url": "https://hh.ru/vacancy/121461297",
-      "published_at": "2025-06-16T13:21:48+0300",
-      "created_at": "2025-06-16T13:21:48+0300",
-      "area": "Томск",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание операционных систем Unix/Linux(базовые знания), MS Windows. Базовые знания MS Windows Server(AD,GPO). Умение распознать следствие/причины...",
-      "responsibility": "решение проблем с АРМ сотрудников компании. Поддержка работы оргтехники. Монтаж сетевого оборудования. Решение проблем с программами. Написание документации.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
     },
     {
       "id": "121673596",
@@ -34202,39 +34240,6 @@
       "accept_temporary": false
     },
     {
-      "id": "121006963",
-      "name": "Системный администратор",
-      "company": "Ленинский районный суд города Перми",
-      "company_id": "9792393",
-      "company_url": "https://hh.ru/employer/9792393",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/121006963",
-      "published_at": "2025-05-27T07:36:00+0300",
-      "created_at": "2025-05-27T07:36:00+0300",
-      "area": "Пермь",
-      "salary": "от 40 000 RUR на руки",
-      "salary_raw": {
-        "from": 40000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее профильное образование.",
-      "responsibility": "Обеспечении функционирования оргтехники в организации. Работа с программным обеспечением суда (система ГАС-Правосудие).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "120822098",
       "name": "Системный администратор (технический специалист)",
       "company": "АНО ДПО УМКЦ Энергия",
@@ -34250,8 +34255,8 @@
       "experience": "От 3 до 6 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "",
+      "requirement": "Опыт работы системным администратором от 3-х лет. Базовые знания HTML/CSS/PHP для решения мелких технических вопросов.",
+      "responsibility": "Проектирование и внедрение корпоративных порталов на платформе Битрикс. Интеграция CRM-системы Битрикс24 с внутренними системами компании. Настройка бизнес-процессов...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
