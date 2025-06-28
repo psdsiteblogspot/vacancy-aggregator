@@ -10,11 +10,11 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-06-28T17:33:57Z",
+  "updated": "2025-06-28T18:49:55Z",
   "statistics": {
     "total": 1492,
     "with_salary": 831,
-    "companies": 1166,
+    "companies": 1165,
     "cities": 93,
     "premium": 1,
     "with_test": 63
@@ -22,7 +22,7 @@
   "vacancies": [
     {
       "id": "122168585",
-      "name": "Начинающий системный администратор",
+      "name": "Начинающий системный администратор / Технический специалист",
       "company": "Интеллико",
       "company_id": "2939700",
       "company_url": "https://hh.ru/employer/2939700",
@@ -43,6 +43,39 @@
         "Системный администратор"
       ],
       "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121858277",
+      "name": "System Administrator/SRE (работа по графику офиса США)",
+      "company": "Americor Funding Inc",
+      "company_id": "4354272",
+      "company_url": "https://hh.ru/employer/4354272",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/690861.png",
+      "url": "https://hh.ru/vacancy/121858277",
+      "published_at": "2025-06-28T20:12:49+0300",
+      "created_at": "2025-06-28T20:12:49+0300",
+      "area": "Москва",
+      "salary": "от 4 500 USD до вычета налогов",
+      "salary_raw": {
+        "from": 4500,
+        "to": null,
+        "currency": "USD",
+        "gross": true
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "5+ лет опыта поддержки высокодоступной инфраструктуры в условиях высокой нагрузки. Экспертные знания в системах Linux и веб-стеке (Nginx...",
+      "responsibility": "Операционные системы: CentOS / AlmaLinux OS. Хранение данных: GlusterFS. Инструменты мониторинга: Datadog, Sentry, Pingdom. IaC: Terraform, Ansible. Система оповещения: OpsGenie.",
+      "type": "Открытая",
+      "professional_roles": [
+        "DevOps-инженер"
+      ],
+      "has_test": true,
       "premium": false,
       "accept_handicapped": false,
       "accept_kids": false,
@@ -9522,6 +9555,39 @@
       "accept_temporary": false
     },
     {
+      "id": "121339037",
+      "name": "Системный (сетевой) администратор",
+      "company": "Шерлэнд, Складской комплекс",
+      "company_id": "2212",
+      "company_url": "https://hh.ru/employer/2212",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/232498.jpg",
+      "url": "https://hh.ru/vacancy/121339037",
+      "published_at": "2025-06-26T16:46:45+0300",
+      "created_at": "2025-06-26T16:46:45+0300",
+      "area": "Долгопрудный (Московская область)",
+      "salary": "120 000 - 130 000 RUR на руки",
+      "salary_raw": {
+        "from": 120000,
+        "to": 130000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Администрирование серверов на Linux (CentOS, Ubuntu). Администрирование серверов на Windows Server. Администрирование виртуализации на VMware. Опыт написания скриптов для Linux...",
+      "responsibility": "Диагностика и устранение сетевых проблем. Диагностика и настройка сети на абонентских ОС: Windows (cmd), Linux. Мониторинг сети передачи данных и...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "121339036",
       "name": "Системный (сетевой) администратор",
       "company": "Шерлэнд, Складской комплекс",
@@ -14730,39 +14796,6 @@
         "Системный администратор"
       ],
       "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121858277",
-      "name": "System Administrator/SRE (работа по графику офиса США)",
-      "company": "Americor Funding Inc",
-      "company_id": "4354272",
-      "company_url": "https://hh.ru/employer/4354272",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/690861.png",
-      "url": "https://hh.ru/vacancy/121858277",
-      "published_at": "2025-06-25T20:12:49+0300",
-      "created_at": "2025-06-25T20:12:49+0300",
-      "area": "Москва",
-      "salary": "от 4 500 USD до вычета налогов",
-      "salary_raw": {
-        "from": 4500,
-        "to": null,
-        "currency": "USD",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "5+ лет опыта поддержки высокодоступной инфраструктуры в условиях высокой нагрузки. Экспертные знания в системах Linux и веб-стеке (Nginx...",
-      "responsibility": "Операционные системы: CentOS / AlmaLinux OS. Хранение данных: GlusterFS. Инструменты мониторинга: Datadog, Sentry, Pingdom. IaC: Terraform, Ansible. Система оповещения: OpsGenie.",
-      "type": "Открытая",
-      "professional_roles": [
-        "DevOps-инженер"
-      ],
-      "has_test": true,
       "premium": false,
       "accept_handicapped": false,
       "accept_kids": false,
@@ -20090,16 +20123,16 @@
       "accept_temporary": true
     },
     {
-      "id": "121807514",
+      "id": "121807509",
       "name": "Помощник системного администратора / Начинающий специалист",
       "company": "NV GROUP",
       "company_id": "579783",
       "company_url": "https://hh.ru/employer/579783",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
-      "url": "https://hh.ru/vacancy/121807514",
+      "url": "https://hh.ru/vacancy/121807509",
       "published_at": "2025-06-23T18:42:52+0300",
       "created_at": "2025-06-23T18:42:52+0300",
-      "area": "Серпухов (Московская область)",
+      "area": "Подольск (Московская область)",
       "salary": "от 60 000 RUR на руки",
       "salary_raw": {
         "from": 60000,
@@ -20123,16 +20156,16 @@
       "accept_temporary": true
     },
     {
-      "id": "121807509",
+      "id": "121807514",
       "name": "Помощник системного администратора / Начинающий специалист",
       "company": "NV GROUP",
       "company_id": "579783",
       "company_url": "https://hh.ru/employer/579783",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
-      "url": "https://hh.ru/vacancy/121807509",
+      "url": "https://hh.ru/vacancy/121807514",
       "published_at": "2025-06-23T18:42:52+0300",
       "created_at": "2025-06-23T18:42:52+0300",
-      "area": "Подольск (Московская область)",
+      "area": "Серпухов (Московская область)",
       "salary": "от 60 000 RUR на руки",
       "salary_raw": {
         "from": 60000,
@@ -45891,39 +45924,6 @@
       "accept_temporary": false
     },
     {
-      "id": "121146020",
-      "name": "Младший системный администратор",
-      "company": "Смартвокс ИТ",
-      "company_id": "1335266",
-      "company_url": "https://hh.ru/employer/1335266",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/40243.png",
-      "url": "https://hh.ru/vacancy/121146020",
-      "published_at": "2025-05-29T21:06:47+0300",
-      "created_at": "2025-05-29T21:06:47+0300",
-      "area": "Москва",
-      "salary": "70 000 - 110 000 RUR на руки",
-      "salary_raw": {
-        "from": 70000,
-        "to": 110000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Требования: Знание компьютерных технологий. Работа с клиентским и серверным ПО. Windows AD. Знание Linux приветствуются. Умение локализовать проблему и найти...",
-      "responsibility": "Обязанности: Компьютерная помощь пользователям компании. Прием телефонных звонков, регистрация заявок, обработка заявок. Удаленная помощь по средством программ удаленного администрирования.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
       "id": "118953439",
       "name": "Системный администратор, DevOps",
       "company": "Петербургская Биржа",
@@ -45939,8 +45939,8 @@
       "experience": "От 3 до 6 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "",
+      "requirement": "Опыт работы на аналогичной должности от 3-х лет. Опыт администрирования ОС Linux Server (дистрибутивы на основе RedHat).",
+      "responsibility": "Мониторинг, диагностика и оперативное решение проблем в функционировании информационных систем АО «Петербургская Биржа». Взаимодействие с разработчиками информационных систем АО «Петербургская...",
       "type": "Открытая",
       "professional_roles": [
         "DevOps-инженер"
