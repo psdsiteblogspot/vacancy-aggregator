@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-06-28T13:37:14Z",
+  "updated": "2025-06-28T14:46:12Z",
   "statistics": {
-    "total": 1074,
-    "with_salary": 797,
-    "companies": 779,
+    "total": 1073,
+    "with_salary": 796,
+    "companies": 778,
     "cities": 236,
     "premium": 0,
     "with_test": 13
   },
   "vacancies": [
+    {
+      "id": "121328262",
+      "name": "Системный администратор отдела информационных технологий и АСУ",
+      "company": "ГКУ Ростовской области Центр занятости населения города Ростова-на-Дону",
+      "company_id": "2660032",
+      "company_url": "https://hh.ru/employer/2660032",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/121328262",
+      "published_at": "2025-06-28T16:56:49+0300",
+      "created_at": "2025-06-28T16:56:49+0300",
+      "area": "Ростов-на-Дону",
+      "salary": "35 000 - 55 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 35000,
+        "to": 55000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Требование к образованию: 1.Должен иметь высшее профессиональное образование или среднее профессиональное образование (по профилю деятельности).",
+      "responsibility": "Инспектор центра занятости населения отдела информационных технологий и АСУ обязан: Проводить диагностику и настройку компьютерной техники.Устанавливать и обслуживать копировально-множительную...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121688908",
+      "name": "Системный администратор",
+      "company": "УралФинанс, ФК",
+      "company_id": "826487",
+      "company_url": "https://hh.ru/employer/826487",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/881043.jpg",
+      "url": "https://hh.ru/vacancy/121688908",
+      "published_at": "2025-06-28T16:12:10+0300",
+      "created_at": "2025-06-28T16:12:10+0300",
+      "area": "Екатеринбург",
+      "salary": "от 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Что нужно знать: Умение работать с MSSQL; Windows Server 2019; Apache; HTTPS; SSL; FTP; 1C Сервер; RDP.",
+      "responsibility": "Поддержка бесперебойной работы IT-инфраструктуры (LAN, WAN, VPN, VDI). Обеспечение информационной безопасности компании. Сборка/установка рабочих мест сотрудников, установка корпоративного...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
     {
       "id": "119016367",
       "name": "Системный администратор",
@@ -1083,16 +1149,16 @@
       "accept_temporary": true
     },
     {
-      "id": "122162621",
+      "id": "122162609",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122162621",
+      "url": "https://hh.ru/vacancy/122162609",
       "published_at": "2025-06-27T20:39:29+0300",
       "created_at": "2025-06-27T20:39:29+0300",
-      "area": "Югорск",
+      "area": "Зима",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -1111,16 +1177,16 @@
       "accept_temporary": true
     },
     {
-      "id": "122162609",
+      "id": "122162621",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122162609",
+      "url": "https://hh.ru/vacancy/122162621",
       "published_at": "2025-06-27T20:39:29+0300",
       "created_at": "2025-06-27T20:39:29+0300",
-      "area": "Зима",
+      "area": "Югорск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -1603,39 +1669,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы в аналогичной должности от 1 года. Знание устройства ПК на уровне администратора. Знание офисных и почтовых программ.",
       "responsibility": "Обслуживание рабочих мест (около 100 станций), обслуживание оргтехники, контроль работоспособности серверов. Контроль остатков ИТ склада. Проведение локальных ревизий ИТ склада.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121328262",
-      "name": "Системный администратор отдела информационных технологий и АСУ",
-      "company": "ГКУ Ростовской области Центр занятости населения города Ростова-на-Дону",
-      "company_id": "2660032",
-      "company_url": "https://hh.ru/employer/2660032",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/121328262",
-      "published_at": "2025-06-27T16:56:44+0300",
-      "created_at": "2025-06-27T16:56:44+0300",
-      "area": "Ростов-на-Дону",
-      "salary": "35 000 - 55 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 35000,
-        "to": 55000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Требование к образованию: 1.Должен иметь высшее профессиональное образование или среднее профессиональное образование (по профилю деятельности).",
-      "responsibility": "Инспектор центра занятости населения отдела информационных технологий и АСУ обязан: Проводить диагностику и настройку компьютерной техники.Устанавливать и обслуживать копировально-множительную...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -2231,6 +2264,39 @@
       "accept_temporary": false
     },
     {
+      "id": "122155215",
+      "name": "Выездной инженер технической поддержки/системный администратор",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/122155215",
+      "published_at": "2025-06-27T16:08:17+0300",
+      "created_at": "2025-06-27T16:08:17+0300",
+      "area": "Ярцево",
+      "salary": "200 - 10 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 200,
+        "to": 10000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "122155196",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
@@ -2307,39 +2373,6 @@
       "published_at": "2025-06-27T16:08:17+0300",
       "created_at": "2025-06-27T16:08:17+0300",
       "area": "Сафоново",
-      "salary": "200 - 10 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 200,
-        "to": 10000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
-      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122155215",
-      "name": "Выездной инженер технической поддержки/системный администратор",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122155215",
-      "published_at": "2025-06-27T16:08:17+0300",
-      "created_at": "2025-06-27T16:08:17+0300",
-      "area": "Ярцево",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -6533,16 +6566,16 @@
       "accept_temporary": true
     },
     {
-      "id": "122085660",
+      "id": "122085661",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122085660",
+      "url": "https://hh.ru/vacancy/122085661",
       "published_at": "2025-06-26T10:23:21+0300",
       "created_at": "2025-06-26T10:23:21+0300",
-      "area": "Екатеринбург",
+      "area": "Буденновск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -6561,16 +6594,16 @@
       "accept_temporary": true
     },
     {
-      "id": "122085661",
+      "id": "122085660",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122085661",
+      "url": "https://hh.ru/vacancy/122085660",
       "published_at": "2025-06-26T10:23:21+0300",
       "created_at": "2025-06-26T10:23:21+0300",
-      "area": "Буденновск",
+      "area": "Екатеринбург",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -8448,39 +8481,6 @@
       "accept_temporary": false
     },
     {
-      "id": "121142569",
-      "name": "Системный администратор",
-      "company": "АртВитраж24",
-      "company_id": "3275514",
-      "company_url": "https://hh.ru/employer/3275514",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1356587.jpg",
-      "url": "https://hh.ru/vacancy/121142569",
-      "published_at": "2025-06-25T17:22:41+0300",
-      "created_at": "2025-06-25T17:22:41+0300",
-      "area": "Аксай (Ростовская область)",
-      "salary": "70 000 - 81 000 RUR на руки",
-      "salary_raw": {
-        "from": 70000,
-        "to": 81000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее техническое образование. Знание установки и настройки Linux. Коммуникабельность. Гибкость к изменениям в процессах. Стрессоустойчивость. Умение работать в режиме многозадачности.",
-      "responsibility": "Администрирование сервисов компании (электронная почта, сетевая печать, сайт компании). Обслуживание и организация рабочих мест пользователей. Техническая поддержка пользователей ПК и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Менеджер по продажам, менеджер по работе с клиентами"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "122066542",
       "name": "Системный администратор",
       "company": "ТД Крым-Ойл",
@@ -8608,34 +8608,6 @@
       "accept_temporary": false
     },
     {
-      "id": "121138295",
-      "name": "Системный администратор (Офис, Тельмана 39)",
-      "company": "Тренд Лайн",
-      "company_id": "1147475",
-      "company_url": "https://hh.ru/employer/1147475",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/121138295",
-      "published_at": "2025-06-25T16:37:37+0300",
-      "created_at": "2025-06-25T16:37:37+0300",
-      "area": "Калининград",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Сетевые технологии VPN‚ VLAN. Маршрутизация, доступ в Интернет. Активное сетевое оборудование уровня L2/L3 (D-Link, MikroTik).",
-      "responsibility": "Ремонт, модернизация и обслуживание ПК пользователей. Консультирование пользователей. Решение мелких инцидентов.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "116070994",
       "name": "Системный администратор",
       "company": "Афипский нефтеперерабатывающий завод",
@@ -8690,39 +8662,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": false
-    },
-    {
-      "id": "121688908",
-      "name": "Системный администратор",
-      "company": "УралФинанс, ФК",
-      "company_id": "826487",
-      "company_url": "https://hh.ru/employer/826487",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/881043.jpg",
-      "url": "https://hh.ru/vacancy/121688908",
-      "published_at": "2025-06-25T16:12:10+0300",
-      "created_at": "2025-06-25T16:12:10+0300",
-      "area": "Екатеринбург",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Что нужно знать: Умение работать с MSSQL; Windows Server 2019; Apache; HTTPS; SSL; FTP; 1C Сервер; RDP.",
-      "responsibility": "Поддержка бесперебойной работы IT-инфраструктуры (LAN, WAN, VPN, VDI). Обеспечение информационной безопасности компании. Сборка/установка рабочих мест сотрудников, установка корпоративного...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
     },
     {
       "id": "122061900",
@@ -34043,6 +33982,34 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": true
+    },
+    {
+      "id": "120822098",
+      "name": "Системный администратор (технический специалист)",
+      "company": "АНО ДПО УМКЦ Энергия",
+      "company_id": "3547722",
+      "company_url": "https://hh.ru/employer/3547722",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/120822098",
+      "published_at": "2025-05-21T14:30:15+0300",
+      "created_at": "2025-05-21T14:30:15+0300",
+      "area": "Петрозаводск",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы системным администратором от 3-х лет. Базовые знания HTML/CSS/PHP для решения мелких технических вопросов.",
+      "responsibility": "Проектирование и внедрение корпоративных порталов на платформе Битрикс. Интеграция CRM-системы Битрикс24 с внутренними системами компании. Настройка бизнес-процессов...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
     },
     {
       "id": "117800252",
