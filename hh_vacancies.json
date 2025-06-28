@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-06-28T04:51:32Z",
+  "updated": "2025-06-28T05:40:32Z",
   "statistics": {
     "total": 1528,
     "with_salary": 854,
@@ -20,6 +20,39 @@
     "with_test": 65
   },
   "vacancies": [
+    {
+      "id": "121814379",
+      "name": "Системный администратор",
+      "company": "Спектр, НППФ",
+      "company_id": "718091",
+      "company_url": "https://hh.ru/employer/718091",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1359996.png",
+      "url": "https://hh.ru/vacancy/121814379",
+      "published_at": "2025-06-28T07:43:43+0300",
+      "created_at": "2025-06-28T07:43:43+0300",
+      "area": "Москва",
+      "salary": "90 000 - 120 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 90000,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание ОС Linux (CentOS, Debian). Знание и понимание работы стека протоколов TCP/IP. Знание и практический опыт настройки VPN-каналов...",
+      "responsibility": "Заниматься развитием и поддержкой существующей инфраструктуры. Конфигурировать серверы(ОС Linux, QNX, Windows) для установки на них прикладного ПО (собственная разработка).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "122163033",
       "name": "Системный администратор",
@@ -486,16 +519,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122160352",
+      "id": "122160350",
       "name": "Системный администратор",
       "company": "ТСТ Карго",
       "company_id": "3279189",
       "company_url": "https://hh.ru/employer/3279189",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/714400.png",
-      "url": "https://hh.ru/vacancy/122160352",
+      "url": "https://hh.ru/vacancy/122160350",
       "published_at": "2025-06-27T18:09:24+0300",
       "created_at": "2025-06-27T18:09:24+0300",
-      "area": "Лобня (Московская область)",
+      "area": "Долгопрудный (Московская область)",
       "salary": "от 100 000 RUR на руки",
       "salary_raw": {
         "from": 100000,
@@ -552,16 +585,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122160350",
+      "id": "122160352",
       "name": "Системный администратор",
       "company": "ТСТ Карго",
       "company_id": "3279189",
       "company_url": "https://hh.ru/employer/3279189",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/714400.png",
-      "url": "https://hh.ru/vacancy/122160350",
+      "url": "https://hh.ru/vacancy/122160352",
       "published_at": "2025-06-27T18:09:24+0300",
       "created_at": "2025-06-27T18:09:24+0300",
-      "area": "Долгопрудный (Московская область)",
+      "area": "Лобня (Московская область)",
       "salary": "от 100 000 RUR на руки",
       "salary_raw": {
         "from": 100000,
@@ -6420,16 +6453,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121044894",
+      "id": "121044896",
       "name": "Системный администратор",
       "company": "Сантэнс Сервис",
       "company_id": "154613",
       "company_url": "https://hh.ru/employer/154613",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/676990.jpg",
-      "url": "https://hh.ru/vacancy/121044894",
+      "url": "https://hh.ru/vacancy/121044896",
       "published_at": "2025-06-26T17:17:40+0300",
       "created_at": "2025-06-26T17:17:40+0300",
-      "area": "Красногорск (Московская область)",
+      "area": "Павловская Слобода (Московская область)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -6448,16 +6481,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121044896",
+      "id": "121044894",
       "name": "Системный администратор",
       "company": "Сантэнс Сервис",
       "company_id": "154613",
       "company_url": "https://hh.ru/employer/154613",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/676990.jpg",
-      "url": "https://hh.ru/vacancy/121044896",
+      "url": "https://hh.ru/vacancy/121044894",
       "published_at": "2025-06-26T17:17:40+0300",
       "created_at": "2025-06-26T17:17:40+0300",
-      "area": "Павловская Слобода (Московская область)",
+      "area": "Красногорск (Московская область)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -17980,39 +18013,6 @@
       "employment": "Полная занятость",
       "requirement": "Обучаемость/готовность к повышению квалификации (саморазвитие). Дисциплинированность. Интерес к решению проблем (увлеченность). Внимательность, исполнительность, многозадачность, коммуникабельность. Диагностика серверной аппаратной части.",
       "responsibility": "Оперативная, самостоятельная поддержка пользователей. Настройка прав пользователей. Организация новых рабочих мест. Администрирование электронной почты. Выполнение текущих задач. Выполнение регламентных работ...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121814379",
-      "name": "Системный администратор",
-      "company": "Спектр, НППФ",
-      "company_id": "718091",
-      "company_url": "https://hh.ru/employer/718091",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1359996.png",
-      "url": "https://hh.ru/vacancy/121814379",
-      "published_at": "2025-06-25T07:43:43+0300",
-      "created_at": "2025-06-25T07:43:43+0300",
-      "area": "Москва",
-      "salary": "90 000 - 120 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 90000,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание ОС Linux (CentOS, Debian). Знание и понимание работы стека протоколов TCP/IP. Знание и практический опыт настройки VPN-каналов...",
-      "responsibility": "Заниматься развитием и поддержкой существующей инфраструктуры. Конфигурировать серверы(ОС Linux, QNX, Windows) для установки на них прикладного ПО (собственная разработка).",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
