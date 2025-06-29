@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-06-29T16:46:59Z",
+  "updated": "2025-06-29T17:35:48Z",
   "statistics": {
-    "total": 1461,
-    "with_salary": 809,
+    "total": 1460,
+    "with_salary": 808,
     "companies": 1139,
     "cities": 93,
     "premium": 1,
     "with_test": 62
   },
   "vacancies": [
+    {
+      "id": "121902555",
+      "name": "Специалист технического отдела/ системный администратор",
+      "company": "ФРЕШГО",
+      "company_id": "8647786",
+      "company_url": "https://hh.ru/employer/8647786",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1291786.png",
+      "url": "https://hh.ru/vacancy/121902555",
+      "published_at": "2025-06-29T19:46:52+0300",
+      "created_at": "2025-06-29T19:46:52+0300",
+      "area": "Москва",
+      "salary": "80 000 - 110 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": 110000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Технические знания в области ПК. Рассматриваем кандидатов с опытом и без опыта работы (обучаем в процессе). Самостоятельность, способность планировать свое...",
+      "responsibility": "Полная поддержка пользователей и покупателей корпоративной сети (Helpdesk). Подбор, закупка офисной техники. Настройка и подготовка оборудования для микромаркетов, выездные мероприятия...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "121988751",
       "name": "Системный администратор",
@@ -43,6 +76,67 @@
       "employment": "Полная занятость",
       "requirement": "Системы виртуализации (KVM, VMware, Hyper-v). Администрирование Linux. СУБД (PostgreSQL, MySQL, MSSQL). Системы мониторинга (Zabbix, Cacti, Nagios). Опыт технической поддержки...",
       "responsibility": "Техническая поддержка компьютерного парка клиентов: ОС семейства Windows, Linux, MacOS, IP-телефоны, установка специализированного ПО (AutoCAD, Adobe, Компас, Photoshop).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121253860",
+      "name": "Ведущий системный администратор",
+      "company": "Кучер Кулешов Максименко и партнеры",
+      "company_id": "10108658",
+      "company_url": "https://hh.ru/employer/10108658",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1426321.png",
+      "url": "https://hh.ru/vacancy/121253860",
+      "published_at": "2025-06-29T19:19:27+0300",
+      "created_at": "2025-06-29T19:19:27+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Супер быстро узнавать о проблеме, желательно до аварии. Супер быстро понимать причину проблемы. Инженера, для которого готовность прийти на помощь...",
+      "responsibility": "",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122114863",
+      "name": "Системный администратор",
+      "company": "Формик",
+      "company_id": "127664",
+      "company_url": "https://hh.ru/employer/127664",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/122114863",
+      "published_at": "2025-06-29T19:03:18+0300",
+      "created_at": "2025-06-29T19:03:18+0300",
+      "area": "Санкт-Петербург",
+      "salary": "от 150 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 150000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы с MS Windows Server 2012/2016/2019, Linux. Опыт администрирования Active Directory, DNS, GPO, Exchange, RDS, MSSQL.",
+      "responsibility": "Администрирование пользователей (создание, изменение, удаление, разграничение прав). Администрирование ЛВС (активное и пассивное оборудование). Администрирование серверов на базе Windows Server: 2012...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -12176,100 +12270,6 @@
       "employment": "Полная занятость",
       "requirement": "Интерес к базам данных, у нас очень много данных. Нужен минимальный опыт работы в Linux, надо понимать как происходит процесс...",
       "responsibility": "Поддержка продуктивных микросервисов. Поддержка кластеров lxd / k8s. Поддержка систем мониторинга. Администрирование баз данных MySQL. Поддержка и развитие CI...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121902555",
-      "name": "Специалист технического отдела/ системный администратор",
-      "company": "ФРЕШГО",
-      "company_id": "8647786",
-      "company_url": "https://hh.ru/employer/8647786",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1291786.png",
-      "url": "https://hh.ru/vacancy/121902555",
-      "published_at": "2025-06-26T19:46:52+0300",
-      "created_at": "2025-06-26T19:46:52+0300",
-      "area": "Москва",
-      "salary": "80 000 - 110 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": 110000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Технические знания в области ПК. Рассматриваем кандидатов с опытом и без опыта работы (обучаем в процессе). Самостоятельность, способность планировать свое...",
-      "responsibility": "Полная поддержка пользователей и покупателей корпоративной сети (Helpdesk). Подбор, закупка офисной техники. Настройка и подготовка оборудования для микромаркетов, выездные мероприятия...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121253860",
-      "name": "Ведущий системный администратор",
-      "company": "Кучер Кулешов Максименко и партнеры",
-      "company_id": "10108658",
-      "company_url": "https://hh.ru/employer/10108658",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1426321.png",
-      "url": "https://hh.ru/vacancy/121253860",
-      "published_at": "2025-06-26T19:19:27+0300",
-      "created_at": "2025-06-26T19:19:27+0300",
-      "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Супер быстро узнавать о проблеме, желательно до аварии. Супер быстро понимать причину проблемы. Инженера, для которого готовность прийти на помощь...",
-      "responsibility": "",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122114863",
-      "name": "Системный администратор",
-      "company": "Формик",
-      "company_id": "127664",
-      "company_url": "https://hh.ru/employer/127664",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/122114863",
-      "published_at": "2025-06-26T19:03:18+0300",
-      "created_at": "2025-06-26T19:03:18+0300",
-      "area": "Санкт-Петербург",
-      "salary": "от 150 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 150000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с MS Windows Server 2012/2016/2019, Linux. Опыт администрирования Active Directory, DNS, GPO, Exchange, RDS, MSSQL.",
-      "responsibility": "Администрирование пользователей (создание, изменение, удаление, разграничение прав). Администрирование ЛВС (активное и пассивное оборудование). Администрирование серверов на базе Windows Server: 2012...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -44902,39 +44902,6 @@
       "employment": "Полная занятость",
       "requirement": "Наличие высшего профессионального образования. Опыт работы с МИС (желательно «САМСОН») не менее 1 года. Коммуникабельность, исполнительность, самостоятельность. Минимальные знания html...",
       "responsibility": "Реализация, актуализация СЭМД, SMSV, настройка действий для исключения двойного ввода данных врачами. Контроль передачи документов в РЭМД, ВИМИС, исправление выявленных...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121040933",
-      "name": "Системный администратор (специалист техподдержки)",
-      "company": "Группа компаний ЕКС",
-      "company_id": "1143452",
-      "company_url": "https://hh.ru/employer/1143452",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/781012.jpg",
-      "url": "https://hh.ru/vacancy/121040933",
-      "published_at": "2025-05-27T16:04:27+0300",
-      "created_at": "2025-05-27T16:04:27+0300",
-      "area": "Москва",
-      "salary": "100 000 - 120 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
