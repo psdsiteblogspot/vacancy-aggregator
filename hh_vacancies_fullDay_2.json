@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-01T09:01:38Z",
+  "updated": "2025-07-01T09:53:31Z",
   "statistics": {
-    "total": 925,
-    "with_salary": 714,
-    "companies": 683,
+    "total": 926,
+    "with_salary": 715,
+    "companies": 684,
     "cities": 176,
     "premium": 1,
     "with_test": 12
   },
   "vacancies": [
+    {
+      "id": "117733849",
+      "name": "Системный администратор",
+      "company": "Уралэнерго",
+      "company_id": "110192",
+      "company_url": "https://hh.ru/employer/110192",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1404559.png",
+      "url": "https://hh.ru/vacancy/117733849",
+      "published_at": "2025-07-01T12:33:01+0300",
+      "created_at": "2025-07-01T12:33:01+0300",
+      "area": "Ижевск",
+      "salary": "от 65 000 RUR на руки",
+      "salary_raw": {
+        "from": 65000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Имеет опыт в аналогичной должности, если нет – НАУЧИМ. Что ты будешь делать:",
+      "responsibility": "продукцию от партнеров Компании. Работать по заявкам на второй линии техподдержки. Собирать и обслуживать компьютерную технику. Администрировать рабочие станции, принтеры...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121870430",
+      "name": "Системный администратор (Инженер)",
+      "company": "ГАУ БО МФЦ",
+      "company_id": "4872864",
+      "company_url": "https://hh.ru/employer/4872864",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/772855.png",
+      "url": "https://hh.ru/vacancy/121870430",
+      "published_at": "2025-07-01T12:16:12+0300",
+      "created_at": "2025-07-01T12:16:12+0300",
+      "area": "Белгород",
+      "salary": "от 64 650 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 64650,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Наличие высшего/неоконченного высшего (технического) образования. Знание установки, администрирования и сопровождения программных продуктов семейства OS Linux (Ну или хотя бы...",
+      "responsibility": "Установка и администрирование установленного в учреждении прикладного программного обеспечения. Обслуживание технического и системного программного обеспечения АИС МФЦ. Администрирование, архивирование и...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "122245786",
       "name": "Системный администратор (г.Иваново)",
@@ -7150,6 +7216,39 @@
       "accept_temporary": false
     },
     {
+      "id": "122155217",
+      "name": "Выездной инженер технической поддержки/системный администратор",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/122155217",
+      "published_at": "2025-06-27T16:08:17+0300",
+      "created_at": "2025-06-27T16:08:17+0300",
+      "area": "Архара",
+      "salary": "200 - 10 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 200,
+        "to": 10000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "122155205",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
@@ -7193,39 +7292,6 @@
       "published_at": "2025-06-27T16:08:17+0300",
       "created_at": "2025-06-27T16:08:17+0300",
       "area": "Советская Гавань",
-      "salary": "200 - 10 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 200,
-        "to": 10000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
-      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122155217",
-      "name": "Выездной инженер технической поддержки/системный администратор",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122155217",
-      "published_at": "2025-06-27T16:08:17+0300",
-      "created_at": "2025-06-27T16:08:17+0300",
-      "area": "Архара",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -7480,16 +7546,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122155198",
+      "id": "122155214",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122155198",
+      "url": "https://hh.ru/vacancy/122155214",
       "published_at": "2025-06-27T16:08:17+0300",
       "created_at": "2025-06-27T16:08:17+0300",
-      "area": "Лесозаводск",
+      "area": "Шимановск",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -7513,16 +7579,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122155214",
+      "id": "122155198",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122155214",
+      "url": "https://hh.ru/vacancy/122155198",
       "published_at": "2025-06-27T16:08:17+0300",
       "created_at": "2025-06-27T16:08:17+0300",
-      "area": "Шимановск",
+      "area": "Лесозаводск",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -13540,39 +13606,6 @@
       "accept_temporary": false
     },
     {
-      "id": "121924964",
-      "name": "Выездной инженер технической поддержки/системный администратор",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121924964",
-      "published_at": "2025-06-23T08:38:40+0300",
-      "created_at": "2025-06-23T08:38:40+0300",
-      "area": "Клинцы",
-      "salary": "200 - 10 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 200,
-        "to": 10000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
-      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "121924969",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
@@ -13606,6 +13639,39 @@
       "accept_temporary": false
     },
     {
+      "id": "121924964",
+      "name": "Выездной инженер технической поддержки/системный администратор",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/121924964",
+      "published_at": "2025-06-23T08:38:40+0300",
+      "created_at": "2025-06-23T08:38:40+0300",
+      "area": "Клинцы",
+      "salary": "200 - 10 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 200,
+        "to": 10000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "121924979",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
@@ -13616,6 +13682,39 @@
       "published_at": "2025-06-23T08:38:40+0300",
       "created_at": "2025-06-23T08:38:40+0300",
       "area": "Мичуринск",
+      "salary": "200 - 10 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 200,
+        "to": 10000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121924974",
+      "name": "Выездной инженер технической поддержки/системный администратор",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/121924974",
+      "published_at": "2025-06-23T08:38:40+0300",
+      "created_at": "2025-06-23T08:38:40+0300",
+      "area": "Елец",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -13705,16 +13804,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121924974",
+      "id": "121924973",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121924974",
+      "url": "https://hh.ru/vacancy/121924973",
       "published_at": "2025-06-23T08:38:40+0300",
       "created_at": "2025-06-23T08:38:40+0300",
-      "area": "Елец",
+      "area": "Обоянь",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -13748,39 +13847,6 @@
       "published_at": "2025-06-23T08:38:40+0300",
       "created_at": "2025-06-23T08:38:40+0300",
       "area": "Курчатов",
-      "salary": "200 - 10 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 200,
-        "to": 10000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
-      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121924973",
-      "name": "Выездной инженер технической поддержки/системный администратор",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121924973",
-      "published_at": "2025-06-23T08:38:40+0300",
-      "created_at": "2025-06-23T08:38:40+0300",
-      "area": "Обоянь",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -15132,39 +15198,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121870430",
-      "name": "Системный администратор (Инженер)",
-      "company": "ГАУ БО МФЦ",
-      "company_id": "4872864",
-      "company_url": "https://hh.ru/employer/4872864",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/772855.png",
-      "url": "https://hh.ru/vacancy/121870430",
-      "published_at": "2025-06-20T09:31:29+0300",
-      "created_at": "2025-06-20T09:31:29+0300",
-      "area": "Белгород",
-      "salary": "от 64 650 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 64650,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Наличие высшего/неоконченного высшего (технического) образования. Знание установки, администрирования и сопровождения программных продуктов семейства OS Linux (Ну или хотя бы...",
-      "responsibility": "Установка и администрирование установленного в учреждении прикладного программного обеспечения. Обслуживание технического и системного программного обеспечения АИС МФЦ. Администрирование, архивирование и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный инженер"
       ],
       "has_test": false,
       "premium": false,
@@ -17271,16 +17304,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121789570",
+      "id": "121789568",
       "name": "Выездной инженер технической поддержки/Системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121789570",
+      "url": "https://hh.ru/vacancy/121789568",
       "published_at": "2025-06-18T13:43:00+0300",
       "created_at": "2025-06-18T13:43:00+0300",
-      "area": "Зея",
+      "area": "Бологое",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -17304,16 +17337,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121789568",
+      "id": "121789570",
       "name": "Выездной инженер технической поддержки/Системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121789568",
+      "url": "https://hh.ru/vacancy/121789570",
       "published_at": "2025-06-18T13:43:00+0300",
       "created_at": "2025-06-18T13:43:00+0300",
-      "area": "Бологое",
+      "area": "Зея",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -19372,16 +19405,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121707758",
+      "id": "121707760",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121707758",
+      "url": "https://hh.ru/vacancy/121707760",
       "published_at": "2025-06-17T08:07:24+0300",
       "created_at": "2025-06-17T08:07:24+0300",
-      "area": "Набережные Челны",
+      "area": "Тольятти",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -19400,16 +19433,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121707760",
+      "id": "121707758",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121707760",
+      "url": "https://hh.ru/vacancy/121707758",
       "published_at": "2025-06-17T08:07:24+0300",
       "created_at": "2025-06-17T08:07:24+0300",
-      "area": "Тольятти",
+      "area": "Набережные Челны",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -21145,16 +21178,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121666424",
+      "id": "121666421",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121666424",
+      "url": "https://hh.ru/vacancy/121666421",
       "published_at": "2025-06-16T11:45:20+0300",
       "created_at": "2025-06-16T11:45:20+0300",
-      "area": "Шахунья",
+      "area": "Бабаево",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -21173,16 +21206,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121666421",
+      "id": "121666424",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121666421",
+      "url": "https://hh.ru/vacancy/121666424",
       "published_at": "2025-06-16T11:45:20+0300",
       "created_at": "2025-06-16T11:45:20+0300",
-      "area": "Бабаево",
+      "area": "Шахунья",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -27111,16 +27144,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121349485",
+      "id": "121349484",
       "name": "Инженер по компьютерным системам / Системный администратор (г.Алушта)",
       "company": "Отель MORE SPA & RESORT (ООО АФОРРА-РЕЗОРТ)",
       "company_id": "10330901",
       "company_url": "https://hh.ru/employer/10330901",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1173916.jpg",
-      "url": "https://hh.ru/vacancy/121349485",
+      "url": "https://hh.ru/vacancy/121349484",
       "published_at": "2025-06-04T16:24:52+0300",
       "created_at": "2025-06-04T16:24:52+0300",
-      "area": "Воронеж",
+      "area": "Белгород",
       "salary": "от 68 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 68000,
@@ -27144,16 +27177,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121349484",
+      "id": "121349485",
       "name": "Инженер по компьютерным системам / Системный администратор (г.Алушта)",
       "company": "Отель MORE SPA & RESORT (ООО АФОРРА-РЕЗОРТ)",
       "company_id": "10330901",
       "company_url": "https://hh.ru/employer/10330901",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1173916.jpg",
-      "url": "https://hh.ru/vacancy/121349484",
+      "url": "https://hh.ru/vacancy/121349485",
       "published_at": "2025-06-04T16:24:52+0300",
       "created_at": "2025-06-04T16:24:52+0300",
-      "area": "Белгород",
+      "area": "Воронеж",
       "salary": "от 68 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 68000,
