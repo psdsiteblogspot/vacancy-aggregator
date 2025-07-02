@@ -10,16 +10,77 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-02T13:18:41Z",
+  "updated": "2025-07-02T13:52:12Z",
   "statistics": {
     "total": 935,
-    "with_salary": 726,
-    "companies": 689,
-    "cities": 177,
+    "with_salary": 725,
+    "companies": 690,
+    "cities": 176,
     "premium": 1,
     "with_test": 14
   },
   "vacancies": [
+    {
+      "id": "122318276",
+      "name": "Системный администратор Linux",
+      "company": "ГК ICL",
+      "company_id": "32570",
+      "company_url": "https://hh.ru/employer/32570",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/953054.png",
+      "url": "https://hh.ru/vacancy/122318276",
+      "published_at": "2025-07-02T16:31:00+0300",
+      "created_at": "2025-07-02T16:31:00+0300",
+      "area": "Казань",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "Более 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт администрирования операционной системы Linux (AstraLinux, Debian). Умение работать с командной строкой и понимать bash-скрипты. Знание сервисов AD, Kerberos...",
+      "responsibility": "Установка и настройка технических средств на объектах Заказчика: рабочие станции, сервера, периферийное оборудование. Установка и настройка ОС AstraLinux.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
+      "id": "122317748",
+      "name": "Системный администратор",
+      "company": "Опалубочные системы",
+      "company_id": "1089715",
+      "company_url": "https://hh.ru/employer/1089715",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1050644.jpg",
+      "url": "https://hh.ru/vacancy/122317748",
+      "published_at": "2025-07-02T16:20:37+0300",
+      "created_at": "2025-07-02T16:20:37+0300",
+      "area": "Липецк",
+      "salary": "до 120 000 RUR на руки",
+      "salary_raw": {
+        "from": null,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в должности от 2-х лет. Опыт работы с продуктами Microsoft (Windows Server 2008-2019, Active Directory, DNS...",
+      "responsibility": "Установка, настройка, обновление ПО на рабочих станциях и серверах. Обнаружение и устранение неполадок в работе ПК и оборудования.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "117955415",
       "name": "Системный администратор",
@@ -5428,39 +5489,6 @@
       "accept_temporary": false
     },
     {
-      "id": "122008384",
-      "name": "Главный системный администратор",
-      "company": "ГБУ НО Уполномоченный МФЦ",
-      "company_id": "3733111",
-      "company_url": "https://hh.ru/employer/3733111",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1385910.png",
-      "url": "https://hh.ru/vacancy/122008384",
-      "published_at": "2025-06-30T14:07:31+0300",
-      "created_at": "2025-06-30T14:07:31+0300",
-      "area": "Дзержинск (Нижегородская область)",
-      "salary": "от 53 000 RUR на руки",
-      "salary_raw": {
-        "from": 53000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Понимание принципов устройства сетей, маршрутизации, работы сетевых протоколов. Опыт работы с RDP, DHCP, DNS, VPN. Умение адаптироваться в сложных ситуациях...",
-      "responsibility": "Базовое администрирование Windows, Linux, Active Directory. Организация рабочих мест сотрудников. Предоставление удаленных доступов, подключений RDP. Поддержание актуальности ПО (антивирус, КриптопроCSP).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "122207109",
       "name": "Администратор вычислительной сети/Системный администратор",
       "company": "Плазма",
@@ -9121,16 +9149,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122155194",
+      "id": "122155210",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122155194",
+      "url": "https://hh.ru/vacancy/122155210",
       "published_at": "2025-06-27T16:08:17+0300",
       "created_at": "2025-06-27T16:08:17+0300",
-      "area": "Дальнегорск",
+      "area": "Советская Гавань",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -9154,16 +9182,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122155210",
+      "id": "122155194",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122155210",
+      "url": "https://hh.ru/vacancy/122155194",
       "published_at": "2025-06-27T16:08:17+0300",
       "created_at": "2025-06-27T16:08:17+0300",
-      "area": "Советская Гавань",
+      "area": "Дальнегорск",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -9484,16 +9512,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122155214",
+      "id": "122155191",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122155214",
+      "url": "https://hh.ru/vacancy/122155191",
       "published_at": "2025-06-27T16:08:17+0300",
       "created_at": "2025-06-27T16:08:17+0300",
-      "area": "Шимановск",
+      "area": "Богучар",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -9517,16 +9545,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122155191",
+      "id": "122155214",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122155191",
+      "url": "https://hh.ru/vacancy/122155214",
       "published_at": "2025-06-27T16:08:17+0300",
       "created_at": "2025-06-27T16:08:17+0300",
-      "area": "Богучар",
+      "area": "Шимановск",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -29787,39 +29815,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт от 2 лет в администрировании Windows/Linux-серверов (или чего-то одного). Опыт настройки и поддержки Active Directory, DNS...",
       "responsibility": "Full-stack сборка и администрирование : от рабочих станций до серверов. Обеспечивать бесперебойную работу рабочих мест, терминалов, серверов, коммутаторов.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120821323",
-      "name": "Системный администратор",
-      "company": "Универсал",
-      "company_id": "864524",
-      "company_url": "https://hh.ru/employer/864524",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1287813.png",
-      "url": "https://hh.ru/vacancy/120821323",
-      "published_at": "2025-05-21T14:18:43+0300",
-      "created_at": "2025-05-21T14:18:43+0300",
-      "area": "Самара",
-      "salary": "от 126 000 RUR на руки",
-      "salary_raw": {
-        "from": 126000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
