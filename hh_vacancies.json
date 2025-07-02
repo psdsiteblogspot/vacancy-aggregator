@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-02T17:13:26Z",
+  "updated": "2025-07-02T18:19:02Z",
   "statistics": {
-    "total": 1527,
-    "with_salary": 858,
+    "total": 1526,
+    "with_salary": 857,
     "companies": 1192,
     "cities": 92,
     "premium": 2,
     "with_test": 67
   },
   "vacancies": [
+    {
+      "id": "121594911",
+      "name": "Системный администратор SRE / DBA",
+      "company": "amoCRM",
+      "company_id": "999442",
+      "company_url": "https://hh.ru/employer/999442",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1400028.png",
+      "url": "https://hh.ru/vacancy/121594911",
+      "published_at": "2025-07-02T20:51:48+0300",
+      "created_at": "2025-07-02T20:51:48+0300",
+      "area": "Москва",
+      "salary": "до 160 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": null,
+        "to": 160000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Интерес к базам данных, у нас очень много данных. Нужен минимальный опыт работы в Linux, надо понимать как происходит процесс...",
+      "responsibility": "Поддержка продуктивных микросервисов. Поддержка кластеров lxd / k8s. Поддержка систем мониторинга. Администрирование баз данных MySQL. Поддержка и развитие CI...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "122325039",
       "name": "Системный администратор",
@@ -19207,39 +19240,6 @@
       "accept_temporary": true
     },
     {
-      "id": "121594911",
-      "name": "Системный администратор SRE / DBA",
-      "company": "amoCRM",
-      "company_id": "999442",
-      "company_url": "https://hh.ru/employer/999442",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1400028.png",
-      "url": "https://hh.ru/vacancy/121594911",
-      "published_at": "2025-06-29T20:51:48+0300",
-      "created_at": "2025-06-29T20:51:48+0300",
-      "area": "Москва",
-      "salary": "до 160 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": null,
-        "to": 160000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Интерес к базам данных, у нас очень много данных. Нужен минимальный опыт работы в Linux, надо понимать как происходит процесс...",
-      "responsibility": "Поддержка продуктивных микросервисов. Поддержка кластеров lxd / k8s. Поддержка систем мониторинга. Администрирование баз данных MySQL. Поддержка и развитие CI...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "122172585",
       "name": "Системный администратор Linux",
       "company": "МегаФон",
@@ -27834,16 +27834,16 @@
       "accept_temporary": true
     },
     {
-      "id": "121807513",
+      "id": "121807512",
       "name": "Помощник системного администратора / Начинающий специалист",
       "company": "NV GROUP",
       "company_id": "579783",
       "company_url": "https://hh.ru/employer/579783",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
-      "url": "https://hh.ru/vacancy/121807513",
+      "url": "https://hh.ru/vacancy/121807512",
       "published_at": "2025-06-23T18:42:52+0300",
       "created_at": "2025-06-23T18:42:52+0300",
-      "area": "Сергиев Посад (Московская область)",
+      "area": "Дмитров (Московская область)",
       "salary": "от 60 000 RUR на руки",
       "salary_raw": {
         "from": 60000,
@@ -27867,16 +27867,16 @@
       "accept_temporary": true
     },
     {
-      "id": "121807512",
+      "id": "121807513",
       "name": "Помощник системного администратора / Начинающий специалист",
       "company": "NV GROUP",
       "company_id": "579783",
       "company_url": "https://hh.ru/employer/579783",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
-      "url": "https://hh.ru/vacancy/121807512",
+      "url": "https://hh.ru/vacancy/121807513",
       "published_at": "2025-06-23T18:42:52+0300",
       "created_at": "2025-06-23T18:42:52+0300",
-      "area": "Дмитров (Московская область)",
+      "area": "Сергиев Посад (Московская область)",
       "salary": "от 60 000 RUR на руки",
       "salary_raw": {
         "from": 60000,
@@ -33037,8 +33037,8 @@
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "Умение диагностировать проблемы, устранять простые неисправности в работе компьютеров, принтеров, сканеров, телефонов. Необходимы знания ОС Debian, RedOS, их деривативов.",
-      "responsibility": "Обработка, выполнение заявок по линии IT, поступающих от servicedesk. Диагностика проблем, решение проблем, передача информации о ходе своей работы по...",
+      "requirement": "",
+      "responsibility": "",
       "type": "Закрытая",
       "professional_roles": [
         "Специалист технической поддержки"
@@ -46995,39 +46995,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание Windows на уровне администратора. Понимание принципов работы сети, основных протоколов TCP, UDP, IP, DNS, DHCP, NAT. Базовый опыт работы...",
       "responsibility": "Помощь пользователям в работе с ПО на местах и удаленно. Настройка и установка рабочих мест. Обслуживание ПК, ноутбуков, моноблоков, принтеров...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121040933",
-      "name": "Системный администратор (специалист техподдержки)",
-      "company": "Группа компаний ЕКС",
-      "company_id": "1143452",
-      "company_url": "https://hh.ru/employer/1143452",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/781012.jpg",
-      "url": "https://hh.ru/vacancy/121040933",
-      "published_at": "2025-05-27T16:04:27+0300",
-      "created_at": "2025-05-27T16:04:27+0300",
-      "area": "Москва",
-      "salary": "100 000 - 120 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Понимание модели OSI. Создание и изменение учетных записей AD/Exchange. Опыт поддержки пользователей на базе ПО Microsoft (Office, Outlook).",
-      "responsibility": "Техническая поддержка пользователей. Диагностика неисправностей ПК, настройка и агрегатная замена. Организация новых рабочих мест. Оперативное решение проблем пользователей с программным...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
