@@ -10,16 +10,77 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-03T20:13:49Z",
+  "updated": "2025-07-03T21:12:39Z",
   "statistics": {
-    "total": 1543,
+    "total": 1544,
     "with_salary": 864,
-    "companies": 1212,
+    "companies": 1214,
     "cities": 90,
     "premium": 2,
     "with_test": 65
   },
   "vacancies": [
+    {
+      "id": "122370880",
+      "name": "DevOps-инженер / Системный администратор",
+      "company": "Березка",
+      "company_id": "11768036",
+      "company_url": "https://hh.ru/employer/11768036",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/122370880",
+      "published_at": "2025-07-03T23:51:20+0300",
+      "created_at": "2025-07-03T23:51:20+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "Более 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее техническое образование. Не менее 5 лет опыта администрирования ОС Linux (Debian/Ubuntu, Astra, RedHat/CentOS). Опыт работы с платформами...",
+      "responsibility": "Проектирование, внедрение и сопровождение инфраструктуры аппаратно-программных и информационно-вычислительных комплексов. Обслуживание промышленных и тестовых контуров информационных систем в части...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122370864",
+      "name": "Системный администратор / Junior Devops",
+      "company": "Федеральное агентство водных ресурсов",
+      "company_id": "8910407",
+      "company_url": "https://hh.ru/employer/8910407",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/978373.png",
+      "url": "https://hh.ru/vacancy/122370864",
+      "published_at": "2025-07-03T23:44:31+0300",
+      "created_at": "2025-07-03T23:44:31+0300",
+      "area": "Москва",
+      "salary": "от 150 000 RUR на руки",
+      "salary_raw": {
+        "from": 150000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование / 1-2 курсы магистратуры (технический вуз). Понимание жизненного цикла разработки программного обеспечения. Базовые знания программно-аппаратного устройства серверного...",
+      "responsibility": "Инсталляция и обновление ПО. Управление резервным копированием. Мониторинг и анализ производительности сервисов ГИС (Grafana, Zabbix), проведение нагрузочных тестирований.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "122162368",
       "name": "Системный администратор",
@@ -47484,39 +47545,6 @@
       "accept_temporary": false
     },
     {
-      "id": "121040933",
-      "name": "Системный администратор (специалист техподдержки)",
-      "company": "Группа компаний ЕКС",
-      "company_id": "1143452",
-      "company_url": "https://hh.ru/employer/1143452",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/781012.jpg",
-      "url": "https://hh.ru/vacancy/121040933",
-      "published_at": "2025-05-27T16:04:27+0300",
-      "created_at": "2025-05-27T16:04:27+0300",
-      "area": "Москва",
-      "salary": "100 000 - 120 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Понимание модели OSI. Создание и изменение учетных записей AD/Exchange. Опыт поддержки пользователей на базе ПО Microsoft (Office, Outlook).",
-      "responsibility": "Техническая поддержка пользователей. Диагностика неисправностей ПК, настройка и агрегатная замена. Организация новых рабочих мест. Оперативное решение проблем пользователей с программным...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "118953439",
       "name": "Системный администратор, DevOps",
       "company": "Петербургская Биржа",
@@ -47532,8 +47560,8 @@
       "experience": "От 3 до 6 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "",
+      "requirement": "Опыт работы на аналогичной должности от 3-х лет. Опыт администрирования ОС Linux Server (дистрибутивы на основе RedHat).",
+      "responsibility": "Мониторинг, диагностика и оперативное решение проблем в функционировании информационных систем АО «Петербургская Биржа». Взаимодействие с разработчиками информационных систем АО «Петербургская...",
       "type": "Открытая",
       "professional_roles": [
         "DevOps-инженер"
