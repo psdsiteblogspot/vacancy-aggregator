@@ -10,16 +10,148 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-03T14:50:11Z",
+  "updated": "2025-07-03T15:49:10Z",
   "statistics": {
-    "total": 934,
-    "with_salary": 726,
-    "companies": 690,
+    "total": 935,
+    "with_salary": 727,
+    "companies": 691,
     "cities": 174,
     "premium": 2,
     "with_test": 12
   },
   "vacancies": [
+    {
+      "id": "122368329",
+      "name": "Системный администратор",
+      "company": "МКУ Информационно-методический центр Курского района Курской области",
+      "company_id": "11854337",
+      "company_url": "https://hh.ru/employer/11854337",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/122368329",
+      "published_at": "2025-07-03T18:09:07+0300",
+      "created_at": "2025-07-03T18:09:07+0300",
+      "area": "Курск",
+      "salary": "27 000 - 30 000 RUR на руки",
+      "salary_raw": {
+        "from": 27000,
+        "to": 30000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Аккуратность. Ответственность. Многозадачность.",
+      "responsibility": "Работа с ПК. Обслуживание компьютерной, офисной и оргтехники. Ремонт техники, обеспечение бесперебойной работы ПК, устранение неисправностей. Организация компьютерной сети.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121754001",
+      "name": "Системный администратор",
+      "company": "Планета Фитнес",
+      "company_id": "543636",
+      "company_url": "https://hh.ru/employer/543636",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1413024.png",
+      "url": "https://hh.ru/vacancy/121754001",
+      "published_at": "2025-07-03T18:05:20+0300",
+      "created_at": "2025-07-03T18:05:20+0300",
+      "area": "Казань",
+      "salary": "от 50 000 RUR на руки",
+      "salary_raw": {
+        "from": 50000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее техническое образование. Уверенное администрирования операционных систем Windows Server (2012, 2016, 2022). Windows (7-11) (AD, GPO, DNS,), Hyper-V...",
+      "responsibility": "Поддержка и обновление сетевой инфраструктур: более 500 ip адресов. Администрирование: ОС: Windows 7/8/10/11, Windows Server *2019/2022...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122221737",
+      "name": "Системный администратор WMS",
+      "company": "ОФИСМАГ",
+      "company_id": "840485",
+      "company_url": "https://hh.ru/employer/840485",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1385664.png",
+      "url": "https://hh.ru/vacancy/122221737",
+      "published_at": "2025-07-03T17:55:27+0300",
+      "created_at": "2025-07-03T17:55:27+0300",
+      "area": "Казань",
+      "salary": "от 96 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 96000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Образование не ниже среднего профессионального (специального). ПК-пользователь (Word, Excel, Internet, почтовые программы).",
+      "responsibility": "Оперативная поддержка автоматической системы управления складом. Обучение и поддержка пользователей. Контроль расходных материалов. Поддержание работоспособности компьютерного оборудования на складе.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122220966",
+      "name": "Системный администратор",
+      "company": "Электрон-опт",
+      "company_id": "174522",
+      "company_url": "https://hh.ru/employer/174522",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/629102.jpg",
+      "url": "https://hh.ru/vacancy/122220966",
+      "published_at": "2025-07-03T17:34:11+0300",
+      "created_at": "2025-07-03T17:34:11+0300",
+      "area": "Нижний Новгород",
+      "salary": "100 000 - 130 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 100000,
+        "to": 130000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание: Windows Server, 1C8.1, 8.2, 8.3, Free BSD. Опыт работы в аналогичной должности от 1...",
+      "responsibility": "Поддержание работоспособности техники и торгового оборудования (в том числе в удаленных подразделениях). Мини-АТС, системы видео наблюдения, система СКУД.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "122367205",
       "name": "Системный администратор",
@@ -3637,39 +3769,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Специалист технической поддержки"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121754001",
-      "name": "Системный администратор",
-      "company": "Планета Фитнес",
-      "company_id": "543636",
-      "company_url": "https://hh.ru/employer/543636",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1413024.png",
-      "url": "https://hh.ru/vacancy/121754001",
-      "published_at": "2025-07-02T12:53:57+0300",
-      "created_at": "2025-07-02T12:53:57+0300",
-      "area": "Казань",
-      "salary": "от 50 000 RUR на руки",
-      "salary_raw": {
-        "from": 50000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее техническое образование. Уверенное администрирования операционных систем Windows Server (2012, 2016, 2022). Windows (7-11) (AD, GPO, DNS,), Hyper-V...",
-      "responsibility": "Поддержка и обновление сетевой инфраструктур: более 500 ip адресов. Администрирование: ОС: Windows 7/8/10/11, Windows Server *2019/2022...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
       ],
       "has_test": false,
       "premium": false,
@@ -7368,39 +7467,6 @@
       "accept_temporary": false
     },
     {
-      "id": "122221737",
-      "name": "Системный администратор WMS",
-      "company": "ОФИСМАГ",
-      "company_id": "840485",
-      "company_url": "https://hh.ru/employer/840485",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1385664.png",
-      "url": "https://hh.ru/vacancy/122221737",
-      "published_at": "2025-06-30T17:55:27+0300",
-      "created_at": "2025-06-30T17:55:27+0300",
-      "area": "Казань",
-      "salary": "от 96 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 96000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Образование не ниже среднего профессионального (специального). ПК-пользователь (Word, Excel, Internet, почтовые программы).",
-      "responsibility": "Оперативная поддержка автоматической системы управления складом. Обучение и поддержка пользователей. Контроль расходных материалов. Поддержание работоспособности компьютерного оборудования на складе.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "120086332",
       "name": "Системный администратор",
       "company": "Газпром нефть",
@@ -7484,39 +7550,6 @@
       "employment": "Полная занятость",
       "requirement": "",
       "responsibility": "Рынок сбыта РФ, СНГ и др. Ремонт печатной техники (МФУ: Kyocera, HP, Canon и др.). Модульный ремонт персональных компьютеров.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122220966",
-      "name": "Системный администратор",
-      "company": "Электрон-опт",
-      "company_id": "174522",
-      "company_url": "https://hh.ru/employer/174522",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/629102.jpg",
-      "url": "https://hh.ru/vacancy/122220966",
-      "published_at": "2025-06-30T17:34:11+0300",
-      "created_at": "2025-06-30T17:34:11+0300",
-      "area": "Нижний Новгород",
-      "salary": "100 000 - 130 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 100000,
-        "to": 130000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание: Windows Server, 1C8.1, 8.2, 8.3, Free BSD. Опыт работы в аналогичной должности от 1...",
-      "responsibility": "Поддержание работоспособности техники и торгового оборудования (в том числе в удаленных подразделениях). Мини-АТС, системы видео наблюдения, система СКУД.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -9913,16 +9946,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122171006",
+      "id": "122170999",
       "name": "Системный администратор/инженер (IT)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122171006",
+      "url": "https://hh.ru/vacancy/122170999",
       "published_at": "2025-06-29T11:55:23+0300",
       "created_at": "2025-06-29T11:55:23+0300",
-      "area": "Советский (Республика Марий Эл)",
+      "area": "Пугачев",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -9941,16 +9974,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122170999",
+      "id": "122171006",
       "name": "Системный администратор/инженер (IT)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122170999",
+      "url": "https://hh.ru/vacancy/122171006",
       "published_at": "2025-06-29T11:55:23+0300",
       "created_at": "2025-06-29T11:55:23+0300",
-      "area": "Пугачев",
+      "area": "Советский (Республика Марий Эл)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -10858,16 +10891,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122155191",
+      "id": "122155212",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122155191",
+      "url": "https://hh.ru/vacancy/122155212",
       "published_at": "2025-06-27T16:08:17+0300",
       "created_at": "2025-06-27T16:08:17+0300",
-      "area": "Богучар",
+      "area": "Шарья",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -10891,16 +10924,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122155212",
+      "id": "122155191",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122155212",
+      "url": "https://hh.ru/vacancy/122155191",
       "published_at": "2025-06-27T16:08:17+0300",
       "created_at": "2025-06-27T16:08:17+0300",
-      "area": "Шарья",
+      "area": "Богучар",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -17103,16 +17136,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121924972",
+      "id": "121924978",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121924972",
+      "url": "https://hh.ru/vacancy/121924978",
       "published_at": "2025-06-23T08:38:40+0300",
       "created_at": "2025-06-23T08:38:40+0300",
-      "area": "Железногорск (Курская область)",
+      "area": "Ливны",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -17136,16 +17169,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121924978",
+      "id": "121924972",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121924978",
+      "url": "https://hh.ru/vacancy/121924972",
       "published_at": "2025-06-23T08:38:40+0300",
       "created_at": "2025-06-23T08:38:40+0300",
-      "area": "Ливны",
+      "area": "Железногорск (Курская область)",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -19417,16 +19450,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121822755",
+      "id": "121822754",
       "name": "Системный администратор",
       "company": "Кимовский хлебокомбинат",
       "company_id": "2731477",
       "company_url": "https://hh.ru/employer/2731477",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1078408.jpg",
-      "url": "https://hh.ru/vacancy/121822755",
+      "url": "https://hh.ru/vacancy/121822754",
       "published_at": "2025-06-19T09:57:10+0300",
       "created_at": "2025-06-19T09:57:10+0300",
-      "area": "Донской",
+      "area": "Узловая",
       "salary": "60 000 - 80 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 60000,
@@ -19450,16 +19483,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121822754",
+      "id": "121822755",
       "name": "Системный администратор",
       "company": "Кимовский хлебокомбинат",
       "company_id": "2731477",
       "company_url": "https://hh.ru/employer/2731477",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1078408.jpg",
-      "url": "https://hh.ru/vacancy/121822754",
+      "url": "https://hh.ru/vacancy/121822755",
       "published_at": "2025-06-19T09:57:10+0300",
       "created_at": "2025-06-19T09:57:10+0300",
-      "area": "Узловая",
+      "area": "Донской",
       "salary": "60 000 - 80 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 60000,
@@ -22323,16 +22356,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121707759",
+      "id": "121707760",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121707759",
+      "url": "https://hh.ru/vacancy/121707760",
       "published_at": "2025-06-17T08:07:24+0300",
       "created_at": "2025-06-17T08:07:24+0300",
-      "area": "Ульяновск",
+      "area": "Тольятти",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -22351,16 +22384,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121707760",
+      "id": "121707759",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121707760",
+      "url": "https://hh.ru/vacancy/121707759",
       "published_at": "2025-06-17T08:07:24+0300",
       "created_at": "2025-06-17T08:07:24+0300",
-      "area": "Тольятти",
+      "area": "Ульяновск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -29257,39 +29290,6 @@
       "accept_temporary": false
     },
     {
-      "id": "121349484",
-      "name": "Инженер по компьютерным системам / Системный администратор (г.Алушта)",
-      "company": "Отель MORE SPA & RESORT (ООО АФОРРА-РЕЗОРТ)",
-      "company_id": "10330901",
-      "company_url": "https://hh.ru/employer/10330901",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1173916.jpg",
-      "url": "https://hh.ru/vacancy/121349484",
-      "published_at": "2025-06-04T16:24:52+0300",
-      "created_at": "2025-06-04T16:24:52+0300",
-      "area": "Белгород",
-      "salary": "от 68 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 68000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Аналитическое мышление. Знание основ работы локальных и глобальных сетей, (адресация, маршрутизация, настройка). Умение диагностировать неисправности и проводить мелкий ремонт компьютерной...",
-      "responsibility": "Поддержка работы программно-аппаратного комплекса управления рестораном (Simphony). Настройка, контроль, управление взаимодействием ресторанной системы с ГИС МТ, ЕГАИС.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "121349483",
       "name": "Инженер по компьютерным системам / Системный администратор (г.Алушта)",
       "company": "Отель MORE SPA & RESORT (ООО АФОРРА-РЕЗОРТ)",
@@ -29366,6 +29366,39 @@
       "published_at": "2025-06-04T16:24:52+0300",
       "created_at": "2025-06-04T16:24:52+0300",
       "area": "Севастополь",
+      "salary": "от 68 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 68000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Аналитическое мышление. Знание основ работы локальных и глобальных сетей, (адресация, маршрутизация, настройка). Умение диагностировать неисправности и проводить мелкий ремонт компьютерной...",
+      "responsibility": "Поддержка работы программно-аппаратного комплекса управления рестораном (Simphony). Настройка, контроль, управление взаимодействием ресторанной системы с ГИС МТ, ЕГАИС.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121349484",
+      "name": "Инженер по компьютерным системам / Системный администратор (г.Алушта)",
+      "company": "Отель MORE SPA & RESORT (ООО АФОРРА-РЕЗОРТ)",
+      "company_id": "10330901",
+      "company_url": "https://hh.ru/employer/10330901",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1173916.jpg",
+      "url": "https://hh.ru/vacancy/121349484",
+      "published_at": "2025-06-04T16:24:52+0300",
+      "created_at": "2025-06-04T16:24:52+0300",
+      "area": "Белгород",
       "salary": "от 68 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 68000,
