@@ -1,4 +1,4 @@
-name: Final Diagnostic
+name: Working Diagnostic
 
 on:
   workflow_dispatch:
@@ -25,9 +25,9 @@ jobs:
           
           BASE_URL = "https://api.hh.ru/vacancies"
           
-          # Используем тот же User-Agent, что и в вашем парсере!
+          # User-Agent из вашего рабочего файла update-vacancies.yml
           HEADERS = {
-              'User-Agent': 'VacancyParser/1.0 (contact@example.com)'
+              'User-Agent': 'VacancyAggregator/2.0 (https://gradelift.ru)'
           }
           
           print("=" * 70)
@@ -62,20 +62,26 @@ jobs:
                   print(f"📄 Страниц доступно: {pages}")
                   print(f"📏 На страницу: {per_page}")
                   print(f"📦 На первой странице: {items}")
-                  print(f"🔢 Макс. доступно: {min(pages * per_page, 2000)}")
+                  print(f"🔢 Теоретически доступно: {pages * per_page}")
                   
                   # Тест критических страниц
                   print("\n2. ТЕСТ ГЛУБИНЫ ПАГИНАЦИИ")
                   print("-" * 70)
                   
-                  test_pages = [0, 5, 9, 10, 15, 19, 20, 25]
+                  # Проверяем страницы около предполагаемого лимита
+                  test_pages = []
+                  if pages > 30:
+                      test_pages = [0, 5, 9, 10, 15, 19, 20, 25, 29, 30]
+                  elif pages > 20:
+                      test_pages = [0, 5, 9, 10, 15, 19, 20, pages-1]
+                  else:
+                      test_pages = list(range(0, min(pages, 25)))
+                  
                   last_working = 0
-                  total_items = 0
+                  total_collected = 0
+                  empty_pages = []
                   
                   for p in test_pages:
-                      if p > pages:
-                          break
-                          
                       params['page'] = str(p)
                       time.sleep(0.3)
                       
@@ -86,43 +92,69 @@ jobs:
                               count = len(d.get('items', []))
                               if count > 0:
                                   last_working = p
-                                  total_items += count
-                                  print(f"✅ Страница {p}: {count} вакансий")
+                                  total_collected += count
+                                  print(f"✅ Страница {p:2d}: {count:2d} вакансий (offset {p*50})")
                               else:
-                                  print(f"⚠️ Страница {p}: пустая")
+                                  empty_pages.append(p)
+                                  print(f"⚠️ Страница {p:2d}: ПУСТАЯ (offset {p*50})")
                           else:
-                              print(f"❌ Страница {p}: HTTP {r.status_code}")
+                              print(f"❌ Страница {p:2d}: HTTP {r.status_code}")
                       except Exception as e:
-                          print(f"❌ Страница {p}: {str(e)[:50]}")
+                          print(f"❌ Страница {p:2d}: {str(e)[:50]}")
                   
-                  # Анализ
-                  print(f"\n3. РЕЗУЛЬТАТЫ")
+                  # Анализ результатов
+                  print(f"\n3. АНАЛИЗ РЕЗУЛЬТАТОВ")
                   print("-" * 70)
+                  print(f"Всего страниц по API: {pages}")
                   print(f"Последняя рабочая страница: {last_working}")
-                  print(f"Максимальный offset: {last_working * 50 + 50}")
+                  print(f"Максимальный рабочий offset: {last_working * 50 + 50}")
+                  print(f"Собрано в тесте: {total_collected} вакансий")
                   
-                  if last_working == 19:
-                      print("🚫 ПОДТВЕРЖДЕН ЛИМИТ: offset ≤ 1000")
-                      print("   При per_page=50 доступно максимум 20 страниц (0-19)")
-                      print(f"   Теряется: {found - 1000} вакансий из {found}")
+                  if empty_pages:
+                      first_empty = min(empty_pages)
+                      print(f"\nПервая пустая страница: {first_empty} (offset {first_empty * 50})")
+                      if first_empty == 20:
+                          print("🚫 ПОДТВЕРЖДЕН ЛИМИТ: offset = 1000 (20 страниц)")
+                      elif first_empty == 10:
+                          print("🚫 ПОДТВЕРЖДЕН ЛИМИТ: offset = 500 (10 страниц)")
                   
-                  # Тест сегментации
-                  print("\n4. ПРОВЕРКА СЕГМЕНТАЦИИ ПО ДАТАМ")
+                  max_available = (last_working + 1) * 50
+                  lost = found - max_available
+                  print(f"\n📊 ИТОГО:")
+                  print(f"   Найдено: {found}")
+                  print(f"   Доступно через API: {max_available}")
+                  print(f"   Недоступно: {lost} ({(lost/found*100):.1f}%)")
+                  
+                  # Тест альтернативных параметров
+                  print("\n4. ТЕСТ С per_page=100")
                   print("-" * 70)
                   
-                  date_ranges = [
-                      (0, 1, "Сегодня"),
-                      (1, 3, "1-3 дня"),
-                      (3, 7, "3-7 дней"),
-                      (7, 14, "Неделя-2 недели"),
-                      (14, 30, "2 недели-месяц")
+                  params2 = params.copy()
+                  params2['per_page'] = '100'
+                  params2['page'] = '0'
+                  
+                  r = requests.get(BASE_URL, params=params2, headers=HEADERS, timeout=30)
+                  if r.status_code == 200:
+                      d = r.json()
+                      print(f"✅ per_page=100 работает")
+                      print(f"   Страниц: {d.get('pages', 0)}")
+                      print(f"   На первой: {len(d.get('items', []))}")
+                  else:
+                      print(f"❌ per_page=100 не работает: HTTP {r.status_code}")
+                  
+                  # Проверка сегментации
+                  print("\n5. ТЕСТ СЕГМЕНТАЦИИ ПО ДАТАМ")
+                  print("-" * 70)
+                  
+                  segments = [
+                      (1, "За последние 24 часа"),
+                      (3, "За последние 3 дня"),
+                      (7, "За последнюю неделю")
                   ]
                   
-                  total_segmented = 0
-                  
-                  for start, end, name in date_ranges:
-                      date_from = (datetime.now() - timedelta(days=end)).strftime('%Y-%m-%d')
-                      date_to = (datetime.now() - timedelta(days=start)).strftime('%Y-%m-%d')
+                  for days, name in segments:
+                      date_from = (datetime.now() - timedelta(days=days)).strftime('%Y-%m-%d')
+                      date_to = datetime.now().strftime('%Y-%m-%d')
                       
                       p = {
                           'text': 'системный администратор',
@@ -139,18 +171,13 @@ jobs:
                           d = r.json()
                           f = d.get('found', 0)
                           pg = d.get('pages', 0)
-                          total_segmented += f
                           
-                          status = "✅" if pg <= 20 else "⚠️"
-                          print(f"{status} {name}: {f} вакансий ({pg} стр.)")
+                          if pg <= 20:
+                              print(f"✅ {name}: {f} вакансий ({pg} стр.) - ОК")
+                          else:
+                              print(f"⚠️ {name}: {f} вакансий ({pg} стр.) - нужна доп. сегментация")
                       
                       time.sleep(0.3)
-                  
-                  print(f"\n📊 Всего через сегменты: ~{total_segmented}")
-                  print("   (с учетом пересечений)")
-                  
-                  if total_segmented > found:
-                      print("✅ Сегментация поможет получить все вакансии!")
                   
               else:
                   print(f"❌ Ошибка: {response.text}")
