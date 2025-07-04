@@ -1,9 +1,8 @@
-name: update_vacancies
+name: Update Vacancies
 
 on:
   schedule:
-    # Запуск каждый 1 часов
-    - cron: '20 * * * *'      # 🎯 Запуск каждый час в 20 минут (математически точное расписание)
+    - cron: '0 * * * *' # 🎯 Запуск каждый час в 00 минут (математически точное расписание)
   workflow_dispatch: # Ручной запуск
 
 jobs:
@@ -61,7 +60,7 @@ jobs:
               
               params = {
                   'text': keyword,
-                  'area': ['1', '2', '2019', '145'], # Москва + область, Санкт-Петербург + область.
+                  'area': ['1', '2', '2019', '145'],              # Москва, СПб + области
                   'schedule': ['remote', 'flexible', 'fullDay', 'shift', 'flyInFlyOut'],       # Удаленная работа
                   'search_field': 'name',     # Искать в названии
                   'per_page': '100',          # Максимум на страницу
@@ -281,7 +280,7 @@ jobs:
               return all_vacancies
           
           
-          def save_vacancies(vacancies: List[Dict], filename: str = 'hh_vacancies_fullDay.json'):
+          def save_vacancies(vacancies: List[Dict], filename: str = 'hh_vacancies.json'):
               """Сохраняет вакансии в JSON файл"""
               stats = {
                   'total': len(vacancies),
@@ -346,7 +345,7 @@ jobs:
                           },
                           'vacancies': []
                       }
-                      with open('hh_vacancies_fullDay.json', 'w', encoding='utf-8') as f:
+                      with open('hh_vacancies.json', 'w', encoding='utf-8') as f:
                           json.dump(empty_output, f, ensure_ascii=False, indent=2)
                       return False
                   
@@ -383,7 +382,7 @@ jobs:
                       'updated': datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ'),
                       'vacancies': []
                   }
-                  with open('hh_vacancies_fullDay.json', 'w', encoding='utf-8') as f:
+                  with open('hh_vacancies.json', 'w', encoding='utf-8') as f:
                       json.dump(error_output, f, ensure_ascii=False, indent=2)
                   
                   return False
@@ -403,9 +402,9 @@ jobs:
         run: |
           echo ""
           echo "=== Проверка результатов ==="
-          if [ -f "hh_vacancies_fullDay.json" ]; then
-            FILE_SIZE=$(stat -f%z "hh_vacancies_fullDay.json" 2>/dev/null || stat -c%s "hh_vacancies_fullDay.json")
-            VACANCY_COUNT=$(grep -o '"id"' hh_vacancies_fullDay.json | wc -l || echo "0")
+          if [ -f "hh_vacancies.json" ]; then
+            FILE_SIZE=$(stat -f%z "hh_vacancies.json" 2>/dev/null || stat -c%s "hh_vacancies.json")
+            VACANCY_COUNT=$(grep -o '"id"' hh_vacancies.json | wc -l || echo "0")
             echo "✅ Файл создан"
             echo "📁 Размер: $FILE_SIZE байт"
             echo "📊 Вакансий: $VACANCY_COUNT"
@@ -413,12 +412,12 @@ jobs:
             if [ "$VACANCY_COUNT" -gt 0 ]; then
               echo ""
               echo "🔍 Примеры вакансий:"
-              grep -A1 '"name"' hh_vacancies_fullDay.json | head -10 || echo "Не удалось показать примеры"
+              grep -A1 '"name"' hh_vacancies.json | head -10 || echo "Не удалось показать примеры"
             fi
           else
             echo "❌ Файл не создан!"
             # Создаем пустой файл
-            echo '{"source":"hh.ru","vacancies":[],"updated":"'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'"}' > hh_vacancies_fullDay.json
+            echo '{"source":"hh.ru","vacancies":[],"updated":"'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'"}' > hh_vacancies.json
           fi
           
       - name: Commit and push changes
@@ -426,12 +425,12 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          git add hh_vacancies_fullDay.json
+          git add hh_vacancies.json
           
           if git diff --staged --quiet; then
             echo "⚠️ Нет изменений для коммита"
           else
-            VACANCY_COUNT=$(grep -o '"id"' hh_vacancies_fullDay.json | wc -l || echo "0")
+            VACANCY_COUNT=$(grep -o '"id"' hh_vacancies.json | wc -l || echo "0")
             git commit -m "🔄 Обновление вакансий: найдено $VACANCY_COUNT вакансий [$(date '+%Y-%m-%d %H:%M')]"
             git push
           fi
