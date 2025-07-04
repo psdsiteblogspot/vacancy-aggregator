@@ -1,383 +1,247 @@
 import requests
 import json
-from datetime import datetime, timedelta
 import time
-from typing import List, Dict, Optional, Set
+from datetime import datetime
 
 # API HH.ru
 BASE_URL = "https://api.hh.ru/vacancies"
 
 # Заголовки для запросов
 HEADERS = {
-    'User-Agent': 'VacancyParser/2.0 (contact@example.com)'
+    'User-Agent': 'DiagnosticTool/1.0 (diagnostic@example.com)'
 }
 
-# Задержка между запросами
-REQUEST_DELAY = 0.3
 
-# Ключевые слова для поиска
-SEARCH_KEYWORDS = [
-    'системный администратор',
-    'сисадмин',
-    'system administrator'
-]
-
-
-def get_vacancies_with_pagination_fix(keyword: str, region_id: str = '1') -> tuple[List[Dict], Dict]:
-    """
-    Получает вакансии с обходом ограничений пагинации
-    Использует per_page=50 как на сайте и сегментацию при необходимости
-    """
-    print(f"\n{'='*60}")
-    print(f"🔍 Поиск: '{keyword}' в Москве")
-    print(f"{'='*60}")
+def precise_page_limit_test():
+    """Точный тест ограничения страниц API HH.ru"""
+    print("=" * 70)
+    print("ТОЧНАЯ ДИАГНОСТИКА ОГРАНИЧЕНИЙ ПАГИНАЦИИ HH.RU API")
+    print(f"Время: {datetime.now()}")
+    print("=" * 70)
     
-    all_vacancies = []
-    stats = {
-        'found': 0,
-        'collected': 0,
-        'method': 'standard'
-    }
-    
-    # Сначала пробуем стандартный метод с per_page=50
+    # Базовые параметры - точно как в вашем парсере
     params = {
-        'text': keyword,
-        'area': region_id,
+        'text': 'системный администратор',
+        'area': '1',  # Москва
         'search_field': 'name',
-        'per_page': 50,  # Как на сайте!
+        'per_page': 50,  # Как на сайте
         'page': 0
     }
     
-    # Первый запрос для получения общей информации
+    # Первый запрос
+    print("\n1. АНАЛИЗ ПЕРВОГО ЗАПРОСА")
+    print("-" * 70)
+    
     try:
         response = requests.get(BASE_URL, params=params, headers=HEADERS, timeout=30)
         if response.status_code == 200:
             data = response.json()
-            stats['found'] = data.get('found', 0)
-            total_pages = data.get('pages', 0)
             
-            print(f"Найдено: {stats['found']} вакансий")
-            print(f"Страниц: {total_pages}")
+            found = data.get('found', 0)
+            pages = data.get('pages', 0)
+            per_page = data.get('per_page', 0)
+            items_count = len(data.get('items', []))
             
-            # Проверяем, нужна ли сегментация
-            max_accessible = 20 * 50  # Предполагаем лимит в 20 страниц
-            if stats['found'] > max_accessible:
-                print(f"⚠️ Требуется сегментация: {stats['found']} > {max_accessible}")
-                stats['method'] = 'segmented'
-                # Используем сегментацию по датам
-                all_vacancies = get_with_date_segmentation(keyword, region_id)
-                stats['collected'] = len(all_vacancies)
-            else:
-                # Стандартный сбор
-                all_vacancies = collect_all_pages(params, total_pages)
-                stats['collected'] = len(all_vacancies)
-        
+            print(f"✅ Найдено вакансий: {found}")
+            print(f"📄 Количество страниц по API: {pages}")
+            print(f"📏 Элементов на страницу: {per_page}")
+            print(f"📦 Фактически на первой странице: {items_count}")
+            print(f"🔢 Теоретически доступно: {pages * per_page}")
+            
+            # Проверяем альтернативный URL
+            alt_url = data.get('alternate_url', '')
+            print(f"🔗 Альтернативный URL: {alt_url}")
+            
     except Exception as e:
         print(f"❌ Ошибка: {e}")
+        return
     
-    print(f"✅ Собрано: {stats['collected']} из {stats['found']} ({stats['method']})")
-    return all_vacancies, stats
-
-
-def collect_all_pages(base_params: Dict, total_pages: int) -> List[Dict]:
-    """Собирает все доступные страницы"""
-    all_items = []
+    # Тест доступности страниц
+    print("\n2. ТЕСТ ДОСТУПНОСТИ СТРАНИЦ")
+    print("-" * 70)
     
-    for page in range(min(total_pages, 20)):  # Ограничиваем 20 страницами
-        params = base_params.copy()
+    # Критические точки для проверки
+    test_pages = [0, 9, 10, 19, 20, 25, 26, 27, 30]
+    actual_pages_with_data = 0
+    last_page_with_data = -1
+    total_items = 0
+    
+    for page in test_pages:
         params['page'] = page
+        
+        try:
+            response = requests.get(BASE_URL, params=params, headers=HEADERS, timeout=30)
+            
+            if response.status_code == 200:
+                data = response.json()
+                items = data.get('items', [])
+                items_count = len(items)
+                total_items += items_count
+                
+                if items_count > 0:
+                    actual_pages_with_data += 1
+                    last_page_with_data = page
+                    print(f"✅ Страница {page:2d}: {items_count:2d} вакансий")
+                else:
+                    print(f"⚠️ Страница {page:2d}: ПУСТАЯ")
+            else:
+                print(f"❌ Страница {page:2d}: HTTP {response.status_code}")
+                
+        except Exception as e:
+            print(f"❌ Страница {page:2d}: Ошибка {str(e)[:50]}")
+        
+        time.sleep(0.3)
+    
+    print(f"\n📊 Последняя страница с данными: {last_page_with_data}")
+    print(f"📊 Всего страниц с данными: {actual_pages_with_data}")
+    
+    # Проверяем offset
+    print("\n3. АНАЛИЗ OFFSET (page × per_page)")
+    print("-" * 70)
+    
+    critical_offsets = [
+        (9, 450),    # page 9, offset 450
+        (10, 500),   # page 10, offset 500
+        (19, 950),   # page 19, offset 950
+        (20, 1000),  # page 20, offset 1000 - критическая точка!
+        (21, 1050),  # page 21, offset 1050
+    ]
+    
+    for page, offset in critical_offsets:
+        params['page'] = page
+        status = "?"
         
         try:
             response = requests.get(BASE_URL, params=params, headers=HEADERS, timeout=30)
             if response.status_code == 200:
                 data = response.json()
-                items = data.get('items', [])
-                
-                if not items:
-                    print(f"Страница {page}: пустая, останавливаем")
-                    break
-                
-                all_items.extend(items)
-                print(f"Страница {page}: {len(items)} вакансий (всего: {len(all_items)})")
-                
-                time.sleep(REQUEST_DELAY)
+                items = len(data.get('items', []))
+                if items > 0:
+                    status = f"✅ {items} вакансий"
+                else:
+                    status = "⚠️ ПУСТАЯ"
             else:
-                print(f"Страница {page}: ошибка {response.status_code}")
-                break
-                
-        except Exception as e:
-            print(f"Страница {page}: ошибка {e}")
-            break
+                status = f"❌ HTTP {response.status_code}"
+        except:
+            status = "❌ Ошибка"
+        
+        print(f"Offset {offset:4d} (page {page:2d}): {status}")
+        time.sleep(0.3)
     
-    return all_items
+    # Финальный анализ
+    print("\n4. АНАЛИЗ РЕЗУЛЬТАТОВ")
+    print("-" * 70)
+    
+    # Рассчитываем максимально доступное количество
+    if last_page_with_data >= 19:
+        max_accessible = 1000  # offset limit
+        print(f"🚫 ОБНАРУЖЕН ЛИМИТ: offset ≤ 1000")
+        print(f"   При per_page=50 это максимум 20 страниц (0-19)")
+        print(f"   Максимум доступно: {max_accessible} вакансий")
+    else:
+        max_accessible = (last_page_with_data + 1) * 50
+        print(f"🚫 ОБНАРУЖЕН ЛИМИТ: максимум {last_page_with_data + 1} страниц")
+        print(f"   Максимум доступно: {max_accessible} вакансий")
+    
+    print(f"\n📊 ИТОГО:")
+    print(f"   Найдено по API: {found}")
+    print(f"   Максимум доступно: {max_accessible}")
+    print(f"   Потеряно: {found - max_accessible}")
+    print(f"   Процент потерь: {((found - max_accessible) / found * 100):.1f}%")
+    
+    # Рекомендации
+    print("\n5. РЕКОМЕНДАЦИИ ДЛЯ ПОЛУЧЕНИЯ ВСЕХ ВАКАНСИЙ")
+    print("-" * 70)
+    
+    if found > 1000:
+        print("✅ Используйте сегментацию по датам публикации:")
+        print("   - За последние 1-3 дня")
+        print("   - За последние 4-7 дней")
+        print("   - За последние 8-14 дней")
+        print("   - За последние 15-30 дней")
+        print("\n✅ Или используйте дополнительные фильтры:")
+        print("   - По опыту работы (experience)")
+        print("   - По типу занятости (employment)")
+        print("   - По графику работы (schedule)")
+        print("\n✅ Или используйте более специфичные поисковые запросы:")
+        print("   - 'системный администратор linux'")
+        print("   - 'системный администратор windows'")
+        print("   - 'сисадмин junior'")
+        print("   - 'сисадмин middle'")
 
 
-def get_with_date_segmentation(keyword: str, region_id: str) -> List[Dict]:
-    """Получает вакансии с сегментацией по датам"""
-    print("\n📅 Используем сегментацию по датам публикации")
+def test_date_segmentation():
+    """Тест сегментации по датам"""
+    print("\n\n" + "=" * 70)
+    print("ТЕСТ СЕГМЕНТАЦИИ ПО ДАТАМ")
+    print("=" * 70)
     
-    all_vacancies = []
-    unique_ids = set()
+    from datetime import datetime, timedelta
     
-    # Сегменты по времени (последние 30 дней)
     segments = [
-        {'days': 1, 'name': 'За последние 24 часа'},
-        {'days': 3, 'name': 'За последние 3 дня'},
-        {'days': 7, 'name': 'За последнюю неделю'},
-        {'days': 14, 'name': 'За последние 2 недели'},
-        {'days': 30, 'name': 'За последний месяц'}
+        (1, "За последние 24 часа"),
+        (3, "За последние 3 дня"),
+        (7, "За последнюю неделю"),
+        (30, "За последний месяц")
     ]
     
-    end_date = datetime.now()
+    total_found = 0
     
-    for i, segment in enumerate(segments):
-        # Для первого сегмента начинаем с текущего момента
-        if i == 0:
-            date_from = end_date - timedelta(days=segment['days'])
-        else:
-            # Для остальных - с конца предыдущего сегмента
-            date_from = end_date - timedelta(days=segment['days'])
-            date_to_prev = end_date - timedelta(days=segments[i-1]['days'])
-            date_from = date_to_prev
-        
-        date_to = end_date if i == 0 else end_date - timedelta(days=segments[i-1]['days'])
-        
-        print(f"\n🔍 {segment['name']}")
-        print(f"   С {date_from.strftime('%Y-%m-%d')} по {date_to.strftime('%Y-%m-%d')}")
+    for days, name in segments:
+        date_from = (datetime.now() - timedelta(days=days)).strftime('%Y-%m-%d')
+        date_to = datetime.now().strftime('%Y-%m-%d')
         
         params = {
-            'text': keyword,
-            'area': region_id,
+            'text': 'системный администратор',
+            'area': '1',
             'search_field': 'name',
-            'date_from': date_from.strftime('%Y-%m-%d'),
-            'date_to': date_to.strftime('%Y-%m-%d'),
+            'date_from': date_from,
+            'date_to': date_to,
             'per_page': 50,
             'page': 0
         }
         
-        # Собираем вакансии для сегмента
-        segment_vacancies = []
-        page = 0
-        
-        while True:
-            params['page'] = page
-            
-            try:
-                response = requests.get(BASE_URL, params=params, headers=HEADERS, timeout=30)
-                if response.status_code == 200:
-                    data = response.json()
-                    
-                    if page == 0:
-                        found_in_segment = data.get('found', 0)
-                        print(f"   Найдено в сегменте: {found_in_segment}")
-                    
-                    items = data.get('items', [])
-                    if not items:
-                        break
-                    
-                    segment_vacancies.extend(items)
-                    
-                    if page >= data.get('pages', 0) - 1:
-                        break
-                    
-                    # Ограничение на глубину
-                    if page >= 19:
-                        print(f"   Достигнут лимит страниц")
-                        break
-                    
-                    page += 1
-                    time.sleep(REQUEST_DELAY)
+        try:
+            response = requests.get(BASE_URL, params=params, headers=HEADERS, timeout=30)
+            if response.status_code == 200:
+                data = response.json()
+                found = data.get('found', 0)
+                pages = data.get('pages', 0)
+                total_found += found
+                
+                print(f"\n{name} ({date_from} - {date_to}):")
+                print(f"  Найдено: {found} вакансий")
+                print(f"  Страниц: {pages}")
+                
+                if pages > 20:
+                    print(f"  ⚠️ Требуется дополнительная сегментация!")
                 else:
-                    break
-            except Exception as e:
-                print(f"   Ошибка: {e}")
-                break
+                    print(f"  ✅ Можно получить все вакансии")
+                    
+        except Exception as e:
+            print(f"❌ Ошибка: {e}")
         
-        # Добавляем уникальные вакансии
-        new_count = 0
-        for item in segment_vacancies:
-            vacancy_id = item.get('id')
-            if vacancy_id and vacancy_id not in unique_ids:
-                unique_ids.add(vacancy_id)
-                all_vacancies.append(item)
-                new_count += 1
-        
-        print(f"   Добавлено уникальных: {new_count}")
-        print(f"   Всего собрано: {len(all_vacancies)}")
+        time.sleep(0.5)
     
-    return all_vacancies
-
-
-def parse_vacancy(item: Dict) -> Dict:
-    """Парсит данные вакансии"""
-    vacancy = {
-        'id': item.get('id', ''),
-        'name': item.get('name', ''),
-        'company': item.get('employer', {}).get('name', ''),
-        'company_url': item.get('employer', {}).get('alternate_url', ''),
-        'salary': 'не указана',
-        'experience': item.get('experience', {}).get('name', ''),
-        'schedule': item.get('schedule', {}).get('name', ''),
-        'employment': item.get('employment', {}).get('name', ''),
-        'area': item.get('area', {}).get('name', ''),
-        'published_at': item.get('published_at', ''),
-        'url': item.get('alternate_url', ''),
-        'requirement': item.get('snippet', {}).get('requirement', ''),
-        'responsibility': item.get('snippet', {}).get('responsibility', ''),
-        'premium': item.get('premium', False),
-        'has_test': item.get('has_test', False)
-    }
-    
-    # Обработка зарплаты
-    if item.get('salary'):
-        salary_data = item['salary']
-        salary_from = salary_data.get('from')
-        salary_to = salary_data.get('to')
-        currency = salary_data.get('currency', 'RUR')
-        gross = salary_data.get('gross', False)
-        
-        if salary_from and salary_to:
-            vacancy['salary'] = f"от {salary_from:,} до {salary_to:,} {currency}"
-        elif salary_from:
-            vacancy['salary'] = f"от {salary_from:,} {currency}"
-        elif salary_to:
-            vacancy['salary'] = f"до {salary_to:,} {currency}"
-            
-        if gross:
-            vacancy['salary'] += " (до вычета налогов)"
-        else:
-            vacancy['salary'] += " (на руки)"
-    
-    return vacancy
-
-
-def collect_all_vacancies() -> List[Dict]:
-    """Собирает все вакансии по всем ключевым словам"""
-    print("=" * 60)
-    print("СБОР ВАКАНСИЙ СИСТЕМНЫХ АДМИНИСТРАТОРОВ В МОСКВЕ")
-    print(f"Время: {datetime.now()}")
-    print("Метод: адаптивный (с сегментацией при необходимости)")
-    print("=" * 60)
-    
-    all_vacancies = []
-    unique_ids = set()
-    total_stats = {
-        'total_found': 0,
-        'total_collected': 0,
-        'by_keyword': {}
-    }
-    
-    for keyword in SEARCH_KEYWORDS:
-        vacancies, stats = get_vacancies_with_pagination_fix(keyword, '1')
-        
-        total_stats['by_keyword'][keyword] = stats
-        total_stats['total_found'] += stats['found']
-        
-        # Добавляем уникальные вакансии
-        new_count = 0
-        for item in vacancies:
-            vacancy_id = item.get('id')
-            if vacancy_id and vacancy_id not in unique_ids:
-                unique_ids.add(vacancy_id)
-                vacancy = parse_vacancy(item)
-                all_vacancies.append(vacancy)
-                new_count += 1
-        
-        print(f"📌 Добавлено уникальных: {new_count}")
-        print(f"📊 Всего уникальных: {len(all_vacancies)}")
-    
-    total_stats['total_collected'] = len(all_vacancies)
-    
-    # Итоговая статистика
-    print(f"\n{'='*60}")
-    print("ИТОГОВАЯ СТАТИСТИКА")
-    print(f"{'='*60}")
-    
-    for keyword, stats in total_stats['by_keyword'].items():
-        completeness = (stats['collected'] / stats['found'] * 100) if stats['found'] > 0 else 0
-        print(f"'{keyword}':")
-        print(f"  - Найдено: {stats['found']}")
-        print(f"  - Собрано: {stats['collected']} ({completeness:.1f}%)")
-        print(f"  - Метод: {stats['method']}")
-    
-    print(f"\nВСЕГО уникальных вакансий: {total_stats['total_collected']}")
-    
-    # Сортировка по дате
-    try:
-        all_vacancies.sort(key=lambda x: x.get('published_at', ''), reverse=True)
-    except:
-        pass
-    
-    return all_vacancies
-
-
-def save_vacancies(vacancies: List[Dict], filename: str = 'hh_vacancies.json'):
-    """Сохраняет вакансии в JSON файл"""
-    stats = {
-        'total': len(vacancies),
-        'with_salary': sum(1 for v in vacancies if v['salary'] != 'не указана'),
-        'companies': len(set(v['company'] for v in vacancies if v['company'])),
-        'premium': sum(1 for v in vacancies if v.get('premium', False)),
-        'with_test': sum(1 for v in vacancies if v.get('has_test', False))
-    }
-    
-    # Статистика по графикам
-    schedules = {}
-    for v in vacancies:
-        schedule = v.get('schedule', 'Не указан')
-        schedules[schedule] = schedules.get(schedule, 0) + 1
-    
-    output = {
-        'source': 'hh.ru',
-        'search_keywords': SEARCH_KEYWORDS,
-        'search_params': {
-            'area': 'Москва',
-            'area_id': '1',
-            'search_field': 'В названии вакансии',
-            'method': 'Адаптивный с сегментацией'
-        },
-        'updated': datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ'),
-        'statistics': stats,
-        'schedule_distribution': schedules,
-        'total_count': len(vacancies),
-        'vacancies': vacancies
-    }
-    
-    with open(filename, 'w', encoding='utf-8') as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
-    
-    print(f"\n💾 Файл {filename} создан")
-    print(f"📊 Сохранено {len(vacancies)} вакансий")
+    print(f"\n📊 Всего найдено через сегментацию: ~{total_found}")
+    print("   (с учетом возможных дубликатов)")
 
 
 def main():
     """Основная функция"""
     try:
-        vacancies = collect_all_vacancies()
+        # Точный тест лимитов
+        precise_page_limit_test()
         
-        if vacancies:
-            save_vacancies(vacancies)
-            
-            # Топ компаний
-            companies = {}
-            for v in vacancies:
-                company = v['company']
-                if company:
-                    companies[company] = companies.get(company, 0) + 1
-            
-            top_companies = sorted(companies.items(), key=lambda x: x[1], reverse=True)[:5]
-            print("\n🏢 Топ-5 компаний:")
-            for company, count in top_companies:
-                print(f"  - {company}: {count} вакансий")
-        else:
-            print("\n❌ Вакансии не найдены")
+        # Тест сегментации
+        test_date_segmentation()
         
-        print("\n✅ Готово!")
+        print("\n✅ Диагностика завершена!")
         
+    except KeyboardInterrupt:
+        print("\n\n⚠️ Диагностика прервана")
     except Exception as e:
-        print(f"\n❌ Ошибка: {e}")
-        import traceback
-        traceback.print_exc()
+        print(f"\n❌ Критическая ошибка: {e}")
 
 
 if __name__ == "__main__":
