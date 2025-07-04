@@ -10,7 +10,7 @@ BASE_URL = "https://api.hh.ru/vacancies"
 # Параметры поиска
 SEARCH_PARAMS = {
     'text': 'системный администратор',  # Ключевые слова
-    'area': ['1', '2', '2019', '145'],                        # Москва, СПб + области
+    'area': ['1', '2'],                        # Москва, СПб + области
     'schedule': ['remote', 'flexible', 'fullDay', 'shift', 'flyInFlyOut'],               # Удаленная работа
     'search_field': 'name',             # Искать только в названии вакансии
     'per_page': 1000,                    # Максимум вакансий на страницу
