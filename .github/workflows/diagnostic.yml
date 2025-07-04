@@ -1,4 +1,4 @@
-name: Working Diagnostic
+name: Exact Match Diagnostic
 
 on:
   workflow_dispatch:
@@ -16,178 +16,170 @@ jobs:
       - name: Install dependencies
         run: pip install requests
           
-      - name: Run diagnostic
+      - name: Run exact match diagnostic
         run: |
           cat > diagnostic.py << 'EOF'
           import requests
           import time
-          from datetime import datetime, timedelta
+          from datetime import datetime
           
           BASE_URL = "https://api.hh.ru/vacancies"
-          
-          # User-Agent из вашего рабочего файла update-vacancies.yml
           HEADERS = {
               'User-Agent': 'VacancyAggregator/2.0 (https://gradelift.ru)'
           }
           
           print("=" * 70)
-          print("ДИАГНОСТИКА ОГРАНИЧЕНИЙ API HH.RU")
+          print("ПРОВЕРКА ТОЧНОГО СООТВЕТСТВИЯ С САЙТОМ HH.RU")
           print(f"Время: {datetime.now()}")
           print("=" * 70)
           
-          # Первый запрос
-          params = {
-              'text': 'системный администратор',
-              'area': '1',
-              'search_field': 'name',
+          # Тест 1: Точные параметры как на сайте
+          print("\n1. ТЕСТ С ПАРАМЕТРАМИ КАК НА САЙТЕ")
+          print("-" * 70)
+          
+          params_site = {
+              'text': 'Системный администратор',  # С большой буквы как на сайте
+              'area': '1',  # Москва
+              'search_field': 'name',  # В названии вакансии
               'per_page': '50',
               'page': '0'
           }
           
-          print("\n1. АНАЛИЗ БАЗОВОГО ЗАПРОСА")
+          response = requests.get(BASE_URL, params=params_site, headers=HEADERS)
+          if response.status_code == 200:
+              data = response.json()
+              print(f"✅ С большой буквы: {data.get('found', 0)} вакансий")
+              print(f"   Альтернативный URL: {data.get('alternate_url', '')}")
+          
+          time.sleep(0.5)
+          
+          # Тест 2: С маленькой буквы
+          params_lower = params_site.copy()
+          params_lower['text'] = 'системный администратор'
+          
+          response = requests.get(BASE_URL, params=params_lower, headers=HEADERS)
+          if response.status_code == 200:
+              data = response.json()
+              print(f"✅ С маленькой буквы: {data.get('found', 0)} вакансий")
+          
+          time.sleep(0.5)
+          
+          # Тест 3: Без указания search_field
+          print("\n2. ТЕСТ БЕЗ ПАРАМЕТРА search_field")
           print("-" * 70)
           
-          try:
-              response = requests.get(BASE_URL, params=params, headers=HEADERS, timeout=30)
-              print(f"HTTP статус: {response.status_code}")
-              
-              if response.status_code == 200:
-                  data = response.json()
-                  found = data.get('found', 0)
-                  pages = data.get('pages', 0)
-                  per_page = data.get('per_page', 0)
-                  items = len(data.get('items', []))
-                  
-                  print(f"✅ Найдено вакансий: {found}")
-                  print(f"📄 Страниц доступно: {pages}")
-                  print(f"📏 На страницу: {per_page}")
-                  print(f"📦 На первой странице: {items}")
-                  print(f"🔢 Теоретически доступно: {pages * per_page}")
-                  
-                  # Тест критических страниц
-                  print("\n2. ТЕСТ ГЛУБИНЫ ПАГИНАЦИИ")
-                  print("-" * 70)
-                  
-                  # Проверяем страницы около предполагаемого лимита
-                  test_pages = []
-                  if pages > 30:
-                      test_pages = [0, 5, 9, 10, 15, 19, 20, 25, 29, 30]
-                  elif pages > 20:
-                      test_pages = [0, 5, 9, 10, 15, 19, 20, pages-1]
-                  else:
-                      test_pages = list(range(0, min(pages, 25)))
-                  
-                  last_working = 0
-                  total_collected = 0
-                  empty_pages = []
-                  
-                  for p in test_pages:
-                      params['page'] = str(p)
-                      time.sleep(0.3)
-                      
-                      try:
-                          r = requests.get(BASE_URL, params=params, headers=HEADERS, timeout=30)
-                          if r.status_code == 200:
-                              d = r.json()
-                              count = len(d.get('items', []))
-                              if count > 0:
-                                  last_working = p
-                                  total_collected += count
-                                  print(f"✅ Страница {p:2d}: {count:2d} вакансий (offset {p*50})")
-                              else:
-                                  empty_pages.append(p)
-                                  print(f"⚠️ Страница {p:2d}: ПУСТАЯ (offset {p*50})")
-                          else:
-                              print(f"❌ Страница {p:2d}: HTTP {r.status_code}")
-                      except Exception as e:
-                          print(f"❌ Страница {p:2d}: {str(e)[:50]}")
-                  
-                  # Анализ результатов
-                  print(f"\n3. АНАЛИЗ РЕЗУЛЬТАТОВ")
-                  print("-" * 70)
-                  print(f"Всего страниц по API: {pages}")
-                  print(f"Последняя рабочая страница: {last_working}")
-                  print(f"Максимальный рабочий offset: {last_working * 50 + 50}")
-                  print(f"Собрано в тесте: {total_collected} вакансий")
-                  
-                  if empty_pages:
-                      first_empty = min(empty_pages)
-                      print(f"\nПервая пустая страница: {first_empty} (offset {first_empty * 50})")
-                      if first_empty == 20:
-                          print("🚫 ПОДТВЕРЖДЕН ЛИМИТ: offset = 1000 (20 страниц)")
-                      elif first_empty == 10:
-                          print("🚫 ПОДТВЕРЖДЕН ЛИМИТ: offset = 500 (10 страниц)")
-                  
-                  max_available = (last_working + 1) * 50
-                  lost = found - max_available
-                  print(f"\n📊 ИТОГО:")
-                  print(f"   Найдено: {found}")
-                  print(f"   Доступно через API: {max_available}")
-                  print(f"   Недоступно: {lost} ({(lost/found*100):.1f}%)")
-                  
-                  # Тест альтернативных параметров
-                  print("\n4. ТЕСТ С per_page=100")
-                  print("-" * 70)
-                  
-                  params2 = params.copy()
-                  params2['per_page'] = '100'
-                  params2['page'] = '0'
-                  
-                  r = requests.get(BASE_URL, params=params2, headers=HEADERS, timeout=30)
-                  if r.status_code == 200:
-                      d = r.json()
-                      print(f"✅ per_page=100 работает")
-                      print(f"   Страниц: {d.get('pages', 0)}")
-                      print(f"   На первой: {len(d.get('items', []))}")
-                  else:
-                      print(f"❌ per_page=100 не работает: HTTP {r.status_code}")
-                  
-                  # Проверка сегментации
-                  print("\n5. ТЕСТ СЕГМЕНТАЦИИ ПО ДАТАМ")
-                  print("-" * 70)
-                  
-                  segments = [
-                      (1, "За последние 24 часа"),
-                      (3, "За последние 3 дня"),
-                      (7, "За последнюю неделю")
-                  ]
-                  
-                  for days, name in segments:
-                      date_from = (datetime.now() - timedelta(days=days)).strftime('%Y-%m-%d')
-                      date_to = datetime.now().strftime('%Y-%m-%d')
-                      
-                      p = {
-                          'text': 'системный администратор',
-                          'area': '1',
-                          'search_field': 'name',
-                          'date_from': date_from,
-                          'date_to': date_to,
-                          'per_page': '50',
-                          'page': '0'
-                      }
-                      
-                      r = requests.get(BASE_URL, params=p, headers=HEADERS, timeout=30)
-                      if r.status_code == 200:
-                          d = r.json()
-                          f = d.get('found', 0)
-                          pg = d.get('pages', 0)
-                          
-                          if pg <= 20:
-                              print(f"✅ {name}: {f} вакансий ({pg} стр.) - ОК")
-                          else:
-                              print(f"⚠️ {name}: {f} вакансий ({pg} стр.) - нужна доп. сегментация")
-                      
-                      time.sleep(0.3)
-                  
-              else:
-                  print(f"❌ Ошибка: {response.text}")
-                  
-          except Exception as e:
-              print(f"❌ Критическая ошибка: {e}")
+          params_no_field = {
+              'text': 'системный администратор',
+              'area': '1',
+              'per_page': '50',
+              'page': '0'
+          }
           
+          response = requests.get(BASE_URL, params=params_no_field, headers=HEADERS)
+          if response.status_code == 200:
+              data = response.json()
+              print(f"✅ Без search_field: {data.get('found', 0)} вакансий")
+              print("   (поиск везде - название + описание)")
+          
+          time.sleep(0.5)
+          
+          # Тест 4: С дополнительными параметрами
+          print("\n3. ТЕСТ С ДОПОЛНИТЕЛЬНЫМИ ПАРАМЕТРАМИ")
+          print("-" * 70)
+          
+          # Только прямые работодатели (без агентств)
+          params_direct = params_site.copy()
+          params_direct['label'] = 'not_from_agency'
+          
+          response = requests.get(BASE_URL, params=params_direct, headers=HEADERS)
+          if response.status_code == 200:
+              data = response.json()
+              found = data.get('found', 0)
+              print(f"✅ Без агентств: {found} вакансий")
+              print(f"   (на сайте показано 1243 без агентств)")
+          
+          time.sleep(0.5)
+          
+          # С адресом
+          params_address = params_site.copy()
+          params_address['only_with_vacancy'] = 'true'
+          
+          response = requests.get(BASE_URL, params=params_address, headers=HEADERS)
+          if response.status_code == 200:
+              data = response.json()
+              print(f"✅ С адресом: {data.get('found', 0)} вакансий")
+          
+          time.sleep(0.5)
+          
+          # Тест 5: Проверка актуальности
+          print("\n4. ПРОВЕРКА АКТУАЛЬНОСТИ ВАКАНСИЙ")
+          print("-" * 70)
+          
+          # За последние 30 дней
+          from datetime import datetime, timedelta
+          date_from = (datetime.now() - timedelta(days=30)).strftime('%Y-%m-%d')
+          
+          params_recent = params_site.copy()
+          params_recent['date_from'] = date_from
+          
+          response = requests.get(BASE_URL, params=params_recent, headers=HEADERS)
+          if response.status_code == 200:
+              data = response.json()
+              print(f"✅ За последние 30 дней: {data.get('found', 0)} вакансий")
+          
+          time.sleep(0.5)
+          
+          # За последние 7 дней
+          date_from_week = (datetime.now() - timedelta(days=7)).strftime('%Y-%m-%d')
+          params_recent['date_from'] = date_from_week
+          
+          response = requests.get(BASE_URL, params=params_recent, headers=HEADERS)
+          if response.status_code == 200:
+              data = response.json()
+              print(f"✅ За последние 7 дней: {data.get('found', 0)} вакансий")
+          
+          # Тест 6: Альтернативные формулировки
+          print("\n5. АЛЬТЕРНАТИВНЫЕ ФОРМУЛИРОВКИ")
+          print("-" * 70)
+          
+          alternatives = [
+              'системный администратор OR сисадмин',
+              'системный AND администратор',
+              '"системный администратор"',  # В кавычках
+              'систем* администратор*'  # С wildcards
+          ]
+          
+          for alt in alternatives:
+              params_alt = params_site.copy()
+              params_alt['text'] = alt
+              
+              try:
+                  response = requests.get(BASE_URL, params=params_alt, headers=HEADERS)
+                  if response.status_code == 200:
+                      data = response.json()
+                      print(f"'{alt}': {data.get('found', 0)} вакансий")
+                  else:
+                      print(f"'{alt}': ошибка {response.status_code}")
+              except:
+                  print(f"'{alt}': ошибка запроса")
+              
+              time.sleep(0.3)
+          
+          # Итоги
           print("\n" + "=" * 70)
-          print("ДИАГНОСТИКА ЗАВЕРШЕНА")
+          print("ВЫВОДЫ:")
           print("=" * 70)
+          print("1. API возвращает меньше вакансий чем сайт")
+          print("2. Возможные причины:")
+          print("   - Разные поисковые индексы")
+          print("   - Задержка индексации в API")
+          print("   - Скрытые вакансии на сайте")
+          print("   - Разные алгоритмы ранжирования")
+          print("\nРЕКОМЕНДАЦИИ:")
+          print("- Использовать поиск без search_field для большего охвата")
+          print("- Добавить альтернативные ключевые слова")
+          print("- Регулярно обновлять данные")
+          
           EOF
           
           python diagnostic.py
