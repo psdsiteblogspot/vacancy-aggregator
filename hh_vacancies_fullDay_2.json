@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-04T02:28:23Z",
+  "updated": "2025-07-04T03:38:42Z",
   "statistics": {
     "total": 934,
     "with_salary": 726,
@@ -20,6 +20,34 @@
     "with_test": 12
   },
   "vacancies": [
+    {
+      "id": "119322223",
+      "name": "Системный администратор",
+      "company": "VL.RU",
+      "company_id": "823819",
+      "company_url": "https://hh.ru/employer/823819",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1437251.png",
+      "url": "https://hh.ru/vacancy/119322223",
+      "published_at": "2025-07-04T06:07:03+0300",
+      "created_at": "2025-07-04T06:07:03+0300",
+      "area": "Владивосток",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Умеете писать скрипты на { bash | awk | python }. Работали с системами контроля версий (git). Хорошо знаете Unix-ы (системные вызовы, процессы...",
+      "responsibility": "Linux (CentOS). Nginx и php-fpm. MySQL, MongoDB, Clickhouse, Elasticsearch. Декларативное управление конфигурацией на Puppet. Виртуализация на KVM, а также...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "122372043",
       "name": "Системный администратор",
@@ -12213,34 +12241,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы в ОС MS Windows всех редакций на уровне администратора. Уверенный пользователь пакета MS Office. Умение распознать следствие/причины...",
       "responsibility": "Обслуживание гипермаркета по линии ИТ. Работа с контрагентами (заказ оборудования, передача в ремонт, вызов обслуживающих организаций, контроль подрядчиков).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "119322223",
-      "name": "Системный администратор",
-      "company": "VL.RU",
-      "company_id": "823819",
-      "company_url": "https://hh.ru/employer/823819",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1437251.png",
-      "url": "https://hh.ru/vacancy/119322223",
-      "published_at": "2025-06-27T09:40:46+0300",
-      "created_at": "2025-06-27T09:40:46+0300",
-      "area": "Владивосток",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Умеете писать скрипты на { bash | awk | python }. Работали с системами контроля версий (git). Хорошо знаете Unix-ы (системные вызовы, процессы...",
-      "responsibility": "Linux (CentOS). Nginx и php-fpm. MySQL, MongoDB, Clickhouse, Elasticsearch. Декларативное управление конфигурацией на Puppet. Виртуализация на KVM, а также...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
