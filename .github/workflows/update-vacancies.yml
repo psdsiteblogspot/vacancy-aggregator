@@ -2,7 +2,7 @@ name: Update Vacancies
 
 on:
   schedule:
-    - cron: '0 * * * *' # 🎯 Запуск каждый час в 00 минут (математически точное расписание)
+    - cron: '0 * * * *' # 🎯 Запуск каждый час в 00 минут
   workflow_dispatch: # Ручной запуск
 
 jobs:
@@ -54,13 +54,14 @@ jobs:
           ]
           
           
-          def get_vacancies_by_keyword(keyword: str) -> List[Dict]:
-              """Получает все вакансии по одному ключевому слову"""
-              print(f"\n🔍 Поиск по ключевому слову: '{keyword}'")
+          def get_vacancies_by_keyword(keyword: str, region_id: str) -> List[Dict]:
+              """Получает все вакансии по одному ключевому слову и региону"""
+              print(f"\n🔍 Поиск '{keyword}' в регионе {region_id}")
               
               params = {
                   'text': keyword,
-                  'area': ['1', '2'],              # Москва, СПб + области
+                  'area': region_id,  # Один регион за раз
+                  # БЕЗ параметра schedule - собираем ВСЕ вакансии
                   'search_field': 'name',     # Искать в названии
                   'per_page': '100',          # Максимум на страницу
                   'page': '0'
@@ -89,6 +90,11 @@ jobs:
                           
                           page += 1
                           if page >= total_pages:
+                              break
+                          
+                          # Проверка лимита API
+                          if page * 100 >= 2000:
+                              print(f"   ⚠️ Достигнут лимит API в 2000 результатов")
                               break
                           
                           time.sleep(REQUEST_DELAY)
@@ -241,34 +247,42 @@ jobs:
           
           
           def collect_all_vacancies() -> List[Dict]:
-              """Собирает все вакансии по всем ключевым словам"""
+              """Собирает все вакансии по всем ключевым словам и регионам"""
               print("=== СБОР ВСЕХ ВАКАНСИЙ ПО СИСТЕМНОМУ АДМИНИСТРИРОВАНИЮ ===")
               print(f"Время начала: {datetime.now()}")
               print(f"Ключевые слова для поиска: {', '.join(SEARCH_KEYWORDS)}")
+              print("БЕЗ фильтра по графику работы - собираем ВСЕ вакансии")
               
               unique_vacancy_ids: Set[str] = set()
               all_vacancies: List[Dict] = []
               
+              regions = {
+                  '1': 'Москва',
+                  '2': 'Санкт-Петербург'
+              }
+              
               for keyword in SEARCH_KEYWORDS:
-                  vacancies = get_vacancies_by_keyword(keyword)
-                  
-                  new_count = 0
-                  for item in vacancies:
-                      try:
-                          vacancy_id = item.get('id')
-                          if vacancy_id and vacancy_id not in unique_vacancy_ids:
-                              unique_vacancy_ids.add(vacancy_id)
-                              vacancy = parse_vacancy(item)
-                              all_vacancies.append(vacancy)
-                              new_count += 1
-                              
-                              if len(all_vacancies) % 25 == 0:
-                                  print(f"   📊 Обработано вакансий: {len(all_vacancies)}")
-                      except Exception as e:
-                          print(f"   ⚠️ Пропущена вакансия из-за ошибки: {e}")
-                          continue
-                  
-                  print(f"   📌 Новых уникальных вакансий: {new_count}")
+                  for region_id, region_name in regions.items():
+                      print(f"\n🔍 Поиск '{keyword}' в {region_name}")
+                      vacancies = get_vacancies_by_keyword(keyword, region_id)
+                      
+                      new_count = 0
+                      for item in vacancies:
+                          try:
+                              vacancy_id = item.get('id')
+                              if vacancy_id and vacancy_id not in unique_vacancy_ids:
+                                  unique_vacancy_ids.add(vacancy_id)
+                                  vacancy = parse_vacancy(item)
+                                  all_vacancies.append(vacancy)
+                                  new_count += 1
+                                  
+                                  if len(all_vacancies) % 25 == 0:
+                                      print(f"   📊 Обработано вакансий: {len(all_vacancies)}")
+                          except Exception as e:
+                              print(f"   ⚠️ Пропущена вакансия из-за ошибки: {e}")
+                              continue
+                      
+                      print(f"   📌 Новых уникальных вакансий: {new_count}")
               
               # Сортировка с обработкой ошибок
               try:
@@ -290,16 +304,24 @@ jobs:
                   'with_test': sum(1 for v in vacancies if v.get('has_test', False))
               }
               
+              # Статистика по графику работы
+              schedules = {}
+              for v in vacancies:
+                  schedule = v.get('schedule', '')
+                  if schedule:
+                      schedules[schedule] = schedules.get(schedule, 0) + 1
+              
               output = {
                   'source': 'hh.ru',
                   'search_keywords': SEARCH_KEYWORDS,
                   'search_params': {
-                      'area': 'Россия',
-                      'schedule': 'Удалённая работа',
-                      'search_field': 'В названии вакансии'
+                      'area': 'Москва, Санкт-Петербург',
+                      'search_field': 'В названии вакансии',
+                      'filter': 'БЕЗ фильтра по графику работы'
                   },
                   'updated': datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ'),
                   'statistics': stats,
+                  'schedule_distribution': schedules,
                   'vacancies': vacancies
               }
               
@@ -315,6 +337,10 @@ jobs:
               print(f"📊 Статистика:")
               for key, value in stats.items():
                   print(f"   - {key}: {value}")
+              
+              print(f"\n📅 Распределение по графику работы:")
+              for schedule, count in sorted(schedules.items(), key=lambda x: x[1], reverse=True):
+                  print(f"   - {schedule}: {count} вакансий")
           
           
           def main():
@@ -329,9 +355,9 @@ jobs:
                           'source': 'hh.ru',
                           'search_keywords': SEARCH_KEYWORDS,
                           'search_params': {
-                              'area': 'Россия',
-                              'schedule': 'Удалённая работа',
-                              'search_field': 'В названии вакансии'
+                              'area': 'Москва, Санкт-Петербург',
+                              'search_field': 'В названии вакансии',
+                              'filter': 'БЕЗ фильтра по графику работы'
                           },
                           'updated': datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ'),
                           'statistics': {
@@ -342,6 +368,7 @@ jobs:
                               'premium': 0,
                               'with_test': 0
                           },
+                          'schedule_distribution': {},
                           'vacancies': []
                       }
                       with open('hh_vacancies.json', 'w', encoding='utf-8') as f:
