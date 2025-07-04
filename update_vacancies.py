@@ -7,12 +7,12 @@ from typing import List, Dict, Optional
 # API HH.ru
 BASE_URL = "https://api.hh.ru/vacancies"
 
-# Параметры поиска
+# Параметры поиска - БЕЗ ФИЛЬТРА ПО ГРАФИКУ РАБОТЫ
 SEARCH_PARAMS = {
-    'text': 'системный администратор',
-    'area': ['1', '2'],  # Только Москва и СПб
-    'search_field': 'name',
-    'per_page': 100,  # Максимально допустимое значение
+    'text': 'системный администратор',  # Ключевые слова
+    'area': ['1', '2'],                 # Москва и СПб
+    'search_field': 'name',             # Искать только в названии вакансии
+    'per_page': 100,                    # Максимум вакансий на страницу (исправлено с 1000)
     'page': 0
 }
 
@@ -114,9 +114,9 @@ def collect_all_vacancies() -> List[Dict]:
     print("Начинаем сбор вакансий...")
     print(f"Параметры поиска:")
     print(f"  - Текст: '{SEARCH_PARAMS['text']}'")
-    print(f"  - Регион: Россия")
-    print(f"  - Формат работы: Удалённо")
+    print(f"  - Регионы: Москва, Санкт-Петербург")
     print(f"  - Поиск в: названии вакансии")
+    print(f"  - БЕЗ фильтра по графику работы (собираем ВСЕ вакансии)")
     print("-" * 50)
     
     while True:
@@ -150,6 +150,11 @@ def collect_all_vacancies() -> List[Dict]:
         if page >= total_pages:
             break
         
+        # Проверка лимита API (максимум 2000 результатов)
+        if page * 100 >= 2000:
+            print("⚠️ Достигнут лимит API в 2000 результатов")
+            break
+        
         # Задержка между запросами
         time.sleep(REQUEST_DELAY)
     
@@ -168,8 +173,7 @@ def save_vacancies(vacancies: List[Dict], filename: str = 'hh_vacancies.json'):
         'source': 'hh.ru',
         'search_params': {
             'text': SEARCH_PARAMS['text'],
-            'area': 'Россия',
-            'schedule': 'Удалённая работа',
+            'area': 'Москва, Санкт-Петербург',
             'search_field': 'В названии вакансии'
         },
         'updated': datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ'),
@@ -219,6 +223,17 @@ def print_statistics(vacancies: List[Dict]):
     print("\n🌍 Топ-10 регионов:")
     for i, (region, count) in enumerate(top_regions, 1):
         print(f"{i:2d}. {region}: {count} вакансий")
+    
+    # Статистика по графику работы
+    schedules = {}
+    for v in vacancies:
+        schedule = v['schedule']
+        if schedule:
+            schedules[schedule] = schedules.get(schedule, 0) + 1
+    
+    print("\n📅 Распределение по графику работы:")
+    for schedule, count in sorted(schedules.items(), key=lambda x: x[1], reverse=True):
+        print(f"  - {schedule}: {count} вакансий ({count/len(vacancies)*100:.1f}%)")
 
 
 def main():
