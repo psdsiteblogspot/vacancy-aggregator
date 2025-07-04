@@ -61,7 +61,6 @@ jobs:
               params = {
                   'text': keyword,
                   'area': ['1', '2'],              # Москва, СПб + области
-                  'schedule': ['remote', 'flexible', 'fullDay', 'shift', 'flyInFlyOut'],       # Удаленная работа
                   'search_field': 'name',     # Искать в названии
                   'per_page': '100',          # Максимум на страницу
                   'page': '0'
