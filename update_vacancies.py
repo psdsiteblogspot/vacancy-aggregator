@@ -7,59 +7,129 @@ from typing import List, Dict, Optional
 # API HH.ru
 BASE_URL = "https://api.hh.ru/vacancies"
 
-# Параметры поиска - БЕЗ ФИЛЬТРА ПО ГРАФИКУ РАБОТЫ
-SEARCH_PARAMS = {
-    'text': 'системный администратор',  # Ключевые слова
-    'area': ['1', '2'],                 # Москва и СПб
-    'search_field': 'name',             # Искать только в названии вакансии
-    'per_page': 100,                    # Максимум вакансий на страницу (исправлено с 1000)
-    'page': 0
-}
-
 # Заголовки для запросов
 HEADERS = {
-    'User-Agent': 'VacancyParser/1.0 (contact@example.com)'  # Более информативный User-Agent
+    'User-Agent': 'VacancyParser/1.0 (contact@example.com)'
 }
 
 # Задержка между запросами (в секундах)
-REQUEST_DELAY = 0.5
+REQUEST_DELAY = 0.3
 
 
-def get_vacancies_page(page: int) -> Optional[Dict]:
+def get_vacancies_simple() -> tuple[List[Dict], Dict]:
     """
-    Получает одну страницу вакансий из API HH.ru
+    Простой сбор ВСЕХ вакансий системного администратора в Москве
     
-    Args:
-        page: Номер страницы
-        
     Returns:
-        Словарь с данными или None в случае ошибки
+        Кортеж (список вакансий, статистика)
     """
-    params = SEARCH_PARAMS.copy()
-    params['page'] = page
+    print("=" * 60)
+    print("СБОР ВАКАНСИЙ: Системный администратор в Москве")
+    print(f"Время начала: {datetime.now()}")
+    print("=" * 60)
     
-    try:
-        response = requests.get(BASE_URL, params=params, headers=HEADERS)
-        response.raise_for_status()
-        return response.json()
-    except requests.exceptions.RequestException as e:
-        print(f"Ошибка при запросе страницы {page}: {e}")
-        return None
-    except json.JSONDecodeError as e:
-        print(f"Ошибка при разборе JSON на странице {page}: {e}")
-        return None
+    params = {
+        'text': 'системный администратор',
+        'area': '1',  # Только Москва
+        'search_field': 'name',  # Поиск в названии
+        'per_page': 100,  # Максимум на страницу
+        'page': 0
+    }
+    
+    all_vacancies = []
+    page = 0
+    stats = {
+        'found': 0,
+        'pages': 0,
+        'collected': 0,
+        'pages_processed': 0
+    }
+    
+    while True:
+        params['page'] = page
+        print(f"\n📄 Запрашиваем страницу {page}...")
+        
+        try:
+            # Делаем запрос
+            response = requests.get(BASE_URL, params=params, headers=HEADERS, timeout=30)
+            
+            # Проверяем статус
+            if response.status_code != 200:
+                print(f"❌ Ошибка HTTP: {response.status_code}")
+                print(f"Ответ: {response.text[:500]}")
+                break
+            
+            # Парсим JSON
+            data = response.json()
+            
+            # На первой странице сохраняем общую информацию
+            if page == 0:
+                stats['found'] = data.get('found', 0)
+                stats['pages'] = data.get('pages', 0)
+                
+                print(f"\n📊 РЕЗУЛЬТАТЫ ПОИСКА:")
+                print(f"   Найдено вакансий: {stats['found']}")
+                print(f"   Количество страниц: {stats['pages']}")
+                print(f"   Альтернативный URL: {data.get('alternate_url', 'не указан')}")
+                
+                # Диагностика
+                max_available = min(stats['pages'] * 100, 2000)
+                print(f"   Максимум доступно через API: {max_available}")
+                
+                if stats['found'] > 2000:
+                    print(f"\n⚠️ ВНИМАНИЕ: Найдено {stats['found']} вакансий, но API вернет максимум 2000!")
+            
+            # Получаем вакансии со страницы
+            items = data.get('items', [])
+            items_count = len(items)
+            
+            if items_count == 0:
+                print(f"   Страница {page}: пустая, завершаем сбор")
+                break
+            
+            all_vacancies.extend(items)
+            stats['collected'] = len(all_vacancies)
+            stats['pages_processed'] = page + 1
+            
+            print(f"   Страница {page}: получено {items_count} вакансий")
+            print(f"   Всего собрано: {stats['collected']}")
+            
+            # Проверяем, есть ли еще страницы
+            if page >= stats['pages'] - 1:
+                print(f"\n✅ Достигнута последняя страница")
+                break
+            
+            # Проверка лимита API
+            if stats['collected'] >= 2000:
+                print(f"\n⚠️ Достигнут лимит API в 2000 результатов")
+                break
+            
+            # Проверка на странный случай
+            if page >= 19:  # 20 страниц * 100 = 2000
+                print(f"\n⚠️ Достигнут лимит в 20 страниц")
+                break
+            
+            page += 1
+            time.sleep(REQUEST_DELAY)
+            
+        except requests.exceptions.RequestException as e:
+            print(f"\n❌ Ошибка сети: {e}")
+            break
+        except json.JSONDecodeError as e:
+            print(f"\n❌ Ошибка парсинга JSON: {e}")
+            print(f"Ответ: {response.text[:500]}")
+            break
+        except Exception as e:
+            print(f"\n❌ Неожиданная ошибка: {e}")
+            import traceback
+            traceback.print_exc()
+            break
+    
+    return all_vacancies, stats
 
 
 def parse_vacancy(item: Dict) -> Dict:
-    """
-    Парсит данные одной вакансии
-    
-    Args:
-        item: Словарь с данными вакансии из API
-        
-    Returns:
-        Отформатированный словарь с данными вакансии
-    """
+    """Парсит данные одной вакансии"""
     vacancy = {
         'id': item.get('id', ''),
         'title': item.get('name', ''),
@@ -70,7 +140,7 @@ def parse_vacancy(item: Dict) -> Dict:
         'schedule': item.get('schedule', {}).get('name', ''),
         'employment': item.get('employment', {}).get('name', ''),
         'area': item.get('area', {}).get('name', ''),
-        'publishDate': item.get('published_at', '')[:10],  # Только дата
+        'publishDate': item.get('published_at', '')[:10],
         'url': item.get('alternate_url', ''),
         'requirement': item.get('snippet', {}).get('requirement', ''),
         'responsibility': item.get('snippet', {}).get('responsibility', '')
@@ -91,7 +161,6 @@ def parse_vacancy(item: Dict) -> Dict:
         elif salary_to:
             vacancy['salary'] = f"до {salary_to:,} {currency}"
             
-        # Добавляем информацию о типе зарплаты
         if gross:
             vacancy['salary'] += " (до вычета налогов)"
         else:
@@ -100,164 +169,108 @@ def parse_vacancy(item: Dict) -> Dict:
     return vacancy
 
 
-def collect_all_vacancies() -> List[Dict]:
-    """
-    Собирает все вакансии со всех страниц
+def analyze_results(vacancies: List[Dict], stats: Dict):
+    """Анализирует результаты сбора"""
+    print("\n" + "=" * 60)
+    print("АНАЛИЗ РЕЗУЛЬТАТОВ")
+    print("=" * 60)
     
-    Returns:
-        Список всех найденных вакансий
-    """
-    all_vacancies = []
-    page = 0
-    total_pages = None
+    print(f"\n📊 Основные показатели:")
+    print(f"   Найдено в поиске: {stats['found']}")
+    print(f"   Собрано фактически: {stats['collected']}")
+    print(f"   Страниц обработано: {stats['pages_processed']} из {stats['pages']}")
     
-    print("Начинаем сбор вакансий...")
-    print(f"Параметры поиска:")
-    print(f"  - Текст: '{SEARCH_PARAMS['text']}'")
-    print(f"  - Регионы: Москва, Санкт-Петербург")
-    print(f"  - Поиск в: названии вакансии")
-    print(f"  - БЕЗ фильтра по графику работы (собираем ВСЕ вакансии)")
-    print("-" * 50)
+    if stats['found'] > 0:
+        completeness = (stats['collected'] / stats['found']) * 100
+        print(f"   Полнота сбора: {completeness:.1f}%")
+        
+        missing = stats['found'] - stats['collected']
+        if missing > 0:
+            print(f"   Не собрано: {missing} вакансий")
+            
+            print(f"\n❓ Возможные причины потери {missing} вакансий:")
+            
+            if stats['found'] > 2000:
+                print(f"   1. Превышен лимит API в 2000 результатов (найдено {stats['found']})")
+            
+            if stats['pages_processed'] < stats['pages']:
+                print(f"   2. Обработаны не все страницы ({stats['pages_processed']} из {stats['pages']})")
+            
+            if completeness > 95:
+                print(f"   3. Небольшие расхождения могут быть из-за изменений в базе во время сбора")
+            else:
+                print(f"   3. Проверьте параметры поиска - возможно, они отличаются от сайта")
+                print(f"   4. Проверьте наличие ошибок сети или таймаутов")
     
-    while True:
-        # Получаем страницу
-        data = get_vacancies_page(page)
+    # Анализ по графикам работы
+    if vacancies:
+        schedules = {}
+        for v in vacancies:
+            schedule = v.get('schedule', 'Не указан')
+            schedules[schedule] = schedules.get(schedule, 0) + 1
         
-        if data is None:
-            print(f"Не удалось получить страницу {page}. Пропускаем...")
-            page += 1
-            continue
-        
-        # На первой странице узнаем общее количество
-        if total_pages is None:
-            total_pages = data.get('pages', 0)
-            total_found = data.get('found', 0)
-            print(f"Найдено вакансий: {total_found}")
-            print(f"Страниц для обработки: {total_pages}")
-            print("-" * 50)
-        
-        # Обрабатываем вакансии на странице
-        items = data.get('items', [])
-        for item in items:
-            vacancy = parse_vacancy(item)
-            all_vacancies.append(vacancy)
-        
-        # Выводим прогресс
-        print(f"Обработано страниц: {page + 1}/{total_pages} | Собрано вакансий: {len(all_vacancies)}")
-        
-        # Проверяем, есть ли еще страницы
-        page += 1
-        if page >= total_pages:
-            break
-        
-        # Проверка лимита API (максимум 2000 результатов)
-        if page * 100 >= 2000:
-            print("⚠️ Достигнут лимит API в 2000 результатов")
-            break
-        
-        # Задержка между запросами
-        time.sleep(REQUEST_DELAY)
-    
-    return all_vacancies
+        print(f"\n📅 Распределение по графику работы:")
+        for schedule, count in sorted(schedules.items(), key=lambda x: x[1], reverse=True):
+            percent = (count / len(vacancies)) * 100
+            print(f"   {schedule}: {count} ({percent:.1f}%)")
 
 
-def save_vacancies(vacancies: List[Dict], filename: str = 'hh_vacancies.json'):
-    """
-    Сохраняет вакансии в JSON файл
+def save_vacancies(vacancies: List[Dict], stats: Dict, filename: str = 'hh_vacancies_moscow.json'):
+    """Сохраняет вакансии в JSON файл"""
+    # Парсим вакансии
+    parsed_vacancies = [parse_vacancy(v) for v in vacancies]
     
-    Args:
-        vacancies: Список вакансий
-        filename: Имя файла для сохранения
-    """
     output = {
         'source': 'hh.ru',
         'search_params': {
-            'text': SEARCH_PARAMS['text'],
-            'area': 'Москва, Санкт-Петербург',
-            'search_field': 'В названии вакансии'
+            'text': 'системный администратор',
+            'area': 'Москва',
+            'area_id': '1',
+            'search_field': 'В названии вакансии',
+            'filter': 'БЕЗ дополнительных фильтров'
         },
         'updated': datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ'),
-        'total_count': len(vacancies),
-        'vacancies': vacancies
+        'statistics': {
+            'found': stats['found'],
+            'collected': stats['collected'],
+            'completeness': f"{(stats['collected'] / stats['found'] * 100):.1f}%" if stats['found'] > 0 else "0%",
+            'pages_processed': stats['pages_processed'],
+            'total_pages': stats['pages']
+        },
+        'total_count': len(parsed_vacancies),
+        'vacancies': parsed_vacancies
     }
     
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
     
-    print(f"\n✅ Файл {filename} успешно создан!")
-    print(f"📊 Всего сохранено вакансий: {len(vacancies)}")
-
-
-def print_statistics(vacancies: List[Dict]):
-    """
-    Выводит статистику по собранным вакансиям
-    
-    Args:
-        vacancies: Список вакансий
-    """
-    print("\n📈 Статистика по вакансиям:")
-    print("-" * 50)
-    
-    # Топ компаний
-    companies = {}
-    for v in vacancies:
-        company = v['company']
-        companies[company] = companies.get(company, 0) + 1
-    
-    top_companies = sorted(companies.items(), key=lambda x: x[1], reverse=True)[:10]
-    print("\n🏢 Топ-10 компаний по количеству вакансий:")
-    for i, (company, count) in enumerate(top_companies, 1):
-        print(f"{i:2d}. {company}: {count} вакансий")
-    
-    # Статистика по зарплатам
-    with_salary = sum(1 for v in vacancies if v['salary'] != 'не указана')
-    print(f"\n💰 Вакансий с указанной зарплатой: {with_salary} ({with_salary/len(vacancies)*100:.1f}%)")
-    
-    # Статистика по регионам
-    regions = {}
-    for v in vacancies:
-        region = v['area']
-        regions[region] = regions.get(region, 0) + 1
-    
-    top_regions = sorted(regions.items(), key=lambda x: x[1], reverse=True)[:10]
-    print("\n🌍 Топ-10 регионов:")
-    for i, (region, count) in enumerate(top_regions, 1):
-        print(f"{i:2d}. {region}: {count} вакансий")
-    
-    # Статистика по графику работы
-    schedules = {}
-    for v in vacancies:
-        schedule = v['schedule']
-        if schedule:
-            schedules[schedule] = schedules.get(schedule, 0) + 1
-    
-    print("\n📅 Распределение по графику работы:")
-    for schedule, count in sorted(schedules.items(), key=lambda x: x[1], reverse=True):
-        print(f"  - {schedule}: {count} вакансий ({count/len(vacancies)*100:.1f}%)")
+    print(f"\n💾 Файл {filename} успешно создан!")
 
 
 def main():
-    """
-    Основная функция программы
-    """
+    """Основная функция программы"""
     try:
-        # Собираем все вакансии
-        vacancies = collect_all_vacancies()
+        # Собираем вакансии
+        raw_vacancies, stats = get_vacancies_simple()
         
-        if not vacancies:
-            print("❌ Не удалось найти ни одной вакансии")
+        if not raw_vacancies:
+            print("\n❌ Не удалось собрать вакансии")
             return
         
-        # Сохраняем результаты
-        save_vacancies(vacancies)
+        # Анализируем результаты
+        analyze_results(raw_vacancies, stats)
         
-        # Выводим статистику
-        print_statistics(vacancies)
+        # Сохраняем
+        save_vacancies(raw_vacancies, stats)
+        
+        print("\n✅ Готово!")
         
     except KeyboardInterrupt:
         print("\n\n⚠️ Сбор вакансий прерван пользователем")
     except Exception as e:
-        print(f"\n❌ Произошла ошибка: {e}")
+        print(f"\n❌ Критическая ошибка: {e}")
+        import traceback
+        traceback.print_exc()
 
 
 if __name__ == "__main__":
