@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-04T04:24:23Z",
+  "updated": "2025-07-04T05:16:45Z",
   "statistics": {
     "total": 1544,
-    "with_salary": 865,
-    "companies": 1213,
+    "with_salary": 864,
+    "companies": 1214,
     "cities": 90,
     "premium": 2,
     "with_test": 65
   },
   "vacancies": [
+    {
+      "id": "122229531",
+      "name": "Системный администратор",
+      "company": "АйТи Аналитика",
+      "company_id": "6129482",
+      "company_url": "https://hh.ru/employer/6129482",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/122229531",
+      "published_at": "2025-07-04T07:51:48+0300",
+      "created_at": "2025-07-04T07:51:48+0300",
+      "area": "Санкт-Петербург",
+      "salary": "90 000 - 120 000 RUR на руки",
+      "salary_raw": {
+        "from": 90000,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Проектная работа",
+      "requirement": "Начальные навыки работы с Linux: Скрипты: Базовые навыки Bash.",
+      "responsibility": "Компания АйТи Аналитика проводит набор в команду на ПРОЕКТ по переводу рабочих мест заказчика на Российское ПО (на базе Linux).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
+      "id": "121814379",
+      "name": "Системный администратор",
+      "company": "Спектр, НППФ",
+      "company_id": "718091",
+      "company_url": "https://hh.ru/employer/718091",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1359996.png",
+      "url": "https://hh.ru/vacancy/121814379",
+      "published_at": "2025-07-04T07:43:43+0300",
+      "created_at": "2025-07-04T07:43:43+0300",
+      "area": "Москва",
+      "salary": "90 000 - 120 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 90000,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание ОС Linux (CentOS, Debian). Знание и понимание работы стека протоколов TCP/IP. Знание и практический опыт настройки VPN-каналов...",
+      "responsibility": "Заниматься развитием и поддержкой существующей инфраструктуры. Конфигурировать серверы(ОС Linux, QNX, Windows) для установки на них прикладного ПО (собственная разработка).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "108135121",
       "name": "Системный администратор",
@@ -18544,72 +18610,6 @@
       "accept_temporary": false
     },
     {
-      "id": "122229531",
-      "name": "Системный администратор",
-      "company": "АйТи Аналитика",
-      "company_id": "6129482",
-      "company_url": "https://hh.ru/employer/6129482",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/122229531",
-      "published_at": "2025-07-01T07:51:48+0300",
-      "created_at": "2025-07-01T07:51:48+0300",
-      "area": "Санкт-Петербург",
-      "salary": "90 000 - 120 000 RUR на руки",
-      "salary_raw": {
-        "from": 90000,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Проектная работа",
-      "requirement": "Начальные навыки работы с Linux: Скрипты: Базовые навыки Bash.",
-      "responsibility": "Компания АйТи Аналитика проводит набор в команду на ПРОЕКТ по переводу рабочих мест заказчика на Российское ПО (на базе Linux).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
-      "id": "121814379",
-      "name": "Системный администратор",
-      "company": "Спектр, НППФ",
-      "company_id": "718091",
-      "company_url": "https://hh.ru/employer/718091",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1359996.png",
-      "url": "https://hh.ru/vacancy/121814379",
-      "published_at": "2025-07-01T07:43:43+0300",
-      "created_at": "2025-07-01T07:43:43+0300",
-      "area": "Москва",
-      "salary": "90 000 - 120 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 90000,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание ОС Linux (CentOS, Debian). Знание и понимание работы стека протоколов TCP/IP. Знание и практический опыт настройки VPN-каналов...",
-      "responsibility": "Заниматься развитием и поддержкой существующей инфраструктуры. Конфигурировать серверы(ОС Linux, QNX, Windows) для установки на них прикладного ПО (собственная разработка).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "111614886",
       "name": "Системный администратор Linux",
       "company": "Газпром нефть",
@@ -35139,6 +35139,34 @@
       "accept_temporary": false
     },
     {
+      "id": "120745936",
+      "name": "Системный администратор (эникейщик)",
+      "company": "Эмпериум",
+      "company_id": "5648278",
+      "company_url": "https://hh.ru/employer/5648278",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1390902.png",
+      "url": "https://hh.ru/vacancy/120745936",
+      "published_at": "2025-06-19T10:24:45+0300",
+      "created_at": "2025-06-19T10:24:45+0300",
+      "area": "Санкт-Петербург",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "",
+      "responsibility": "",
+      "type": "Закрытая",
+      "professional_roles": [
+        "Специалист технической поддержки"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "121814901",
       "name": "Системный администратор-аналитик ИБ",
       "company": "Цикада",
@@ -47506,39 +47534,6 @@
       "employment": "Полная занятость",
       "requirement": "Навыки работы с ОС Windows 7/10/11, Windows Server, Astra Linux. Навыки работы с MS SQL/PostgreSQL.",
       "responsibility": "Поддерживать работоспособное состояние компонентов DLP. Добавлять/удалять/устанавливать ограничения для новых пользователей (при необходимости). Формировать отчеты систем аналитики DLP.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121040933",
-      "name": "Системный администратор (специалист техподдержки)",
-      "company": "Группа компаний ЕКС",
-      "company_id": "1143452",
-      "company_url": "https://hh.ru/employer/1143452",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/781012.jpg",
-      "url": "https://hh.ru/vacancy/121040933",
-      "published_at": "2025-05-27T16:04:27+0300",
-      "created_at": "2025-05-27T16:04:27+0300",
-      "area": "Москва",
-      "salary": "100 000 - 120 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
