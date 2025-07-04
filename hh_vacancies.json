@@ -6,20 +6,60 @@
     "system administrator"
   ],
   "search_params": {
-    "area": "Россия",
-    "schedule": "Удалённая работа",
-    "search_field": "В названии вакансии"
+    "area": "Москва, Санкт-Петербург",
+    "search_field": "В названии вакансии",
+    "filter": "БЕЗ фильтра по графику работы"
   },
-  "updated": "2025-07-04T09:42:42Z",
+  "updated": "2025-07-04T09:50:11Z",
   "statistics": {
-    "total": 1342,
+    "total": 1343,
     "with_salary": 722,
     "companies": 1108,
     "cities": 23,
     "premium": 2,
     "with_test": 64
   },
+  "schedule_distribution": {
+    "Полный день": 1181,
+    "Сменный график": 36,
+    "Удаленная работа": 112,
+    "Гибкий график": 10,
+    "Вахтовый метод": 4
+  },
   "vacancies": [
+    {
+      "id": "122079794",
+      "name": "Системный администратор",
+      "company": "Инспекция Федеральной налоговой службы № 27 по г. Москве",
+      "company_id": "4832595",
+      "company_url": "https://hh.ru/employer/4832595",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/766191.jpg",
+      "url": "https://hh.ru/vacancy/122079794",
+      "published_at": "2025-07-04T12:48:26+0300",
+      "created_at": "2025-07-04T12:48:26+0300",
+      "area": "Москва",
+      "salary": "40 000 - 45 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 40000,
+        "to": 45000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Наличие оконченного образования по специальности «Информационные технологии» (обязательно). Пунктуальность. Ответственность. Грамотная речь и письмо. Знание SQL будет преимуществом.",
+      "responsibility": "Работа с электронным документооборотом. Ведение учета техники. Организация видеоконференцсвязи. Обслуживание СКУД. Контроль исполнения работ по обслуживанию техники.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "120987688",
       "name": "Специалист технической поддержки (системный администратор)",
@@ -2806,7 +2846,7 @@
         "gross": false
       },
       "experience": "Нет опыта",
-      "schedule": "Удаленная работа",
+      "schedule": "Гибкий график",
       "employment": "Частичная занятость",
       "requirement": "Самоорганизованность. Владение базовыми программами windows OS на продвинутом уровне. Знание устройства компьютерной техник.",
       "responsibility": "Выезды на адреса филиалов по СПб. Установка, настройка, обновление ПО на компьютерах. Управление учетными записями и правами доступа пользователей, паролями...",
@@ -16618,39 +16658,6 @@
       "accept_temporary": false
     },
     {
-      "id": "121333999",
-      "name": "Системный администратор",
-      "company": "НПО Тепломаш",
-      "company_id": "9339",
-      "company_url": "https://hh.ru/employer/9339",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/230052.jpg",
-      "url": "https://hh.ru/vacancy/121333999",
-      "published_at": "2025-07-01T12:40:46+0300",
-      "created_at": "2025-07-01T12:40:46+0300",
-      "area": "Санкт-Петербург",
-      "salary": "от 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы на аналогичной должности от 3-х лет. Ответственность, внимание к деталям, умение работать в команде.",
-      "responsibility": "Техническая поддержка пользователей. Сборка, настройка, мелкий ремонт ПК и оргтехники. Администрирование парка ПК на Windows. Администрирование серверов Windows (DNS, AD...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "122249306",
       "name": "Системный администратор",
       "company": "ЦДМ на Лубянке",
@@ -23165,39 +23172,6 @@
       "accept_temporary": false
     },
     {
-      "id": "122079794",
-      "name": "Системный администратор",
-      "company": "Инспекция Федеральной налоговой службы № 27 по г. Москве",
-      "company_id": "4832595",
-      "company_url": "https://hh.ru/employer/4832595",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/766191.jpg",
-      "url": "https://hh.ru/vacancy/122079794",
-      "published_at": "2025-06-26T08:56:21+0300",
-      "created_at": "2025-06-26T08:56:21+0300",
-      "area": "Москва",
-      "salary": "40 000 - 45 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 40000,
-        "to": 45000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Наличие оконченного образования по специальности «Информационные технологии» (обязательно). Пунктуальность. Ответственность. Грамотная речь и письмо. Знание SQL будет преимуществом.",
-      "responsibility": "Работа с электронным документооборотом. Ведение учета техники. Организация видеоконференцсвязи. Обслуживание СКУД. Контроль исполнения работ по обслуживанию техники.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "122075652",
       "name": "Системный администратор",
       "company": "ТЭК-Строй",
@@ -23625,16 +23599,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122066462",
+      "id": "122066463",
       "name": "Системный администратор",
       "company": "СПб ГБУЗ Городская поликлиника № 19",
       "company_id": "2936308",
       "company_url": "https://hh.ru/employer/2936308",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/440261.png",
-      "url": "https://hh.ru/vacancy/122066462",
+      "url": "https://hh.ru/vacancy/122066463",
       "published_at": "2025-06-25T16:57:14+0300",
       "created_at": "2025-06-25T16:57:14+0300",
-      "area": "Санкт-Петербург",
+      "area": "Москва",
       "salary": "от 90 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 90000,
@@ -23658,16 +23632,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122066463",
+      "id": "122066462",
       "name": "Системный администратор",
       "company": "СПб ГБУЗ Городская поликлиника № 19",
       "company_id": "2936308",
       "company_url": "https://hh.ru/employer/2936308",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/440261.png",
-      "url": "https://hh.ru/vacancy/122066463",
+      "url": "https://hh.ru/vacancy/122066462",
       "published_at": "2025-06-25T16:57:14+0300",
       "created_at": "2025-06-25T16:57:14+0300",
-      "area": "Москва",
+      "area": "Санкт-Петербург",
       "salary": "от 90 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 90000,
@@ -26138,16 +26112,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122004689",
+      "id": "122004690",
       "name": "Системный администратор",
       "company": "INZARE",
       "company_id": "6008748",
       "company_url": "https://hh.ru/employer/6008748",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/943525.png",
-      "url": "https://hh.ru/vacancy/122004689",
+      "url": "https://hh.ru/vacancy/122004690",
       "published_at": "2025-06-24T13:10:32+0300",
       "created_at": "2025-06-24T13:10:32+0300",
-      "area": "Санкт-Петербург",
+      "area": "Москва",
       "salary": "140 000 - 140 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 140000,
@@ -26171,16 +26145,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122004690",
+      "id": "122004689",
       "name": "Системный администратор",
       "company": "INZARE",
       "company_id": "6008748",
       "company_url": "https://hh.ru/employer/6008748",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/943525.png",
-      "url": "https://hh.ru/vacancy/122004690",
+      "url": "https://hh.ru/vacancy/122004689",
       "published_at": "2025-06-24T13:10:32+0300",
       "created_at": "2025-06-24T13:10:32+0300",
-      "area": "Москва",
+      "area": "Санкт-Петербург",
       "salary": "140 000 - 140 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 140000,
@@ -31161,6 +31135,34 @@
       "accept_temporary": false
     },
     {
+      "id": "120745936",
+      "name": "Системный администратор (эникейщик)",
+      "company": "Эмпериум",
+      "company_id": "5648278",
+      "company_url": "https://hh.ru/employer/5648278",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1390902.png",
+      "url": "https://hh.ru/vacancy/120745936",
+      "published_at": "2025-06-19T10:24:45+0300",
+      "created_at": "2025-06-19T10:24:45+0300",
+      "area": "Санкт-Петербург",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "",
+      "responsibility": "",
+      "type": "Закрытая",
+      "professional_roles": [
+        "Специалист технической поддержки"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "121814901",
       "name": "Системный администратор-аналитик ИБ",
       "company": "Цикада",
@@ -33370,16 +33372,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121726924",
+      "id": "121726923",
       "name": "Системный администратор Linux (г. Ялта)",
       "company": "Мрия (Mriya Resort)",
       "company_id": "1659845",
       "company_url": "https://hh.ru/employer/1659845",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1390981.png",
-      "url": "https://hh.ru/vacancy/121726924",
+      "url": "https://hh.ru/vacancy/121726923",
       "published_at": "2025-06-17T11:48:16+0300",
       "created_at": "2025-06-17T11:48:16+0300",
-      "area": "Санкт-Петербург",
+      "area": "Москва",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -33398,16 +33400,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121726923",
+      "id": "121726924",
       "name": "Системный администратор Linux (г. Ялта)",
       "company": "Мрия (Mriya Resort)",
       "company_id": "1659845",
       "company_url": "https://hh.ru/employer/1659845",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1390981.png",
-      "url": "https://hh.ru/vacancy/121726923",
+      "url": "https://hh.ru/vacancy/121726924",
       "published_at": "2025-06-17T11:48:16+0300",
       "created_at": "2025-06-17T11:48:16+0300",
-      "area": "Москва",
+      "area": "Санкт-Петербург",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -37605,16 +37607,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121509596",
+      "id": "121509597",
       "name": "Системный администратор Linux",
       "company": "ЮMoney",
       "company_id": "655542",
       "company_url": "https://hh.ru/employer/655542",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1049518.png",
-      "url": "https://hh.ru/vacancy/121509596",
+      "url": "https://hh.ru/vacancy/121509597",
       "published_at": "2025-06-10T10:58:10+0300",
       "created_at": "2025-06-10T10:58:10+0300",
-      "area": "Санкт-Петербург",
+      "area": "Москва",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -37633,16 +37635,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121509597",
+      "id": "121509596",
       "name": "Системный администратор Linux",
       "company": "ЮMoney",
       "company_id": "655542",
       "company_url": "https://hh.ru/employer/655542",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1049518.png",
-      "url": "https://hh.ru/vacancy/121509597",
+      "url": "https://hh.ru/vacancy/121509596",
       "published_at": "2025-06-10T10:58:10+0300",
       "created_at": "2025-06-10T10:58:10+0300",
-      "area": "Москва",
+      "area": "Санкт-Петербург",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -41171,6 +41173,39 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121040933",
+      "name": "Системный администратор (специалист техподдержки)",
+      "company": "Группа компаний ЕКС",
+      "company_id": "1143452",
+      "company_url": "https://hh.ru/employer/1143452",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/781012.jpg",
+      "url": "https://hh.ru/vacancy/121040933",
+      "published_at": "2025-05-27T16:04:27+0300",
+      "created_at": "2025-05-27T16:04:27+0300",
+      "area": "Москва",
+      "salary": "100 000 - 120 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "",
+      "responsibility": "",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
       ],
       "has_test": false,
       "premium": false,
