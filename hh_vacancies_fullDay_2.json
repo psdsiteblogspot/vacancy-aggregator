@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-04T18:52:41Z",
+  "updated": "2025-07-04T19:43:31Z",
   "statistics": {
     "total": 930,
     "with_salary": 721,
@@ -20,6 +20,39 @@
     "with_test": 12
   },
   "vacancies": [
+    {
+      "id": "119191956",
+      "name": "Старший системный администратор (офис)",
+      "company": "TravelLine",
+      "company_id": "1136961",
+      "company_url": "https://hh.ru/employer/1136961",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1370529.png",
+      "url": "https://hh.ru/vacancy/119191956",
+      "published_at": "2025-07-04T22:22:22+0300",
+      "created_at": "2025-07-04T22:22:22+0300",
+      "area": "Йошкар-Ола",
+      "salary": "от 230 000 RUR на руки",
+      "salary_raw": {
+        "from": 230000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Более 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Ответственно относишься к своей работе — совсем не здóрово, если вечером произошел критический инцидент, а админ уходит домой, игнорируя ситуацию.",
+      "responsibility": "Администрировать домен Active Directory. Администрировать сервера приложений, почты, телефонии (Exchange, Asterisk, Bitrix24, JIRA и т.д.). Администрировать сетевое оборудование...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "120572433",
       "name": "Системный администратор",
@@ -12161,16 +12194,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122155199",
+      "id": "122155198",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122155199",
+      "url": "https://hh.ru/vacancy/122155198",
       "published_at": "2025-06-27T16:08:17+0300",
       "created_at": "2025-06-27T16:08:17+0300",
-      "area": "Магадан",
+      "area": "Лесозаводск",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -12194,16 +12227,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122155198",
+      "id": "122155199",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122155198",
+      "url": "https://hh.ru/vacancy/122155199",
       "published_at": "2025-06-27T16:08:17+0300",
       "created_at": "2025-06-27T16:08:17+0300",
-      "area": "Лесозаводск",
+      "area": "Магадан",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -17888,16 +17921,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121924966",
+      "id": "121924963",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121924966",
+      "url": "https://hh.ru/vacancy/121924963",
       "published_at": "2025-06-23T08:38:40+0300",
       "created_at": "2025-06-23T08:38:40+0300",
-      "area": "Лиски",
+      "area": "Шебекино",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -17921,16 +17954,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121924963",
+      "id": "121924966",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121924963",
+      "url": "https://hh.ru/vacancy/121924966",
       "published_at": "2025-06-23T08:38:40+0300",
       "created_at": "2025-06-23T08:38:40+0300",
-      "area": "Шебекино",
+      "area": "Лиски",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -29589,39 +29622,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее образование – специалитет, магистратура. Не менее одного года работы в области технической поддержки, администрирования, программирования устройств инфокоммуникационных систем.",
       "responsibility": "Установка, настройка и администрирование системного и прикладного ПО на базе Windows и Linux. Установка, настройка и администрирование аппаратно-программных средств...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "119191956",
-      "name": "Старший системный администратор (офис)",
-      "company": "TravelLine",
-      "company_id": "1136961",
-      "company_url": "https://hh.ru/employer/1136961",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1370529.png",
-      "url": "https://hh.ru/vacancy/119191956",
-      "published_at": "2025-06-04T22:22:21+0300",
-      "created_at": "2025-06-04T22:22:21+0300",
-      "area": "Йошкар-Ола",
-      "salary": "от 230 000 RUR на руки",
-      "salary_raw": {
-        "from": 230000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Более 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Ответственно относишься к своей работе — совсем не здóрово, если вечером произошел критический инцидент, а админ уходит домой, игнорируя ситуацию.",
-      "responsibility": "Администрировать домен Active Directory. Администрировать сервера приложений, почты, телефонии (Exchange, Asterisk, Bitrix24, JIRA и т.д.). Администрировать сетевое оборудование...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
