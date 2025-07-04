@@ -1,4 +1,4 @@
-name: Run Diagnostic
+name: Run Fixed Diagnostic
 
 on:
   workflow_dispatch: # Только ручной запуск
@@ -21,8 +21,197 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
           
-      - name: Run diagnostic script
+      - name: Create and run fixed diagnostic script
         run: |
-          echo "=== Запуск диагностики API HH.ru ==="
-          python precise_diagnostic.py
+          cat > fixed_diagnostic.py << 'EOF'
+          import requests
+          import json
+          import time
+          from datetime import datetime, timedelta
+          
+          # API HH.ru
+          BASE_URL = "https://api.hh.ru/vacancies"
+          
+          # Заголовки для запросов
+          HEADERS = {
+              'User-Agent': 'DiagnosticTool/1.0 (diagnostic@example.com)'
+          }
+          
+          
+          def test_api_limits():
+              """Тест ограничений API HH.ru"""
+              print("=" * 70)
+              print("ДИАГНОСТИКА ОГРАНИЧЕНИЙ API HH.RU")
+              print(f"Время: {datetime.now()}")
+              print("=" * 70)
+              
+              # Параметры - ВСЕ как строки!
+              params = {
+                  'text': 'системный администратор',
+                  'area': '1',  # Москва
+                  'search_field': 'name',
+                  'per_page': '50',  # СТРОКА!
+                  'page': '0'  # СТРОКА!
+              }
+              
+              print("\n1. ПЕРВЫЙ ЗАПРОС")
+              print("-" * 70)
+              
+              try:
+                  response = requests.get(BASE_URL, params=params, headers=HEADERS, timeout=30)
+                  print(f"Статус: {response.status_code}")
+                  
+                  if response.status_code == 200:
+                      data = response.json()
+                      
+                      found = data.get('found', 0)
+                      pages = data.get('pages', 0)
+                      per_page = data.get('per_page', 0)
+                      items_count = len(data.get('items', []))
+                      
+                      print(f"✅ Найдено вакансий: {found}")
+                      print(f"📄 Количество страниц: {pages}")
+                      print(f"📏 Элементов на страницу: {per_page}")
+                      print(f"📦 На первой странице: {items_count}")
+                      print(f"🔢 Теоретически доступно: {pages * per_page}")
+                      
+                      # Сохраняем для дальнейших тестов
+                      total_pages = pages
+                      total_found = found
+                  else:
+                      print(f"❌ Ошибка: {response.status_code}")
+                      print(f"Ответ: {response.text[:200]}")
+                      return
+                      
+              except Exception as e:
+                  print(f"❌ Исключение: {e}")
+                  return
+              
+              # Тест страниц
+              print("\n2. ТЕСТ ДОСТУПНОСТИ СТРАНИЦ")
+              print("-" * 70)
+              
+              # Проверяем ключевые страницы
+              test_pages = [0, 5, 9, 10, 15, 19, 20, 25]
+              last_page_with_data = -1
+              total_collected = 0
+              
+              for page_num in test_pages:
+                  if page_num > total_pages + 5:  # Не проверяем слишком далеко
+                      break
+                      
+                  params['page'] = str(page_num)  # ВАЖНО: строка!
+                  
+                  try:
+                      response = requests.get(BASE_URL, params=params, headers=HEADERS, timeout=30)
+                      
+                      if response.status_code == 200:
+                          data = response.json()
+                          items = data.get('items', [])
+                          items_count = len(items)
+                          
+                          if items_count > 0:
+                              last_page_with_data = page_num
+                              total_collected += items_count
+                              print(f"✅ Страница {page_num:2d}: {items_count:2d} вакансий")
+                          else:
+                              print(f"⚠️ Страница {page_num:2d}: пустая")
+                      else:
+                          print(f"❌ Страница {page_num:2d}: HTTP {response.status_code}")
+                          
+                  except Exception as e:
+                      print(f"❌ Страница {page_num:2d}: {str(e)[:50]}")
+                  
+                  time.sleep(0.3)
+              
+              print(f"\n📊 Последняя страница с данными: {last_page_with_data}")
+              print(f"📊 Всего собрано в тесте: {total_collected}")
+              
+              # Анализ offset
+              print("\n3. АНАЛИЗ OFFSET LIMIT")
+              print("-" * 70)
+              
+              offset_limit = (last_page_with_data + 1) * 50
+              print(f"Максимальный рабочий offset: {offset_limit}")
+              
+              if last_page_with_data == 19:
+                  print("🚫 Обнаружен лимит: offset = 1000 (20 страниц по 50)")
+              elif last_page_with_data < 19:
+                  print(f"🚫 Обнаружен лимит: только {last_page_with_data + 1} страниц доступно")
+              
+              # Итоги
+              print("\n4. ИТОГОВЫЙ АНАЛИЗ")
+              print("-" * 70)
+              print(f"Найдено вакансий: {total_found}")
+              print(f"Максимум доступно через API: {offset_limit}")
+              print(f"Недоступно: {total_found - offset_limit}")
+              print(f"Процент потерь: {((total_found - offset_limit) / total_found * 100):.1f}%")
+              
+              # Тест сегментации
+              print("\n5. ТЕСТ СЕГМЕНТАЦИИ ПО ДАТАМ")
+              print("-" * 70)
+              
+              segments = [
+                  (1, "За последние 24 часа"),
+                  (3, "За последние 3 дня"),
+                  (7, "За последнюю неделю"),
+                  (14, "За последние 2 недели"),
+                  (30, "За последний месяц")
+              ]
+              
+              total_by_segments = 0
+              
+              for days, name in segments:
+                  date_to = datetime.now()
+                  date_from = date_to - timedelta(days=days)
+                  
+                  params_seg = {
+                      'text': 'системный администратор',
+                      'area': '1',
+                      'search_field': 'name',
+                      'date_from': date_from.strftime('%Y-%m-%d'),
+                      'date_to': date_to.strftime('%Y-%m-%d'),
+                      'per_page': '50',
+                      'page': '0'
+                  }
+                  
+                  try:
+                      response = requests.get(BASE_URL, params=params_seg, headers=HEADERS, timeout=30)
+                      if response.status_code == 200:
+                          data = response.json()
+                          found = data.get('found', 0)
+                          pages = data.get('pages', 0)
+                          total_by_segments += found
+                          
+                          print(f"\n{name}:")
+                          print(f"  Найдено: {found} вакансий ({pages} страниц)")
+                          
+                          if pages > 20:
+                              print(f"  ⚠️ Нужна доп. сегментация!")
+                          else:
+                              print(f"  ✅ Можно получить все")
+                              
+                  except Exception as e:
+                      print(f"❌ Ошибка: {e}")
+                  
+                  time.sleep(0.5)
+              
+              print(f"\n📊 Сумма по сегментам: {total_by_segments}")
+              print("(возможны дубликаты между сегментами)")
+              
+              # Рекомендации
+              print("\n6. РЕКОМЕНДАЦИИ")
+              print("-" * 70)
+              print("✅ Использовать per_page='50' (как строку!)")
+              print("✅ Использовать сегментацию по датам для обхода лимита 1000")
+              print("✅ Делать дедупликацию по ID вакансии")
+              print("✅ Использовать более узкие временные сегменты при необходимости")
+          
+          
+          if __name__ == "__main__":
+              test_api_limits()
+          EOF
+          
+          echo "=== Запуск исправленной диагностики ==="
+          python fixed_diagnostic.py
           echo "=== Диагностика завершена ==="
