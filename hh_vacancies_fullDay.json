@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-05T04:45:03Z",
+  "updated": "2025-07-05T05:38:51Z",
   "statistics": {
-    "total": 1103,
-    "with_salary": 813,
-    "companies": 798,
+    "total": 1102,
+    "with_salary": 812,
+    "companies": 797,
     "cities": 245,
     "premium": 0,
     "with_test": 17
   },
   "vacancies": [
+    {
+      "id": "121921986",
+      "name": "Системный администратор",
+      "company": "Импрув-АйТи",
+      "company_id": "4693660",
+      "company_url": "https://hh.ru/employer/4693660",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1417709.png",
+      "url": "https://hh.ru/vacancy/121921986",
+      "published_at": "2025-07-05T07:46:40+0300",
+      "created_at": "2025-07-05T07:46:40+0300",
+      "area": "Челябинск",
+      "salary": "от 100 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Обязательные навыки: ️ Администрирование серверов на ОС Windows/Linux (от 1 года), включая: ️ Навыки работы с сетевым оборудованием:",
+      "responsibility": "Администрирование Windows/Linux-серверов (AD, GPO, DNS, DHCP). ️ Настройка 1С, SQL (MS SQL/PostgreSQL) и виртуализации (Proxmox/Hyper-V). ️",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121705848",
+      "name": "Системный администратор / Инженер IT-инфраструктуры",
+      "company": "Башкирский регистр социальных карт",
+      "company_id": "754169",
+      "company_url": "https://hh.ru/employer/754169",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/456654.png",
+      "url": "https://hh.ru/vacancy/121705848",
+      "published_at": "2025-07-05T07:17:58+0300",
+      "created_at": "2025-07-05T07:17:58+0300",
+      "area": "Уфа",
+      "salary": "от 90 000 RUR на руки",
+      "salary_raw": {
+        "from": 90000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Создание, настройка, развертывание и управление виртуальными машинами (ВМ). Конфигурирование ресурсов ВМ (vCPU, RAM, диск, сеть). Применение функций кластеризации (vSphere HA...",
+      "responsibility": "Linux (одно или несколько распространенных дистрибутивов: RHEL/CentOS, Ubuntu Server, Debian): Установка, настройка, обновление, патчинг. Администрирование пользователей, групп, прав доступа.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "122071988",
       "name": "Младший системный администратор (для начинающих специалистов)",
@@ -379,12 +445,12 @@
       "published_at": "2025-07-04T16:26:46+0300",
       "created_at": "2025-07-04T16:26:46+0300",
       "area": "Улан-Удэ",
-      "salary": "от 50 000 RUR на руки",
+      "salary": "от 60 000 RUR до вычета налогов",
       "salary_raw": {
-        "from": 50000,
+        "from": 60000,
         "to": null,
         "currency": "RUR",
-        "gross": false
+        "gross": true
       },
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
@@ -9057,72 +9123,6 @@
       "accept_temporary": false
     },
     {
-      "id": "121921986",
-      "name": "Системный администратор",
-      "company": "Импрув-АйТи",
-      "company_id": "4693660",
-      "company_url": "https://hh.ru/employer/4693660",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1417709.png",
-      "url": "https://hh.ru/vacancy/121921986",
-      "published_at": "2025-07-02T07:46:40+0300",
-      "created_at": "2025-07-02T07:46:40+0300",
-      "area": "Челябинск",
-      "salary": "от 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Обязательные навыки: ️ Администрирование серверов на ОС Windows/Linux (от 1 года), включая: ️ Навыки работы с сетевым оборудованием:",
-      "responsibility": "Администрирование Windows/Linux-серверов (AD, GPO, DNS, DHCP). ️ Настройка 1С, SQL (MS SQL/PostgreSQL) и виртуализации (Proxmox/Hyper-V). ️",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121705848",
-      "name": "Системный администратор / Инженер IT-инфраструктуры",
-      "company": "Башкирский регистр социальных карт",
-      "company_id": "754169",
-      "company_url": "https://hh.ru/employer/754169",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/456654.png",
-      "url": "https://hh.ru/vacancy/121705848",
-      "published_at": "2025-07-02T07:17:58+0300",
-      "created_at": "2025-07-02T07:17:58+0300",
-      "area": "Уфа",
-      "salary": "от 90 000 RUR на руки",
-      "salary_raw": {
-        "from": 90000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Создание, настройка, развертывание и управление виртуальными машинами (ВМ). Конфигурирование ресурсов ВМ (vCPU, RAM, диск, сеть). Применение функций кластеризации (vSphere HA...",
-      "responsibility": "Linux (одно или несколько распространенных дистрибутивов: RHEL/CentOS, Ubuntu Server, Debian): Установка, настройка, обновление, патчинг. Администрирование пользователей, групп, прав доступа.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "121382449",
       "name": "Системный администратор Anykey",
       "company": "InlyIT",
@@ -15480,16 +15480,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122155216",
+      "id": "122155202",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122155216",
+      "url": "https://hh.ru/vacancy/122155202",
       "published_at": "2025-06-27T16:08:17+0300",
       "created_at": "2025-06-27T16:08:17+0300",
-      "area": "Агинское (Забайкальский АО)",
+      "area": "Нерюнгри",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -15513,16 +15513,49 @@
       "accept_temporary": false
     },
     {
-      "id": "122155202",
+      "id": "122155197",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122155202",
+      "url": "https://hh.ru/vacancy/122155197",
       "published_at": "2025-06-27T16:08:17+0300",
       "created_at": "2025-06-27T16:08:17+0300",
-      "area": "Нерюнгри",
+      "area": "Ленск",
+      "salary": "200 - 10 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 200,
+        "to": 10000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122155216",
+      "name": "Выездной инженер технической поддержки/системный администратор",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/122155216",
+      "published_at": "2025-06-27T16:08:17+0300",
+      "created_at": "2025-06-27T16:08:17+0300",
+      "area": "Агинское (Забайкальский АО)",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -15589,39 +15622,6 @@
       "published_at": "2025-06-27T16:08:17+0300",
       "created_at": "2025-06-27T16:08:17+0300",
       "area": "Нерчинск",
-      "salary": "200 - 10 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 200,
-        "to": 10000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
-      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122155197",
-      "name": "Выездной инженер технической поддержки/системный администратор",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122155197",
-      "published_at": "2025-06-27T16:08:17+0300",
-      "created_at": "2025-06-27T16:08:17+0300",
-      "area": "Ленск",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -16224,6 +16224,34 @@
       "accept_temporary": false
     },
     {
+      "id": "121429215",
+      "name": "Системный администратор ЦОД (Linux/Windows)",
+      "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
+      "company_id": "1864933",
+      "company_url": "https://hh.ru/employer/1864933",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/657972.png",
+      "url": "https://hh.ru/vacancy/121429215",
+      "published_at": "2025-06-27T10:06:04+0300",
+      "created_at": "2025-06-27T10:06:04+0300",
+      "area": "Томск",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "Нет опыта",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Понимание сетевых моделей (OSI, TCP/IP), базовых принципов коммутации и маршрутизации. Реальный опыт использования ОС семейства *nix, с уровнем знаний...",
+      "responsibility": "Работа в составе дежурной смены технической поддержки. Создание/обработка возникающих инцидентов, диагностика, устранение проблем в рамках компетенции или дальнейшая эскалация...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "97787417",
       "name": "Системный администратор",
       "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
@@ -16249,34 +16277,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Специалист технической поддержки"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121429215",
-      "name": "Системный администратор ЦОД (Linux/Windows)",
-      "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
-      "company_id": "1864933",
-      "company_url": "https://hh.ru/employer/1864933",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/657972.png",
-      "url": "https://hh.ru/vacancy/121429215",
-      "published_at": "2025-06-27T10:06:04+0300",
-      "created_at": "2025-06-27T10:06:04+0300",
-      "area": "Томск",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "Нет опыта",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "Понимание сетевых моделей (OSI, TCP/IP), базовых принципов коммутации и маршрутизации. Реальный опыт использования ОС семейства *nix, с уровнем знаний...",
-      "responsibility": "Работа в составе дежурной смены технической поддержки. Создание/обработка возникающих инцидентов, диагностика, устранение проблем в рамках компетенции или дальнейшая эскалация...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
       ],
       "has_test": false,
       "premium": false,
@@ -26495,16 +26495,16 @@
       "accept_temporary": true
     },
     {
-      "id": "121789384",
+      "id": "121789388",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121789384",
+      "url": "https://hh.ru/vacancy/121789388",
       "published_at": "2025-06-18T13:40:13+0300",
       "created_at": "2025-06-18T13:40:13+0300",
-      "area": "Когалым",
+      "area": "Усть-Илимск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -26523,16 +26523,16 @@
       "accept_temporary": true
     },
     {
-      "id": "121789388",
+      "id": "121789384",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121789388",
+      "url": "https://hh.ru/vacancy/121789384",
       "published_at": "2025-06-18T13:40:13+0300",
       "created_at": "2025-06-18T13:40:13+0300",
-      "area": "Усть-Илимск",
+      "area": "Когалым",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -34865,39 +34865,6 @@
       "employment": "Полная занятость",
       "requirement": "Отличные знания ПК. Владение языком написания запросов баз данных 1С (SQL на русском). Опыт выполнения аналогичных вышеперечисленных обязанностей.",
       "responsibility": "Обновления и обмен данными между базами 1С: Предприятие 8.3 (Комплексная, Бухгалтерия, ЗУП). Разработка нетиповых отчетов и обработка в...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120579453",
-      "name": "Системный администратор",
-      "company": "TS Group",
-      "company_id": "1035258",
-      "company_url": "https://hh.ru/employer/1035258",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1283169.png",
-      "url": "https://hh.ru/vacancy/120579453",
-      "published_at": "2025-06-05T07:48:26+0300",
-      "created_at": "2025-06-05T07:48:26+0300",
-      "area": "Новосибирск",
-      "salary": "до 85 000 RUR на руки",
-      "salary_raw": {
-        "from": null,
-        "to": 85000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы системным администратором от 2х лет. Высшее или среднее специальное образование (IT, телекоммуникации или смежные области).",
-      "responsibility": "Администрирование ПК и серверов Windows. Установка, настройка, обслуживание, Active Directory, DHCP, DNS. Организация и поддержание бесперебойной работы Lan/Wan, беспроводных...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
