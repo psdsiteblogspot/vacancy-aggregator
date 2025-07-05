@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-05T05:21:07Z",
+  "updated": "2025-07-05T06:30:08Z",
   "statistics": {
     "total": 1540,
-    "with_salary": 870,
-    "companies": 1209,
+    "with_salary": 871,
+    "companies": 1207,
     "cities": 90,
     "premium": 2,
     "with_test": 66
   },
   "vacancies": [
+    {
+      "id": "122287520",
+      "name": "Системный администратор (middle)",
+      "company": "Туроператор Русь",
+      "company_id": "1104183",
+      "company_url": "https://hh.ru/employer/1104183",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1416018.png",
+      "url": "https://hh.ru/vacancy/122287520",
+      "published_at": "2025-07-05T08:57:00+0300",
+      "created_at": "2025-07-05T08:57:00+0300",
+      "area": "Москва",
+      "salary": "130 000 - 170 000 RUR на руки",
+      "salary_raw": {
+        "from": 130000,
+        "to": 170000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Более 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Хороший опыт работы со всем оборудованием, перечисленным выше.",
+      "responsibility": "Поддержка офиса: компьютеры (100+), принтеры, телефония, , СКУД, видеонаблюдение. Работа с сетевым оборудованием Mikrotik. Администрирование терминального сервера. Контроль доступа, безопасность...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": true,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "121921368",
       "name": "Системный администратор",
@@ -18185,39 +18218,6 @@
       "accept_temporary": false
     },
     {
-      "id": "122287520",
-      "name": "Системный администратор (middle)",
-      "company": "Туроператор Русь",
-      "company_id": "1104183",
-      "company_url": "https://hh.ru/employer/1104183",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1416018.png",
-      "url": "https://hh.ru/vacancy/122287520",
-      "published_at": "2025-07-02T08:57:00+0300",
-      "created_at": "2025-07-02T08:57:00+0300",
-      "area": "Москва",
-      "salary": "130 000 - 170 000 RUR на руки",
-      "salary_raw": {
-        "from": 130000,
-        "to": 170000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Более 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Хороший опыт работы со всем оборудованием, перечисленным выше.",
-      "responsibility": "Поддержка офиса: компьютеры (100+), принтеры, телефония, , СКУД, видеонаблюдение. Работа с сетевым оборудованием Mikrotik. Администрирование терминального сервера. Контроль доступа, безопасность...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": true,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "122287432",
       "name": "Системный администратор",
       "company": "Амедарт",
@@ -18240,34 +18240,6 @@
       "employment": "Полная занятость",
       "requirement": "Наличие среднего или высшего профессионального образования. Аналогичный опыт работы от 2х лет. Опыт внедрения систем мониторинга сервисов ИТ-инфраструктуры.",
       "responsibility": "Обслуживать IT-инфраструктуру (сервера, сеть, прикладные сервисы). Активное участие в проектировании (развитии) ИТ-ландшафта компании. Оперативно реагировать на инциденты.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121362755",
-      "name": "Системный администратор / DevOps инженер",
-      "company": "АйТи Авиа",
-      "company_id": "557724",
-      "company_url": "https://hh.ru/employer/557724",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/961886.png",
-      "url": "https://hh.ru/vacancy/121362755",
-      "published_at": "2025-07-02T08:37:07+0300",
-      "created_at": "2025-07-02T08:37:07+0300",
-      "area": "Санкт-Петербург",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "навыки настройки, обслуживания оборудования (компьютеры, серверы, принтеры, сетевые устройства). - навыки работы с VMware и Hyper-V. - навыки в написании скриптов...",
-      "responsibility": "администрирование, поддержка и развитие кластеров K8s (распределение нагрузки, повышение отказоустойчивости и тд). - обеспечение работоспособности систем и сервисов. -",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -36272,34 +36244,6 @@
       "accept_temporary": false
     },
     {
-      "id": "120745936",
-      "name": "Системный администратор (эникейщик)",
-      "company": "Эмпериум",
-      "company_id": "5648278",
-      "company_url": "https://hh.ru/employer/5648278",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1390902.png",
-      "url": "https://hh.ru/vacancy/120745936",
-      "published_at": "2025-06-19T10:24:45+0300",
-      "created_at": "2025-06-19T10:24:45+0300",
-      "area": "Санкт-Петербург",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "",
-      "type": "Закрытая",
-      "professional_roles": [
-        "Специалист технической поддержки"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "121814901",
       "name": "Системный администратор-аналитик ИБ",
       "company": "Цикада",
@@ -36704,16 +36648,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121801532",
+      "id": "121801531",
       "name": "Системный администратор",
       "company": "Модульные котельные системы",
       "company_id": "747996",
       "company_url": "https://hh.ru/employer/747996",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/142923.png",
-      "url": "https://hh.ru/vacancy/121801532",
+      "url": "https://hh.ru/vacancy/121801531",
       "published_at": "2025-06-18T16:31:17+0300",
       "created_at": "2025-06-18T16:31:17+0300",
-      "area": "Краснознаменск (Московская область)",
+      "area": "Одинцово (Московская область)",
       "salary": "от 90 000 RUR на руки",
       "salary_raw": {
         "from": 90000,
@@ -36737,16 +36681,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121801531",
+      "id": "121801532",
       "name": "Системный администратор",
       "company": "Модульные котельные системы",
       "company_id": "747996",
       "company_url": "https://hh.ru/employer/747996",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/142923.png",
-      "url": "https://hh.ru/vacancy/121801531",
+      "url": "https://hh.ru/vacancy/121801532",
       "published_at": "2025-06-18T16:31:17+0300",
       "created_at": "2025-06-18T16:31:17+0300",
-      "area": "Одинцово (Московская область)",
+      "area": "Краснознаменск (Московская область)",
       "salary": "от 90 000 RUR на руки",
       "salary_raw": {
         "from": 90000,
@@ -41640,16 +41584,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121652577",
+      "id": "121652575",
       "name": "Системный администратор",
       "company": "RGW",
       "company_id": "3856969",
       "company_url": "https://hh.ru/employer/3856969",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/909741.png",
-      "url": "https://hh.ru/vacancy/121652577",
+      "url": "https://hh.ru/vacancy/121652575",
       "published_at": "2025-06-16T09:40:14+0300",
       "created_at": "2025-06-16T09:40:14+0300",
-      "area": "Чехов (Московская область)",
+      "area": "Видное (Московская область)",
       "salary": "до 160 000 RUR на руки",
       "salary_raw": {
         "from": null,
@@ -41673,16 +41617,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121652575",
+      "id": "121652577",
       "name": "Системный администратор",
       "company": "RGW",
       "company_id": "3856969",
       "company_url": "https://hh.ru/employer/3856969",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/909741.png",
-      "url": "https://hh.ru/vacancy/121652575",
+      "url": "https://hh.ru/vacancy/121652577",
       "published_at": "2025-06-16T09:40:14+0300",
       "created_at": "2025-06-16T09:40:14+0300",
-      "area": "Видное (Московская область)",
+      "area": "Чехов (Московская область)",
       "salary": "до 160 000 RUR на руки",
       "salary_raw": {
         "from": null,
@@ -47483,6 +47427,67 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121040933",
+      "name": "Системный администратор (специалист техподдержки)",
+      "company": "Группа компаний ЕКС",
+      "company_id": "1143452",
+      "company_url": "https://hh.ru/employer/1143452",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/781012.jpg",
+      "url": "https://hh.ru/vacancy/121040933",
+      "published_at": "2025-05-27T16:04:27+0300",
+      "created_at": "2025-05-27T16:04:27+0300",
+      "area": "Москва",
+      "salary": "100 000 - 120 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Понимание модели OSI. Создание и изменение учетных записей AD/Exchange. Опыт поддержки пользователей на базе ПО Microsoft (Office, Outlook).",
+      "responsibility": "Техническая поддержка пользователей. Диагностика неисправностей ПК, настройка и агрегатная замена. Организация новых рабочих мест. Оперативное решение проблем пользователей с программным...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "118953439",
+      "name": "Системный администратор, DevOps",
+      "company": "Петербургская Биржа",
+      "company_id": "738493",
+      "company_url": "https://hh.ru/employer/738493",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1412987.png",
+      "url": "https://hh.ru/vacancy/118953439",
+      "published_at": "2025-04-27T09:14:06+0300",
+      "created_at": "2025-04-27T09:14:06+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "",
+      "responsibility": "",
+      "type": "Открытая",
+      "professional_roles": [
+        "DevOps-инженер"
       ],
       "has_test": false,
       "premium": false,
