@@ -10,9 +10,9 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-07T20:25:15Z",
+  "updated": "2025-07-07T21:20:42Z",
   "statistics": {
-    "total": 1520,
+    "total": 1522,
     "with_salary": 863,
     "companies": 1201,
     "cities": 86,
@@ -20,6 +20,34 @@
     "with_test": 63
   },
   "vacancies": [
+    {
+      "id": "122501213",
+      "name": "Системный администратор баз данных",
+      "company": "ГКУ Инфогород",
+      "company_id": "2427329",
+      "company_url": "https://hh.ru/employer/2427329",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/772017.png",
+      "url": "https://hh.ru/vacancy/122501213",
+      "published_at": "2025-07-08T00:00:53+0300",
+      "created_at": "2025-07-08T00:00:53+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Базовые знания Linux систем. Опыт работы с Git. Опыт работы с Docker (сборка контейнеров, docker-compose). Базовые навыки написания скриптов...",
+      "responsibility": "Администрирование и поддержка аналитических/реляционных СУБД (PostgreSQL, Clickhouse). Выстраивание мониторинга и алертинга для СУБД. Автоматизация процессов на уровне СУБД.",
+      "type": "Открытая",
+      "professional_roles": [
+        "BI-аналитик, аналитик данных"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "121439129",
       "name": "Системный администратор",
@@ -23809,16 +23837,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122216013",
+      "id": "122216012",
       "name": "Старший системный администратор",
       "company": "Международный аэропорт Жуковский",
       "company_id": "1648021",
       "company_url": "https://hh.ru/employer/1648021",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/488563.jpg",
-      "url": "https://hh.ru/vacancy/122216013",
+      "url": "https://hh.ru/vacancy/122216012",
       "published_at": "2025-06-30T16:10:58+0300",
       "created_at": "2025-06-30T16:10:58+0300",
-      "area": "Раменское (Московская область)",
+      "area": "Жуковский  (Московская область)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -23837,16 +23865,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122216012",
+      "id": "122216013",
       "name": "Старший системный администратор",
       "company": "Международный аэропорт Жуковский",
       "company_id": "1648021",
       "company_url": "https://hh.ru/employer/1648021",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/488563.jpg",
-      "url": "https://hh.ru/vacancy/122216012",
+      "url": "https://hh.ru/vacancy/122216013",
       "published_at": "2025-06-30T16:10:58+0300",
       "created_at": "2025-06-30T16:10:58+0300",
-      "area": "Жуковский  (Московская область)",
+      "area": "Раменское (Московская область)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -38465,16 +38493,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121801531",
+      "id": "121801533",
       "name": "Системный администратор",
       "company": "Модульные котельные системы",
       "company_id": "747996",
       "company_url": "https://hh.ru/employer/747996",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/142923.png",
-      "url": "https://hh.ru/vacancy/121801531",
+      "url": "https://hh.ru/vacancy/121801533",
       "published_at": "2025-06-18T16:31:17+0300",
       "created_at": "2025-06-18T16:31:17+0300",
-      "area": "Одинцово (Московская область)",
+      "area": "Апрелевка (Московская область)",
       "salary": "от 90 000 RUR на руки",
       "salary_raw": {
         "from": 90000,
@@ -38498,16 +38526,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121801533",
+      "id": "121801531",
       "name": "Системный администратор",
       "company": "Модульные котельные системы",
       "company_id": "747996",
       "company_url": "https://hh.ru/employer/747996",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/142923.png",
-      "url": "https://hh.ru/vacancy/121801533",
+      "url": "https://hh.ru/vacancy/121801531",
       "published_at": "2025-06-18T16:31:17+0300",
       "created_at": "2025-06-18T16:31:17+0300",
-      "area": "Апрелевка (Московская область)",
+      "area": "Одинцово (Московская область)",
       "salary": "от 90 000 RUR на руки",
       "salary_raw": {
         "from": 90000,
@@ -46883,11 +46911,39 @@
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
+      "requirement": "Понимание модели OSI. Создание и изменение учетных записей AD/Exchange. Опыт поддержки пользователей на базе ПО Microsoft (Office, Outlook).",
+      "responsibility": "Техническая поддержка пользователей. Диагностика неисправностей ПК, настройка и агрегатная замена. Организация новых рабочих мест. Оперативное решение проблем пользователей с программным...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "118953439",
+      "name": "Системный администратор, DevOps",
+      "company": "Петербургская Биржа",
+      "company_id": "738493",
+      "company_url": "https://hh.ru/employer/738493",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1412987.png",
+      "url": "https://hh.ru/vacancy/118953439",
+      "published_at": "2025-04-27T09:14:06+0300",
+      "created_at": "2025-04-27T09:14:06+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
       "requirement": "",
       "responsibility": "",
       "type": "Открытая",
       "professional_roles": [
-        "Системный администратор"
+        "DevOps-инженер"
       ],
       "has_test": false,
       "premium": false,
