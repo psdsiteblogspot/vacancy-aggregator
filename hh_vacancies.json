@@ -10,16 +10,44 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-07T19:19:09Z",
+  "updated": "2025-07-07T20:25:15Z",
   "statistics": {
-    "total": 1522,
-    "with_salary": 864,
-    "companies": 1202,
+    "total": 1520,
+    "with_salary": 863,
+    "companies": 1201,
     "cities": 86,
     "premium": 2,
     "with_test": 63
   },
   "vacancies": [
+    {
+      "id": "121439129",
+      "name": "Системный администратор",
+      "company": "Инконтрол",
+      "company_id": "4469308",
+      "company_url": "https://hh.ru/employer/4469308",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1387251.png",
+      "url": "https://hh.ru/vacancy/121439129",
+      "published_at": "2025-07-07T22:35:38+0300",
+      "created_at": "2025-07-07T22:35:38+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Базовые знания по компьютерному железу. Знание операционной системы Linux. Знание сетевого оборудования и сетевых протоколов. Желание учиться и развиваться в...",
+      "responsibility": "Подготовка проектного оборудования: тестирование серверов и компьютеров на корректную работу компонентов. Установка и настройка операционных систем (Linux). Оптимизация работы программного...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "122432425",
       "name": "Системный администратор",
@@ -3528,39 +3556,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": false
-    },
-    {
-      "id": "121674814",
-      "name": "Системный администратор / DevOps-инженер (Middle)",
-      "company": "ИнфоНет Мобил",
-      "company_id": "2000353",
-      "company_url": "https://hh.ru/employer/2000353",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/290333.png",
-      "url": "https://hh.ru/vacancy/121674814",
-      "published_at": "2025-07-07T13:14:53+0300",
-      "created_at": "2025-07-07T13:14:53+0300",
-      "area": "Москва",
-      "salary": "150 000 - 150 000 RUR на руки",
-      "salary_raw": {
-        "from": 150000,
-        "to": 150000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Понимание архитектуры Kubernetes. Опыт администрирования Keycloak. Знание Greenplum или других кластерных СУБД.",
-      "responsibility": "Выполнение регламентных обновлений ПО: БД, BI-системы, web-сервисы, приложения. Устранение уязвимостей и угроз безопасности. Поддержка и разработка технической документации.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
     },
     {
       "id": "122471385",
@@ -33277,16 +33272,16 @@
       "accept_temporary": true
     },
     {
-      "id": "121807517",
+      "id": "121807518",
       "name": "Помощник системного администратора / Начинающий специалист",
       "company": "NV GROUP",
       "company_id": "579783",
       "company_url": "https://hh.ru/employer/579783",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
-      "url": "https://hh.ru/vacancy/121807517",
+      "url": "https://hh.ru/vacancy/121807518",
       "published_at": "2025-06-23T18:42:52+0300",
       "created_at": "2025-06-23T18:42:52+0300",
-      "area": "Наро-Фоминск (Московская область)",
+      "area": "Руза (Московская область)",
       "salary": "от 60 000 RUR на руки",
       "salary_raw": {
         "from": 60000,
@@ -33310,16 +33305,16 @@
       "accept_temporary": true
     },
     {
-      "id": "121807518",
+      "id": "121807517",
       "name": "Помощник системного администратора / Начинающий специалист",
       "company": "NV GROUP",
       "company_id": "579783",
       "company_url": "https://hh.ru/employer/579783",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
-      "url": "https://hh.ru/vacancy/121807518",
+      "url": "https://hh.ru/vacancy/121807517",
       "published_at": "2025-06-23T18:42:52+0300",
       "created_at": "2025-06-23T18:42:52+0300",
-      "area": "Руза (Московская область)",
+      "area": "Наро-Фоминск (Московская область)",
       "salary": "от 60 000 RUR на руки",
       "salary_raw": {
         "from": 60000,
@@ -46868,34 +46863,6 @@
       "accept_temporary": false
     },
     {
-      "id": "121439129",
-      "name": "Системный администратор",
-      "company": "Инконтрол",
-      "company_id": "4469308",
-      "company_url": "https://hh.ru/employer/4469308",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1387251.png",
-      "url": "https://hh.ru/vacancy/121439129",
-      "published_at": "2025-06-07T22:35:37+0300",
-      "created_at": "2025-06-07T22:35:37+0300",
-      "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Базовые знания по компьютерному железу. Знание операционной системы Linux. Знание сетевого оборудования и сетевых протоколов. Желание учиться и развиваться в...",
-      "responsibility": "Подготовка проектного оборудования: тестирование серверов и компьютеров на корректную работу компонентов. Установка и настройка операционных систем (Linux). Оптимизация работы программного...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "121040933",
       "name": "Системный администратор (специалист техподдержки)",
       "company": "Группа компаний ЕКС",
@@ -46916,39 +46883,11 @@
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "Понимание модели OSI. Создание и изменение учетных записей AD/Exchange. Опыт поддержки пользователей на базе ПО Microsoft (Office, Outlook).",
-      "responsibility": "Техническая поддержка пользователей. Диагностика неисправностей ПК, настройка и агрегатная замена. Организация новых рабочих мест. Оперативное решение проблем пользователей с программным...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "118953439",
-      "name": "Системный администратор, DevOps",
-      "company": "Петербургская Биржа",
-      "company_id": "738493",
-      "company_url": "https://hh.ru/employer/738493",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1412987.png",
-      "url": "https://hh.ru/vacancy/118953439",
-      "published_at": "2025-04-27T09:14:06+0300",
-      "created_at": "2025-04-27T09:14:06+0300",
-      "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
       "requirement": "",
       "responsibility": "",
       "type": "Открытая",
       "professional_roles": [
-        "DevOps-инженер"
+        "Системный администратор"
       ],
       "has_test": false,
       "premium": false,
