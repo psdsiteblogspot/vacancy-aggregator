@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-07T17:19:58Z",
+  "updated": "2025-07-07T18:31:34Z",
   "statistics": {
     "total": 1522,
     "with_salary": 864,
@@ -20,6 +20,39 @@
     "with_test": 63
   },
   "vacancies": [
+    {
+      "id": "122432425",
+      "name": "Системный администратор",
+      "company": "BYTIME",
+      "company_id": "9415446",
+      "company_url": "https://hh.ru/employer/9415446",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1409284.png",
+      "url": "https://hh.ru/vacancy/122432425",
+      "published_at": "2025-07-07T20:44:29+0300",
+      "created_at": "2025-07-07T20:44:29+0300",
+      "area": "Москва",
+      "salary": "150 000 - 240 000 RUR на руки",
+      "salary_raw": {
+        "from": 150000,
+        "to": 240000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы (ОБЯЗАТЕЛЬНО) с highload web-проектами (основной стэк: php, mysql). Опыт удаленного администрирования операционных систем Linux (Ubuntu/Debian ) от...",
+      "responsibility": "Администрирование парка виртуальных серверов. Мониторинг инфраструктуры. Поиск узких мест и оптимизация совместно с командой разработки. Настройка CI/CD на базе...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "122500267",
       "name": "Системный администратор",
@@ -48,6 +81,39 @@
         "Системный администратор"
       ],
       "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121858277",
+      "name": "System Administrator/SRE (работа по графику офиса США)",
+      "company": "Americor Funding Inc",
+      "company_id": "4354272",
+      "company_url": "https://hh.ru/employer/4354272",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/690861.png",
+      "url": "https://hh.ru/vacancy/121858277",
+      "published_at": "2025-07-07T20:12:49+0300",
+      "created_at": "2025-07-07T20:12:49+0300",
+      "area": "Москва",
+      "salary": "от 4 500 USD до вычета налогов",
+      "salary_raw": {
+        "from": 4500,
+        "to": null,
+        "currency": "USD",
+        "gross": true
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "5+ лет опыта поддержки высокодоступной инфраструктуры в условиях высокой нагрузки. Экспертные знания в системах Linux и веб-стеке (Nginx...",
+      "responsibility": "Операционные системы: CentOS / AlmaLinux OS. Хранение данных: GlusterFS. Инструменты мониторинга: Datadog, Sentry, Pingdom. IaC: Terraform, Ansible. Система оповещения: OpsGenie.",
+      "type": "Открытая",
+      "professional_roles": [
+        "DevOps-инженер"
+      ],
+      "has_test": true,
       "premium": false,
       "accept_handicapped": false,
       "accept_kids": false,
@@ -14242,72 +14308,6 @@
       "accept_temporary": false
     },
     {
-      "id": "122432425",
-      "name": "Системный администратор",
-      "company": "BYTIME",
-      "company_id": "9415446",
-      "company_url": "https://hh.ru/employer/9415446",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1409284.png",
-      "url": "https://hh.ru/vacancy/122432425",
-      "published_at": "2025-07-04T20:44:29+0300",
-      "created_at": "2025-07-04T20:44:29+0300",
-      "area": "Москва",
-      "salary": "150 000 - 240 000 RUR на руки",
-      "salary_raw": {
-        "from": 150000,
-        "to": 240000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы (ОБЯЗАТЕЛЬНО) с highload web-проектами (основной стэк: php, mysql). Опыт удаленного администрирования операционных систем Linux (Ubuntu/Debian ) от...",
-      "responsibility": "Администрирование парка виртуальных серверов. Мониторинг инфраструктуры. Поиск узких мест и оптимизация совместно с командой разработки. Настройка CI/CD на базе...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121858277",
-      "name": "System Administrator/SRE (работа по графику офиса США)",
-      "company": "Americor Funding Inc",
-      "company_id": "4354272",
-      "company_url": "https://hh.ru/employer/4354272",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/690861.png",
-      "url": "https://hh.ru/vacancy/121858277",
-      "published_at": "2025-07-04T20:12:49+0300",
-      "created_at": "2025-07-04T20:12:49+0300",
-      "area": "Москва",
-      "salary": "от 4 500 USD до вычета налогов",
-      "salary_raw": {
-        "from": 4500,
-        "to": null,
-        "currency": "USD",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "5+ лет опыта поддержки высокодоступной инфраструктуры в условиях высокой нагрузки. Экспертные знания в системах Linux и веб-стеке (Nginx...",
-      "responsibility": "Операционные системы: CentOS / AlmaLinux OS. Хранение данных: GlusterFS. Инструменты мониторинга: Datadog, Sentry, Pingdom. IaC: Terraform, Ansible. Система оповещения: OpsGenie.",
-      "type": "Открытая",
-      "professional_roles": [
-        "DevOps-инженер"
-      ],
-      "has_test": true,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "115361230",
       "name": "Системный администратор - Младший специалист технической поддержки",
       "company": "Оптимальный сервис",
@@ -23814,16 +23814,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122216012",
+      "id": "122216013",
       "name": "Старший системный администратор",
       "company": "Международный аэропорт Жуковский",
       "company_id": "1648021",
       "company_url": "https://hh.ru/employer/1648021",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/488563.jpg",
-      "url": "https://hh.ru/vacancy/122216012",
+      "url": "https://hh.ru/vacancy/122216013",
       "published_at": "2025-06-30T16:10:58+0300",
       "created_at": "2025-06-30T16:10:58+0300",
-      "area": "Жуковский  (Московская область)",
+      "area": "Раменское (Московская область)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -23842,16 +23842,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122216013",
+      "id": "122216012",
       "name": "Старший системный администратор",
       "company": "Международный аэропорт Жуковский",
       "company_id": "1648021",
       "company_url": "https://hh.ru/employer/1648021",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/488563.jpg",
-      "url": "https://hh.ru/vacancy/122216013",
+      "url": "https://hh.ru/vacancy/122216012",
       "published_at": "2025-06-30T16:10:58+0300",
       "created_at": "2025-06-30T16:10:58+0300",
-      "area": "Раменское (Московская область)",
+      "area": "Жуковский  (Московская область)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -37265,16 +37265,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121864781",
+      "id": "121864782",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121864781",
+      "url": "https://hh.ru/vacancy/121864782",
       "published_at": "2025-06-20T08:33:22+0300",
       "created_at": "2025-06-20T08:33:22+0300",
-      "area": "Бокситогорск",
+      "area": "Пикалево",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -37293,16 +37293,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121864782",
+      "id": "121864781",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121864782",
+      "url": "https://hh.ru/vacancy/121864781",
       "published_at": "2025-06-20T08:33:22+0300",
       "created_at": "2025-06-20T08:33:22+0300",
-      "area": "Пикалево",
+      "area": "Бокситогорск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -38053,8 +38053,8 @@
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "Умение диагностировать проблемы, устранять простые неисправности в работе компьютеров, принтеров, сканеров, телефонов. Необходимы знания ОС Debian, RedOS, их деривативов.",
-      "responsibility": "Обработка, выполнение заявок по линии IT, поступающих от servicedesk. Диагностика проблем, решение проблем, передача информации о ходе своей работы по...",
+      "requirement": "",
+      "responsibility": "",
       "type": "Закрытая",
       "professional_roles": [
         "Специалист технической поддержки"
@@ -43167,16 +43167,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121652574",
+      "id": "121652575",
       "name": "Системный администратор",
       "company": "RGW",
       "company_id": "3856969",
       "company_url": "https://hh.ru/employer/3856969",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/909741.png",
-      "url": "https://hh.ru/vacancy/121652574",
+      "url": "https://hh.ru/vacancy/121652575",
       "published_at": "2025-06-16T09:40:14+0300",
       "created_at": "2025-06-16T09:40:14+0300",
-      "area": "Щербинка (Московская область)",
+      "area": "Видное (Московская область)",
       "salary": "до 160 000 RUR на руки",
       "salary_raw": {
         "from": null,
@@ -43200,16 +43200,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121652575",
+      "id": "121652574",
       "name": "Системный администратор",
       "company": "RGW",
       "company_id": "3856969",
       "company_url": "https://hh.ru/employer/3856969",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/909741.png",
-      "url": "https://hh.ru/vacancy/121652575",
+      "url": "https://hh.ru/vacancy/121652574",
       "published_at": "2025-06-16T09:40:14+0300",
       "created_at": "2025-06-16T09:40:14+0300",
-      "area": "Видное (Московская область)",
+      "area": "Щербинка (Московская область)",
       "salary": "до 160 000 RUR на руки",
       "salary_raw": {
         "from": null,
