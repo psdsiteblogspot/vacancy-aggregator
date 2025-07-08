@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-08T18:31:46Z",
+  "updated": "2025-07-08T19:18:08Z",
   "statistics": {
     "total": 1563,
-    "with_salary": 878,
-    "companies": 1236,
+    "with_salary": 879,
+    "companies": 1235,
     "cities": 87,
     "premium": 1,
     "with_test": 64
   },
   "vacancies": [
+    {
+      "id": "121757229",
+      "name": "Системный администратор Linux / Cloud / Zabbix",
+      "company": "Мидикт",
+      "company_id": "676836",
+      "company_url": "https://hh.ru/employer/676836",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/435372.png",
+      "url": "https://hh.ru/vacancy/121757229",
+      "published_at": "2025-07-08T21:11:19+0300",
+      "created_at": "2025-07-08T21:11:19+0300",
+      "area": "Москва",
+      "salary": "100 000 - 130 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": 130000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт ведения проектов, умение работать в команде. Опыт работы и администрирования облачных решений на базе Proxmox, Open Nebula, VMware.",
+      "responsibility": "Проектирование, внедрение, администрирование, эксплуатация и развитие облачной инфраструктуры, различных сервисов, систем мониторинга, логирования, сетевого анализа, аналитики и доступа.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
     {
       "id": "120620067",
       "name": "Системный администратор Linux",
@@ -17346,39 +17379,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": false
-    },
-    {
-      "id": "121757229",
-      "name": "Системный администратор Linux / Cloud / Zabbix",
-      "company": "Мидикт",
-      "company_id": "676836",
-      "company_url": "https://hh.ru/employer/676836",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/435372.png",
-      "url": "https://hh.ru/vacancy/121757229",
-      "published_at": "2025-07-05T21:11:19+0300",
-      "created_at": "2025-07-05T21:11:19+0300",
-      "area": "Москва",
-      "salary": "100 000 - 130 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": 130000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт ведения проектов, умение работать в команде. Опыт работы и администрирования облачных решений на базе Proxmox, Open Nebula, VMware.",
-      "responsibility": "Проектирование, внедрение, администрирование, эксплуатация и развитие облачной инфраструктуры, различных сервисов, систем мониторинга, логирования, сетевого анализа, аналитики и доступа.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
     },
     {
       "id": "120958353",
@@ -40242,16 +40242,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121801532",
+      "id": "121801531",
       "name": "Системный администратор",
       "company": "Модульные котельные системы",
       "company_id": "747996",
       "company_url": "https://hh.ru/employer/747996",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/142923.png",
-      "url": "https://hh.ru/vacancy/121801532",
+      "url": "https://hh.ru/vacancy/121801531",
       "published_at": "2025-06-18T16:31:17+0300",
       "created_at": "2025-06-18T16:31:17+0300",
-      "area": "Краснознаменск (Московская область)",
+      "area": "Одинцово (Московская область)",
       "salary": "от 90 000 RUR на руки",
       "salary_raw": {
         "from": 90000,
@@ -40275,16 +40275,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121801531",
+      "id": "121801532",
       "name": "Системный администратор",
       "company": "Модульные котельные системы",
       "company_id": "747996",
       "company_url": "https://hh.ru/employer/747996",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/142923.png",
-      "url": "https://hh.ru/vacancy/121801531",
+      "url": "https://hh.ru/vacancy/121801532",
       "published_at": "2025-06-18T16:31:17+0300",
       "created_at": "2025-06-18T16:31:17+0300",
-      "area": "Одинцово (Московская область)",
+      "area": "Краснознаменск (Московская область)",
       "salary": "от 90 000 RUR на руки",
       "salary_raw": {
         "from": 90000,
@@ -46238,34 +46238,6 @@
       "accept_temporary": false
     },
     {
-      "id": "120922975",
-      "name": "Младший системный администратор",
-      "company": "Bercut",
-      "company_id": "11600",
-      "company_url": "https://hh.ru/employer/11600",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/801192.png",
-      "url": "https://hh.ru/vacancy/120922975",
-      "published_at": "2025-06-11T11:24:05+0300",
-      "created_at": "2025-06-11T11:24:05+0300",
-      "area": "Санкт-Петербург",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Понимать работу указанных информационных систем. Знание стека протоколов TCP/IP. Опыт работы с системами резервного копирования, виртуализации, серверным и сетевым...",
-      "responsibility": "Обеспечивать своевременную и качественную техническую поддержку пользователей, включая топ-менеджмент. Управлять AD, DNS (внешняя и внутренняя), TS (RDP+RemoteApp), WSUS.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "121548586",
       "name": "Системный администратор",
       "company": "ГолицынКлуб.РФ",
@@ -48136,6 +48108,39 @@
       "employment": "Полная занятость",
       "requirement": "Высшее техническое образование в области информационных технологий (в случае отсутствия такого образования - диплом о переподготовке в области информационных технологий).",
       "responsibility": "Администрирование DNS. Администрирование AD, Samba. Администрирование Usergate. Работа с системой виртуализации zVirt. Инсталляция базовых и специализированных информационных систем (SAP, ЭДО...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121040933",
+      "name": "Системный администратор (специалист техподдержки)",
+      "company": "Группа компаний ЕКС",
+      "company_id": "1143452",
+      "company_url": "https://hh.ru/employer/1143452",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/781012.jpg",
+      "url": "https://hh.ru/vacancy/121040933",
+      "published_at": "2025-05-27T16:04:27+0300",
+      "created_at": "2025-05-27T16:04:27+0300",
+      "area": "Москва",
+      "salary": "100 000 - 120 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "",
+      "responsibility": "",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
