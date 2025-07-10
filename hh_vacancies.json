@@ -10,16 +10,148 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-10T04:34:22Z",
+  "updated": "2025-07-10T05:25:28Z",
   "statistics": {
-    "total": 1560,
-    "with_salary": 890,
-    "companies": 1238,
+    "total": 1562,
+    "with_salary": 892,
+    "companies": 1240,
     "cities": 88,
     "premium": 0,
     "with_test": 63
   },
   "vacancies": [
+    {
+      "id": "122607223",
+      "name": "Системный администратор",
+      "company": "Альпремстрой",
+      "company_id": "6121963",
+      "company_url": "https://hh.ru/employer/6121963",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/953988.jpg",
+      "url": "https://hh.ru/vacancy/122607223",
+      "published_at": "2025-07-10T08:22:36+0300",
+      "created_at": "2025-07-10T08:22:36+0300",
+      "area": "Санкт-Петербург",
+      "salary": "от 40 000 RUR на руки",
+      "salary_raw": {
+        "from": 40000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Частичная занятость",
+      "requirement": "",
+      "responsibility": "",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
+      "id": "122606335",
+      "name": "Системный администратор",
+      "company": "accept-it",
+      "company_id": "1048376",
+      "company_url": "https://hh.ru/employer/1048376",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/122606335",
+      "published_at": "2025-07-10T07:57:49+0300",
+      "created_at": "2025-07-10T07:57:49+0300",
+      "area": "Санкт-Петербург",
+      "salary": "от 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Необходимые квалификации и навыки: - Навыки диагностики и устранения неполадок в работе OC Windows и ПО. - Опыт работы с виртуальными АТС...",
+      "responsibility": "Работа с заявками пользователей в системе заявок okdesk. - Настройка рабочих мест пользователей - установка ОС и необходимого ПО, VPN, в том...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122229531",
+      "name": "Системный администратор",
+      "company": "АйТи Аналитика",
+      "company_id": "6129482",
+      "company_url": "https://hh.ru/employer/6129482",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/122229531",
+      "published_at": "2025-07-10T07:51:48+0300",
+      "created_at": "2025-07-10T07:51:48+0300",
+      "area": "Санкт-Петербург",
+      "salary": "90 000 - 120 000 RUR на руки",
+      "salary_raw": {
+        "from": 90000,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Проектная работа",
+      "requirement": "Начальные навыки работы с Linux: Скрипты: Базовые навыки Bash.",
+      "responsibility": "Компания АйТи Аналитика проводит набор в команду на ПРОЕКТ по переводу рабочих мест заказчика на Российское ПО (на базе Linux).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
+      "id": "121814379",
+      "name": "Системный администратор",
+      "company": "Спектр, НППФ",
+      "company_id": "718091",
+      "company_url": "https://hh.ru/employer/718091",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1359996.png",
+      "url": "https://hh.ru/vacancy/121814379",
+      "published_at": "2025-07-10T07:43:43+0300",
+      "created_at": "2025-07-10T07:43:43+0300",
+      "area": "Москва",
+      "salary": "90 000 - 120 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 90000,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание ОС Linux (CentOS, Debian). Знание и понимание работы стека протоколов TCP/IP. Знание и практический опыт настройки VPN-каналов...",
+      "responsibility": "Заниматься развитием и поддержкой существующей инфраструктуры. Конфигурировать серверы(ОС Linux, QNX, Windows) для установки на них прикладного ПО (собственная разработка).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "122594351",
       "name": "Ведущий системный администратор (м. Строгино)",
@@ -19462,72 +19594,6 @@
       "accept_temporary": false
     },
     {
-      "id": "122229531",
-      "name": "Системный администратор",
-      "company": "АйТи Аналитика",
-      "company_id": "6129482",
-      "company_url": "https://hh.ru/employer/6129482",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/122229531",
-      "published_at": "2025-07-07T07:51:48+0300",
-      "created_at": "2025-07-07T07:51:48+0300",
-      "area": "Санкт-Петербург",
-      "salary": "90 000 - 120 000 RUR на руки",
-      "salary_raw": {
-        "from": 90000,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Проектная работа",
-      "requirement": "Начальные навыки работы с Linux: Скрипты: Базовые навыки Bash.",
-      "responsibility": "Компания АйТи Аналитика проводит набор в команду на ПРОЕКТ по переводу рабочих мест заказчика на Российское ПО (на базе Linux).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
-      "id": "121814379",
-      "name": "Системный администратор",
-      "company": "Спектр, НППФ",
-      "company_id": "718091",
-      "company_url": "https://hh.ru/employer/718091",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1359996.png",
-      "url": "https://hh.ru/vacancy/121814379",
-      "published_at": "2025-07-07T07:43:43+0300",
-      "created_at": "2025-07-07T07:43:43+0300",
-      "area": "Москва",
-      "salary": "90 000 - 120 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 90000,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание ОС Linux (CentOS, Debian). Знание и понимание работы стека протоколов TCP/IP. Знание и практический опыт настройки VPN-каналов...",
-      "responsibility": "Заниматься развитием и поддержкой существующей инфраструктуры. Конфигурировать серверы(ОС Linux, QNX, Windows) для установки на них прикладного ПО (собственная разработка).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "122322676",
       "name": "Системный администратор",
       "company": "Сакура",
@@ -26071,16 +26137,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122065208",
+      "id": "122065738",
       "name": "Системный администратор (иностранная площадка)",
       "company": "Гринатом",
       "company_id": "665467",
       "company_url": "https://hh.ru/employer/665467",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/779318.png",
-      "url": "https://hh.ru/vacancy/122065208",
+      "url": "https://hh.ru/vacancy/122065738",
       "published_at": "2025-07-01T16:50:10+0300",
       "created_at": "2025-07-01T16:50:10+0300",
-      "area": "Санкт-Петербург",
+      "area": "Москва",
       "salary": "140 000 - 180 000 RUR на руки",
       "salary_raw": {
         "from": 140000,
@@ -26104,16 +26170,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122065738",
+      "id": "122065208",
       "name": "Системный администратор (иностранная площадка)",
       "company": "Гринатом",
       "company_id": "665467",
       "company_url": "https://hh.ru/employer/665467",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/779318.png",
-      "url": "https://hh.ru/vacancy/122065738",
+      "url": "https://hh.ru/vacancy/122065208",
       "published_at": "2025-07-01T16:50:10+0300",
       "created_at": "2025-07-01T16:50:10+0300",
-      "area": "Москва",
+      "area": "Санкт-Петербург",
       "salary": "140 000 - 180 000 RUR на руки",
       "salary_raw": {
         "from": 140000,
@@ -36510,16 +36576,16 @@
       "accept_temporary": true
     },
     {
-      "id": "121807513",
+      "id": "121807516",
       "name": "Помощник системного администратора / Начинающий специалист",
       "company": "NV GROUP",
       "company_id": "579783",
       "company_url": "https://hh.ru/employer/579783",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
-      "url": "https://hh.ru/vacancy/121807513",
+      "url": "https://hh.ru/vacancy/121807516",
       "published_at": "2025-06-23T18:42:52+0300",
       "created_at": "2025-06-23T18:42:52+0300",
-      "area": "Сергиев Посад (Московская область)",
+      "area": "Можайск (Московская область)",
       "salary": "от 60 000 RUR на руки",
       "salary_raw": {
         "from": 60000,
@@ -36543,16 +36609,16 @@
       "accept_temporary": true
     },
     {
-      "id": "121807516",
+      "id": "121807513",
       "name": "Помощник системного администратора / Начинающий специалист",
       "company": "NV GROUP",
       "company_id": "579783",
       "company_url": "https://hh.ru/employer/579783",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
-      "url": "https://hh.ru/vacancy/121807516",
+      "url": "https://hh.ru/vacancy/121807513",
       "published_at": "2025-06-23T18:42:52+0300",
       "created_at": "2025-06-23T18:42:52+0300",
-      "area": "Можайск (Московская область)",
+      "area": "Сергиев Посад (Московская область)",
       "salary": "от 60 000 RUR на руки",
       "salary_raw": {
         "from": 60000,
@@ -48110,8 +48176,8 @@
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "",
+      "requirement": "Понимание модели OSI. Создание и изменение учетных записей AD/Exchange. Опыт поддержки пользователей на базе ПО Microsoft (Office, Outlook).",
+      "responsibility": "Техническая поддержка пользователей. Диагностика неисправностей ПК, настройка и агрегатная замена. Организация новых рабочих мест. Оперативное решение проблем пользователей с программным...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
