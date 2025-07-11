@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-11T19:33:04Z",
+  "updated": "2025-07-11T20:39:34Z",
   "statistics": {
-    "total": 1105,
+    "total": 1106,
     "with_salary": 816,
-    "companies": 794,
+    "companies": 795,
     "cities": 245,
     "premium": 1,
     "with_test": 18
   },
   "vacancies": [
+    {
+      "id": "122173634",
+      "name": "Системный администратор / Специалист АХО",
+      "company": "RX PROM",
+      "company_id": "11361649",
+      "company_url": "https://hh.ru/employer/11361649",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1331737.png",
+      "url": "https://hh.ru/vacancy/122173634",
+      "published_at": "2025-07-11T22:31:53+0300",
+      "created_at": "2025-07-11T22:31:53+0300",
+      "area": "Новосибирск",
+      "salary": "50 000 - 60 000 RUR на руки",
+      "salary_raw": {
+        "from": 50000,
+        "to": 60000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание основ сетевого и системного администрирования. Знание операционных систем Windows. Опыт в техническом обслуживании компьютеров/ноутбуков и иного офисного оборудования.",
+      "responsibility": "Заказ готовых конфигураций ПК для рабочих мест. Сборка, настройка и конфигурация рабочих мест. Техническая поддержка оснащения офиса. Обновление и закуп...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "122723970",
       "name": "Системный администратор, г. Соликамск",
@@ -1743,39 +1776,6 @@
       "accept_temporary": true
     },
     {
-      "id": "118874193",
-      "name": "Системный администратор",
-      "company": "Обермейстер",
-      "company_id": "3789323",
-      "company_url": "https://hh.ru/employer/3789323",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/708222.png",
-      "url": "https://hh.ru/vacancy/118874193",
-      "published_at": "2025-07-11T12:01:35+0300",
-      "created_at": "2025-07-11T12:01:35+0300",
-      "area": "Ростов-на-Дону",
-      "salary": "80 000 - 90 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": 90000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Гибкий график",
-      "employment": "Полная занятость",
-      "requirement": "Опыт ремонта электроники/торгового IT-оборудования от 6 месяцев (сервисные центры, розничные сети, ИТ-поддержка). Умение паять и работать с...",
-      "responsibility": "Установка и настройка нового оборудования. Модульный ремонт (замена компонентов, пайка) и профилактическое ТО торгового IT-оборудования: кассы, ПК, ТСД, принтеры...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
       "id": "120963574",
       "name": "Системный администратор",
       "company": "Обермейстер",
@@ -1798,6 +1798,39 @@
       "employment": "Полная занятость",
       "requirement": "Специалистов с опытом ремонта и обслуживания ИТ-оборудования. Умеющих работать с паяльником и монтажными инструментами. Специалиста с базовым знанием ОС...",
       "responsibility": "Работа на выезде. Установка и ремонт оборудования в магазинах. Зона ответственности: Краснодар. Установка и настройка нового ИТ-оборудования (контрольно-кассовая...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
+      "id": "118874193",
+      "name": "Системный администратор",
+      "company": "Обермейстер",
+      "company_id": "3789323",
+      "company_url": "https://hh.ru/employer/3789323",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/708222.png",
+      "url": "https://hh.ru/vacancy/118874193",
+      "published_at": "2025-07-11T12:01:35+0300",
+      "created_at": "2025-07-11T12:01:35+0300",
+      "area": "Ростов-на-Дону",
+      "salary": "80 000 - 90 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": 90000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Гибкий график",
+      "employment": "Полная занятость",
+      "requirement": "Опыт ремонта электроники/торгового IT-оборудования от 6 месяцев (сервисные центры, розничные сети, ИТ-поддержка). Умение паять и работать с...",
+      "responsibility": "Установка и настройка нового оборудования. Модульный ремонт (замена компонентов, пайка) и профилактическое ТО торгового IT-оборудования: кассы, ПК, ТСД, принтеры...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -8955,39 +8988,6 @@
       "employment": "Полная занятость",
       "requirement": "Практические навыки установки Windows. Практические навыки сборки ПК. Базовые навыки диагностики неисправностей ПК. Базовые знания ОС Windows. Базовые знания аппаратной...",
       "responsibility": "Проведение работ по настройке и обслуживанию рабочих станций в офисе компании. Участие в монтаже компьютерных сетей и видео-наблюдения как...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122173634",
-      "name": "Системный администратор / Специалист АХО",
-      "company": "RX PROM",
-      "company_id": "11361649",
-      "company_url": "https://hh.ru/employer/11361649",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1331737.png",
-      "url": "https://hh.ru/vacancy/122173634",
-      "published_at": "2025-07-08T22:31:53+0300",
-      "created_at": "2025-07-08T22:31:53+0300",
-      "area": "Новосибирск",
-      "salary": "50 000 - 60 000 RUR на руки",
-      "salary_raw": {
-        "from": 50000,
-        "to": 60000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание основ сетевого и системного администрирования. Знание операционных систем Windows. Опыт в техническом обслуживании компьютеров/ноутбуков и иного офисного оборудования.",
-      "responsibility": "Заказ готовых конфигураций ПК для рабочих мест. Сборка, настройка и конфигурация рабочих мест. Техническая поддержка оснащения офиса. Обновление и закуп...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -20181,16 +20181,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122170995",
+      "id": "122171003",
       "name": "Системный администратор/инженер (IT)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122170995",
+      "url": "https://hh.ru/vacancy/122171003",
       "published_at": "2025-06-29T11:55:23+0300",
       "created_at": "2025-06-29T11:55:23+0300",
-      "area": "Оленегорск",
+      "area": "Старая Русса",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -20209,16 +20209,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122171003",
+      "id": "122170995",
       "name": "Системный администратор/инженер (IT)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122171003",
+      "url": "https://hh.ru/vacancy/122170995",
       "published_at": "2025-06-29T11:55:23+0300",
       "created_at": "2025-06-29T11:55:23+0300",
-      "area": "Старая Русса",
+      "area": "Оленегорск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -30951,16 +30951,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121787062",
+      "id": "121787065",
       "name": "Приходящий системный администратор/инженер",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121787062",
+      "url": "https://hh.ru/vacancy/121787065",
       "published_at": "2025-06-18T13:04:59+0300",
       "created_at": "2025-06-18T13:04:59+0300",
-      "area": "Прохладный",
+      "area": "Шадринск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -30979,16 +30979,16 @@
       "accept_temporary": true
     },
     {
-      "id": "121787065",
+      "id": "121787062",
       "name": "Приходящий системный администратор/инженер",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121787065",
+      "url": "https://hh.ru/vacancy/121787062",
       "published_at": "2025-06-18T13:04:59+0300",
       "created_at": "2025-06-18T13:04:59+0300",
-      "area": "Шадринск",
+      "area": "Прохладный",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -34997,6 +34997,34 @@
       "employment": "Полная занятость",
       "requirement": "Высшее образование ИТ. Опыт работы от 5 лет. Глубокие знания и опыт работы с ОС Windows Server и ОС Linux...",
       "responsibility": "Настройка и сопровождение систем виртуализации VMware / Hyper-V, серверного оборудования, СХД, SAN. Настройка и сопровождение инфраструктурных сервисов (DNS, DHCP, WSUS...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "120822098",
+      "name": "Системный администратор (технический специалист)",
+      "company": "АНО ДПО УМКЦ Энергия",
+      "company_id": "3547722",
+      "company_url": "https://hh.ru/employer/3547722",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/120822098",
+      "published_at": "2025-05-21T14:30:15+0300",
+      "created_at": "2025-05-21T14:30:15+0300",
+      "area": "Петрозаводск",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "",
+      "responsibility": "",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
