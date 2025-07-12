@@ -10,16 +10,138 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-12T06:31:07Z",
+  "updated": "2025-07-12T07:21:18Z",
   "statistics": {
-    "total": 1554,
-    "with_salary": 881,
+    "total": 1555,
+    "with_salary": 882,
     "companies": 1235,
     "cities": 87,
     "premium": 0,
     "with_test": 60
   },
   "vacancies": [
+    {
+      "id": "122132216",
+      "name": "Ведущий системный администратор",
+      "company": "Финвал, Группа Компаний",
+      "company_id": "23148",
+      "company_url": "https://hh.ru/employer/23148",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/227252.gif",
+      "url": "https://hh.ru/vacancy/122132216",
+      "published_at": "2025-07-12T09:54:00+0300",
+      "created_at": "2025-07-12T09:54:00+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Техническое образование в области IT. Опыт работы по специальности более 3 лет. Опыт работы с Windows Server 2008R2...",
+      "responsibility": "Администрирование серверов MS Windows Server, Linux обязателен (планируется переход на AstraLinux). Администрирование систем виртуализации VMWare, KVM. Разворачивание и поддержка сервисов...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122130960",
+      "name": "Системный администратор",
+      "company": "ГЭХ Инжиниринг",
+      "company_id": "1758004",
+      "company_url": "https://hh.ru/employer/1758004",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/122130960",
+      "published_at": "2025-07-12T09:37:45+0300",
+      "created_at": "2025-07-12T09:37:45+0300",
+      "area": "Санкт-Петербург",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опытный пользователь MS AD (переход на РЕД АДМ). Опыт работы с ОС Windows/Linux (используются продукты от РЕД Софт), уверенное...",
+      "responsibility": "Обслуживание парка компьютерной и оргтехники, установка и настройка операционных систем на рабочих местах сотрудников, установка и настройка офисных программ, антивирусов...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121769351",
+      "name": "Системный администратор",
+      "company": "МонАрх-АйТи",
+      "company_id": "10268972",
+      "company_url": "https://hh.ru/employer/10268972",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1156705.jpg",
+      "url": "https://hh.ru/vacancy/121769351",
+      "published_at": "2025-07-12T09:30:55+0300",
+      "created_at": "2025-07-12T09:30:55+0300",
+      "area": "Москва",
+      "salary": "от 110 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 110000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "опыт работы от трех лет. - базовые знания серверных операционных систем Microsoft Server 2008 и 2012, 2019. - понимание принципов работы и...",
+      "responsibility": "Обеспечение непрерывного функционирования ИТ инфраструктуры на строительных объектах компании. - Консультирование пользователей и оказание помощи при работе с программным обеспечением. -",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122184778",
+      "name": "Системный администратор",
+      "company": "ТАНАИС",
+      "company_id": "127852",
+      "company_url": "https://hh.ru/employer/127852",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/702939.PNG",
+      "url": "https://hh.ru/vacancy/122184778",
+      "published_at": "2025-07-12T09:25:29+0300",
+      "created_at": "2025-07-12T09:25:29+0300",
+      "area": "Москва",
+      "salary": "100 000 - 130 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": 130000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт администрирования ОС Windows/Linux. Знания СУБД (MS SQL, PostgreSQL или др.). Опыт настройки виртуальных сред (HyperV, VMware, KVM или...",
+      "responsibility": "Сопровождение, развертывание и настройка серверной/сетевой инфраструктуры и рабочих мест пользователей, в т.ч. внешних заказчиков. Обеспечение доступности сервисов согласно...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "122728491",
       "name": "Системный администратор",
@@ -17327,34 +17449,6 @@
       "accept_temporary": false
     },
     {
-      "id": "122132216",
-      "name": "Ведущий системный администратор",
-      "company": "Финвал, Группа Компаний",
-      "company_id": "23148",
-      "company_url": "https://hh.ru/employer/23148",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/227252.gif",
-      "url": "https://hh.ru/vacancy/122132216",
-      "published_at": "2025-07-09T09:54:00+0300",
-      "created_at": "2025-07-09T09:54:00+0300",
-      "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Техническое образование в области IT. Опыт работы по специальности более 3 лет. Опыт работы с Windows Server 2008R2...",
-      "responsibility": "Администрирование серверов MS Windows Server, Linux обязателен (планируется переход на AstraLinux). Администрирование систем виртуализации VMWare, KVM. Разворачивание и поддержка сервисов...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "120417883",
       "name": "Системный администратор",
       "company": "Центр инновационных перспектив",
@@ -17472,34 +17566,6 @@
       "accept_temporary": false
     },
     {
-      "id": "122130960",
-      "name": "Системный администратор",
-      "company": "ГЭХ Инжиниринг",
-      "company_id": "1758004",
-      "company_url": "https://hh.ru/employer/1758004",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/122130960",
-      "published_at": "2025-07-09T09:37:45+0300",
-      "created_at": "2025-07-09T09:37:45+0300",
-      "area": "Санкт-Петербург",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опытный пользователь MS AD (переход на РЕД АДМ). Опыт работы с ОС Windows/Linux (используются продукты от РЕД Софт), уверенное...",
-      "responsibility": "Обслуживание парка компьютерной и оргтехники, установка и настройка операционных систем на рабочих местах сотрудников, установка и настройка офисных программ, антивирусов...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "120855153",
       "name": "Системный администратор",
       "company": "ЦЕНТАВР",
@@ -17522,72 +17588,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы на 1-й/2-й линии техподдержки (1+ год). Знание Windows Server 2016-2022. Базовые навыки администрирования...",
       "responsibility": "Приём, регистрация и первичная обработка обращений пользователей (GLPI). Удалённая диагностика и решение проблем рабочих станций. Консультирование пользователей по базовым вопросам...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121769351",
-      "name": "Системный администратор",
-      "company": "МонАрх-АйТи",
-      "company_id": "10268972",
-      "company_url": "https://hh.ru/employer/10268972",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1156705.jpg",
-      "url": "https://hh.ru/vacancy/121769351",
-      "published_at": "2025-07-09T09:30:55+0300",
-      "created_at": "2025-07-09T09:30:55+0300",
-      "area": "Москва",
-      "salary": "от 110 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 110000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "опыт работы от трех лет. - базовые знания серверных операционных систем Microsoft Server 2008 и 2012, 2019. - понимание принципов работы и...",
-      "responsibility": "Обеспечение непрерывного функционирования ИТ инфраструктуры на строительных объектах компании. - Консультирование пользователей и оказание помощи при работе с программным обеспечением. -",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122184778",
-      "name": "Системный администратор",
-      "company": "ТАНАИС",
-      "company_id": "127852",
-      "company_url": "https://hh.ru/employer/127852",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/702939.PNG",
-      "url": "https://hh.ru/vacancy/122184778",
-      "published_at": "2025-07-09T09:25:29+0300",
-      "created_at": "2025-07-09T09:25:29+0300",
-      "area": "Москва",
-      "salary": "100 000 - 130 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": 130000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт администрирования ОС Windows/Linux. Знания СУБД (MS SQL, PostgreSQL или др.). Опыт настройки виртуальных сред (HyperV, VMware, KVM или...",
-      "responsibility": "Сопровождение, развертывание и настройка серверной/сетевой инфраструктуры и рабочих мест пользователей, в т.ч. внешних заказчиков. Обеспечение доступности сервисов согласно...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -47910,6 +47910,39 @@
       "accept_temporary": false
     },
     {
+      "id": "121040933",
+      "name": "Системный администратор (специалист техподдержки)",
+      "company": "Группа компаний ЕКС",
+      "company_id": "1143452",
+      "company_url": "https://hh.ru/employer/1143452",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/781012.jpg",
+      "url": "https://hh.ru/vacancy/121040933",
+      "published_at": "2025-05-27T16:04:27+0300",
+      "created_at": "2025-05-27T16:04:27+0300",
+      "area": "Москва",
+      "salary": "100 000 - 120 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Понимание модели OSI. Создание и изменение учетных записей AD/Exchange. Опыт поддержки пользователей на базе ПО Microsoft (Office, Outlook).",
+      "responsibility": "Техническая поддержка пользователей. Диагностика неисправностей ПК, настройка и агрегатная замена. Организация новых рабочих мест. Оперативное решение проблем пользователей с программным...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "118953439",
       "name": "Системный администратор, DevOps",
       "company": "Петербургская Биржа",
@@ -47925,8 +47958,8 @@
       "experience": "От 3 до 6 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "",
+      "requirement": "Опыт работы на аналогичной должности от 3-х лет. Опыт администрирования ОС Linux Server (дистрибутивы на основе RedHat).",
+      "responsibility": "Мониторинг, диагностика и оперативное решение проблем в функционировании информационных систем АО «Петербургская Биржа». Взаимодействие с разработчиками информационных систем АО «Петербургская...",
       "type": "Открытая",
       "professional_roles": [
         "DevOps-инженер"
