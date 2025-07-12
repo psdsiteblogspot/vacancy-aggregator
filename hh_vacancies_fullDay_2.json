@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-12T08:51:32Z",
+  "updated": "2025-07-12T09:46:10Z",
   "statistics": {
     "total": 920,
     "with_salary": 701,
@@ -20,6 +20,39 @@
     "with_test": 14
   },
   "vacancies": [
+    {
+      "id": "121604134",
+      "name": "Помощник системного администратора",
+      "company": "Добрыня-Русь",
+      "company_id": "1151563",
+      "company_url": "https://hh.ru/employer/1151563",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/66977.gif",
+      "url": "https://hh.ru/vacancy/121604134",
+      "published_at": "2025-07-12T11:57:47+0300",
+      "created_at": "2025-07-12T11:57:47+0300",
+      "area": "Севастополь",
+      "salary": "70 000 - 100 000 RUR на руки",
+      "salary_raw": {
+        "from": 70000,
+        "to": 100000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт установки и поддержки операционных систем и офисных программ. - Навыки работы с серверным оборудованием, локальными сетями. - Знание аппаратной части персональных...",
+      "responsibility": "Установка и обслуживание компьютерной и офисной техники, оргтехники, внутренней АТС. - Обеспечение безошибочной работы системного программного обеспечения (ОС Windows, Windows Server). -",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "119578711",
       "name": "Системный администратор",
@@ -17224,16 +17257,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122155218",
+      "id": "122155203",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122155218",
+      "url": "https://hh.ru/vacancy/122155203",
       "published_at": "2025-06-27T16:08:17+0300",
       "created_at": "2025-06-27T16:08:17+0300",
-      "area": "Кавалерово",
+      "area": "Николаевск-на-Амуре",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -17257,16 +17290,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122155203",
+      "id": "122155218",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122155203",
+      "url": "https://hh.ru/vacancy/122155218",
       "published_at": "2025-06-27T16:08:17+0300",
       "created_at": "2025-06-27T16:08:17+0300",
-      "area": "Николаевск-на-Амуре",
+      "area": "Кавалерово",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -17455,16 +17488,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122155199",
+      "id": "122155205",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122155199",
+      "url": "https://hh.ru/vacancy/122155205",
       "published_at": "2025-06-27T16:08:17+0300",
       "created_at": "2025-06-27T16:08:17+0300",
-      "area": "Магадан",
+      "area": "Оха",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -17488,16 +17521,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122155205",
+      "id": "122155199",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122155205",
+      "url": "https://hh.ru/vacancy/122155199",
       "published_at": "2025-06-27T16:08:17+0300",
       "created_at": "2025-06-27T16:08:17+0300",
-      "area": "Оха",
+      "area": "Магадан",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -29209,39 +29242,6 @@
       "employment": "Полная занятость",
       "requirement": "Аналитическое мышление. Знание основ работы локальных и глобальных сетей, (адресация, маршрутизация, настройка). Умение диагностировать неисправности и проводить мелкий ремонт компьютерной...",
       "responsibility": "Поддержка работы программно-аппаратного комплекса управления рестораном (Simphony). Настройка, контроль, управление взаимодействием ресторанной системы с ГИС МТ, ЕГАИС.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121604134",
-      "name": "Помощник системного администратора",
-      "company": "Добрыня-Русь",
-      "company_id": "1151563",
-      "company_url": "https://hh.ru/employer/1151563",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/66977.gif",
-      "url": "https://hh.ru/vacancy/121604134",
-      "published_at": "2025-06-12T11:57:46+0300",
-      "created_at": "2025-06-12T11:57:46+0300",
-      "area": "Севастополь",
-      "salary": "70 000 - 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 70000,
-        "to": 100000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт установки и поддержки операционных систем и офисных программ. - Навыки работы с серверным оборудованием, локальными сетями. - Знание аппаратной части персональных...",
-      "responsibility": "Установка и обслуживание компьютерной и офисной техники, оргтехники, внутренней АТС. - Обеспечение безошибочной работы системного программного обеспечения (ОС Windows, Windows Server). -",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
