@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-13T10:49:53Z",
+  "updated": "2025-07-13T11:46:15Z",
   "statistics": {
     "total": 917,
     "with_salary": 700,
@@ -20,6 +20,72 @@
     "with_test": 14
   },
   "vacancies": [
+    {
+      "id": "122628500",
+      "name": "Главный системный администратор",
+      "company": "ГБУ НО Уполномоченный МФЦ",
+      "company_id": "3733111",
+      "company_url": "https://hh.ru/employer/3733111",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1385910.png",
+      "url": "https://hh.ru/vacancy/122628500",
+      "published_at": "2025-07-13T13:53:48+0300",
+      "created_at": "2025-07-13T13:53:48+0300",
+      "area": "Городец",
+      "salary": "от 40 000 RUR на руки",
+      "salary_raw": {
+        "from": 40000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Понимание принципов устройства сетей, маршрутизации, работы сетевых протоколов. Опыт работы с RDP, DHCP, DNS, VPN. Умение адаптироваться в сложных ситуациях...",
+      "responsibility": "Базовое администрирование Windows, Linux, Active Directory. Организация рабочих мест сотрудников. Предоставление удаленных доступов, подключений RDP. Поддержание актуальности ПО (антивирус, КриптопроCSP).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122470579",
+      "name": "Системный администратор",
+      "company": "Кравченко Константин Сергеевич",
+      "company_id": "5816014",
+      "company_url": "https://hh.ru/employer/5816014",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/953651.jpeg",
+      "url": "https://hh.ru/vacancy/122470579",
+      "published_at": "2025-07-13T13:03:22+0300",
+      "created_at": "2025-07-13T13:03:22+0300",
+      "area": "Белгород",
+      "salary": "от 50 000 RUR на руки",
+      "salary_raw": {
+        "from": 50000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы не менее 1 года работы в области технической поддержки, администрирования, локальной сети от 30 пк. Понимание принципов работы...",
+      "responsibility": "Обеспечение бесперебойной работы локальных сетей организации, телефонии, сетевых устройств, офисной оргтехники; системы скуд. Инсталляция и настройка программного обеспечения.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "121834238",
       "name": "ИТ специалист / Системный администратор",
@@ -4412,39 +4478,6 @@
       "accept_temporary": false
     },
     {
-      "id": "122628500",
-      "name": "Главный системный администратор",
-      "company": "ГБУ НО Уполномоченный МФЦ",
-      "company_id": "3733111",
-      "company_url": "https://hh.ru/employer/3733111",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1385910.png",
-      "url": "https://hh.ru/vacancy/122628500",
-      "published_at": "2025-07-10T13:53:48+0300",
-      "created_at": "2025-07-10T13:53:48+0300",
-      "area": "Городец",
-      "salary": "от 40 000 RUR на руки",
-      "salary_raw": {
-        "from": 40000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Понимание принципов устройства сетей, маршрутизации, работы сетевых протоколов. Опыт работы с RDP, DHCP, DNS, VPN. Умение адаптироваться в сложных ситуациях...",
-      "responsibility": "Базовое администрирование Windows, Linux, Active Directory. Организация рабочих мест сотрудников. Предоставление удаленных доступов, подключений RDP. Поддержание актуальности ПО (антивирус, КриптопроCSP).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "122628005",
       "name": "Старший системный администратор",
       "company": "Кузьминова Алеся Игоревна",
@@ -4533,39 +4566,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы не менее 2 лет. Высшее образование. Знание сетевых технологий (уровень CCNA R&S и выше), работы сетевых протоколов...",
       "responsibility": "Конфигурация, настройка и администрирование серверов, персональных компьютеров и периферийных устройств. Поддержка локальной (LAN), глобальной (WAN) и телефоннои...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122470579",
-      "name": "Системный администратор",
-      "company": "Кравченко Константин Сергеевич",
-      "company_id": "5816014",
-      "company_url": "https://hh.ru/employer/5816014",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/953651.jpeg",
-      "url": "https://hh.ru/vacancy/122470579",
-      "published_at": "2025-07-10T13:03:22+0300",
-      "created_at": "2025-07-10T13:03:22+0300",
-      "area": "Белгород",
-      "salary": "от 50 000 RUR на руки",
-      "salary_raw": {
-        "from": 50000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы не менее 1 года работы в области технической поддержки, администрирования, локальной сети от 30 пк. Понимание принципов работы...",
-      "responsibility": "Обеспечение бесперебойной работы локальных сетей организации, телефонии, сетевых устройств, офисной оргтехники; системы скуд. Инсталляция и настройка программного обеспечения.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -22217,6 +22217,39 @@
       "accept_temporary": false
     },
     {
+      "id": "121924963",
+      "name": "Выездной инженер технической поддержки/системный администратор",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/121924963",
+      "published_at": "2025-06-23T08:38:40+0300",
+      "created_at": "2025-06-23T08:38:40+0300",
+      "area": "Шебекино",
+      "salary": "200 - 10 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 200,
+        "to": 10000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "121924969",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
@@ -22260,39 +22293,6 @@
       "published_at": "2025-06-23T08:38:40+0300",
       "created_at": "2025-06-23T08:38:40+0300",
       "area": "Обоянь",
-      "salary": "200 - 10 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 200,
-        "to": 10000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
-      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121924963",
-      "name": "Выездной инженер технической поддержки/системный администратор",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121924963",
-      "published_at": "2025-06-23T08:38:40+0300",
-      "created_at": "2025-06-23T08:38:40+0300",
-      "area": "Шебекино",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -22580,16 +22580,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121924972",
+      "id": "121924976",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121924972",
+      "url": "https://hh.ru/vacancy/121924976",
       "published_at": "2025-06-23T08:38:40+0300",
       "created_at": "2025-06-23T08:38:40+0300",
-      "area": "Железногорск (Курская область)",
+      "area": "Лебедянь",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -22613,16 +22613,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121924976",
+      "id": "121924972",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121924976",
+      "url": "https://hh.ru/vacancy/121924972",
       "published_at": "2025-06-23T08:38:40+0300",
       "created_at": "2025-06-23T08:38:40+0300",
-      "area": "Лебедянь",
+      "area": "Железногорск (Курская область)",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -26771,16 +26771,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121707764",
+      "id": "121707757",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121707764",
+      "url": "https://hh.ru/vacancy/121707757",
       "published_at": "2025-06-17T08:07:24+0300",
       "created_at": "2025-06-17T08:07:24+0300",
-      "area": "Кузнецк",
+      "area": "Альметьевск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -26799,16 +26799,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121707757",
+      "id": "121707764",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121707757",
+      "url": "https://hh.ru/vacancy/121707764",
       "published_at": "2025-06-17T08:07:24+0300",
       "created_at": "2025-06-17T08:07:24+0300",
-      "area": "Альметьевск",
+      "area": "Кузнецк",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
