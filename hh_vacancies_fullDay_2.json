@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-16T05:01:51Z",
+  "updated": "2025-07-16T05:53:38Z",
   "statistics": {
-    "total": 954,
-    "with_salary": 728,
-    "companies": 710,
+    "total": 953,
+    "with_salary": 727,
+    "companies": 709,
     "cities": 176,
     "premium": 0,
     "with_test": 15
   },
   "vacancies": [
+    {
+      "id": "121097129",
+      "name": "Системный администратор",
+      "company": "ТАИФ-СТ",
+      "company_id": "1280466",
+      "company_url": "https://hh.ru/employer/1280466",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/121097129",
+      "published_at": "2025-07-16T08:46:49+0300",
+      "created_at": "2025-07-16T08:46:49+0300",
+      "area": "Казань",
+      "salary": "60 000 - 80 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 60000,
+        "to": 80000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знания операционных систем семейства Windows на уровне администратора. Знания операционных систем семейства *Nix на уровне уверенного пользователя. Понимание принципов работы...",
+      "responsibility": "Организация работы IT-инфраструктуры организации. Администрирование Active Directory. Администрирование системы виртуализации на базе Proxmox и VMware ESXi. Администрирование сервера 1...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Другое"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "118205354",
       "name": "Главный системный администратор",
@@ -4262,6 +4295,39 @@
       "accept_temporary": false
     },
     {
+      "id": "122302573",
+      "name": "Системный администратор (3-линия)",
+      "company": "Протек, Центр Внедрения",
+      "company_id": "4943",
+      "company_url": "https://hh.ru/employer/4943",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1399515.png",
+      "url": "https://hh.ru/vacancy/122302573",
+      "published_at": "2025-07-14T12:17:02+0300",
+      "created_at": "2025-07-14T12:17:02+0300",
+      "area": "Казань",
+      "salary": "до 120 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": null,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы: не менее 3 лет в должности Системного администратора (корпоративная среда). Обязательные технические навыки (Практический опыт администрирования): VMware vSphere...",
+      "responsibility": "Администрирование и мониторинг физических серверов (Lenovo, HP, IBM) и виртуальной среды на базе VMware ESXi 6.7+ (кластеры, vSphere...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "122302571",
       "name": "Системный администратор (3-линия)",
       "company": "Протек, Центр Внедрения",
@@ -4305,39 +4371,6 @@
       "published_at": "2025-07-14T12:17:02+0300",
       "created_at": "2025-07-14T12:17:02+0300",
       "area": "Воронеж",
-      "salary": "до 120 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": null,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы: не менее 3 лет в должности Системного администратора (корпоративная среда). Обязательные технические навыки (Практический опыт администрирования): VMware vSphere...",
-      "responsibility": "Администрирование и мониторинг физических серверов (Lenovo, HP, IBM) и виртуальной среды на базе VMware ESXi 6.7+ (кластеры, vSphere...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122302573",
-      "name": "Системный администратор (3-линия)",
-      "company": "Протек, Центр Внедрения",
-      "company_id": "4943",
-      "company_url": "https://hh.ru/employer/4943",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1399515.png",
-      "url": "https://hh.ru/vacancy/122302573",
-      "published_at": "2025-07-14T12:17:02+0300",
-      "created_at": "2025-07-14T12:17:02+0300",
-      "area": "Казань",
       "salary": "до 120 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -6595,39 +6628,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт установки и поддержки операционных систем и офисных программ. - Навыки работы с серверным оборудованием, локальными сетями. - Знание аппаратной части персональных...",
       "responsibility": "Установка и обслуживание компьютерной и офисной техники, оргтехники, внутренней АТС. - Обеспечение безошибочной работы системного программного обеспечения (ОС Windows, Windows Server). -",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121643996",
-      "name": "Помощник системного администратора",
-      "company": "Декларант Плюс",
-      "company_id": "5913771",
-      "company_url": "https://hh.ru/employer/5913771",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/121643996",
-      "published_at": "2025-07-13T08:19:10+0300",
-      "created_at": "2025-07-13T08:19:10+0300",
-      "area": "Владивосток",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт администрирования серверов на Windows Server и ОС Linux. - Опыт работы с nginx/apache, PostgreSQL. - Опыт работы с системами мониторинга...",
-      "responsibility": "Компания «Декларант Плюс» - это команда опытных специалистов, предоставляющих услуги по продаже, сопровождению и разработке специализированного программного обеспечения и сервисов для...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -20033,16 +20033,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122155220",
+      "id": "122155207",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122155220",
+      "url": "https://hh.ru/vacancy/122155207",
       "published_at": "2025-06-27T16:08:17+0300",
       "created_at": "2025-06-27T16:08:17+0300",
-      "area": "Магдагачи",
+      "area": "Сасово",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -20066,16 +20066,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122155207",
+      "id": "122155220",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122155207",
+      "url": "https://hh.ru/vacancy/122155220",
       "published_at": "2025-06-27T16:08:17+0300",
       "created_at": "2025-06-27T16:08:17+0300",
-      "area": "Сасово",
+      "area": "Магдагачи",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -24513,16 +24513,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121924977",
+      "id": "121924971",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121924977",
+      "url": "https://hh.ru/vacancy/121924971",
       "published_at": "2025-06-23T08:38:40+0300",
       "created_at": "2025-06-23T08:38:40+0300",
-      "area": "Мценск",
+      "area": "Курчатов",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -24546,16 +24546,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121924971",
+      "id": "121924977",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121924971",
+      "url": "https://hh.ru/vacancy/121924977",
       "published_at": "2025-06-23T08:38:40+0300",
       "created_at": "2025-06-23T08:38:40+0300",
-      "area": "Курчатов",
+      "area": "Мценск",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -24967,39 +24967,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121097129",
-      "name": "Системный администратор",
-      "company": "ТАИФ-СТ",
-      "company_id": "1280466",
-      "company_url": "https://hh.ru/employer/1280466",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/121097129",
-      "published_at": "2025-06-22T09:58:58+0300",
-      "created_at": "2025-06-22T09:58:58+0300",
-      "area": "Казань",
-      "salary": "60 000 - 80 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 60000,
-        "to": 80000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знания операционных систем семейства Windows на уровне администратора. Знания операционных систем семейства *Nix на уровне уверенного пользователя. Понимание принципов работы...",
-      "responsibility": "Организация работы IT-инфраструктуры организации. Администрирование Active Directory. Администрирование системы виртуализации на базе Proxmox и VMware ESXi. Администрирование сервера 1...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Другое"
       ],
       "has_test": false,
       "premium": false,
