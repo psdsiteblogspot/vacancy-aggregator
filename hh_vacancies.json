@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-20T05:27:21Z",
+  "updated": "2025-07-20T06:31:51Z",
   "statistics": {
-    "total": 1532,
+    "total": 1531,
     "with_salary": 870,
-    "companies": 1210,
-    "cities": 85,
+    "companies": 1211,
+    "cities": 83,
     "premium": 0,
     "with_test": 53
   },
   "vacancies": [
+    {
+      "id": "122287520",
+      "name": "Системный администратор (middle)",
+      "company": "Туроператор Русь",
+      "company_id": "1104183",
+      "company_url": "https://hh.ru/employer/1104183",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1416018.png",
+      "url": "https://hh.ru/vacancy/122287520",
+      "published_at": "2025-07-20T08:57:00+0300",
+      "created_at": "2025-07-20T08:57:00+0300",
+      "area": "Москва",
+      "salary": "130 000 - 170 000 RUR на руки",
+      "salary_raw": {
+        "from": 130000,
+        "to": 170000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Более 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Хороший опыт работы со всем оборудованием, перечисленным выше.",
+      "responsibility": "Поддержка офиса: компьютеры (100+), принтеры, телефония, , СКУД, видеонаблюдение. Работа с сетевым оборудованием Mikrotik. Администрирование терминального сервера. Контроль доступа, безопасность...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": true,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "122072798",
       "name": "System Administrator / Security Officer",
@@ -14892,39 +14925,6 @@
       "accept_temporary": false
     },
     {
-      "id": "122287520",
-      "name": "Системный администратор (middle)",
-      "company": "Туроператор Русь",
-      "company_id": "1104183",
-      "company_url": "https://hh.ru/employer/1104183",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1416018.png",
-      "url": "https://hh.ru/vacancy/122287520",
-      "published_at": "2025-07-17T08:57:00+0300",
-      "created_at": "2025-07-17T08:57:00+0300",
-      "area": "Москва",
-      "salary": "130 000 - 170 000 RUR на руки",
-      "salary_raw": {
-        "from": 130000,
-        "to": 170000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Более 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Хороший опыт работы со всем оборудованием, перечисленным выше.",
-      "responsibility": "Поддержка офиса: компьютеры (100+), принтеры, телефония, , СКУД, видеонаблюдение. Работа с сетевым оборудованием Mikrotik. Администрирование терминального сервера. Контроль доступа, безопасность...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": true,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "122519210",
       "name": "Системный администратор (поддержка пользователей)",
       "company": "Группа компаний Ферон",
@@ -21622,6 +21622,34 @@
       "employment": "Полная занятость",
       "requirement": "Умение администрировать семейство Windows. Умение настраивать и выявлять проблемы ПК. Мелкий ремонт офисной техники. Умение работать с терминалом.",
       "responsibility": "Обеспечение бесперебойного функционирования ИТ-сервисов компании. Офис, 60 + распределенных объектов. Техническая поддержка офисов и магазинов. Видеонаблюдение. Настройка касс.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122767658",
+      "name": "Системный администратор",
+      "company": "РСХБ Факторинг",
+      "company_id": "4465111",
+      "company_url": "https://hh.ru/employer/4465111",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1366213.png",
+      "url": "https://hh.ru/vacancy/122767658",
+      "published_at": "2025-07-14T13:16:05+0300",
+      "created_at": "2025-07-14T13:16:05+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знания ОС MS Windows Server. - Опыт работы системным администратором от 4 лет. - Опыт работы и настройки сетевого оборудования. -",
+      "responsibility": "Поддержка, развитие, мониторинг и обеспечение бесперебойной работы ИТ сервисов компании. - Обработка заявок пользователей на техподдержку L2. - Поддержка работоспособности существующей...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -44616,16 +44644,16 @@
       "accept_temporary": true
     },
     {
-      "id": "121807513",
+      "id": "121807517",
       "name": "Помощник системного администратора / Начинающий специалист",
       "company": "NV GROUP",
       "company_id": "579783",
       "company_url": "https://hh.ru/employer/579783",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
-      "url": "https://hh.ru/vacancy/121807513",
+      "url": "https://hh.ru/vacancy/121807517",
       "published_at": "2025-06-23T18:42:52+0300",
       "created_at": "2025-06-23T18:42:52+0300",
-      "area": "Сергиев Посад (Московская область)",
+      "area": "Наро-Фоминск (Московская область)",
       "salary": "от 60 000 RUR на руки",
       "salary_raw": {
         "from": 60000,
@@ -44649,16 +44677,16 @@
       "accept_temporary": true
     },
     {
-      "id": "121807517",
+      "id": "121807513",
       "name": "Помощник системного администратора / Начинающий специалист",
       "company": "NV GROUP",
       "company_id": "579783",
       "company_url": "https://hh.ru/employer/579783",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/981796.jpg",
-      "url": "https://hh.ru/vacancy/121807517",
+      "url": "https://hh.ru/vacancy/121807513",
       "published_at": "2025-06-23T18:42:52+0300",
       "created_at": "2025-06-23T18:42:52+0300",
-      "area": "Наро-Фоминск (Московская область)",
+      "area": "Сергиев Посад (Московская область)",
       "salary": "от 60 000 RUR на руки",
       "salary_raw": {
         "from": 60000,
@@ -47200,62 +47228,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы по направлению от 6-х лет. Знание серверного \"железа\", RAID. Знание Windows Server, Hyper-V, желательно Kerio.",
       "responsibility": "Обеспечение бесперебойной работы ЛВС, серверов, резервное копирование данных. Обслуживание серверов, рабочих станций, установка ПО. Установка, настройка программ, ЭЦП. Поддержка пользователей.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121864781",
-      "name": "Системный администратор/инженер (IT-аутсорсинг)",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121864781",
-      "published_at": "2025-06-20T08:33:22+0300",
-      "created_at": "2025-06-20T08:33:22+0300",
-      "area": "Бокситогорск",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
-      "responsibility": "Установка и настройка OC Windows, а также офисных приложений. Установка и настройка различного рода ПО. Подключение и настройка периферийного оборудования...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121864782",
-      "name": "Системный администратор/инженер (IT-аутсорсинг)",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/121864782",
-      "published_at": "2025-06-20T08:33:22+0300",
-      "created_at": "2025-06-20T08:33:22+0300",
-      "area": "Пикалево",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
-      "responsibility": "Установка и настройка OC Windows, а также офисных приложений. Установка и настройка различного рода ПО. Подключение и настройка периферийного оборудования...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
