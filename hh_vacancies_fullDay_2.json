@@ -10,16 +10,115 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-23T15:51:58Z",
+  "updated": "2025-07-23T16:57:42Z",
   "statistics": {
-    "total": 874,
-    "with_salary": 655,
-    "companies": 678,
+    "total": 875,
+    "with_salary": 657,
+    "companies": 680,
     "cities": 145,
     "premium": 0,
-    "with_test": 15
+    "with_test": 14
   },
   "vacancies": [
+    {
+      "id": "123166297",
+      "name": "Системный администратор",
+      "company": "Бионовация",
+      "company_id": "8963211",
+      "company_url": "https://hh.ru/employer/8963211",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1416548.png",
+      "url": "https://hh.ru/vacancy/123166297",
+      "published_at": "2025-07-23T19:19:49+0300",
+      "created_at": "2025-07-23T19:19:49+0300",
+      "area": "Рыбинск",
+      "salary": "от 45 000 RUR на руки",
+      "salary_raw": {
+        "from": 45000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Базовые знания Windows, офисного ПО, сетей. Ответственность, внимательность, желание развиваться в IT. Обязательно: профильное образование по системному администрированию.",
+      "responsibility": "Обслуживание видеонаблюдения, роутеров, Wi-Fi. Ведение учёта техники и расходников. Выполнение поручений старшего системного администратора. Участие в проектах по автоматизации...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123165968",
+      "name": "Системный администратор / IT-специалист с компетенциями в ИИ и цифровой оптимизации",
+      "company": "Пульс",
+      "company_id": "5259865",
+      "company_url": "https://hh.ru/employer/5259865",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/921084.jpeg",
+      "url": "https://hh.ru/vacancy/123165968",
+      "published_at": "2025-07-23T18:58:50+0300",
+      "created_at": "2025-07-23T18:58:50+0300",
+      "area": "Елец",
+      "salary": "40 000 - 40 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 40000,
+        "to": 40000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание классического системного администрирования и современных IT-подходов. Интерес и опыт в применении ИИ-технологий, автоматизации, API-интеграций.",
+      "responsibility": "Полное сопровождение IT-инфраструктуры центра (рабочие станции, сервера, сеть, резервное копирование). Обслуживание и администрирование МИС и сопутствующего мед. ПО.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122323160",
+      "name": "Системный администратор",
+      "company": "Альтернативный Информационный Сервис",
+      "company_id": "3043625",
+      "company_url": "https://hh.ru/employer/3043625",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/461744.jpg",
+      "url": "https://hh.ru/vacancy/122323160",
+      "published_at": "2025-07-23T18:08:33+0300",
+      "created_at": "2025-07-23T18:08:33+0300",
+      "area": "Нижний Новгород",
+      "salary": "45 000 - 75 000 RUR на руки",
+      "salary_raw": {
+        "from": 45000,
+        "to": 75000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Базовые знания принципов построения компьютерных сетей и их работы, приветствуется понимание технологий и протоколов современных компьютерных сетей (TCP/IP, DNS...",
+      "responsibility": "Удаленное и выездное обслуживание компьютерной техники (в основном удалённое). Техническая поддержка пользователей. Обеспечение бесперебойной работы локальных сетей, рабочих станций, периферийного...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "122625247",
       "name": "Системный администратор",
@@ -1010,7 +1109,7 @@
     },
     {
       "id": "123151165",
-      "name": "Системный администратор Linux /Дежурный инженер",
+      "name": "Системный администратор Linux /Дежурный инженер (Владивосток)",
       "company": "Группа компаний Астра",
       "company_id": "5060211",
       "company_url": "https://hh.ru/employer/5060211",
@@ -7417,39 +7516,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": true
-    },
-    {
-      "id": "122323160",
-      "name": "Системный администратор",
-      "company": "Альтернативный Информационный Сервис",
-      "company_id": "3043625",
-      "company_url": "https://hh.ru/employer/3043625",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/461744.jpg",
-      "url": "https://hh.ru/vacancy/122323160",
-      "published_at": "2025-07-20T18:08:33+0300",
-      "created_at": "2025-07-20T18:08:33+0300",
-      "area": "Нижний Новгород",
-      "salary": "45 000 - 75 000 RUR на руки",
-      "salary_raw": {
-        "from": 45000,
-        "to": 75000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Базовые знания принципов построения компьютерных сетей и их работы, приветствуется понимание технологий и протоколов современных компьютерных сетей (TCP/IP, DNS...",
-      "responsibility": "Удаленное и выездное обслуживание компьютерной техники (в основном удалённое). Техническая поддержка пользователей. Обеспечение бесперебойной работы локальных сетей, рабочих станций, периферийного...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
     },
     {
       "id": "119964626",
@@ -24916,16 +24982,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122155211",
+      "id": "122155217",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122155211",
+      "url": "https://hh.ru/vacancy/122155217",
       "published_at": "2025-06-27T16:08:17+0300",
       "created_at": "2025-06-27T16:08:17+0300",
-      "area": "Углегорск",
+      "area": "Архара",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -24949,16 +25015,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122155217",
+      "id": "122155211",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122155217",
+      "url": "https://hh.ru/vacancy/122155211",
       "published_at": "2025-06-27T16:08:17+0300",
       "created_at": "2025-06-27T16:08:17+0300",
-      "area": "Архара",
+      "area": "Углегорск",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -25213,6 +25279,39 @@
       "accept_temporary": false
     },
     {
+      "id": "122155205",
+      "name": "Выездной инженер технической поддержки/системный администратор",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/122155205",
+      "published_at": "2025-06-27T16:08:17+0300",
+      "created_at": "2025-06-27T16:08:17+0300",
+      "area": "Оха",
+      "salary": "200 - 10 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 200,
+        "to": 10000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "122155223",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
@@ -25256,39 +25355,6 @@
       "published_at": "2025-06-27T16:08:17+0300",
       "created_at": "2025-06-27T16:08:17+0300",
       "area": "Сковородино",
-      "salary": "200 - 10 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 200,
-        "to": 10000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
-      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122155205",
-      "name": "Выездной инженер технической поддержки/системный администратор",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122155205",
-      "published_at": "2025-06-27T16:08:17+0300",
-      "created_at": "2025-06-27T16:08:17+0300",
-      "area": "Оха",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -25984,34 +26050,6 @@
         "Системный администратор"
       ],
       "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121149530",
-      "name": "Главный специалист поддержки инфраструктуры (системный администратор)",
-      "company": "Газпром нефть",
-      "company_id": "39305",
-      "company_url": "https://hh.ru/employer/39305",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1123842.jpg",
-      "url": "https://hh.ru/vacancy/121149530",
-      "published_at": "2025-06-27T06:43:05+0300",
-      "created_at": "2025-06-27T06:43:05+0300",
-      "area": "Оренбург",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с клиент-серверными информационными системами (на уровне системного администратора). - Знание английского языка на уровне B1 (pre-Intermediate...",
-      "responsibility": "Поддержкой серверов на базе ОС семейства Windows Server и семейства Linux. - Администрированием систем виртуализации. - Администрированием систем резервного копирования. -",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": true,
       "premium": false,
       "accept_handicapped": false,
       "accept_kids": false,
