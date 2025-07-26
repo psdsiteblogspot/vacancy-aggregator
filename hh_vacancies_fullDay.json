@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-26T04:52:57Z",
+  "updated": "2025-07-26T05:43:29Z",
   "statistics": {
-    "total": 1014,
-    "with_salary": 742,
-    "companies": 722,
-    "cities": 225,
+    "total": 1012,
+    "with_salary": 741,
+    "companies": 720,
+    "cities": 224,
     "premium": 0,
     "with_test": 16
   },
   "vacancies": [
+    {
+      "id": "121921986",
+      "name": "Системный администратор",
+      "company": "Импрув-АйТи",
+      "company_id": "4693660",
+      "company_url": "https://hh.ru/employer/4693660",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1417709.png",
+      "url": "https://hh.ru/vacancy/121921986",
+      "published_at": "2025-07-26T07:46:41+0300",
+      "created_at": "2025-07-26T07:46:41+0300",
+      "area": "Челябинск",
+      "salary": "от 100 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Обязательные навыки: ️ Администрирование серверов на ОС Windows/Linux (от 1 года), включая: ️ Навыки работы с сетевым оборудованием:",
+      "responsibility": "Администрирование Windows/Linux-серверов (AD, GPO, DNS, DHCP). ️ Настройка 1С, SQL (MS SQL/PostgreSQL) и виртуализации (Proxmox/Hyper-V). ️",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123270887",
       "name": "Системный администратор ЦОД",
@@ -590,16 +623,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123260233",
+      "id": "123260232",
       "name": "Системный администратор/старший техник",
       "company": "ЭйчарОсы",
       "company_id": "10017002",
       "company_url": "https://hh.ru/employer/10017002",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1408404.png",
-      "url": "https://hh.ru/vacancy/123260233",
+      "url": "https://hh.ru/vacancy/123260232",
       "published_at": "2025-07-25T14:56:25+0300",
       "created_at": "2025-07-25T14:56:25+0300",
-      "area": "Екатеринбург",
+      "area": "Омск",
       "salary": "от 240 000 RUR на руки",
       "salary_raw": {
         "from": 240000,
@@ -623,16 +656,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123260232",
+      "id": "123260233",
       "name": "Системный администратор/старший техник",
       "company": "ЭйчарОсы",
       "company_id": "10017002",
       "company_url": "https://hh.ru/employer/10017002",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1408404.png",
-      "url": "https://hh.ru/vacancy/123260232",
+      "url": "https://hh.ru/vacancy/123260233",
       "published_at": "2025-07-25T14:56:25+0300",
       "created_at": "2025-07-25T14:56:25+0300",
-      "area": "Омск",
+      "area": "Екатеринбург",
       "salary": "от 240 000 RUR на руки",
       "salary_raw": {
         "from": 240000,
@@ -7693,16 +7726,16 @@
       "accept_temporary": false
     },
     {
-      "id": "116723731",
+      "id": "116723730",
       "name": "Системный администратор в Норильск",
       "company": "ГУ МВД России по Красноярскому краю",
       "company_id": "11314982",
       "company_url": "https://hh.ru/employer/11314982",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/116723731",
+      "url": "https://hh.ru/vacancy/116723730",
       "published_at": "2025-07-23T10:48:34+0300",
       "created_at": "2025-07-23T10:48:34+0300",
-      "area": "Енисейск",
+      "area": "Лесосибирск",
       "salary": "от 126 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 126000,
@@ -7726,16 +7759,16 @@
       "accept_temporary": false
     },
     {
-      "id": "116723730",
+      "id": "116723731",
       "name": "Системный администратор в Норильск",
       "company": "ГУ МВД России по Красноярскому краю",
       "company_id": "11314982",
       "company_url": "https://hh.ru/employer/11314982",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/116723730",
+      "url": "https://hh.ru/vacancy/116723731",
       "published_at": "2025-07-23T10:48:34+0300",
       "created_at": "2025-07-23T10:48:34+0300",
-      "area": "Лесосибирск",
+      "area": "Енисейск",
       "salary": "от 126 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 126000,
@@ -8538,39 +8571,6 @@
       "employment": "Полная занятость",
       "requirement": "Хорошее знание семейства ОС Windows на уровне администратора. Знание принципов построение ЛВС. Понимания принципов работы БД SQL. Высшее техническое образование...",
       "responsibility": "Установка и обслуживание компьютерной и офисной техники, оргтехники. Техническая поддержка пользователей, обучение персонала работе с определенными программами. Администрирование серверов на...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121921986",
-      "name": "Системный администратор",
-      "company": "Импрув-АйТи",
-      "company_id": "4693660",
-      "company_url": "https://hh.ru/employer/4693660",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1417709.png",
-      "url": "https://hh.ru/vacancy/121921986",
-      "published_at": "2025-07-23T07:46:41+0300",
-      "created_at": "2025-07-23T07:46:41+0300",
-      "area": "Челябинск",
-      "salary": "от 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Обязательные навыки: ️ Администрирование серверов на ОС Windows/Linux (от 1 года), включая: ️ Навыки работы с сетевым оборудованием:",
-      "responsibility": "Администрирование Windows/Linux-серверов (AD, GPO, DNS, DHCP). ️ Настройка 1С, SQL (MS SQL/PostgreSQL) и виртуализации (Proxmox/Hyper-V). ️",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -29890,16 +29890,16 @@
       "accept_temporary": true
     },
     {
-      "id": "122162620",
+      "id": "122162621",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122162620",
+      "url": "https://hh.ru/vacancy/122162621",
       "published_at": "2025-06-27T20:39:29+0300",
       "created_at": "2025-06-27T20:39:29+0300",
-      "area": "Шарыпово",
+      "area": "Югорск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -29918,16 +29918,16 @@
       "accept_temporary": true
     },
     {
-      "id": "122162621",
+      "id": "122162620",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122162621",
+      "url": "https://hh.ru/vacancy/122162620",
       "published_at": "2025-06-27T20:39:29+0300",
       "created_at": "2025-06-27T20:39:29+0300",
-      "area": "Югорск",
+      "area": "Шарыпово",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -32051,67 +32051,6 @@
       "employment": "Полная занятость",
       "requirement": "Навыки работы: с сетевым оборудованием, администрирование ОС семейства Windows 7-10, понимание основ TCP/IP, КриптоПро, 1С8, Activ...",
       "responsibility": "Обеспечение бесперебойной работы локальных сетей организации, серверов, сетевых устройств; устранение аварийных ситуаций, связанных с повреждением программного обеспечения и баз данных...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122078341",
-      "name": "Системный администратор",
-      "company": "Фаворит Групп",
-      "company_id": "5100572",
-      "company_url": "https://hh.ru/employer/5100572",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1399076.png",
-      "url": "https://hh.ru/vacancy/122078341",
-      "published_at": "2025-06-26T08:33:14+0300",
-      "created_at": "2025-06-26T08:33:14+0300",
-      "area": "Заречный (Свердловская область)",
-      "salary": "50 000 - 70 000 RUR на руки",
-      "salary_raw": {
-        "from": 50000,
-        "to": 70000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Образование от средне-специального. Опыт работы с ПК и программным обеспечением. Знание операционных систем и сетевых технологий. Понимание основ информационной...",
-      "responsibility": "Настройка и обслуживание серверов, рабочих станций и сетевого оборудования. Управление доступом пользователей к ресурсам, сетевым дискам, принтерам, почте (18 пользователей).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Другое"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122077043",
-      "name": "Системный администратор (Пермь)",
-      "company": "Аэропульс",
-      "company_id": "11034741",
-      "company_url": "https://hh.ru/employer/11034741",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1277159.jpg",
-      "url": "https://hh.ru/vacancy/122077043",
-      "published_at": "2025-06-26T07:58:07+0300",
-      "created_at": "2025-06-26T07:58:07+0300",
-      "area": "Пермь",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы системным администратором от 2 лет. Опыт работы с Linux (Debian, Ubuntu). Опыт работы с провайдерами SIP-телефонии.",
-      "responsibility": "Обработка заявок пользователей и оказание технической поддержки. Подготовка и настройка пользовательского оборудования для новых мест. Поддержка корпоративной IT-инфраструктуры.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
