@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-26T15:49:23Z",
+  "updated": "2025-07-26T16:53:57Z",
   "statistics": {
     "total": 874,
     "with_salary": 658,
@@ -20,6 +20,39 @@
     "with_test": 15
   },
   "vacancies": [
+    {
+      "id": "122323160",
+      "name": "Системный администратор",
+      "company": "Альтернативный Информационный Сервис",
+      "company_id": "3043625",
+      "company_url": "https://hh.ru/employer/3043625",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/461744.jpg",
+      "url": "https://hh.ru/vacancy/122323160",
+      "published_at": "2025-07-26T18:08:33+0300",
+      "created_at": "2025-07-26T18:08:33+0300",
+      "area": "Нижний Новгород",
+      "salary": "45 000 - 75 000 RUR на руки",
+      "salary_raw": {
+        "from": 45000,
+        "to": 75000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Базовые знания принципов построения компьютерных сетей и их работы, приветствуется понимание технологий и протоколов современных компьютерных сетей (TCP/IP, DNS...",
+      "responsibility": "Удаленное и выездное обслуживание компьютерной техники (в основном удалённое). Техническая поддержка пользователей. Обеспечение бесперебойной работы локальных сетей, рабочих станций, периферийного...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "122321570",
       "name": "Системный администратор в Информационный центр по атомной энергии Ижевска",
@@ -4021,16 +4054,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209743",
+      "id": "123209744",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209743",
+      "url": "https://hh.ru/vacancy/123209744",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Тула",
+      "area": "Ярославль",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -4054,16 +4087,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209744",
+      "id": "123209743",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209744",
+      "url": "https://hh.ru/vacancy/123209743",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Ярославль",
+      "area": "Тула",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -4747,16 +4780,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123201046",
+      "id": "123201045",
       "name": "Системный администратор",
       "company": "Акционерное общество «Энергоспецмонтаж» (Инжиниринговый дивизион Госкорпорации «Росатом»)",
       "company_id": "9777667",
       "company_url": "https://hh.ru/employer/9777667",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1178138.png",
-      "url": "https://hh.ru/vacancy/123201046",
+      "url": "https://hh.ru/vacancy/123201045",
       "published_at": "2025-07-24T13:53:34+0300",
       "created_at": "2025-07-24T13:53:34+0300",
-      "area": "Нововоронеж",
+      "area": "Воронеж",
       "salary": "до 80 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -4780,16 +4813,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123201045",
+      "id": "123201046",
       "name": "Системный администратор",
       "company": "Акционерное общество «Энергоспецмонтаж» (Инжиниринговый дивизион Госкорпорации «Росатом»)",
       "company_id": "9777667",
       "company_url": "https://hh.ru/employer/9777667",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1178138.png",
-      "url": "https://hh.ru/vacancy/123201045",
+      "url": "https://hh.ru/vacancy/123201046",
       "published_at": "2025-07-24T13:53:34+0300",
       "created_at": "2025-07-24T13:53:34+0300",
-      "area": "Воронеж",
+      "area": "Нововоронеж",
       "salary": "до 80 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -6496,39 +6529,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122323160",
-      "name": "Системный администратор",
-      "company": "Альтернативный Информационный Сервис",
-      "company_id": "3043625",
-      "company_url": "https://hh.ru/employer/3043625",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/461744.jpg",
-      "url": "https://hh.ru/vacancy/122323160",
-      "published_at": "2025-07-23T18:08:33+0300",
-      "created_at": "2025-07-23T18:08:33+0300",
-      "area": "Нижний Новгород",
-      "salary": "45 000 - 75 000 RUR на руки",
-      "salary_raw": {
-        "from": 45000,
-        "to": 75000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Базовые знания принципов построения компьютерных сетей и их работы, приветствуется понимание технологий и протоколов современных компьютерных сетей (TCP/IP, DNS...",
-      "responsibility": "Удаленное и выездное обслуживание компьютерной техники (в основном удалённое). Техническая поддержка пользователей. Обеспечение бесперебойной работы локальных сетей, рабочих станций, периферийного...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
       ],
       "has_test": false,
       "premium": false,
