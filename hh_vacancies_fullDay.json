@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-27T09:38:20Z",
+  "updated": "2025-07-27T10:42:42Z",
   "statistics": {
     "total": 988,
     "with_salary": 723,
@@ -20,6 +20,39 @@
     "with_test": 16
   },
   "vacancies": [
+    {
+      "id": "122984308",
+      "name": "Системный администратор",
+      "company": "Решения, Софт и Сервис",
+      "company_id": "3926381",
+      "company_url": "https://hh.ru/employer/3926381",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/930462.png",
+      "url": "https://hh.ru/vacancy/122984308",
+      "published_at": "2025-07-27T12:58:06+0300",
+      "created_at": "2025-07-27T12:58:06+0300",
+      "area": "Ростов-на-Дону",
+      "salary": "от 65 000 RUR на руки",
+      "salary_raw": {
+        "from": 65000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Оконченное техническое образование. Уверенное знание операционных систем Windows и офисных приложений. Понимание принципов сетевого взаимодействия (TCP/IP, DNS, DHCP и...",
+      "responsibility": "Обеспечение бесперебойной работы серверов, компьютеров и сетей. Установка, настройка и поддержка операционных систем семейства Windows, а также периферийных устройств (принтеры...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123047555",
       "name": "Системный администратор",
@@ -2705,16 +2738,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123260233",
+      "id": "123260232",
       "name": "Системный администратор/старший техник",
       "company": "ЭйчарОсы",
       "company_id": "10017002",
       "company_url": "https://hh.ru/employer/10017002",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1408404.png",
-      "url": "https://hh.ru/vacancy/123260233",
+      "url": "https://hh.ru/vacancy/123260232",
       "published_at": "2025-07-25T14:56:25+0300",
       "created_at": "2025-07-25T14:56:25+0300",
-      "area": "Екатеринбург",
+      "area": "Омск",
       "salary": "от 240 000 RUR на руки",
       "salary_raw": {
         "from": 240000,
@@ -2738,16 +2771,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123260232",
+      "id": "123260233",
       "name": "Системный администратор/старший техник",
       "company": "ЭйчарОсы",
       "company_id": "10017002",
       "company_url": "https://hh.ru/employer/10017002",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1408404.png",
-      "url": "https://hh.ru/vacancy/123260232",
+      "url": "https://hh.ru/vacancy/123260233",
       "published_at": "2025-07-25T14:56:25+0300",
       "created_at": "2025-07-25T14:56:25+0300",
-      "area": "Омск",
+      "area": "Екатеринбург",
       "salary": "от 240 000 RUR на руки",
       "salary_raw": {
         "from": 240000,
@@ -5750,16 +5783,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209748",
+      "id": "123209740",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209748",
+      "url": "https://hh.ru/vacancy/123209740",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Якутск",
+      "area": "Смоленск",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -5783,16 +5816,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209740",
+      "id": "123209748",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209740",
+      "url": "https://hh.ru/vacancy/123209748",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Смоленск",
+      "area": "Якутск",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -6689,39 +6722,6 @@
       "employment": "Частичная занятость",
       "requirement": "Понимание устройства локальных сетей и умение их администрирования. Опыт настройки и обслуживания периферийного оборудования. Умение работать с сертификатами, знание CryptoPro.",
       "responsibility": "Администрирование локальной сети. Администрирование рабочих мест пользователей. Обслуживание офисной техники. Установка ПО на рабочие места пользователей. Ведение учета техники, а...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122984308",
-      "name": "Системный администратор",
-      "company": "Решения, Софт и Сервис",
-      "company_id": "3926381",
-      "company_url": "https://hh.ru/employer/3926381",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/930462.png",
-      "url": "https://hh.ru/vacancy/122984308",
-      "published_at": "2025-07-24T12:58:06+0300",
-      "created_at": "2025-07-24T12:58:06+0300",
-      "area": "Ростов-на-Дону",
-      "salary": "от 65 000 RUR на руки",
-      "salary_raw": {
-        "from": 65000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Оконченное техническое образование. Уверенное знание операционных систем Windows и офисных приложений. Понимание принципов сетевого взаимодействия (TCP/IP, DNS, DHCP и...",
-      "responsibility": "Обеспечение бесперебойной работы серверов, компьютеров и сетей. Установка, настройка и поддержка операционных систем семейства Windows, а также периферийных устройств (принтеры...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -18092,16 +18092,16 @@
       "accept_temporary": true
     },
     {
-      "id": "122798410",
+      "id": "122798405",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122798410",
+      "url": "https://hh.ru/vacancy/122798405",
       "published_at": "2025-07-15T10:08:46+0300",
       "created_at": "2025-07-15T10:08:46+0300",
-      "area": "Краснодар",
+      "area": "Варениковская",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -18120,16 +18120,16 @@
       "accept_temporary": true
     },
     {
-      "id": "122798405",
+      "id": "122798410",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122798405",
+      "url": "https://hh.ru/vacancy/122798410",
       "published_at": "2025-07-15T10:08:46+0300",
       "created_at": "2025-07-15T10:08:46+0300",
-      "area": "Варениковская",
+      "area": "Краснодар",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -30121,16 +30121,16 @@
       "accept_temporary": true
     },
     {
-      "id": "122162615",
+      "id": "122162611",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122162615",
+      "url": "https://hh.ru/vacancy/122162611",
       "published_at": "2025-06-27T20:39:29+0300",
       "created_at": "2025-06-27T20:39:29+0300",
-      "area": "Североуральск",
+      "area": "Качканар",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -30149,16 +30149,16 @@
       "accept_temporary": true
     },
     {
-      "id": "122162611",
+      "id": "122162615",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122162611",
+      "url": "https://hh.ru/vacancy/122162615",
       "published_at": "2025-06-27T20:39:29+0300",
       "created_at": "2025-06-27T20:39:29+0300",
-      "area": "Качканар",
+      "area": "Североуральск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
