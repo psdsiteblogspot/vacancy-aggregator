@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-27T21:35:25Z",
+  "updated": "2025-07-27T22:42:07Z",
   "statistics": {
     "total": 945,
     "with_salary": 697,
@@ -20,6 +20,39 @@
     "with_test": 16
   },
   "vacancies": [
+    {
+      "id": "123275268",
+      "name": "Системный администратор",
+      "company": "Автолига",
+      "company_id": "1095544",
+      "company_url": "https://hh.ru/employer/1095544",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/977754.png",
+      "url": "https://hh.ru/vacancy/123275268",
+      "published_at": "2025-07-28T01:10:37+0300",
+      "created_at": "2025-07-28T01:10:37+0300",
+      "area": "Ростов-на-Дону",
+      "salary": "от 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Антивирусного ПО Касперский. Технические: Опыт работы системным администратором не менее 3 лет. Практический (собственный) опыт установки, настройки и обслуживания серверов...",
+      "responsibility": "Виртуальных и физических серверов под управлением ОС Windows и Linux. Гипервизоров на базе ESXi (VmWare) и Hyper-V.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "122838951",
       "name": "Системный администратор",
@@ -1899,39 +1932,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание основ сетевого и системного администрирования. Знание операционных систем Windows. Опыт в техническом обслуживании компьютеров/ноутбуков и иного офисного оборудования.",
       "responsibility": "Заказ готовых конфигураций ПК для рабочих мест. Сборка, настройка и конфигурация рабочих мест. Техническая поддержка оснащения офиса. Обновление и закуп...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123275268",
-      "name": "Системный администратор",
-      "company": "Автолига",
-      "company_id": "1095544",
-      "company_url": "https://hh.ru/employer/1095544",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/977754.png",
-      "url": "https://hh.ru/vacancy/123275268",
-      "published_at": "2025-07-26T21:22:04+0300",
-      "created_at": "2025-07-26T21:22:04+0300",
-      "area": "Ростов-на-Дону",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Антивирусного ПО Касперский. Технические: Опыт работы системным администратором не менее 3 лет. Практический (собственный) опыт установки, настройки и обслуживания серверов...",
-      "responsibility": "Виртуальных и физических серверов под управлением ОС Windows и Linux. Гипервизоров на базе ESXi (VmWare) и Hyper-V.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -9857,16 +9857,16 @@
       "accept_temporary": true
     },
     {
-      "id": "123102492",
+      "id": "123102495",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123102492",
+      "url": "https://hh.ru/vacancy/123102495",
       "published_at": "2025-07-22T12:59:57+0300",
       "created_at": "2025-07-22T12:59:57+0300",
-      "area": "Жирновск",
+      "area": "Тюмень",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -9885,16 +9885,16 @@
       "accept_temporary": true
     },
     {
-      "id": "123102495",
+      "id": "123102492",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123102495",
+      "url": "https://hh.ru/vacancy/123102492",
       "published_at": "2025-07-22T12:59:57+0300",
       "created_at": "2025-07-22T12:59:57+0300",
-      "area": "Тюмень",
+      "area": "Жирновск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -29396,6 +29396,34 @@
       "accept_temporary": false
     },
     {
+      "id": "122171000",
+      "name": "Системный администратор/инженер (IT)",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/122171000",
+      "published_at": "2025-06-29T11:55:23+0300",
+      "created_at": "2025-06-29T11:55:23+0300",
+      "area": "Североморск",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Установка и настройка OC Windows, а также офисных приложений. Установка и настройка различного рода ПО. Подключение и настройка периферийного оборудования...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "122171002",
       "name": "Системный администратор/инженер (IT)",
       "company": "MCORE",
@@ -29434,34 +29462,6 @@
       "published_at": "2025-06-29T11:55:23+0300",
       "created_at": "2025-06-29T11:55:23+0300",
       "area": "Малая Вишера",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
-      "responsibility": "Установка и настройка OC Windows, а также офисных приложений. Установка и настройка различного рода ПО. Подключение и настройка периферийного оборудования...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122171000",
-      "name": "Системный администратор/инженер (IT)",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122171000",
-      "published_at": "2025-06-29T11:55:23+0300",
-      "created_at": "2025-06-29T11:55:23+0300",
-      "area": "Североморск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
