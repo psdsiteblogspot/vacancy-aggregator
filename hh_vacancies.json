@@ -10,16 +10,44 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-28T16:30:58Z",
+  "updated": "2025-07-28T17:24:00Z",
   "statistics": {
-    "total": 1451,
+    "total": 1450,
     "with_salary": 820,
-    "companies": 1154,
+    "companies": 1153,
     "cities": 80,
     "premium": 0,
     "with_test": 56
   },
   "vacancies": [
+    {
+      "id": "111614886",
+      "name": "Системный администратор Linux",
+      "company": "Газпром нефть",
+      "company_id": "39305",
+      "company_url": "https://hh.ru/employer/39305",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1123842.jpg",
+      "url": "https://hh.ru/vacancy/111614886",
+      "published_at": "2025-07-28T20:08:06+0300",
+      "created_at": "2025-07-28T20:08:06+0300",
+      "area": "Санкт-Петербург",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Опыт администрирования AD, GPO, TS, FS, WSUS, DHCP, ОС Windows. Опыт работы на позиции Системного администратора не менее 1-3...",
+      "responsibility": "Поддерживать эксплуатационную документацию в актуальном состоянии. При отсутствии документации - разработать самостоятельно или инициировать её разработку. Выполнять установку и настройку системного...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": true,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123283284",
       "name": "Системный администратор ГАУЗ ЛО \"Детский хоспис\"",
@@ -79,6 +107,67 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122277761",
+      "name": "Системный администратор",
+      "company": "Lamantin It consulting",
+      "company_id": "61699",
+      "company_url": "https://hh.ru/employer/61699",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/878656.png",
+      "url": "https://hh.ru/vacancy/122277761",
+      "published_at": "2025-07-28T19:05:31+0300",
+      "created_at": "2025-07-28T19:05:31+0300",
+      "area": "Санкт-Петербург",
+      "salary": "120 000 - 120 000 RUR на руки",
+      "salary_raw": {
+        "from": 120000,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы старшим системным администратором Windows систем (в большей степени) и Linux (в меньшей степени). Знание технологий: MS (ActiveDirectory, SQL).",
+      "responsibility": "Администрирование офисной локальной сети, серверов. Консультации сотрудников компании, заказчиков. Взаимодействие с поставщиками оборудования и услуг. Техническая поддержка клиентов компании.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122431740",
+      "name": "Системный администратор/IT-инженер",
+      "company": "NAVX",
+      "company_id": "11361000",
+      "company_url": "https://hh.ru/employer/11361000",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1386908.png",
+      "url": "https://hh.ru/vacancy/122431740",
+      "published_at": "2025-07-28T19:04:50+0300",
+      "created_at": "2025-07-28T19:04:50+0300",
+      "area": "Санкт-Петербург",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в IT от 5 лет, включая административные задачи. Глубокое знание операционных систем Linux и BSD, их тонкая настройка.",
+      "responsibility": "Администрирование и развитие IT-инфраструктуры компании (серверы, сети, рабочие станции, системы хранения данных). Обеспечение бесперебойной работы офисной инфраструктуры и тестового...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный инженер"
       ],
       "has_test": false,
       "premium": false,
@@ -13570,67 +13659,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Специалист технической поддержки"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122277761",
-      "name": "Системный администратор",
-      "company": "Lamantin It consulting",
-      "company_id": "61699",
-      "company_url": "https://hh.ru/employer/61699",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/878656.png",
-      "url": "https://hh.ru/vacancy/122277761",
-      "published_at": "2025-07-25T19:05:31+0300",
-      "created_at": "2025-07-25T19:05:31+0300",
-      "area": "Санкт-Петербург",
-      "salary": "120 000 - 120 000 RUR на руки",
-      "salary_raw": {
-        "from": 120000,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы старшим системным администратором Windows систем (в большей степени) и Linux (в меньшей степени). Знание технологий: MS (ActiveDirectory, SQL).",
-      "responsibility": "Администрирование офисной локальной сети, серверов. Консультации сотрудников компании, заказчиков. Взаимодействие с поставщиками оборудования и услуг. Техническая поддержка клиентов компании.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122431740",
-      "name": "Системный администратор/IT-инженер",
-      "company": "NAVX",
-      "company_id": "11361000",
-      "company_url": "https://hh.ru/employer/11361000",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1386908.png",
-      "url": "https://hh.ru/vacancy/122431740",
-      "published_at": "2025-07-25T19:04:50+0300",
-      "created_at": "2025-07-25T19:04:50+0300",
-      "area": "Санкт-Петербург",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в IT от 5 лет, включая административные задачи. Глубокое знание операционных систем Linux и BSD, их тонкая настройка.",
-      "responsibility": "Администрирование и развитие IT-инфраструктуры компании (серверы, сети, рабочие станции, системы хранения данных). Обеспечение бесперебойной работы офисной инфраструктуры и тестового...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный инженер"
       ],
       "has_test": false,
       "premium": false,
@@ -28776,34 +28804,6 @@
       "accept_temporary": false
     },
     {
-      "id": "111614886",
-      "name": "Системный администратор Linux",
-      "company": "Газпром нефть",
-      "company_id": "39305",
-      "company_url": "https://hh.ru/employer/39305",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1123842.jpg",
-      "url": "https://hh.ru/vacancy/111614886",
-      "published_at": "2025-07-16T08:46:35+0300",
-      "created_at": "2025-07-16T08:46:35+0300",
-      "area": "Санкт-Петербург",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "Опыт администрирования AD, GPO, TS, FS, WSUS, DHCP, ОС Windows. Опыт работы на позиции Системного администратора не менее 1-3...",
-      "responsibility": "Поддерживать эксплуатационную документацию в актуальном состоянии. При отсутствии документации - разработать самостоятельно или инициировать её разработку. Выполнять установку и настройку системного...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": true,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "122837947",
       "name": "Системный администратор",
       "company": "Assistance Group",
@@ -31579,34 +31579,6 @@
       "employment": "Полная занятость",
       "requirement": "Умение администрировать семейство Windows. Умение настраивать и выявлять проблемы ПК. Мелкий ремонт офисной техники. Умение работать с терминалом.",
       "responsibility": "Обеспечение бесперебойного функционирования ИТ-сервисов компании. Офис, 60 + распределенных объектов. Техническая поддержка офисов и магазинов. Видеонаблюдение. Настройка касс.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122767658",
-      "name": "Системный администратор",
-      "company": "РСХБ Факторинг",
-      "company_id": "4465111",
-      "company_url": "https://hh.ru/employer/4465111",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1366213.png",
-      "url": "https://hh.ru/vacancy/122767658",
-      "published_at": "2025-07-14T13:16:05+0300",
-      "created_at": "2025-07-14T13:16:05+0300",
-      "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -35133,16 +35105,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122587034",
+      "id": "122587033",
       "name": "DevOps/Системный администратор Linux, 1C",
       "company": "Мароп",
       "company_id": "5954867",
       "company_url": "https://hh.ru/employer/5954867",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/926330.jpeg",
-      "url": "https://hh.ru/vacancy/122587034",
+      "url": "https://hh.ru/vacancy/122587033",
       "published_at": "2025-07-09T16:40:15+0300",
       "created_at": "2025-07-09T16:40:15+0300",
-      "area": "Санкт-Петербург",
+      "area": "Москва",
       "salary": "до 150 000 RUR на руки",
       "salary_raw": {
         "from": null,
@@ -35166,16 +35138,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122587033",
+      "id": "122587034",
       "name": "DevOps/Системный администратор Linux, 1C",
       "company": "Мароп",
       "company_id": "5954867",
       "company_url": "https://hh.ru/employer/5954867",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/926330.jpeg",
-      "url": "https://hh.ru/vacancy/122587033",
+      "url": "https://hh.ru/vacancy/122587034",
       "published_at": "2025-07-09T16:40:15+0300",
       "created_at": "2025-07-09T16:40:15+0300",
-      "area": "Москва",
+      "area": "Санкт-Петербург",
       "salary": "до 150 000 RUR на руки",
       "salary_raw": {
         "from": null,
@@ -39491,16 +39463,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122426416",
+      "id": "122426417",
       "name": "Системный администратор",
       "company": "ТрансМашХолдинг, Группа компаний",
       "company_id": "3414",
       "company_url": "https://hh.ru/employer/3414",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/671357.png",
-      "url": "https://hh.ru/vacancy/122426416",
+      "url": "https://hh.ru/vacancy/122426417",
       "published_at": "2025-07-04T16:32:50+0300",
       "created_at": "2025-07-04T16:32:50+0300",
-      "area": "Орехово-Зуево (Московская область)",
+      "area": "Ликино-Дулево  (Московская область)",
       "salary": "от 86 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 86000,
@@ -39524,16 +39496,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122426417",
+      "id": "122426416",
       "name": "Системный администратор",
       "company": "ТрансМашХолдинг, Группа компаний",
       "company_id": "3414",
       "company_url": "https://hh.ru/employer/3414",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/671357.png",
-      "url": "https://hh.ru/vacancy/122426417",
+      "url": "https://hh.ru/vacancy/122426416",
       "published_at": "2025-07-04T16:32:50+0300",
       "created_at": "2025-07-04T16:32:50+0300",
-      "area": "Ликино-Дулево  (Московская область)",
+      "area": "Орехово-Зуево (Московская область)",
       "salary": "от 86 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 86000,
@@ -44736,8 +44708,8 @@
       "experience": "Нет опыта",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "Техническое или IT-образование (или последние курсы). Базовые знания: Аппаратное обеспечение (сборка/ремонт ПК). Сетевые протоколы TCP/IP.",
-      "responsibility": "Обслуживание офисной IT-инфраструктуры: Настройка и поддержка рабочих станций (Windows 7/10/11). Диагностика и ремонт ПК, серверов, сетевого и...",
+      "requirement": "",
+      "responsibility": "",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
