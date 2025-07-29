@@ -10,16 +10,176 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-29T16:29:34Z",
+  "updated": "2025-07-29T17:24:12Z",
   "statistics": {
     "total": 1476,
     "with_salary": 836,
-    "companies": 1171,
+    "companies": 1170,
     "cities": 77,
     "premium": 1,
-    "with_test": 58
+    "with_test": 59
   },
   "vacancies": [
+    {
+      "id": "123396226",
+      "name": "Системный администратор",
+      "company": "Evercode Lab",
+      "company_id": "3509758",
+      "company_url": "https://hh.ru/employer/3509758",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1393231.png",
+      "url": "https://hh.ru/vacancy/123396226",
+      "published_at": "2025-07-29T19:44:47+0300",
+      "created_at": "2025-07-29T19:44:47+0300",
+      "area": "Санкт-Петербург",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Глубокие знания Linux серверов. Базовые знания сетевых протоколов. Знание Bash. Опыт работы с контейнеризацией и виртуализацией. Приветствуется опыт в...",
+      "responsibility": "Обеспечение бесперебойной работы инфраструктуры, включая управление серверами, сетевыми устройствами, безопасность данных. Обработка инцидентов, восстановление после сбоев.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный инженер"
+      ],
+      "has_test": true,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
+      "id": "122785976",
+      "name": "Второй системный администратор",
+      "company": "Стелс",
+      "company_id": "4840",
+      "company_url": "https://hh.ru/employer/4840",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/564243.jpg",
+      "url": "https://hh.ru/vacancy/122785976",
+      "published_at": "2025-07-29T19:43:53+0300",
+      "created_at": "2025-07-29T19:43:53+0300",
+      "area": "Москва",
+      "salary": "от 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Протоколы IP, TCP, UDP, SMTP, основные утилиты контроля сетей (ping, tracert и т.п.). Основы сетей (маршрутизация, DNS, DHCP, NAT).",
+      "responsibility": "Работа под руководством руководителя группы. По́ддержание в рабочем и безопасном состоянии сети и периферии компании, в том числе взаимодействие...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122044101",
+      "name": "Системный администратор Linux",
+      "company": "Тара.ру",
+      "company_id": "233584",
+      "company_url": "https://hh.ru/employer/233584",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1393502.png",
+      "url": "https://hh.ru/vacancy/122044101",
+      "published_at": "2025-07-29T19:40:26+0300",
+      "created_at": "2025-07-29T19:40:26+0300",
+      "area": "Санкт-Петербург",
+      "salary": "от 170 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 170000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Профильное среднее или высшее образование/опыт работы + сертификаты по любым из перечисленных требований. От 1 лет в аналогичной должности...",
+      "responsibility": "Централизованный сбор логов с оборудования и серверов. Есть коллега сисадмин с зонами ответственности: Zabbix, Mikrotik + сетевая инфраструктура.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122785618",
+      "name": "Старший системный администратор",
+      "company": "Федеральная сеть кафе Помпончик",
+      "company_id": "3669746",
+      "company_url": "https://hh.ru/employer/3669746",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1051774.png",
+      "url": "https://hh.ru/vacancy/122785618",
+      "published_at": "2025-07-29T19:15:46+0300",
+      "created_at": "2025-07-29T19:15:46+0300",
+      "area": "Москва",
+      "salary": "от 170 000 RUR на руки",
+      "salary_raw": {
+        "from": 170000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее техническое образование. Желательно наличие сертификатов MCSA, MCDBA, MCSE, CCNA, MTCNA. Английский язык на уровне, достаточном для понимания и решения...",
+      "responsibility": "Обеспечение бесперебойного функционирования всех ИТ-сервисов компании, 2 офиса + производство, 80 кафе. Администрирование и сопровождение территориально распределённой корпоративной сети...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122958880",
+      "name": "Сетевой системный администратор",
+      "company": "Федеральная сеть кафе Помпончик",
+      "company_id": "3669746",
+      "company_url": "https://hh.ru/employer/3669746",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1051774.png",
+      "url": "https://hh.ru/vacancy/122958880",
+      "published_at": "2025-07-29T19:11:02+0300",
+      "created_at": "2025-07-29T19:11:02+0300",
+      "area": "Москва",
+      "salary": "от 170 000 RUR на руки",
+      "salary_raw": {
+        "from": 170000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание сетевых технологий, протоколов и служб: VLAN, VPN (IPsec, L2TP, PPTP), NAT, BGP, QOS, DHCP, DNS, CAPSMAN и...",
+      "responsibility": "Обеспечение бесперебойного функционирования всех ИТ-сервисов компании, 2 офиса + производство, 80 кафе. - Администрирование и сопровождение территориально распределённой корпоративной сети...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123395639",
       "name": "Системный администратор (трим)",
@@ -16620,105 +16780,6 @@
       "accept_temporary": false
     },
     {
-      "id": "122785976",
-      "name": "Второй системный администратор",
-      "company": "Стелс",
-      "company_id": "4840",
-      "company_url": "https://hh.ru/employer/4840",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/564243.jpg",
-      "url": "https://hh.ru/vacancy/122785976",
-      "published_at": "2025-07-26T19:43:53+0300",
-      "created_at": "2025-07-26T19:43:53+0300",
-      "area": "Москва",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Протоколы IP, TCP, UDP, SMTP, основные утилиты контроля сетей (ping, tracert и т.п.). Основы сетей (маршрутизация, DNS, DHCP, NAT).",
-      "responsibility": "Работа под руководством руководителя группы. По́ддержание в рабочем и безопасном состоянии сети и периферии компании, в том числе взаимодействие...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122785618",
-      "name": "Старший системный администратор",
-      "company": "Федеральная сеть кафе Помпончик",
-      "company_id": "3669746",
-      "company_url": "https://hh.ru/employer/3669746",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1051774.png",
-      "url": "https://hh.ru/vacancy/122785618",
-      "published_at": "2025-07-26T19:15:46+0300",
-      "created_at": "2025-07-26T19:15:46+0300",
-      "area": "Москва",
-      "salary": "от 170 000 RUR на руки",
-      "salary_raw": {
-        "from": 170000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее техническое образование. Желательно наличие сертификатов MCSA, MCDBA, MCSE, CCNA, MTCNA. Английский язык на уровне, достаточном для понимания и решения...",
-      "responsibility": "Обеспечение бесперебойного функционирования всех ИТ-сервисов компании, 2 офиса + производство, 80 кафе. Администрирование и сопровождение территориально распределённой корпоративной сети...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122958880",
-      "name": "Сетевой системный администратор",
-      "company": "Федеральная сеть кафе Помпончик",
-      "company_id": "3669746",
-      "company_url": "https://hh.ru/employer/3669746",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1051774.png",
-      "url": "https://hh.ru/vacancy/122958880",
-      "published_at": "2025-07-26T19:11:02+0300",
-      "created_at": "2025-07-26T19:11:02+0300",
-      "area": "Москва",
-      "salary": "от 170 000 RUR на руки",
-      "salary_raw": {
-        "from": 170000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание сетевых технологий, протоколов и служб: VLAN, VPN (IPsec, L2TP, PPTP), NAT, BGP, QOS, DHCP, DNS, CAPSMAN и...",
-      "responsibility": "Обеспечение бесперебойного функционирования всех ИТ-сервисов компании, 2 офиса + производство, 80 кафе. - Администрирование и сопровождение территориально распределённой корпоративной сети...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "122110010",
       "name": "Системный администратор",
       "company": "UNION, сеть автомобильных сервис-центров",
@@ -24463,16 +24524,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123064764",
+      "id": "123064765",
       "name": "Системный администратор",
       "company": "ФБУ НИЦ ПМ - РОСТЕСТ",
       "company_id": "1657508",
       "company_url": "https://hh.ru/employer/1657508",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/657531.jpg",
-      "url": "https://hh.ru/vacancy/123064764",
+      "url": "https://hh.ru/vacancy/123064765",
       "published_at": "2025-07-21T15:39:07+0300",
       "created_at": "2025-07-21T15:39:07+0300",
-      "area": "Менделеево (Московская область)",
+      "area": "Зеленоград",
       "salary": "от 100 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 100000,
@@ -24496,16 +24557,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123064765",
+      "id": "123064764",
       "name": "Системный администратор",
       "company": "ФБУ НИЦ ПМ - РОСТЕСТ",
       "company_id": "1657508",
       "company_url": "https://hh.ru/employer/1657508",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/657531.jpg",
-      "url": "https://hh.ru/vacancy/123064765",
+      "url": "https://hh.ru/vacancy/123064764",
       "published_at": "2025-07-21T15:39:07+0300",
       "created_at": "2025-07-21T15:39:07+0300",
-      "area": "Зеленоград",
+      "area": "Менделеево (Московская область)",
       "salary": "от 100 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 100000,
@@ -28290,39 +28351,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы системным администратором не менее 3 лет. Знание ОС MS Windows 2012-2019 на уровне администратора. Глубокие знания и...",
       "responsibility": "Администрирование серверной инфраструктуры Банка. Мониторинг инфраструктуры выявление и устранение проблем. Участие в проектах внедрения ИТ сервисов в ИТ инфраструктуру Банка.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122044101",
-      "name": "Системный администратор Linux",
-      "company": "Тара.ру",
-      "company_id": "233584",
-      "company_url": "https://hh.ru/employer/233584",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1393502.png",
-      "url": "https://hh.ru/vacancy/122044101",
-      "published_at": "2025-07-17T13:11:14+0300",
-      "created_at": "2025-07-17T13:11:14+0300",
-      "area": "Санкт-Петербург",
-      "salary": "от 170 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 170000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Профильное среднее или высшее образование/опыт работы + сертификаты по любым из перечисленных требований. От 1 лет в аналогичной должности...",
-      "responsibility": "Централизованный сбор логов с оборудования и серверов. Есть коллега сисадмин с зонами ответственности: Zabbix, Mikrotik + сетевая инфраструктура.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -45305,34 +45333,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121096592",
-      "name": "Руководитель направления технической поддержки / Старший системный администратор",
-      "company": "Айковер ПРО",
-      "company_id": "933066",
-      "company_url": "https://hh.ru/employer/933066",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1438443.png",
-      "url": "https://hh.ru/vacancy/121096592",
-      "published_at": "2025-06-30T10:08:42+0300",
-      "created_at": "2025-06-30T10:08:42+0300",
-      "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт управления командой сервисных инженеров. Знание принципов организации рабочих мест и кабель-менеджмента. Опыт работы с внешними подрядчиками и поставщиками...",
-      "responsibility": "Оказание технической поддержки пользователей по обращениям в ServiceDesk. Руководство младшим системным администратором. Настройка и администрирование рабочих станций. Управление доступом и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Специалист технической поддержки"
       ],
       "has_test": false,
       "premium": false,
