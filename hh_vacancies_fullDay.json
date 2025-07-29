@@ -10,16 +10,181 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-29T06:53:04Z",
+  "updated": "2025-07-29T07:42:03Z",
   "statistics": {
-    "total": 989,
-    "with_salary": 738,
-    "companies": 727,
+    "total": 991,
+    "with_salary": 740,
+    "companies": 729,
     "cities": 200,
     "premium": 0,
     "with_test": 17
   },
   "vacancies": [
+    {
+      "id": "123353093",
+      "name": "Системный администратор",
+      "company": "Арктика, Торговый Комплекс",
+      "company_id": "883152",
+      "company_url": "https://hh.ru/employer/883152",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1385657.png",
+      "url": "https://hh.ru/vacancy/123353093",
+      "published_at": "2025-07-29T10:25:02+0300",
+      "created_at": "2025-07-29T10:25:02+0300",
+      "area": "Владикавказ",
+      "salary": "от 100 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт установки, настройки и обслуживания MS Windows различных версий, серверного и офисного программного обеспечения. - Базовые знания сетевых протоколов и методов...",
+      "responsibility": "Администрирование Active Directory. - Настройка сетевых маршрутизаторов. - Настройка АТС. - Настройка и обслуживание видеонаблюдения. - Настройка и обслуживание электронного документооборота.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122551882",
+      "name": "Инженер сетей связи / Системный администратор",
+      "company": "ГБУЗ Республиканский кардиологический центр",
+      "company_id": "5059479",
+      "company_url": "https://hh.ru/employer/5059479",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/122551882",
+      "published_at": "2025-07-29T09:59:16+0300",
+      "created_at": "2025-07-29T09:59:16+0300",
+      "area": "Уфа",
+      "salary": "до 40 000 RUR на руки",
+      "salary_raw": {
+        "from": null,
+        "to": 40000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Образование не ниже средне-специального. Умение быстро находить и устранять неисправности. Ответственность, внимательность и хорошая коммуникация на горизонтальном и вертикальном...",
+      "responsibility": "Администрирование серверов (Linux/Windows): сервер передачи медицинских изображений (PACS); сервер видеоконференцсвязи IVA, сервер технической системы безопасности (СКУД). Администрирование IP-телефонии...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123350734",
+      "name": "Системный администратор",
+      "company": "СМК Альтернатива",
+      "company_id": "2696827",
+      "company_url": "https://hh.ru/employer/2696827",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/643459.png",
+      "url": "https://hh.ru/vacancy/123350734",
+      "published_at": "2025-07-29T09:56:09+0300",
+      "created_at": "2025-07-29T09:56:09+0300",
+      "area": "Северодвинск",
+      "salary": "70 000 - 130 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 70000,
+        "to": 130000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "ВЫСШЕЕ образование по направлению информационные технологии. Знание cетевые стандартов, адресации, маршрутизации, протоколов передачи данных. Знание и умение обращаться с коммутационным...",
+      "responsibility": "Обеспечение бесперебойной работы техники, программного обеспечения. Настройка звукового оборудования. Перевод процессов на автоматизированный режим . Обеспечение информационной безопасности. Модернизация применяемых технических...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123350592",
+      "name": "Системный администратор",
+      "company": "НПЦ ВирТЭК",
+      "company_id": "6105681",
+      "company_url": "https://hh.ru/employer/6105681",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1243874.png",
+      "url": "https://hh.ru/vacancy/123350592",
+      "published_at": "2025-07-29T09:54:20+0300",
+      "created_at": "2025-07-29T09:54:20+0300",
+      "area": "Уфа",
+      "salary": "от 90 000 RUR на руки",
+      "salary_raw": {
+        "from": 90000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высокий уровень системного администрирования серверных операционных систем. - Опыт проектирования и развертывания Active Directory, понимание архитектуры и схемы. - Знание основных протоколов...",
+      "responsibility": "Развертывание и администрирование информационных систем в территориально-распределенных офисах. - Обеспечение работоспособности ключевых элементов сети. - Настройка пользовательских рабочих станций и серверов. -",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123350427",
+      "name": "Системный администратор",
+      "company": "НПЦ ВирТЭК",
+      "company_id": "6105681",
+      "company_url": "https://hh.ru/employer/6105681",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1243874.png",
+      "url": "https://hh.ru/vacancy/123350427",
+      "published_at": "2025-07-29T09:51:46+0300",
+      "created_at": "2025-07-29T09:51:46+0300",
+      "area": "Уфа",
+      "salary": "от 90 000 RUR на руки",
+      "salary_raw": {
+        "from": 90000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание основных протоколов передачи данных. - Знание аппаратной части, возможность диагностики. - Активная жизненная позиция, нацеленность на результат, умение работать в команде.",
+      "responsibility": "Поддержка (на второй линии) сотрудников компании в офисе. - Развертывание и администрирование информационных систем в территориально-распределенных офисах. - Обеспечение работоспособности ключевых...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "121206751",
       "name": "Системный администратор",
@@ -3470,39 +3635,6 @@
       "accept_temporary": false
     },
     {
-      "id": "122551882",
-      "name": "Инженер сетей связи / Системный администратор",
-      "company": "ГБУЗ Республиканский кардиологический центр",
-      "company_id": "5059479",
-      "company_url": "https://hh.ru/employer/5059479",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/122551882",
-      "published_at": "2025-07-28T09:59:11+0300",
-      "created_at": "2025-07-28T09:59:11+0300",
-      "area": "Уфа",
-      "salary": "до 40 000 RUR на руки",
-      "salary_raw": {
-        "from": null,
-        "to": 40000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Образование не ниже средне-специального. Умение быстро находить и устранять неисправности. Ответственность, внимательность и хорошая коммуникация на горизонтальном и вертикальном...",
-      "responsibility": "Администрирование серверов (Linux/Windows): сервер передачи медицинских изображений (PACS); сервер видеоконференцсвязи IVA, сервер технической системы безопасности (СКУД). Администрирование IP-телефонии...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "122808900",
       "name": "Помощник системного администратора (техник)",
       "company": "ГК Компьютеры и сети",
@@ -3945,16 +4077,16 @@
       "accept_temporary": false
     },
     {
-      "id": "118473752",
+      "id": "118473750",
       "name": "Системный администратор",
       "company": "ФКУ ИК-1 ГУФСИН России по Челябинской области",
       "company_id": "7534395",
       "company_url": "https://hh.ru/employer/7534395",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/118473752",
+      "url": "https://hh.ru/vacancy/118473750",
       "published_at": "2025-07-28T08:56:53+0300",
       "created_at": "2025-07-28T08:56:53+0300",
-      "area": "Зауральский",
+      "area": "Еманжелинка",
       "salary": "38 000 - 50 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 38000,
@@ -3978,16 +4110,16 @@
       "accept_temporary": false
     },
     {
-      "id": "118473750",
+      "id": "118473752",
       "name": "Системный администратор",
       "company": "ФКУ ИК-1 ГУФСИН России по Челябинской области",
       "company_id": "7534395",
       "company_url": "https://hh.ru/employer/7534395",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/118473750",
+      "url": "https://hh.ru/vacancy/118473752",
       "published_at": "2025-07-28T08:56:53+0300",
       "created_at": "2025-07-28T08:56:53+0300",
-      "area": "Еманжелинка",
+      "area": "Зауральский",
       "salary": "38 000 - 50 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 38000,
@@ -5311,39 +5443,6 @@
       "accept_temporary": false
     },
     {
-      "id": "122590667",
-      "name": "Системный администратор",
-      "company": "Айти Решения",
-      "company_id": "8933963",
-      "company_url": "https://hh.ru/employer/8933963",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1181764.png",
-      "url": "https://hh.ru/vacancy/122590667",
-      "published_at": "2025-07-27T17:29:02+0300",
-      "created_at": "2025-07-27T17:29:02+0300",
-      "area": "Краснодар",
-      "salary": "60 000 - 70 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 60000,
-        "to": 70000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы системным администратором от 1 года. Знания архитектуры компьютеров и сетевых технологий. Опыт администрирования виртуализации, баз данных, сетевого оборудования...",
-      "responsibility": "2 линия технической поддержки пользователей. - Администрирование виртуализации (Hyper-V, Proxmox), СУБД (MS SQL, PostgreSQL) и сетевого оборудования (Mikrotik). -",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "122219890",
       "name": "Системный администратор",
       "company": "Трансоптторг",
@@ -6011,39 +6110,6 @@
       "employment": "Частичная занятость",
       "requirement": "Знание основ сетевого и системного администрирования. Знание операционных систем Windows. Опыт в техническом обслуживании компьютеров/ноутбуков и иного офисного оборудования.",
       "responsibility": "Поддержка бесперебойного функционирования офисного программного обеспечения, локальных сетей; настройка серверного оборудования. Администрирование ОС Windows 7/10, прикладного ПО.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122189435",
-      "name": "Системный администратор",
-      "company": "АЛМАЗ",
-      "company_id": "2888486",
-      "company_url": "https://hh.ru/employer/2888486",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1070556.png",
-      "url": "https://hh.ru/vacancy/122189435",
-      "published_at": "2025-07-27T10:17:09+0300",
-      "created_at": "2025-07-27T10:17:09+0300",
-      "area": "Великий Новгород",
-      "salary": "от 90 000 RUR на руки",
-      "salary_raw": {
-        "from": 90000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование. Опыт работы в аналогичной должности от 3-х лет. Экспертные знания устройства компьютера и оргтехники: умение собрать, настроить...",
-      "responsibility": "Поддержка офиса: знания MS Windows 7, 10, 11, MS Office 365. Решение инцидентов посредством удалённого администрирования, а также помощь на...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -9562,16 +9628,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209748",
+      "id": "123209740",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209748",
+      "url": "https://hh.ru/vacancy/123209740",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Якутск",
+      "area": "Смоленск",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -9595,16 +9661,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209740",
+      "id": "123209748",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209740",
+      "url": "https://hh.ru/vacancy/123209748",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Смоленск",
+      "area": "Якутск",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -23708,16 +23774,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121500109",
+      "id": "121500108",
       "name": "Системный администратор ОАСУ",
       "company": "Инвест Пром Групп",
       "company_id": "9134707",
       "company_url": "https://hh.ru/employer/9134707",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1094518.png",
-      "url": "https://hh.ru/vacancy/121500109",
+      "url": "https://hh.ru/vacancy/121500108",
       "published_at": "2025-07-10T08:33:37+0300",
       "created_at": "2025-07-10T08:33:37+0300",
-      "area": "Туймазы",
+      "area": "Октябрьский (Республика Башкортостан)",
       "salary": "от 60 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 60000,
@@ -23741,16 +23807,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121500108",
+      "id": "121500109",
       "name": "Системный администратор ОАСУ",
       "company": "Инвест Пром Групп",
       "company_id": "9134707",
       "company_url": "https://hh.ru/employer/9134707",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1094518.png",
-      "url": "https://hh.ru/vacancy/121500108",
+      "url": "https://hh.ru/vacancy/121500109",
       "published_at": "2025-07-10T08:33:37+0300",
       "created_at": "2025-07-10T08:33:37+0300",
-      "area": "Октябрьский (Республика Башкортостан)",
+      "area": "Туймазы",
       "salary": "от 60 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 60000,
@@ -31011,16 +31077,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122170993",
+      "id": "122170997",
       "name": "Системный администратор/инженер (IT)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122170993",
+      "url": "https://hh.ru/vacancy/122170997",
       "published_at": "2025-06-29T11:55:23+0300",
       "created_at": "2025-06-29T11:55:23+0300",
-      "area": "Медвежьегорск",
+      "area": "Опочка",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -31039,16 +31105,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122170997",
+      "id": "122170993",
       "name": "Системный администратор/инженер (IT)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122170997",
+      "url": "https://hh.ru/vacancy/122170993",
       "published_at": "2025-06-29T11:55:23+0300",
       "created_at": "2025-06-29T11:55:23+0300",
-      "area": "Опочка",
+      "area": "Медвежьегорск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
