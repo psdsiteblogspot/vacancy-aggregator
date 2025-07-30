@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-30T14:45:14Z",
+  "updated": "2025-07-30T15:42:56Z",
   "statistics": {
-    "total": 977,
-    "with_salary": 724,
-    "companies": 736,
-    "cities": 187,
+    "total": 974,
+    "with_salary": 721,
+    "companies": 734,
+    "cities": 186,
     "premium": 0,
     "with_test": 18
   },
   "vacancies": [
+    {
+      "id": "123441452",
+      "name": "Системный администратор",
+      "company": "ТРЦ Июнь",
+      "company_id": "9348491",
+      "company_url": "https://hh.ru/employer/9348491",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1332774.jpeg",
+      "url": "https://hh.ru/vacancy/123441452",
+      "published_at": "2025-07-30T18:12:44+0300",
+      "created_at": "2025-07-30T18:12:44+0300",
+      "area": "Сыктывкар",
+      "salary": "от 45 000 RUR на руки",
+      "salary_raw": {
+        "from": 45000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "",
+      "responsibility": "Сопровождение серверных платформ Windows Server 2008/2012. Установка прав доступа и контроль за использованием сетевых ресурсов. Внедрение WiFi сети посредством...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123436884",
+      "name": "Системный администратор",
+      "company": "Гринатом",
+      "company_id": "665467",
+      "company_url": "https://hh.ru/employer/665467",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/779318.png",
+      "url": "https://hh.ru/vacancy/123436884",
+      "published_at": "2025-07-30T17:59:16+0300",
+      "created_at": "2025-07-30T17:59:16+0300",
+      "area": "Зеленогорск (Красноярский край)",
+      "salary": "78 000 - 90 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 78000,
+        "to": 90000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Образование среднее профессиональное, либо высшее образование. Опыт работы системным администратором или администратором безопасности будет преимуществом.",
+      "responsibility": "Выполнение функций системного администратора автоматизированной системы в защищенном исполнении. Контроль состава технических и программных средств. Ведение технической документации информационной системы...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "122219890",
       "name": "Системный администратор",
@@ -76,39 +142,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее техническое образование. Знание установки и настройки Linux. Коммуникабельность. Гибкость к изменениям в процессах. Стрессоустойчивость. Умение работать в режиме многозадачности.",
       "responsibility": "Администрирование сервисов компании (электронная почта, сетевая печать, сайт компании). Обслуживание и организация рабочих мест пользователей. Техническая поддержка пользователей ПК и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123436884",
-      "name": "Системный администратор",
-      "company": "Гринатом",
-      "company_id": "665467",
-      "company_url": "https://hh.ru/employer/665467",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/779318.png",
-      "url": "https://hh.ru/vacancy/123436884",
-      "published_at": "2025-07-30T16:31:33+0300",
-      "created_at": "2025-07-30T16:31:33+0300",
-      "area": "Зеленогорск (Красноярский край)",
-      "salary": "78 000 - 90 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 78000,
-        "to": 90000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Образование среднее профессиональное, либо высшее образование. Опыт работы системным администратором или администратором безопасности будет преимуществом.",
-      "responsibility": "Выполнение функций системного администратора автоматизированной системы в защищенном исполнении. Контроль состава технических и программных средств. Ведение технической документации информационной системы...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -560,16 +593,16 @@
       "accept_temporary": true
     },
     {
-      "id": "123430167",
+      "id": "123430164",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123430167",
+      "url": "https://hh.ru/vacancy/123430164",
       "published_at": "2025-07-30T14:37:31+0300",
       "created_at": "2025-07-30T14:37:31+0300",
-      "area": "Артемовский (Свердловская область)",
+      "area": "Новокузнецк",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -616,16 +649,16 @@
       "accept_temporary": true
     },
     {
-      "id": "123430164",
+      "id": "123430167",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123430164",
+      "url": "https://hh.ru/vacancy/123430167",
       "published_at": "2025-07-30T14:37:31+0300",
       "created_at": "2025-07-30T14:37:31+0300",
-      "area": "Новокузнецк",
+      "area": "Артемовский (Свердловская область)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -10163,39 +10196,6 @@
       "accept_temporary": false
     },
     {
-      "id": "122222469",
-      "name": "Системный администратор в Информационный центр по атомной энергии Новосибирска",
-      "company": "Информационный центр атомной отрасли",
-      "company_id": "1339904",
-      "company_url": "https://hh.ru/employer/1339904",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1245679.png",
-      "url": "https://hh.ru/vacancy/122222469",
-      "published_at": "2025-07-27T18:23:55+0300",
-      "created_at": "2025-07-27T18:23:55+0300",
-      "area": "Новосибирск",
-      "salary": "от 50 640 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 50640,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее или среднее образование (IT). Знание и любовь к «железу». Стрессоустойчивость и коммуникабельность (работа подразумевает частый контакт с людьми разных...",
-      "responsibility": "Обслуживание компьютерной техники в офисе компании (компьютеры, роутеры, принтеры и т.д.). Работа с мультимедийной системой (показ фильмов, презентаций).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "122149277",
       "name": "Ведущий системный администратор",
       "company": "Нильсон Авто",
@@ -12233,16 +12233,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209740",
+      "id": "123209748",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209740",
+      "url": "https://hh.ru/vacancy/123209748",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Смоленск",
+      "area": "Якутск",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -12266,16 +12266,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209748",
+      "id": "123209740",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209748",
+      "url": "https://hh.ru/vacancy/123209740",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Якутск",
+      "area": "Смоленск",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -30887,105 +30887,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее или среднее техническое (профильное) образование. Знание принципов работы медицинских информационных систем (готовность обучаться). Стрессоустойчивость. Ответственность.",
       "responsibility": "Техническая поддержка ПО. Техническая поддержка пользователей по ИТ. Обучение пользователей работе с программным обеспечением. Компонентный ремонт ПК. Монтаж ЛВС.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "119338653",
-      "name": "Системный администратор",
-      "company": "GS Group",
-      "company_id": "626",
-      "company_url": "https://hh.ru/employer/626",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1445747.png",
-      "url": "https://hh.ru/vacancy/119338653",
-      "published_at": "2025-06-30T18:31:24+0300",
-      "created_at": "2025-06-30T18:31:24+0300",
-      "area": "Гусев",
-      "salary": "до 137 000 RUR на руки",
-      "salary_raw": {
-        "from": null,
-        "to": 137000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы системным администратором в компаниях с развитой ИТ инфраструктурой (от 200-х ПК, количество серверов от 25) – от 3...",
-      "responsibility": "Администрирование корпоративных ИТ-сервисов: Контролеры домена MS Windows Server. Сервисы AD, DNS, DHCP, KMS, GPO. Сервера Windows Server 2008-2019.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122222343",
-      "name": "Системный администратор",
-      "company": "Министерство здравоохранения Республики Алтай",
-      "company_id": "10685187",
-      "company_url": "https://hh.ru/employer/10685187",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/122222343",
-      "published_at": "2025-06-30T18:18:21+0300",
-      "created_at": "2025-06-30T18:18:21+0300",
-      "area": "Горно-Алтайск",
-      "salary": "до 70 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": null,
-        "to": 70000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в должности системного администратора/ специалиста техподдержки от 1 года. Навыки администрирования: Windows Server (AD, DNS, GPO, DHCP); Linux...",
-      "responsibility": "Поддержка пользователей 50 рабочих мест. Администрирование, настройка, установка и техническое сопровождение парка серверов, оборудования рабочих мест и другой оффисной оргтехники.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120857951",
-      "name": "Системный администратор (гибридный график)",
-      "company": "Мир",
-      "company_id": "2687449",
-      "company_url": "https://hh.ru/employer/2687449",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1358015.png",
-      "url": "https://hh.ru/vacancy/120857951",
-      "published_at": "2025-06-30T18:02:23+0300",
-      "created_at": "2025-06-30T18:02:23+0300",
-      "area": "Ростов-на-Дону",
-      "salary": "от 60 000 RUR на руки",
-      "salary_raw": {
-        "from": 60000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Обожаешь разбираться в компьютерах, серверах и сетях, и можешь часами сидеть и ковыряться в настройках без усталости. С любопытством и...",
-      "responsibility": "Поддерживать сотрудников — помогать с техникой и устранять проблемы (офис, склад, удалёнка). Администрировать Windows Server 2019, 1С, Битрикс24, телефонию...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
