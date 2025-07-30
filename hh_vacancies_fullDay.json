@@ -10,16 +10,77 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-30T13:09:41Z",
+  "updated": "2025-07-30T13:54:32Z",
   "statistics": {
     "total": 979,
-    "with_salary": 727,
-    "companies": 738,
-    "cities": 186,
+    "with_salary": 726,
+    "companies": 737,
+    "cities": 187,
     "premium": 0,
-    "with_test": 17
+    "with_test": 18
   },
   "vacancies": [
+    {
+      "id": "123436884",
+      "name": "Системный администратор",
+      "company": "Гринатом",
+      "company_id": "665467",
+      "company_url": "https://hh.ru/employer/665467",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/779318.png",
+      "url": "https://hh.ru/vacancy/123436884",
+      "published_at": "2025-07-30T16:31:33+0300",
+      "created_at": "2025-07-30T16:31:33+0300",
+      "area": "Зеленогорск (Красноярский край)",
+      "salary": "78 000 - 90 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 78000,
+        "to": 90000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Образование среднее профессиональное, либо высшее образование. Опыт работы системным администратором или администратором безопасности будет преимуществом.",
+      "responsibility": "Выполнение функций системного администратора автоматизированной системы в защищенном исполнении. Контроль состава технических и программных средств. Ведение технической документации информационной системы...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123435605",
+      "name": "Инженер технической поддержки / Системный администратор",
+      "company": "Bonduelle",
+      "company_id": "51119",
+      "company_url": "https://hh.ru/employer/51119",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/638794.jpg",
+      "url": "https://hh.ru/vacancy/123435605",
+      "published_at": "2025-07-30T16:10:42+0300",
+      "created_at": "2025-07-30T16:10:42+0300",
+      "area": "Краснодар",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Администрирование ОС Windows 10\\11. Навыки поиска решений технических проблем в открытых источниках, работа с документацией. Понимание работы сетей, базовые...",
+      "responsibility": "Работа с сетевым и серверным оборудованием по запросам и инструкциям от системных администраторов. Поддержка офисного оборудования (принтеры, проекторы).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Специалист технической поддержки"
+      ],
+      "has_test": true,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123435135",
       "name": "Системный администратор (специалист второй линии поддержки)",
@@ -11184,39 +11245,6 @@
       "accept_temporary": false
     },
     {
-      "id": "123115373",
-      "name": "Системный администратор",
-      "company": "Платинум Консалтинг",
-      "company_id": "5627550",
-      "company_url": "https://hh.ru/employer/5627550",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1301073.jpg",
-      "url": "https://hh.ru/vacancy/123115373",
-      "published_at": "2025-07-25T12:51:44+0300",
-      "created_at": "2025-07-25T12:51:44+0300",
-      "area": "Ростов-на-Дону",
-      "salary": "70 000 - 73 000 RUR на руки",
-      "salary_raw": {
-        "from": 70000,
-        "to": 73000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Желательно профильное образование. Опыт работы не менее 1 года (системным администратором). Технические знания общих принципов работы операционных систем.",
-      "responsibility": "Администрирование серверных и клиентских ОС MS windows. Настройка и мониторинг антивирусной системы. Настройка и мониторинг сетевой инфраструктуры (роутеры Zyxel, модемы...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "122227829",
       "name": "Системный администратор",
       "company": "Розничная сеть салонов ВСЕ ОПТИКА",
@@ -14115,39 +14143,6 @@
       "accept_temporary": false
     },
     {
-      "id": "121328262",
-      "name": "Системный администратор отдела информационных технологий и АСУ",
-      "company": "ГКУ Ростовской области Центр занятости населения города Ростова-на-Дону",
-      "company_id": "2660032",
-      "company_url": "https://hh.ru/employer/2660032",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/121328262",
-      "published_at": "2025-07-23T09:58:02+0300",
-      "created_at": "2025-07-23T09:58:02+0300",
-      "area": "Ростов-на-Дону",
-      "salary": "35 000 - 55 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 35000,
-        "to": 55000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Требование к образованию: 1.Должен иметь высшее профессиональное образование или среднее профессиональное образование (по профилю деятельности).",
-      "responsibility": "Инспектор центра занятости населения отдела информационных технологий и АСУ обязан: Проводить диагностику и настройку компьютерной техники.Устанавливать и обслуживать копировально-множительную...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "123132875",
       "name": "Младший Системный Администратор",
       "company": "Макшел-КМВ",
@@ -15342,16 +15337,16 @@
       "accept_temporary": true
     },
     {
-      "id": "123102490",
+      "id": "123102496",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123102490",
+      "url": "https://hh.ru/vacancy/123102496",
       "published_at": "2025-07-22T12:59:57+0300",
       "created_at": "2025-07-22T12:59:57+0300",
-      "area": "Юрюзань",
+      "area": "Кизляр",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -15370,16 +15365,16 @@
       "accept_temporary": true
     },
     {
-      "id": "123102496",
+      "id": "123102490",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123102496",
+      "url": "https://hh.ru/vacancy/123102490",
       "published_at": "2025-07-22T12:59:57+0300",
       "created_at": "2025-07-22T12:59:57+0300",
-      "area": "Кизляр",
+      "area": "Юрюзань",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -18865,16 +18860,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122968615",
+      "id": "122968616",
       "name": "Системный администратор",
       "company": "Хайлэнд Голд",
       "company_id": "4986",
       "company_url": "https://hh.ru/employer/4986",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1435334.png",
-      "url": "https://hh.ru/vacancy/122968615",
+      "url": "https://hh.ru/vacancy/122968616",
       "published_at": "2025-07-18T09:13:31+0300",
       "created_at": "2025-07-18T09:13:31+0300",
-      "area": "Красноярск",
+      "area": "Краснодар",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -18893,16 +18888,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122968616",
+      "id": "122968615",
       "name": "Системный администратор",
       "company": "Хайлэнд Голд",
       "company_id": "4986",
       "company_url": "https://hh.ru/employer/4986",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1435334.png",
-      "url": "https://hh.ru/vacancy/122968616",
+      "url": "https://hh.ru/vacancy/122968615",
       "published_at": "2025-07-18T09:13:31+0300",
       "created_at": "2025-07-18T09:13:31+0300",
-      "area": "Краснодар",
+      "area": "Красноярск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -22894,39 +22889,6 @@
       "accept_temporary": false
     },
     {
-      "id": "118570565",
-      "name": "Системный администратор",
-      "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
-      "company_id": "1864933",
-      "company_url": "https://hh.ru/employer/1864933",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/657972.png",
-      "url": "https://hh.ru/vacancy/118570565",
-      "published_at": "2025-07-14T11:10:12+0300",
-      "created_at": "2025-07-14T11:10:12+0300",
-      "area": "Новосибирск",
-      "salary": "до 40 000 RUR на руки",
-      "salary_raw": {
-        "from": null,
-        "to": 40000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Среднее профессиональное или высшее техническое образование. Базовые знания по администрированию Windows. Умение пользоваться технической документацией. Опыт работы в аналогичной должности.",
-      "responsibility": "Сопровождение операционных систем семейства Windows. Консультация и помощь пользователям ПК, подключение новых рабочих мест, настройка программного обеспечения на новом рабочем...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "118570599",
       "name": "Системный администратор",
       "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
@@ -22949,6 +22911,39 @@
       "employment": "Полная занятость",
       "requirement": "Среднее специальное или высшее профильное образование. Знание и навыки обслуживания аппаратного устройства рабочей станции (персонального компьютера). Знание и навыки обслуживания...",
       "responsibility": "Администрирование аппаратного обеспечения серверного оборудования, рабочих станций, периферийного оборудования, ЛВС, систем телефонии, в том числе техническая поддержка видеоконференций.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "118570565",
+      "name": "Системный администратор",
+      "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
+      "company_id": "1864933",
+      "company_url": "https://hh.ru/employer/1864933",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/657972.png",
+      "url": "https://hh.ru/vacancy/118570565",
+      "published_at": "2025-07-14T11:10:12+0300",
+      "created_at": "2025-07-14T11:10:12+0300",
+      "area": "Новосибирск",
+      "salary": "до 40 000 RUR на руки",
+      "salary_raw": {
+        "from": null,
+        "to": 40000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Среднее профессиональное или высшее техническое образование. Базовые знания по администрированию Windows. Умение пользоваться технической документацией. Опыт работы в аналогичной должности.",
+      "responsibility": "Сопровождение операционных систем семейства Windows. Консультация и помощь пользователям ПК, подключение новых рабочих мест, настройка программного обеспечения на новом рабочем...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
