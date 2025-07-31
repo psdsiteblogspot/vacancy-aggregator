@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-31T19:20:31Z",
+  "updated": "2025-07-31T20:27:00Z",
   "statistics": {
-    "total": 1476,
-    "with_salary": 841,
-    "companies": 1177,
+    "total": 1477,
+    "with_salary": 842,
+    "companies": 1178,
     "cities": 75,
     "premium": 1,
     "with_test": 58
   },
   "vacancies": [
+    {
+      "id": "123498320",
+      "name": "Ведущий системный администратор",
+      "company": "Компания Русский Свет",
+      "company_id": "162038",
+      "company_url": "https://hh.ru/employer/162038",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/661077.jpg",
+      "url": "https://hh.ru/vacancy/123498320",
+      "published_at": "2025-07-31T23:01:31+0300",
+      "created_at": "2025-07-31T23:01:31+0300",
+      "area": "Санкт-Петербург",
+      "salary": "от 80 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Среднее специальное или высшее образование. Опыт работы на аналогичной должности или сфере IT. Знание рынка оргтехники и информационных технологий.",
+      "responsibility": "Обеспечение бесперебойной работы программно-аппаратного комплекса и его регулярное обновление. Выбор партнеров по закупке и ремонту оргтехники. Проведение работ по...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123498152",
       "name": "Системный администратор",
@@ -54,16 +87,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123498153",
+      "id": "123498154",
       "name": "Системный администратор",
       "company": "Аэросиб С",
       "company_id": "4623013",
       "company_url": "https://hh.ru/employer/4623013",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1353194.jpg",
-      "url": "https://hh.ru/vacancy/123498153",
+      "url": "https://hh.ru/vacancy/123498154",
       "published_at": "2025-07-31T22:02:30+0300",
       "created_at": "2025-07-31T22:02:30+0300",
-      "area": "Видное (Московская область)",
+      "area": "Домодедово (Московская область)",
       "salary": "от 110 000 RUR на руки",
       "salary_raw": {
         "from": 110000,
@@ -87,16 +120,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123498154",
+      "id": "123498153",
       "name": "Системный администратор",
       "company": "Аэросиб С",
       "company_id": "4623013",
       "company_url": "https://hh.ru/employer/4623013",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1353194.jpg",
-      "url": "https://hh.ru/vacancy/123498154",
+      "url": "https://hh.ru/vacancy/123498153",
       "published_at": "2025-07-31T22:02:30+0300",
       "created_at": "2025-07-31T22:02:30+0300",
-      "area": "Домодедово (Московская область)",
+      "area": "Видное (Московская область)",
       "salary": "от 110 000 RUR на руки",
       "salary_raw": {
         "from": 110000,
@@ -20996,34 +21029,6 @@
       "accept_temporary": false
     },
     {
-      "id": "120824770",
-      "name": "Системный администратор Linux (Senior)",
-      "company": "Газпром ЦПС",
-      "company_id": "5778059",
-      "company_url": "https://hh.ru/employer/5778059",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1039755.png",
-      "url": "https://hh.ru/vacancy/120824770",
-      "published_at": "2025-07-25T18:42:33+0300",
-      "created_at": "2025-07-25T18:42:33+0300",
-      "area": "Санкт-Петербург",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование. Опыт работы с инфраструктурой, где количество пользователей более 300. Опыт работы с серверными операционными системами семейства Linux (в...",
-      "responsibility": "Обеспечение бесперебойного функционирования IT-инфраструктуры компании. Административное сопровождение серверного оборудования. Административное сопровождение сетевой инфраструктуры. Поддержка и администрирование инфраструктурных систем и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "120870960",
       "name": "Системный администратор (Linux + базис 1С + PostgreSQL) (id 815)",
       "company": "Газпром ЦПС",
@@ -21041,6 +21046,34 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы с Linux (yum, centos, redos и др.) без графической оболочки — обязателен. Опыт администрирования PostgreSQL на Linux.",
       "responsibility": "Устанавливать и настраивать платформу 1С на Linux-серверах. Настраивать и администрировать кластеры 1С. Устанавливать и оптимизировать PostgreSQL под...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "120824770",
+      "name": "Системный администратор Linux (Senior)",
+      "company": "Газпром ЦПС",
+      "company_id": "5778059",
+      "company_url": "https://hh.ru/employer/5778059",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1039755.png",
+      "url": "https://hh.ru/vacancy/120824770",
+      "published_at": "2025-07-25T18:42:33+0300",
+      "created_at": "2025-07-25T18:42:33+0300",
+      "area": "Санкт-Петербург",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование. Опыт работы с инфраструктурой, где количество пользователей более 300. Опыт работы с серверными операционными системами семейства Linux (в...",
+      "responsibility": "Обеспечение бесперебойного функционирования IT-инфраструктуры компании. Административное сопровождение серверного оборудования. Административное сопровождение сетевой инфраструктуры. Поддержка и администрирование инфраструктурных систем и...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
