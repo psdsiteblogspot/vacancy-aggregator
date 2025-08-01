@@ -10,16 +10,115 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-01T03:02:22Z",
+  "updated": "2025-08-01T04:41:14Z",
   "statistics": {
-    "total": 838,
-    "with_salary": 632,
-    "companies": 647,
+    "total": 839,
+    "with_salary": 633,
+    "companies": 648,
     "cities": 126,
     "premium": 0,
     "with_test": 12
   },
   "vacancies": [
+    {
+      "id": "123501268",
+      "name": "Помощник системного администратора",
+      "company": "Декларант Плюс",
+      "company_id": "5913771",
+      "company_url": "https://hh.ru/employer/5913771",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/123501268",
+      "published_at": "2025-08-01T07:14:05+0300",
+      "created_at": "2025-08-01T07:14:05+0300",
+      "area": "Владивосток",
+      "salary": "от 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт администрирования серверов на Windows Server и ОС Linux. - Опыт работы с nginx/apache, PostgreSQL. - Опыт работы с системами мониторинга...",
+      "responsibility": "Компания «Декларант Плюс» - это команда опытных специалистов, предоставляющих услуги по продаже, сопровождению и разработке специализированного программного обеспечения и сервисов для...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121702684",
+      "name": "Системный администратор (в службу безопасности)",
+      "company": "Кэш & Кэрри",
+      "company_id": "4484560",
+      "company_url": "https://hh.ru/employer/4484560",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1437319.png",
+      "url": "https://hh.ru/vacancy/121702684",
+      "published_at": "2025-08-01T06:54:02+0300",
+      "created_at": "2025-08-01T06:54:02+0300",
+      "area": "Благовещенск (Амурская область)",
+      "salary": "70 000 - 70 000 RUR на руки",
+      "salary_raw": {
+        "from": 70000,
+        "to": 70000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Среднее специальное или высшее образование. Аналогичный опыт работы (но рассматриваем и без опыта работы). Оперативное решение технических задач, удаленная поддержка...",
+      "responsibility": "Частично разъездной характер работы. Настройка и обслуживание ПК (желателен опыт). Монтаж, настройка и обслуживание видеонаблюдение (возможно обучение). Выполнение дополнительных распоряжение...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "120364352",
+      "name": "Младший системный администратор",
+      "company": "ГОСАПТЕКА",
+      "company_id": "9549189",
+      "company_url": "https://hh.ru/employer/9549189",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1387443.png",
+      "url": "https://hh.ru/vacancy/120364352",
+      "published_at": "2025-08-01T06:29:55+0300",
+      "created_at": "2025-08-01T06:29:55+0300",
+      "area": "Владивосток",
+      "salary": "от 82 000 RUR на руки",
+      "salary_raw": {
+        "from": 82000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Умение работать с инструментом. Уверенный пользователь ПК.",
+      "responsibility": "Прокладка СКС в офисах и аптеках. Монтаж телекоммуникационных шкафов, подключение сетевого оборудования. Подключение и настройка рабочих мест.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "116338941",
       "name": "Системный администратор",
@@ -2318,72 +2417,6 @@
       "employment": "Полная занятость",
       "requirement": "Профильное образование в области информационных технологий или смежных областях (будет плюсом). Опыт работы системным администратором от 1 года.",
       "responsibility": "Техническая поддержка пользователей и периферийного оборудования. Модульный ремонт офисного оборудования. Администрирование парка машин и учётных записей пользователей. Обеспечение бесперебойной работы...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121702684",
-      "name": "Системный администратор (в службу безопасности)",
-      "company": "Кэш & Кэрри",
-      "company_id": "4484560",
-      "company_url": "https://hh.ru/employer/4484560",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1437319.png",
-      "url": "https://hh.ru/vacancy/121702684",
-      "published_at": "2025-07-31T05:42:44+0300",
-      "created_at": "2025-07-31T05:42:44+0300",
-      "area": "Благовещенск (Амурская область)",
-      "salary": "70 000 - 70 000 RUR на руки",
-      "salary_raw": {
-        "from": 70000,
-        "to": 70000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Среднее специальное или высшее образование. Аналогичный опыт работы (но рассматриваем и без опыта работы). Оперативное решение технических задач, удаленная поддержка...",
-      "responsibility": "Частично разъездной характер работы. Настройка и обслуживание ПК (желателен опыт). Монтаж, настройка и обслуживание видеонаблюдение (возможно обучение). Выполнение дополнительных распоряжение...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120364352",
-      "name": "Младший системный администратор",
-      "company": "ГОСАПТЕКА",
-      "company_id": "9549189",
-      "company_url": "https://hh.ru/employer/9549189",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1387443.png",
-      "url": "https://hh.ru/vacancy/120364352",
-      "published_at": "2025-07-31T04:56:16+0300",
-      "created_at": "2025-07-31T04:56:16+0300",
-      "area": "Владивосток",
-      "salary": "от 82 000 RUR на руки",
-      "salary_raw": {
-        "from": 82000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Умение работать с инструментом. Уверенный пользователь ПК.",
-      "responsibility": "Прокладка СКС в офисах и аптеках. Монтаж телекоммуникационных шкафов, подключение сетевого оборудования. Подключение и настройка рабочих мест.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -11302,16 +11335,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209738",
+      "id": "123209749",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209738",
+      "url": "https://hh.ru/vacancy/123209749",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Липецк",
+      "area": "Южно-Сахалинск",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -11335,16 +11368,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209749",
+      "id": "123209738",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209749",
+      "url": "https://hh.ru/vacancy/123209738",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Южно-Сахалинск",
+      "area": "Липецк",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
