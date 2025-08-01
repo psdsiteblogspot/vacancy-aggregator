@@ -10,16 +10,143 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-07-31T23:48:39Z",
+  "updated": "2025-08-01T03:02:22Z",
   "statistics": {
-    "total": 839,
+    "total": 838,
     "with_salary": 632,
-    "companies": 648,
+    "companies": 647,
     "cities": 126,
     "premium": 0,
     "with_test": 12
   },
   "vacancies": [
+    {
+      "id": "116338941",
+      "name": "Системный администратор",
+      "company": "Азиатско-Тихоокеанский Банк",
+      "company_id": "176941",
+      "company_url": "https://hh.ru/employer/176941",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1376329.jpg",
+      "url": "https://hh.ru/vacancy/116338941",
+      "published_at": "2025-08-01T05:43:32+0300",
+      "created_at": "2025-08-01T05:43:32+0300",
+      "area": "Белогорск",
+      "salary": "от 55 000 RUR на руки",
+      "salary_raw": {
+        "from": 55000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование (информационные технологии) или опыт работы. Ответственность, внимательность, исполнительность.",
+      "responsibility": "Контроль и мониторинг работоспособности инфраструктурных систем банка. Эскалация внештатных ситуаций и передача выявленных инцидентов курирующим их подразделениям. Администрирование работы банкоматов...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "110362423",
+      "name": "Системный администратор Linux",
+      "company": "Цифровое Приморье",
+      "company_id": "5893916",
+      "company_url": "https://hh.ru/employer/5893916",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/110362423",
+      "published_at": "2025-08-01T04:20:21+0300",
+      "created_at": "2025-08-01T04:20:21+0300",
+      "area": "Владивосток",
+      "salary": "от 160 000 RUR на руки",
+      "salary_raw": {
+        "from": 160000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы с Unix системами. Опыт работы с системами мониторинга и логирования. Опыт работы с kubernetes. Владение puppet или ansible.",
+      "responsibility": "Администрирование систем виртаулизации базе OpenNebula, хранилища на базе CEPH. Администрирование СХД, коммутационного оборудования. Администрирование серверов на ОС Windows и *nix.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "119360966",
+      "name": "Системный администратор",
+      "company": "Цифровое Приморье",
+      "company_id": "5893916",
+      "company_url": "https://hh.ru/employer/5893916",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/119360966",
+      "published_at": "2025-08-01T04:20:18+0300",
+      "created_at": "2025-08-01T04:20:18+0300",
+      "area": "Владивосток",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание оборудования mikrotik. Опыт работы с системами мониторинга.",
+      "responsibility": "Администрирование распределенной сети (VPN). Администрирование сетевого оборудования: коммутаторы, маршрутизаторы mikrotik. Администрирование оборудования видеонаблюдения. Администрирование серверного оборудования. Мониторинг каналов связи и...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Специалист технической поддержки"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123498991",
+      "name": "Системный администратор",
+      "company": "Рыбомиров",
+      "company_id": "3523188",
+      "company_url": "https://hh.ru/employer/3523188",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/989135.jpg",
+      "url": "https://hh.ru/vacancy/123498991",
+      "published_at": "2025-08-01T04:07:52+0300",
+      "created_at": "2025-08-01T04:07:52+0300",
+      "area": "Уссурийск",
+      "salary": "от 70 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 70000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в данной сфере не менее от одного года.",
+      "responsibility": "Поддержание в рабочем состоянии серверов и локальных машин (25 машин), телефонии, орг. техники. Оказание тех. поддержки пользователям. Установка и настройка...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123498672",
       "name": "Системный администратор",
@@ -9148,67 +9275,6 @@
       "accept_temporary": false
     },
     {
-      "id": "110362423",
-      "name": "Системный администратор Linux",
-      "company": "Цифровое Приморье",
-      "company_id": "5893916",
-      "company_url": "https://hh.ru/employer/5893916",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/110362423",
-      "published_at": "2025-07-28T07:49:00+0300",
-      "created_at": "2025-07-28T07:49:00+0300",
-      "area": "Владивосток",
-      "salary": "от 160 000 RUR на руки",
-      "salary_raw": {
-        "from": 160000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с Unix системами. Опыт работы с системами мониторинга и логирования. Опыт работы с kubernetes. Владение puppet или ansible.",
-      "responsibility": "Администрирование систем виртаулизации базе OpenNebula, хранилища на базе CEPH. Администрирование СХД, коммутационного оборудования. Администрирование серверов на ОС Windows и *nix.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "119360966",
-      "name": "Системный администратор",
-      "company": "Цифровое Приморье",
-      "company_id": "5893916",
-      "company_url": "https://hh.ru/employer/5893916",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/119360966",
-      "published_at": "2025-07-28T07:48:57+0300",
-      "created_at": "2025-07-28T07:48:57+0300",
-      "area": "Владивосток",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание оборудования mikrotik. Опыт работы с системами мониторинга.",
-      "responsibility": "Администрирование распределенной сети (VPN). Администрирование сетевого оборудования: коммутаторы, маршрутизаторы mikrotik. Администрирование оборудования видеонаблюдения. Администрирование серверного оборудования. Мониторинг каналов связи и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Специалист технической поддержки"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "121349056",
       "name": "Системный администратор (Чебоксарский филиал АБС Русь)",
       "company": "АБС Электро",
@@ -10873,16 +10939,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209750",
+      "id": "123209736",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209750",
+      "url": "https://hh.ru/vacancy/123209736",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Хабаровск",
+      "area": "Кострома",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -10906,16 +10972,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209736",
+      "id": "123209750",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209736",
+      "url": "https://hh.ru/vacancy/123209750",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Кострома",
+      "area": "Хабаровск",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -14294,39 +14360,6 @@
       "accept_temporary": false
     },
     {
-      "id": "123079191",
-      "name": "Системный администратор",
-      "company": "Рыбомиров",
-      "company_id": "3523188",
-      "company_url": "https://hh.ru/employer/3523188",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/989135.jpg",
-      "url": "https://hh.ru/vacancy/123079191",
-      "published_at": "2025-07-22T06:08:01+0300",
-      "created_at": "2025-07-22T06:08:01+0300",
-      "area": "Уссурийск",
-      "salary": "от 70 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 70000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в данной сфере не менее от одного года.",
-      "responsibility": "Поддержание в рабочем состоянии серверов и локальных машин (25 машин), телефонии, орг. техники. Оказание тех. поддержки пользователям. Установка и настройка...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "123077993",
       "name": "Системный администратор",
       "company": "Объединенные кондитеры",
@@ -15784,34 +15817,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее техническое образование (в сфере ИТ, физики, математики). Опыт работы по специальности от 3 лет. Опыт работы с сетевым оборудованием...",
       "responsibility": "Администрирование и модернизация корпоративной сети IP-сети на базе активного оборудования Eltex/Cisco/HP, ведение актуальной документации. Настройка и сопровождение...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121810003",
-      "name": "Системный администратор",
-      "company": "Газпроектинжиниринг Сахалин",
-      "company_id": "10024521",
-      "company_url": "https://hh.ru/employer/10024521",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1122971.jpg",
-      "url": "https://hh.ru/vacancy/121810003",
-      "published_at": "2025-07-19T03:06:40+0300",
-      "created_at": "2025-07-19T03:06:40+0300",
-      "area": "Южно-Сахалинск",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование по направлению ИТ. Иное высшее образование + профессиональная переподготовка по направлениям ИТ. Опыт работы в сфере ИТ не...",
-      "responsibility": "Установка, настройка и обслуживание серверов на базе Windows Server и Linux (Ubuntu, Debian, CentOS), включая виртуализированные среды (Hyper-V, VMware...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -22489,39 +22494,6 @@
       "employment": "Полная занятость",
       "requirement": "Требования: Знание модели OSI. Знание VPN. Знание основ построения компьютерных информационных систем, структурированных кабельных сетей. Умение устанавливать, настраивать и оптимизировать...",
       "responsibility": "Администрирование и монтаж локальной сети компании. Контроль за состоянием компьютерной и оргтехники, программного обеспечения пользователей, оптимизация ее использования, обслуживание принтеров...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "116338941",
-      "name": "Системный администратор",
-      "company": "Азиатско-Тихоокеанский Банк",
-      "company_id": "176941",
-      "company_url": "https://hh.ru/employer/176941",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1376329.jpg",
-      "url": "https://hh.ru/vacancy/116338941",
-      "published_at": "2025-07-09T06:45:56+0300",
-      "created_at": "2025-07-09T06:45:56+0300",
-      "area": "Белогорск",
-      "salary": "от 55 000 RUR на руки",
-      "salary_raw": {
-        "from": 55000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование (информационные технологии) или опыт работы. Ответственность, внимательность, исполнительность.",
-      "responsibility": "Контроль и мониторинг работоспособности инфраструктурных систем банка. Эскалация внештатных ситуаций и передача выявленных инцидентов курирующим их подразделениям. Администрирование работы банкоматов...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
