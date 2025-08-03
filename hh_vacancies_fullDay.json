@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-03T15:39:47Z",
+  "updated": "2025-08-03T16:45:39Z",
   "statistics": {
     "total": 939,
     "with_salary": 682,
@@ -20,6 +20,39 @@
     "with_test": 19
   },
   "vacancies": [
+    {
+      "id": "112470475",
+      "name": "Системный администратор",
+      "company": "ГАУЗ ГП № 2",
+      "company_id": "4510742",
+      "company_url": "https://hh.ru/employer/4510742",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1251783.png",
+      "url": "https://hh.ru/vacancy/112470475",
+      "published_at": "2025-08-03T18:59:42+0300",
+      "created_at": "2025-08-03T18:59:42+0300",
+      "area": "Улан-Удэ",
+      "salary": "от 60 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 60000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование. Виртуализация на базе VMware. Наличие знания администрирование Active Directory(GPO,DNS.DHCP). Настройка сетевого оборудования(D-Link,MikroTik).",
+      "responsibility": "Администрирование серверов. Администрирование сетевой инфраструктуры. Работа с оргтехникой, настройка ПК, принтеров. Поддержка пользователей. Контроль за перемещением ИТ оборудования.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123511851",
       "name": "Начинающий системный администратор",
@@ -726,39 +759,6 @@
       "employment": "Полная занятость",
       "requirement": "1. Навык установки и поддержки ОС Windows, обеспечение информационной безопасности системы. 2. Знание принципов работы сетевых протоколов, принципов построения компьютерных...",
       "responsibility": "1. Осуществляет администрирование информационно-технической инфраструкryры Компании. 2. Производит обслуживание, настройку и администрирование серверов, следит за их надлежащей эксплyатацией.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "112470475",
-      "name": "Системный администратор",
-      "company": "ГАУЗ ГП № 2",
-      "company_id": "4510742",
-      "company_url": "https://hh.ru/employer/4510742",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1251783.png",
-      "url": "https://hh.ru/vacancy/112470475",
-      "published_at": "2025-08-02T18:59:40+0300",
-      "created_at": "2025-08-02T18:59:40+0300",
-      "area": "Улан-Удэ",
-      "salary": "от 60 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 60000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование. Виртуализация на базе VMware. Наличие знания администрирование Active Directory(GPO,DNS.DHCP). Настройка сетевого оборудования(D-Link,MikroTik).",
-      "responsibility": "Администрирование серверов. Администрирование сетевой инфраструктуры. Работа с оргтехникой, настройка ПК, принтеров. Поддержка пользователей. Контроль за перемещением ИТ оборудования.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -4389,6 +4389,34 @@
       "accept_temporary": false
     },
     {
+      "id": "123503340",
+      "name": "Системный администратор/инженер (IT-аутсорсинг)",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/123503340",
+      "published_at": "2025-08-01T08:27:29+0300",
+      "created_at": "2025-08-01T08:27:29+0300",
+      "area": "Оленегорск",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Установка и настройка OC Windows, а также офисных приложений. Установка и настройка различного рода ПО. Подключение и настройка периферийного оборудования...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "123503341",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
@@ -4427,34 +4455,6 @@
       "published_at": "2025-08-01T08:27:29+0300",
       "created_at": "2025-08-01T08:27:29+0300",
       "area": "Старая Русса",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
-      "responsibility": "Установка и настройка OC Windows, а также офисных приложений. Установка и настройка различного рода ПО. Подключение и настройка периферийного оборудования...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123503340",
-      "name": "Системный администратор/инженер (IT-аутсорсинг)",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123503340",
-      "published_at": "2025-08-01T08:27:29+0300",
-      "created_at": "2025-08-01T08:27:29+0300",
-      "area": "Оленегорск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -4529,6 +4529,34 @@
       "accept_temporary": false
     },
     {
+      "id": "123503337",
+      "name": "Системный администратор/инженер (IT-аутсорсинг)",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/123503337",
+      "published_at": "2025-08-01T08:27:29+0300",
+      "created_at": "2025-08-01T08:27:29+0300",
+      "area": "Костомукша",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Установка и настройка OC Windows, а также офисных приложений. Установка и настройка различного рода ПО. Подключение и настройка периферийного оборудования...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "123503330",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
@@ -4567,34 +4595,6 @@
       "published_at": "2025-08-01T08:27:29+0300",
       "created_at": "2025-08-01T08:27:29+0300",
       "area": "Инта",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
-      "responsibility": "Установка и настройка OC Windows, а также офисных приложений. Установка и настройка различного рода ПО. Подключение и настройка периферийного оборудования...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123503337",
-      "name": "Системный администратор/инженер (IT-аутсорсинг)",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123503337",
-      "published_at": "2025-08-01T08:27:29+0300",
-      "created_at": "2025-08-01T08:27:29+0300",
-      "area": "Костомукша",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -20149,16 +20149,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123023336",
+      "id": "123023334",
       "name": "Старший системный администратор",
       "company": "Грин Рэй Кубань",
       "company_id": "2813961",
       "company_url": "https://hh.ru/employer/2813961",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1309932.png",
-      "url": "https://hh.ru/vacancy/123023336",
+      "url": "https://hh.ru/vacancy/123023334",
       "published_at": "2025-07-21T09:10:13+0300",
       "created_at": "2025-07-21T09:10:13+0300",
-      "area": "Ленинградская станица",
+      "area": "Крыловская станица (Крыловский район)",
       "salary": "92 000 - 92 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 92000,
@@ -20182,16 +20182,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123023334",
+      "id": "123023336",
       "name": "Старший системный администратор",
       "company": "Грин Рэй Кубань",
       "company_id": "2813961",
       "company_url": "https://hh.ru/employer/2813961",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1309932.png",
-      "url": "https://hh.ru/vacancy/123023334",
+      "url": "https://hh.ru/vacancy/123023336",
       "published_at": "2025-07-21T09:10:13+0300",
       "created_at": "2025-07-21T09:10:13+0300",
-      "area": "Крыловская станица (Крыловский район)",
+      "area": "Ленинградская станица",
       "salary": "92 000 - 92 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 92000,
