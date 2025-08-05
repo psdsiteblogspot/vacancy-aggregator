@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-05T13:55:30Z",
+  "updated": "2025-08-05T14:47:49Z",
   "statistics": {
-    "total": 986,
-    "with_salary": 716,
-    "companies": 736,
+    "total": 987,
+    "with_salary": 717,
+    "companies": 737,
     "cities": 204,
     "premium": 1,
     "with_test": 14
   },
   "vacancies": [
+    {
+      "id": "123668531",
+      "name": "Главный специалист центра информационных технологий (Системный администратор)",
+      "company": "Государственное казенное учреждение Краснодарского Края Безопасный Регион",
+      "company_id": "3172693",
+      "company_url": "https://hh.ru/employer/3172693",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1220666.png",
+      "url": "https://hh.ru/vacancy/123668531",
+      "published_at": "2025-08-05T17:21:03+0300",
+      "created_at": "2025-08-05T17:21:03+0300",
+      "area": "Краснодар",
+      "salary": "70 858 - 70 858 RUR на руки",
+      "salary_raw": {
+        "from": 70858,
+        "to": 70858,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее техническое образование. Понимание принципов работы: DNS, DHCP, Active Directory, GPO, Hyper-V, FTP, стека протоколов tcp/ip, ОС Windows...",
+      "responsibility": "Настройка и администрирование локальный сетей. Администрирование серверов. Настройка автоматизированных рабочих мест. Обслуживание орг. техники.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123607450",
+      "name": "Ведущий системный администратор",
+      "company": "Магнат",
+      "company_id": "144828",
+      "company_url": "https://hh.ru/employer/144828",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/849797.png",
+      "url": "https://hh.ru/vacancy/123607450",
+      "published_at": "2025-08-05T16:59:48+0300",
+      "created_at": "2025-08-05T16:59:48+0300",
+      "area": "Волгоград",
+      "salary": "130 000 - 150 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 130000,
+        "to": 150000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы на аналогичной позиции от 3 лет. Глубокие знания ОС Windows Server (Active Directory, DNS, DHCP, Group Policy) и...",
+      "responsibility": "Администрирование виртуализационных решений (VMware). Администрирование небольшого парка серверов, систем хранения данных (СХД). Администрирование MS Exchange/Lync. Поддержка контейнерных платформ (Docker).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123331312",
       "name": "Системный администратор",
@@ -2466,7 +2532,7 @@
         "currency": "RUR",
         "gross": false
       },
-      "experience": "Нет опыта",
+      "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
       "requirement": "Опыт работы по специальности или смежной деятельности от 1-го года. Опыт диагностики неисправностей ПК. Сборка и ремонт ПК, узловая...",
@@ -3309,39 +3375,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт администрирования Windows Server и Active Directory — от 2–3 лет. Знание платформы 1C:Enterprise на уровне администратора.",
       "responsibility": "Поддержка парка Windows-станций (около 50 ПК) и МФУ (только сетевые настройки). Администрирование серверов Windows Server (2012 и выше) с...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123607450",
-      "name": "Ведущий системный администратор",
-      "company": "Магнат",
-      "company_id": "144828",
-      "company_url": "https://hh.ru/employer/144828",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/849797.png",
-      "url": "https://hh.ru/vacancy/123607450",
-      "published_at": "2025-08-04T16:59:45+0300",
-      "created_at": "2025-08-04T16:59:45+0300",
-      "area": "Волгоград",
-      "salary": "130 000 - 150 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 130000,
-        "to": 150000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы на аналогичной позиции от 3 лет. Глубокие знания ОС Windows Server (Active Directory, DNS, DHCP, Group Policy) и...",
-      "responsibility": "Администрирование виртуализационных решений (VMware). Администрирование небольшого парка серверов, систем хранения данных (СХД). Администрирование MS Exchange/Lync. Поддержка контейнерных платформ (Docker).",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -5057,6 +5090,39 @@
       "accept_temporary": false
     },
     {
+      "id": "123507356",
+      "name": "Системный администратор",
+      "company": "Транском",
+      "company_id": "1897894",
+      "company_url": "https://hh.ru/employer/1897894",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1189769.png",
+      "url": "https://hh.ru/vacancy/123507356",
+      "published_at": "2025-08-04T09:50:50+0300",
+      "created_at": "2025-08-04T09:50:50+0300",
+      "area": "Вязьма",
+      "salary": "95 000 - 95 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 95000,
+        "to": 95000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высокая работоспособность в условиях многозадачности. Опыт работы в аналогичной должности. Ответственность. Опыт технического обслуживания и ремонта персональных компьютеров и оргтехники.",
+      "responsibility": "Обеспечение бесперебойной работы оборудования, локальных сетей компании, серверов, сетевых устройств. Устранение аварийных ситуаций, связанных с повреждением программного обеспечения и баз...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "123046300",
       "name": "Системный администратор (ведущий специалист сектора автоматизации)",
       "company": "ГКУ ЦСЗН по Советскому району Волгограда",
@@ -5664,39 +5730,6 @@
       "accept_temporary": false
     },
     {
-      "id": "115406932",
-      "name": "Системный администратор (на склад)",
-      "company": "Красное & Белое, розничная сеть",
-      "company_id": "1035394",
-      "company_url": "https://hh.ru/employer/1035394",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/90459.jpg",
-      "url": "https://hh.ru/vacancy/115406932",
-      "published_at": "2025-08-04T08:00:05+0300",
-      "created_at": "2025-08-04T08:00:05+0300",
-      "area": "Чита",
-      "salary": "79 000 - 86 000 RUR на руки",
-      "salary_raw": {
-        "from": 79000,
-        "to": 86000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в аналогичной должности от 1 года. Знание устройства ПК на уровне администратора. Знание офисных и почтовых программ.",
-      "responsibility": "Обслуживание рабочих мест (около 100 станций), обслуживание оргтехники, контроль работоспособности серверов. Контроль остатков ИТ склада. Проведение локальных ревизий ИТ склада.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "115406324",
       "name": "Помощник системного администратора (на склад)",
       "company": "Красное & Белое, розничная сеть",
@@ -5719,6 +5752,39 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы в аналогичной должности. Знание устройства ПК на уровне опытного пользователя. Опыт работы с торговым оборудованием. Обучаемость, ответственность, трудолюбие.",
       "responsibility": "Прием техники с магазинов, диагностика, сортировка на рабочее/не рабочее. Подготовка оборудования к отправке. Сбор заявок. Прием/размещение оборудования на...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "115406932",
+      "name": "Системный администратор (на склад)",
+      "company": "Красное & Белое, розничная сеть",
+      "company_id": "1035394",
+      "company_url": "https://hh.ru/employer/1035394",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/90459.jpg",
+      "url": "https://hh.ru/vacancy/115406932",
+      "published_at": "2025-08-04T08:00:05+0300",
+      "created_at": "2025-08-04T08:00:05+0300",
+      "area": "Чита",
+      "salary": "79 000 - 86 000 RUR на руки",
+      "salary_raw": {
+        "from": 79000,
+        "to": 86000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в аналогичной должности от 1 года. Знание устройства ПК на уровне администратора. Знание офисных и почтовых программ.",
+      "responsibility": "Обслуживание рабочих мест (около 100 станций), обслуживание оргтехники, контроль работоспособности серверов. Контроль остатков ИТ склада. Проведение локальных ревизий ИТ склада.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -23474,16 +23540,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122968615",
+      "id": "122968616",
       "name": "Системный администратор",
       "company": "Хайлэнд Голд",
       "company_id": "4986",
       "company_url": "https://hh.ru/employer/4986",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1435334.png",
-      "url": "https://hh.ru/vacancy/122968615",
+      "url": "https://hh.ru/vacancy/122968616",
       "published_at": "2025-07-18T09:13:31+0300",
       "created_at": "2025-07-18T09:13:31+0300",
-      "area": "Красноярск",
+      "area": "Краснодар",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -23502,16 +23568,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122968616",
+      "id": "122968615",
       "name": "Системный администратор",
       "company": "Хайлэнд Голд",
       "company_id": "4986",
       "company_url": "https://hh.ru/employer/4986",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1435334.png",
-      "url": "https://hh.ru/vacancy/122968616",
+      "url": "https://hh.ru/vacancy/122968615",
       "published_at": "2025-07-18T09:13:31+0300",
       "created_at": "2025-07-18T09:13:31+0300",
-      "area": "Краснодар",
+      "area": "Красноярск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -28069,39 +28135,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы. Активность. Желание развиваться в стабильной компании.",
       "responsibility": "Установка, настройка и обслуживание оборудования и программного обеспечения, обеспечение безопасности данных и сети, техническая поддержка пользователей, а также мониторинг и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122481247",
-      "name": "Системный администратор",
-      "company": "ПроФреш",
-      "company_id": "1801112",
-      "company_url": "https://hh.ru/employer/1801112",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1414509.png",
-      "url": "https://hh.ru/vacancy/122481247",
-      "published_at": "2025-07-11T12:47:44+0300",
-      "created_at": "2025-07-11T12:47:44+0300",
-      "area": "Новороссийск",
-      "salary": "от 86 200 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 86200,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы - от года работы в сфере информационных технологий, предпочтительно в области технической поддержки и обслуживания клиентов. Опыт работы с...",
-      "responsibility": "Администрирование MS Exchange (создание ящиков, правил, настройка клиентских приложений Outlook и моб. гаджетов). Helpdesk первой линии. Помощь в настройке и...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
