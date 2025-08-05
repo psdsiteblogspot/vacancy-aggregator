@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-05T16:25:34Z",
+  "updated": "2025-08-05T17:22:13Z",
   "statistics": {
-    "total": 1483,
-    "with_salary": 849,
-    "companies": 1176,
+    "total": 1484,
+    "with_salary": 850,
+    "companies": 1177,
     "cities": 73,
     "premium": 2,
     "with_test": 65
   },
   "vacancies": [
+    {
+      "id": "123076181",
+      "name": "Помощник системного администратора отдела технической поддержки",
+      "company": "ДЖЕЙКЕТ РАБОТА",
+      "company_id": "1689259",
+      "company_url": "https://hh.ru/employer/1689259",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1402155.png",
+      "url": "https://hh.ru/vacancy/123076181",
+      "published_at": "2025-08-05T19:55:56+0300",
+      "created_at": "2025-08-05T19:55:56+0300",
+      "area": "Речицы (Московская область, Раменский район)",
+      "salary": "от 60 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 60000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Умение работать в команде и самостоятельно, высокая степень ответственности. - Грамотное изложение своих мыслей устно и письменно. - Готовность к интенсивному обучению. -",
+      "responsibility": "Обрабатывать обращения от клиентов, решать возникшие технические проблемы в режиме телефонного разговора. - Мониторинг и анализ производительности систем, выявление и устранение...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123672185",
+      "name": "Системный администратор на первую линию",
+      "company": "Deploit Systems",
+      "company_id": "2767396",
+      "company_url": "https://hh.ru/employer/2767396",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1151117.jpeg",
+      "url": "https://hh.ru/vacancy/123672185",
+      "published_at": "2025-08-05T19:51:41+0300",
+      "created_at": "2025-08-05T19:51:41+0300",
+      "area": "Москва",
+      "salary": "50 000 - 50 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 50000,
+        "to": 50000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Принимать заявку нужно в течение 15 минут от её подачи. Поэтому в рабочее время нужно быть за компьютером.",
+      "responsibility": "Приём заявок по мессенджеру и телефону. Первичная диагностика проблемы и выяснение желаемого результата. Решение заявки сразу, если есть возможность.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
     {
       "id": "120218253",
       "name": "Системный администратор",
@@ -5637,16 +5703,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122216012",
+      "id": "122216011",
       "name": "Старший системный администратор",
       "company": "Международный аэропорт Жуковский",
       "company_id": "1648021",
       "company_url": "https://hh.ru/employer/1648021",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/488563.jpg",
-      "url": "https://hh.ru/vacancy/122216012",
+      "url": "https://hh.ru/vacancy/122216011",
       "published_at": "2025-08-05T09:45:25+0300",
       "created_at": "2025-08-05T09:45:25+0300",
-      "area": "Жуковский  (Московская область)",
+      "area": "Москва",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -5665,16 +5731,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122216011",
+      "id": "122216012",
       "name": "Старший системный администратор",
       "company": "Международный аэропорт Жуковский",
       "company_id": "1648021",
       "company_url": "https://hh.ru/employer/1648021",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/488563.jpg",
-      "url": "https://hh.ru/vacancy/122216011",
+      "url": "https://hh.ru/vacancy/122216012",
       "published_at": "2025-08-05T09:45:25+0300",
       "created_at": "2025-08-05T09:45:25+0300",
-      "area": "Москва",
+      "area": "Жуковский  (Московская область)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -16926,39 +16992,6 @@
       "employment": "Полная занятость",
       "requirement": "Пунктуальность, ответственность, аккуратность и стрессоустойчивость. Уверенное знание и понимание принципов работы ПК, ноутбуков, периферийных устройств. Уверенное знание пользовательских ОС.",
       "responsibility": "Обслуживание ИТ-инфраструктуры заказчиков в г. Москва и МО. Выездная и удаленная поддержка пользователей. Консультирование пользователей. Работа в системе Helpdesk...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123076181",
-      "name": "Помощник системного администратора отдела технической поддержки",
-      "company": "ДЖЕЙКЕТ РАБОТА",
-      "company_id": "1689259",
-      "company_url": "https://hh.ru/employer/1689259",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1402155.png",
-      "url": "https://hh.ru/vacancy/123076181",
-      "published_at": "2025-08-02T19:55:56+0300",
-      "created_at": "2025-08-02T19:55:56+0300",
-      "area": "Речицы (Московская область, Раменский район)",
-      "salary": "от 60 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 60000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Нет опыта",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "Умение работать в команде и самостоятельно, высокая степень ответственности. - Грамотное изложение своих мыслей устно и письменно. - Готовность к интенсивному обучению. -",
-      "responsibility": "Обрабатывать обращения от клиентов, решать возникшие технические проблемы в режиме телефонного разговора. - Мониторинг и анализ производительности систем, выявление и устранение...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -35251,16 +35284,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122959912",
+      "id": "122959911",
       "name": "Системный администратор",
       "company": "Omega Car Parts",
       "company_id": "4896770",
       "company_url": "https://hh.ru/employer/4896770",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1413497.png",
-      "url": "https://hh.ru/vacancy/122959912",
+      "url": "https://hh.ru/vacancy/122959911",
       "published_at": "2025-07-17T22:25:35+0300",
       "created_at": "2025-07-17T22:25:35+0300",
-      "area": "Свердловский (Московская область)",
+      "area": "Загорянский (Московская область)",
       "salary": "100 000 - 150 000 RUR на руки",
       "salary_raw": {
         "from": 100000,
@@ -35284,16 +35317,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122959911",
+      "id": "122959912",
       "name": "Системный администратор",
       "company": "Omega Car Parts",
       "company_id": "4896770",
       "company_url": "https://hh.ru/employer/4896770",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1413497.png",
-      "url": "https://hh.ru/vacancy/122959911",
+      "url": "https://hh.ru/vacancy/122959912",
       "published_at": "2025-07-17T22:25:35+0300",
       "created_at": "2025-07-17T22:25:35+0300",
-      "area": "Загорянский (Московская область)",
+      "area": "Свердловский (Московская область)",
       "salary": "100 000 - 150 000 RUR на руки",
       "salary_raw": {
         "from": 100000,
