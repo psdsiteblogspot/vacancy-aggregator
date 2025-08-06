@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-06T17:52:31Z",
+  "updated": "2025-08-06T18:58:32Z",
   "statistics": {
-    "total": 827,
-    "with_salary": 627,
-    "companies": 629,
+    "total": 828,
+    "with_salary": 628,
+    "companies": 630,
     "cities": 135,
     "premium": 0,
     "with_test": 12
   },
   "vacancies": [
+    {
+      "id": "123721151",
+      "name": "Системный администратор - инспектор",
+      "company": "Воронежская таможня",
+      "company_id": "11638454",
+      "company_url": "https://hh.ru/employer/11638454",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1372068.png",
+      "url": "https://hh.ru/vacancy/123721151",
+      "published_at": "2025-08-06T21:44:40+0300",
+      "created_at": "2025-08-06T21:44:40+0300",
+      "area": "Воронеж",
+      "salary": "50 000 - 55 000 RUR на руки",
+      "salary_raw": {
+        "from": 50000,
+        "to": 55000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование.",
+      "responsibility": "Обеспечение бесперебойной работы локальных сетей, серверов, сетевых устройств, отдельных персональных компьютеров. Установка и настройка необходимого программного обеспечения; проведение регистрации пользователей...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Другое"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123717174",
       "name": "Системный администратор",
@@ -9682,16 +9715,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123461035",
+      "id": "123461037",
       "name": "Системный администратор",
       "company": "Ресурсинвест-Развитие",
       "company_id": "10306097",
       "company_url": "https://hh.ru/employer/10306097",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1316485.jpeg",
-      "url": "https://hh.ru/vacancy/123461035",
+      "url": "https://hh.ru/vacancy/123461037",
       "published_at": "2025-07-31T11:42:47+0300",
       "created_at": "2025-07-31T11:42:47+0300",
-      "area": "Узловая",
+      "area": "Новомосковск (Тульская область)",
       "salary": "от 70 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 70000,
@@ -9715,16 +9748,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123461037",
+      "id": "123461035",
       "name": "Системный администратор",
       "company": "Ресурсинвест-Развитие",
       "company_id": "10306097",
       "company_url": "https://hh.ru/employer/10306097",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1316485.jpeg",
-      "url": "https://hh.ru/vacancy/123461037",
+      "url": "https://hh.ru/vacancy/123461035",
       "published_at": "2025-07-31T11:42:47+0300",
       "created_at": "2025-07-31T11:42:47+0300",
-      "area": "Новомосковск (Тульская область)",
+      "area": "Узловая",
       "salary": "от 70 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 70000,
@@ -13583,39 +13616,6 @@
       "accept_temporary": false
     },
     {
-      "id": "120337171",
-      "name": "Системный администратор",
-      "company": "Обермейстер",
-      "company_id": "3789323",
-      "company_url": "https://hh.ru/employer/3789323",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/708222.png",
-      "url": "https://hh.ru/vacancy/120337171",
-      "published_at": "2025-07-28T09:44:17+0300",
-      "created_at": "2025-07-28T09:44:17+0300",
-      "area": "Нижнекамск",
-      "salary": "от 95 000 RUR на руки",
-      "salary_raw": {
-        "from": 95000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Специалиста с опытом ремонта и обслуживания ИТ-оборудования. Специалиста, умеющего работать с паяльником и монтажными инструментами. Специалиста с базовым знанием...",
-      "responsibility": "Выезд на заявки в магазины. Зона ответственности: Нижнекамск. Установка и настройка нового ИТ-оборудования (контрольно-кассовая техника, ПК, ноутбуки, терминалы...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "121475328",
       "name": "Системный администратор Распределительного Центра",
       "company": "Обермейстер",
@@ -13647,6 +13647,39 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": true
+    },
+    {
+      "id": "120337171",
+      "name": "Системный администратор",
+      "company": "Обермейстер",
+      "company_id": "3789323",
+      "company_url": "https://hh.ru/employer/3789323",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/708222.png",
+      "url": "https://hh.ru/vacancy/120337171",
+      "published_at": "2025-07-28T09:44:17+0300",
+      "created_at": "2025-07-28T09:44:17+0300",
+      "area": "Нижнекамск",
+      "salary": "от 95 000 RUR на руки",
+      "salary_raw": {
+        "from": 95000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Специалиста с опытом ремонта и обслуживания ИТ-оборудования. Специалиста, умеющего работать с паяльником и монтажными инструментами. Специалиста с базовым знанием...",
+      "responsibility": "Выезд на заявки в магазины. Зона ответственности: Нижнекамск. Установка и настройка нового ИТ-оборудования (контрольно-кассовая техника, ПК, ноутбуки, терминалы...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
     },
     {
       "id": "121475016",
@@ -14416,6 +14449,34 @@
       "accept_temporary": false
     },
     {
+      "id": "97787508",
+      "name": "Системный администратор",
+      "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
+      "company_id": "1864933",
+      "company_url": "https://hh.ru/employer/1864933",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/657972.png",
+      "url": "https://hh.ru/vacancy/97787508",
+      "published_at": "2025-07-27T10:06:03+0300",
+      "created_at": "2025-07-27T10:06:03+0300",
+      "area": "Саров",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание и навыки обслуживания персональных компьютеров (сборка, замена частей, профилактические работы, выявление проблем). Знания и навыки обслуживания периферийного оборудования (принтеры...",
+      "responsibility": "Администрирование аппаратной части серверного оборудования, рабочих станций, периферийного оборудования, телекоммуникационных узлов (сборка, выявление проблем, замена составных частей). Администрирование операционных систем...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "120542493",
       "name": "Системный администратор",
       "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
@@ -14438,34 +14499,6 @@
       "employment": "Полная занятость",
       "requirement": "Среднее специальное или высшее профильное образование. Знание и понимание функционирования ЛВС, основных протоколов передачи данных. Навыки администрирования ОС Windows.",
       "responsibility": "Администрирование аппаратного и программного обеспечения серверного оборудования, рабочих станций, периферийного оборудования, локальной вычислительной сети (ЛВС), общесистемного программного обеспечения (ОПО).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "97787508",
-      "name": "Системный администратор",
-      "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
-      "company_id": "1864933",
-      "company_url": "https://hh.ru/employer/1864933",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/657972.png",
-      "url": "https://hh.ru/vacancy/97787508",
-      "published_at": "2025-07-27T10:06:03+0300",
-      "created_at": "2025-07-27T10:06:03+0300",
-      "area": "Саров",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание и навыки обслуживания персональных компьютеров (сборка, замена частей, профилактические работы, выявление проблем). Знания и навыки обслуживания периферийного оборудования (принтеры...",
-      "responsibility": "Администрирование аппаратной части серверного оборудования, рабочих станций, периферийного оборудования, телекоммуникационных узлов (сборка, выявление проблем, замена составных частей). Администрирование операционных систем...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -15422,16 +15455,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209733",
+      "id": "123209738",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209733",
+      "url": "https://hh.ru/vacancy/123209738",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Владимир",
+      "area": "Липецк",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -15455,16 +15488,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209738",
+      "id": "123209733",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209738",
+      "url": "https://hh.ru/vacancy/123209733",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Липецк",
+      "area": "Владимир",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -15521,16 +15554,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209744",
+      "id": "123209743",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209744",
+      "url": "https://hh.ru/vacancy/123209743",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Ярославль",
+      "area": "Тула",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -15554,16 +15587,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209743",
+      "id": "123209744",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209743",
+      "url": "https://hh.ru/vacancy/123209744",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Тула",
+      "area": "Ярославль",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -19953,16 +19986,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122986435",
+      "id": "122986436",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122986435",
+      "url": "https://hh.ru/vacancy/122986436",
       "published_at": "2025-07-18T13:33:49+0300",
       "created_at": "2025-07-18T13:33:49+0300",
-      "area": "Бабаево",
+      "area": "Великий Устюг",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -19981,16 +20014,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122986436",
+      "id": "122986435",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122986436",
+      "url": "https://hh.ru/vacancy/122986435",
       "published_at": "2025-07-18T13:33:49+0300",
       "created_at": "2025-07-18T13:33:49+0300",
-      "area": "Великий Устюг",
+      "area": "Бабаево",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
