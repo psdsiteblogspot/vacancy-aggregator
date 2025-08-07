@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-07T17:52:02Z",
+  "updated": "2025-08-07T19:00:23Z",
   "statistics": {
-    "total": 841,
-    "with_salary": 639,
+    "total": 842,
+    "with_salary": 640,
     "companies": 635,
     "cities": 140,
     "premium": 0,
     "with_test": 11
   },
   "vacancies": [
+    {
+      "id": "123796468",
+      "name": "Программист, системный администратор",
+      "company": "ГАУЗ Детская городская поликлиника №9 г.Казани",
+      "company_id": "1721169",
+      "company_url": "https://hh.ru/employer/1721169",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/123796468",
+      "published_at": "2025-08-07T21:26:42+0300",
+      "created_at": "2025-08-07T21:26:42+0300",
+      "area": "Казань",
+      "salary": "от 60 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее профильное образование. Отличное знание OS Windows, прикладных программ, орг. техники. Навык проводить диагностику и анализ проблемных мест, умение распознать...",
+      "responsibility": "Осуществление технического сопровождения и администрирования сегмента МИС. Обучение сотрудников поликлиники работе в информационных системах. Составление развернутой инструкции для сотрудников.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123784016",
       "name": "DevOps инженер / Системный администратор",
@@ -11861,16 +11894,16 @@
       "accept_temporary": true
     },
     {
-      "id": "123440974",
+      "id": "123440975",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123440974",
+      "url": "https://hh.ru/vacancy/123440975",
       "published_at": "2025-07-30T17:58:01+0300",
       "created_at": "2025-07-30T17:58:01+0300",
-      "area": "Тутаев",
+      "area": "Карачев",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -11894,16 +11927,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123440975",
+      "id": "123440974",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123440975",
+      "url": "https://hh.ru/vacancy/123440974",
       "published_at": "2025-07-30T17:58:01+0300",
       "created_at": "2025-07-30T17:58:01+0300",
-      "area": "Карачев",
+      "area": "Тутаев",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -21243,6 +21276,34 @@
       "accept_temporary": false
     },
     {
+      "id": "122986707",
+      "name": "Системный администратор/инженер",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/122986707",
+      "published_at": "2025-07-18T13:39:27+0300",
+      "created_at": "2025-07-18T13:39:27+0300",
+      "area": "Альметьевск",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Установка и настройка OC Windows, а также офисных приложений. Установка и настройка различного рода ПО. Подключение и настройка периферийного оборудования...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "122986705",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
@@ -21281,34 +21342,6 @@
       "published_at": "2025-07-18T13:39:27+0300",
       "created_at": "2025-07-18T13:39:27+0300",
       "area": "Чебоксары",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
-      "responsibility": "Установка и настройка OC Windows, а также офисных приложений. Установка и настройка различного рода ПО. Подключение и настройка периферийного оборудования...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122986707",
-      "name": "Системный администратор/инженер",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122986707",
-      "published_at": "2025-07-18T13:39:27+0300",
-      "created_at": "2025-07-18T13:39:27+0300",
-      "area": "Альметьевск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
