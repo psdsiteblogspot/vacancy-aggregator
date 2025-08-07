@@ -10,16 +10,143 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-07T13:10:51Z",
+  "updated": "2025-08-07T13:54:36Z",
   "statistics": {
-    "total": 977,
-    "with_salary": 707,
-    "companies": 724,
+    "total": 980,
+    "with_salary": 709,
+    "companies": 727,
     "cities": 207,
     "premium": 0,
     "with_test": 14
   },
   "vacancies": [
+    {
+      "id": "123759621",
+      "name": "Системный администратор",
+      "company": "СОХО",
+      "company_id": "1174899",
+      "company_url": "https://hh.ru/employer/1174899",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1448599.png",
+      "url": "https://hh.ru/vacancy/123759621",
+      "published_at": "2025-08-07T16:45:47+0300",
+      "created_at": "2025-08-07T16:45:47+0300",
+      "area": "Калининград",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование. Опыт работы системным администратором/ специалистом службы технической поддержки более года. Знание основных сетевых технологий, протоколов, сервисов.",
+      "responsibility": "Обслуживание информационных сетей торговых точек и офиса компании. Обеспечение бесперебойной работы ИТ инфраструктуры компании. Установка, настройка, обслуживание серверного, сетевого оборудования...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122545237",
+      "name": "Системный администратор Linux",
+      "company": "1C-Рарус",
+      "company_id": "172",
+      "company_url": "https://hh.ru/employer/172",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1396728.png",
+      "url": "https://hh.ru/vacancy/122545237",
+      "published_at": "2025-08-07T16:27:45+0300",
+      "created_at": "2025-08-07T16:27:45+0300",
+      "area": "Псков",
+      "salary": "от 150 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 150000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Сильные навыки по администрированию OS Linux обязательно. Уверенные знания и опыт поддержки PostgreSQL (написание запросов на языке SQL не требуется).",
+      "responsibility": "Создание и проектирование корпоративных систем на базе продуктов 1С с помощью технологий VMWare vspher, *nix OS, PostgreSQL, Zabbix, Anache...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": true,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121602380",
+      "name": "Системный администратор Linux",
+      "company": "1C-Рарус",
+      "company_id": "172",
+      "company_url": "https://hh.ru/employer/172",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1396728.png",
+      "url": "https://hh.ru/vacancy/121602380",
+      "published_at": "2025-08-07T16:27:31+0300",
+      "created_at": "2025-08-07T16:27:31+0300",
+      "area": "Уфа",
+      "salary": "от 150 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 150000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Сильные навыки по администрированию OS Linux обязательно. Уверенные знания и опыт поддержки PostgreSQL (написание запросов на языке SQL не требуется).",
+      "responsibility": "Создание и проектирование корпоративных систем на базе продуктов 1С с помощью технологий VMWare vspher, *nix OS, PostgreSQL, Zabbix, Anache...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": true,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123757967",
+      "name": "Системный администратор",
+      "company": "ГБУЗ Республики Коми Ухтинская городская поликлиника",
+      "company_id": "4209422",
+      "company_url": "https://hh.ru/employer/4209422",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1448256.png",
+      "url": "https://hh.ru/vacancy/123757967",
+      "published_at": "2025-08-07T16:15:14+0300",
+      "created_at": "2025-08-07T16:15:14+0300",
+      "area": "Ухта",
+      "salary": "от 45 000 RUR на руки",
+      "salary_raw": {
+        "from": 45000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее профессиональное образование или среднее профессиональное образование. Стаж работы от 1 года до 3 лет.",
+      "responsibility": "Содержание в рабочем состоянии парка оргтехники, системы видеонаблюдения, IP-телефонии.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "122583424",
       "name": "Системный администратор - программист",
@@ -1671,8 +1798,8 @@
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "Должен знать - правила технической эксплуатации оборудования локальных вычислительных сетей, оргтехники, серверов и персональных компьютеров. Принципы ремонта персональных компьютеров и оргтехники.",
-      "responsibility": "Поддерживает в работоспособном состоянии программное обеспечение серверов и рабочих станций. Регистрирует пользователей локальной сети и почтового сервера, назначает идентификаторы и...",
+      "requirement": "Желательно образование и опыт работы по профилю. - знание правил эксплуатации оборудования ЛВС, оргтехники, ПК. - желательно умение диагностировать неисправности ЛВС и...",
+      "responsibility": "Поддержание в работоспособном состоянии рабочих станций. - Настройка и работа с облачными сервисами. - Осуществление технической поддержки и обеспечение необходимым ПО пользователей...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -11966,6 +12093,39 @@
       "accept_temporary": false
     },
     {
+      "id": "122249761",
+      "name": "Системный администратор (ул. Ялтинская, 66ю)",
+      "company": "Атлантис",
+      "company_id": "923559",
+      "company_url": "https://hh.ru/employer/923559",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/353043.jpg",
+      "url": "https://hh.ru/vacancy/122249761",
+      "published_at": "2025-07-31T12:42:28+0300",
+      "created_at": "2025-07-31T12:42:28+0300",
+      "area": "Калининград",
+      "salary": "40 000 - 50 000 RUR на руки",
+      "salary_raw": {
+        "from": 40000,
+        "to": 50000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание операционной системы Windows. Опыт в поддержке сотрудников предприятия офисный пакетов MS Office. Понимание принципов работы ТСР/IP, настройка локальной...",
+      "responsibility": "Поддержание работы информационно-технической инфраструктуры компании: серверов, компьютеров сотрудников и орг. техники. Эксплуатация сетевой инфраструктуры компании: техническое обслуживание работы компьютеров...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "123463947",
       "name": "Системный администратор",
       "company": "Пермский филиал ФГБОУ ВО РАНХиГС при Президенте Российской Федерации",
@@ -17941,39 +18101,6 @@
       "accept_temporary": false
     },
     {
-      "id": "116908116",
-      "name": "Системный администратор",
-      "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
-      "company_id": "1864933",
-      "company_url": "https://hh.ru/employer/1864933",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/657972.png",
-      "url": "https://hh.ru/vacancy/116908116",
-      "published_at": "2025-07-27T10:06:03+0300",
-      "created_at": "2025-07-27T10:06:03+0300",
-      "area": "Геленджик",
-      "salary": "38 000 - 45 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 38000,
-        "to": 45000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Продвинутый пользователь ПК​​​​​​. Будет плюсом: базовые знания сетевого оборудования, навыки диагностики периферийного оборудования и ПК.",
-      "responsibility": "Администрирование аппаратного обеспечения рабочих станций и серверов. Администрирование аппаратного обеспечения переферийного оборудования. Администрирование локальной вычислительной сети (ЛВС). Администрирование операционных систем...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "119087920",
       "name": "Системный администратор",
       "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
@@ -17996,6 +18123,39 @@
       "employment": "Полная занятость",
       "requirement": "Знание компьютерного \"железа\", умение диагностировать неполадки в его работе. Знание линейки ОС Windows на уровне администратора. Наличие специального профильного образования...",
       "responsibility": "Поддержка, настройка рабочих станций пользователей, устранение неполадок. Установка и настройка общесистемного и ведомственного ПО на рабочих станциях пользователей.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "116908116",
+      "name": "Системный администратор",
+      "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
+      "company_id": "1864933",
+      "company_url": "https://hh.ru/employer/1864933",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/657972.png",
+      "url": "https://hh.ru/vacancy/116908116",
+      "published_at": "2025-07-27T10:06:03+0300",
+      "created_at": "2025-07-27T10:06:03+0300",
+      "area": "Геленджик",
+      "salary": "38 000 - 45 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 38000,
+        "to": 45000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Продвинутый пользователь ПК​​​​​​. Будет плюсом: базовые знания сетевого оборудования, навыки диагностики периферийного оборудования и ПК.",
+      "responsibility": "Администрирование аппаратного обеспечения рабочих станций и серверов. Администрирование аппаратного обеспечения переферийного оборудования. Администрирование локальной вычислительной сети (ЛВС). Администрирование операционных систем...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -27683,16 +27843,16 @@
       "accept_temporary": true
     },
     {
-      "id": "122798407",
+      "id": "122798409",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122798407",
+      "url": "https://hh.ru/vacancy/122798409",
       "published_at": "2025-07-15T10:08:46+0300",
       "created_at": "2025-07-15T10:08:46+0300",
-      "area": "Каменск-Уральский",
+      "area": "Новосибирск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -27711,16 +27871,16 @@
       "accept_temporary": true
     },
     {
-      "id": "122798409",
+      "id": "122798407",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122798409",
+      "url": "https://hh.ru/vacancy/122798407",
       "published_at": "2025-07-15T10:08:46+0300",
       "created_at": "2025-07-15T10:08:46+0300",
-      "area": "Новосибирск",
+      "area": "Каменск-Уральский",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -30785,39 +30945,6 @@
       "accept_temporary": true
     },
     {
-      "id": "122545237",
-      "name": "Системный администратор Linux",
-      "company": "1C-Рарус",
-      "company_id": "172",
-      "company_url": "https://hh.ru/employer/172",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1396728.png",
-      "url": "https://hh.ru/vacancy/122545237",
-      "published_at": "2025-07-08T19:05:41+0300",
-      "created_at": "2025-07-08T19:05:41+0300",
-      "area": "Псков",
-      "salary": "от 150 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 150000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Сильные навыки по администрированию OS Linux обязательно. Уверенные знания и опыт поддержки PostgreSQL (написание запросов на языке SQL не требуется).",
-      "responsibility": "Создание и проектирование корпоративных систем на базе продуктов 1С с помощью технологий VMWare vspher, *nix OS, PostgreSQL, Zabbix, Anache...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": true,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "122543257",
       "name": "Системный администратор",
       "company": "Ревазов Эльберт Робертович",
@@ -30873,39 +31000,6 @@
         "Системный администратор"
       ],
       "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121602380",
-      "name": "Системный администратор Linux",
-      "company": "1C-Рарус",
-      "company_id": "172",
-      "company_url": "https://hh.ru/employer/172",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1396728.png",
-      "url": "https://hh.ru/vacancy/121602380",
-      "published_at": "2025-07-08T16:42:23+0300",
-      "created_at": "2025-07-08T16:42:23+0300",
-      "area": "Уфа",
-      "salary": "от 150 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 150000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Сильные навыки по администрированию OS Linux обязательно. Уверенные знания и опыт поддержки PostgreSQL (написание запросов на языке SQL не требуется).",
-      "responsibility": "Создание и проектирование корпоративных систем на базе продуктов 1С с помощью технологий VMWare vspher, *nix OS, PostgreSQL, Zabbix, Anache...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": true,
       "premium": false,
       "accept_handicapped": false,
       "accept_kids": false,
