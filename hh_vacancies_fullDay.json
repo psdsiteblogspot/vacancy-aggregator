@@ -10,16 +10,275 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-07T11:36:29Z",
+  "updated": "2025-08-07T13:10:51Z",
   "statistics": {
     "total": 977,
     "with_salary": 707,
-    "companies": 725,
+    "companies": 724,
     "cities": 207,
     "premium": 0,
     "with_test": 14
   },
   "vacancies": [
+    {
+      "id": "122583424",
+      "name": "Системный администратор - программист",
+      "company": "АгроПетро",
+      "company_id": "2763338",
+      "company_url": "https://hh.ru/employer/2763338",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/465291.jpg",
+      "url": "https://hh.ru/vacancy/122583424",
+      "published_at": "2025-08-07T16:01:13+0300",
+      "created_at": "2025-08-07T16:01:13+0300",
+      "area": "Тихорецк",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в сфере IT не менее 3 лет. Ответственность, пунктуальность, стрессоустойчивость, умение работать в команде, желание работать и развиваться...",
+      "responsibility": "переработчиком сельскохозяйственной продукции. - производителем пищевой продукции. - производителем оборудования. Сопровождение программного обеспечения 1С (торговля, бухгалтерия, ЗУП). Сборка системных блоков.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123756570",
+      "name": "Системный администратор",
+      "company": "Пивовоз",
+      "company_id": "11811639",
+      "company_url": "https://hh.ru/employer/11811639",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/123756570",
+      "published_at": "2025-08-07T15:51:20+0300",
+      "created_at": "2025-08-07T15:51:20+0300",
+      "area": "Таганрог",
+      "salary": "от 50 000 RUR на руки",
+      "salary_raw": {
+        "from": 50000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Базовые знания компьютера и оргтехники. - Коммуникабельность.",
+      "responsibility": "",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123756396",
+      "name": "Старший системный администратор (Production Infrastructure)",
+      "company": "TravelLine",
+      "company_id": "1136961",
+      "company_url": "https://hh.ru/employer/1136961",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1370529.png",
+      "url": "https://hh.ru/vacancy/123756396",
+      "published_at": "2025-08-07T15:48:15+0300",
+      "created_at": "2025-08-07T15:48:15+0300",
+      "area": "Кемерово",
+      "salary": "от 250 000 RUR на руки",
+      "salary_raw": {
+        "from": 250000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Более 6 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Windows Server 2012R2/2016/2019 как платформа виртуализации, кластер Hyper-v + S2D. Конфигурирование сетей L...",
+      "responsibility": "Установкой и настройкой серверов, сетевого оборудования, хранилищ данных. Проектированием и поддержкой отказоустойчивых сетевых каналов между распределенными дата-центрами.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123756350",
+      "name": "Старший системный администратор (Production Infrastructure)",
+      "company": "TravelLine",
+      "company_id": "1136961",
+      "company_url": "https://hh.ru/employer/1136961",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1370529.png",
+      "url": "https://hh.ru/vacancy/123756350",
+      "published_at": "2025-08-07T15:47:49+0300",
+      "created_at": "2025-08-07T15:47:49+0300",
+      "area": "Томск",
+      "salary": "от 250 000 RUR на руки",
+      "salary_raw": {
+        "from": 250000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Более 6 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Windows Server 2012R2/2016/2019 как платформа виртуализации, кластер Hyper-v + S2D. Конфигурирование сетей L...",
+      "responsibility": "Установкой и настройкой серверов, сетевого оборудования, хранилищ данных. Проектированием и поддержкой отказоустойчивых сетевых каналов между распределенными дата-центрами.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123755124",
+      "name": "Системный администратор",
+      "company": "Государственное автономное учреждение Калининградской области Дирекция спортивных сооружений",
+      "company_id": "3161765",
+      "company_url": "https://hh.ru/employer/3161765",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/991489.png",
+      "url": "https://hh.ru/vacancy/123755124",
+      "published_at": "2025-08-07T15:27:12+0300",
+      "created_at": "2025-08-07T15:27:12+0300",
+      "area": "Калининград",
+      "salary": "50 000 - 50 000 RUR на руки",
+      "salary_raw": {
+        "from": 50000,
+        "to": 50000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание клиентских операционных систем семейств Windows, Linux, офисных пакетов, базового прикладного ПО, антивирусного ПО. Понимание принципов работы базовых инфраструктурных сервисов.",
+      "responsibility": "Техническая поддержка пользователей. Обслуживание компьютерной техники, оргтехники, ЛВС.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123754231",
+      "name": "Системный администратор",
+      "company": "ГАУЗ СО Свердловская областная клиническая больница №1",
+      "company_id": "1249441",
+      "company_url": "https://hh.ru/employer/1249441",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1324243.png",
+      "url": "https://hh.ru/vacancy/123754231",
+      "published_at": "2025-08-07T15:13:54+0300",
+      "created_at": "2025-08-07T15:13:54+0300",
+      "area": "Екатеринбург",
+      "salary": "от 90 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 90000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее профильное образование. Умение работать в коллективе.",
+      "responsibility": "Администрирование контроллера домена учреждений. Управление сетевой инфраструктурой, серверами. Установка системного программного обеспечения. Знания в области распространенных систем виртуализации.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123069738",
+      "name": "Системный администратор",
+      "company": "FINLEO",
+      "company_id": "4173197",
+      "company_url": "https://hh.ru/employer/4173197",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1392258.png",
+      "url": "https://hh.ru/vacancy/123069738",
+      "published_at": "2025-08-07T15:13:04+0300",
+      "created_at": "2025-08-07T15:13:04+0300",
+      "area": "Тюмень",
+      "salary": "от 60 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание систем Windows (desktop и server Edition). Знание системы HyperV. Знание по AD, DNS, GPO. Умение настраивать Mikrotik с нуля...",
+      "responsibility": "Сопровождение программного обеспечения на серверах и рабочих местах: Windows, HyperV. Работа с AD, DNS, GPO. Обеспечение бесперебойной работы офисного IT...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
+      "id": "123602904",
+      "name": "Системный администратор",
+      "company": "ТК Лидер",
+      "company_id": "1482780",
+      "company_url": "https://hh.ru/employer/1482780",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/123602904",
+      "published_at": "2025-08-07T14:46:01+0300",
+      "created_at": "2025-08-07T14:46:01+0300",
+      "area": "Нижний Тагил",
+      "salary": "70 000 - 100 000 RUR на руки",
+      "salary_raw": {
+        "from": 70000,
+        "to": 100000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание платформы и конфигурации 1С. - Опыт работы с слаботочными сетями . - Опыт протяжки сетей и обслуживания компьютеров и серверов. -",
+      "responsibility": "Настройка работы ИТ отдела, взаимодействие с программистами 1С и программистом сайтов. Поддержка и консультация пользователей.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123751519",
       "name": "Системный администратор / Специалист IT отдела",
@@ -109,6 +368,39 @@
       "employment": "Частичная занятость",
       "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
       "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123600239",
+      "name": "Системный администратор (по железу и технике)",
+      "company": "НПО ГРАНЬ",
+      "company_id": "11496164",
+      "company_url": "https://hh.ru/employer/11496164",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/123600239",
+      "published_at": "2025-08-07T14:14:09+0300",
+      "created_at": "2025-08-07T14:14:09+0300",
+      "area": "Таганрог",
+      "salary": "от 100 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Администрирование linux (опыт Astra Linux приветствуется) и OS Microsoft Windows. Установка и настройка коммутаторов, маршрутизаторов (Cisco, HP, Huawei и др...",
+      "responsibility": "Установка и настройка средств ЗИ на производственных объектах в Таганроге (АПМДЗ, СЗИ Astra Linux, Secret Net, СКЗИ). Проектирование вычислительной сети...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -2583,19 +2875,19 @@
       "accept_temporary": false
     },
     {
-      "id": "123640713",
+      "id": "123511851",
       "name": "Начинающий системный администратор",
       "company": "NEXT Contact",
       "company_id": "2848751",
       "company_url": "https://hh.ru/employer/2848751",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1398708.png",
-      "url": "https://hh.ru/vacancy/123640713",
+      "url": "https://hh.ru/vacancy/123511851",
       "published_at": "2025-08-06T17:59:57+0300",
       "created_at": "2025-08-06T17:59:57+0300",
-      "area": "Таганрог",
-      "salary": "от 34 000 RUR на руки",
+      "area": "Смоленск",
+      "salary": "от 37 000 RUR на руки",
       "salary_raw": {
-        "from": 34000,
+        "from": 37000,
         "to": null,
         "currency": "RUR",
         "gross": false
@@ -2616,19 +2908,19 @@
       "accept_temporary": false
     },
     {
-      "id": "123511851",
+      "id": "123640713",
       "name": "Начинающий системный администратор",
       "company": "NEXT Contact",
       "company_id": "2848751",
       "company_url": "https://hh.ru/employer/2848751",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1398708.png",
-      "url": "https://hh.ru/vacancy/123511851",
+      "url": "https://hh.ru/vacancy/123640713",
       "published_at": "2025-08-06T17:59:57+0300",
       "created_at": "2025-08-06T17:59:57+0300",
-      "area": "Смоленск",
-      "salary": "от 37 000 RUR на руки",
+      "area": "Таганрог",
+      "salary": "от 34 000 RUR на руки",
       "salary_raw": {
-        "from": 37000,
+        "from": 34000,
         "to": null,
         "currency": "RUR",
         "gross": false
@@ -3525,16 +3817,16 @@
       "accept_temporary": false
     },
     {
-      "id": "118473750",
+      "id": "118473754",
       "name": "Системный администратор",
       "company": "ФКУ ИК-1 ГУФСИН России по Челябинской области",
       "company_id": "7534395",
       "company_url": "https://hh.ru/employer/7534395",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/118473750",
+      "url": "https://hh.ru/vacancy/118473754",
       "published_at": "2025-08-06T12:46:13+0300",
       "created_at": "2025-08-06T12:46:13+0300",
-      "area": "Еманжелинка",
+      "area": "Новосинеглазово",
       "salary": "38 000 - 50 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 38000,
@@ -3558,16 +3850,16 @@
       "accept_temporary": false
     },
     {
-      "id": "118473754",
+      "id": "118473750",
       "name": "Системный администратор",
       "company": "ФКУ ИК-1 ГУФСИН России по Челябинской области",
       "company_id": "7534395",
       "company_url": "https://hh.ru/employer/7534395",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/118473754",
+      "url": "https://hh.ru/vacancy/118473750",
       "published_at": "2025-08-06T12:46:13+0300",
       "created_at": "2025-08-06T12:46:13+0300",
-      "area": "Новосинеглазово",
+      "area": "Еманжелинка",
       "salary": "38 000 - 50 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 38000,
@@ -6346,8 +6638,8 @@
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "Опыт технической поддержки пользователей. Знание ОС: Windows, Linux. Навыки работы с TeamViewer, AnyDesk. Понимание сетевых технологий (TCP/IP, DHCP, VLAN).",
-      "responsibility": "Прием и обработка обращений клиентов (чат, email, телефон). Дистанционное устранение неисправностей, либо передача более сложных задач специалистам. Постановка и контроль...",
+      "requirement": "Требования: Опыт технической поддержки пользователей Знание ОС: Windows, Linux Навыки работы с TeamViewer, AnyDesk Понимание сетевых технологий (TCP/IP, DHCP...",
+      "responsibility": "Прием и обработка обращений клиентов (чат, email, телефон) Дистанционное устранение неисправностей, либо передача более сложных задач специалистам Постановка и контроль...",
       "type": "Открытая",
       "professional_roles": [
         "Специалист технической поддержки"
@@ -6392,16 +6684,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123628500",
+      "id": "123628501",
       "name": "Системный администратор/IT- специалист",
       "company": "Селф",
       "company_id": "808545",
       "company_url": "https://hh.ru/employer/808545",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1207578.jpg",
-      "url": "https://hh.ru/vacancy/123628500",
+      "url": "https://hh.ru/vacancy/123628501",
       "published_at": "2025-08-05T09:24:30+0300",
       "created_at": "2025-08-05T09:24:30+0300",
-      "area": "Майма",
+      "area": "Горно-Алтайск",
       "salary": "60 000 - 80 000 RUR на руки",
       "salary_raw": {
         "from": 60000,
@@ -6425,16 +6717,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123628501",
+      "id": "123628500",
       "name": "Системный администратор/IT- специалист",
       "company": "Селф",
       "company_id": "808545",
       "company_url": "https://hh.ru/employer/808545",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1207578.jpg",
-      "url": "https://hh.ru/vacancy/123628501",
+      "url": "https://hh.ru/vacancy/123628500",
       "published_at": "2025-08-05T09:24:30+0300",
       "created_at": "2025-08-05T09:24:30+0300",
-      "area": "Горно-Алтайск",
+      "area": "Майма",
       "salary": "60 000 - 80 000 RUR на руки",
       "salary_raw": {
         "from": 60000,
@@ -6602,34 +6894,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее техническое образование по направлению. Опыт работы в администрировании серверов Windows, систем резервного копирования и восстановления данных, администрирование баз данных...",
       "responsibility": "Мониторинг ИТ-инфраструктуры (серверы Windows, Linux). Диагностика и решение инцидентов в работе ИТ-решений на базе ОS Windows Server, OS...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122583424",
-      "name": "Системный администратор - программист",
-      "company": "АгроПетро",
-      "company_id": "2763338",
-      "company_url": "https://hh.ru/employer/2763338",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/465291.jpg",
-      "url": "https://hh.ru/vacancy/122583424",
-      "published_at": "2025-08-05T08:24:30+0300",
-      "created_at": "2025-08-05T08:24:30+0300",
-      "area": "Тихорецк",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в сфере IT не менее 3 лет. Ответственность, пунктуальность, стрессоустойчивость, умение работать в команде, желание работать и развиваться...",
-      "responsibility": "переработчиком сельскохозяйственной продукции. - производителем пищевой продукции. - производителем оборудования. Сопровождение программного обеспечения 1С (торговля, бухгалтерия, ЗУП). Сборка системных блоков.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -7906,39 +8170,6 @@
       "accept_temporary": false
     },
     {
-      "id": "123602904",
-      "name": "Системный администратор",
-      "company": "ТК Лидер",
-      "company_id": "1482780",
-      "company_url": "https://hh.ru/employer/1482780",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/123602904",
-      "published_at": "2025-08-04T14:46:01+0300",
-      "created_at": "2025-08-04T14:46:01+0300",
-      "area": "Нижний Тагил",
-      "salary": "70 000 - 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 70000,
-        "to": 100000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание платформы и конфигурации 1С. - Опыт работы с слаботочными сетями . - Опыт протяжки сетей и обслуживания компьютеров и серверов. -",
-      "responsibility": "Настройка работы ИТ отдела, взаимодействие с программистами 1С и программистом сайтов. Поддержка и консультация пользователей.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "123602220",
       "name": "Системный администратор",
       "company": "АМК Технологии",
@@ -7961,39 +8192,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее/среднее техническое образование. Знание компьютерных комплектующих и оргтехники, основы и принципы их работы, операционных систем Windows, Linux, прикладного программного...",
       "responsibility": "Техническая поддержка пользователей. Установка и настройка компьютерного и сетевого оборудования, программного обеспечения, включая 1С. Обслуживание локальной сети предприятия.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123600239",
-      "name": "Системный администратор (по железу и технике)",
-      "company": "НПО ГРАНЬ",
-      "company_id": "11496164",
-      "company_url": "https://hh.ru/employer/11496164",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/123600239",
-      "published_at": "2025-08-04T14:14:09+0300",
-      "created_at": "2025-08-04T14:14:09+0300",
-      "area": "Таганрог",
-      "salary": "от 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Администрирование linux (опыт Astra Linux приветствуется) и OS Microsoft Windows. Установка и настройка коммутаторов, маршрутизаторов (Cisco, HP, Huawei и др...",
-      "responsibility": "Установка и настройка средств ЗИ на производственных объектах в Таганроге (АПМДЗ, СЗИ Astra Linux, Secret Net, СКЗИ). Проектирование вычислительной сети...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -10578,39 +10776,6 @@
       "accept_temporary": true
     },
     {
-      "id": "121469101",
-      "name": "Системный администратор",
-      "company": "Солид, Группа компаний",
-      "company_id": "31713",
-      "company_url": "https://hh.ru/employer/31713",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/691177.png",
-      "url": "https://hh.ru/vacancy/121469101",
-      "published_at": "2025-08-01T10:55:15+0300",
-      "created_at": "2025-08-01T10:55:15+0300",
-      "area": "Екатеринбург",
-      "salary": "от 64 000 RUR на руки",
-      "salary_raw": {
-        "from": 64000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы от 1 года. * Профильное образование.",
-      "responsibility": "Организация новых рабочих мест: * Сборка персональных компьютеров и установка необходимого программного обеспечения. * Настройка и установка телефонов для рабочих мест.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "121457780",
       "name": "Системный администратор",
       "company": "Солид, Группа компаний",
@@ -11094,34 +11259,6 @@
       "accept_temporary": false
     },
     {
-      "id": "123503341",
-      "name": "Системный администратор/инженер (IT-аутсорсинг)",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123503341",
-      "published_at": "2025-08-01T08:27:29+0300",
-      "created_at": "2025-08-01T08:27:29+0300",
-      "area": "Олонец",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
-      "responsibility": "Установка и настройка OC Windows, а также офисных приложений. Установка и настройка различного рода ПО. Подключение и настройка периферийного оборудования...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "123503340",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
@@ -11150,16 +11287,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123503338",
+      "id": "123503341",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123503338",
+      "url": "https://hh.ru/vacancy/123503341",
       "published_at": "2025-08-01T08:27:29+0300",
       "created_at": "2025-08-01T08:27:29+0300",
-      "area": "Малая Вишера",
+      "area": "Олонец",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -11188,6 +11325,34 @@
       "published_at": "2025-08-01T08:27:29+0300",
       "created_at": "2025-08-01T08:27:29+0300",
       "area": "Новодвинск",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Установка и настройка OC Windows, а также офисных приложений. Установка и настройка различного рода ПО. Подключение и настройка периферийного оборудования...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123503338",
+      "name": "Системный администратор/инженер (IT-аутсорсинг)",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/123503338",
+      "published_at": "2025-08-01T08:27:29+0300",
+      "created_at": "2025-08-01T08:27:29+0300",
+      "area": "Малая Вишера",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -17154,39 +17319,6 @@
       "accept_temporary": true
     },
     {
-      "id": "120963574",
-      "name": "Системный администратор",
-      "company": "Обермейстер",
-      "company_id": "3789323",
-      "company_url": "https://hh.ru/employer/3789323",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/708222.png",
-      "url": "https://hh.ru/vacancy/120963574",
-      "published_at": "2025-07-28T09:44:13+0300",
-      "created_at": "2025-07-28T09:44:13+0300",
-      "area": "Краснодар",
-      "salary": "от 70 000 RUR на руки",
-      "salary_raw": {
-        "from": 70000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Гибкий график",
-      "employment": "Полная занятость",
-      "requirement": "Специалиста с опытом ремонта и обслуживания ИТ-оборудования. Специалиста, умеющего работать с паяльником и монтажными инструментами. Специалиста с базовым знанием...",
-      "responsibility": "Выезд на заявки в магазины. Зона ответственности: Краснодар. Установка и настройка нового ИТ-оборудования (контрольно-кассовая техника, ПК, ноутбуки, терминалы...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
       "id": "118756502",
       "name": "Системный администратор",
       "company": "Обермейстер",
@@ -17209,6 +17341,39 @@
       "employment": "Полная занятость",
       "requirement": "Специалиста с опытом ремонта и обслуживания ИТ-оборудования. Специалиста, умеющего работать с паяльником и монтажными инструментами. Специалиста с базовым знанием...",
       "responsibility": "Выезд на заявки в магазины. Зона ответственности: Сочи(Хоста-Мацеста), начало Адлера. Установка и настройка нового ИТ-оборудования (контрольно-кассовая...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
+      "id": "120963574",
+      "name": "Системный администратор",
+      "company": "Обермейстер",
+      "company_id": "3789323",
+      "company_url": "https://hh.ru/employer/3789323",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/708222.png",
+      "url": "https://hh.ru/vacancy/120963574",
+      "published_at": "2025-07-28T09:44:13+0300",
+      "created_at": "2025-07-28T09:44:13+0300",
+      "area": "Краснодар",
+      "salary": "от 70 000 RUR на руки",
+      "salary_raw": {
+        "from": 70000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Гибкий график",
+      "employment": "Полная занятость",
+      "requirement": "Специалиста с опытом ремонта и обслуживания ИТ-оборудования. Специалиста, умеющего работать с паяльником и монтажными инструментами. Специалиста с базовым знанием...",
+      "responsibility": "Выезд на заявки в магазины. Зона ответственности: Краснодар. Установка и настройка нового ИТ-оборудования (контрольно-кассовая техника, ПК, ноутбуки, терминалы...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -22049,39 +22214,6 @@
       "accept_temporary": false
     },
     {
-      "id": "122212030",
-      "name": "Системный администратор",
-      "company": "Топ Грейн",
-      "company_id": "1845855",
-      "company_url": "https://hh.ru/employer/1845855",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/265459.png",
-      "url": "https://hh.ru/vacancy/122212030",
-      "published_at": "2025-07-22T11:11:27+0300",
-      "created_at": "2025-07-22T11:11:27+0300",
-      "area": "Ростов-на-Дону",
-      "salary": "от 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Профильное образование и опыт работы в сфере IT не менее 1 года. Знание Bin Bash. Знание периферии компьютера.",
-      "responsibility": "Обслуживать мини ПК компании (ОС Windows, Linux, около 60 шт.) и оргтехнику, техническая поддержка пользователей офиса. Устанавливать, проверять функционирование и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "123089925",
       "name": "Помощник системного администратора",
       "company": "ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ ДОПОЛНИТЕЛЬНОГО ПРОФЕССИОНАЛЬНОГО ОБРАЗОВАНИЯ ЧЕЛЯБИНСКИЙ ИНСТИТУТ РАЗВИТИЯ ОБРАЗОВАНИЯ",
@@ -22603,39 +22735,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": false
-    },
-    {
-      "id": "123069738",
-      "name": "Системный администратор",
-      "company": "FINLEO",
-      "company_id": "4173197",
-      "company_url": "https://hh.ru/employer/4173197",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1392258.png",
-      "url": "https://hh.ru/vacancy/123069738",
-      "published_at": "2025-07-21T16:42:24+0300",
-      "created_at": "2025-07-21T16:42:24+0300",
-      "area": "Тюмень",
-      "salary": "от 40 000 RUR на руки",
-      "salary_raw": {
-        "from": 40000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание систем Windows (desktop и server Edition). Знание системы HyperV. Знание по AD, DNS, GPO. Умение настраивать Mikrotik с нуля...",
-      "responsibility": "Сопровождение программного обеспечения на серверах и рабочих местах: Windows, HyperV. Работа с AD, DNS, GPO. Обеспечение бесперебойной работы офисного IT...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
     },
     {
       "id": "121145685",
@@ -30807,105 +30906,6 @@
         "Системный администратор"
       ],
       "has_test": true,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122536537",
-      "name": "Системный администратор",
-      "company": "Targem Games",
-      "company_id": "63387",
-      "company_url": "https://hh.ru/employer/63387",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/217749.jpg",
-      "url": "https://hh.ru/vacancy/122536537",
-      "published_at": "2025-07-08T15:31:46+0300",
-      "created_at": "2025-07-08T15:31:46+0300",
-      "area": "Екатеринбург",
-      "salary": "150 000 - 210 000 RUR на руки",
-      "salary_raw": {
-        "from": 150000,
-        "to": 210000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт администрирования: Linux (Debian/CentOS/Ubuntu/Free BSD). Системы хранения данных (freenas, owncloud). Сети (фаерволы, nat, vpn, vlan, сетевое оборудование).",
-      "responsibility": "Обеспечение стабильной работы всех отделов компании: it-сервисы компании, ПК пользователей, помощь сотрудникам в технически сложных задачах. Поддержание и развитие...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122534106",
-      "name": "Системный администратор",
-      "company": "ГАУЗ СО ГКБ № 14",
-      "company_id": "4339719",
-      "company_url": "https://hh.ru/employer/4339719",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/122534106",
-      "published_at": "2025-07-08T14:58:45+0300",
-      "created_at": "2025-07-08T14:58:45+0300",
-      "area": "Екатеринбург",
-      "salary": "от 60 000 RUR на руки",
-      "salary_raw": {
-        "from": 60000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Образование в сфере информационных технологий (профильное, рассмотрим также студентов последних курсов образовательных организаций). Опыт пусконаладки ЛВС и серверов.",
-      "responsibility": "Администрирование ЛВС. Администрирование серверов. Администрирование рабочих станций. Осуществление технического и программного сопровождения пользователей. Участие в проектах (внедрение ПО).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122533917",
-      "name": "Системный администратор",
-      "company": "Villacarte",
-      "company_id": "1533486",
-      "company_url": "https://hh.ru/employer/1533486",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1271020.png",
-      "url": "https://hh.ru/vacancy/122533917",
-      "published_at": "2025-07-08T14:55:34+0300",
-      "created_at": "2025-07-08T14:55:34+0300",
-      "area": "Новосибирск",
-      "salary": "1 450 - 1 800 USD на руки",
-      "salary_raw": {
-        "from": 1450,
-        "to": 1800,
-        "currency": "USD",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт настройки Zoho CRM или аналогичных систем. Опыт в развертке и настройке IP телефонии. Знание и опыт работы с AWS.",
-      "responsibility": "Настройка Zoho CRM, ERPNext, Odoo. Администрирование телефонии Zadarma, Callgear. Реализация автоматически генерируемых документов по шаблонам. Работа с AWS, Docker, PostgreSQL.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
       "premium": false,
       "accept_handicapped": false,
       "accept_kids": false,
