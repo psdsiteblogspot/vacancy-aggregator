@@ -10,16 +10,288 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-07T10:26:03Z",
+  "updated": "2025-08-07T11:21:32Z",
   "statistics": {
-    "total": 1449,
-    "with_salary": 835,
-    "companies": 1149,
+    "total": 1445,
+    "with_salary": 830,
+    "companies": 1148,
     "cities": 71,
     "premium": 2,
     "with_test": 64
   },
   "vacancies": [
+    {
+      "id": "123750199",
+      "name": "Системный администратор",
+      "company": "Лайв Саунд",
+      "company_id": "3953152",
+      "company_url": "https://hh.ru/employer/3953152",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1435009.png",
+      "url": "https://hh.ru/vacancy/123750199",
+      "published_at": "2025-08-07T14:11:29+0300",
+      "created_at": "2025-08-07T14:11:29+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Продвинутые знания ОС Windows 7,10,11. Базовые знания Windows server 2016-2019 (установка, настройка, диагностика). Понимание принципов работы сетей...",
+      "responsibility": "Участие в обновлении и обслуживании 1С (под контролем сисадмина). Настройка почтовых сервисов, создание/удаление/администрирование учетных записей.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123749591",
+      "name": "Системный администратор",
+      "company": "Торговый Дом Нижегородский Хлеб",
+      "company_id": "5050252",
+      "company_url": "https://hh.ru/employer/5050252",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1381810.jpg",
+      "url": "https://hh.ru/vacancy/123749591",
+      "published_at": "2025-08-07T14:00:49+0300",
+      "created_at": "2025-08-07T14:00:49+0300",
+      "area": "Москва",
+      "salary": "130 000 - 160 000 RUR на руки",
+      "salary_raw": {
+        "from": 130000,
+        "to": 160000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы от 2-х лет. Ответственность и внимательность в работе. Профильное образование - приветствуется.",
+      "responsibility": "Администрирование физических и виртуальных серверов. Aдминиcтpирoвaние локальной ceти предприятия и тeхничеcкая поддержка. Админиcтрирoваниe 1С, SQL т.д.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Другое"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123749544",
+      "name": "Системный администратор",
+      "company": "Пэй Энджин",
+      "company_id": "8639071",
+      "company_url": "https://hh.ru/employer/8639071",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/967664.png",
+      "url": "https://hh.ru/vacancy/123749544",
+      "published_at": "2025-08-07T13:59:57+0300",
+      "created_at": "2025-08-07T13:59:57+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание линейки операционных систем Microsoft Windows 10, 11, macOS, базовое знание Linux. Знание оборудования Mikrotik, базовое понимание работы стека TCP...",
+      "responsibility": "Установка и настройка нового программного обеспечения. Помощь офисным и дистанционным сотрудникам. Сборка и установка компьютеров с нуля. Модульный ремонт ноутбуков...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123749379",
+      "name": "Системный администратор",
+      "company": "Divit.pro",
+      "company_id": "2681703",
+      "company_url": "https://hh.ru/employer/2681703",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/601732.png",
+      "url": "https://hh.ru/vacancy/123749379",
+      "published_at": "2025-08-07T13:57:27+0300",
+      "created_at": "2025-08-07T13:57:27+0300",
+      "area": "Москва",
+      "salary": "от 70 000 RUR на руки",
+      "salary_raw": {
+        "from": 70000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Желание учиться и развиваться. Активность. Адекватность. Ответственность. Понимание строения сетей. Стрессоустойчивость. Умение искать причину проблемы и решать её, в том...",
+      "responsibility": "Настройка ПК. Сборка ПК. Установка и настройка ОС семейства Windows. Установка и настройка прикладного ПО. Решение возникающих проблем.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "120829091",
+      "name": "Системный Администратор (R-Keeper, iiko)",
+      "company": "Белатрикс",
+      "company_id": "11382308",
+      "company_url": "https://hh.ru/employer/11382308",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/120829091",
+      "published_at": "2025-08-07T13:46:05+0300",
+      "created_at": "2025-08-07T13:46:05+0300",
+      "area": "Москва",
+      "salary": "от 150 000 RUR на руки",
+      "salary_raw": {
+        "from": 150000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы от 3 лет. Грамотная устная и письменная речь. Опрятный вид. Пунктуальность. Исполнительность. Основное требование, Хорошее знание R-Keeper...",
+      "responsibility": "Установка и настройка кассового ПО (R-Keeper, iiko). Работа с ЦТО по кассовой технике (постановка задач, контроль выполнения, отчеты).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123748655",
+      "name": "Старший системный администратор",
+      "company": "ВТБ АРЕНА",
+      "company_id": "657372",
+      "company_url": "https://hh.ru/employer/657372",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/487029.jpg",
+      "url": "https://hh.ru/vacancy/123748655",
+      "published_at": "2025-08-07T13:43:44+0300",
+      "created_at": "2025-08-07T13:43:44+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее техническое или профильное образование. Знание сетевых протоколов модели OSI и их взаимодействию. Знание семейство локальных операционных систем Астра Linux...",
+      "responsibility": "Эксплуатация серверного оборудования. Обеспечение работоспособности аппаратной части и программной части серверов, администрирование операционных систем (Windows, Linux). Мониторинг состояния работы, анализ...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123522902",
+      "name": "Системный администратор",
+      "company": "АРХПЛЕЙ Девелопмент",
+      "company_id": "3292611",
+      "company_url": "https://hh.ru/employer/3292611",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1393696.png",
+      "url": "https://hh.ru/vacancy/123522902",
+      "published_at": "2025-08-07T13:40:19+0300",
+      "created_at": "2025-08-07T13:40:19+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт администрирования Windows/Linux/macOS. Знание сетевых технологий (TCP/IP, DNS, DHCP, VLAN). Опыт с AD, PowerShell, Exchange, VMware/Hyper...",
+      "responsibility": "Поддержка и настройка серверов (Windows, Linux, 1С, MS SQL), СХД, виртуализации (VMware/Hyper-V), IP-телефонии и Exchange.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123747920",
+      "name": "Системный администратор/Junior DevOps",
+      "company": "АСТ",
+      "company_id": "24947",
+      "company_url": "https://hh.ru/employer/24947",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/226858.png",
+      "url": "https://hh.ru/vacancy/123747920",
+      "published_at": "2025-08-07T13:30:04+0300",
+      "created_at": "2025-08-07T13:30:04+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Аналогичный опыт работы от 1-ого года. Знание линейки ОС Windows (Server – обязательно), Linux (как минимум Ubuntu/Debian) на уровне...",
+      "responsibility": "Настройка сети, программ и оборудования, debug работы сервисов и решение проблем. Установка и настройка новых серверов и сервисов.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123522333",
+      "name": "Помощник системного администратора",
+      "company": "Айти Бюро",
+      "company_id": "3037696",
+      "company_url": "https://hh.ru/employer/3037696",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1365458.jpg",
+      "url": "https://hh.ru/vacancy/123522333",
+      "published_at": "2025-08-07T13:29:07+0300",
+      "created_at": "2025-08-07T13:29:07+0300",
+      "area": "Москва",
+      "salary": "70 000 - 75 000 RUR на руки",
+      "salary_raw": {
+        "from": 70000,
+        "to": 75000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Практический опыт работы с ОС Windows и аппаратным обеспечением ПК. Базовые знания сетевых технологий и принципов шифрования данных.",
+      "responsibility": "Формат работы - разъездной. Настройка и обслуживание банковских POS-терминалов. Диагностика и ремонт оборудования. Ведение учета активов в корпоративных системах.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123747438",
       "name": "Младший системный администратор",
@@ -43,6 +315,39 @@
       "employment": "Полная занятость",
       "requirement": "Будет плюсом аналогичный опыт работы от полугода. Уверенный пользователь ПК. Ответственность, исполнительность.",
       "responsibility": "Диагностика (МФУ, принтеры). Проведение профилактических работ (МФУ, принтеры). Замена расходных материалов в МФУ, принтерах (картриджи, барабаны, блоки проявки).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122767090",
+      "name": "Системный администратор",
+      "company": "Проектно-конструкторское бюро РИО",
+      "company_id": "231072",
+      "company_url": "https://hh.ru/employer/231072",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/186473.jpg",
+      "url": "https://hh.ru/vacancy/122767090",
+      "published_at": "2025-08-07T13:08:04+0300",
+      "created_at": "2025-08-07T13:08:04+0300",
+      "area": "Санкт-Петербург",
+      "salary": "от 120 000 RUR на руки",
+      "salary_raw": {
+        "from": 120000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы с сетевым оборудованием. Опыт администрирование серверов и ПО Microsoft. Понимание схем построения локальных сетей. Владение инструментами диагностики сетей.",
+      "responsibility": "Закупки оборудования, расходных материалов, взаимодействие с гарантийными отделами поставщиков оборудования. Поддержка ИТ инфраструктуры, включая филиалы. Администрирование серверов Windows и сетевого...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -554,39 +859,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120829091",
-      "name": "Системный Администратор (R-Keeper, iiko)",
-      "company": "Белатрикс",
-      "company_id": "11382308",
-      "company_url": "https://hh.ru/employer/11382308",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/120829091",
-      "published_at": "2025-08-07T12:07:55+0300",
-      "created_at": "2025-08-07T12:07:55+0300",
-      "area": "Москва",
-      "salary": "от 150 000 RUR на руки",
-      "salary_raw": {
-        "from": 150000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы от 3 лет. Грамотная устная и письменная речь. Опрятный вид. Пунктуальность. Исполнительность. Основное требование, Хорошее знание R-Keeper...",
-      "responsibility": "Установка и настройка кассового ПО (R-Keeper, iiko). Работа с ЦТО по кассовой технике (постановка задач, контроль выполнения, отчеты).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
       ],
       "has_test": false,
       "premium": false,
@@ -8793,7 +9065,7 @@
     },
     {
       "id": "122999051",
-      "name": "Специалист технической поддержки пользователей (помощник системного администратора)",
+      "name": "Системный администратор",
       "company": "Моторинвест",
       "company_id": "5912186",
       "company_url": "https://hh.ru/employer/5912186",
@@ -8802,8 +9074,13 @@
       "published_at": "2025-08-05T17:32:30+0300",
       "created_at": "2025-08-05T17:32:30+0300",
       "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
+      "salary": "до 100 000 RUR на руки",
+      "salary_raw": {
+        "from": null,
+        "to": 100000,
+        "currency": "RUR",
+        "gross": false
+      },
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
@@ -8811,7 +9088,7 @@
       "responsibility": "Техническая поддержка пользователей в офисе, обработка заявок, предоставление отчетности.",
       "type": "Открытая",
       "professional_roles": [
-        "Специалист технической поддержки"
+        "Системный администратор"
       ],
       "has_test": true,
       "premium": false,
@@ -15492,16 +15769,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123610786",
+      "id": "123610788",
       "name": "Дежурный системный администратор (фармацевтический склад)",
       "company": "Фармкомплект",
       "company_id": "84779",
       "company_url": "https://hh.ru/employer/84779",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1396516.png",
-      "url": "https://hh.ru/vacancy/123610786",
+      "url": "https://hh.ru/vacancy/123610788",
       "published_at": "2025-08-04T16:29:08+0300",
       "created_at": "2025-08-04T16:29:08+0300",
-      "area": "Москва",
+      "area": "Наро-Фоминск (Московская область)",
       "salary": "от 90 000 RUR на руки",
       "salary_raw": {
         "from": 90000,
@@ -15525,16 +15802,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123610788",
+      "id": "123610786",
       "name": "Дежурный системный администратор (фармацевтический склад)",
       "company": "Фармкомплект",
       "company_id": "84779",
       "company_url": "https://hh.ru/employer/84779",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1396516.png",
-      "url": "https://hh.ru/vacancy/123610788",
+      "url": "https://hh.ru/vacancy/123610786",
       "published_at": "2025-08-04T16:29:08+0300",
       "created_at": "2025-08-04T16:29:08+0300",
-      "area": "Наро-Фоминск (Московская область)",
+      "area": "Москва",
       "salary": "от 90 000 RUR на руки",
       "salary_raw": {
         "from": 90000,
@@ -16978,34 +17255,6 @@
       "accept_temporary": false
     },
     {
-      "id": "122529796",
-      "name": "Системный администратор (Отдел разработки)",
-      "company": "СПбЭК- Майнинг",
-      "company_id": "3198918",
-      "company_url": "https://hh.ru/employer/3198918",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1107554.jpg",
-      "url": "https://hh.ru/vacancy/122529796",
-      "published_at": "2025-08-04T13:57:49+0300",
-      "created_at": "2025-08-04T13:57:49+0300",
-      "area": "Санкт-Петербург",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Образование высшее техническое. Опыт администрирования Active Directory: настройка групповых политик(GPO), управление правами пользователями. Опыт работы с ОС Linux (Astra...",
-      "responsibility": "Обеспечение и поддержка ИБ. Настройка и управление коммутационным оборудованием. Управление инфраструктурой предоставления доступов. Периодический анализ журналов. Мониторинг и контроль функционирования...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "122347719",
       "name": "Ведущий системный администратор",
       "company": "ЦДМ на Лубянке",
@@ -17039,34 +17288,6 @@
       "accept_temporary": false
     },
     {
-      "id": "123522902",
-      "name": "Системный администратор",
-      "company": "АРХПЛЕЙ Девелопмент",
-      "company_id": "3292611",
-      "company_url": "https://hh.ru/employer/3292611",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1393696.png",
-      "url": "https://hh.ru/vacancy/123522902",
-      "published_at": "2025-08-04T13:40:19+0300",
-      "created_at": "2025-08-04T13:40:19+0300",
-      "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт администрирования Windows/Linux/macOS. Знание сетевых технологий (TCP/IP, DNS, DHCP, VLAN). Опыт с AD, PowerShell, Exchange, VMware/Hyper...",
-      "responsibility": "Поддержка и настройка серверов (Windows, Linux, 1С, MS SQL), СХД, виртуализации (VMware/Hyper-V), IP-телефонии и Exchange.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "123597160",
       "name": "Системный администратор / Инженер технической поддержки IT-инфраструктуры",
       "company": "Университет ИТМО",
@@ -17084,72 +17305,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт администрирования Linux-серверов (RHEL, CentOS, Ubuntu, Debian) на уровне уверенного пользователя root. Уверенные знания сетевых технологий: понимание принципов TCP...",
       "responsibility": "Администрирование серверов на базе Linux (RHEL, CentOS, Ubuntu, Debian) – установка, настройка и обновление операционных систем и серверного ПО (как на...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122528017",
-      "name": "Системный администратор Linux",
-      "company": "Инженерный Центр Информационно-аналитических систем",
-      "company_id": "2588792",
-      "company_url": "https://hh.ru/employer/2588792",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/626265.png",
-      "url": "https://hh.ru/vacancy/122528017",
-      "published_at": "2025-08-04T13:30:44+0300",
-      "created_at": "2025-08-04T13:30:44+0300",
-      "area": "Москва",
-      "salary": "от 150 000 RUR на руки",
-      "salary_raw": {
-        "from": 150000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с системами защиты информации, знание методов предотвращения угроз.",
-      "responsibility": "Администрирование : Linux/Windows серверов. Сетевых сервисов. Мониторинг IT инфраструктуры. Обеспечение безопасности инфраструктуры. Создание и сопровождение серверной инфраструктуры на базе операционных...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123522333",
-      "name": "Помощник системного администратора",
-      "company": "Айти Бюро",
-      "company_id": "3037696",
-      "company_url": "https://hh.ru/employer/3037696",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1365458.jpg",
-      "url": "https://hh.ru/vacancy/123522333",
-      "published_at": "2025-08-04T13:29:07+0300",
-      "created_at": "2025-08-04T13:29:07+0300",
-      "area": "Москва",
-      "salary": "70 000 - 75 000 RUR на руки",
-      "salary_raw": {
-        "from": 70000,
-        "to": 75000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Практический опыт работы с ОС Windows и аппаратным обеспечением ПК. Базовые знания сетевых технологий и принципов шифрования данных.",
-      "responsibility": "Формат работы - разъездной. Настройка и обслуживание банковских POS-терминалов. Диагностика и ремонт оборудования. Ведение учета активов в корпоративных системах.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -17310,39 +17465,6 @@
         "Системный администратор"
       ],
       "has_test": true,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122767090",
-      "name": "Системный администратор",
-      "company": "Проектно-конструкторское бюро РИО",
-      "company_id": "231072",
-      "company_url": "https://hh.ru/employer/231072",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/186473.jpg",
-      "url": "https://hh.ru/vacancy/122767090",
-      "published_at": "2025-08-04T13:08:04+0300",
-      "created_at": "2025-08-04T13:08:04+0300",
-      "area": "Санкт-Петербург",
-      "salary": "от 120 000 RUR на руки",
-      "salary_raw": {
-        "from": 120000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с сетевым оборудованием. Опыт администрирование серверов и ПО Microsoft. Понимание схем построения локальных сетей. Владение инструментами диагностики сетей.",
-      "responsibility": "Закупки оборудования, расходных материалов, взаимодействие с гарантийными отделами поставщиков оборудования. Поддержка ИТ инфраструктуры, включая филиалы. Администрирование серверов Windows и сетевого...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
       "premium": false,
       "accept_handicapped": false,
       "accept_kids": false,
@@ -20251,16 +20373,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123528764",
+      "id": "123528763",
       "name": "Системный администратор",
       "company": "ДСК АВТОБАН",
       "company_id": "184497",
       "company_url": "https://hh.ru/employer/184497",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/709896.PNG",
-      "url": "https://hh.ru/vacancy/123528764",
+      "url": "https://hh.ru/vacancy/123528763",
       "published_at": "2025-08-01T15:18:40+0300",
       "created_at": "2025-08-01T15:18:40+0300",
-      "area": "Серпухов (Московская область)",
+      "area": "Чехов (Московская область)",
       "salary": "120 000 - 120 000 RUR на руки",
       "salary_raw": {
         "from": 120000,
@@ -20284,16 +20406,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123528763",
+      "id": "123528764",
       "name": "Системный администратор",
       "company": "ДСК АВТОБАН",
       "company_id": "184497",
       "company_url": "https://hh.ru/employer/184497",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/709896.PNG",
-      "url": "https://hh.ru/vacancy/123528763",
+      "url": "https://hh.ru/vacancy/123528764",
       "published_at": "2025-08-01T15:18:40+0300",
       "created_at": "2025-08-01T15:18:40+0300",
-      "area": "Чехов (Московская область)",
+      "area": "Серпухов (Московская область)",
       "salary": "120 000 - 120 000 RUR на руки",
       "salary_raw": {
         "from": 120000,
@@ -27717,39 +27839,6 @@
       "employment": "Полная занятость",
       "requirement": "Знания в области серверного аппаратного обеспечения. Практические навыки построения, опыт работы и администрирования крупных LAN, WiFi сетей. (Наличие опыта прокладки...",
       "responsibility": "ГК «САНТЭНС» - крупнейший информационно-логистический оператор на российском фармацевтическом рынке, с 2000 года оказывающий услуги по таможенному оформлению и логистике...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121900338",
-      "name": "Заместитель начальника Отдела системного администрирования банка (системный администратор)",
-      "company": "Банк Финсервис",
-      "company_id": "39507",
-      "company_url": "https://hh.ru/employer/39507",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1412684.png",
-      "url": "https://hh.ru/vacancy/121900338",
-      "published_at": "2025-07-28T11:50:05+0300",
-      "created_at": "2025-07-28T11:50:05+0300",
-      "area": "Москва",
-      "salary": "от 200 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 200000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Глубокие знания Linux, желательно отечественные сборки Astra Linux, Red OS. Поиск неисправностей, оптимизация. Плюсом будет: VMware vSphere 7, VSAN.",
-      "responsibility": "Zabbix и другие системы мониторинга. СХД Qnap; Microsoft SQL; СРК КиберБэкап. Организация и управление работой отдела.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -37393,39 +37482,6 @@
       "accept_temporary": false
     },
     {
-      "id": "122919705",
-      "name": "Системный администратор",
-      "company": "Торговый Дом Нижегородский Хлеб",
-      "company_id": "5050252",
-      "company_url": "https://hh.ru/employer/5050252",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1381810.jpg",
-      "url": "https://hh.ru/vacancy/122919705",
-      "published_at": "2025-07-17T09:49:48+0300",
-      "created_at": "2025-07-17T09:49:48+0300",
-      "area": "Москва",
-      "salary": "130 000 - 160 000 RUR на руки",
-      "salary_raw": {
-        "from": 130000,
-        "to": 160000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы от 2-х лет. Ответственность и внимательность в работе. Профильное образование - приветствуется.",
-      "responsibility": "Администрирование физических и виртуальных серверов. Aдминиcтpирoвaние локальной ceти предприятия и тeхничеcкая поддержка. Админиcтрирoваниe 1С, SQL т.д.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Другое"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "122919626",
       "name": "Системный администратор (логистика/склад)",
       "company": "Staffline",
@@ -38550,7 +38606,7 @@
       "schedule": "Полный день",
       "employment": "Полная занятость",
       "requirement": "Активная жизненная позиция, развитые навыки коммуникации, гибкость, ответственность, готовность работать с разными задачами, аналитический тип мышления. Умение следовать инструкциям (как...",
-      "responsibility": "Функционал / компетенции: Сборка ПК из комплектующих, замена, ремонт. Установка и настройка программного обеспечения (Office, 1C, банк-клиенты, почта: MS...",
+      "responsibility": "Функционал / компетенции: Сборка ПК из комплектующих, замена, ремонт. Установка и настройка программного обеспечения (Office, 1C, банк-клиенты) и операционных...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -43315,39 +43371,6 @@
       "accept_temporary": false
     },
     {
-      "id": "122616865",
-      "name": "Сетевой инженер (системный администратор)",
-      "company": "Северо-Западное таможенное управление",
-      "company_id": "4815033",
-      "company_url": "https://hh.ru/employer/4815033",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/894718.jpg",
-      "url": "https://hh.ru/vacancy/122616865",
-      "published_at": "2025-07-10T10:49:44+0300",
-      "created_at": "2025-07-10T10:49:44+0300",
-      "area": "Санкт-Петербург",
-      "salary": "45 000 - 75 000 RUR на руки",
-      "salary_raw": {
-        "from": 45000,
-        "to": 75000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование. Базовые знания в области сетевых технологий и телекоммуникаций. Готовность обучаться и развиваться в профессиональной сфере. Умение работать в...",
-      "responsibility": "Работа с телекоммуникационным оборудованием: маршрутизаторы, коммутаторы.(Есть возможно пройти обучение). Настройка и управление оборудованием: Конфигурация маршрутизаторов, коммутаторов и других устройств...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "122607223",
       "name": "Системный администратор",
       "company": "Альпремстрой",
@@ -43551,105 +43574,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122582814",
-      "name": "Старший системный администратор",
-      "company": "Бизнесбас",
-      "company_id": "1414808",
-      "company_url": "https://hh.ru/employer/1414808",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1260784.png",
-      "url": "https://hh.ru/vacancy/122582814",
-      "published_at": "2025-07-09T16:01:14+0300",
-      "created_at": "2025-07-09T16:01:14+0300",
-      "area": "Москва",
-      "salary": "130 000 - 150 000 RUR на руки",
-      "salary_raw": {
-        "from": 130000,
-        "to": 150000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание сервисов, оснасток, команд для управления Windows Server/Linux (CentOS/Debian/Ubuntu) на уровне системного администратора. Хороший опыт работы с...",
-      "responsibility": "Развитие инфраструктуры компании в части сетевого оборудования, серверного ПО, серверного оборудования. Участие в реализации проектов в качестве эксперта.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122581764",
-      "name": "Сетевой инженер (системный администратор)",
-      "company": "Северо-Западное таможенное управление",
-      "company_id": "4815033",
-      "company_url": "https://hh.ru/employer/4815033",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/894718.jpg",
-      "url": "https://hh.ru/vacancy/122581764",
-      "published_at": "2025-07-09T15:42:26+0300",
-      "created_at": "2025-07-09T15:42:26+0300",
-      "area": "Санкт-Петербург",
-      "salary": "45 000 - 75 000 RUR на руки",
-      "salary_raw": {
-        "from": 45000,
-        "to": 75000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование. Коммуникабельность. Умение правильно формулировать речь. Базовые знания в области сетевых технологий и телекоммуникаций. Готовность обучаться и развиваться в...",
-      "responsibility": "Работа с оборудованием видеоконференцсвязи (далее - ВКС): маршрутизаторы, видеокодеки, серверы (Cisco, Vinteo, Polycom, Yealink).(Есть возможно пройти обучение). Настройка и управление...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Сетевой инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122580704",
-      "name": "Сетевой инженер (Системный администратор)",
-      "company": "Северо-Западное таможенное управление",
-      "company_id": "4815033",
-      "company_url": "https://hh.ru/employer/4815033",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/894718.jpg",
-      "url": "https://hh.ru/vacancy/122580704",
-      "published_at": "2025-07-09T15:26:35+0300",
-      "created_at": "2025-07-09T15:26:35+0300",
-      "area": "Санкт-Петербург",
-      "salary": "45 000 - 75 000 RUR на руки",
-      "salary_raw": {
-        "from": 45000,
-        "to": 75000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Базовые знания в области сетевых технологий и телекоммуникаций. Готовность обучаться и развиваться в профессиональной сфере. Умение работать в команде и...",
-      "responsibility": "Настройка и управление оборудованием: Конфигурация маршрутизаторов, коммутаторов и других устройств для оптимальной работы сети. Настройка аналоговой и SIP телефонии. (",
-      "type": "Открытая",
-      "professional_roles": [
-        "Сетевой инженер"
       ],
       "has_test": false,
       "premium": false,
@@ -44696,67 +44620,6 @@
       "employment": "Полная занятость",
       "requirement": "1. Профессиональные компетенции: - Опыт администрирования серверных ОС MS Windows 2012-2022. - Опыт администрирования инфраструктуры виртуализации на базе ПО VMware vSphere. -",
       "responsibility": "Обеспечение бесперебойной работы ИТ-инфраструктуры холдинга. Обработка заявок бизнес-пользователей в системе учета заявок (3 линия). Ведение работы в системе...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122531224",
-      "name": "Системный администратор",
-      "company": "Рутек",
-      "company_id": "5041145",
-      "company_url": "https://hh.ru/employer/5041145",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/794507.jpg",
-      "url": "https://hh.ru/vacancy/122531224",
-      "published_at": "2025-07-08T14:13:47+0300",
-      "created_at": "2025-07-08T14:13:47+0300",
-      "area": "Москва",
-      "salary": "от 120 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 120000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание принципов работы компьютерной техники, сетевых протоколов, основ программирования. Модель OSI. Владение техническим английским языком для работы с документацией.",
-      "responsibility": "Настройка, поддержка и обновление серверов, рабочих станций и сетевого оборудования. Обеспечение информационной безопасности и резервного копирования данных.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122527743",
-      "name": "Системный администратор Linux",
-      "company": "ЦифроТех",
-      "company_id": "10434473",
-      "company_url": "https://hh.ru/employer/10434473",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1447936.png",
-      "url": "https://hh.ru/vacancy/122527743",
-      "published_at": "2025-07-08T13:27:41+0300",
-      "created_at": "2025-07-08T13:27:41+0300",
-      "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Любой Linux. Опыт автоматизации на (минимум одно): ansible/salt/puppet, bash/python/go. Опыт администрирования или работы с (минимум одно...",
-      "responsibility": "Дежурный системный администратор. Реагирование на события системы мониторинга, первоначальная диагностика, устранение неполадок. Подключение коллег из профильных команд администраторов (сети, виртуализация...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
