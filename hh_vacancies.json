@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-07T17:24:04Z",
+  "updated": "2025-08-07T18:35:55Z",
   "statistics": {
-    "total": 1448,
-    "with_salary": 836,
-    "companies": 1152,
+    "total": 1446,
+    "with_salary": 835,
+    "companies": 1151,
     "cities": 71,
     "premium": 2,
     "with_test": 63
   },
   "vacancies": [
+    {
+      "id": "123600055",
+      "name": "Системный администратор / Инженер",
+      "company": "Авиком Бизнес Технологии",
+      "company_id": "336",
+      "company_url": "https://hh.ru/employer/336",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/418999.jpg",
+      "url": "https://hh.ru/vacancy/123600055",
+      "published_at": "2025-08-07T21:24:28+0300",
+      "created_at": "2025-08-07T21:24:28+0300",
+      "area": "Москва",
+      "salary": "от 170 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 170000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Профильное высшее образование и/или опыт заменяющий его. Понимание основ построения и работы серверной инфраструктуры. Опыт работы в поддержке не...",
+      "responsibility": "Поддержка внутренней инфраструктуры компании (Win/Linux/AD/Exchange/SQL Server). Поддержка облачной инфраструктуры продукта - Windows, Ubuntu, несколько провайдеров IaaS.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123617571",
+      "name": "Системный администратор",
+      "company": "Первый Сервисный Провайдер",
+      "company_id": "1733286",
+      "company_url": "https://hh.ru/employer/1733286",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/534606.png",
+      "url": "https://hh.ru/vacancy/123617571",
+      "published_at": "2025-08-07T20:05:42+0300",
+      "created_at": "2025-08-07T20:05:42+0300",
+      "area": "Санкт-Петербург",
+      "salary": "80 000 - 120 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 80000,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы с системами виртуализации(Microsoft Hyper-V). Знания линейки Windows Server. Знание принципов работы систем хранения данных, схем работы...",
+      "responsibility": "Администрирование Windows Server, Linux. Мониторинг состояния серверов (обработка оповещений от систем мониторинга). Настройка и мониторинг резервного копирования виртуальных машин (Veeam...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "122785976",
       "name": "Второй системный администратор",
@@ -4726,16 +4792,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122216012",
+      "id": "122216014",
       "name": "Старший системный администратор",
       "company": "Международный аэропорт Жуковский",
       "company_id": "1648021",
       "company_url": "https://hh.ru/employer/1648021",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/488563.jpg",
-      "url": "https://hh.ru/vacancy/122216012",
+      "url": "https://hh.ru/vacancy/122216014",
       "published_at": "2025-08-07T09:57:49+0300",
       "created_at": "2025-08-07T09:57:49+0300",
-      "area": "Жуковский  (Московская область)",
+      "area": "Люберцы  (Московская область)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -4754,16 +4820,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122216014",
+      "id": "122216012",
       "name": "Старший системный администратор",
       "company": "Международный аэропорт Жуковский",
       "company_id": "1648021",
       "company_url": "https://hh.ru/employer/1648021",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/488563.jpg",
-      "url": "https://hh.ru/vacancy/122216014",
+      "url": "https://hh.ru/vacancy/122216012",
       "published_at": "2025-08-07T09:57:49+0300",
       "created_at": "2025-08-07T09:57:49+0300",
-      "area": "Люберцы  (Московская область)",
+      "area": "Жуковский  (Московская область)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -7820,16 +7886,16 @@
       "accept_temporary": true
     },
     {
-      "id": "123702544",
+      "id": "123702541",
       "name": "Системный администратор",
       "company": "Управляющая Компания Южная Долина",
       "company_id": "4309115",
       "company_url": "https://hh.ru/employer/4309115",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/123702544",
+      "url": "https://hh.ru/vacancy/123702541",
       "published_at": "2025-08-06T14:05:25+0300",
       "created_at": "2025-08-06T14:05:25+0300",
-      "area": "Романовка",
+      "area": "Янино-1",
       "salary": "90 000 - 100 000 RUR на руки",
       "salary_raw": {
         "from": 90000,
@@ -7853,16 +7919,16 @@
       "accept_temporary": true
     },
     {
-      "id": "123702541",
+      "id": "123702544",
       "name": "Системный администратор",
       "company": "Управляющая Компания Южная Долина",
       "company_id": "4309115",
       "company_url": "https://hh.ru/employer/4309115",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/123702541",
+      "url": "https://hh.ru/vacancy/123702544",
       "published_at": "2025-08-06T14:05:25+0300",
       "created_at": "2025-08-06T14:05:25+0300",
-      "area": "Янино-1",
+      "area": "Романовка",
       "salary": "90 000 - 100 000 RUR на руки",
       "salary_raw": {
         "from": 90000,
@@ -16513,39 +16579,6 @@
       "accept_temporary": false
     },
     {
-      "id": "123617571",
-      "name": "Системный администратор",
-      "company": "Первый Сервисный Провайдер",
-      "company_id": "1733286",
-      "company_url": "https://hh.ru/employer/1733286",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/534606.png",
-      "url": "https://hh.ru/vacancy/123617571",
-      "published_at": "2025-08-04T20:05:42+0300",
-      "created_at": "2025-08-04T20:05:42+0300",
-      "area": "Санкт-Петербург",
-      "salary": "80 000 - 120 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 80000,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с системами виртуализации(Microsoft Hyper-V). Знания линейки Windows Server. Знание принципов работы систем хранения данных, схем работы...",
-      "responsibility": "Администрирование Windows Server, Linux. Мониторинг состояния серверов (обработка оповещений от систем мониторинга). Настройка и мониторинг резервного копирования виртуальных машин (Veeam...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "123617519",
       "name": "Системный администратор",
       "company": "Кряклина Кристина Алексеевна",
@@ -17166,16 +17199,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123610788",
+      "id": "123610787",
       "name": "Дежурный системный администратор (фармацевтический склад)",
       "company": "Фармкомплект",
       "company_id": "84779",
       "company_url": "https://hh.ru/employer/84779",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1396516.png",
-      "url": "https://hh.ru/vacancy/123610788",
+      "url": "https://hh.ru/vacancy/123610787",
       "published_at": "2025-08-04T16:29:08+0300",
       "created_at": "2025-08-04T16:29:08+0300",
-      "area": "Наро-Фоминск (Московская область)",
+      "area": "Троицк (Москва)",
       "salary": "от 90 000 RUR на руки",
       "salary_raw": {
         "from": 90000,
@@ -17199,16 +17232,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123610787",
+      "id": "123610788",
       "name": "Дежурный системный администратор (фармацевтический склад)",
       "company": "Фармкомплект",
       "company_id": "84779",
       "company_url": "https://hh.ru/employer/84779",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1396516.png",
-      "url": "https://hh.ru/vacancy/123610787",
+      "url": "https://hh.ru/vacancy/123610788",
       "published_at": "2025-08-04T16:29:08+0300",
       "created_at": "2025-08-04T16:29:08+0300",
-      "area": "Троицк (Москва)",
+      "area": "Наро-Фоминск (Московская область)",
       "salary": "от 90 000 RUR на руки",
       "salary_raw": {
         "from": 90000,
@@ -17883,39 +17916,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": true
-    },
-    {
-      "id": "123600055",
-      "name": "Системный администратор / Инженер",
-      "company": "Авиком Бизнес Технологии",
-      "company_id": "336",
-      "company_url": "https://hh.ru/employer/336",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/418999.jpg",
-      "url": "https://hh.ru/vacancy/123600055",
-      "published_at": "2025-08-04T14:11:47+0300",
-      "created_at": "2025-08-04T14:11:47+0300",
-      "area": "Москва",
-      "salary": "170 - 180 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 170,
-        "to": 180,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Профильное высшее образование и/или опыт заменяющий его. Понимание основ построения и работы серверной инфраструктуры. Опыт работы в поддержке не...",
-      "responsibility": "Поддержка, развитие облачной инфраструктуры продукта - Windows, Ubuntu, несколько провайдеров IaaS. Поддержка внутренней инфраструктуры компании (Win/Linux/AD/Exchange/SQL Server).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
     },
     {
       "id": "122347719",
@@ -36752,34 +36752,6 @@
       "accept_temporary": false
     },
     {
-      "id": "122115624",
-      "name": "Системный администратор Linux/DevOps инженер (Коммерция)",
-      "company": "RDP.RU",
-      "company_id": "1710349",
-      "company_url": "https://hh.ru/employer/1710349",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/810003.png",
-      "url": "https://hh.ru/vacancy/122115624",
-      "published_at": "2025-07-18T10:00:14+0300",
-      "created_at": "2025-07-18T10:00:14+0300",
-      "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт администрирования Linux-серверов. Опыт администрирования систем мониторинга на базе стека Prometheus/Grafana/Loki. Опыт работы с гипервизорами на базе...",
-      "responsibility": "Сопровождение CI pipelines сборки и автотестирования ПО. Перевод существующих сервисов в код (IaC). Обеспечение высокой доступности и отказоустойчивости сервисов.",
-      "type": "Открытая",
-      "professional_roles": [
-        "DevOps-инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "122968339",
       "name": "Системный администратор Linux (г. Ялта)",
       "company": "Мрия (Mriya Resort)",
@@ -38470,16 +38442,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122065738",
+      "id": "122065208",
       "name": "Системный администратор (иностранная площадка)",
       "company": "Гринатом",
       "company_id": "665467",
       "company_url": "https://hh.ru/employer/665467",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/779318.png",
-      "url": "https://hh.ru/vacancy/122065738",
+      "url": "https://hh.ru/vacancy/122065208",
       "published_at": "2025-07-16T16:03:03+0300",
       "created_at": "2025-07-16T16:03:03+0300",
-      "area": "Москва",
+      "area": "Санкт-Петербург",
       "salary": "140 000 - 180 000 RUR на руки",
       "salary_raw": {
         "from": 140000,
@@ -38503,16 +38475,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122065208",
+      "id": "122065738",
       "name": "Системный администратор (иностранная площадка)",
       "company": "Гринатом",
       "company_id": "665467",
       "company_url": "https://hh.ru/employer/665467",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/779318.png",
-      "url": "https://hh.ru/vacancy/122065208",
+      "url": "https://hh.ru/vacancy/122065738",
       "published_at": "2025-07-16T16:03:03+0300",
       "created_at": "2025-07-16T16:03:03+0300",
-      "area": "Санкт-Петербург",
+      "area": "Москва",
       "salary": "140 000 - 180 000 RUR на руки",
       "salary_raw": {
         "from": 140000,
@@ -44701,39 +44673,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы на 1-й/2-й линии техподдержки (1+ год). Знание Windows Server 2016-2022. Базовые навыки администрирования...",
       "responsibility": "Приём, регистрация и первичная обработка обращений пользователей (GLPI). Удалённая диагностика и решение проблем рабочих станций. Консультирование пользователей по базовым вопросам...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121752721",
-      "name": "Системный администратор",
-      "company": "ДСК АВТОБАН",
-      "company_id": "184497",
-      "company_url": "https://hh.ru/employer/184497",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/709896.PNG",
-      "url": "https://hh.ru/vacancy/121752721",
-      "published_at": "2025-07-08T20:40:57+0300",
-      "created_at": "2025-07-08T20:40:57+0300",
-      "area": "Москва",
-      "salary": "от 130 000 RUR на руки",
-      "salary_raw": {
-        "from": 130000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание основных вендоров оборудования, тенденций развития ИТ. Практический опыт работы в должности системного администратора. Готовность к техподдержке пользователей, умение излагать...",
-      "responsibility": "Обслуживание компьютерной локальный сети. Организация рабочих мест пользователей. Обслуживание принтеров, МФУ, мелкий ремонт, замена расходных материалов. Отслеживание состояния оборудования, расходных...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
