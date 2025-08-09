@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-09T10:40:51Z",
+  "updated": "2025-08-09T11:31:34Z",
   "statistics": {
-    "total": 963,
-    "with_salary": 698,
-    "companies": 719,
+    "total": 962,
+    "with_salary": 697,
+    "companies": 718,
     "cities": 202,
     "premium": 0,
     "with_test": 15
   },
   "vacancies": [
+    {
+      "id": "123104223",
+      "name": "Системный администратор",
+      "company": "Южноуральский лизинговый центр",
+      "company_id": "877527",
+      "company_url": "https://hh.ru/employer/877527",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1132569.jpg",
+      "url": "https://hh.ru/vacancy/123104223",
+      "published_at": "2025-08-09T13:21:42+0300",
+      "created_at": "2025-08-09T13:21:42+0300",
+      "area": "Челябинск",
+      "salary": "от 70 000 RUR на руки",
+      "salary_raw": {
+        "from": 70000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в аналогичной должности от 2-3х лет. Желание изучать новые продукты.",
+      "responsibility": "Настройка, обслуживание и обеспечение бесперебойной работы ПК, телефонов, принтеров, офисного ПО. Обработка заявок от пользователей. Консультирование пользователей по работе с...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123312813",
       "name": "Специалист IT/Системный администратор",
@@ -3038,39 +3071,6 @@
       "accept_temporary": false
     },
     {
-      "id": "122786916",
-      "name": "Системный администратор/электромонтер",
-      "company": "Первая Сервисная Компания",
-      "company_id": "1480991",
-      "company_url": "https://hh.ru/employer/1480991",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
-      "url": "https://hh.ru/vacancy/122786916",
-      "published_at": "2025-08-07T22:34:21+0300",
-      "created_at": "2025-08-07T22:34:21+0300",
-      "area": "Учалы",
-      "salary": "55 000 - 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 55000,
-        "to": 80000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Вахтовый метод",
-      "employment": "Полная занятость",
-      "requirement": "Средне-специальное или высшее образование. Умение расключать щитки, проверять кабельные линии. Исполнительность, оперативность, аккуратность.",
-      "responsibility": "Электромонтаж. Обеспечение связи и видеонаблюдения. Выезд по объектам на территории РБ.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Электромонтажник"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "122786919",
       "name": "Системный администратор/электромонтер",
       "company": "Первая Сервисная Компания",
@@ -3096,6 +3096,39 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122786916",
+      "name": "Системный администратор/электромонтер",
+      "company": "Первая Сервисная Компания",
+      "company_id": "1480991",
+      "company_url": "https://hh.ru/employer/1480991",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
+      "url": "https://hh.ru/vacancy/122786916",
+      "published_at": "2025-08-07T22:34:21+0300",
+      "created_at": "2025-08-07T22:34:21+0300",
+      "area": "Учалы",
+      "salary": "55 000 - 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 55000,
+        "to": 80000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Вахтовый метод",
+      "employment": "Полная занятость",
+      "requirement": "Средне-специальное или высшее образование. Умение расключать щитки, проверять кабельные линии. Исполнительность, оперативность, аккуратность.",
+      "responsibility": "Электромонтаж. Обеспечение связи и видеонаблюдения. Выезд по объектам на территории РБ.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Электромонтажник"
       ],
       "has_test": false,
       "premium": false,
@@ -6648,39 +6681,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее или среднее образование в области информационных технологий или компьютерных наук. Опыт работы по специальности не менее 1 года.",
       "responsibility": "Работа в области сетевых технологий, операционных систем, виртуализации, облачных сервисов и других. Администрирование Windows Server, Linux (RedOS, Ubuntu, ALT), работа...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123104223",
-      "name": "Системный администратор",
-      "company": "Южноуральский лизинговый центр",
-      "company_id": "877527",
-      "company_url": "https://hh.ru/employer/877527",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1132569.jpg",
-      "url": "https://hh.ru/vacancy/123104223",
-      "published_at": "2025-08-06T13:21:42+0300",
-      "created_at": "2025-08-06T13:21:42+0300",
-      "area": "Челябинск",
-      "salary": "от 70 000 RUR на руки",
-      "salary_raw": {
-        "from": 70000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в аналогичной должности от 2-3х лет. Желание изучать новые продукты.",
-      "responsibility": "Настройка, обслуживание и обеспечение бесперебойной работы ПК, телефонов, принтеров, офисного ПО. Обработка заявок от пользователей. Консультирование пользователей по работе с...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -15622,16 +15622,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121965538",
+      "id": "123064607",
       "name": "Ведущий системный администратор",
       "company": "Агрокомплекс Лабинский",
       "company_id": "11920984",
       "company_url": "https://hh.ru/employer/11920984",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1411411.png",
-      "url": "https://hh.ru/vacancy/121965538",
+      "url": "https://hh.ru/vacancy/123064607",
       "published_at": "2025-07-29T15:26:10+0300",
       "created_at": "2025-07-29T15:26:10+0300",
-      "area": "Ростов-на-Дону",
+      "area": "Краснодар",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -15650,16 +15650,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123064607",
+      "id": "121965538",
       "name": "Ведущий системный администратор",
       "company": "Агрокомплекс Лабинский",
       "company_id": "11920984",
       "company_url": "https://hh.ru/employer/11920984",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1411411.png",
-      "url": "https://hh.ru/vacancy/123064607",
+      "url": "https://hh.ru/vacancy/121965538",
       "published_at": "2025-07-29T15:26:10+0300",
       "created_at": "2025-07-29T15:26:10+0300",
-      "area": "Краснодар",
+      "area": "Ростов-на-Дону",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -30434,39 +30434,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122630894",
-      "name": "Помощник системного администратора",
-      "company": "ГБУЗ СК ГКБ Г. ПЯТИГОРСКА",
-      "company_id": "4109020",
-      "company_url": "https://hh.ru/employer/4109020",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/122630894",
-      "published_at": "2025-07-10T14:27:32+0300",
-      "created_at": "2025-07-10T14:27:32+0300",
-      "area": "Пятигорск",
-      "salary": "от 40 000 RUR на руки",
-      "salary_raw": {
-        "from": 40000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Требования: уверенный пользователь ПК ( windows, желательно Linux), желание работать, учиться, приобрести опыт. - работа на должности оператора ПК.",
-      "responsibility": "Обязанности: настройка и установка компьютерного оборудования, оргтехники, программного обеспечения. Для более подробной информации звонить по номеру телефона, указанному в объявлении!",
-      "type": "Открытая",
-      "professional_roles": [
-        "Оператор ПК, оператор базы данных"
       ],
       "has_test": false,
       "premium": false,
