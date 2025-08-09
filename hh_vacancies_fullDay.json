@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-09T13:42:59Z",
+  "updated": "2025-08-09T14:39:16Z",
   "statistics": {
-    "total": 960,
+    "total": 959,
     "with_salary": 696,
-    "companies": 717,
+    "companies": 716,
     "cities": 202,
     "premium": 0,
     "with_test": 15
   },
   "vacancies": [
+    {
+      "id": "123640713",
+      "name": "Начинающий системный администратор",
+      "company": "NEXT Contact",
+      "company_id": "2848751",
+      "company_url": "https://hh.ru/employer/2848751",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1398708.png",
+      "url": "https://hh.ru/vacancy/123640713",
+      "published_at": "2025-08-09T17:00:02+0300",
+      "created_at": "2025-08-09T17:00:02+0300",
+      "area": "Таганрог",
+      "salary": "от 34 000 RUR на руки",
+      "salary_raw": {
+        "from": 34000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Знание устройства ПК. Знание AD, DHCP, DNS. Иметь представление о сетях, сетевом оборудовании (желательно). Опыт администрирования рабочих станций на Windows...",
+      "responsibility": "Диагностика и решение проблем с ПК и программами. Техническая поддержка сотрудников офиса.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123116804",
+      "name": "Системный администратор",
+      "company": "Красное & Белое, розничная сеть",
+      "company_id": "1035394",
+      "company_url": "https://hh.ru/employer/1035394",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/90459.jpg",
+      "url": "https://hh.ru/vacancy/123116804",
+      "published_at": "2025-08-09T16:45:21+0300",
+      "created_at": "2025-08-09T16:45:21+0300",
+      "area": "Таганрог",
+      "salary": "114 000 - 114 000 RUR на руки",
+      "salary_raw": {
+        "from": 114000,
+        "to": 114000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в аналогичной должности. Знание офисных и почтовых программ. Опыт программного и аппаратного ремонта. Понимание устройства локальных сетей и...",
+      "responsibility": "Обслуживание ПК и орг. техники, торгового оборудования, систем видеонаблюдения на магазинах торговой сети.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123607450",
       "name": "Ведущий системный администратор",
@@ -660,39 +726,6 @@
       "employment": "Полная занятость",
       "requirement": "Знания сетевых технологий (стек TCP/IP, инфраструктурные сервисы DNS/DHCP/SMB и др). Опыт работы с Active Directory, Group Policy...",
       "responsibility": "Установка, настройка и поддержка ОС Windows (10/11, Server) и офисного ПО (Microsoft Office, Outlook,). Администрирование Active Directory (создание/удаление...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123640713",
-      "name": "Начинающий системный администратор",
-      "company": "NEXT Contact",
-      "company_id": "2848751",
-      "company_url": "https://hh.ru/employer/2848751",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1398708.png",
-      "url": "https://hh.ru/vacancy/123640713",
-      "published_at": "2025-08-08T18:00:05+0300",
-      "created_at": "2025-08-08T18:00:05+0300",
-      "area": "Таганрог",
-      "salary": "от 34 000 RUR на руки",
-      "salary_raw": {
-        "from": 34000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "Знание устройства ПК. Знание AD, DHCP, DNS. Иметь представление о сетях, сетевом оборудовании (желательно). Опыт администрирования рабочих станций на Windows...",
-      "responsibility": "Диагностика и решение проблем с ПК и программами. Техническая поддержка сотрудников офиса.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -6196,39 +6229,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы по специальности от 1-го года. Знание аппаратной части ПК. Продвинутый уровень пользование ПК (OS Windows).",
       "responsibility": "Установка, настройка и поддержка офисной инфраструктуры (сетевое оборудование, принтеры, МФУ, IP-телефония и прочее). Поддержка рабочих станций пользователей, в том...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123116804",
-      "name": "Системный администратор",
-      "company": "Красное & Белое, розничная сеть",
-      "company_id": "1035394",
-      "company_url": "https://hh.ru/employer/1035394",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/90459.jpg",
-      "url": "https://hh.ru/vacancy/123116804",
-      "published_at": "2025-08-06T16:45:21+0300",
-      "created_at": "2025-08-06T16:45:21+0300",
-      "area": "Таганрог",
-      "salary": "114 000 - 114 000 RUR на руки",
-      "salary_raw": {
-        "from": 114000,
-        "to": 114000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в аналогичной должности. Знание офисных и почтовых программ. Опыт программного и аппаратного ремонта. Понимание устройства локальных сетей и...",
-      "responsibility": "Обслуживание ПК и орг. техники, торгового оборудования, систем видеонаблюдения на магазинах торговой сети.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -15622,16 +15622,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123064607",
+      "id": "121965538",
       "name": "Ведущий системный администратор",
       "company": "Агрокомплекс Лабинский",
       "company_id": "11920984",
       "company_url": "https://hh.ru/employer/11920984",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1411411.png",
-      "url": "https://hh.ru/vacancy/123064607",
+      "url": "https://hh.ru/vacancy/121965538",
       "published_at": "2025-07-29T15:26:10+0300",
       "created_at": "2025-07-29T15:26:10+0300",
-      "area": "Краснодар",
+      "area": "Ростов-на-Дону",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -15650,16 +15650,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121965538",
+      "id": "123064607",
       "name": "Ведущий системный администратор",
       "company": "Агрокомплекс Лабинский",
       "company_id": "11920984",
       "company_url": "https://hh.ru/employer/11920984",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1411411.png",
-      "url": "https://hh.ru/vacancy/121965538",
+      "url": "https://hh.ru/vacancy/123064607",
       "published_at": "2025-07-29T15:26:10+0300",
       "created_at": "2025-07-29T15:26:10+0300",
-      "area": "Ростов-на-Дону",
+      "area": "Краснодар",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -30342,34 +30342,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее образование. - Опыт настройки сетевого оборудования и монтажа слаботочных сетей. - Опыт работы с системами видеонаблюдения и СКУД. - Знание Bitrix24...",
       "responsibility": "Функционал: - Настройка и поддержка пользовательского программного обеспечения на всех объектах холдинга. - Установка и настройка камер видеонаблюдения на строительных объектах и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122670706",
-      "name": "Системный администратор/Программист",
-      "company": "Синтек-Ставрополь",
-      "company_id": "5662526",
-      "company_url": "https://hh.ru/employer/5662526",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/122670706",
-      "published_at": "2025-07-10T17:29:42+0300",
-      "created_at": "2025-07-10T17:29:42+0300",
-      "area": "Ставрополь",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Хорошее владение языком запросов и СКД. Знание SQL приветствуется. Высшее профильное образование. Знание 1С. (будет вашим преимуществом). Ответственность, коммуникабельность.",
-      "responsibility": "Доработка отчетов, обработка печатных форм в 1С:УТ (10.3), ЗУП, Бухгалтерия. Доработка конфигураций под нужды и процессы компании.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
