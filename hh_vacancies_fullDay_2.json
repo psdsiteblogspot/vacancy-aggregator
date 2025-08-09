@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-09T07:44:52Z",
+  "updated": "2025-08-09T08:52:43Z",
   "statistics": {
-    "total": 837,
-    "with_salary": 645,
-    "companies": 635,
+    "total": 833,
+    "with_salary": 641,
+    "companies": 631,
     "cities": 134,
     "premium": 0,
     "with_test": 11
   },
   "vacancies": [
+    {
+      "id": "123093284",
+      "name": "Системный администратор",
+      "company": "ГК Барс",
+      "company_id": "1750611",
+      "company_url": "https://hh.ru/employer/1750611",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/535911.png",
+      "url": "https://hh.ru/vacancy/123093284",
+      "published_at": "2025-08-09T10:55:41+0300",
+      "created_at": "2025-08-09T10:55:41+0300",
+      "area": "Казань",
+      "salary": "40 000 - 50 000 RUR на руки",
+      "salary_raw": {
+        "from": 40000,
+        "to": 50000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Полная занятость",
+      "requirement": "Умение собирать и диагностировать офисную технику. Умение устанавливать и настраивать ОС семейства Windows в т.ч. серверные версии.",
+      "responsibility": "Установка , настройка и администрирование ОС семейства Windows Server. Настройка и администрирование СУБД ms sql. Мониторинг и оптимизация работы сетевых сервисов.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123294518",
       "name": "Системный администратор",
@@ -6948,39 +6981,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы по специальности, более 1-го года. Средне-специальное, высшее образование. Активность, сообразительность, умение планировать и выполнять, ответственность, желание...",
       "responsibility": "Установка, настройка, обслуживание и администрирование рабочих станций, оргтехники и серверов. Опыт эксплуатации продуктов Microsoft. Техническая поддержка и консультация пользователей.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123093284",
-      "name": "Системный администратор",
-      "company": "ГК Барс",
-      "company_id": "1750611",
-      "company_url": "https://hh.ru/employer/1750611",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/535911.png",
-      "url": "https://hh.ru/vacancy/123093284",
-      "published_at": "2025-08-06T10:55:41+0300",
-      "created_at": "2025-08-06T10:55:41+0300",
-      "area": "Казань",
-      "salary": "40 000 - 50 000 RUR на руки",
-      "salary_raw": {
-        "from": 40000,
-        "to": 50000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Полная занятость",
-      "requirement": "Умение собирать и диагностировать офисную технику. Умение устанавливать и настраивать ОС семейства Windows в т.ч. серверные версии.",
-      "responsibility": "Установка , настройка и администрирование ОС семейства Windows Server. Настройка и администрирование СУБД ms sql. Мониторинг и оптимизация работы сетевых сервисов.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -26542,138 +26542,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122619278",
-      "name": "Системный администратор",
-      "company": "Смартиндустрия",
-      "company_id": "11234421",
-      "company_url": "https://hh.ru/employer/11234421",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1373030.jpeg",
-      "url": "https://hh.ru/vacancy/122619278",
-      "published_at": "2025-07-10T11:22:18+0300",
-      "created_at": "2025-07-10T11:22:18+0300",
-      "area": "Рязань",
-      "salary": "от 80 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Администрирование подсетей с масочной IP-адресацией, работа с криптошлюзами \"Континент\" (DHCP, DNS, NAT, базовый уровень OSI). Опыт работы с Windows...",
-      "responsibility": "Поддержка и обслуживание серверного оборудования и локальной сети. Обслуживание и администрирование системы видеонаблюдения (≈100 камер) и серверов видеонаблюдения.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122617897",
-      "name": "Системный администратор",
-      "company": "Комбинат строительных материалов",
-      "company_id": "3321604",
-      "company_url": "https://hh.ru/employer/3321604",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/511608.png",
-      "url": "https://hh.ru/vacancy/122617897",
-      "published_at": "2025-07-10T11:01:39+0300",
-      "created_at": "2025-07-10T11:01:39+0300",
-      "area": "Тверь",
-      "salary": "25 000 - 30 000 RUR на руки",
-      "salary_raw": {
-        "from": 25000,
-        "to": 30000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы от 1 года. Внимательность. Ответственность. Пунктуальность. Исполнительность.",
-      "responsibility": "Контроль и обеспечение бесперебойной работы прикладных программных продуктов на устройствах пользователей, выявление и поиск способов устранения проблем у пользователей.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122617353",
-      "name": "Системный администратор",
-      "company": "Центральное агентство продаж перевозок",
-      "company_id": "1117630",
-      "company_url": "https://hh.ru/employer/1117630",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/122617353",
-      "published_at": "2025-07-10T10:55:47+0300",
-      "created_at": "2025-07-10T10:55:47+0300",
-      "area": "Самара",
-      "salary": "от 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Базовые знания в области администрирования операционных систем (Windows, Linux). Желателен опыт работы в аналогичной должности не менее 2 лет(рассматриваем...",
-      "responsibility": "Обеспечение бесперебойной работы локальных сетей, серверов, сетевых устройств, компьютеров, IP-телефонии. Проводить настройку сетевого оборудования, преимущественно устройств MikroTik.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122616907",
-      "name": "Системный администратор",
-      "company": "Квантрон Групп",
-      "company_id": "5080531",
-      "company_url": "https://hh.ru/employer/5080531",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1422000.png",
-      "url": "https://hh.ru/vacancy/122616907",
-      "published_at": "2025-07-10T10:50:26+0300",
-      "created_at": "2025-07-10T10:50:26+0300",
-      "area": "Рязань",
-      "salary": "50 000 - 65 000 RUR на руки",
-      "salary_raw": {
-        "from": 50000,
-        "to": 65000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "50+ решений в машинном зрении и AI (от дронов до промышленных систем). Мы внедряем интеллектуальные системы автоматизации на основе...",
-      "responsibility": "Консультировать клиентов по техническим вопросам. Диагностировать и решать проблемы удалённо. Взаимодействовать с разработчиками.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Специалист технической поддержки"
       ],
       "has_test": false,
       "premium": false,
