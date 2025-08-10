@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-09T23:46:41Z",
+  "updated": "2025-08-10T02:54:54Z",
   "statistics": {
-    "total": 824,
-    "with_salary": 632,
-    "companies": 623,
+    "total": 823,
+    "with_salary": 631,
+    "companies": 622,
     "cities": 133,
     "premium": 0,
     "with_test": 11
   },
   "vacancies": [
+    {
+      "id": "123722020",
+      "name": "Системный администратор",
+      "company": "Тирос Сервис",
+      "company_id": "12195854",
+      "company_url": "https://hh.ru/employer/12195854",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/123722020",
+      "published_at": "2025-08-10T03:16:51+0300",
+      "created_at": "2025-08-10T03:16:51+0300",
+      "area": "Владивосток",
+      "salary": "от 75 000 RUR на руки",
+      "salary_raw": {
+        "from": 75000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Навыки обслуживания сервисов: MS AD, MS SQL Server, кластера 1C, кластера отказоустойчивости MS, кластера RDS, системы виртуализации Hyper-V.",
+      "responsibility": "Системное администрирование парка компьютеров и серверов. Настройка, поддержка АРМ и оргтехники. Поддержка пользователей в части эксплуатации ИТ-оборудования и основных...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "122885995",
       "name": "Системный администратор",
@@ -6062,39 +6095,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание ОС Windows и ОС Linux на уровне системного администратора. Стек протоколов TCP/IP. Принципы функционирования и методику организации компьютерных...",
       "responsibility": "Настройка, техническое сопровождение и администрирование серверов, рабочих станций, сетевого и торгового оборудования. Регистрация учетных записей, назначение прав доступа к информационным...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123722020",
-      "name": "Системный администратор",
-      "company": "Тирос Сервис",
-      "company_id": "12195854",
-      "company_url": "https://hh.ru/employer/12195854",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/123722020",
-      "published_at": "2025-08-07T03:16:51+0300",
-      "created_at": "2025-08-07T03:16:51+0300",
-      "area": "Владивосток",
-      "salary": "от 75 000 RUR на руки",
-      "salary_raw": {
-        "from": 75000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Навыки обслуживания сервисов: MS AD, MS SQL Server, кластера 1C, кластера отказоустойчивости MS, кластера RDS, системы виртуализации Hyper-V.",
-      "responsibility": "Системное администрирование парка компьютеров и серверов. Настройка, поддержка АРМ и оргтехники. Поддержка пользователей в части эксплуатации ИТ-оборудования и основных...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -17893,16 +17893,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209733",
+      "id": "123209742",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209733",
+      "url": "https://hh.ru/vacancy/123209742",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Владимир",
+      "area": "Тверь",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -17926,16 +17926,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209742",
+      "id": "123209733",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209742",
+      "url": "https://hh.ru/vacancy/123209733",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Тверь",
+      "area": "Владимир",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -26212,39 +26212,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121310691",
-      "name": "Системный администратор",
-      "company": "Дальневосточный банк",
-      "company_id": "1444902",
-      "company_url": "https://hh.ru/employer/1444902",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/25800.jpg",
-      "url": "https://hh.ru/vacancy/121310691",
-      "published_at": "2025-07-11T04:28:55+0300",
-      "created_at": "2025-07-11T04:28:55+0300",
-      "area": "Владивосток",
-      "salary": "от 160 000 RUR на руки",
-      "salary_raw": {
-        "from": 160000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "У вас есть навыки работы с Windows и Linux-серверами: установка, настройка, администрирование. Знаете основы сетевых технологий и опыт настройки...",
-      "responsibility": "Настраивать и администрировать Linux-сервера (CentOS, Oracle Linux, ASTRA Linux, Ubuntu), включая безопасность и мониторинг. Работать с сетевым и серверным...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Сетевой инженер"
       ],
       "has_test": false,
       "premium": false,
