@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-11T18:34:46Z",
+  "updated": "2025-08-11T19:20:00Z",
   "statistics": {
     "total": 1451,
     "with_salary": 835,
@@ -20,6 +20,39 @@
     "with_test": 64
   },
   "vacancies": [
+    {
+      "id": "123851907",
+      "name": "Системный администратор",
+      "company": "Ресурсинвест-Развитие",
+      "company_id": "10306097",
+      "company_url": "https://hh.ru/employer/10306097",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1316485.jpeg",
+      "url": "https://hh.ru/vacancy/123851907",
+      "published_at": "2025-08-11T21:06:30+0300",
+      "created_at": "2025-08-11T21:06:30+0300",
+      "area": "Химки (Московская область)",
+      "salary": "130 000 - 130 000 RUR на руки",
+      "salary_raw": {
+        "from": 130000,
+        "to": 130000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Более 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт администрирования Linux (Debian/Ubuntu/RedHat) — от 3 лет. Уверенный опыт Proxmox VE. Опыт контейнеризации (Docker/Podman), понимание оркестрации (k...",
+      "responsibility": "Проектирование и внедрение on-prem/гибридной инфраструктуры. Развёртывание и кластеризация Proxmox VE (VM, LXC), настройка HA, шаблонов, резервного копирования (Proxmox...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123076181",
       "name": "Помощник системного администратора отдела технической поддержки",
@@ -3256,16 +3289,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122216013",
+      "id": "122216014",
       "name": "Старший системный администратор",
       "company": "Международный аэропорт Жуковский",
       "company_id": "1648021",
       "company_url": "https://hh.ru/employer/1648021",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/488563.jpg",
-      "url": "https://hh.ru/vacancy/122216013",
+      "url": "https://hh.ru/vacancy/122216014",
       "published_at": "2025-08-11T14:07:14+0300",
       "created_at": "2025-08-11T14:07:14+0300",
-      "area": "Раменское (Московская область)",
+      "area": "Люберцы  (Московская область)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -3284,16 +3317,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122216014",
+      "id": "122216013",
       "name": "Старший системный администратор",
       "company": "Международный аэропорт Жуковский",
       "company_id": "1648021",
       "company_url": "https://hh.ru/employer/1648021",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/488563.jpg",
-      "url": "https://hh.ru/vacancy/122216014",
+      "url": "https://hh.ru/vacancy/122216013",
       "published_at": "2025-08-11T14:07:14+0300",
       "created_at": "2025-08-11T14:07:14+0300",
-      "area": "Люберцы  (Московская область)",
+      "area": "Раменское (Московская область)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -3927,16 +3960,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123610791",
+      "id": "123610790",
       "name": "Дежурный системный администратор (фармацевтический склад)",
       "company": "Фармкомплект",
       "company_id": "84779",
       "company_url": "https://hh.ru/employer/84779",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1396516.png",
-      "url": "https://hh.ru/vacancy/123610791",
+      "url": "https://hh.ru/vacancy/123610790",
       "published_at": "2025-08-11T13:12:17+0300",
       "created_at": "2025-08-11T13:12:17+0300",
-      "area": "Крекшино (Московская область)",
+      "area": "Селятино (Московская область)",
       "salary": "от 90 000 RUR на руки",
       "salary_raw": {
         "from": 90000,
@@ -3960,16 +3993,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123610790",
+      "id": "123610791",
       "name": "Дежурный системный администратор (фармацевтический склад)",
       "company": "Фармкомплект",
       "company_id": "84779",
       "company_url": "https://hh.ru/employer/84779",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1396516.png",
-      "url": "https://hh.ru/vacancy/123610790",
+      "url": "https://hh.ru/vacancy/123610791",
       "published_at": "2025-08-11T13:12:17+0300",
       "created_at": "2025-08-11T13:12:17+0300",
-      "area": "Селятино (Московская область)",
+      "area": "Крекшино (Московская область)",
       "salary": "от 90 000 RUR на руки",
       "salary_raw": {
         "from": 90000,
@@ -14753,39 +14786,6 @@
       "employment": "Полная занятость",
       "requirement": "опыт работы с системами виртуализации (VMware, SpaceVM, KVM). - опыт работы с ОС на базе систем с открытым исходным кодом (Debian...",
       "responsibility": "настройка и сопровождение серверов на ОС семейства Linux. - настройка, поддержка систем хранения данных. - настройка, поддержка баз данных PostgresPro, MSSQL. -",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123851907",
-      "name": "Системный администратор",
-      "company": "Ресурсинвест-Развитие",
-      "company_id": "10306097",
-      "company_url": "https://hh.ru/employer/10306097",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1316485.jpeg",
-      "url": "https://hh.ru/vacancy/123851907",
-      "published_at": "2025-08-08T21:06:30+0300",
-      "created_at": "2025-08-08T21:06:30+0300",
-      "area": "Химки (Московская область)",
-      "salary": "130 000 - 130 000 RUR на руки",
-      "salary_raw": {
-        "from": 130000,
-        "to": 130000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Более 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт администрирования Linux (Debian/Ubuntu/RedHat) — от 3 лет. Уверенный опыт Proxmox VE. Опыт контейнеризации (Docker/Podman), понимание оркестрации (k...",
-      "responsibility": "Проектирование и внедрение on-prem/гибридной инфраструктуры. Развёртывание и кластеризация Proxmox VE (VM, LXC), настройка HA, шаблонов, резервного копирования (Proxmox...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
