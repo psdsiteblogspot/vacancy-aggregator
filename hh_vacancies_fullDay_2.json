@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-11T14:53:33Z",
+  "updated": "2025-08-11T15:50:34Z",
   "statistics": {
-    "total": 836,
-    "with_salary": 647,
-    "companies": 639,
+    "total": 837,
+    "with_salary": 648,
+    "companies": 640,
     "cities": 132,
     "premium": 1,
     "with_test": 11
   },
   "vacancies": [
+    {
+      "id": "123918392",
+      "name": "Системный администратор",
+      "company": "ОАУ Издательский дом Губернские ведомости",
+      "company_id": "3329327",
+      "company_url": "https://hh.ru/employer/3329327",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/123918392",
+      "published_at": "2025-08-11T18:34:49+0300",
+      "created_at": "2025-08-11T18:34:49+0300",
+      "area": "Южно-Сахалинск",
+      "salary": "114 500 - 114 500 RUR на руки",
+      "salary_raw": {
+        "from": 114500,
+        "to": 114500,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание принципов маршрутизации сетей. Знание сегментирования сетей при помощи VLAN/маски подсети. Знание настроек коммутаторов (vlan, L3 interface, port...",
+      "responsibility": "Поддержка работоспособности ИТ-инфраструктуры организации. Работа с Windows Server (AD, DNS, DHCP, GPO, NPAS, WSUS). Работа с печатной техникой - настройка...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123214681",
+      "name": "Системный администратор / Монтажник-слаботочник",
+      "company": "БМТ-Сервис",
+      "company_id": "5408484",
+      "company_url": "https://hh.ru/employer/5408484",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/863331.png",
+      "url": "https://hh.ru/vacancy/123214681",
+      "published_at": "2025-08-11T17:39:48+0300",
+      "created_at": "2025-08-11T17:39:48+0300",
+      "area": "Владимир",
+      "salary": "80 000 - 150 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": 150000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы специалистом технической поддержки или помощником системного администратора не менее 2 лет, с обслуживанием локальных сетей (от 20 компьютеров). -",
+      "responsibility": "Актуализация базы ИТ-активов компании (техника, ПО. журнал работ по оборудованию). - Регулярный мониторинг работы и фиксация сбоев в работе серверного...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123915199",
       "name": "Системный администратор",
@@ -87,6 +153,39 @@
       "accept_temporary": false
     },
     {
+      "id": "123667774",
+      "name": "Системный администратор/Сисадмин",
+      "company": "Космо Бьюти",
+      "company_id": "4270610",
+      "company_url": "https://hh.ru/employer/4270610",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1120606.jpg",
+      "url": "https://hh.ru/vacancy/123667774",
+      "published_at": "2025-08-11T17:08:26+0300",
+      "created_at": "2025-08-11T17:08:26+0300",
+      "area": "Чебоксары",
+      "salary": "90 000 - 120 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 90000,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт настройки ПК и серверов \"с нуля\", а также диагностики и настройки оргтехники. Опыт установки и поддержки стандартного офисного ПО.",
+      "responsibility": "Обеспечение бесперебойной работы пользователей на 1-й и 2-й линиях поддержки (офис, склады, удаленные сотрудники). Полный цикл работ с...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "123914464",
       "name": "Системный администратор Linux",
       "company": "Купол-Про",
@@ -109,6 +208,39 @@
       "employment": "Полная занятость",
       "requirement": "Образование по специальности Информатика и вычислительная техника/прикладная информатика/вычислительные машины, комплексы, системы и сети. Знание ОС Linux и Windows...",
       "responsibility": "Обеспечение бесперебойного доступа в сеть Интернет и в Локальную сеть. — Диагностика и устранение сбоев в работе прикладного и системного ПО. —",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123070954",
+      "name": "Системный администратор",
+      "company": "САРМАТ",
+      "company_id": "5296680",
+      "company_url": "https://hh.ru/employer/5296680",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/123070954",
+      "published_at": "2025-08-11T17:03:28+0300",
+      "created_at": "2025-08-11T17:03:28+0300",
+      "area": "Саранск",
+      "salary": "от 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Умение работать в условиях многозадачности. Ответственность, коммуникабельность, стрессоустойчивость.",
+      "responsibility": "Установка, настройка, администрирование программного обеспечения: 1С 8.3, Windows Server, офисных приложений, антивирусных программ. Настройка сети. Консультация и поддержка...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -4892,39 +5024,6 @@
       "accept_temporary": false
     },
     {
-      "id": "123214681",
-      "name": "Системный администратор / Монтажник-слаботочник",
-      "company": "БМТ-Сервис",
-      "company_id": "5408484",
-      "company_url": "https://hh.ru/employer/5408484",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/863331.png",
-      "url": "https://hh.ru/vacancy/123214681",
-      "published_at": "2025-08-08T17:39:48+0300",
-      "created_at": "2025-08-08T17:39:48+0300",
-      "area": "Владимир",
-      "salary": "80 000 - 150 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": 150000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы специалистом технической поддержки или помощником системного администратора не менее 2 лет, с обслуживанием локальных сетей (от 20 компьютеров). -",
-      "responsibility": "Актуализация базы ИТ-активов компании (техника, ПО. журнал работ по оборудованию). - Регулярный мониторинг работы и фиксация сбоев в работе серверного...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "123848226",
       "name": "Системный администратор",
       "company": "Министерство общественной безопасности и обеспечения деятельности мировых судей в Пензенской области",
@@ -4947,72 +5046,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее образование.",
       "responsibility": "Осуществлять подготовку предложений по организации внедрения и развития современных информационных технологий в деятельности мировых судей Пензенской области. Осуществлять работу программного...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123667774",
-      "name": "Системный администратор/Сисадмин",
-      "company": "Космо Бьюти",
-      "company_id": "4270610",
-      "company_url": "https://hh.ru/employer/4270610",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1120606.jpg",
-      "url": "https://hh.ru/vacancy/123667774",
-      "published_at": "2025-08-08T17:08:26+0300",
-      "created_at": "2025-08-08T17:08:26+0300",
-      "area": "Чебоксары",
-      "salary": "90 000 - 120 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 90000,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт настройки ПК и серверов \"с нуля\", а также диагностики и настройки оргтехники. Опыт установки и поддержки стандартного офисного ПО.",
-      "responsibility": "Обеспечение бесперебойной работы пользователей на 1-й и 2-й линиях поддержки (офис, склады, удаленные сотрудники). Полный цикл работ с...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123070954",
-      "name": "Системный администратор",
-      "company": "САРМАТ",
-      "company_id": "5296680",
-      "company_url": "https://hh.ru/employer/5296680",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/123070954",
-      "published_at": "2025-08-08T17:03:28+0300",
-      "created_at": "2025-08-08T17:03:28+0300",
-      "area": "Саранск",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Умение работать в условиях многозадачности. Ответственность, коммуникабельность, стрессоустойчивость.",
-      "responsibility": "Установка, настройка, администрирование программного обеспечения: 1С 8.3, Windows Server, офисных приложений, антивирусных программ. Настройка сети. Консультация и поддержка...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -17979,16 +18012,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122280915",
+      "id": "122280450",
       "name": "Системный администратор",
       "company": "Группа Компаний «Доброфлот»",
       "company_id": "697283",
       "company_url": "https://hh.ru/employer/697283",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/257771.jpg",
-      "url": "https://hh.ru/vacancy/122280915",
+      "url": "https://hh.ru/vacancy/122280450",
       "published_at": "2025-07-28T04:14:03+0300",
       "created_at": "2025-07-28T04:14:03+0300",
-      "area": "Владивосток",
+      "area": "Находка",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -18007,16 +18040,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122280450",
+      "id": "122280915",
       "name": "Системный администратор",
       "company": "Группа Компаний «Доброфлот»",
       "company_id": "697283",
       "company_url": "https://hh.ru/employer/697283",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/257771.jpg",
-      "url": "https://hh.ru/vacancy/122280450",
+      "url": "https://hh.ru/vacancy/122280915",
       "published_at": "2025-07-28T04:14:03+0300",
       "created_at": "2025-07-28T04:14:03+0300",
-      "area": "Находка",
+      "area": "Владивосток",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -19602,16 +19635,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209741",
+      "id": "123209735",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209741",
+      "url": "https://hh.ru/vacancy/123209735",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Тамбов",
+      "area": "Калуга",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -19635,16 +19668,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209735",
+      "id": "123209741",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209735",
+      "url": "https://hh.ru/vacancy/123209741",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Калуга",
+      "area": "Тамбов",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -23318,16 +23351,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122986436",
+      "id": "122986432",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122986436",
+      "url": "https://hh.ru/vacancy/122986432",
       "published_at": "2025-07-18T13:33:49+0300",
       "created_at": "2025-07-18T13:33:49+0300",
-      "area": "Великий Устюг",
+      "area": "Шахунья",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -23346,16 +23379,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122986432",
+      "id": "122986436",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/122986432",
+      "url": "https://hh.ru/vacancy/122986436",
       "published_at": "2025-07-18T13:33:49+0300",
       "created_at": "2025-07-18T13:33:49+0300",
-      "area": "Шахунья",
+      "area": "Великий Устюг",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
