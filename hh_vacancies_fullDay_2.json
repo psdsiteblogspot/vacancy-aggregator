@@ -10,16 +10,44 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-12T13:19:50Z",
+  "updated": "2025-08-12T13:54:00Z",
   "statistics": {
-    "total": 836,
-    "with_salary": 650,
-    "companies": 641,
+    "total": 835,
+    "with_salary": 649,
+    "companies": 640,
     "cities": 130,
     "premium": 1,
     "with_test": 11
   },
   "vacancies": [
+    {
+      "id": "123976541",
+      "name": "Системный администратор",
+      "company": "Hoff Tech",
+      "company_id": "9152133",
+      "company_url": "https://hh.ru/employer/9152133",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1216082.png",
+      "url": "https://hh.ru/vacancy/123976541",
+      "published_at": "2025-08-12T16:29:16+0300",
+      "created_at": "2025-08-12T16:29:16+0300",
+      "area": "Воронеж",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в области IT не менее 1 года. Основы сети: модель OSI (TCP/IP), VLAN, NAT, статическая маршрутизация, протоколы...",
+      "responsibility": "Обслуживание гипермаркета Hoff: профилактика, тех обслуживание, решение локальных задач. Поддержка других объектов в формате единого helpdesk: удаленная помощь пользователям, решение...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "122061047",
       "name": "Системный администратор",
@@ -6100,34 +6128,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее образование - бакалавриат, магистратура, специалитет. Ведущий инженер должен знать: Общие принципы функционирования аппаратных, программных и программно-аппаратных средств администрируемой сети.",
       "responsibility": "Установка персональных компьютеров, подключение периферийных и абонентских устройств. Управление доступом к программно-аппаратным средствам и информационных служб инфокоммуникационной системы.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123615941",
-      "name": "Системный администратор",
-      "company": "Hoff Tech",
-      "company_id": "9152133",
-      "company_url": "https://hh.ru/employer/9152133",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1216082.png",
-      "url": "https://hh.ru/vacancy/123615941",
-      "published_at": "2025-08-08T16:37:21+0300",
-      "created_at": "2025-08-08T16:37:21+0300",
-      "area": "Воронеж",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в области IT не менее 1 года. Основы сети: модель OSI (TCP/IP), VLAN, NAT, статическая маршрутизация, протоколы...",
-      "responsibility": "Обслуживание гипермаркета Hoff: профилактика, тех обслуживание, решение локальных задач. Поддержка других объектов в формате единого helpdesk: удаленная помощь пользователям, решение...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -14576,16 +14576,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123461036",
+      "id": "123461035",
       "name": "Системный администратор",
       "company": "Ресурсинвест-Развитие",
       "company_id": "10306097",
       "company_url": "https://hh.ru/employer/10306097",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1316485.jpeg",
-      "url": "https://hh.ru/vacancy/123461036",
+      "url": "https://hh.ru/vacancy/123461035",
       "published_at": "2025-07-31T11:42:47+0300",
       "created_at": "2025-07-31T11:42:47+0300",
-      "area": "Тула",
+      "area": "Узловая",
       "salary": "от 70 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 70000,
@@ -14609,16 +14609,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123461035",
+      "id": "123461036",
       "name": "Системный администратор",
       "company": "Ресурсинвест-Развитие",
       "company_id": "10306097",
       "company_url": "https://hh.ru/employer/10306097",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1316485.jpeg",
-      "url": "https://hh.ru/vacancy/123461035",
+      "url": "https://hh.ru/vacancy/123461036",
       "published_at": "2025-07-31T11:42:47+0300",
       "created_at": "2025-07-31T11:42:47+0300",
-      "area": "Узловая",
+      "area": "Тула",
       "salary": "от 70 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 70000,
@@ -19983,39 +19983,6 @@
       "accept_temporary": false
     },
     {
-      "id": "123209744",
-      "name": "Выездной инженер технической поддержки/системный администратор",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209744",
-      "published_at": "2025-07-24T15:56:01+0300",
-      "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Ярославль",
-      "salary": "до 10 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": null,
-        "to": 10000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
-      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "123209735",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
@@ -20049,16 +20016,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209736",
+      "id": "123209744",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209736",
+      "url": "https://hh.ru/vacancy/123209744",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Кострома",
+      "area": "Ярославль",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -20092,6 +20059,39 @@
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
       "area": "Тула",
+      "salary": "до 10 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": null,
+        "to": 10000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123209736",
+      "name": "Выездной инженер технической поддержки/системный администратор",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/123209736",
+      "published_at": "2025-07-24T15:56:01+0300",
+      "created_at": "2025-07-24T15:56:01+0300",
+      "area": "Кострома",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -21257,39 +21257,6 @@
       "employment": "Частичная занятость",
       "requirement": "Образование ИТ-технологии. MS Server 2019, Active Directory, Asterisk, системы резервного копирования, сетевые протоколы и технологии, принципы работы маршрутизаторов, коммутаторов...",
       "responsibility": "Поддержка ИТ-структуры: Поддержка ИТ-структуры. Обслуживание СКС. Систем видеонаблюдения. Программного обеспечения. Поддержка пользователей. Поддержание в рабочем состоянии оргтехники.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121726148",
-      "name": "Системный администратор",
-      "company": "МТС",
-      "company_id": "3776",
-      "company_url": "https://hh.ru/employer/3776",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1389236.png",
-      "url": "https://hh.ru/vacancy/121726148",
-      "published_at": "2025-07-23T05:58:50+0300",
-      "created_at": "2025-07-23T05:58:50+0300",
-      "area": "Владивосток",
-      "salary": "от 69 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 69000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование по специальности информационные технологии. Опыт работы в аналогичной должности от 1 года. Знание Windows, MS Office.",
-      "responsibility": "Настройка и восстановление работоспособности пользовательских рабочих мест. Организация рабочих мест и обеспечение внутренних пользователей ИТ ресурсами. Техническая поддержка рабочих мест...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
