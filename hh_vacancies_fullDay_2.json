@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-11T23:45:59Z",
+  "updated": "2025-08-12T02:27:15Z",
   "statistics": {
     "total": 836,
     "with_salary": 647,
@@ -20,6 +20,39 @@
     "with_test": 11
   },
   "vacancies": [
+    {
+      "id": "121475289",
+      "name": "Системный администратор",
+      "company": "НВТ",
+      "company_id": "1729492",
+      "company_url": "https://hh.ru/employer/1729492",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1433140.png",
+      "url": "https://hh.ru/vacancy/121475289",
+      "published_at": "2025-08-12T03:11:54+0300",
+      "created_at": "2025-08-12T03:11:54+0300",
+      "area": "Владивосток",
+      "salary": "100 000 - 120 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "умение прокладывать/настраивать ЛВС. - опыт работы с различным сетевым оборудованием. - опыт настройки VPN. - общие знания 1С, SQL.",
+      "responsibility": "администрирование серверов, рабочих станций Windows. - настройка, ремонт компьютеров, установка различного ПО. - обслуживание оргтехники. - обслуживание видеонаблюдения. - работа с торговым оборудованием.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "110362423",
       "name": "Системный администратор Linux",
@@ -19404,16 +19437,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209750",
+      "id": "123209749",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209750",
+      "url": "https://hh.ru/vacancy/123209749",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Хабаровск",
+      "area": "Южно-Сахалинск",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -19437,16 +19470,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209749",
+      "id": "123209750",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209749",
+      "url": "https://hh.ru/vacancy/123209750",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Южно-Сахалинск",
+      "area": "Хабаровск",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -19503,16 +19536,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209732",
+      "id": "123209744",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209732",
+      "url": "https://hh.ru/vacancy/123209744",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Брянск",
+      "area": "Ярославль",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -19536,16 +19569,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209744",
+      "id": "123209732",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209744",
+      "url": "https://hh.ru/vacancy/123209732",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Ярославль",
+      "area": "Брянск",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -25891,39 +25924,6 @@
       "employment": "Полная занятость",
       "requirement": "Среднее/высшее техническое образование. Опыт работы – не менее 2-х лет. Опыт планирования архитектуры IT систем. Глубокие знания Windows Server...",
       "responsibility": "Обеспечение бесперебойной работы IT инфраструктуры и оборудования компании. Участие в проектах компании в области развития IT- инфраструктуры. Взаимодействие с подрядчиками...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121475289",
-      "name": "Системный администратор",
-      "company": "НВТ",
-      "company_id": "1729492",
-      "company_url": "https://hh.ru/employer/1729492",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1433140.png",
-      "url": "https://hh.ru/vacancy/121475289",
-      "published_at": "2025-07-15T04:22:16+0300",
-      "created_at": "2025-07-15T04:22:16+0300",
-      "area": "Владивосток",
-      "salary": "100 000 - 120 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "умение прокладывать/настраивать ЛВС. - опыт работы с различным сетевым оборудованием. - опыт настройки VPN. - общие знания 1С, SQL.",
-      "responsibility": "администрирование серверов, рабочих станций Windows. - настройка, ремонт компьютеров, установка различного ПО. - обслуживание оргтехники. - обслуживание видеонаблюдения. - работа с торговым оборудованием.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
