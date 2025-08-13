@@ -10,16 +10,247 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-13T04:55:20Z",
+  "updated": "2025-08-13T05:49:45Z",
   "statistics": {
-    "total": 836,
-    "with_salary": 652,
-    "companies": 641,
+    "total": 837,
+    "with_salary": 654,
+    "companies": 642,
     "cities": 130,
     "premium": 1,
     "with_test": 10
   },
   "vacancies": [
+    {
+      "id": "122204066",
+      "name": "Системный администратор",
+      "company": "ГБУЗ Самарская городская клиническая больница №2 имени Н.А. Семашко",
+      "company_id": "2919562",
+      "company_url": "https://hh.ru/employer/2919562",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/436833.jpg",
+      "url": "https://hh.ru/vacancy/122204066",
+      "published_at": "2025-08-13T08:47:58+0300",
+      "created_at": "2025-08-13T08:47:58+0300",
+      "area": "Самара",
+      "salary": "от 40 000 RUR на руки",
+      "salary_raw": {
+        "from": 40000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Навыки работы в IT выше уверенного пользователя. Знания настройки ОС Windows и работы основных офисных программ. В/о.",
+      "responsibility": "Работа в медицинских информационных системах (ЕМИАС). Консультация пользователей по работе с ПК и МИС. Решение текущих ошибок МИС. Обслуживание оргтехники.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123062593",
+      "name": "Специалист IT (системный администратор)",
+      "company": "Центр",
+      "company_id": "952855",
+      "company_url": "https://hh.ru/employer/952855",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/123062593",
+      "published_at": "2025-08-13T08:37:42+0300",
+      "created_at": "2025-08-13T08:37:42+0300",
+      "area": "Самара",
+      "salary": "от 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Техническое образование не ниже средне-специального и опыт работы в аналогичной должности от 3-х лет. Отличное знание ОС Windows...",
+      "responsibility": "Обслуживание парка ПК‚ серверов и сетевого оборудования: устранение неполадок в работе локальной сети, POS терминалов, принтеров (офисы и рестораны).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "118866072",
+      "name": "Системный администратор центра обработки данных (ГАУ НО \"ЦИТ\")",
+      "company": "ДПО Корпоративный Университет Правительства Нижегородской Области (КУПНО)",
+      "company_id": "5367559",
+      "company_url": "https://hh.ru/employer/5367559",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/942801.jpg",
+      "url": "https://hh.ru/vacancy/118866072",
+      "published_at": "2025-08-13T08:29:46+0300",
+      "created_at": "2025-08-13T08:29:46+0300",
+      "area": "Нижний Новгород",
+      "salary": "от 60 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 60000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Среднее профессиональное образование или высшее техническое образование. Понимание основных принципов функционирования ИТ инфраструктуры. Базовые знания работы с Windows/Linux системами.",
+      "responsibility": "Мониторингом инфраструктурных и информационных ресурсов ЦОД. Администрированием сетевой и серверной инфраструктуры. Администрированием систем виртуализации.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "118865917",
+      "name": "Системный администратор ГАУ НО «Центр координации проектов цифровой экономики»",
+      "company": "ДПО Корпоративный Университет Правительства Нижегородской Области (КУПНО)",
+      "company_id": "5367559",
+      "company_url": "https://hh.ru/employer/5367559",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/942801.jpg",
+      "url": "https://hh.ru/vacancy/118865917",
+      "published_at": "2025-08-13T08:29:40+0300",
+      "created_at": "2025-08-13T08:29:40+0300",
+      "area": "Нижний Новгород",
+      "salary": "от 50 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 50000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Среднее профессиональное образование или высшее техническое образование. Понимание основных принципов функционирования ИТ инфраструктуры. Базовые знания работы с Windows/Linux системами.",
+      "responsibility": "Поддержкой функционирования серверной и сетевой инфраструктуры Системы-112. Обеспечением функционирования АРМ операторов Системы-112 и ЕДДС.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123989113",
+      "name": "Системный администратор Службы-112",
+      "company": "ГАУ НО Центр координации проектов цифровой экономики",
+      "company_id": "1284854",
+      "company_url": "https://hh.ru/employer/1284854",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/123989113",
+      "published_at": "2025-08-13T08:28:28+0300",
+      "created_at": "2025-08-13T08:28:28+0300",
+      "area": "Нижний Новгород",
+      "salary": "от 60 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 60000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы: от 3-х лет в области системного администрирования. Знание стека протоколов TCP/IP, представление о модели OSI.",
+      "responsibility": "Администрирование сетевой и серверной инфраструктуры. Администрирование систем виртуализации. Администрирование почтовых систем. Сопровождение доменных структур, терминальных сервисов. Ведение проектов по модернизации...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123988874",
+      "name": "Дежурный системный администратор Службы-112",
+      "company": "ГАУ НО Центр координации проектов цифровой экономики",
+      "company_id": "1284854",
+      "company_url": "https://hh.ru/employer/1284854",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/123988874",
+      "published_at": "2025-08-13T08:23:31+0300",
+      "created_at": "2025-08-13T08:23:31+0300",
+      "area": "Нижний Новгород",
+      "salary": "от 57 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 57000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы: от 1 года в области ИТ. Знание стека протоколов TCP/IP, представление о модели OSI. Понимание основ построения...",
+      "responsibility": "Администрирование сетевой и серверной инфраструктуры. Консультирование операторов и специалистов технической поддержки из районов области. Второй уровень технической поддержки пользователей.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121728615",
+      "name": "Системный администратор",
+      "company": "ГК Основа (Отели бренда Hampton by Hilton)",
+      "company_id": "729043",
+      "company_url": "https://hh.ru/employer/729043",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/121728615",
+      "published_at": "2025-08-13T08:05:54+0300",
+      "created_at": "2025-08-13T08:05:54+0300",
+      "area": "Воронеж",
+      "salary": "от 70 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 70000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Понимание принципов работы СКУД и систем видеонаблюдения. Базовые знания HTML, CSS. Требования: Высшее профильное образование. Опыт работы не менее 1...",
+      "responsibility": "Администрирование серверных операционных систем Windows Server 2008 R2, Windows Server 2012 R2 (Контроллер Домена, DNS, File Server, Windows...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123801035",
       "name": "Системный администратор",
@@ -71,6 +302,39 @@
       "employment": "Полная занятость",
       "requirement": "Знание операционных систем семейств Windows server, Linux server. - Умение настраивать IP телефонию. - Умение настраивать и обслуживать OpenVpn каналы. -",
       "responsibility": "Обслуживание серверов, компьютеров, локальной сети (более 70 компьютеров, 5 серверов). - Обслуживание офисной техники (плоттеры 3 шт., принтеры, ip телефоны и...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123501268",
+      "name": "Помощник системного администратора",
+      "company": "Декларант Плюс",
+      "company_id": "5913771",
+      "company_url": "https://hh.ru/employer/5913771",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/123501268",
+      "published_at": "2025-08-13T07:14:05+0300",
+      "created_at": "2025-08-13T07:14:05+0300",
+      "area": "Владивосток",
+      "salary": "от 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Желателен опыт работы системным администратором от 1 года. - Знание ОС: Windows Server, Linux (на уровне администрирования). - Понимание TCP/IP, DNS...",
+      "responsibility": "Компания «Декларант Плюс» - это команда опытных специалистов, предоставляющих услуги по продаже, сопровождению и разработке специализированного программного обеспечения и сервисов для...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -4897,39 +5161,6 @@
       "accept_temporary": false
     },
     {
-      "id": "122204066",
-      "name": "Системный администратор",
-      "company": "ГБУЗ Самарская городская клиническая больница №2 имени Н.А. Семашко",
-      "company_id": "2919562",
-      "company_url": "https://hh.ru/employer/2919562",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/436833.jpg",
-      "url": "https://hh.ru/vacancy/122204066",
-      "published_at": "2025-08-11T06:10:04+0300",
-      "created_at": "2025-08-11T06:10:04+0300",
-      "area": "Самара",
-      "salary": "от 40 000 RUR на руки",
-      "salary_raw": {
-        "from": 40000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Навыки работы в IT выше уверенного пользователя. Знания настройки ОС Windows и работы основных офисных программ. В/о.",
-      "responsibility": "Работа в медицинских информационных системах (ЕМИАС). Консультация пользователей по работе с ПК и МИС. Решение текущих ошибок МИС. Обслуживание оргтехники.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "123866731",
       "name": "Системный администратор",
       "company": "Алкомаркет Столица",
@@ -6095,39 +6326,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание семейства ОС Windows. Знание ОС Linux (Ubuntu, Centos). Опыт настройки сетевого оборудования. Опыт установки ПО. Знание стека протоколов TCP...",
       "responsibility": "Техническая поддержка пользователей. Установка, настройка и обновление офисного и прикладного ПО (MS Office, программные телефоны, настройка сетевых дисков, антивирусов).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123501268",
-      "name": "Помощник системного администратора",
-      "company": "Декларант Плюс",
-      "company_id": "5913771",
-      "company_url": "https://hh.ru/employer/5913771",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/123501268",
-      "published_at": "2025-08-10T07:14:05+0300",
-      "created_at": "2025-08-10T07:14:05+0300",
-      "area": "Владивосток",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Желателен опыт работы системным администратором от 1 года. - Знание ОС: Windows Server, Linux (на уровне администрирования). - Понимание TCP/IP, DNS...",
-      "responsibility": "Компания «Декларант Плюс» - это команда опытных специалистов, предоставляющих услуги по продаже, сопровождению и разработке специализированного программного обеспечения и сервисов для...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -10342,39 +10540,6 @@
       "accept_temporary": false
     },
     {
-      "id": "123672489",
-      "name": "Инженер ИТ-поддержки/Системный администратор",
-      "company": "Эмэстим",
-      "company_id": "4455261",
-      "company_url": "https://hh.ru/employer/4455261",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1390233.png",
-      "url": "https://hh.ru/vacancy/123672489",
-      "published_at": "2025-08-05T20:18:52+0300",
-      "created_at": "2025-08-05T20:18:52+0300",
-      "area": "Казань",
-      "salary": "65 000 - 85 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 65000,
-        "to": 85000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование или средне-специальное образование (преимущественно техническое). Знания сетевых технологий на уровне администратора. Знание и опыт администрирования ОС Windows...",
-      "responsibility": "Администрирование рабочих станций на ОС Windows, Linux. Администрирование серверов на Windows Server, Linux. Администрирование сетевой инфраструктуры. Администрирование систем резервного копирования...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "123672490",
       "name": "Специалист ИТ-поддержки/Системный администратор",
       "company": "Эмэстим",
@@ -10406,6 +10571,39 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": true
+    },
+    {
+      "id": "123672489",
+      "name": "Инженер ИТ-поддержки/Системный администратор",
+      "company": "Эмэстим",
+      "company_id": "4455261",
+      "company_url": "https://hh.ru/employer/4455261",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1390233.png",
+      "url": "https://hh.ru/vacancy/123672489",
+      "published_at": "2025-08-05T20:18:52+0300",
+      "created_at": "2025-08-05T20:18:52+0300",
+      "area": "Казань",
+      "salary": "65 000 - 85 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 65000,
+        "to": 85000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование или средне-специальное образование (преимущественно техническое). Знания сетевых технологий на уровне администратора. Знание и опыт администрирования ОС Windows...",
+      "responsibility": "Администрирование рабочих станций на ОС Windows, Linux. Администрирование серверов на Windows Server, Linux. Администрирование сетевой инфраструктуры. Администрирование систем резервного копирования...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
     },
     {
       "id": "123670218",
@@ -13664,39 +13862,6 @@
       "accept_temporary": false
     },
     {
-      "id": "121728615",
-      "name": "Системный администратор",
-      "company": "ГК Основа (Отели бренда Hampton by Hilton)",
-      "company_id": "729043",
-      "company_url": "https://hh.ru/employer/729043",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/121728615",
-      "published_at": "2025-08-01T11:39:44+0300",
-      "created_at": "2025-08-01T11:39:44+0300",
-      "area": "Воронеж",
-      "salary": "от 70 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 70000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Понимание принципов работы СКУД и систем видеонаблюдения. Базовые знания HTML, CSS. Требования: Высшее профильное образование. Опыт работы не менее 1...",
-      "responsibility": "Администрирование серверных операционных систем Windows Server 2008 R2, Windows Server 2012 R2 (Контроллер Домена, DNS, File Server, Windows...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "122535812",
       "name": "Системный администратор/Ведущий системный администратор",
       "company": "Тверьэнергокабель",
@@ -13913,16 +14078,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123503354",
+      "id": "123503345",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123503354",
+      "url": "https://hh.ru/vacancy/123503345",
       "published_at": "2025-08-01T08:27:29+0300",
       "created_at": "2025-08-01T08:27:29+0300",
-      "area": "Шатки",
+      "area": "Пугачев",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -13941,16 +14106,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123503345",
+      "id": "123503354",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123503345",
+      "url": "https://hh.ru/vacancy/123503354",
       "published_at": "2025-08-01T08:27:29+0300",
       "created_at": "2025-08-01T08:27:29+0300",
-      "area": "Пугачев",
+      "area": "Шатки",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -17328,39 +17493,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание ОС семейства Windows, Windows Server. Знание TCP/IP, сервисов AD, DNS, DHCP, VPN. Знание системы мониторинга Zabbix.",
       "responsibility": "Консультирование пользователей по работе учетных систем предприятия. Обслуживание компьютерной техники, сетей, установка, настройка и сопровождение ПО. Учет, инвентаризация оргтехники.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123062593",
-      "name": "Специалист IT (системный администратор)",
-      "company": "Центр",
-      "company_id": "952855",
-      "company_url": "https://hh.ru/employer/952855",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/123062593",
-      "published_at": "2025-07-28T17:08:20+0300",
-      "created_at": "2025-07-28T17:08:20+0300",
-      "area": "Самара",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Техническое образование не ниже средне-специального и опыт работы в аналогичной должности от 3-х лет. Отличное знание ОС Windows...",
-      "responsibility": "Обслуживание парка ПК‚ серверов и сетевого оборудования: устранение неполадок в работе локальной сети, POS терминалов, принтеров (офисы и рестораны).",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -25917,72 +26049,6 @@
       "accept_temporary": false
     },
     {
-      "id": "118866072",
-      "name": "Системный администратор центра обработки данных (ГАУ НО \"ЦИТ\")",
-      "company": "ДПО Корпоративный Университет Правительства Нижегородской Области (КУПНО)",
-      "company_id": "5367559",
-      "company_url": "https://hh.ru/employer/5367559",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/942801.jpg",
-      "url": "https://hh.ru/vacancy/118866072",
-      "published_at": "2025-07-15T09:02:02+0300",
-      "created_at": "2025-07-15T09:02:02+0300",
-      "area": "Нижний Новгород",
-      "salary": "от 60 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 60000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Среднее профессиональное образование или высшее техническое образование. Понимание основных принципов функционирования ИТ инфраструктуры. Базовые знания работы с Windows/Linux системами.",
-      "responsibility": "Мониторингом инфраструктурных и информационных ресурсов ЦОД. Администрированием сетевой и серверной инфраструктуры. Администрированием систем виртуализации.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "118865917",
-      "name": "Системный администратор ГАУ НО «Центр координации проектов цифровой экономики»",
-      "company": "ДПО Корпоративный Университет Правительства Нижегородской Области (КУПНО)",
-      "company_id": "5367559",
-      "company_url": "https://hh.ru/employer/5367559",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/942801.jpg",
-      "url": "https://hh.ru/vacancy/118865917",
-      "published_at": "2025-07-15T09:01:58+0300",
-      "created_at": "2025-07-15T09:01:58+0300",
-      "area": "Нижний Новгород",
-      "salary": "от 50 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 50000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Среднее профессиональное образование или высшее техническое образование. Понимание основных принципов функционирования ИТ инфраструктуры. Базовые знания работы с Windows/Linux системами.",
-      "responsibility": "Поддержкой функционирования серверной и сетевой инфраструктуры Системы-112. Обеспечением функционирования АРМ операторов Системы-112 и ЕДДС.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "115664398",
       "name": "Системный администратор",
       "company": "Территориальный центр занятости населения м.р. Нефтегорский",
@@ -26650,34 +26716,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы от 3 до 6 лет в аналогичной должности. Глубокие знания в области сетевых технологий и администрирования.",
       "responsibility": "Протяжка и настройка оптических линий, Ethernet и Wi-Fi ЛВС. Настройка и обслуживание систем видеонаблюдения. Обслуживание серверов и обеспечение сохранности...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122745138",
-      "name": "Главный системный администратор",
-      "company": "РУСЛАКТО",
-      "company_id": "2888210",
-      "company_url": "https://hh.ru/employer/2888210",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1436303.png",
-      "url": "https://hh.ru/vacancy/122745138",
-      "published_at": "2025-07-14T08:43:28+0300",
-      "created_at": "2025-07-14T08:43:28+0300",
-      "area": "Нижний Новгород",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт сетевого администрирования оборудования Mikrotik, HP, OSNOVO, D-Link от 3х лет. Знание технологий VPN: site-to-site, WireGuard...",
-      "responsibility": "Проектирование и внедрение новых сетевых решений и/или повышение эффективности существующих сетей. Установка, настройка и поддержка сетевого оборудования, включая маршрутизаторы...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
