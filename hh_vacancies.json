@@ -10,16 +10,214 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-13T04:32:43Z",
+  "updated": "2025-08-13T05:22:50Z",
   "statistics": {
-    "total": 1472,
-    "with_salary": 837,
-    "companies": 1170,
+    "total": 1473,
+    "with_salary": 838,
+    "companies": 1171,
     "cities": 72,
     "premium": 0,
     "with_test": 66
   },
   "vacancies": [
+    {
+      "id": "123452968",
+      "name": "Ведущий системный администратор",
+      "company": "ИН ХОУМ",
+      "company_id": "733511",
+      "company_url": "https://hh.ru/employer/733511",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/824044.jpg",
+      "url": "https://hh.ru/vacancy/123452968",
+      "published_at": "2025-08-13T08:08:31+0300",
+      "created_at": "2025-08-13T08:08:31+0300",
+      "area": "Москва",
+      "salary": "до 230 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": null,
+        "to": 230000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт Администрирования вышеописанных блоков. Опыт работы с системами виртуализации: Hyper-V. Опыт работы с системами мониторинга (Zabbix). Желание расти и...",
+      "responsibility": "Администрирование службы каталогов Active Directory и Microsoft Entra. Администрирование почтовой службы на основе Microsoft Exchange и Exchange Online.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "105951137",
+      "name": "Инженер 1 категории (специалист по защите информации/системный администратор) (01040-1)",
+      "company": "Моринформсистема-Агат, Концерн",
+      "company_id": "179533",
+      "company_url": "https://hh.ru/employer/179533",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/195773.png",
+      "url": "https://hh.ru/vacancy/105951137",
+      "published_at": "2025-08-13T07:59:45+0300",
+      "created_at": "2025-08-13T07:59:45+0300",
+      "area": "Москва",
+      "salary": "до 130 000 RUR на руки",
+      "salary_raw": {
+        "from": null,
+        "to": 130000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание ОС семейства Linux, Windows, средств антивирусной защиты, средств защиты информации. - Понимание уровней конфиденциальности информации. - Знание POSIX ACL, MAC в...",
+      "responsibility": "Разработка и сопровождение локальных нормативных документов в области информационной безопасности и защиты информации (регламентов, инструкций, процедур, правил, политик ИБ, обеспечение...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Специалист по информационной безопасности"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "108825639",
+      "name": "Системный администратор (AstraLinux, информационная безопасность)",
+      "company": "Моринформсистема-Агат, Концерн",
+      "company_id": "179533",
+      "company_url": "https://hh.ru/employer/179533",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/195773.png",
+      "url": "https://hh.ru/vacancy/108825639",
+      "published_at": "2025-08-13T07:59:44+0300",
+      "created_at": "2025-08-13T07:59:44+0300",
+      "area": "Москва",
+      "salary": "от 110 000 RUR на руки",
+      "salary_raw": {
+        "from": 110000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Среднее специальное или высшее техническое образование (профильное). Знание базовых технологий сетевой безопасности, технологий безопасности данных, технологий аутентификации. Опыт работы UNIX...",
+      "responsibility": "Настройка и администрирование СЗИ. Бронь граждан, пребывающих в запасе. Возможность командировок по России и за рубеж для участия во внедрении...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Специалист по информационной безопасности"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "105951193",
+      "name": "Ведущий инженер (системный администратор)",
+      "company": "Моринформсистема-Агат, Концерн",
+      "company_id": "179533",
+      "company_url": "https://hh.ru/employer/179533",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/195773.png",
+      "url": "https://hh.ru/vacancy/105951193",
+      "published_at": "2025-08-13T07:59:39+0300",
+      "created_at": "2025-08-13T07:59:39+0300",
+      "area": "Москва",
+      "salary": "до 120 000 RUR на руки",
+      "salary_raw": {
+        "from": null,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание стека протоколов TCP/IP, Ethernet. - Знание базовых сетевых технологий (DHCP, DNS, VLAN, NAT, QoS и т.п.). ‑",
+      "responsibility": "Администрирование сетевого оборудования(коммутаторы, маршрутизаторы, межсетевые экраны). - Участие в тестированиинового оборудования. - Ввод в эксплуатацию нового оборудования. - Разработка и сопровождение технической...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "120285878",
+      "name": "Системный администратор",
+      "company": "Завод ПРОТЕЙ",
+      "company_id": "818613",
+      "company_url": "https://hh.ru/employer/818613",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1144667.png",
+      "url": "https://hh.ru/vacancy/120285878",
+      "published_at": "2025-08-13T07:57:41+0300",
+      "created_at": "2025-08-13T07:57:41+0300",
+      "area": "Москва",
+      "salary": "от 183 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 183000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Уверенные знания и опыт работы с линейкой ОС Win XP/7/10/11, серверных ОС Windows (Windows Server 2012/2016...",
+      "responsibility": "Пуско-наладка, настройка, обслуживание парка оборудования предприятия. Монтаж-прокладка ЛВС, СКС. Техническая поддержка пользователей. Обеспечение бесперебойной работы предприятия, серверного оборудования...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123987099",
+      "name": "Системный администратор",
+      "company": "ВЕРАТЕК",
+      "company_id": "992351",
+      "company_url": "https://hh.ru/employer/992351",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1413680.png",
+      "url": "https://hh.ru/vacancy/123987099",
+      "published_at": "2025-08-13T07:30:59+0300",
+      "created_at": "2025-08-13T07:30:59+0300",
+      "area": "Санкт-Петербург",
+      "salary": "80 000 - 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": 80000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание аппаратной части ПК. Понимание базовых принципов работы локальной сети. Опыт системного администрирования Windows не менее 1-го года.",
+      "responsibility": "Поддержка локальных и удаленных пользователей по различным вопросам. Поддержка работы оргтехники. Подбор и закупка необходимого ИТ оборудования, контроль доставки.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123600055",
       "name": "Системный администратор / Инженер",
@@ -13961,39 +14159,6 @@
       "accept_temporary": false
     },
     {
-      "id": "123452968",
-      "name": "Ведущий системный администратор",
-      "company": "ИН ХОУМ",
-      "company_id": "733511",
-      "company_url": "https://hh.ru/employer/733511",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/824044.jpg",
-      "url": "https://hh.ru/vacancy/123452968",
-      "published_at": "2025-08-11T08:26:42+0300",
-      "created_at": "2025-08-11T08:26:42+0300",
-      "area": "Москва",
-      "salary": "до 230 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": null,
-        "to": 230000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт Администрирования вышеописанных блоков. Опыт работы с системами виртуализации: Hyper-V. Опыт работы с системами мониторинга (Zabbix). Желание расти и...",
-      "responsibility": "Администрирование службы каталогов Active Directory и Microsoft Entra. Администрирование почтовой службы на основе Microsoft Exchange и Exchange Online.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "122792548",
       "name": "Инженер/ Системный администратор",
       "company": "ИФ СНИИП АТОМ",
@@ -17204,39 +17369,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее образование. Опыт установки/настройки/обслуживания Windows 10/11. Администрирование серверных ОС семейства Windows/Linux. Опыт работы с системами мониторинга.",
       "responsibility": "Администрирование серверов на базе Windows. Администрирование Active Directory. Администрирование MS Exchange. Виртуализация и системы высокой доступности (Hyper-V).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120285878",
-      "name": "Системный администратор",
-      "company": "Завод ПРОТЕЙ",
-      "company_id": "818613",
-      "company_url": "https://hh.ru/employer/818613",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1144667.png",
-      "url": "https://hh.ru/vacancy/120285878",
-      "published_at": "2025-08-10T07:57:41+0300",
-      "created_at": "2025-08-10T07:57:41+0300",
-      "area": "Москва",
-      "salary": "от 183 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 183000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Уверенные знания и опыт работы с линейкой ОС Win XP/7/10/11, серверных ОС Windows (Windows Server 2012/2016...",
-      "responsibility": "Пуско-наладка, настройка, обслуживание парка оборудования предприятия. Монтаж-прокладка ЛВС, СКС. Техническая поддержка пользователей. Обеспечение бесперебойной работы предприятия, серверного оборудования...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -26227,105 +26359,6 @@
       "accept_temporary": false
     },
     {
-      "id": "105951137",
-      "name": "Инженер 1 категории (специалист по защите информации/системный администратор) (01040-1)",
-      "company": "Моринформсистема-Агат, Концерн",
-      "company_id": "179533",
-      "company_url": "https://hh.ru/employer/179533",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/195773.png",
-      "url": "https://hh.ru/vacancy/105951137",
-      "published_at": "2025-08-04T09:13:57+0300",
-      "created_at": "2025-08-04T09:13:57+0300",
-      "area": "Москва",
-      "salary": "до 130 000 RUR на руки",
-      "salary_raw": {
-        "from": null,
-        "to": 130000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание ОС семейства Linux, Windows, средств антивирусной защиты, средств защиты информации. - Понимание уровней конфиденциальности информации. - Знание POSIX ACL, MAC в...",
-      "responsibility": "Разработка и сопровождение локальных нормативных документов в области информационной безопасности и защиты информации (регламентов, инструкций, процедур, правил, политик ИБ, обеспечение...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Специалист по информационной безопасности"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "108825639",
-      "name": "Системный администратор (AstraLinux, информационная безопасность)",
-      "company": "Моринформсистема-Агат, Концерн",
-      "company_id": "179533",
-      "company_url": "https://hh.ru/employer/179533",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/195773.png",
-      "url": "https://hh.ru/vacancy/108825639",
-      "published_at": "2025-08-04T09:13:56+0300",
-      "created_at": "2025-08-04T09:13:56+0300",
-      "area": "Москва",
-      "salary": "от 110 000 RUR на руки",
-      "salary_raw": {
-        "from": 110000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Среднее специальное или высшее техническое образование (профильное). Знание базовых технологий сетевой безопасности, технологий безопасности данных, технологий аутентификации. Опыт работы UNIX...",
-      "responsibility": "Настройка и администрирование СЗИ. Бронь граждан, пребывающих в запасе. Возможность командировок по России и за рубеж для участия во внедрении...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Специалист по информационной безопасности"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "105951193",
-      "name": "Ведущий инженер (системный администратор)",
-      "company": "Моринформсистема-Агат, Концерн",
-      "company_id": "179533",
-      "company_url": "https://hh.ru/employer/179533",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/195773.png",
-      "url": "https://hh.ru/vacancy/105951193",
-      "published_at": "2025-08-04T09:13:54+0300",
-      "created_at": "2025-08-04T09:13:54+0300",
-      "area": "Москва",
-      "salary": "до 120 000 RUR на руки",
-      "salary_raw": {
-        "from": null,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание стека протоколов TCP/IP, Ethernet. - Знание базовых сетевых технологий (DHCP, DNS, VLAN, NAT, QoS и т.п.). ‑",
-      "responsibility": "Администрирование сетевого оборудования(коммутаторы, маршрутизаторы, межсетевые экраны). - Участие в тестированиинового оборудования. - Ввод в эксплуатацию нового оборудования. - Разработка и сопровождение технической...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "123558669",
       "name": "Специалист технической поддержки (системный администратор)",
       "company": "Ростелеком Контакт-центр",
@@ -27462,16 +27495,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123528764",
+      "id": "123528763",
       "name": "Системный администратор",
       "company": "ДСК АВТОБАН",
       "company_id": "184497",
       "company_url": "https://hh.ru/employer/184497",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/709896.PNG",
-      "url": "https://hh.ru/vacancy/123528764",
+      "url": "https://hh.ru/vacancy/123528763",
       "published_at": "2025-08-01T15:18:40+0300",
       "created_at": "2025-08-01T15:18:40+0300",
-      "area": "Серпухов (Московская область)",
+      "area": "Чехов (Московская область)",
       "salary": "120 000 - 120 000 RUR на руки",
       "salary_raw": {
         "from": 120000,
@@ -27495,16 +27528,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123528763",
+      "id": "123528764",
       "name": "Системный администратор",
       "company": "ДСК АВТОБАН",
       "company_id": "184497",
       "company_url": "https://hh.ru/employer/184497",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/709896.PNG",
-      "url": "https://hh.ru/vacancy/123528763",
+      "url": "https://hh.ru/vacancy/123528764",
       "published_at": "2025-08-01T15:18:40+0300",
       "created_at": "2025-08-01T15:18:40+0300",
-      "area": "Чехов (Московская область)",
+      "area": "Серпухов (Московская область)",
       "salary": "120 000 - 120 000 RUR на руки",
       "salary_raw": {
         "from": 120000,
