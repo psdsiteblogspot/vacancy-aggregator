@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-13T06:56:48Z",
+  "updated": "2025-08-13T07:47:10Z",
   "statistics": {
-    "total": 838,
-    "with_salary": 655,
-    "companies": 643,
-    "cities": 130,
+    "total": 840,
+    "with_salary": 657,
+    "companies": 644,
+    "cities": 131,
     "premium": 1,
     "with_test": 10
   },
   "vacancies": [
+    {
+      "id": "123997377",
+      "name": "Выездной инженер технической поддержки/системный администратор",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/123997377",
+      "published_at": "2025-08-13T10:19:02+0300",
+      "created_at": "2025-08-13T10:19:02+0300",
+      "area": "Таловая",
+      "salary": "200 - 10 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 200,
+        "to": 10000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123996648",
+      "name": "Системный администратор",
+      "company": "Центр НК",
+      "company_id": "3251530",
+      "company_url": "https://hh.ru/employer/3251530",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/500938.jpg",
+      "url": "https://hh.ru/vacancy/123996648",
+      "published_at": "2025-08-13T10:10:20+0300",
+      "created_at": "2025-08-13T10:10:20+0300",
+      "area": "Казань",
+      "salary": "от 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Частичная занятость",
+      "requirement": "Техническое образование. - Опыт установки и поддержки ОС Windows 7-10, Server 2012, Linux. - Навыки по работе с СКС.",
+      "responsibility": "Обслуживание парка компьютеров (до 20), оргтехники, SIP-телефонии, мини-АТС, видеонаблюдения, программного обеспечения, СКУД. - Настройка серверов (Windows, Linux, гипервизоры, виртуальные...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123993851",
       "name": "Системный администратор",
@@ -148,6 +214,39 @@
       "accept_temporary": false
     },
     {
+      "id": "123729403",
+      "name": "Помощник системного администратора",
+      "company": "Пища орлов",
+      "company_id": "1976523",
+      "company_url": "https://hh.ru/employer/1976523",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/903516.png",
+      "url": "https://hh.ru/vacancy/123729403",
+      "published_at": "2025-08-13T09:10:48+0300",
+      "created_at": "2025-08-13T09:10:48+0300",
+      "area": "Белгород",
+      "salary": "40 000 - 45 000 RUR на руки",
+      "salary_raw": {
+        "from": 40000,
+        "to": 45000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Внимательность, исполнительность, умение работать в коллективе. Образование: Высшее, среднeе-специальное образование. Специальность по образованию: Программное обеспечение вычислительной техники и автоматизированных...",
+      "responsibility": "Обеспечивает бесперебойную работу компьютеров и оргтехники на предприятии, предоставление связи между компьютерами офиса и магазинов, устранение обнаруженных неполадок в работе...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "123991443",
       "name": "Системный администратор на о.Шикотан",
       "company": "Управляющая компания «Дальневосточный рыбак»",
@@ -170,6 +269,39 @@
       "employment": "Полная занятость",
       "requirement": "Знание ОС семейства Windows, Windows Server, Linux. Знание TCP/IP, сервисов AD, DNS, DHCP, VPN. 1C, Kaspersky, система мониторинга...",
       "responsibility": "Монтаж СВН, оптоволоконных линий, ЛВС. Устранение аварий на линиях связи. Администрирование серверов 1С, контроллер домена, Kaspersky Security Center, Zabbix.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123557995",
+      "name": "Системный администратор",
+      "company": "Камчатское пиво",
+      "company_id": "3831270",
+      "company_url": "https://hh.ru/employer/3831270",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/123557995",
+      "published_at": "2025-08-13T09:06:38+0300",
+      "created_at": "2025-08-13T09:06:38+0300",
+      "area": "Петропавловск-Камчатский",
+      "salary": "120 000 - 140 000 RUR на руки",
+      "salary_raw": {
+        "from": 120000,
+        "to": 140000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Более 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование. Ответственность.",
+      "responsibility": "Обслуживание серверов физических и виртуальных (Hyper-V, Windows server 2008 R2). Установка, настройка и обслуживание серверного ПО (AD, SQL...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -4173,10 +4305,10 @@
       "published_at": "2025-08-11T10:42:48+0300",
       "created_at": "2025-08-11T10:42:48+0300",
       "area": "Нижний Новгород",
-      "salary": "от 75 000 RUR на руки",
+      "salary": "75 000 - 75 000 RUR на руки",
       "salary_raw": {
         "from": 75000,
-        "to": null,
+        "to": 75000,
         "currency": "RUR",
         "gross": false
       },
@@ -6423,72 +6555,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Специалист технической поддержки"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123729403",
-      "name": "Помощник системного администратора",
-      "company": "Пища орлов",
-      "company_id": "1976523",
-      "company_url": "https://hh.ru/employer/1976523",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/903516.png",
-      "url": "https://hh.ru/vacancy/123729403",
-      "published_at": "2025-08-10T09:10:48+0300",
-      "created_at": "2025-08-10T09:10:48+0300",
-      "area": "Белгород",
-      "salary": "40 000 - 45 000 RUR на руки",
-      "salary_raw": {
-        "from": 40000,
-        "to": 45000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Внимательность, исполнительность, умение работать в коллективе. Образование: Высшее, среднeе-специальное образование. Специальность по образованию: Программное обеспечение вычислительной техники и автоматизированных...",
-      "responsibility": "Обеспечивает бесперебойную работу компьютеров и оргтехники на предприятии, предоставление связи между компьютерами офиса и магазинов, устранение обнаруженных неполадок в работе...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123557995",
-      "name": "Системный администратор",
-      "company": "Камчатское пиво",
-      "company_id": "3831270",
-      "company_url": "https://hh.ru/employer/3831270",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/123557995",
-      "published_at": "2025-08-10T09:06:38+0300",
-      "created_at": "2025-08-10T09:06:38+0300",
-      "area": "Петропавловск-Камчатский",
-      "salary": "120 000 - 140 000 RUR на руки",
-      "salary_raw": {
-        "from": 120000,
-        "to": 140000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Более 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование. Ответственность.",
-      "responsibility": "Обслуживание серверов физических и виртуальных (Hyper-V, Windows server 2008 R2). Установка, настройка и обслуживание серверного ПО (AD, SQL...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
       ],
       "has_test": false,
       "premium": false,
@@ -20077,6 +20143,39 @@
       "accept_temporary": false
     },
     {
+      "id": "123209738",
+      "name": "Выездной инженер технической поддержки/системный администратор",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/123209738",
+      "published_at": "2025-07-24T15:56:01+0300",
+      "created_at": "2025-07-24T15:56:01+0300",
+      "area": "Липецк",
+      "salary": "до 10 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": null,
+        "to": 10000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "123209742",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
@@ -20143,39 +20242,6 @@
       "accept_temporary": false
     },
     {
-      "id": "123209738",
-      "name": "Выездной инженер технической поддержки/системный администратор",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209738",
-      "published_at": "2025-07-24T15:56:01+0300",
-      "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Липецк",
-      "salary": "до 10 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": null,
-        "to": 10000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
-      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "123209733",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
@@ -20186,39 +20252,6 @@
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
       "area": "Владимир",
-      "salary": "до 10 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": null,
-        "to": 10000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
-      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123209749",
-      "name": "Выездной инженер технической поддержки/системный администратор",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209749",
-      "published_at": "2025-07-24T15:56:01+0300",
-      "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Южно-Сахалинск",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -20275,16 +20308,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209750",
+      "id": "123209749",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209750",
+      "url": "https://hh.ru/vacancy/123209749",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Хабаровск",
+      "area": "Южно-Сахалинск",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -20318,6 +20351,39 @@
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
       "area": "Воронеж",
+      "salary": "до 10 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": null,
+        "to": 10000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123209750",
+      "name": "Выездной инженер технической поддержки/системный администратор",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/123209750",
+      "published_at": "2025-07-24T15:56:01+0300",
+      "created_at": "2025-07-24T15:56:01+0300",
+      "area": "Хабаровск",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -26148,16 +26214,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122789835",
+      "id": "122789834",
       "name": "Системный администратор",
       "company": "Тепличный комплекс Камчатский",
       "company_id": "10698566",
       "company_url": "https://hh.ru/employer/10698566",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1368198.jpg",
-      "url": "https://hh.ru/vacancy/122789835",
+      "url": "https://hh.ru/vacancy/122789834",
       "published_at": "2025-07-15T06:55:57+0300",
       "created_at": "2025-07-15T06:55:57+0300",
-      "area": "Петропавловск-Камчатский",
+      "area": "Елизово",
       "salary": "100 000 - 120 000 RUR на руки",
       "salary_raw": {
         "from": 100000,
@@ -26181,16 +26247,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122789834",
+      "id": "122789835",
       "name": "Системный администратор",
       "company": "Тепличный комплекс Камчатский",
       "company_id": "10698566",
       "company_url": "https://hh.ru/employer/10698566",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1368198.jpg",
-      "url": "https://hh.ru/vacancy/122789834",
+      "url": "https://hh.ru/vacancy/122789835",
       "published_at": "2025-07-15T06:55:57+0300",
       "created_at": "2025-07-15T06:55:57+0300",
-      "area": "Елизово",
+      "area": "Петропавловск-Камчатский",
       "salary": "100 000 - 120 000 RUR на руки",
       "salary_raw": {
         "from": 100000,
