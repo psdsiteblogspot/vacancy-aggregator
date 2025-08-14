@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-14T16:45:41Z",
+  "updated": "2025-08-14T17:38:54Z",
   "statistics": {
     "total": 995,
     "with_salary": 727,
-    "companies": 728,
-    "cities": 223,
+    "companies": 729,
+    "cities": 224,
     "premium": 0,
     "with_test": 15
   },
   "vacancies": [
+    {
+      "id": "124085052",
+      "name": "Системный администратор",
+      "company": "ProBusiness Group",
+      "company_id": "1565821",
+      "company_url": "https://hh.ru/employer/1565821",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/252456.png",
+      "url": "https://hh.ru/vacancy/124085052",
+      "published_at": "2025-08-14T20:32:54+0300",
+      "created_at": "2025-08-14T20:32:54+0300",
+      "area": "Ярцево",
+      "salary": "60 000 - 75 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": 75000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Техническое образование. Стрессоустойчивость и умение общаться с людьми, даже если они чего-то не понимают). Доброжелательность. Опыт построения локальных сетей...",
+      "responsibility": "Обеспечение бесперебойной работы серверного оборудования. Плановое обслуживание оборудование и систем (обновление, мониторинг, устранение сбоев). Управление системами резервного копирования и восстановления...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123671798",
+      "name": "Системный администратор",
+      "company": "MediaSniper",
+      "company_id": "3305220",
+      "company_url": "https://hh.ru/employer/3305220",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1360484.jpg",
+      "url": "https://hh.ru/vacancy/123671798",
+      "published_at": "2025-08-14T19:04:29+0300",
+      "created_at": "2025-08-14T19:04:29+0300",
+      "area": "Волгоград",
+      "salary": "от 114 942 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 114942,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знания сетевых технологий (стек TCP/IP, инфраструктурные сервисы DNS/DHCP/SMB и др). Опыт работы с Active Directory, Group Policy...",
+      "responsibility": "Установка, настройка и поддержка ОС Windows (10/11, Server) и офисного ПО (Microsoft Office, Outlook,). Администрирование Active Directory (создание/удаление...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123669734",
       "name": "Специалист по обслуживанию майнинг ферм / Системный администратор",
@@ -384,6 +450,39 @@
       "accept_temporary": false
     },
     {
+      "id": "124075047",
+      "name": "Электромеханик связи/системный администратор",
+      "company": "Первая Сервисная Компания",
+      "company_id": "1480991",
+      "company_url": "https://hh.ru/employer/1480991",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
+      "url": "https://hh.ru/vacancy/124075047",
+      "published_at": "2025-08-14T15:15:29+0300",
+      "created_at": "2025-08-14T15:15:29+0300",
+      "area": "Белорецк",
+      "salary": "55 000 - 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 55000,
+        "to": 80000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Вахтовый метод",
+      "employment": "Полная занятость",
+      "requirement": "Средне-специальное или высшее образование. Умение расключать щитки, проверять кабельные линии. Исполнительность, оперативность, аккуратность. Личное ТС будет являться преимуществом.",
+      "responsibility": "Электромонтаж. Обеспечение связи и видеонаблюдения. Выезд по объектам на территории РБ.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "124075043",
       "name": "Электромеханик связи/системный администратор",
       "company": "Первая Сервисная Компания",
@@ -450,39 +549,6 @@
       "accept_temporary": false
     },
     {
-      "id": "124075047",
-      "name": "Электромеханик связи/системный администратор",
-      "company": "Первая Сервисная Компания",
-      "company_id": "1480991",
-      "company_url": "https://hh.ru/employer/1480991",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
-      "url": "https://hh.ru/vacancy/124075047",
-      "published_at": "2025-08-14T15:15:29+0300",
-      "created_at": "2025-08-14T15:15:29+0300",
-      "area": "Белорецк",
-      "salary": "55 000 - 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 55000,
-        "to": 80000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Вахтовый метод",
-      "employment": "Полная занятость",
-      "requirement": "Средне-специальное или высшее образование. Умение расключать щитки, проверять кабельные линии. Исполнительность, оперативность, аккуратность. Личное ТС будет являться преимуществом.",
-      "responsibility": "Электромонтаж. Обеспечение связи и видеонаблюдения. Выезд по объектам на территории РБ.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "124075056",
       "name": "Электромеханик связи/системный администратор",
       "company": "Первая Сервисная Компания",
@@ -516,16 +582,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124075045",
+      "id": "124075053",
       "name": "Электромеханик связи/системный администратор",
       "company": "Первая Сервисная Компания",
       "company_id": "1480991",
       "company_url": "https://hh.ru/employer/1480991",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
-      "url": "https://hh.ru/vacancy/124075045",
+      "url": "https://hh.ru/vacancy/124075053",
       "published_at": "2025-08-14T15:15:29+0300",
       "created_at": "2025-08-14T15:15:29+0300",
-      "area": "Кумертау",
+      "area": "Белебей",
       "salary": "55 000 - 80 000 RUR на руки",
       "salary_raw": {
         "from": 55000,
@@ -549,16 +615,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124075053",
+      "id": "124075045",
       "name": "Электромеханик связи/системный администратор",
       "company": "Первая Сервисная Компания",
       "company_id": "1480991",
       "company_url": "https://hh.ru/employer/1480991",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
-      "url": "https://hh.ru/vacancy/124075053",
+      "url": "https://hh.ru/vacancy/124075045",
       "published_at": "2025-08-14T15:15:29+0300",
       "created_at": "2025-08-14T15:15:29+0300",
-      "area": "Белебей",
+      "area": "Кумертау",
       "salary": "55 000 - 80 000 RUR на руки",
       "salary_raw": {
         "from": 55000,
@@ -5910,16 +5976,16 @@
       "accept_temporary": true
     },
     {
-      "id": "123981586",
+      "id": "123981585",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123981586",
+      "url": "https://hh.ru/vacancy/123981585",
       "published_at": "2025-08-12T18:31:37+0300",
       "created_at": "2025-08-12T18:31:37+0300",
-      "area": "Усть-Кут",
+      "area": "Тавда",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -5938,16 +6004,16 @@
       "accept_temporary": true
     },
     {
-      "id": "123981585",
+      "id": "123981586",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123981585",
+      "url": "https://hh.ru/vacancy/123981586",
       "published_at": "2025-08-12T18:31:37+0300",
       "created_at": "2025-08-12T18:31:37+0300",
-      "area": "Тавда",
+      "area": "Усть-Кут",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -7869,16 +7935,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123929742",
+      "id": "123929741",
       "name": "Системный администратор",
       "company": "РОСТ, Группа компаний",
       "company_id": "1449838",
       "company_url": "https://hh.ru/employer/1449838",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1404906.png",
-      "url": "https://hh.ru/vacancy/123929742",
+      "url": "https://hh.ru/vacancy/123929741",
       "published_at": "2025-08-12T09:06:27+0300",
       "created_at": "2025-08-12T09:06:27+0300",
-      "area": "Курган",
+      "area": "Челябинск",
       "salary": "54 000 - 54 000 RUR на руки",
       "salary_raw": {
         "from": 54000,
@@ -7902,16 +7968,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123929741",
+      "id": "123929742",
       "name": "Системный администратор",
       "company": "РОСТ, Группа компаний",
       "company_id": "1449838",
       "company_url": "https://hh.ru/employer/1449838",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1404906.png",
-      "url": "https://hh.ru/vacancy/123929741",
+      "url": "https://hh.ru/vacancy/123929742",
       "published_at": "2025-08-12T09:06:27+0300",
       "created_at": "2025-08-12T09:06:27+0300",
-      "area": "Челябинск",
+      "area": "Курган",
       "salary": "54 000 - 54 000 RUR на руки",
       "salary_raw": {
         "from": 54000,
@@ -8574,39 +8640,6 @@
       "employment": "Полная занятость",
       "requirement": "1. Навык установки и поддержки ОС Windows, обеспечение информационной безопасности системы. 2. Знание принципов работы сетевых протоколов, принципов построения компьютерных...",
       "responsibility": "1. Осуществляет администрирование информационно-технической инфраструкryры Компании. 2. Производит обслуживание, настройку и администрирование серверов, следит за их надлежащей эксплyатацией.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123671798",
-      "name": "Системный администратор",
-      "company": "MediaSniper",
-      "company_id": "3305220",
-      "company_url": "https://hh.ru/employer/3305220",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1360484.jpg",
-      "url": "https://hh.ru/vacancy/123671798",
-      "published_at": "2025-08-11T19:04:29+0300",
-      "created_at": "2025-08-11T19:04:29+0300",
-      "area": "Волгоград",
-      "salary": "от 114 942 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 114942,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знания сетевых технологий (стек TCP/IP, инфраструктурные сервисы DNS/DHCP/SMB и др). Опыт работы с Active Directory, Group Policy...",
-      "responsibility": "Установка, настройка и поддержка ОС Windows (10/11, Server) и офисного ПО (Microsoft Office, Outlook,). Администрирование Active Directory (создание/удаление...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -31472,39 +31505,6 @@
       "employment": "Полная занятость",
       "requirement": "Образование - высшее. Знание ОС MS Windows на уровне системного администратора. Знание компьютерного \"железа\". Знание основных компонентов персональных компьютеров, серверов.",
       "responsibility": "Настройкой и администрированием 1С.. Плановое и автоматическое копирование баз данных (1С). Поддержка пользователей специализированных программ. Администрирование сетевой инфраструктуры...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122838085",
-      "name": "Системный администратор / Стажер в ИТ",
-      "company": "ФиксИТ",
-      "company_id": "4398475",
-      "company_url": "https://hh.ru/employer/4398475",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/835437.png",
-      "url": "https://hh.ru/vacancy/122838085",
-      "published_at": "2025-07-15T19:57:57+0300",
-      "created_at": "2025-07-15T19:57:57+0300",
-      "area": "Таганрог",
-      "salary": "60 000 - 85 000 RUR на руки",
-      "salary_raw": {
-        "from": 60000,
-        "to": 85000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание устройства компьютера и основных компонентов. Понимание основ построения сетей, протоколов TCP/IP, маршрутизации и DNS. Знание линейки продуктов Linux...",
-      "responsibility": "Оказывать техническую поддержку пользователям. Настраивать, диагностировать и мониторить серверное и сетевое оборудование. Вести документацию и инвентаризацию. Обновлять программное обеспечение и...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
