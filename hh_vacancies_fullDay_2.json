@@ -10,19 +10,118 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-14T08:55:53Z",
+  "updated": "2025-08-14T09:49:49Z",
   "statistics": {
-    "total": 855,
-    "with_salary": 665,
-    "companies": 652,
+    "total": 857,
+    "with_salary": 667,
+    "companies": 654,
     "cities": 133,
     "premium": 1,
     "with_test": 9
   },
   "vacancies": [
     {
+      "id": "124064772",
+      "name": "Системный администратор",
+      "company": "ОСТОВ",
+      "company_id": "970894",
+      "company_url": "https://hh.ru/employer/970894",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1373323.png",
+      "url": "https://hh.ru/vacancy/124064772",
+      "published_at": "2025-08-14T12:20:14+0300",
+      "created_at": "2025-08-14T12:20:14+0300",
+      "area": "Обнинск",
+      "salary": "от 120 000 RUR на руки",
+      "salary_raw": {
+        "from": 120000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Образование: среднее-специальное. Опыт работы: от 3 лет.",
+      "responsibility": "Приём и обработка запросов по направлению технической поддержки. Подбор технических решений для последующей закупки сетевого, серверного, компьютерного и периферийного оборудования.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124064536",
+      "name": "Системный администратор",
+      "company": "ФБЛПУ Санаторий Днепр ФНС России",
+      "company_id": "3017428",
+      "company_url": "https://hh.ru/employer/3017428",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/124064536",
+      "published_at": "2025-08-14T12:17:22+0300",
+      "created_at": "2025-08-14T12:17:22+0300",
+      "area": "Ялта",
+      "salary": "от 58 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 58000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее техническое образование – бакалавриат и стаж работы по направлению деятельности не менее полугода.",
+      "responsibility": "Устанавливает на серверы и рабочие станции сетевое программное обеспечение. Обеспечивает интегрирование программного обеспечения на файл-серверах, серверах систем управления базами...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124064448",
+      "name": "Системный администратор",
+      "company": "Юнион",
+      "company_id": "10784594",
+      "company_url": "https://hh.ru/employer/10784594",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1243509.png",
+      "url": "https://hh.ru/vacancy/124064448",
+      "published_at": "2025-08-14T12:16:22+0300",
+      "created_at": "2025-08-14T12:16:22+0300",
+      "area": "Южно-Сахалинск",
+      "salary": "от 70 000 RUR на руки",
+      "salary_raw": {
+        "from": 70000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Частичная занятость",
+      "requirement": "Windows Server (установка, Active Directory, DNS, DHCP, GPO). Windows 10/11 (настройка, диагностика). Базовые знания Linux (если сервер на Ubuntu...",
+      "responsibility": "Установка и обновление ОС (Windows Server/Linux). Настройка ролей (AD, DNS, DHCP, файловый сервер, резервное копирование). Контроль работоспособности, мониторинг нагрузки...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "124062630",
-      "name": "Системный администратор для работы с ИИ",
+      "name": "Системный администратор по работе с ИИ",
       "company": "Сетевые решения",
       "company_id": "1375125",
       "company_url": "https://hh.ru/employer/1375125",
@@ -31,9 +130,9 @@
       "published_at": "2025-08-14T11:51:05+0300",
       "created_at": "2025-08-14T11:51:05+0300",
       "area": "Оренбург",
-      "salary": "от 150 000 RUR на руки",
+      "salary": "от 100 000 RUR на руки",
       "salary_raw": {
-        "from": 150000,
+        "from": 100000,
         "to": null,
         "currency": "RUR",
         "gross": false
@@ -42,7 +141,7 @@
       "schedule": "Полный день",
       "employment": "Полная занятость",
       "requirement": "Знание основных механизмов работы Asterisk. Знание основ языка программирования. Внимательность к деталям, ответственность и желание развиваться в сфере ИИ.",
-      "responsibility": "Работа с моделями ИИ от Гугл, ChatGPT. Настройка, доработка настройка голосовых моделей ИИ. Установка и настройка сервера VoIP-телефонии Asterisk...",
+      "responsibility": "Работа с моделями ИИ от Гугл, ChatGPT. Настройка, доработка голосовых моделей ИИ. Установка и настройка сервера VoIP-телефонии Asterisk и...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -137,6 +236,39 @@
       "employment": "Частичная занятость",
       "requirement": "Высшее или среднее специальное профессиональное (техническое) образование. -Наличие квалификации (курсов) в области технической защиты информации. -Опыт работы с операционными системами...",
       "responsibility": "Установка и настройка операционных систем для оптимального функционирования ИС. -Установка и настройка прикладного ПО, необходимого для функционирования ИС. -",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123189875",
+      "name": "Системный администратор",
+      "company": "Детков Антон Михайлович",
+      "company_id": "5494214",
+      "company_url": "https://hh.ru/employer/5494214",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/123189875",
+      "published_at": "2025-08-14T11:12:41+0300",
+      "created_at": "2025-08-14T11:12:41+0300",
+      "area": "Магадан",
+      "salary": "100 000 - 130 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": 130000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Развивать себя как специалиста и работать на результат, помогать коллегам и делиться опытом. Опыт работы в ИТ сфере приветствуется.",
+      "responsibility": "Управление ИТ-инфраструктурой предприятия. Модернизация оборудования. Подбор и замена комплектующих и быстроизнашиваемых (ресурсных) частей. Подключение и настройка ЛВС.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -4290,7 +4422,7 @@
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "Опыт работы в подобной сфере работы желателен. Умение работать в режиме многозадачности, стрессоустойчивость. Наличие личного автомобиля! Ответственность, внимательность к деталям...",
+      "requirement": "Опыт работы в подобной сфере работы желателен. Умение работать в режиме многозадачности, стрессоустойчивость. Ответственность, внимательность к деталям, умение быстро решать...",
       "responsibility": "Обслуживание компьютерной техники, обеспечение технической поддержки сотрудников офиса, магазинов. Поддержка работоспособности IT – инфраструктуры (каналы связи, сервер, ПК, торговое оборудование, оргтехника).",
       "type": "Открытая",
       "professional_roles": [
@@ -7000,39 +7132,6 @@
       "accept_temporary": false
     },
     {
-      "id": "122806487",
-      "name": "Помощник системного администратора",
-      "company": "Фотосеть СИВМА",
-      "company_id": "1659491",
-      "company_url": "https://hh.ru/employer/1659491",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1385589.png",
-      "url": "https://hh.ru/vacancy/122806487",
-      "published_at": "2025-08-11T12:01:23+0300",
-      "created_at": "2025-08-11T12:01:23+0300",
-      "area": "Воронеж",
-      "salary": "от 40 000 RUR на руки",
-      "salary_raw": {
-        "from": 40000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Уверенные знания Windows на уровне продвинутого пользователя. Понимание работы сетей и знание, что такое IP, роутеры, свитчи и ЛВС.",
-      "responsibility": "Установка и настройка программного обеспечения на базе Windows. Настройка параметров системы и обеспечение безопасности через пароли и доступы.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "123892038",
       "name": "Системный администратор",
       "company": "Король диванов",
@@ -7238,39 +7337,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт установки ЭЦП, цифровых подписей, лицензий и ключей крипто про, настройки клиента 1с, почтовых систем. Сборки и настройки ПК...",
       "responsibility": "Анализ, оптимизация и развитие текущей инфраструктуры в части оборудования конечных пользователей. Введение в эксплуатацию новых ПК и ноутбуков: настройка, установка...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123189875",
-      "name": "Системный администратор",
-      "company": "Детков Антон Михайлович",
-      "company_id": "5494214",
-      "company_url": "https://hh.ru/employer/5494214",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/123189875",
-      "published_at": "2025-08-11T11:12:41+0300",
-      "created_at": "2025-08-11T11:12:41+0300",
-      "area": "Магадан",
-      "salary": "100 000 - 130 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": 130000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Развивать себя как специалиста и работать на результат, помогать коллегам и делиться опытом. Опыт работы в ИТ сфере приветствуется.",
-      "responsibility": "Управление ИТ-инфраструктурой предприятия. Модернизация оборудования. Подбор и замена комплектующих и быстроизнашиваемых (ресурсных) частей. Подключение и настройка ЛВС.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -15747,16 +15813,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123503345",
+      "id": "123503328",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123503345",
+      "url": "https://hh.ru/vacancy/123503328",
       "published_at": "2025-08-01T08:27:29+0300",
       "created_at": "2025-08-01T08:27:29+0300",
-      "area": "Пугачев",
+      "area": "Бабаево",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -15775,16 +15841,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123503328",
+      "id": "123503345",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123503328",
+      "url": "https://hh.ru/vacancy/123503345",
       "published_at": "2025-08-01T08:27:29+0300",
       "created_at": "2025-08-01T08:27:29+0300",
-      "area": "Бабаево",
+      "area": "Пугачев",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -21520,16 +21586,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209739",
+      "id": "123209745",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209739",
+      "url": "https://hh.ru/vacancy/123209745",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Рязань",
+      "area": "Благовещенск (Амурская область)",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -21553,16 +21619,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209745",
+      "id": "123209739",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209745",
+      "url": "https://hh.ru/vacancy/123209739",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Благовещенск (Амурская область)",
+      "area": "Рязань",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
