@@ -10,16 +10,110 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-14T16:29:38Z",
+  "updated": "2025-08-14T17:20:13Z",
   "statistics": {
-    "total": 1431,
-    "with_salary": 820,
-    "companies": 1150,
+    "total": 1433,
+    "with_salary": 821,
+    "companies": 1151,
     "cities": 73,
     "premium": 0,
-    "with_test": 64
+    "with_test": 65
   },
   "vacancies": [
+    {
+      "id": "124084923",
+      "name": "Системный администратор",
+      "company": "Evercode Lab",
+      "company_id": "3509758",
+      "company_url": "https://hh.ru/employer/3509758",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1393231.png",
+      "url": "https://hh.ru/vacancy/124084923",
+      "published_at": "2025-08-14T20:06:11+0300",
+      "created_at": "2025-08-14T20:06:11+0300",
+      "area": "Санкт-Петербург",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы с MacOS и Unix-подобными ОС. Базовые знания, опыт работы с инструментами: Docker, Ansible. Умение работать с серверами.",
+      "responsibility": "Обслуживание локальной сети, общение с провайдерами, оперативное решение вопросов в случае сбоев. Закупка и ведение учета оборудования и расходников.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": true,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123076181",
+      "name": "Помощник системного администратора отдела технической поддержки",
+      "company": "ДЖЕЙКЕТ РАБОТА",
+      "company_id": "1689259",
+      "company_url": "https://hh.ru/employer/1689259",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1402155.png",
+      "url": "https://hh.ru/vacancy/123076181",
+      "published_at": "2025-08-14T19:55:56+0300",
+      "created_at": "2025-08-14T19:55:56+0300",
+      "area": "Речицы (Московская область, Раменский район)",
+      "salary": "от 60 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 60000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Умение работать в команде и самостоятельно, высокая степень ответственности. - Грамотное изложение своих мыслей устно и письменно. - Готовность к интенсивному обучению. -",
+      "responsibility": "Обрабатывать обращения от клиентов, решать возникшие технические проблемы в режиме телефонного разговора. - Мониторинг и анализ производительности систем, выявление и устранение...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124084652",
+      "name": "Системный администратор",
+      "company": "ASTRONIUM",
+      "company_id": "2622",
+      "company_url": "https://hh.ru/employer/2622",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1207368.png",
+      "url": "https://hh.ru/vacancy/124084652",
+      "published_at": "2025-08-14T19:40:39+0300",
+      "created_at": "2025-08-14T19:40:39+0300",
+      "area": "Лобня (Московская область)",
+      "salary": "до 115 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": null,
+        "to": 115000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "...точки доступа), понимание работы электронной почты. Готовы обучить с нуля кандидата с профильным образованием и стремлением развиваться как системный администратор.",
+      "responsibility": "Администрирование вверенной сетевой инфраструктуры склада, оказание технической поддержки пользователям на местах. Работа с внешними поставщиками (услуг и оборудования).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "124084353",
       "name": "Младший системный администратор",
@@ -16569,39 +16663,6 @@
       "accept_temporary": false
     },
     {
-      "id": "123076181",
-      "name": "Помощник системного администратора отдела технической поддержки",
-      "company": "ДЖЕЙКЕТ РАБОТА",
-      "company_id": "1689259",
-      "company_url": "https://hh.ru/employer/1689259",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1402155.png",
-      "url": "https://hh.ru/vacancy/123076181",
-      "published_at": "2025-08-11T19:55:56+0300",
-      "created_at": "2025-08-11T19:55:56+0300",
-      "area": "Речицы (Московская область, Раменский район)",
-      "salary": "от 60 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 60000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Нет опыта",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "Умение работать в команде и самостоятельно, высокая степень ответственности. - Грамотное изложение своих мыслей устно и письменно. - Готовность к интенсивному обучению. -",
-      "responsibility": "Обрабатывать обращения от клиентов, решать возникшие технические проблемы в режиме телефонного разговора. - Мониторинг и анализ производительности систем, выявление и устранение...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "123919254",
       "name": "Специалист службы технической поддержки \\ Системный администратор",
       "company": "Первый Системный Интегратор",
@@ -29507,16 +29568,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123528764",
+      "id": "123528763",
       "name": "Системный администратор",
       "company": "ДСК АВТОБАН",
       "company_id": "184497",
       "company_url": "https://hh.ru/employer/184497",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/709896.PNG",
-      "url": "https://hh.ru/vacancy/123528764",
+      "url": "https://hh.ru/vacancy/123528763",
       "published_at": "2025-08-01T15:18:40+0300",
       "created_at": "2025-08-01T15:18:40+0300",
-      "area": "Серпухов (Московская область)",
+      "area": "Чехов (Московская область)",
       "salary": "120 000 - 120 000 RUR на руки",
       "salary_raw": {
         "from": 120000,
@@ -29540,16 +29601,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123528763",
+      "id": "123528764",
       "name": "Системный администратор",
       "company": "ДСК АВТОБАН",
       "company_id": "184497",
       "company_url": "https://hh.ru/employer/184497",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/709896.PNG",
-      "url": "https://hh.ru/vacancy/123528763",
+      "url": "https://hh.ru/vacancy/123528764",
       "published_at": "2025-08-01T15:18:40+0300",
       "created_at": "2025-08-01T15:18:40+0300",
-      "area": "Чехов (Московская область)",
+      "area": "Серпухов (Московская область)",
       "salary": "120 000 - 120 000 RUR на руки",
       "salary_raw": {
         "from": 120000,
