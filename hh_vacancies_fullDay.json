@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-16T04:43:11Z",
+  "updated": "2025-08-16T05:38:31Z",
   "statistics": {
     "total": 998,
     "with_salary": 738,
@@ -20,6 +20,39 @@
     "with_test": 16
   },
   "vacancies": [
+    {
+      "id": "121921986",
+      "name": "Системный администратор",
+      "company": "Импрув-АйТи",
+      "company_id": "4693660",
+      "company_url": "https://hh.ru/employer/4693660",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1417709.png",
+      "url": "https://hh.ru/vacancy/121921986",
+      "published_at": "2025-08-16T07:46:41+0300",
+      "created_at": "2025-08-16T07:46:41+0300",
+      "area": "Челябинск",
+      "salary": "от 100 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Обязательные навыки: ️ Администрирование серверов на ОС Windows/Linux (от 1 года), включая: ️ Навыки работы с сетевым оборудованием:",
+      "responsibility": "Администрирование Windows/Linux-серверов (AD, GPO, DNS, DHCP). ️ Настройка 1С, SQL (MS SQL/PostgreSQL) и виртуализации (Proxmox/Hyper-V). ️",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "117200545",
       "name": "Системный администратор",
@@ -46,6 +79,67 @@
       "type": "Открытая",
       "professional_roles": [
         "Другое"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123552954",
+      "name": "IT-Волшебник / Системный Администратор",
+      "company": "IT-GORKA",
+      "company_id": "5799062",
+      "company_url": "https://hh.ru/employer/5799062",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/904818.png",
+      "url": "https://hh.ru/vacancy/123552954",
+      "published_at": "2025-08-16T07:36:55+0300",
+      "created_at": "2025-08-16T07:36:55+0300",
+      "area": "Екатеринбург",
+      "salary": "от 50 000 RUR на руки",
+      "salary_raw": {
+        "from": 50000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Будет преимуществом, если у вас есть опыт обслуживания парка ПК. Коммуникативные навыки, усидчивость, стрессоустойчивость, стремление к личностному и профессиональному росту.",
+      "responsibility": "Приемом и регистрацией обращений от сотрудников Компании о неполадках с IT-оборудованием, запросы на установку дополнительного ПО. Настройкой, устранением сбоев...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123501574",
+      "name": "Системный администратор Linux",
+      "company": "ПроИнфоСервис",
+      "company_id": "5255258",
+      "company_url": "https://hh.ru/employer/5255258",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/835430.png",
+      "url": "https://hh.ru/vacancy/123501574",
+      "published_at": "2025-08-16T07:23:57+0300",
+      "created_at": "2025-08-16T07:23:57+0300",
+      "area": "Пермь",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Уверенное владение Linux (Debian, CentOS): установка, настройка, обслуживание. Понимание работы и настройка веб-серверов (Nginx) и SSL/TLS (в том...",
+      "responsibility": "Развертывание и администрирование физических и виртуальных серверов на Linux (Debian, CentOS, Astra Linux, РедОС, ALT Linux) и Windows Server (при...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
       ],
       "has_test": false,
       "premium": false,
@@ -590,16 +684,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124118546",
+      "id": "124118545",
       "name": "Системный администратор",
       "company": "АПХ ЭКО-культура",
       "company_id": "2499672",
       "company_url": "https://hh.ru/employer/2499672",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1032919.jpg",
-      "url": "https://hh.ru/vacancy/124118546",
+      "url": "https://hh.ru/vacancy/124118545",
       "published_at": "2025-08-15T15:52:42+0300",
       "created_at": "2025-08-15T15:52:42+0300",
-      "area": "Солнечнодольск",
+      "area": "Новотроицкая (Ставропольский край)",
       "salary": "от 68 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 68000,
@@ -623,16 +717,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124118545",
+      "id": "124118546",
       "name": "Системный администратор",
       "company": "АПХ ЭКО-культура",
       "company_id": "2499672",
       "company_url": "https://hh.ru/employer/2499672",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1032919.jpg",
-      "url": "https://hh.ru/vacancy/124118545",
+      "url": "https://hh.ru/vacancy/124118546",
       "published_at": "2025-08-15T15:52:42+0300",
       "created_at": "2025-08-15T15:52:42+0300",
-      "area": "Новотроицкая (Ставропольский край)",
+      "area": "Солнечнодольск",
       "salary": "от 68 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 68000,
@@ -8134,100 +8228,6 @@
       "employment": "Полная занятость",
       "requirement": "Требования: Опыт работы системным администратором с аналогичным функционалом от 1 года. Коммуникабельность, умение работать в режиме многозадачности, ответственность, обучаемость.",
       "responsibility": "Обязанности: Aдминистрирование серверов и рабочих станций Windоws; Поддержание работоспособности серверов и рабочих станций. Администрирование офисной инфраструктуры 50 пользователей.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121921986",
-      "name": "Системный администратор",
-      "company": "Импрув-АйТи",
-      "company_id": "4693660",
-      "company_url": "https://hh.ru/employer/4693660",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1417709.png",
-      "url": "https://hh.ru/vacancy/121921986",
-      "published_at": "2025-08-13T07:46:41+0300",
-      "created_at": "2025-08-13T07:46:41+0300",
-      "area": "Челябинск",
-      "salary": "от 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Обязательные навыки: ️ Администрирование серверов на ОС Windows/Linux (от 1 года), включая: ️ Навыки работы с сетевым оборудованием:",
-      "responsibility": "Администрирование Windows/Linux-серверов (AD, GPO, DNS, DHCP). ️ Настройка 1С, SQL (MS SQL/PostgreSQL) и виртуализации (Proxmox/Hyper-V). ️",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123552954",
-      "name": "IT-Волшебник / Системный Администратор",
-      "company": "IT-GORKA",
-      "company_id": "5799062",
-      "company_url": "https://hh.ru/employer/5799062",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/904818.png",
-      "url": "https://hh.ru/vacancy/123552954",
-      "published_at": "2025-08-13T07:36:55+0300",
-      "created_at": "2025-08-13T07:36:55+0300",
-      "area": "Екатеринбург",
-      "salary": "от 50 000 RUR на руки",
-      "salary_raw": {
-        "from": 50000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Будет преимуществом, если у вас есть опыт обслуживания парка ПК. Коммуникативные навыки, усидчивость, стрессоустойчивость, стремление к личностному и профессиональному росту.",
-      "responsibility": "Приемом и регистрацией обращений от сотрудников Компании о неполадках с IT-оборудованием, запросы на установку дополнительного ПО. Настройкой, устранением сбоев...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123501574",
-      "name": "Системный администратор Linux",
-      "company": "ПроИнфоСервис",
-      "company_id": "5255258",
-      "company_url": "https://hh.ru/employer/5255258",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/835430.png",
-      "url": "https://hh.ru/vacancy/123501574",
-      "published_at": "2025-08-13T07:23:57+0300",
-      "created_at": "2025-08-13T07:23:57+0300",
-      "area": "Пермь",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Уверенное владение Linux (Debian, CentOS): установка, настройка, обслуживание. Понимание работы и настройка веб-серверов (Nginx) и SSL/TLS (в том...",
-      "responsibility": "Развертывание и администрирование физических и виртуальных серверов на Linux (Debian, CentOS, Astra Linux, РедОС, ALT Linux) и Windows Server (при...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -31053,16 +31053,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122968615",
+      "id": "122968616",
       "name": "Системный администратор",
       "company": "Хайлэнд Голд",
       "company_id": "4986",
       "company_url": "https://hh.ru/employer/4986",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1435334.png",
-      "url": "https://hh.ru/vacancy/122968615",
+      "url": "https://hh.ru/vacancy/122968616",
       "published_at": "2025-07-18T09:13:31+0300",
       "created_at": "2025-07-18T09:13:31+0300",
-      "area": "Красноярск",
+      "area": "Краснодар",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -31081,16 +31081,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122968616",
+      "id": "122968615",
       "name": "Системный администратор",
       "company": "Хайлэнд Голд",
       "company_id": "4986",
       "company_url": "https://hh.ru/employer/4986",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1435334.png",
-      "url": "https://hh.ru/vacancy/122968616",
+      "url": "https://hh.ru/vacancy/122968615",
       "published_at": "2025-07-18T09:13:31+0300",
       "created_at": "2025-07-18T09:13:31+0300",
-      "area": "Краснодар",
+      "area": "Красноярск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
