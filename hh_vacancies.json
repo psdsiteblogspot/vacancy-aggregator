@@ -10,16 +10,77 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-16T04:28:09Z",
+  "updated": "2025-08-16T05:21:17Z",
   "statistics": {
-    "total": 1417,
+    "total": 1418,
     "with_salary": 820,
-    "companies": 1139,
+    "companies": 1140,
     "cities": 73,
     "premium": 0,
     "with_test": 64
   },
   "vacancies": [
+    {
+      "id": "124128182",
+      "name": "Системный администратор (MikroTik, VMware, Veeam). Удалено",
+      "company": "UniRenter",
+      "company_id": "3711736",
+      "company_url": "https://hh.ru/employer/3711736",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1034378.png",
+      "url": "https://hh.ru/vacancy/124128182",
+      "published_at": "2025-08-16T08:05:25+0300",
+      "created_at": "2025-08-16T08:05:25+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Отличное знание RouterOS (MikroTik). * Опыт настройки VPN (MikroTik, WireGuard). * Глубокое понимание IPTables, NAT, Firewall. * Опыт работы с VMware ESXi и...",
+      "responsibility": "Поддержка и развитие сетевой инфраструктуры на базе MikroTik (Hub 2, CHR). * Настройка маршрутизации, VLAN, статических/динамических маршрутов. * Построение и администрирование...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
+      "id": "120285878",
+      "name": "Системный администратор",
+      "company": "Завод ПРОТЕЙ",
+      "company_id": "818613",
+      "company_url": "https://hh.ru/employer/818613",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1144667.png",
+      "url": "https://hh.ru/vacancy/120285878",
+      "published_at": "2025-08-16T07:57:41+0300",
+      "created_at": "2025-08-16T07:57:41+0300",
+      "area": "Москва",
+      "salary": "от 183 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 183000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Уверенные знания и опыт работы с линейкой ОС Win XP/7/10/11, серверных ОС Windows (Windows Server 2012/2016...",
+      "responsibility": "Пуско-наладка, настройка, обслуживание парка оборудования предприятия. Монтаж-прокладка ЛВС, СКС. Техническая поддержка пользователей. Обеспечение бесперебойной работы предприятия, серверного оборудования...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123498320",
       "name": "Системный администратор",
@@ -16601,39 +16662,6 @@
       "accept_temporary": false
     },
     {
-      "id": "120285878",
-      "name": "Системный администратор",
-      "company": "Завод ПРОТЕЙ",
-      "company_id": "818613",
-      "company_url": "https://hh.ru/employer/818613",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1144667.png",
-      "url": "https://hh.ru/vacancy/120285878",
-      "published_at": "2025-08-13T07:57:41+0300",
-      "created_at": "2025-08-13T07:57:41+0300",
-      "area": "Москва",
-      "salary": "от 183 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 183000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Уверенные знания и опыт работы с линейкой ОС Win XP/7/10/11, серверных ОС Windows (Windows Server 2012/2016...",
-      "responsibility": "Пуско-наладка, настройка, обслуживание парка оборудования предприятия. Монтаж-прокладка ЛВС, СКС. Техническая поддержка пользователей. Обеспечение бесперебойной работы предприятия, серверного оборудования...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "123987099",
       "name": "Системный администратор",
       "company": "ВЕРАТЕК",
@@ -30803,16 +30831,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123528764",
+      "id": "123528763",
       "name": "Системный администратор",
       "company": "ДСК АВТОБАН",
       "company_id": "184497",
       "company_url": "https://hh.ru/employer/184497",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/709896.PNG",
-      "url": "https://hh.ru/vacancy/123528764",
+      "url": "https://hh.ru/vacancy/123528763",
       "published_at": "2025-08-01T15:18:40+0300",
       "created_at": "2025-08-01T15:18:40+0300",
-      "area": "Серпухов (Московская область)",
+      "area": "Чехов (Московская область)",
       "salary": "120 000 - 120 000 RUR на руки",
       "salary_raw": {
         "from": 120000,
@@ -30836,16 +30864,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123528763",
+      "id": "123528764",
       "name": "Системный администратор",
       "company": "ДСК АВТОБАН",
       "company_id": "184497",
       "company_url": "https://hh.ru/employer/184497",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/709896.PNG",
-      "url": "https://hh.ru/vacancy/123528763",
+      "url": "https://hh.ru/vacancy/123528764",
       "published_at": "2025-08-01T15:18:40+0300",
       "created_at": "2025-08-01T15:18:40+0300",
-      "area": "Чехов (Московская область)",
+      "area": "Серпухов (Московская область)",
       "salary": "120 000 - 120 000 RUR на руки",
       "salary_raw": {
         "from": 120000,
