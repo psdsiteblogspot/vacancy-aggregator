@@ -10,16 +10,115 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-17T10:47:56Z",
+  "updated": "2025-08-17T11:44:09Z",
   "statistics": {
-    "total": 801,
-    "with_salary": 635,
-    "companies": 617,
+    "total": 799,
+    "with_salary": 633,
+    "companies": 615,
     "cities": 137,
     "premium": 1,
     "with_test": 7
   },
   "vacancies": [
+    {
+      "id": "123833464",
+      "name": "Системный администратор",
+      "company": "ТТК - Тульская табачная компания (ИП Никишкин Аркадий Александрович)",
+      "company_id": "9912115",
+      "company_url": "https://hh.ru/employer/9912115",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1450331.png",
+      "url": "https://hh.ru/vacancy/123833464",
+      "published_at": "2025-08-17T13:44:58+0300",
+      "created_at": "2025-08-17T13:44:58+0300",
+      "area": "Тула",
+      "salary": "60 000 - 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": 80000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание операционных систем Windows. Желателен опыт работы с ККТ (установка, регистрация, замена ФН и пр.). Ответственность, аккуратность, техническая смекалка.",
+      "responsibility": "Поддержка стабильной работы серверов, сетевого оборудования (Windows). Установка, настройка, диагностика и ремонт офисной техники (ПК, принтеры, сканеры). Учет, установка, обслуживание...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124069266",
+      "name": "Системный администратор",
+      "company": "Бристоль, сеть магазинов",
+      "company_id": "1189320",
+      "company_url": "https://hh.ru/employer/1189320",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/60208.jpg",
+      "url": "https://hh.ru/vacancy/124069266",
+      "published_at": "2025-08-17T13:36:57+0300",
+      "created_at": "2025-08-17T13:36:57+0300",
+      "area": "Орел",
+      "salary": "57 100 - 57 100 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 57100,
+        "to": 57100,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в аналогичной должности от 1 года. Профильное среднее или профессиональное образование. Знание и опыт администрирования операционных систем: MS...",
+      "responsibility": "Обеспечение бесперебойной работы розничных магазинов, подготовка и установка всего ИТ оборудования для новых магазинов. Установка 1С 8.3, настройка...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123055571",
+      "name": "Системный администратор/ инженер тех.поддержки",
+      "company": "Холдинговая Компания Тандем",
+      "company_id": "1037920",
+      "company_url": "https://hh.ru/employer/1037920",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/912299.png",
+      "url": "https://hh.ru/vacancy/123055571",
+      "published_at": "2025-08-17T13:29:37+0300",
+      "created_at": "2025-08-17T13:29:37+0300",
+      "area": "Владимир",
+      "salary": "70 000 - 70 000 RUR на руки",
+      "salary_raw": {
+        "from": 70000,
+        "to": 70000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы специалистом технической поддержки или помощником системного администратора не менее 2 лет, с обслуживанием локальных сетей (от 50 компьютеров). -",
+      "responsibility": "Первая линия технической поддержки: Решение проблем сотрудников компании, связанных с доступом к корпоративным сервисам. - Обучение сотрудников работе с корпоративными сервисами...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "124064772",
       "name": "Системный администратор",
@@ -4099,105 +4198,6 @@
       "employment": "Полная занятость",
       "requirement": "Понимание принципов работы с запросами пользователей. Хорошее знание ОС Windows и другого офисного ПО на уровне продвинутого пользователя.",
       "responsibility": "Поддержка локальных сетей, серверов (3 сервера). Настройки доступа пользователям. Поддержка серверов 1С, складских программ. Настройка офисной техники.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123833464",
-      "name": "Системный администратор",
-      "company": "ТТК - Тульская табачная компания (ИП Никишкин Аркадий Александрович)",
-      "company_id": "9912115",
-      "company_url": "https://hh.ru/employer/9912115",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1450331.png",
-      "url": "https://hh.ru/vacancy/123833464",
-      "published_at": "2025-08-14T13:44:58+0300",
-      "created_at": "2025-08-14T13:44:58+0300",
-      "area": "Тула",
-      "salary": "60 000 - 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 60000,
-        "to": 80000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание операционных систем Windows. Желателен опыт работы с ККТ (установка, регистрация, замена ФН и пр.). Ответственность, аккуратность, техническая смекалка.",
-      "responsibility": "Поддержка стабильной работы серверов, сетевого оборудования (Windows). Установка, настройка, диагностика и ремонт офисной техники (ПК, принтеры, сканеры). Учет, установка, обслуживание...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124069266",
-      "name": "Системный администратор",
-      "company": "Бристоль, сеть магазинов",
-      "company_id": "1189320",
-      "company_url": "https://hh.ru/employer/1189320",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/60208.jpg",
-      "url": "https://hh.ru/vacancy/124069266",
-      "published_at": "2025-08-14T13:36:57+0300",
-      "created_at": "2025-08-14T13:36:57+0300",
-      "area": "Орел",
-      "salary": "57 100 - 57 100 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 57100,
-        "to": 57100,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в аналогичной должности от 1 года. Профильное среднее или профессиональное образование. Знание и опыт администрирования операционных систем: MS...",
-      "responsibility": "Обеспечение бесперебойной работы розничных магазинов, подготовка и установка всего ИТ оборудования для новых магазинов. Установка 1С 8.3, настройка...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123055571",
-      "name": "Системный администратор/ инженер тех.поддержки",
-      "company": "Холдинговая Компания Тандем",
-      "company_id": "1037920",
-      "company_url": "https://hh.ru/employer/1037920",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/912299.png",
-      "url": "https://hh.ru/vacancy/123055571",
-      "published_at": "2025-08-14T13:29:37+0300",
-      "created_at": "2025-08-14T13:29:37+0300",
-      "area": "Владимир",
-      "salary": "70 000 - 70 000 RUR на руки",
-      "salary_raw": {
-        "from": 70000,
-        "to": 70000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы специалистом технической поддержки или помощником системного администратора не менее 2 лет, с обслуживанием локальных сетей (от 50 компьютеров). -",
-      "responsibility": "Первая линия технической поддержки: Решение проблем сотрудников компании, связанных с доступом к корпоративным сервисам. - Обучение сотрудников работе с корпоративными сервисами...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -10754,6 +10754,39 @@
       "accept_temporary": false
     },
     {
+      "id": "123751352",
+      "name": "Выездной инженер технической поддержки/системный администратор",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/123751352",
+      "published_at": "2025-08-07T14:30:38+0300",
+      "created_at": "2025-08-07T14:30:38+0300",
+      "area": "Котельнич",
+      "salary": "до 10 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": null,
+        "to": 10000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "123751354",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
@@ -10797,39 +10830,6 @@
       "published_at": "2025-08-07T14:30:38+0300",
       "created_at": "2025-08-07T14:30:38+0300",
       "area": "Нурлат",
-      "salary": "до 10 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": null,
-        "to": 10000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
-      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123751352",
-      "name": "Выездной инженер технической поддержки/системный администратор",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123751352",
-      "published_at": "2025-08-07T14:30:38+0300",
-      "created_at": "2025-08-07T14:30:38+0300",
-      "area": "Котельнич",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -25547,72 +25547,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее или средне- специальное образование (преимущественно IT, АСУ). Знание Windows , программы 1С, антивирусного ПО. Опыт работы с ЭЦП, криптопровайдерами.",
       "responsibility": "Поддержка пользователей (установка необходимого ПО, администрирование 1С, решение текущих вопросов). Обслуживание ПК, оргтехники и сопутствующего оборудования. Первичная настройка, установка...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122988755",
-      "name": "Системный администратор - специалист по системам видеонаблюдению",
-      "company": "Каминская Любовь Николаевна",
-      "company_id": "3598336",
-      "company_url": "https://hh.ru/employer/3598336",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1188600.jpeg",
-      "url": "https://hh.ru/vacancy/122988755",
-      "published_at": "2025-07-18T14:17:40+0300",
-      "created_at": "2025-07-18T14:17:40+0300",
-      "area": "Симферополь",
-      "salary": "от 50 000 RUR на руки",
-      "salary_raw": {
-        "from": 50000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с системами видеонаблюдения (установка, настройка). Опыт сборки и настройки ПК, базовых ОС. Желателен опыт в IT-сфере или...",
-      "responsibility": "Установка, настройка и техническое обслуживание систем видеонаблюдения. Подключение камер, видеорегистраторов, серверов хранения. Видео- и физический контроль за работой персонала.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Специалист по информационной безопасности"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122987318",
-      "name": "Помощник системного администратора",
-      "company": "«РАСТР—технология»",
-      "company_id": "1311233",
-      "company_url": "https://hh.ru/employer/1311233",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1008010.JPG",
-      "url": "https://hh.ru/vacancy/122987318",
-      "published_at": "2025-07-18T13:50:36+0300",
-      "created_at": "2025-07-18T13:50:36+0300",
-      "area": "Обнинск",
-      "salary": "50 000 - 70 000 RUR на руки",
-      "salary_raw": {
-        "from": 50000,
-        "to": 70000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "образование не ниже среднего профессионального. - знание всей линейки продуктов Windows 7 -11 на уровне продвинутого пользователя. - инициативность. - стремление к знаниям...",
-      "responsibility": "Монтаж слаботочных кабелей. - Техническая поддержка пользователей. - Техническое обслуживание парка компьютеров и периферийных устройств. - Поддержка работоспособности оборудования. - Настройка рабочих мест, установка...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
