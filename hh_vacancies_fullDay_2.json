@@ -10,16 +10,148 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-17T15:45:44Z",
+  "updated": "2025-08-17T16:50:57Z",
   "statistics": {
-    "total": 793,
-    "with_salary": 627,
-    "companies": 608,
+    "total": 794,
+    "with_salary": 628,
+    "companies": 609,
     "cities": 137,
     "premium": 1,
     "with_test": 7
   },
   "vacancies": [
+    {
+      "id": "124138283",
+      "name": "Системный администратор",
+      "company": "Юпитер",
+      "company_id": "10530047",
+      "company_url": "https://hh.ru/employer/10530047",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1281437.jpg",
+      "url": "https://hh.ru/vacancy/124138283",
+      "published_at": "2025-08-17T19:49:06+0300",
+      "created_at": "2025-08-17T19:49:06+0300",
+      "area": "Рязань",
+      "salary": "до 65 000 RUR на руки",
+      "salary_raw": {
+        "from": null,
+        "to": 65000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "",
+      "responsibility": "",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123918670",
+      "name": "Системный администратор",
+      "company": "Rerooms",
+      "company_id": "2954121",
+      "company_url": "https://hh.ru/employer/2954121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1386305.png",
+      "url": "https://hh.ru/vacancy/123918670",
+      "published_at": "2025-08-17T18:56:46+0300",
+      "created_at": "2025-08-17T18:56:46+0300",
+      "area": "Рязань",
+      "salary": "до 70 000 RUR на руки",
+      "salary_raw": {
+        "from": null,
+        "to": 70000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы системным администратором от 1–2 лет. Уверенное администрирование ОС Windows (клиентские и серверные версии) и/или Linux.",
+      "responsibility": "Организация рабочих мест. Администрирование серверов и сервисов. Учёт материальных ценностей. Техническая поддержка пользователей. Анализ текущих ИТ-процессов и поиск возможностей...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123671556",
+      "name": "Системный администратор",
+      "company": "Программные Информационные Системы",
+      "company_id": "3630681",
+      "company_url": "https://hh.ru/employer/3630681",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/666777.jpg",
+      "url": "https://hh.ru/vacancy/123671556",
+      "published_at": "2025-08-17T18:46:35+0300",
+      "created_at": "2025-08-17T18:46:35+0300",
+      "area": "Магадан",
+      "salary": "от 100 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Желателен опыт работы в следующих областях: Работа в роли системного администратора. Знания компьютерного «железа», его конфигурации и настройки.",
+      "responsibility": "Первая линия поддержки пользователей по работе офисного ПО и оборудования. Участие в проектах развития ИТ-инфраструктуры. Обеспечение бесперебойной работы серверов...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124083184",
+      "name": "Системный администратор",
+      "company": "Группа Компаний МК",
+      "company_id": "11965439",
+      "company_url": "https://hh.ru/employer/11965439",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/124083184",
+      "published_at": "2025-08-17T18:08:07+0300",
+      "created_at": "2025-08-17T18:08:07+0300",
+      "area": "Тула",
+      "salary": "от 75 000 RUR на руки",
+      "salary_raw": {
+        "from": 75000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы системным администратором от 1 года. Уверенные знания Windows 10/11, понимание принципов работы серверов Windows. Навыки базовой настройки...",
+      "responsibility": "Поддержка пользователей 1-й и 2-й линии: диагностика, решение инцидентов, консультации. Базовая поддержка серверов на Windows Server 2016–2022.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123214681",
       "name": "Системный администратор / Монтажник-слаботочник",
@@ -3911,105 +4043,6 @@
       "employment": "Полная занятость",
       "requirement": "Windows Server 2012R2/2016/2019 как платформа виртуализации, кластер Hyper-v + S2D. Конфигурирование сетей L...",
       "responsibility": "Установкой и настройкой серверов, сетевого оборудования, хранилищ данных. Проектированием и поддержкой отказоустойчивых сетевых каналов между распределенными дата-центрами.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123918670",
-      "name": "Системный администратор",
-      "company": "Rerooms",
-      "company_id": "2954121",
-      "company_url": "https://hh.ru/employer/2954121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1386305.png",
-      "url": "https://hh.ru/vacancy/123918670",
-      "published_at": "2025-08-14T18:56:46+0300",
-      "created_at": "2025-08-14T18:56:46+0300",
-      "area": "Рязань",
-      "salary": "до 70 000 RUR на руки",
-      "salary_raw": {
-        "from": null,
-        "to": 70000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы системным администратором от 1–2 лет. Уверенное администрирование ОС Windows (клиентские и серверные версии) и/или Linux.",
-      "responsibility": "Организация рабочих мест. Администрирование серверов и сервисов. Учёт материальных ценностей. Техническая поддержка пользователей. Анализ текущих ИТ-процессов и поиск возможностей...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123671556",
-      "name": "Системный администратор",
-      "company": "Программные Информационные Системы",
-      "company_id": "3630681",
-      "company_url": "https://hh.ru/employer/3630681",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/666777.jpg",
-      "url": "https://hh.ru/vacancy/123671556",
-      "published_at": "2025-08-14T18:46:35+0300",
-      "created_at": "2025-08-14T18:46:35+0300",
-      "area": "Магадан",
-      "salary": "от 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Желателен опыт работы в следующих областях: Работа в роли системного администратора. Знания компьютерного «железа», его конфигурации и настройки.",
-      "responsibility": "Первая линия поддержки пользователей по работе офисного ПО и оборудования. Участие в проектах развития ИТ-инфраструктуры. Обеспечение бесперебойной работы серверов...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124083184",
-      "name": "Системный администратор",
-      "company": "Группа Компаний МК",
-      "company_id": "11965439",
-      "company_url": "https://hh.ru/employer/11965439",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/124083184",
-      "published_at": "2025-08-14T18:08:07+0300",
-      "created_at": "2025-08-14T18:08:07+0300",
-      "area": "Тула",
-      "salary": "от 75 000 RUR на руки",
-      "salary_raw": {
-        "from": 75000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы системным администратором от 1 года. Уверенные знания Windows 10/11, понимание принципов работы серверов Windows. Навыки базовой настройки...",
-      "responsibility": "Поддержка пользователей 1-й и 2-й линии: диагностика, решение инцидентов, консультации. Базовая поддержка серверов на Windows Server 2016–2022.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
