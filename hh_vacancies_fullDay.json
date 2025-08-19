@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-19T19:29:30Z",
+  "updated": "2025-08-19T20:34:38Z",
   "statistics": {
-    "total": 992,
-    "with_salary": 734,
-    "companies": 730,
+    "total": 993,
+    "with_salary": 735,
+    "companies": 731,
     "cities": 220,
     "premium": 0,
     "with_test": 15
   },
   "vacancies": [
+    {
+      "id": "124248583",
+      "name": "Инженер (системный администратор)",
+      "company": "Уфимский гарнизонный военный суд",
+      "company_id": "10742901",
+      "company_url": "https://hh.ru/employer/10742901",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/124248583",
+      "published_at": "2025-08-19T22:35:20+0300",
+      "created_at": "2025-08-19T22:35:20+0300",
+      "area": "Уфа",
+      "salary": "22 000 - 30 000 RUR на руки",
+      "salary_raw": {
+        "from": 22000,
+        "to": 30000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Требования: высшее техническое образование (бакалавриат), либо среднее специальное образование и опыт работы от 3-х лет. Знание и навыки работы...",
+      "responsibility": "Обеспечение функционирования офисного оборудования, оборудования аудио-, видеозаписи судебных заседаний, видео-конференц-связи. Приемка работ по выводу из эксплуатации технических средств...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "124246299",
       "name": "Учитель информатики/системный администратор",
@@ -1550,39 +1583,6 @@
       "accept_temporary": false
     },
     {
-      "id": "123083375",
-      "name": "Системный администратор (на склад)",
-      "company": "Красное & Белое, розничная сеть",
-      "company_id": "1035394",
-      "company_url": "https://hh.ru/employer/1035394",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/90459.jpg",
-      "url": "https://hh.ru/vacancy/123083375",
-      "published_at": "2025-08-19T11:48:51+0300",
-      "created_at": "2025-08-19T11:48:51+0300",
-      "area": "Калининград",
-      "salary": "до 79 000 RUR на руки",
-      "salary_raw": {
-        "from": null,
-        "to": 79000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в аналогичной должности от 1 года. Знание устройства ПК на уровне администратора. Знание офисных и почтовых программ.",
-      "responsibility": "Обслуживание рабочих мест (100 станций), обслуживание оргтехники, контроль работоспособности серверов. Контроль остатков ИТ склада. Проведение локальных ревизий ИТ склада.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "115406932",
       "name": "Системный администратор (на склад)",
       "company": "Красное & Белое, розничная сеть",
@@ -1605,6 +1605,39 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы в аналогичной должности от 1 года. Знание устройства ПК на уровне администратора. Знание офисных и почтовых программ.",
       "responsibility": "Обслуживание рабочих мест (около 100 станций), обслуживание оргтехники, контроль работоспособности серверов. Контроль остатков ИТ склада. Проведение локальных ревизий ИТ склада.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123083375",
+      "name": "Системный администратор (на склад)",
+      "company": "Красное & Белое, розничная сеть",
+      "company_id": "1035394",
+      "company_url": "https://hh.ru/employer/1035394",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/90459.jpg",
+      "url": "https://hh.ru/vacancy/123083375",
+      "published_at": "2025-08-19T11:48:51+0300",
+      "created_at": "2025-08-19T11:48:51+0300",
+      "area": "Калининград",
+      "salary": "до 79 000 RUR на руки",
+      "salary_raw": {
+        "from": null,
+        "to": 79000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в аналогичной должности от 1 года. Знание устройства ПК на уровне администратора. Знание офисных и почтовых программ.",
+      "responsibility": "Обслуживание рабочих мест (100 станций), обслуживание оргтехники, контроль работоспособности серверов. Контроль остатков ИТ склада. Проведение локальных ревизий ИТ склада.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -6878,16 +6911,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124075043",
+      "id": "124075047",
       "name": "Электромеханик связи/системный администратор",
       "company": "Первая Сервисная Компания",
       "company_id": "1480991",
       "company_url": "https://hh.ru/employer/1480991",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
-      "url": "https://hh.ru/vacancy/124075043",
+      "url": "https://hh.ru/vacancy/124075047",
       "published_at": "2025-08-17T15:15:29+0300",
       "created_at": "2025-08-17T15:15:29+0300",
-      "area": "Киргиз-Мияки",
+      "area": "Белорецк",
       "salary": "55 000 - 80 000 RUR на руки",
       "salary_raw": {
         "from": 55000,
@@ -6911,16 +6944,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124075047",
+      "id": "124075043",
       "name": "Электромеханик связи/системный администратор",
       "company": "Первая Сервисная Компания",
       "company_id": "1480991",
       "company_url": "https://hh.ru/employer/1480991",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
-      "url": "https://hh.ru/vacancy/124075047",
+      "url": "https://hh.ru/vacancy/124075043",
       "published_at": "2025-08-17T15:15:29+0300",
       "created_at": "2025-08-17T15:15:29+0300",
-      "area": "Белорецк",
+      "area": "Киргиз-Мияки",
       "salary": "55 000 - 80 000 RUR на руки",
       "salary_raw": {
         "from": 55000,
@@ -12265,16 +12298,16 @@
       "accept_temporary": true
     },
     {
-      "id": "123981578",
+      "id": "123981581",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123981578",
+      "url": "https://hh.ru/vacancy/123981581",
       "published_at": "2025-08-12T18:31:37+0300",
       "created_at": "2025-08-12T18:31:37+0300",
-      "area": "Лесосибирск",
+      "area": "Зима",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -12293,16 +12326,16 @@
       "accept_temporary": true
     },
     {
-      "id": "123981581",
+      "id": "123981578",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123981581",
+      "url": "https://hh.ru/vacancy/123981578",
       "published_at": "2025-08-12T18:31:37+0300",
       "created_at": "2025-08-12T18:31:37+0300",
-      "area": "Зима",
+      "area": "Лесосибирск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -25544,16 +25577,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123345047",
+      "id": "123345049",
       "name": "Системный администратор",
       "company": "ПСКК Машук-Аква-Терм",
       "company_id": "1009313",
       "company_url": "https://hh.ru/employer/1009313",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/617933.png",
-      "url": "https://hh.ru/vacancy/123345047",
+      "url": "https://hh.ru/vacancy/123345049",
       "published_at": "2025-07-29T08:33:08+0300",
       "created_at": "2025-07-29T08:33:08+0300",
-      "area": "Тюмень",
+      "area": "Сургут",
       "salary": "134 000 - 134 000 RUR на руки",
       "salary_raw": {
         "from": 134000,
@@ -25577,16 +25610,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123345049",
+      "id": "123345047",
       "name": "Системный администратор",
       "company": "ПСКК Машук-Аква-Терм",
       "company_id": "1009313",
       "company_url": "https://hh.ru/employer/1009313",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/617933.png",
-      "url": "https://hh.ru/vacancy/123345049",
+      "url": "https://hh.ru/vacancy/123345047",
       "published_at": "2025-07-29T08:33:08+0300",
       "created_at": "2025-07-29T08:33:08+0300",
-      "area": "Сургут",
+      "area": "Тюмень",
       "salary": "134 000 - 134 000 RUR на руки",
       "salary_raw": {
         "from": 134000,
