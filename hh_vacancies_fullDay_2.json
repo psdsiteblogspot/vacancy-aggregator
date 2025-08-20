@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-19T23:44:58Z",
+  "updated": "2025-08-20T02:19:50Z",
   "statistics": {
-    "total": 821,
+    "total": 820,
     "with_salary": 648,
-    "companies": 624,
+    "companies": 623,
     "cities": 143,
     "premium": 0,
     "with_test": 8
   },
   "vacancies": [
+    {
+      "id": "123875539",
+      "name": "Ведущий системный администратор",
+      "company": "Вжух и Суши",
+      "company_id": "5056394",
+      "company_url": "https://hh.ru/employer/5056394",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1394950.png",
+      "url": "https://hh.ru/vacancy/123875539",
+      "published_at": "2025-08-20T03:24:36+0300",
+      "created_at": "2025-08-20T03:24:36+0300",
+      "area": "Владивосток",
+      "salary": "120 000 - 150 000 RUR на руки",
+      "salary_raw": {
+        "from": 120000,
+        "to": 150000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание принципов маршрутизации, модель OSI, стек протоколов TCP/IP. Понимание принципов построения распределенной инфраструктуры. Знание сетевого оборудования Mikrotik.",
+      "responsibility": "Обеспечение бесперебойной работы IT-инфраструктуры компании. Развитие IT-инфраструктуры компании в соответствии с потребностями. Поддержка пользователей.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123498672",
+      "name": "Системный администратор",
+      "company": "Аэровокзал Южно-Сахалинск",
+      "company_id": "6123371",
+      "company_url": "https://hh.ru/employer/6123371",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1096048.png",
+      "url": "https://hh.ru/vacancy/123498672",
+      "published_at": "2025-08-20T03:17:46+0300",
+      "created_at": "2025-08-20T03:17:46+0300",
+      "area": "Южно-Сахалинск",
+      "salary": "150 000 - 210 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 150000,
+        "to": 210000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Среднее специальное образование. Опыт работы с СХД обязателен. Продвинутые навыки работы с системами виртуализации (используем коммерческое Российское решение).",
+      "responsibility": "Обеспечение бесперебойной работы IT инфраструктуры и её сервисов. Участие в проектах по развитию и оптимизации IT-инфраструктуры. Администрирование, конфигурирование виртуальных...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123763768",
       "name": "TechLead/Старший системный администратор",
@@ -11590,39 +11656,6 @@
       "accept_temporary": false
     },
     {
-      "id": "123875539",
-      "name": "Ведущий системный администратор",
-      "company": "Вжух и Суши",
-      "company_id": "5056394",
-      "company_url": "https://hh.ru/employer/5056394",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1394950.png",
-      "url": "https://hh.ru/vacancy/123875539",
-      "published_at": "2025-08-11T09:02:26+0300",
-      "created_at": "2025-08-11T09:02:26+0300",
-      "area": "Владивосток",
-      "salary": "120 000 - 150 000 RUR на руки",
-      "salary_raw": {
-        "from": 120000,
-        "to": 150000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание принципов маршрутизации, модель OSI, стек протоколов TCP/IP. Понимание принципов построения распределенной инфраструктуры. Знание сетевого оборудования Mikrotik.",
-      "responsibility": "Обеспечение бесперебойной работы IT-инфраструктуры компании. Развитие IT-инфраструктуры компании в соответствии с потребностями. Поддержка пользователей.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "118725739",
       "name": "Системный администратор",
       "company": "Гидро-система",
@@ -18694,34 +18727,6 @@
       "accept_temporary": false
     },
     {
-      "id": "123498672",
-      "name": "Системный администратор",
-      "company": "Аэровокзал Южно-Сахалинск",
-      "company_id": "6123371",
-      "company_url": "https://hh.ru/employer/6123371",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1096048.png",
-      "url": "https://hh.ru/vacancy/123498672",
-      "published_at": "2025-08-01T02:26:31+0300",
-      "created_at": "2025-08-01T02:26:31+0300",
-      "area": "Южно-Сахалинск",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Среднее специальное образование. Опыт работы с СХД обязателен. Продвинутые навыки работы с системами виртуализации (используем коммерческое Российское решение).",
-      "responsibility": "Обеспечение бесперебойной работы IT инфраструктуры и её сервисов. Участие в проектах по развитию и оптимизации IT-инфраструктуры. Администрирование, конфигурирование виртуальных...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "121676530",
       "name": "Системный администратор (Иваново)",
       "company": "Компания Гармония",
@@ -19894,39 +19899,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее или среднее образование, профессионально – техническое образование, знание информационных систем и технологий.",
       "responsibility": "Обеспечение стабильной работы оборудования, программного обеспечения, а также безопасности данных и инфраструктуры. Заправка картриджей. Проведение закупочных процедур на поставку комплектующих...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123419710",
-      "name": "Ведущий системный администратор",
-      "company": "РАТИМИР",
-      "company_id": "245167",
-      "company_url": "https://hh.ru/employer/245167",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1405270.png",
-      "url": "https://hh.ru/vacancy/123419710",
-      "published_at": "2025-07-30T12:22:59+0300",
-      "created_at": "2025-07-30T12:22:59+0300",
-      "area": "Владивосток",
-      "salary": "150 000 - 150 000 RUR на руки",
-      "salary_raw": {
-        "from": 150000,
-        "to": 150000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Мы хотим видеть в кандидате: Высшее техническое образование (IT, автоматизация, физико-математические специальности). Отличное знание протоколов TCP/IP и модели...",
-      "responsibility": "Администрирование серверного оборудования на базе Windows Server. Настройка и сопровождение сетевой инфраструктуры (оборудование MikroTik). Управление бизнес-приложениями и внутренними IT...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -22823,6 +22795,34 @@
       "accept_temporary": false
     },
     {
+      "id": "97787508",
+      "name": "Системный администратор",
+      "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
+      "company_id": "1864933",
+      "company_url": "https://hh.ru/employer/1864933",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/657972.png",
+      "url": "https://hh.ru/vacancy/97787508",
+      "published_at": "2025-07-27T10:06:03+0300",
+      "created_at": "2025-07-27T10:06:03+0300",
+      "area": "Саров",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание и навыки обслуживания персональных компьютеров (сборка, замена частей, профилактические работы, выявление проблем). Знания и навыки обслуживания периферийного оборудования (принтеры...",
+      "responsibility": "Администрирование аппаратной части серверного оборудования, рабочих станций, периферийного оборудования, телекоммуникационных узлов (сборка, выявление проблем, замена составных частей). Администрирование операционных систем...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "120542493",
       "name": "Системный администратор",
       "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
@@ -22845,34 +22845,6 @@
       "employment": "Полная занятость",
       "requirement": "Среднее специальное или высшее профильное образование. Знание и понимание функционирования ЛВС, основных протоколов передачи данных. Навыки администрирования ОС Windows.",
       "responsibility": "Администрирование аппаратного и программного обеспечения серверного оборудования, рабочих станций, периферийного оборудования, локальной вычислительной сети (ЛВС), общесистемного программного обеспечения (ОПО).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "97787508",
-      "name": "Системный администратор",
-      "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
-      "company_id": "1864933",
-      "company_url": "https://hh.ru/employer/1864933",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/657972.png",
-      "url": "https://hh.ru/vacancy/97787508",
-      "published_at": "2025-07-27T10:06:03+0300",
-      "created_at": "2025-07-27T10:06:03+0300",
-      "area": "Саров",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание и навыки обслуживания персональных компьютеров (сборка, замена частей, профилактические работы, выявление проблем). Знания и навыки обслуживания периферийного оборудования (принтеры...",
-      "responsibility": "Администрирование аппаратной части серверного оборудования, рабочих станций, периферийного оборудования, телекоммуникационных узлов (сборка, выявление проблем, замена составных частей). Администрирование операционных систем...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -23773,16 +23745,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209750",
+      "id": "123209738",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209750",
+      "url": "https://hh.ru/vacancy/123209738",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Хабаровск",
+      "area": "Липецк",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -23806,16 +23778,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209738",
+      "id": "123209750",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209738",
+      "url": "https://hh.ru/vacancy/123209750",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Липецк",
+      "area": "Хабаровск",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -23872,16 +23844,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209745",
+      "id": "123209744",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209745",
+      "url": "https://hh.ru/vacancy/123209744",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Благовещенск (Амурская область)",
+      "area": "Ярославль",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -23905,16 +23877,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209744",
+      "id": "123209745",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209744",
+      "url": "https://hh.ru/vacancy/123209745",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Ярославль",
+      "area": "Благовещенск (Амурская область)",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
