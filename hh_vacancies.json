@@ -10,16 +10,110 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-20T16:27:02Z",
+  "updated": "2025-08-20T17:19:24Z",
   "statistics": {
-    "total": 1428,
-    "with_salary": 831,
-    "companies": 1145,
+    "total": 1429,
+    "with_salary": 832,
+    "companies": 1146,
     "cities": 75,
     "premium": 1,
     "with_test": 65
   },
   "vacancies": [
+    {
+      "id": "124083517",
+      "name": "Ведущий системный администратор Linux и инфраструктуры виртуализации",
+      "company": "Единый оператор",
+      "company_id": "5095148",
+      "company_url": "https://hh.ru/employer/5095148",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1229242.png",
+      "url": "https://hh.ru/vacancy/124083517",
+      "published_at": "2025-08-20T19:40:05+0300",
+      "created_at": "2025-08-20T19:40:05+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Глубокие знания архитектуры Linux (Gentoo, CentOS, RHEL, Debian, Asta, RedOS). Опыт построения отказоустойчивых кластеров виртуализации на базе решений Linux KVM+Libvirt...",
+      "responsibility": "Управление и поддержка серверной инфраструктуры на базе Linux (CentOS, Debian, Asta, RedOS). Администрирование систем виртуализации: KVM (KVM + libvirt), OpenStack...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124297093",
+      "name": "Системный администратор/IT-специалист",
+      "company": "Георг Полимер",
+      "company_id": "1074173",
+      "company_url": "https://hh.ru/employer/1074173",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/82581.PNG",
+      "url": "https://hh.ru/vacancy/124297093",
+      "published_at": "2025-08-20T19:38:31+0300",
+      "created_at": "2025-08-20T19:38:31+0300",
+      "area": "Подольск (Московская область)",
+      "salary": "от 170 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 170000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Информацией о внутреннем устройстве, особенностях конструкции, технических характеристиках и назначении компьютерного оборудования, коммуникационных систем. Правила эксплуатации, режима работы компьютерной техники...",
+      "responsibility": "Обеспечение бесперебойной работы компьютерной и оргтехники на предприятии. Настройка и обслуживание серверов (Windows Server 2016, физические и виртуальные на Hyper...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124084353",
+      "name": "Младший системный администратор",
+      "company": "Peleton",
+      "company_id": "10962330",
+      "company_url": "https://hh.ru/employer/10962330",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1402606.png",
+      "url": "https://hh.ru/vacancy/124084353",
+      "published_at": "2025-08-20T19:13:32+0300",
+      "created_at": "2025-08-20T19:13:32+0300",
+      "area": "Москва",
+      "salary": "80 000 - 100 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 80000,
+        "to": 100000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы системным администратором от 1 года (как преимущество). Уверенное знание ПК, основного прикладного и офисного ПО. Базовый опыт администрирования...",
+      "responsibility": "Техническая поддержка и модификация работоспособности дилерского центра. Настройка и ремонт персональных компьютеров, подключение рабочих мест. Настройка МФУ, принтеров, плоттеров, видеокамер...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "124084162",
       "name": "Системный администратор",
@@ -408,7 +502,7 @@
       "schedule": "Полный день",
       "employment": "Полная занятость",
       "requirement": "Высшее оконченное образование, аналогичный опыт работы от 3х лет. Хорошие навыки в администрировании серверов Windows, Linux. Опыт поддержки работоспособности...",
-      "responsibility": "Эксплуатация производственных систем, на основе Windows, Linux. Обеспечение стабильной работы, мониторинг, обслуживание и настройка серверов, установка обновлений. Развертывание новых сервисов.",
+      "responsibility": "Эксплуатация производственных систем, на основе Windows, Linux. Обеспечение стабильной работы, мониторинг, обслуживание и настройка серверов, установка обновлений. Развертывание новых сервисов...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -2033,16 +2127,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123610787",
+      "id": "123610791",
       "name": "Дежурный системный администратор (фармацевтический склад)",
       "company": "Фармкомплект",
       "company_id": "84779",
       "company_url": "https://hh.ru/employer/84779",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1396516.png",
-      "url": "https://hh.ru/vacancy/123610787",
+      "url": "https://hh.ru/vacancy/123610791",
       "published_at": "2025-08-20T15:06:15+0300",
       "created_at": "2025-08-20T15:06:15+0300",
-      "area": "Троицк (Москва)",
+      "area": "Крекшино (Московская область)",
       "salary": "от 90 000 RUR на руки",
       "salary_raw": {
         "from": 90000,
@@ -2066,16 +2160,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123610791",
+      "id": "123610787",
       "name": "Дежурный системный администратор (фармацевтический склад)",
       "company": "Фармкомплект",
       "company_id": "84779",
       "company_url": "https://hh.ru/employer/84779",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1396516.png",
-      "url": "https://hh.ru/vacancy/123610791",
+      "url": "https://hh.ru/vacancy/123610787",
       "published_at": "2025-08-20T15:06:15+0300",
       "created_at": "2025-08-20T15:06:15+0300",
-      "area": "Крекшино (Московская область)",
+      "area": "Троицк (Москва)",
       "salary": "от 90 000 RUR на руки",
       "salary_raw": {
         "from": 90000,
@@ -18764,39 +18858,6 @@
       "accept_temporary": false
     },
     {
-      "id": "124084353",
-      "name": "Младший системный администратор",
-      "company": "Peleton",
-      "company_id": "10962330",
-      "company_url": "https://hh.ru/employer/10962330",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1402606.png",
-      "url": "https://hh.ru/vacancy/124084353",
-      "published_at": "2025-08-17T19:13:32+0300",
-      "created_at": "2025-08-17T19:13:32+0300",
-      "area": "Москва",
-      "salary": "80 000 - 100 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 80000,
-        "to": 100000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы системным администратором от 1 года (как преимущество). Уверенное знание ПК, основного прикладного и офисного ПО. Базовый опыт администрирования...",
-      "responsibility": "Техническая поддержка и модификация работоспособности дилерского центра. Настройка и ремонт персональных компьютеров, подключение рабочих мест. Настройка МФУ, принтеров, плоттеров, видеокамер...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "115118016",
       "name": "Системный администратор",
       "company": "КомСтрой",
@@ -20862,34 +20923,6 @@
       "employment": "Полная занятость",
       "requirement": "...точки доступа), понимание работы электронной почты. Готовы обучить с нуля кандидата с профильным образованием и стремлением развиваться как системный администратор.",
       "responsibility": "Администрирование вверенной сетевой инфраструктуры склада, оказание технической поддержки пользователям на местах. Работа с внешними поставщиками (услуг и оборудования).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124083517",
-      "name": "Ведущий системный администратор Linux и инфраструктуры виртуализации",
-      "company": "Единый оператор",
-      "company_id": "5095148",
-      "company_url": "https://hh.ru/employer/5095148",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1229242.png",
-      "url": "https://hh.ru/vacancy/124083517",
-      "published_at": "2025-08-14T18:18:17+0300",
-      "created_at": "2025-08-14T18:18:17+0300",
-      "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Глубокие знания архитектуры Linux (Gentoo, CentOS, RHEL, Debian, Asta, RedOS). Опыт построения отказоустойчивых кластеров виртуализации на базе решений Linux KVM+Libvirt...",
-      "responsibility": "Управление и поддержка серверной инфраструктуры на базе Linux (CentOS, Debian, Asta, RedOS). Администрирование систем виртуализации: KVM (KVM + libvirt), OpenStack...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -42000,39 +42033,6 @@
       "accept_temporary": false
     },
     {
-      "id": "118753262",
-      "name": "Системный администратор Linux",
-      "company": "РостФинанс, КБ",
-      "company_id": "723219",
-      "company_url": "https://hh.ru/employer/723219",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/954470.JPG",
-      "url": "https://hh.ru/vacancy/118753262",
-      "published_at": "2025-07-24T11:29:03+0300",
-      "created_at": "2025-07-24T11:29:03+0300",
-      "area": "Санкт-Петербург",
-      "salary": "от 200 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 200000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Практический опыт и глубокие знания в области систем виртуализации на базе KVM/QEMU. - Глубокое понимание принципов организации сетей передачи данных...",
-      "responsibility": "Проектирование, развертывание, настройка, сопровождение систем виртуализации на базе KVM/QEMU. - Реверс-инжиниринг, документирование и обслуживание кластера Kubernetes. - Автоматизация управления системами...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "117047349",
       "name": "Системный администратор/Ведущий Системный администратор Отдела инфраструктуры",
       "company": "РостФинанс, КБ",
@@ -42055,6 +42055,39 @@
       "employment": "Полная занятость",
       "requirement": "AD, DNS, DHCP, WSUS, KMS, DFS, RDS, App-V). Практический опыт и глубокие знания в областях: - Знания в области администрирования...",
       "responsibility": "Администрирование серверных ОС и сервисов Microsoft. - Участие в администрировании групповых политик (GPO). - Администрирование серверного ПО (MS SQL, MS Exchange, MS...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "118753262",
+      "name": "Системный администратор Linux",
+      "company": "РостФинанс, КБ",
+      "company_id": "723219",
+      "company_url": "https://hh.ru/employer/723219",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/954470.JPG",
+      "url": "https://hh.ru/vacancy/118753262",
+      "published_at": "2025-07-24T11:29:03+0300",
+      "created_at": "2025-07-24T11:29:03+0300",
+      "area": "Санкт-Петербург",
+      "salary": "от 200 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 200000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Практический опыт и глубокие знания в области систем виртуализации на базе KVM/QEMU. - Глубокое понимание принципов организации сетей передачи данных...",
+      "responsibility": "Проектирование, развертывание, настройка, сопровождение систем виртуализации на базе KVM/QEMU. - Реверс-инжиниринг, документирование и обслуживание кластера Kubernetes. - Автоматизация управления системами...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
