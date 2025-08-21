@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-20T23:44:48Z",
+  "updated": "2025-08-21T02:18:34Z",
   "statistics": {
-    "total": 827,
+    "total": 826,
     "with_salary": 645,
-    "companies": 628,
+    "companies": 627,
     "cities": 142,
     "premium": 0,
     "with_test": 8
   },
   "vacancies": [
+    {
+      "id": "123498672",
+      "name": "Системный администратор",
+      "company": "Аэровокзал Южно-Сахалинск",
+      "company_id": "6123371",
+      "company_url": "https://hh.ru/employer/6123371",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1096048.png",
+      "url": "https://hh.ru/vacancy/123498672",
+      "published_at": "2025-08-21T04:20:53+0300",
+      "created_at": "2025-08-21T04:20:53+0300",
+      "area": "Южно-Сахалинск",
+      "salary": "150 000 - 210 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 150000,
+        "to": 210000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Образование не ниже среднего специального образования. Опыт работы с СХД обязателен (используем протокол Fibre Channel). Опыт работы с системами виртуализации...",
+      "responsibility": "Обеспечение бесперебойной работы IT инфраструктуры и её сервисов. Участие в проектах по развитию и оптимизации IT-инфраструктуры. Администрирование, конфигурирование виртуальных...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "124299282",
       "name": "Системный администратор",
@@ -2542,39 +2575,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание принципов маршрутизации, модель OSI, стек протоколов TCP/IP. Понимание принципов построения распределенной инфраструктуры. Знание сетевого оборудования Mikrotik.",
       "responsibility": "Обеспечение бесперебойной работы IT-инфраструктуры компании. Развитие IT-инфраструктуры компании в соответствии с потребностями. Поддержка пользователей.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123498672",
-      "name": "Системный администратор",
-      "company": "Аэровокзал Южно-Сахалинск",
-      "company_id": "6123371",
-      "company_url": "https://hh.ru/employer/6123371",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1096048.png",
-      "url": "https://hh.ru/vacancy/123498672",
-      "published_at": "2025-08-20T03:17:46+0300",
-      "created_at": "2025-08-20T03:17:46+0300",
-      "area": "Южно-Сахалинск",
-      "salary": "150 000 - 210 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 150000,
-        "to": 210000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Среднее специальное образование. Опыт работы с СХД обязателен. Продвинутые навыки работы с системами виртуализации (используем коммерческое Российское решение).",
-      "responsibility": "Обеспечение бесперебойной работы IT инфраструктуры и её сервисов. Участие в проектах по развитию и оптимизации IT-инфраструктуры. Администрирование, конфигурирование виртуальных...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -8527,34 +8527,6 @@
       "accept_temporary": false
     },
     {
-      "id": "119322223",
-      "name": "Системный администратор",
-      "company": "VL.RU",
-      "company_id": "823819",
-      "company_url": "https://hh.ru/employer/823819",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1437251.png",
-      "url": "https://hh.ru/vacancy/119322223",
-      "published_at": "2025-08-15T07:41:51+0300",
-      "created_at": "2025-08-15T07:41:51+0300",
-      "area": "Владивосток",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Умеете писать скрипты на { bash | awk | python }. Работали с системами контроля версий (git). Хорошо знаете Unix-ы (системные вызовы, процессы...",
-      "responsibility": "Linux (CentOS). Nginx и php-fpm. MySQL, MongoDB, Clickhouse, Elasticsearch. Декларативное управление конфигурацией на Puppet. Виртуализация на KVM, а также...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "123869524",
       "name": "Системный администратор",
       "company": "Дальтимбермаш",
@@ -8654,16 +8626,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124085630",
+      "id": "124085632",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124085630",
+      "url": "https://hh.ru/vacancy/124085632",
       "published_at": "2025-08-14T23:05:08+0300",
       "created_at": "2025-08-14T23:05:08+0300",
-      "area": "Заинск",
+      "area": "Ясный (Оренбургская область)",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -8687,16 +8659,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124085632",
+      "id": "124085630",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124085632",
+      "url": "https://hh.ru/vacancy/124085630",
       "published_at": "2025-08-14T23:05:08+0300",
       "created_at": "2025-08-14T23:05:08+0300",
-      "area": "Ясный (Оренбургская область)",
+      "area": "Заинск",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -14554,16 +14526,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123751352",
+      "id": "123751354",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123751352",
+      "url": "https://hh.ru/vacancy/123751354",
       "published_at": "2025-08-07T14:30:38+0300",
       "created_at": "2025-08-07T14:30:38+0300",
-      "area": "Котельнич",
+      "area": "Зуевка",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -14587,16 +14559,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123751354",
+      "id": "123751352",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123751354",
+      "url": "https://hh.ru/vacancy/123751352",
       "published_at": "2025-08-07T14:30:38+0300",
       "created_at": "2025-08-07T14:30:38+0300",
-      "area": "Зуевка",
+      "area": "Котельнич",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
