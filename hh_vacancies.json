@@ -10,16 +10,77 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-21T04:26:07Z",
+  "updated": "2025-08-21T05:21:51Z",
   "statistics": {
-    "total": 1431,
+    "total": 1432,
     "with_salary": 833,
-    "companies": 1147,
+    "companies": 1148,
     "cities": 75,
     "premium": 1,
     "with_test": 66
   },
   "vacancies": [
+    {
+      "id": "124303570",
+      "name": "Системный администратор",
+      "company": "Сентинел Кредит Менеджмент",
+      "company_id": "935653",
+      "company_url": "https://hh.ru/employer/935653",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1419344.png",
+      "url": "https://hh.ru/vacancy/124303570",
+      "published_at": "2025-08-21T07:42:30+0300",
+      "created_at": "2025-08-21T07:42:30+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "VMware vSphere, Horizon, vSAN. Veeam Backup & Replication. Microsoft Windows Server и Exchange. Active Directory, GPO, DHCP, DNS, FS, Print Services...",
+      "responsibility": "Установка, настройка, поддержка серверов MS SQL 2008 – 2019. Создание, настройка планов обслуживания серверов БД (Бэкапы, очистка данных, оповещения, реорганизация индексов...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124172171",
+      "name": "Системный администратор Linux",
+      "company": "СПБ ГБУЗ Городская поликлиника №32",
+      "company_id": "2936499",
+      "company_url": "https://hh.ru/employer/2936499",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1005693.png",
+      "url": "https://hh.ru/vacancy/124172171",
+      "published_at": "2025-08-21T07:37:21+0300",
+      "created_at": "2025-08-21T07:37:21+0300",
+      "area": "Санкт-Петербург",
+      "salary": "от 130 000 RUR на руки",
+      "salary_raw": {
+        "from": 130000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Желание автоматизировать рутинные задачи. Опыт работы с Ansible, Gitlab. Опыт работы со скриптовыми языками Bash, Python. Знание основ коммутации и...",
+      "responsibility": "Администрирование серверов (RHEL derivative). Конфигурировать рабочие места на ASTRA LINUX (Debian based) (130 шт). Настройка сетевого оборудования (Huawei, Eltex).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123286416",
       "name": "Помощник системного администратора",
@@ -3928,39 +3989,6 @@
       "employment": "Полная занятость",
       "requirement": "Уверенное администрирование серверов на базе Linux (Debian, Ubuntu, CentOS, RHEL, в т.ч. Опыт работы с отечественными ОС: Astra Linux...",
       "responsibility": "Администрирование операционных систем на базе Lunix. Администрирование среды виртуализации VMware. Автоматизация процессов администрирования. Сопровождение системы мониторинга. Администрирование Bitrix24.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124172171",
-      "name": "Системный администратор Linux",
-      "company": "СПБ ГБУЗ Городская поликлиника №32",
-      "company_id": "2936499",
-      "company_url": "https://hh.ru/employer/2936499",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1005693.png",
-      "url": "https://hh.ru/vacancy/124172171",
-      "published_at": "2025-08-20T12:00:35+0300",
-      "created_at": "2025-08-20T12:00:35+0300",
-      "area": "Санкт-Петербург",
-      "salary": "от 130 000 RUR на руки",
-      "salary_raw": {
-        "from": 130000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Желание автоматизировать рутинные задачи. Опыт работы с Ansible, Gitlab. Опыт работы со скриптовыми языками Bash, Python. Знание основ коммутации и...",
-      "responsibility": "Администрирование серверов (RHEL derivative). Конфигурировать рабочие места на ASTRA LINUX (Debian based) (130 шт). Настройка сетевого оборудования (Huawei, Eltex).",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -43441,16 +43469,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123120019",
+      "id": "123120018",
       "name": "Системный администратор",
       "company": "МООО ССК КАЛИБР",
       "company_id": "5932092",
       "company_url": "https://hh.ru/employer/5932092",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1418268.png",
-      "url": "https://hh.ru/vacancy/123120019",
+      "url": "https://hh.ru/vacancy/123120018",
       "published_at": "2025-07-22T17:47:57+0300",
       "created_at": "2025-07-22T17:47:57+0300",
-      "area": "Королев (Московская область)",
+      "area": "Мытищи (Московская область)",
       "salary": "от 60 000 RUR на руки",
       "salary_raw": {
         "from": 60000,
@@ -43474,16 +43502,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123120018",
+      "id": "123120019",
       "name": "Системный администратор",
       "company": "МООО ССК КАЛИБР",
       "company_id": "5932092",
       "company_url": "https://hh.ru/employer/5932092",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1418268.png",
-      "url": "https://hh.ru/vacancy/123120018",
+      "url": "https://hh.ru/vacancy/123120019",
       "published_at": "2025-07-22T17:47:57+0300",
       "created_at": "2025-07-22T17:47:57+0300",
-      "area": "Мытищи (Московская область)",
+      "area": "Королев (Московская область)",
       "salary": "от 60 000 RUR на руки",
       "salary_raw": {
         "from": 60000,
