@@ -10,16 +10,77 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-22T13:48:34Z",
+  "updated": "2025-08-22T14:47:38Z",
   "statistics": {
-    "total": 817,
-    "with_salary": 638,
-    "companies": 619,
+    "total": 815,
+    "with_salary": 636,
+    "companies": 618,
     "cities": 143,
     "premium": 0,
     "with_test": 7
   },
   "vacancies": [
+    {
+      "id": "123196707",
+      "name": "Заместитель руководителя IT-отдела (системный администратор)",
+      "company": "Консалтинговая Компания Беркана",
+      "company_id": "3499415",
+      "company_url": "https://hh.ru/employer/3499415",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1393136.png",
+      "url": "https://hh.ru/vacancy/123196707",
+      "published_at": "2025-08-22T17:09:51+0300",
+      "created_at": "2025-08-22T17:09:51+0300",
+      "area": "Ярославль",
+      "salary": "от 100 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 100000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее профессиональное (техническое, математическое, экономическое) образование, стаж работы на аналогичных должностях не менее 3 лет. Знания и опыт в области...",
+      "responsibility": "Доработка, поддержание и продвижение существующих сайтов компании. Проведение рекламных кампаний в ЯндексДиректе. SEO оптимизация. Рисование баннеров, буклетов, визиток.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
+      "id": "121898633",
+      "name": "Младший системный администратор",
+      "company": "Gridnine",
+      "company_id": "63198",
+      "company_url": "https://hh.ru/employer/63198",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1416614.png",
+      "url": "https://hh.ru/vacancy/121898633",
+      "published_at": "2025-08-22T16:53:24+0300",
+      "created_at": "2025-08-22T16:53:24+0300",
+      "area": "Нижний Новгород",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Аккуратность, ответственность, пунктуальность. Умение работать в команде, перенимать опыт и делиться собственным.",
+      "responsibility": "Техническая поддержка, включая профилактику, диагностику и исправление неисправностей. Поддержка и мониторинг парка виртуальных и физических серверов и сервисов.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "124120595",
       "name": "Системный администратор / IT - специалист",
@@ -5738,34 +5799,6 @@
       "accept_temporary": false
     },
     {
-      "id": "121898633",
-      "name": "Младший системный администратор",
-      "company": "Gridnine",
-      "company_id": "63198",
-      "company_url": "https://hh.ru/employer/63198",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1416614.png",
-      "url": "https://hh.ru/vacancy/121898633",
-      "published_at": "2025-08-19T16:53:24+0300",
-      "created_at": "2025-08-19T16:53:24+0300",
-      "area": "Нижний Новгород",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Аккуратность, ответственность, пунктуальность. Умение работать в команде, перенимать опыт и делиться собственным.",
-      "responsibility": "Техническая поддержка, включая профилактику, диагностику и исправление неисправностей. Поддержка и мониторинг парка виртуальных и физических серверов и сервисов.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "124241637",
       "name": "Системный администратор",
       "company": "МАГНИТ, Розничная сеть",
@@ -9967,16 +10000,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124085632",
+      "id": "124085628",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124085632",
+      "url": "https://hh.ru/vacancy/124085628",
       "published_at": "2025-08-14T23:05:08+0300",
       "created_at": "2025-08-14T23:05:08+0300",
-      "area": "Ясный (Оренбургская область)",
+      "area": "Ардатов",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -10000,16 +10033,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124085628",
+      "id": "124085632",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124085628",
+      "url": "https://hh.ru/vacancy/124085632",
       "published_at": "2025-08-14T23:05:08+0300",
       "created_at": "2025-08-14T23:05:08+0300",
-      "area": "Ардатов",
+      "area": "Ясный (Оренбургская область)",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -25343,39 +25376,6 @@
       "accept_temporary": false
     },
     {
-      "id": "123209749",
-      "name": "Выездной инженер технической поддержки/системный администратор",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209749",
-      "published_at": "2025-07-24T15:56:01+0300",
-      "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Южно-Сахалинск",
-      "salary": "до 10 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": null,
-        "to": 10000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
-      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "123209743",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
@@ -25442,16 +25442,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209745",
+      "id": "123209749",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209745",
+      "url": "https://hh.ru/vacancy/123209749",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Благовещенск (Амурская область)",
+      "area": "Южно-Сахалинск",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -25518,6 +25518,39 @@
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
       "area": "Ярославль",
+      "salary": "до 10 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": null,
+        "to": 10000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123209745",
+      "name": "Выездной инженер технической поддержки/системный администратор",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/123209745",
+      "published_at": "2025-07-24T15:56:01+0300",
+      "created_at": "2025-07-24T15:56:01+0300",
+      "area": "Благовещенск (Амурская область)",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -25699,39 +25732,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": false
-    },
-    {
-      "id": "123196707",
-      "name": "Заместитель руководителя IT-отдела (системный администратор)",
-      "company": "Консалтинговая Компания Беркана",
-      "company_id": "3499415",
-      "company_url": "https://hh.ru/employer/3499415",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1393136.png",
-      "url": "https://hh.ru/vacancy/123196707",
-      "published_at": "2025-07-24T13:02:53+0300",
-      "created_at": "2025-07-24T13:02:53+0300",
-      "area": "Ярославль",
-      "salary": "от 100 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 100000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее профессиональное (техническое, математическое, экономическое) образование, стаж работы на аналогичных должностях не менее 3 лет. Знания и опыт в области...",
-      "responsibility": "Доработка, поддержание и продвижение существующих сайтов компании. Проведение рекламных кампаний в ЯндексДиректе. SEO оптимизация. Рисование баннеров, буклетов, визиток.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
     },
     {
       "id": "123196115",
@@ -26010,72 +26010,6 @@
       "employment": "Полная занятость",
       "requirement": "Средне-специальное и (или) высшее образование (преимуществом будет образование в сфере информационных технологий). - Умение самостоятельно искать информацию и решать возникающие...",
       "responsibility": "Поддержка компьютерного оборудования. - Обеспечение бесперебойной работы ИТ- инфраструктуры отделения. - Поддержка локальной сети и серверного оборудования. - Обеспечение информационной безопасности. -",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122355456",
-      "name": "Системный администратор",
-      "company": "ParLi",
-      "company_id": "660033",
-      "company_url": "https://hh.ru/employer/660033",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1219533.png",
-      "url": "https://hh.ru/vacancy/122355456",
-      "published_at": "2025-07-23T17:36:48+0300",
-      "created_at": "2025-07-23T17:36:48+0300",
-      "area": "Казань",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее (техническое) образование, желательно профильное. Опыт аналогичной работы не менее 3-х лет. Опыт обслуживания виртуальной инфраструктуры. Опыт работы c...",
-      "responsibility": "Администрированием серверов на базе Windows Server и функционирующих на них сервисов. Поддержкой виртуальной частной сети (VPN) между территориально-распределенными подразделениями...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123161796",
-      "name": "Помощник системного администратора/Технический специалист",
-      "company": "Страховая бизнес группа",
-      "company_id": "50118",
-      "company_url": "https://hh.ru/employer/50118",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/352443.JPG",
-      "url": "https://hh.ru/vacancy/123161796",
-      "published_at": "2025-07-23T17:26:04+0300",
-      "created_at": "2025-07-23T17:26:04+0300",
-      "area": "Воронеж",
-      "salary": "от 60 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 60000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее техническое образование. Опыт работы на аналогичной должности от двух лет. Знание принципов работы ЛВС, опыт настройки, поддержки много-ранговых...",
-      "responsibility": "Сборка ПК, настройка и выдача рабочих станций Пользователям. Настройка стандартных рабочих мест Пользователей, установка ОС и прикладного ПО.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
