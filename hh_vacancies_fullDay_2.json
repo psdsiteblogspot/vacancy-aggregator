@@ -10,16 +10,115 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-21T23:44:31Z",
+  "updated": "2025-08-22T02:19:26Z",
   "statistics": {
-    "total": 823,
-    "with_salary": 638,
-    "companies": 626,
+    "total": 824,
+    "with_salary": 639,
+    "companies": 627,
     "cities": 143,
     "premium": 0,
     "with_test": 8
   },
   "vacancies": [
+    {
+      "id": "124345177",
+      "name": "Системный администратор",
+      "company": "НОУДО ОЦ Лингва-Плюс",
+      "company_id": "2598769",
+      "company_url": "https://hh.ru/employer/2598769",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1387589.png",
+      "url": "https://hh.ru/vacancy/124345177",
+      "published_at": "2025-08-22T03:53:00+0300",
+      "created_at": "2025-08-22T03:53:00+0300",
+      "area": "Артем",
+      "salary": "60 000 - 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": 80000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание пользовательских и серверных операционных систем (всей линейки Windows). Навыки настройки и обслуживания ПК и периферийных устройств (принтеры, сканеры, МФУ...",
+      "responsibility": "Администрирование компьютерной сети компании. Техническая поддержка пользователей. Установка и настройка ПО, оргтехники. Администрирование сервера и рабочих станций, локальной сети, баз...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123722020",
+      "name": "Системный администратор",
+      "company": "Тирос Сервис",
+      "company_id": "12195854",
+      "company_url": "https://hh.ru/employer/12195854",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/123722020",
+      "published_at": "2025-08-22T03:16:51+0300",
+      "created_at": "2025-08-22T03:16:51+0300",
+      "area": "Владивосток",
+      "salary": "от 75 000 RUR на руки",
+      "salary_raw": {
+        "from": 75000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Навыки обслуживания сервисов: MS AD, MS SQL Server, кластера 1C, кластера отказоустойчивости MS, кластера RDS, системы виртуализации Hyper-V.",
+      "responsibility": "Системное администрирование парка компьютеров и серверов. Настройка, поддержка АРМ и оргтехники. Поддержка пользователей в части эксплуатации ИТ-оборудования и основных...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124344929",
+      "name": "Системный администратор",
+      "company": "Владлинк",
+      "company_id": "4527132",
+      "company_url": "https://hh.ru/employer/4527132",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1236664.png",
+      "url": "https://hh.ru/vacancy/124344929",
+      "published_at": "2025-08-22T02:52:11+0300",
+      "created_at": "2025-08-22T02:52:11+0300",
+      "area": "Владивосток",
+      "salary": "80 000 - 150 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": 150000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание ОС Linux на уровне администратора. Стек сетевых протоколов TCP/IP, понимание ЛВС. Опыт работы с оборудованием mikrotik, dlink.",
+      "responsibility": "Поддержка серверов Баз Данных (Mysql, PostgreSQL, Clickhouse). Поддержка и развитие CI/CD (GitlabCI, Ansible). Администрирование системы мониторинга Zabbix, написание скриптов.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Сетевой инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "124342355",
       "name": "Системный администратор",
@@ -6355,39 +6454,6 @@
       "employment": "Полная занятость",
       "requirement": "Среднее профессиональное образование. Умение работать в команде, слышать и выполнять поручения. Желание обучаться и разбираться в поставленных задачах.",
       "responsibility": "Выполнять поручения системного администратора. Следить за своевременным оформлением ЭЦП у сотрудников, устанавливать их на компьютер служащих.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123722020",
-      "name": "Системный администратор",
-      "company": "Тирос Сервис",
-      "company_id": "12195854",
-      "company_url": "https://hh.ru/employer/12195854",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/123722020",
-      "published_at": "2025-08-19T03:16:51+0300",
-      "created_at": "2025-08-19T03:16:51+0300",
-      "area": "Владивосток",
-      "salary": "от 75 000 RUR на руки",
-      "salary_raw": {
-        "from": 75000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Навыки обслуживания сервисов: MS AD, MS SQL Server, кластера 1C, кластера отказоустойчивости MS, кластера RDS, системы виртуализации Hyper-V.",
-      "responsibility": "Системное администрирование парка компьютеров и серверов. Настройка, поддержка АРМ и оргтехники. Поддержка пользователей в части эксплуатации ИТ-оборудования и основных...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -25196,16 +25262,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209745",
+      "id": "123209737",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209745",
+      "url": "https://hh.ru/vacancy/123209737",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Благовещенск (Амурская область)",
+      "area": "Курск",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -25229,16 +25295,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123209737",
+      "id": "123209745",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123209737",
+      "url": "https://hh.ru/vacancy/123209745",
       "published_at": "2025-07-24T15:56:01+0300",
       "created_at": "2025-07-24T15:56:01+0300",
-      "area": "Курск",
+      "area": "Благовещенск (Амурская область)",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -26211,39 +26277,6 @@
       "employment": "Частичная занятость",
       "requirement": "Образование ИТ-технологии. MS Server 2019, Active Directory, Asterisk, системы резервного копирования, сетевые протоколы и технологии, принципы работы маршрутизаторов, коммутаторов...",
       "responsibility": "Поддержка ИТ-структуры: Поддержка ИТ-структуры. Обслуживание СКС. Систем видеонаблюдения. Программного обеспечения. Поддержка пользователей. Поддержание в рабочем состоянии оргтехники.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123123942",
-      "name": "Системный администратор",
-      "company": "Земля леопарда, ФГБУ",
-      "company_id": "1197407",
-      "company_url": "https://hh.ru/employer/1197407",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/123123942",
-      "published_at": "2025-07-23T04:23:44+0300",
-      "created_at": "2025-07-23T04:23:44+0300",
-      "area": "Владивосток",
-      "salary": "от 70 000 RUR на руки",
-      "salary_raw": {
-        "from": 70000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Специальность по образованию: автоматические системы управления. Английский - базовый. Общие знания 1С и Linux. Готовность к командировкам в с.Барабаш.",
-      "responsibility": "Поддерживать бесперебойную работу серверов и техники. Обеспечивать сотрудников необходимым оборудованием. Осуществлять контроль и обеспечивать информационную безопасность. Администрирование серверов, рабочих станций...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
