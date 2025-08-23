@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-23T16:39:04Z",
+  "updated": "2025-08-23T17:31:37Z",
   "statistics": {
-    "total": 954,
-    "with_salary": 711,
-    "companies": 712,
-    "cities": 214,
+    "total": 951,
+    "with_salary": 708,
+    "companies": 710,
+    "cities": 212,
     "premium": 0,
     "with_test": 14
   },
   "vacancies": [
+    {
+      "id": "123671798",
+      "name": "Системный администратор",
+      "company": "MediaSniper",
+      "company_id": "3305220",
+      "company_url": "https://hh.ru/employer/3305220",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1360484.jpg",
+      "url": "https://hh.ru/vacancy/123671798",
+      "published_at": "2025-08-23T19:04:29+0300",
+      "created_at": "2025-08-23T19:04:29+0300",
+      "area": "Волгоград",
+      "salary": "от 114 942 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 114942,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знания сетевых технологий (стек TCP/IP, инфраструктурные сервисы DNS/DHCP/SMB и др). Опыт работы с Active Directory, Group Policy...",
+      "responsibility": "Установка, настройка и поддержка ОС Windows (10/11, Server) и офисного ПО (Microsoft Office, Outlook,). Администрирование Active Directory (создание/удаление...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123669734",
       "name": "Специалист по обслуживанию майнинг ферм / Системный администратор",
@@ -6554,39 +6587,6 @@
       "employment": "Полная занятость",
       "requirement": "Имел начальный опыт в администрировании OC семейства Windows. Понимал работу стека протоколов TCP/IP, основных сетевых сервисов. Имел начальный опыт...",
       "responsibility": "Обслуживание компьютеров. Техническая поддержка пользователей. Диагностика и устранение неисправностей компьютеров и оргтехники.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123671798",
-      "name": "Системный администратор",
-      "company": "MediaSniper",
-      "company_id": "3305220",
-      "company_url": "https://hh.ru/employer/3305220",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1360484.jpg",
-      "url": "https://hh.ru/vacancy/123671798",
-      "published_at": "2025-08-20T19:04:29+0300",
-      "created_at": "2025-08-20T19:04:29+0300",
-      "area": "Волгоград",
-      "salary": "от 114 942 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 114942,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знания сетевых технологий (стек TCP/IP, инфраструктурные сервисы DNS/DHCP/SMB и др). Опыт работы с Active Directory, Group Policy...",
-      "responsibility": "Установка, настройка и поддержка ОС Windows (10/11, Server) и офисного ПО (Microsoft Office, Outlook,). Администрирование Active Directory (создание/удаление...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -19735,39 +19735,6 @@
       "accept_temporary": false
     },
     {
-      "id": "123748436",
-      "name": "Системный администратор",
-      "company": "Новая Магистраль",
-      "company_id": "11346718",
-      "company_url": "https://hh.ru/employer/11346718",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/123748436",
-      "published_at": "2025-08-07T13:40:30+0300",
-      "created_at": "2025-08-07T13:40:30+0300",
-      "area": "Нижняя Тура",
-      "salary": "от 60 000 RUR на руки",
-      "salary_raw": {
-        "from": 60000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Среднее профессиональное образование/высшее по направлению - информационные технологии. Стаж работы от 3х лет. Глубокое понимание IT-систем, сетей, инфраструктуры.",
-      "responsibility": "Развитие и сопровождение IT-инфраструктуры компании. Сбор и анализ исходных данных. Согласование, координация и сопровождение проектов по созданию и развитию...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "123745573",
       "name": "Системный администратор 1С 1 категории",
       "company": "Флот НМТП",
@@ -24264,6 +24231,34 @@
       "accept_temporary": false
     },
     {
+      "id": "123503336",
+      "name": "Системный администратор/инженер (IT-аутсорсинг)",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/123503336",
+      "published_at": "2025-08-01T08:27:29+0300",
+      "created_at": "2025-08-01T08:27:29+0300",
+      "area": "Кондопога",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Установка и настройка OC Windows, а также офисных приложений. Установка и настройка различного рода ПО. Подключение и настройка периферийного оборудования...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "123503335",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
@@ -24358,34 +24353,6 @@
       "published_at": "2025-08-01T08:27:29+0300",
       "created_at": "2025-08-01T08:27:29+0300",
       "area": "Заполярный",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
-      "responsibility": "Установка и настройка OC Windows, а также офисных приложений. Установка и настройка различного рода ПО. Подключение и настройка периферийного оборудования...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123503336",
-      "name": "Системный администратор/инженер (IT-аутсорсинг)",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123503336",
-      "published_at": "2025-08-01T08:27:29+0300",
-      "created_at": "2025-08-01T08:27:29+0300",
-      "area": "Кондопога",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -24600,16 +24567,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123503351",
+      "id": "123503347",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123503351",
+      "url": "https://hh.ru/vacancy/123503347",
       "published_at": "2025-08-01T08:27:29+0300",
       "created_at": "2025-08-01T08:27:29+0300",
-      "area": "Чернушка",
+      "area": "Сегежа",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -24628,16 +24595,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123503347",
+      "id": "123503351",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123503347",
+      "url": "https://hh.ru/vacancy/123503351",
       "published_at": "2025-08-01T08:27:29+0300",
       "created_at": "2025-08-01T08:27:29+0300",
-      "area": "Сегежа",
+      "area": "Чернушка",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -27888,16 +27855,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123345049",
+      "id": "123345047",
       "name": "Системный администратор",
       "company": "ПСКК Машук-Аква-Терм",
       "company_id": "1009313",
       "company_url": "https://hh.ru/employer/1009313",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/617933.png",
-      "url": "https://hh.ru/vacancy/123345049",
+      "url": "https://hh.ru/vacancy/123345047",
       "published_at": "2025-07-29T08:33:08+0300",
       "created_at": "2025-07-29T08:33:08+0300",
-      "area": "Сургут",
+      "area": "Тюмень",
       "salary": "134 000 - 134 000 RUR на руки",
       "salary_raw": {
         "from": 134000,
@@ -27921,16 +27888,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123345047",
+      "id": "123345049",
       "name": "Системный администратор",
       "company": "ПСКК Машук-Аква-Терм",
       "company_id": "1009313",
       "company_url": "https://hh.ru/employer/1009313",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/617933.png",
-      "url": "https://hh.ru/vacancy/123345047",
+      "url": "https://hh.ru/vacancy/123345049",
       "published_at": "2025-07-29T08:33:08+0300",
       "created_at": "2025-07-29T08:33:08+0300",
-      "area": "Тюмень",
+      "area": "Сургут",
       "salary": "134 000 - 134 000 RUR на руки",
       "salary_raw": {
         "from": 134000,
@@ -30211,72 +30178,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы в области администрирования от одного года. Знание технического английского. Навыки работы с сетевым и телекоммуникационным оборудованием.",
       "responsibility": "Сопровождение и поддержка систем (1С, Cognos, Lotus Notes, CMS Bitrix/Wix, KES). Администрирование облачной инфраструктуры (VMWare, KVM).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120231474",
-      "name": "Системный администратор",
-      "company": "ЮжФарм",
-      "company_id": "1509494",
-      "company_url": "https://hh.ru/employer/1509494",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/301369.png",
-      "url": "https://hh.ru/vacancy/120231474",
-      "published_at": "2025-07-24T19:37:03+0300",
-      "created_at": "2025-07-24T19:37:03+0300",
-      "area": "Крымск",
-      "salary": "от 86 200 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 86200,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание ОС линейки Windows, Windows Server, ОС Linux Ubuntu и прочие приветствуются.",
-      "responsibility": "Осуществление ИТ поддержки пользователей (ServiceDesk). Администрирование Active Directory, DNS, DHCP, GPO. Администрирование и настройка активного сетевого оборудования Mikrotik, UniFi.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120231473",
-      "name": "Системный администратор",
-      "company": "ЮжФарм",
-      "company_id": "1509494",
-      "company_url": "https://hh.ru/employer/1509494",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/301369.png",
-      "url": "https://hh.ru/vacancy/120231473",
-      "published_at": "2025-07-24T19:36:26+0300",
-      "created_at": "2025-07-24T19:36:26+0300",
-      "area": "Славянск-на-Кубани",
-      "salary": "от 86 200 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 86200,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание ОС линейки Windows, Windows Server, ОС Linux Ubuntu и прочие приветствуются.",
-      "responsibility": "Осуществление ИТ поддержки пользователей (ServiceDesk). Администрирование Active Directory, DNS, DHCP, GPO. Администрирование и настройка активного сетевого оборудования Mikrotik, UniFi.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
