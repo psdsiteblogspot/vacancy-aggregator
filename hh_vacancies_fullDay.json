@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-24T02:26:02Z",
+  "updated": "2025-08-24T03:58:08Z",
   "statistics": {
-    "total": 951,
+    "total": 950,
     "with_salary": 708,
-    "companies": 710,
+    "companies": 709,
     "cities": 212,
     "premium": 0,
     "with_test": 14
   },
   "vacancies": [
+    {
+      "id": "123444542",
+      "name": "Системный администратор",
+      "company": "Управление Росреестра по Омской области",
+      "company_id": "12183744",
+      "company_url": "https://hh.ru/employer/12183744",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/123444542",
+      "published_at": "2025-08-24T05:35:48+0300",
+      "created_at": "2025-08-24T05:35:48+0300",
+      "area": "Омск",
+      "salary": "от 50 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 50000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Углубленное знания операционных систем Windows и Astra Linux. Понимание работы технологии виртуальных машин. Понимание принципов работы сетевых протоколов.",
+      "responsibility": "Установка и настройка операционных систем Windows и Astra Linux. Администрирование и поддержка серверов и рабочих станций(Windows и Astra Linux).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123671798",
       "name": "Системный администратор",
@@ -6432,39 +6465,6 @@
       "employment": "Полная занятость",
       "requirement": "средне-специальное, высшее образование в области информационных технологий. - Знание в совершенстве семейство ОС Windows. - Знание и умение работать с сервером...",
       "responsibility": "Администрирование серверов на базе семейства Windows. - Монтаж локальной сети университета, настройка и установка беспроводных точек доступа. - Поддержка системы видеонаблюдения (настройка...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123444542",
-      "name": "Системный администратор",
-      "company": "Управление Росреестра по Омской области",
-      "company_id": "12183744",
-      "company_url": "https://hh.ru/employer/12183744",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/123444542",
-      "published_at": "2025-08-21T05:35:48+0300",
-      "created_at": "2025-08-21T05:35:48+0300",
-      "area": "Омск",
-      "salary": "от 50 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 50000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Углубленное знания операционных систем Windows и Astra Linux. Понимание работы технологии виртуальных машин. Понимание принципов работы сетевых протоколов.",
-      "responsibility": "Установка и настройка операционных систем Windows и Astra Linux. Администрирование и поддержка серверов и рабочих станций(Windows и Astra Linux).",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -29587,16 +29587,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123260230",
+      "id": "123260233",
       "name": "Системный администратор/старший техник",
       "company": "ЭйчарОсы",
       "company_id": "10017002",
       "company_url": "https://hh.ru/employer/10017002",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1408404.png",
-      "url": "https://hh.ru/vacancy/123260230",
+      "url": "https://hh.ru/vacancy/123260233",
       "published_at": "2025-07-25T14:56:25+0300",
       "created_at": "2025-07-25T14:56:25+0300",
-      "area": "Тюмень",
+      "area": "Екатеринбург",
       "salary": "от 240 000 RUR на руки",
       "salary_raw": {
         "from": 240000,
@@ -29620,16 +29620,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123260233",
+      "id": "123260230",
       "name": "Системный администратор/старший техник",
       "company": "ЭйчарОсы",
       "company_id": "10017002",
       "company_url": "https://hh.ru/employer/10017002",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1408404.png",
-      "url": "https://hh.ru/vacancy/123260233",
+      "url": "https://hh.ru/vacancy/123260230",
       "published_at": "2025-07-25T14:56:25+0300",
       "created_at": "2025-07-25T14:56:25+0300",
-      "area": "Екатеринбург",
+      "area": "Тюмень",
       "salary": "от 240 000 RUR на руки",
       "salary_raw": {
         "from": 240000,
@@ -30150,34 +30150,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее образование по направлению деятельности. Знание серверного и сетевого оборудования. Знание модели OSI и стека протоколов TCP/IP, DNS, VLAN...",
       "responsibility": "Администрирование серверного оборудования вендоров HPE и DELL, виртуализация – VMWare. Администрирование серверной инфраструктуры на базе MS Windows (Active Directory, DNS, DHCP...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123220152",
-      "name": "Системный администратор (Senior)",
-      "company": "НЛ Континент",
-      "company_id": "706928",
-      "company_url": "https://hh.ru/employer/706928",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1389591.png",
-      "url": "https://hh.ru/vacancy/123220152",
-      "published_at": "2025-07-25T06:44:03+0300",
-      "created_at": "2025-07-25T06:44:03+0300",
-      "area": "Новосибирск",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в области администрирования от одного года. Знание технического английского. Навыки работы с сетевым и телекоммуникационным оборудованием.",
-      "responsibility": "Сопровождение и поддержка систем (1С, Cognos, Lotus Notes, CMS Bitrix/Wix, KES). Администрирование облачной инфраструктуры (VMWare, KVM).",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
