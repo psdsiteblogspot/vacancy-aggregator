@@ -10,16 +10,115 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-24T05:36:38Z",
+  "updated": "2025-08-24T06:44:43Z",
   "statistics": {
-    "total": 948,
-    "with_salary": 706,
-    "companies": 707,
-    "cities": 212,
+    "total": 945,
+    "with_salary": 704,
+    "companies": 705,
+    "cities": 211,
     "premium": 0,
     "with_test": 14
   },
   "vacancies": [
+    {
+      "id": "123223788",
+      "name": "Системный администратор",
+      "company": "ГБУЗ НСО Городская клиническая больница № 25",
+      "company_id": "1319959",
+      "company_url": "https://hh.ru/employer/1319959",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/123223788",
+      "published_at": "2025-08-24T08:37:53+0300",
+      "created_at": "2025-08-24T08:37:53+0300",
+      "area": "Новосибирск",
+      "salary": "от 74 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 74000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее техническое образование (возможно также студенты последних курсов технического направления). Опыт системного администрирования. Знания (ОС АЛЬТ 8 СП) на уровне...",
+      "responsibility": "Устанавливает на серверы и рабочие станции системное и прикладное программное обеспечение, производит их настройку в соответствии с задачами, выполняемыми в...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123289826",
+      "name": "Системный администратор",
+      "company": "АНО ДПО «Открытый научно-технологический университет»",
+      "company_id": "4319660",
+      "company_url": "https://hh.ru/employer/4319660",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1432919.png",
+      "url": "https://hh.ru/vacancy/123289826",
+      "published_at": "2025-08-24T08:25:48+0300",
+      "created_at": "2025-08-24T08:25:48+0300",
+      "area": "Стерлитамак",
+      "salary": "от 50 000 RUR на руки",
+      "salary_raw": {
+        "from": 50000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы на позиции системного администратора. Пунктуальность, ответственность, дисциплинированность, исполнительность, самодисциплина. Грамотная речь, владение основами делового письма. Способность к быстрому...",
+      "responsibility": "Выполнение работ по администрированию активного сетевого оборудования, серверов, рабочих мест пользователей (20 пользователей). Диагностика, устранение сбоев, обеспечение бесперебойной работы, надежности...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124304488",
+      "name": "Системный администратор",
+      "company": "ПКФ Бест Софт",
+      "company_id": "2093981",
+      "company_url": "https://hh.ru/employer/2093981",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/767757.png",
+      "url": "https://hh.ru/vacancy/124304488",
+      "published_at": "2025-08-24T08:12:46+0300",
+      "created_at": "2025-08-24T08:12:46+0300",
+      "area": "Астрахань",
+      "salary": "40 000 - 40 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 40000,
+        "to": 40000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знания и опыт работы с ОС Windows (клиентские версии) на уровне администратора. Понимание основ работы с Active Directory.",
+      "responsibility": "Мониторинг серверов и сетевого оборудования. Базовое администрирование 1С. Взаимодействие с системным администратором по задачам 2-й линии.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "104872878",
       "name": "Системный администратор",
@@ -6240,39 +6339,6 @@
       "accept_temporary": false
     },
     {
-      "id": "123289826",
-      "name": "Системный администратор",
-      "company": "АНО ДПО «Открытый научно-технологический университет»",
-      "company_id": "4319660",
-      "company_url": "https://hh.ru/employer/4319660",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1432919.png",
-      "url": "https://hh.ru/vacancy/123289826",
-      "published_at": "2025-08-21T08:25:48+0300",
-      "created_at": "2025-08-21T08:25:48+0300",
-      "area": "Стерлитамак",
-      "salary": "от 50 000 RUR на руки",
-      "salary_raw": {
-        "from": 50000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы на позиции системного администратора. Пунктуальность, ответственность, дисциплинированность, исполнительность, самодисциплина. Грамотная речь, владение основами делового письма. Способность к быстрому...",
-      "responsibility": "Выполнение работ по администрированию активного сетевого оборудования, серверов, рабочих мест пользователей (20 пользователей). Диагностика, устранение сбоев, обеспечение бесперебойной работы, надежности...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "124304820",
       "name": "Старший системный администратор",
       "company": "Грин Рэй Кубань",
@@ -6328,39 +6394,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание технологий построения сетей. Опыт работы от 3 лет. Высшее, среднее профессиональное образование.",
       "responsibility": "Администрирование сети офиса. Администрирование, настройка и обслуживание серверов на базе MS Windows Server. Администрирование IP Телефонии Asterisk. Администрирование Active Directory.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124304488",
-      "name": "Системный администратор",
-      "company": "ПКФ Бест Софт",
-      "company_id": "2093981",
-      "company_url": "https://hh.ru/employer/2093981",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/767757.png",
-      "url": "https://hh.ru/vacancy/124304488",
-      "published_at": "2025-08-21T08:12:46+0300",
-      "created_at": "2025-08-21T08:12:46+0300",
-      "area": "Астрахань",
-      "salary": "40 000 - 40 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 40000,
-        "to": 40000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знания и опыт работы с ОС Windows (клиентские версии) на уровне администратора. Понимание основ работы с Active Directory.",
-      "responsibility": "Мониторинг серверов и сетевого оборудования. Базовое администрирование 1С. Взаимодействие с системным администратором по задачам 2-й линии.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -29957,133 +29990,6 @@
       "employment": "Частичная занятость",
       "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
       "responsibility": "Установка и настройка OC Windows, а также офисных приложений. Установка и настройка различного рода ПО. Подключение и настройка периферийного оборудования...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123226535",
-      "name": "Системный администратор (Linux/Windows)",
-      "company": "ГСП ЦЕНТР",
-      "company_id": "10760320",
-      "company_url": "https://hh.ru/employer/10760320",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/123226535",
-      "published_at": "2025-07-25T09:35:09+0300",
-      "created_at": "2025-07-25T09:35:09+0300",
-      "area": "Уфа",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Уверенные знания принципов функционирования леса Active Directory. Знания серверных технологий Microsoft (AD, DNS, DHCP, NPS, ADFS, Terminal. Services).",
-      "responsibility": "Обеспечение бесперебойного функционирования ИТ-сервисов и служб в. Соответствии с SLA. Поддержка и обслуживание IT-инфраструктуры компании. Настройка и администрирование...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123226405",
-      "name": "Системный администратор",
-      "company": "Краснодарский компрессорный завод",
-      "company_id": "851281",
-      "company_url": "https://hh.ru/employer/851281",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/682393.jpg",
-      "url": "https://hh.ru/vacancy/123226405",
-      "published_at": "2025-07-25T09:32:57+0300",
-      "created_at": "2025-07-25T09:32:57+0300",
-      "area": "Краснодар",
-      "salary": "от 65 000 RUR на руки",
-      "salary_raw": {
-        "from": 65000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание ИТ-поддержке, сопровождение Windows-систем. Знание аппаратной части вычислительной и орг. техники. Навыки первичной диагностики неисправности компьютера и периферийного...",
-      "responsibility": "Поддержка и сопровождение парка компьютерной техники и периферийного оборудования. Устранение ошибок и инцидентов с программным обеспечением в зоне ответственности подразделения.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "118658055",
-      "name": "Системный администратор",
-      "company": "КУБ",
-      "company_id": "5592745",
-      "company_url": "https://hh.ru/employer/5592745",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1268854.jpg",
-      "url": "https://hh.ru/vacancy/118658055",
-      "published_at": "2025-07-25T08:48:35+0300",
-      "created_at": "2025-07-25T08:48:35+0300",
-      "area": "Черняховск",
-      "salary": "80 500 - 80 500 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 80500,
-        "to": 80500,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание продуктов Microsoft: Windows, Office, Server, Exchange, Active Directory. Знание систем резервного копирования (Veeam). Знания линеек ноутбуков (HP, Acer, Lenovo).",
-      "responsibility": "Развертывание и поддержка ПК пользователей на базе MS Windows 11/10/7. Техническая поддержка (1 линия) 60+ пользователей, удаленных...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123223788",
-      "name": "Системный администратор",
-      "company": "ГБУЗ НСО Городская клиническая больница № 25",
-      "company_id": "1319959",
-      "company_url": "https://hh.ru/employer/1319959",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/123223788",
-      "published_at": "2025-07-25T08:37:52+0300",
-      "created_at": "2025-07-25T08:37:52+0300",
-      "area": "Новосибирск",
-      "salary": "от 74 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 74000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее техническое образование (возможно также студенты последних курсов технического направления). Опыт системного администрирования. Знания (ОС АЛЬТ 8 СП) на уровне...",
-      "responsibility": "Устанавливает на серверы и рабочие станции системное и прикладное программное обеспечение, производит их настройку в соответствии с задачами, выполняемыми в...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
