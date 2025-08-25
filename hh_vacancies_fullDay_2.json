@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-25T02:24:48Z",
+  "updated": "2025-08-25T03:37:17Z",
   "statistics": {
-    "total": 770,
-    "with_salary": 599,
-    "companies": 600,
+    "total": 771,
+    "with_salary": 600,
+    "companies": 601,
     "cities": 140,
     "premium": 0,
     "with_test": 7
   },
   "vacancies": [
+    {
+      "id": "124408657",
+      "name": "Системный администратор",
+      "company": "КГБУЗ ККПБ",
+      "company_id": "4341239",
+      "company_url": "https://hh.ru/employer/4341239",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/124408657",
+      "published_at": "2025-08-25T05:59:08+0300",
+      "created_at": "2025-08-25T05:59:08+0300",
+      "area": "Хабаровск",
+      "salary": "до 60 000 RUR на руки",
+      "salary_raw": {
+        "from": null,
+        "to": 60000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Наличие санитарной книжки. Прохождение предварительного медицинского осмотра. Образование средне-техническое, высшее.",
+      "responsibility": "Конфигурирует и оптимизирует сеть и серверы. Обеспечивает резервное копирование баз данных. Обеспечивает бесперебойную работу сети, серверного оборудования и персональных компьютеров.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122204066",
+      "name": "Системный администратор",
+      "company": "ГБУЗ Самарская городская клиническая больница №2 имени Н.А. Семашко",
+      "company_id": "2919562",
+      "company_url": "https://hh.ru/employer/2919562",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/436833.jpg",
+      "url": "https://hh.ru/vacancy/122204066",
+      "published_at": "2025-08-25T05:46:18+0300",
+      "created_at": "2025-08-25T05:46:18+0300",
+      "area": "Самара",
+      "salary": "от 40 000 RUR на руки",
+      "salary_raw": {
+        "from": 40000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Навыки работы в IT выше уверенного пользователя. Знания настройки ОС Windows и работы основных офисных программ. В/о.",
+      "responsibility": "Работа в медицинских информационных системах (ЕМИАС). Консультация пользователей по работе с ПК и МИС. Решение текущих ошибок МИС. Обслуживание оргтехники.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "119943020",
       "name": "Системный администратор",
@@ -2034,39 +2100,6 @@
       "employment": "Полная занятость",
       "requirement": "Виртуализация (Hyper-V, VMware, KVM). Если ваши навыки теоретические, рабочие окружения скромные, но имеется опыт работы в тестовых окружениях, либо...",
       "responsibility": "Сетевое администрирование (настройка и обслуживание сетей, VPN различных видов и конфигураций, сетевая безопасность, firewall; в основном работа с продуктами MikroTik...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122204066",
-      "name": "Системный администратор",
-      "company": "ГБУЗ Самарская городская клиническая больница №2 имени Н.А. Семашко",
-      "company_id": "2919562",
-      "company_url": "https://hh.ru/employer/2919562",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/436833.jpg",
-      "url": "https://hh.ru/vacancy/122204066",
-      "published_at": "2025-08-22T14:48:51+0300",
-      "created_at": "2025-08-22T14:48:51+0300",
-      "area": "Самара",
-      "salary": "от 40 000 RUR на руки",
-      "salary_raw": {
-        "from": 40000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Навыки работы в IT выше уверенного пользователя. Знания настройки ОС Windows и работы основных офисных программ. В/о.",
-      "responsibility": "Работа в медицинских информационных системах (ЕМИАС). Консультация пользователей по работе с ПК и МИС. Решение текущих ошибок МИС. Обслуживание оргтехники.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -20505,16 +20538,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123503345",
+      "id": "123503353",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123503345",
+      "url": "https://hh.ru/vacancy/123503353",
       "published_at": "2025-08-01T08:27:29+0300",
       "created_at": "2025-08-01T08:27:29+0300",
-      "area": "Пугачев",
+      "area": "Советский (Республика Марий Эл)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -20533,16 +20566,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123503353",
+      "id": "123503345",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123503353",
+      "url": "https://hh.ru/vacancy/123503345",
       "published_at": "2025-08-01T08:27:29+0300",
       "created_at": "2025-08-01T08:27:29+0300",
-      "area": "Советский (Республика Марий Эл)",
+      "area": "Пугачев",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
