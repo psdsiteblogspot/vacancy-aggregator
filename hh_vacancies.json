@@ -10,16 +10,44 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-26T17:18:51Z",
+  "updated": "2025-08-26T18:30:04Z",
   "statistics": {
-    "total": 1431,
-    "with_salary": 829,
-    "companies": 1142,
+    "total": 1430,
+    "with_salary": 828,
+    "companies": 1141,
     "cities": 78,
     "premium": 0,
     "with_test": 67
   },
   "vacancies": [
+    {
+      "id": "123074914",
+      "name": "Системный Администратор (офисных систем)",
+      "company": "Системы Коммуникаций",
+      "company_id": "10993734",
+      "company_url": "https://hh.ru/employer/10993734",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1278614.jpg",
+      "url": "https://hh.ru/vacancy/123074914",
+      "published_at": "2025-08-26T21:26:01+0300",
+      "created_at": "2025-08-26T21:26:01+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Понимание работы стека протоколов TCP/IP и модели OSI. Опыт работы с серверными платформами ОС Linux, Windows. Навыки администрирования и...",
+      "responsibility": "Администрирование офисной и облачной инфраструктуры на базе ОС Linux и Windows. Администрирование Naumen ServiceDesk. Администрирование инфраструктуры почтовых серверов.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "124513038",
       "name": "Системный администратор / Техническая поддержка (в офисе)",
@@ -482,7 +510,7 @@
     },
     {
       "id": "124510417",
-      "name": "Системный администратор",
+      "name": "Младший системный администратор",
       "company": "Созвездие Красоты - Smart Buy",
       "company_id": "7923",
       "company_url": "https://hh.ru/employer/7923",
@@ -20183,39 +20211,6 @@
       "accept_temporary": false
     },
     {
-      "id": "124296171",
-      "name": "Системный администратор в ветеринарную клинику",
-      "company": "Ветеринарная клиника ТерраВЕТ",
-      "company_id": "3652337",
-      "company_url": "https://hh.ru/employer/3652337",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/124296171",
-      "published_at": "2025-08-20T18:34:30+0300",
-      "created_at": "2025-08-20T18:34:30+0300",
-      "area": "Балашиха (Московская область)",
-      "salary": "50 000 - 70 000 RUR на руки",
-      "salary_raw": {
-        "from": 50000,
-        "to": 70000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы системным администратором от 1 года. Знание базовых принципов администрирования Windows, сетей, периферийного оборудования. Умение работать с пользователями, объяснять...",
-      "responsibility": "Поддержка IT-инфраструктуры клиники, работа с пользователями. Физическое присутствие в клинике не реже 2 раз в неделю (при необходимости — чаще).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "124295449",
       "name": "Системный администратор DevOps",
       "company": "СЕРКОНС",
@@ -36178,16 +36173,16 @@
       "accept_temporary": true
     },
     {
-      "id": "123702545",
+      "id": "123702541",
       "name": "Системный администратор",
       "company": "Управляющая Компания Южная Долина",
       "company_id": "4309115",
       "company_url": "https://hh.ru/employer/4309115",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/123702545",
+      "url": "https://hh.ru/vacancy/123702541",
       "published_at": "2025-08-06T14:05:25+0300",
       "created_at": "2025-08-06T14:05:25+0300",
-      "area": "Колтуши",
+      "area": "Янино-1",
       "salary": "90 000 - 100 000 RUR на руки",
       "salary_raw": {
         "from": 90000,
@@ -36211,16 +36206,16 @@
       "accept_temporary": true
     },
     {
-      "id": "123702541",
+      "id": "123702545",
       "name": "Системный администратор",
       "company": "Управляющая Компания Южная Долина",
       "company_id": "4309115",
       "company_url": "https://hh.ru/employer/4309115",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/123702541",
+      "url": "https://hh.ru/vacancy/123702545",
       "published_at": "2025-08-06T14:05:25+0300",
       "created_at": "2025-08-06T14:05:25+0300",
-      "area": "Янино-1",
+      "area": "Колтуши",
       "salary": "90 000 - 100 000 RUR на руки",
       "salary_raw": {
         "from": 90000,
@@ -36508,34 +36503,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123074914",
-      "name": "Системный Администратор (офисных систем)",
-      "company": "Системы Коммуникаций",
-      "company_id": "10993734",
-      "company_url": "https://hh.ru/employer/10993734",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1278614.jpg",
-      "url": "https://hh.ru/vacancy/123074914",
-      "published_at": "2025-08-06T12:21:16+0300",
-      "created_at": "2025-08-06T12:21:16+0300",
-      "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Понимание работы стека протоколов TCP/IP и модели OSI. Опыт работы с серверными платформами ОС Linux, Windows. Навыки администрирования и...",
-      "responsibility": "Администрирование офисной и облачной инфраструктуры на базе ОС Linux и Windows. Администрирование Naumen ServiceDesk. Администрирование инфраструктуры почтовых серверов.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
       ],
       "has_test": false,
       "premium": false,
