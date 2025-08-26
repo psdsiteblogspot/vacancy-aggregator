@@ -10,16 +10,303 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-26T05:47:14Z",
+  "updated": "2025-08-26T06:55:35Z",
   "statistics": {
-    "total": 808,
-    "with_salary": 625,
-    "companies": 632,
+    "total": 814,
+    "with_salary": 629,
+    "companies": 638,
     "cities": 141,
     "premium": 0,
     "with_test": 8
   },
   "vacancies": [
+    {
+      "id": "124477353",
+      "name": "Младший системный администратор",
+      "company": "Моё дело",
+      "company_id": "130150",
+      "company_url": "https://hh.ru/employer/130150",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/248554.jpg",
+      "url": "https://hh.ru/vacancy/124477353",
+      "published_at": "2025-08-26T09:52:10+0300",
+      "created_at": "2025-08-26T09:52:10+0300",
+      "area": "Пенза",
+      "salary": "от 55 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 55000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "",
+      "responsibility": "",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124477184",
+      "name": "Ведущий системный администратор (информационная безопасность)",
+      "company": "ФГБОУ ВО Дальневосточный Государственный Университет Путей Сообщения",
+      "company_id": "2965594",
+      "company_url": "https://hh.ru/employer/2965594",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/124477184",
+      "published_at": "2025-08-26T09:49:49+0300",
+      "created_at": "2025-08-26T09:49:49+0300",
+      "area": "Хабаровск",
+      "salary": "90 000 - 90 000 RUR на руки",
+      "salary_raw": {
+        "from": 90000,
+        "to": 90000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее профессиональное образование по специальности \"Информационная безопасность\".",
+      "responsibility": "Настройка и обслуживание средств корпоративной антивирусной защиты, средств защиты от НСД. Настройка групповых политик корпоративных доменов. Настройка и обслуживание криптошлюзов...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Специалист по информационной безопасности"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123364635",
+      "name": "Системный администратор",
+      "company": "Полад",
+      "company_id": "577051",
+      "company_url": "https://hh.ru/employer/577051",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1385326.png",
+      "url": "https://hh.ru/vacancy/123364635",
+      "published_at": "2025-08-26T09:48:43+0300",
+      "created_at": "2025-08-26T09:48:43+0300",
+      "area": "Тольятти",
+      "salary": "от 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в указанной сфере от 1 года . Среднее специальное/высшее образование.",
+      "responsibility": "Установка и настройка рабочих станций пользователей — Windows. Поддержка пользователей на местах —Windows. Работа с системами управления базами данных.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124297279",
+      "name": "Системный администратор",
+      "company": "ПромМаркет",
+      "company_id": "2844612",
+      "company_url": "https://hh.ru/employer/2844612",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1237916.png",
+      "url": "https://hh.ru/vacancy/124297279",
+      "published_at": "2025-08-26T09:43:21+0300",
+      "created_at": "2025-08-26T09:43:21+0300",
+      "area": "Казань",
+      "salary": "100 000 - 100 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": 100000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее профильное образование. Опыт работы от 3х лет. Базовые знания 1С бухгалтерии/коммуникации с отделом 1С.",
+      "responsibility": "Установка и настройка серверов,компьютеров,сетевого оборудования. Управление серверным программным обеспечением (базы данных). Настройка коммутаторов ,принтеров. Ремонт компьютеров (частично).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124476512",
+      "name": "Системный администратор - специалист по системам видеонаблюдению",
+      "company": "Каминская Любовь Николаевна",
+      "company_id": "3598336",
+      "company_url": "https://hh.ru/employer/3598336",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1188600.jpeg",
+      "url": "https://hh.ru/vacancy/124476512",
+      "published_at": "2025-08-26T09:40:55+0300",
+      "created_at": "2025-08-26T09:40:55+0300",
+      "area": "Симферополь",
+      "salary": "от 50 000 RUR на руки",
+      "salary_raw": {
+        "from": 50000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы с системами видеонаблюдения (установка, настройка). Опыт сборки и настройки ПК, базовых ОС. Желателен опыт в IT-сфере или...",
+      "responsibility": "Установка, настройка и техническое обслуживание систем видеонаблюдения. Подключение камер, видеорегистраторов, серверов хранения. Видео- и физический контроль за работой персонала.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Специалист по информационной безопасности"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124475873",
+      "name": "Системный администратор (приходящий)",
+      "company": "ВОГ, Торговая компания",
+      "company_id": "90597",
+      "company_url": "https://hh.ru/employer/90597",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1405867.png",
+      "url": "https://hh.ru/vacancy/124475873",
+      "published_at": "2025-08-26T09:31:09+0300",
+      "created_at": "2025-08-26T09:31:09+0300",
+      "area": "Самара",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Диагностика неисправностей ПК и ОС Windows. Уверенная работа в MS Office.",
+      "responsibility": "Установка и настройка ОС Windows и сопутствующих программ. Выявления неисправностей сети (мелкий ремонт без применения строительных инструментов). Обслуживание (поддержание в...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
+      "id": "124474092",
+      "name": "Системный администратор",
+      "company": "Землянскмолоко",
+      "company_id": "804677",
+      "company_url": "https://hh.ru/employer/804677",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/393669.jpg",
+      "url": "https://hh.ru/vacancy/124474092",
+      "published_at": "2025-08-26T09:06:35+0300",
+      "created_at": "2025-08-26T09:06:35+0300",
+      "area": "Воронеж",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание принципов работы рядовых компьютеров и серверов. - Знание локальных и глобальных сетей на уровнях L2 и L3. -",
+      "responsibility": "Построение сетей на основе ActiveDirectory (конфигурация, доменные политики). - Исследование и улучшение существующей структуры, поиск ошибок, анализ потребностей пользователей и реализация...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124473821",
+      "name": "Системный администратор",
+      "company": "Дом Книги, Книготорговая сеть",
+      "company_id": "113756",
+      "company_url": "https://hh.ru/employer/113756",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1393687.png",
+      "url": "https://hh.ru/vacancy/124473821",
+      "published_at": "2025-08-26T09:02:22+0300",
+      "created_at": "2025-08-26T09:02:22+0300",
+      "area": "Казань",
+      "salary": "от 70 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 70000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знания в области технических и программных средств. Знания принципов построения локальных сетей. Знания и навыки администрирования Windows, сетевого оборудования.",
+      "responsibility": "Обработка запросов в системе Service Desk, внутренняя поддержка пользователей. Выполнение заявок в соответствии со сроками и приоритетами. Установка, настройка, диагностика...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124472949",
+      "name": "Системный администратор",
+      "company": "КАМАЗ",
+      "company_id": "52951",
+      "company_url": "https://hh.ru/employer/52951",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/220451.jpg",
+      "url": "https://hh.ru/vacancy/124472949",
+      "published_at": "2025-08-26T08:48:19+0300",
+      "created_at": "2025-08-26T08:48:19+0300",
+      "area": "Набережные Челны",
+      "salary": "70 000 - 90 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 70000,
+        "to": 90000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Приоритетное право на трудоустройство. Бесплатное участие в различных форумах, направленных на профессиональную ориентацию.",
+      "responsibility": "Тех поддержка IT инфраструктуры сервисного центра ТФК КАМАЗ. Тех поддержка пользователей. Установка и настройка операционной системы и ПО.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123432926",
       "name": "Ведущий инженер (системный администратор)",
@@ -43,6 +330,39 @@
       "employment": "Полная занятость",
       "requirement": "Высшее образование - бакалавриат, магистратура, специалитет. Ведущий инженер должен знать: Общие принципы функционирования аппаратных, программных и программно-аппаратных средств администрируемой сети.",
       "responsibility": "Установка персональных компьютеров, подключение периферийных и абонентских устройств. Управление доступом к программно-аппаратным средствам и информационных служб инфокоммуникационной системы.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124254858",
+      "name": "Помощник системного администратора",
+      "company": "Айти Бюро",
+      "company_id": "3037696",
+      "company_url": "https://hh.ru/employer/3037696",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1365458.jpg",
+      "url": "https://hh.ru/vacancy/124254858",
+      "published_at": "2025-08-26T08:11:28+0300",
+      "created_at": "2025-08-26T08:11:28+0300",
+      "area": "Набережные Челны",
+      "salary": "60 000 - 65 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": 65000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Практический опыт работы с ОС Windows и аппаратным обеспечением ПК. Базовые знания сетевых технологий и принципов шифрования данных.",
+      "responsibility": "Формат работы - разъездной. Наличие личного авто обязательно! Настройка и обслуживание банковских POS-терминалов. Диагностика и ремонт оборудования. Ведение учета активов...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -4791,39 +5111,6 @@
       "accept_temporary": false
     },
     {
-      "id": "122132752",
-      "name": "Системный администратор",
-      "company": "Красное & Белое, розничная сеть",
-      "company_id": "1035394",
-      "company_url": "https://hh.ru/employer/1035394",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/90459.jpg",
-      "url": "https://hh.ru/vacancy/122132752",
-      "published_at": "2025-08-23T10:01:21+0300",
-      "created_at": "2025-08-23T10:01:21+0300",
-      "area": "Уссурийск",
-      "salary": "от 120 000 RUR на руки",
-      "salary_raw": {
-        "from": 120000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в аналогичной должности. Знание офисных и почтовых программ. Опыт программного и аппаратного ремонта. Понимание устройства локальных сетей и...",
-      "responsibility": "Обслуживание ПК и орг. техники, торгового оборудования, систем видеонаблюдения на магазинах торговой сети.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "123630291",
       "name": "Системный администратор",
       "company": "Оздоровительный Центр",
@@ -4882,39 +5169,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный аналитик"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124254858",
-      "name": "Помощник системного администратора",
-      "company": "Айти Бюро",
-      "company_id": "3037696",
-      "company_url": "https://hh.ru/employer/3037696",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1365458.jpg",
-      "url": "https://hh.ru/vacancy/124254858",
-      "published_at": "2025-08-23T08:11:28+0300",
-      "created_at": "2025-08-23T08:11:28+0300",
-      "area": "Набережные Челны",
-      "salary": "60 000 - 65 000 RUR на руки",
-      "salary_raw": {
-        "from": 60000,
-        "to": 65000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Практический опыт работы с ОС Windows и аппаратным обеспечением ПК. Базовые знания сетевых технологий и принципов шифрования данных.",
-      "responsibility": "Формат работы - разъездной. Наличие личного авто обязательно! Настройка и обслуживание банковских POS-терминалов. Диагностика и ремонт оборудования. Ведение учета активов...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
       ],
       "has_test": false,
       "premium": false,
@@ -6868,39 +7122,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы в сфере системного администрирования не менее 3 лет. Знание инфраструктуры на базе Windows (AD, DNS, DHCP, GPO).",
       "responsibility": "Обеспечение бесперебойной работы инфраструктуры компании, поиск и устранение проблем. Развитие инфраструктуры компании в соответствии с потребностями. Управление и поддержка серверов...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124297279",
-      "name": "Системный администратор",
-      "company": "ПромМаркет",
-      "company_id": "2844612",
-      "company_url": "https://hh.ru/employer/2844612",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1237916.png",
-      "url": "https://hh.ru/vacancy/124297279",
-      "published_at": "2025-08-20T19:59:55+0300",
-      "created_at": "2025-08-20T19:59:55+0300",
-      "area": "Казань",
-      "salary": "100 000 - 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": 100000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее профильное образование. Опыт работы от 3х лет. Базовые знания 1С бухгалтерии/коммуникации с отделом 1С.",
-      "responsibility": "Установка и настройка серверов,компьютеров,сетевого оборудования. Управление серверным программным обеспечением (базы данных). Настройка коммутаторов ,принтеров. Ремонт компьютеров (частично).",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -24225,39 +24446,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы по указанным в перечне обязанностям – от 3-х лет. Крайне желателен также опыт работы в среде разработки Borland...",
       "responsibility": "Поддержание работоспособности технического и сетевого оборудования, подключение, монтаж и настройка ЛВС (локально вычислительных сетей). Ремонт компьютеров, оргтехники, сборка ПК, заказ...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123364635",
-      "name": "Системный администратор",
-      "company": "Полад",
-      "company_id": "577051",
-      "company_url": "https://hh.ru/employer/577051",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1385326.png",
-      "url": "https://hh.ru/vacancy/123364635",
-      "published_at": "2025-07-29T12:51:50+0300",
-      "created_at": "2025-07-29T12:51:50+0300",
-      "area": "Тольятти",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в указанной сфере от 1 года . Среднее специальное/высшее образование.",
-      "responsibility": "Установка и настройка рабочих станций пользователей — Windows. Поддержка пользователей на местах —Windows. Работа с системами управления базами данных.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
