@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-26T16:42:26Z",
+  "updated": "2025-08-26T17:35:04Z",
   "statistics": {
-    "total": 955,
-    "with_salary": 719,
-    "companies": 722,
+    "total": 956,
+    "with_salary": 720,
+    "companies": 723,
     "cities": 209,
     "premium": 0,
     "with_test": 12
   },
   "vacancies": [
+    {
+      "id": "124513083",
+      "name": "Системный администратор",
+      "company": "Golden Tulip Krasnodar",
+      "company_id": "3407779",
+      "company_url": "https://hh.ru/employer/3407779",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1443598.png",
+      "url": "https://hh.ru/vacancy/124513083",
+      "published_at": "2025-08-26T19:41:32+0300",
+      "created_at": "2025-08-26T19:41:32+0300",
+      "area": "Краснодар",
+      "salary": "45 000 - 45 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 45000,
+        "to": 45000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Владение техническим английским языком. Умение работать в режиме многозадачности. Знание гостиничных программ Fidelio или Opera PMS будет Вашим существенным преимуществом.",
+      "responsibility": "Диагностика и устранение неисправностей СКС, в серверном оборудовании и ЛВС, прикладном ПО и ОС. Реагирование на аварийные ситуации, оперативное устранение...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123671798",
+      "name": "Системный администратор",
+      "company": "MediaSniper",
+      "company_id": "3305220",
+      "company_url": "https://hh.ru/employer/3305220",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1360484.jpg",
+      "url": "https://hh.ru/vacancy/123671798",
+      "published_at": "2025-08-26T19:04:29+0300",
+      "created_at": "2025-08-26T19:04:29+0300",
+      "area": "Волгоград",
+      "salary": "от 114 942 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 114942,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знания сетевых технологий (стек TCP/IP, инфраструктурные сервисы DNS/DHCP/SMB и др). Опыт работы с Active Directory, Group Policy...",
+      "responsibility": "Установка, настройка и поддержка ОС Windows (10/11, Server) и офисного ПО (Microsoft Office, Outlook,). Администрирование Active Directory (создание/удаление...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "124510919",
       "name": "Системный администратор",
@@ -8428,39 +8494,6 @@
       "employment": "Полная занятость",
       "requirement": "Углубленное знания операционных систем Windows и Astra Linux. Понимание работы технологии виртуальных машин. Понимание принципов работы сетевых протоколов.",
       "responsibility": "Установка и настройка операционных систем Windows и Astra Linux. Администрирование и поддержка серверов и рабочих станций(Windows и Astra Linux).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123671798",
-      "name": "Системный администратор",
-      "company": "MediaSniper",
-      "company_id": "3305220",
-      "company_url": "https://hh.ru/employer/3305220",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1360484.jpg",
-      "url": "https://hh.ru/vacancy/123671798",
-      "published_at": "2025-08-23T19:04:29+0300",
-      "created_at": "2025-08-23T19:04:29+0300",
-      "area": "Волгоград",
-      "salary": "от 114 942 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 114942,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знания сетевых технологий (стек TCP/IP, инфраструктурные сервисы DNS/DHCP/SMB и др). Опыт работы с Active Directory, Group Policy...",
-      "responsibility": "Установка, настройка и поддержка ОС Windows (10/11, Server) и офисного ПО (Microsoft Office, Outlook,). Администрирование Active Directory (создание/удаление...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -29086,16 +29119,16 @@
       "accept_temporary": true
     },
     {
-      "id": "123358238",
+      "id": "123358236",
       "name": "Приходящий системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123358238",
+      "url": "https://hh.ru/vacancy/123358236",
       "published_at": "2025-07-29T11:28:00+0300",
       "created_at": "2025-07-29T11:28:00+0300",
-      "area": "Томск",
+      "area": "Магнитогорск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -29114,16 +29147,16 @@
       "accept_temporary": true
     },
     {
-      "id": "123358236",
+      "id": "123358238",
       "name": "Приходящий системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123358236",
+      "url": "https://hh.ru/vacancy/123358238",
       "published_at": "2025-07-29T11:28:00+0300",
       "created_at": "2025-07-29T11:28:00+0300",
-      "area": "Магнитогорск",
+      "area": "Томск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
