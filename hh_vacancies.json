@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-26T18:30:04Z",
+  "updated": "2025-08-26T19:17:06Z",
   "statistics": {
     "total": 1430,
     "with_salary": 828,
@@ -20,6 +20,67 @@
     "with_test": 67
   },
   "vacancies": [
+    {
+      "id": "122868284",
+      "name": "Системный администратор Linux (инфраструктура прямых трансляций)",
+      "company": "Okko",
+      "company_id": "1375441",
+      "company_url": "https://hh.ru/employer/1375441",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/834295.png",
+      "url": "https://hh.ru/vacancy/122868284",
+      "published_at": "2025-08-26T22:12:39+0300",
+      "created_at": "2025-08-26T22:12:39+0300",
+      "area": "Санкт-Петербург",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт администрирования linux-серверов от 3-х лет. Опыт работы с системами мониторинга: Zabbix, Prometheus, Grafana. Понимание важности и необходимости...",
+      "responsibility": "Администрирование кодирующих и пакетирующих серверов, серверов раздачи и кеширования видео в нескольких дата центрах. Установка, обновление и настройка операционных систем...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124298016",
+      "name": "System Administrator/SRE (работа по графику офиса США)",
+      "company": "Americor Funding Inc",
+      "company_id": "4354272",
+      "company_url": "https://hh.ru/employer/4354272",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/690861.png",
+      "url": "https://hh.ru/vacancy/124298016",
+      "published_at": "2025-08-26T21:43:13+0300",
+      "created_at": "2025-08-26T21:43:13+0300",
+      "area": "Москва",
+      "salary": "4 500 - 7 000 USD до вычета налогов",
+      "salary_raw": {
+        "from": 4500,
+        "to": 7000,
+        "currency": "USD",
+        "gross": true
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "5+ лет опыта поддержки высокодоступной инфраструктуры в условиях высокой нагрузки. Экспертные знания в системах Linux и веб-стеке (Nginx...",
+      "responsibility": "Операционные системы: CentOS / AlmaLinux OS. Хранение данных: GlusterFS. Инструменты мониторинга: Datadog, Sentry, Pingdom. IaC: Terraform, Ansible. Система оповещения: OpsGenie.",
+      "type": "Открытая",
+      "professional_roles": [
+        "DevOps-инженер"
+      ],
+      "has_test": true,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123074914",
       "name": "Системный Администратор (офисных систем)",
@@ -1797,16 +1858,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124502342",
+      "id": "124502343",
       "name": "Системный администратор",
       "company": "Честный Тариф",
       "company_id": "9076770",
       "company_url": "https://hh.ru/employer/9076770",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/124502342",
+      "url": "https://hh.ru/vacancy/124502343",
       "published_at": "2025-08-26T15:12:50+0300",
       "created_at": "2025-08-26T15:12:50+0300",
-      "area": "Химки (Московская область)",
+      "area": "Солнечногорск (Московская область)",
       "salary": "90 000 - 100 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 90000,
@@ -1830,16 +1891,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124502343",
+      "id": "124502342",
       "name": "Системный администратор",
       "company": "Честный Тариф",
       "company_id": "9076770",
       "company_url": "https://hh.ru/employer/9076770",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/124502343",
+      "url": "https://hh.ru/vacancy/124502342",
       "published_at": "2025-08-26T15:12:50+0300",
       "created_at": "2025-08-26T15:12:50+0300",
-      "area": "Солнечногорск (Московская область)",
+      "area": "Химки (Московская область)",
       "salary": "90 000 - 100 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 90000,
@@ -16258,39 +16319,6 @@
         "Системный администратор"
       ],
       "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124298016",
-      "name": "System Administrator/SRE (работа по графику офиса США)",
-      "company": "Americor Funding Inc",
-      "company_id": "4354272",
-      "company_url": "https://hh.ru/employer/4354272",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/690861.png",
-      "url": "https://hh.ru/vacancy/124298016",
-      "published_at": "2025-08-23T21:43:13+0300",
-      "created_at": "2025-08-23T21:43:13+0300",
-      "area": "Москва",
-      "salary": "4 500 - 7 000 USD до вычета налогов",
-      "salary_raw": {
-        "from": 4500,
-        "to": 7000,
-        "currency": "USD",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "5+ лет опыта поддержки высокодоступной инфраструктуры в условиях высокой нагрузки. Экспертные знания в системах Linux и веб-стеке (Nginx...",
-      "responsibility": "Операционные системы: CentOS / AlmaLinux OS. Хранение данных: GlusterFS. Инструменты мониторинга: Datadog, Sentry, Pingdom. IaC: Terraform, Ansible. Система оповещения: OpsGenie.",
-      "type": "Открытая",
-      "professional_roles": [
-        "DevOps-инженер"
-      ],
-      "has_test": true,
       "premium": false,
       "accept_handicapped": false,
       "accept_kids": false,
@@ -34658,34 +34686,6 @@
       "employment": "Полная занятость",
       "requirement": "Профессиональное знание Linux (Ubuntu). Понимание принципов работы Minio и опыт построения кластеров Minio. Глубокое понимание сетевых технологий (TCP/IP, DNS...",
       "responsibility": "Управление и поддержка высоконагруженных систем на базе Linux (Ubuntu). Настройка и поддержка объектного хранилища Minio. Сегментация сети: проектирование, настройка и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122868284",
-      "name": "Системный администратор Linux (инфраструктура прямых трансляций)",
-      "company": "Okko",
-      "company_id": "1375441",
-      "company_url": "https://hh.ru/employer/1375441",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/834295.png",
-      "url": "https://hh.ru/vacancy/122868284",
-      "published_at": "2025-08-07T19:09:09+0300",
-      "created_at": "2025-08-07T19:09:09+0300",
-      "area": "Санкт-Петербург",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт администрирования linux-серверов от 3-х лет. Опыт работы с системами мониторинга: Zabbix, Prometheus, Grafana. Понимание важности и необходимости...",
-      "responsibility": "Администрирование кодирующих и пакетирующих серверов, серверов раздачи и кеширования видео в нескольких дата центрах. Установка, обновление и настройка операционных систем...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
