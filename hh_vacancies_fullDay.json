@@ -10,16 +10,77 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-27T04:39:37Z",
+  "updated": "2025-08-27T05:35:39Z",
   "statistics": {
-    "total": 955,
-    "with_salary": 720,
-    "companies": 723,
+    "total": 948,
+    "with_salary": 713,
+    "companies": 718,
     "cities": 209,
     "premium": 0,
     "with_test": 12
   },
   "vacancies": [
+    {
+      "id": "122601634",
+      "name": "Системный администратор",
+      "company": "Торговый Центр Омский",
+      "company_id": "898636",
+      "company_url": "https://hh.ru/employer/898636",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1282020.png",
+      "url": "https://hh.ru/vacancy/122601634",
+      "published_at": "2025-08-27T07:45:43+0300",
+      "created_at": "2025-08-27T07:45:43+0300",
+      "area": "Омск",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы с 1С от 3 до 6 лет. Глубокие знания конфигураций 1С: ЗУП и Управление торговлей, бухгалтерия.",
+      "responsibility": "Разработка и поддержка конфигураций 1С: ЗУП и Управление торговлей, бухгалтерия. Интеграция 1С с другими системами и сервисами.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Программист, разработчик"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "121447160",
+      "name": "Системный администратор",
+      "company": "DIKo",
+      "company_id": "1129349",
+      "company_url": "https://hh.ru/employer/1129349",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1419347.png",
+      "url": "https://hh.ru/vacancy/121447160",
+      "published_at": "2025-08-27T07:43:35+0300",
+      "created_at": "2025-08-27T07:43:35+0300",
+      "area": "Екатеринбург",
+      "salary": "от 60 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "DIKO – федеральный IT-интегратор с 20-летним опытом. Умеет так настроить систему, чтобы пользователи говорили: \"Работает как часы!\".",
+      "responsibility": "Видит в каждом сбое вызов, а не проблему. Обеспечение стабильной работы it-инфраструктуры компании. Обеспечение бесперебойной работы программных и аппаратных...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Программист, разработчик"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "120054197",
       "name": "Системный администратор Linux-серверов",
@@ -6481,34 +6542,6 @@
       "accept_temporary": false
     },
     {
-      "id": "122601634",
-      "name": "Системный администратор",
-      "company": "Торговый Центр Омский",
-      "company_id": "898636",
-      "company_url": "https://hh.ru/employer/898636",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1282020.png",
-      "url": "https://hh.ru/vacancy/122601634",
-      "published_at": "2025-08-25T08:52:07+0300",
-      "created_at": "2025-08-25T08:52:07+0300",
-      "area": "Омск",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с 1С от 3 до 6 лет. Глубокие знания конфигураций 1С: ЗУП и Управление торговлей, бухгалтерия.",
-      "responsibility": "Разработка и поддержка конфигураций 1С: ЗУП и Управление торговлей, бухгалтерия. Интеграция 1С с другими системами и сервисами.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Программист, разработчик"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "124414547",
       "name": "Системный администратор",
       "company": "BEERhouse",
@@ -6552,10 +6585,10 @@
       "published_at": "2025-08-25T08:50:55+0300",
       "created_at": "2025-08-25T08:50:55+0300",
       "area": "Екатеринбург",
-      "salary": "45 000 - 54 000 RUR на руки",
+      "salary": "60 000 - 72 000 RUR на руки",
       "salary_raw": {
-        "from": 45000,
-        "to": 54000,
+        "from": 60000,
+        "to": 72000,
         "currency": "RUR",
         "gross": false
       },
@@ -8560,39 +8593,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее техническое образование (возможно также студенты последних курсов технического направления). Опыт системного администрирования. Знания (ОС АЛЬТ 8 СП) на уровне...",
       "responsibility": "Устанавливает на серверы и рабочие станции системное и прикладное программное обеспечение, производит их настройку в соответствии с задачами, выполняемыми в...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123289826",
-      "name": "Системный администратор",
-      "company": "АНО ДПО «Открытый научно-технологический университет»",
-      "company_id": "4319660",
-      "company_url": "https://hh.ru/employer/4319660",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1432919.png",
-      "url": "https://hh.ru/vacancy/123289826",
-      "published_at": "2025-08-24T08:25:48+0300",
-      "created_at": "2025-08-24T08:25:48+0300",
-      "area": "Стерлитамак",
-      "salary": "от 50 000 RUR на руки",
-      "salary_raw": {
-        "from": 50000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы на позиции системного администратора. Пунктуальность, ответственность, дисциплинированность, исполнительность, самодисциплина. Грамотная речь, владение основами делового письма. Способность к быстрому...",
-      "responsibility": "Выполнение работ по администрированию активного сетевого оборудования, серверов, рабочих мест пользователей (20 пользователей). Диагностика, устранение сбоев, обеспечение бесперебойной работы, надежности...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -13437,39 +13437,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121447160",
-      "name": "Системный администратор",
-      "company": "DIKo",
-      "company_id": "1129349",
-      "company_url": "https://hh.ru/employer/1129349",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1419347.png",
-      "url": "https://hh.ru/vacancy/121447160",
-      "published_at": "2025-08-19T07:24:33+0300",
-      "created_at": "2025-08-19T07:24:33+0300",
-      "area": "Екатеринбург",
-      "salary": "от 60 000 RUR на руки",
-      "salary_raw": {
-        "from": 60000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "DIKO – федеральный IT-интегратор с 20-летним опытом. Умеет так настроить систему, чтобы пользователи говорили: \"Работает как часы!\".",
-      "responsibility": "Видит в каждом сбое вызов, а не проблему. Обеспечение стабильной работы it-инфраструктуры компании. Обеспечение бесперебойной работы программных и аппаратных...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Программист, разработчик"
       ],
       "has_test": false,
       "premium": false,
@@ -21213,39 +21180,6 @@
       "requirement": "Знание основ администрирования ОС Windows, Linux и сетевого оборудования. Опыт диагностики и решения технических проблем. Желание развиваться в IT-области.",
       "responsibility": "Администрирование серверных ОС Windows, Linux. Администрирование защищенной сети передачи данных (несколько распределенных сетей). Администрирование специализированного ПО и сетевого оборудования.",
       "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123521171",
-      "name": "Системный администратор",
-      "company": "Строительная группа Ракета",
-      "company_id": "10608690",
-      "company_url": "https://hh.ru/employer/10608690",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1443747.png",
-      "url": "https://hh.ru/vacancy/123521171",
-      "published_at": "2025-08-08T15:47:02+0300",
-      "created_at": "2025-08-08T15:47:02+0300",
-      "area": "Пермь",
-      "salary": "от 70 000 RUR на руки",
-      "salary_raw": {
-        "from": 70000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее или среднее специальное образование в области информационных технологий. Опыт работы системным администратором от 2 лет. Знание методов и инструментов...",
-      "responsibility": "Установка и настройка ОС Windows и прикладных программ (Office, Adobe Reader, FastStone Image Viewer, AutoCAD и т.д.).",
-      "type": "Закрытая",
       "professional_roles": [
         "Системный администратор"
       ],
@@ -29556,105 +29490,6 @@
       "accept_temporary": false
     },
     {
-      "id": "123345048",
-      "name": "Системный администратор",
-      "company": "ПСКК Машук-Аква-Терм",
-      "company_id": "1009313",
-      "company_url": "https://hh.ru/employer/1009313",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/617933.png",
-      "url": "https://hh.ru/vacancy/123345048",
-      "published_at": "2025-07-29T08:33:08+0300",
-      "created_at": "2025-07-29T08:33:08+0300",
-      "area": "Нижневартовск",
-      "salary": "134 000 - 134 000 RUR на руки",
-      "salary_raw": {
-        "from": 134000,
-        "to": 134000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Имеете профильное образование не ниже средне-специального. Имеете опыт работы на аналогичной должности не менее 3х лет.",
-      "responsibility": "Устанавливать на серверы и рабочие станции операционные системы и необходимое для работы программное обеспечение. Поддерживать в работоспособном состоянии программное обеспечение...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123345047",
-      "name": "Системный администратор",
-      "company": "ПСКК Машук-Аква-Терм",
-      "company_id": "1009313",
-      "company_url": "https://hh.ru/employer/1009313",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/617933.png",
-      "url": "https://hh.ru/vacancy/123345047",
-      "published_at": "2025-07-29T08:33:08+0300",
-      "created_at": "2025-07-29T08:33:08+0300",
-      "area": "Тюмень",
-      "salary": "134 000 - 134 000 RUR на руки",
-      "salary_raw": {
-        "from": 134000,
-        "to": 134000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Имеете профильное образование не ниже средне-специального. Имеете опыт работы на аналогичной должности не менее 3х лет.",
-      "responsibility": "Устанавливать на серверы и рабочие станции операционные системы и необходимое для работы программное обеспечение. Поддерживать в работоспособном состоянии программное обеспечение...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123345049",
-      "name": "Системный администратор",
-      "company": "ПСКК Машук-Аква-Терм",
-      "company_id": "1009313",
-      "company_url": "https://hh.ru/employer/1009313",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/617933.png",
-      "url": "https://hh.ru/vacancy/123345049",
-      "published_at": "2025-07-29T08:33:08+0300",
-      "created_at": "2025-07-29T08:33:08+0300",
-      "area": "Сургут",
-      "salary": "134 000 - 134 000 RUR на руки",
-      "salary_raw": {
-        "from": 134000,
-        "to": 134000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Имеете профильное образование не ниже средне-специального. Имеете опыт работы на аналогичной должности не менее 3х лет.",
-      "responsibility": "Устанавливать на серверы и рабочие станции операционные системы и необходимое для работы программное обеспечение. Поддерживать в работоспособном состоянии программное обеспечение...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "121988539",
       "name": "Главный системный администратор",
       "company": "Уралмаш НГО Холдинг",
@@ -30284,72 +30119,6 @@
       "employment": "Полная занятость",
       "requirement": "...станций) или в компаниях, предоставляющих аутсорсинг ИТ в должностях: системный администратор, инженер-программист, инженер-техник, системный инженер, технический специалист и...",
       "responsibility": "Обеспечение работоспособности It-инфраструктуры центрального офиса компании. Работа с заявками пользователей в системе Service Desk. Устранение возникающих неисправностей оборудования и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123288231",
-      "name": "Системный администратор",
-      "company": "Клиника ИПМ",
-      "company_id": "3943398",
-      "company_url": "https://hh.ru/employer/3943398",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/866637.png",
-      "url": "https://hh.ru/vacancy/123288231",
-      "published_at": "2025-07-28T07:52:41+0300",
-      "created_at": "2025-07-28T07:52:41+0300",
-      "area": "Красноярск",
-      "salary": "65 000 - 90 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 65000,
-        "to": 90000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы от 1 до 3 лет в аналогичной должности. Знание операционных систем Windows. Опыт работы с сетевым оборудованием.",
-      "responsibility": "Поддержка и администрирование серверов и сетевого оборудования. Обеспечение безопасности данных и защита от несанкционированного доступа. Настройка и поддержка рабочих станций...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123287610",
-      "name": "Системный администратор (Главный специалист)",
-      "company": "ГБУ СО Оператор электронного правительства",
-      "company_id": "4104191",
-      "company_url": "https://hh.ru/employer/4104191",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/123287610",
-      "published_at": "2025-07-28T07:42:05+0300",
-      "created_at": "2025-07-28T07:42:05+0300",
-      "area": "Екатеринбург",
-      "salary": "от 55 000 RUR на руки",
-      "salary_raw": {
-        "from": 55000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание линейки операционных систем Microsoft Windows. Знание пользовательских ОС на базе Linux. Знание аппаратной части ПК. Знание Active Directory и...",
-      "responsibility": "Осуществление технической поддержки пользователей. Настройка рабочих мест пользователей на базе отечественных операционных систем (на базе Linux). Администрирование домена (Active Directory...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
