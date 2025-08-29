@@ -10,16 +10,115 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-29T10:38:51Z",
+  "updated": "2025-08-29T11:29:42Z",
   "statistics": {
     "total": 923,
-    "with_salary": 697,
+    "with_salary": 698,
     "companies": 705,
-    "cities": 198,
+    "cities": 197,
     "premium": 0,
     "with_test": 10
   },
   "vacancies": [
+    {
+      "id": "124280587",
+      "name": "ИТ Инженер/Системный Администратор",
+      "company": "НПФ ДатаКрат-С, филиал г. Омск",
+      "company_id": "4328410",
+      "company_url": "https://hh.ru/employer/4328410",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/689123.png",
+      "url": "https://hh.ru/vacancy/124280587",
+      "published_at": "2025-08-29T13:53:05+0300",
+      "created_at": "2025-08-29T13:53:05+0300",
+      "area": "Омск",
+      "salary": "до 70 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": null,
+        "to": 70000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Полная занятость",
+      "requirement": "Наши ожидания от профессиональных навыков кандидатов: Высшее техническое, среднее техническое (техническая специальность с углубленным изучением компьютерной техники и программирования).",
+      "responsibility": "Инсталляция и сопровождение программного обеспечения, настройка и поддержка специализированного оборудования. Обучение персонала клиентов работе с программным обеспечением. Проведение презентаций программных...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124637223",
+      "name": "Системный администратор",
+      "company": "АСКОН",
+      "company_id": "41144",
+      "company_url": "https://hh.ru/employer/41144",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/879958.png",
+      "url": "https://hh.ru/vacancy/124637223",
+      "published_at": "2025-08-29T13:46:07+0300",
+      "created_at": "2025-08-29T13:46:07+0300",
+      "area": "Пермь",
+      "salary": "от 95 000 RUR на руки",
+      "salary_raw": {
+        "from": 95000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее техническое образование (IT). Знание правил настройки рабочих станций под управлением операционной системы Microsoft Windows. Знание методов проектирования информационных систем...",
+      "responsibility": "Техническая поддержка сотрудников: консультации, решение инцидентов, установка и настройка ПО. Обеспечение бесперебойной работы серверного и сетевого оборудования, установка и настройка...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124068301",
+      "name": "Выездной системный администратор (эникейщик)",
+      "company": "Мистер Чек",
+      "company_id": "2062215",
+      "company_url": "https://hh.ru/employer/2062215",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/394292.jpg",
+      "url": "https://hh.ru/vacancy/124068301",
+      "published_at": "2025-08-29T13:22:03+0300",
+      "created_at": "2025-08-29T13:22:03+0300",
+      "area": "Шахты",
+      "salary": "от 90 000 RUR на руки",
+      "salary_raw": {
+        "from": 90000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт ремонта и настройки ПК (обязателен). Опыт монтажа и настройки коммуникационного оборудования (желателен). Опыт монтажа и настройки видеонаблюдения (желателен).",
+      "responsibility": "Восстановлением неисправной техники. Устранением сбоев в работе программного обеспечения. Ремонтом и настройкой торгового оборудования. Должность предполагает разъездной характер работы.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123424974",
       "name": "Начинающий выездной системный администратор (эникейщик)",
@@ -76,6 +175,39 @@
       "employment": "Полная занятость",
       "requirement": "Готовность к обучению и нацеленность на результат. Высшее (инженерное) образование. Опыт установки и настройки различных программ, Windows. Знания программ: TCP...",
       "responsibility": "Техническая поддержка пользователей по телефону, удалённо и на месте. Установка и настройка программ на компьютерах. Обслуживание инфраструктуры - серверы, сеть, почта...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123897385",
+      "name": "Системный администратор",
+      "company": "ПКО ИнБГ-Право",
+      "company_id": "228656",
+      "company_url": "https://hh.ru/employer/228656",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/123897385",
+      "published_at": "2025-08-29T13:05:21+0300",
+      "created_at": "2025-08-29T13:05:21+0300",
+      "area": "Омск",
+      "salary": "до 40 000 RUR на руки",
+      "salary_raw": {
+        "from": null,
+        "to": 40000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание основ сетевого и системного администрирования. Знание операционных систем Windows. Опыт в техническом обслуживании компьютеров/ноутбуков и иного офисного оборудования.",
+      "responsibility": "Поддержка бесперебойного функционирования офисного программного обеспечения, локальных сетей; настройка серверного оборудования. Администрирование ОС Windows 7/10, прикладного ПО.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -3061,10 +3193,10 @@
       "published_at": "2025-08-28T12:04:51+0300",
       "created_at": "2025-08-28T12:04:51+0300",
       "area": "Новочеркасск",
-      "salary": "71 000 - 72 000 RUR на руки",
+      "salary": "81 000 - 81 000 RUR на руки",
       "salary_raw": {
-        "from": 71000,
-        "to": 72000,
+        "from": 81000,
+        "to": 81000,
         "currency": "RUR",
         "gross": false
       },
@@ -6837,16 +6969,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124075047",
+      "id": "124075052",
       "name": "Электромеханик связи/системный администратор",
       "company": "Первая Сервисная Компания",
       "company_id": "1480991",
       "company_url": "https://hh.ru/employer/1480991",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
-      "url": "https://hh.ru/vacancy/124075047",
+      "url": "https://hh.ru/vacancy/124075052",
       "published_at": "2025-08-26T15:15:29+0300",
       "created_at": "2025-08-26T15:15:29+0300",
-      "area": "Белорецк",
+      "area": "Верхние Татышлы",
       "salary": "55 000 - 80 000 RUR на руки",
       "salary_raw": {
         "from": 55000,
@@ -6870,16 +7002,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124075052",
+      "id": "124075047",
       "name": "Электромеханик связи/системный администратор",
       "company": "Первая Сервисная Компания",
       "company_id": "1480991",
       "company_url": "https://hh.ru/employer/1480991",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
-      "url": "https://hh.ru/vacancy/124075052",
+      "url": "https://hh.ru/vacancy/124075047",
       "published_at": "2025-08-26T15:15:29+0300",
       "created_at": "2025-08-26T15:15:29+0300",
-      "area": "Верхние Татышлы",
+      "area": "Белорецк",
       "salary": "55 000 - 80 000 RUR на руки",
       "salary_raw": {
         "from": 55000,
@@ -7332,39 +7464,6 @@
       "accept_temporary": false
     },
     {
-      "id": "124280587",
-      "name": "ИТ Инженер/Системный Администратор",
-      "company": "НПФ ДатаКрат-С, филиал г. Омск",
-      "company_id": "4328410",
-      "company_url": "https://hh.ru/employer/4328410",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/689123.png",
-      "url": "https://hh.ru/vacancy/124280587",
-      "published_at": "2025-08-26T13:53:05+0300",
-      "created_at": "2025-08-26T13:53:05+0300",
-      "area": "Омск",
-      "salary": "до 70 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": null,
-        "to": 70000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Полная занятость",
-      "requirement": "Наши ожидания от профессиональных навыков кандидатов: Высшее техническое, среднее техническое (техническая специальность с углубленным изучением компьютерной техники и программирования).",
-      "responsibility": "Инсталляция и сопровождение программного обеспечения, настройка и поддержка специализированного оборудования. Обучение персонала клиентов работе с программным обеспечением. Проведение презентаций программных...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "124496541",
       "name": "Системный администратор 1С",
       "company": "Меркатор",
@@ -7415,39 +7514,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы системным администратором 1-3 года, опыт работы с серверами обязателен. Пользователь компьютера: эксперт (железо и системный софт).",
       "responsibility": "Поддержка пользователей систем IT предприятия: работа с заявками, настройка операционной системы, установка системного и прикладного программного обеспечения, ответы на вопросы...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124068301",
-      "name": "Выездной системный администратор (эникейщик)",
-      "company": "Мистер Чек",
-      "company_id": "2062215",
-      "company_url": "https://hh.ru/employer/2062215",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/394292.jpg",
-      "url": "https://hh.ru/vacancy/124068301",
-      "published_at": "2025-08-26T13:22:03+0300",
-      "created_at": "2025-08-26T13:22:03+0300",
-      "area": "Шахты",
-      "salary": "от 90 000 RUR на руки",
-      "salary_raw": {
-        "from": 90000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт ремонта и настройки ПК (обязателен). Опыт монтажа и настройки коммуникационного оборудования (желателен). Опыт монтажа и настройки видеонаблюдения (желателен).",
-      "responsibility": "Восстановлением неисправной техники. Устранением сбоев в работе программного обеспечения. Ремонтом и настройкой торгового оборудования. Должность предполагает разъездной характер работы.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -7578,39 +7644,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Офис-менеджер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123897385",
-      "name": "Системный администратор",
-      "company": "ПКО ИнБГ-Право",
-      "company_id": "228656",
-      "company_url": "https://hh.ru/employer/228656",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/123897385",
-      "published_at": "2025-08-26T13:05:21+0300",
-      "created_at": "2025-08-26T13:05:21+0300",
-      "area": "Омск",
-      "salary": "до 40 000 RUR на руки",
-      "salary_raw": {
-        "from": null,
-        "to": 40000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание основ сетевого и системного администрирования. Знание операционных систем Windows. Опыт в техническом обслуживании компьютеров/ноутбуков и иного офисного оборудования.",
-      "responsibility": "Поддержка бесперебойного функционирования офисного программного обеспечения, локальных сетей; настройка серверного оборудования. Администрирование ОС Windows 7/10, прикладного ПО.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
       ],
       "has_test": false,
       "premium": false,
@@ -27654,16 +27687,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123503336",
+      "id": "123503332",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123503336",
+      "url": "https://hh.ru/vacancy/123503332",
       "published_at": "2025-08-01T08:27:29+0300",
       "created_at": "2025-08-01T08:27:29+0300",
-      "area": "Кондопога",
+      "area": "Инта",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -27682,16 +27715,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123503332",
+      "id": "123503336",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123503332",
+      "url": "https://hh.ru/vacancy/123503336",
       "published_at": "2025-08-01T08:27:29+0300",
       "created_at": "2025-08-01T08:27:29+0300",
-      "area": "Инта",
+      "area": "Кондопога",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -29320,34 +29353,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": true
-    },
-    {
-      "id": "123429362",
-      "name": "Системный администратор",
-      "company": "СМАРТ",
-      "company_id": "580017",
-      "company_url": "https://hh.ru/employer/580017",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/955509.jpg",
-      "url": "https://hh.ru/vacancy/123429362",
-      "published_at": "2025-07-30T14:25:33+0300",
-      "created_at": "2025-07-30T14:25:33+0300",
-      "area": "Златоуст",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "навыки сопровождения прикладного ПО АРМ пользователей. - знание на уровне системного администратора MS Windows Server 2019, MS Windows 10, MS Office...",
-      "responsibility": "обеспечение бесперебойной работы имеющихся информационных систем и оргтехники. - техническая поддержка пользователей АРМ. - создание и поддержание необходимого запаса оборудования, программного обеспечения...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
     }
   ]
 }
