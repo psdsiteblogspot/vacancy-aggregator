@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-29T15:32:49Z",
+  "updated": "2025-08-29T16:42:26Z",
   "statistics": {
     "total": 916,
     "with_salary": 701,
@@ -20,6 +20,39 @@
     "with_test": 10
   },
   "vacancies": [
+    {
+      "id": "124661046",
+      "name": "Системный администратор",
+      "company": "Санаторий Голубая даль",
+      "company_id": "1920973",
+      "company_url": "https://hh.ru/employer/1920973",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1102184.png",
+      "url": "https://hh.ru/vacancy/124661046",
+      "published_at": "2025-08-29T19:30:00+0300",
+      "created_at": "2025-08-29T19:30:00+0300",
+      "area": "Геленджик",
+      "salary": "45 000 - 60 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 45000,
+        "to": 60000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее или среднее-профессиональное образование. Условия: Обучаемость, стрессоустойчивость, внимание к деталям, а также коммуникабельность и умение работать в команде.",
+      "responsibility": "Контроль работы серверов 1С:бухгалтерия, кадры, отель, медицина и медицина КИНТ. Поддержка в актуальнолм виде обновлений ОС, файловый сервер...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123669734",
       "name": "Специалист по обслуживанию майнинг ферм / Системный администратор",
@@ -463,39 +496,6 @@
       "accept_temporary": false
     },
     {
-      "id": "124075043",
-      "name": "Электромеханик связи/системный администратор",
-      "company": "Первая Сервисная Компания",
-      "company_id": "1480991",
-      "company_url": "https://hh.ru/employer/1480991",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
-      "url": "https://hh.ru/vacancy/124075043",
-      "published_at": "2025-08-29T15:15:29+0300",
-      "created_at": "2025-08-29T15:15:29+0300",
-      "area": "Киргиз-Мияки",
-      "salary": "55 000 - 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 55000,
-        "to": 80000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Вахтовый метод",
-      "employment": "Полная занятость",
-      "requirement": "Средне-специальное или высшее образование. Умение расключать щитки, проверять кабельные линии. Исполнительность, оперативность, аккуратность. Личное ТС будет являться преимуществом.",
-      "responsibility": "Электромонтаж. Обеспечение связи и видеонаблюдения. Выезд по объектам на территории РБ.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "124075053",
       "name": "Электромеханик связи/системный администратор",
       "company": "Первая Сервисная Компания",
@@ -529,16 +529,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124075055",
+      "id": "124075043",
       "name": "Электромеханик связи/системный администратор",
       "company": "Первая Сервисная Компания",
       "company_id": "1480991",
       "company_url": "https://hh.ru/employer/1480991",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
-      "url": "https://hh.ru/vacancy/124075055",
+      "url": "https://hh.ru/vacancy/124075043",
       "published_at": "2025-08-29T15:15:29+0300",
       "created_at": "2025-08-29T15:15:29+0300",
-      "area": "Дюртюли",
+      "area": "Киргиз-Мияки",
       "salary": "55 000 - 80 000 RUR на руки",
       "salary_raw": {
         "from": 55000,
@@ -605,6 +605,39 @@
       "published_at": "2025-08-29T15:15:29+0300",
       "created_at": "2025-08-29T15:15:29+0300",
       "area": "Туймазы",
+      "salary": "55 000 - 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 55000,
+        "to": 80000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Вахтовый метод",
+      "employment": "Полная занятость",
+      "requirement": "Средне-специальное или высшее образование. Умение расключать щитки, проверять кабельные линии. Исполнительность, оперативность, аккуратность. Личное ТС будет являться преимуществом.",
+      "responsibility": "Электромонтаж. Обеспечение связи и видеонаблюдения. Выезд по объектам на территории РБ.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124075055",
+      "name": "Электромеханик связи/системный администратор",
+      "company": "Первая Сервисная Компания",
+      "company_id": "1480991",
+      "company_url": "https://hh.ru/employer/1480991",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
+      "url": "https://hh.ru/vacancy/124075055",
+      "published_at": "2025-08-29T15:15:29+0300",
+      "created_at": "2025-08-29T15:15:29+0300",
+      "area": "Дюртюли",
       "salary": "55 000 - 80 000 RUR на руки",
       "salary_raw": {
         "from": 55000,
@@ -26793,39 +26826,6 @@
       "accept_temporary": false
     },
     {
-      "id": "123210405",
-      "name": "Системный администратор в сеть ресторанов",
-      "company": "Табаско",
-      "company_id": "3517384",
-      "company_url": "https://hh.ru/employer/3517384",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1415277.png",
-      "url": "https://hh.ru/vacancy/123210405",
-      "published_at": "2025-08-04T12:30:57+0300",
-      "created_at": "2025-08-04T12:30:57+0300",
-      "area": "Калининград",
-      "salary": "85 000 - 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 85000,
-        "to": 100000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт в администрировании ПК, настройке ПО и сетей. Умение работать с 1С (будет большим плюсом). Навыки сборки/ремонта компьютеров...",
-      "responsibility": "Разнообразие задач – обслуживание компьютеров, касс, видеонаблюдения и сетей в 6 ресторанах + 2 кафе + в офисе. Разъездной характер работы...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "119855748",
       "name": "Системный администратор",
       "company": "Фастар",
@@ -27852,16 +27852,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123503332",
+      "id": "123503335",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123503332",
+      "url": "https://hh.ru/vacancy/123503335",
       "published_at": "2025-08-01T08:27:29+0300",
       "created_at": "2025-08-01T08:27:29+0300",
-      "area": "Инта",
+      "area": "Ковдор",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -27880,16 +27880,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123503335",
+      "id": "123503332",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123503335",
+      "url": "https://hh.ru/vacancy/123503332",
       "published_at": "2025-08-01T08:27:29+0300",
       "created_at": "2025-08-01T08:27:29+0300",
-      "area": "Ковдор",
+      "area": "Инта",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -27936,16 +27936,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123503339",
+      "id": "123503336",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123503339",
+      "url": "https://hh.ru/vacancy/123503336",
       "published_at": "2025-08-01T08:27:29+0300",
       "created_at": "2025-08-01T08:27:29+0300",
-      "area": "Новодвинск",
+      "area": "Кондопога",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -27964,16 +27964,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123503336",
+      "id": "123503339",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123503336",
+      "url": "https://hh.ru/vacancy/123503339",
       "published_at": "2025-08-01T08:27:29+0300",
       "created_at": "2025-08-01T08:27:29+0300",
-      "area": "Кондопога",
+      "area": "Новодвинск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
