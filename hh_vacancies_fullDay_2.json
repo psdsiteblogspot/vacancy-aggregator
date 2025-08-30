@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-30T09:43:24Z",
+  "updated": "2025-08-30T10:44:12Z",
   "statistics": {
-    "total": 822,
-    "with_salary": 631,
-    "companies": 635,
+    "total": 820,
+    "with_salary": 629,
+    "companies": 634,
     "cities": 135,
     "premium": 1,
     "with_test": 12
   },
   "vacancies": [
+    {
+      "id": "123464920",
+      "name": "Системный администратор",
+      "company": "Логистическая Компания Автолайф",
+      "company_id": "2355714",
+      "company_url": "https://hh.ru/employer/2355714",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/927604.jpg",
+      "url": "https://hh.ru/vacancy/123464920",
+      "published_at": "2025-08-30T12:45:26+0300",
+      "created_at": "2025-08-30T12:45:26+0300",
+      "area": "Ижевск",
+      "salary": "до 140 000 RUR на руки",
+      "salary_raw": {
+        "from": null,
+        "to": 140000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "",
+      "responsibility": "Функционал: Сервер телефонии: - Поддержка и администрирование системы телефонии. Система видеонаблюдения: - Управление и настройка системы видеонаблюдения. Межсетевые экраны: - Настройка и администрирование...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "124403375",
       "name": "Системный администратор",
@@ -20100,7 +20133,7 @@
     },
     {
       "id": "123864955",
-      "name": "Системный администратор",
+      "name": "Младший системный администратор",
       "company": "isystem-group",
       "company_id": "3249114",
       "company_url": "https://hh.ru/employer/3249114",
@@ -20109,18 +20142,18 @@
       "published_at": "2025-08-10T20:08:56+0300",
       "created_at": "2025-08-10T20:08:56+0300",
       "area": "Казань",
-      "salary": "100 000 - 130 000 RUR на руки",
+      "salary": "70 000 - 90 000 RUR на руки",
       "salary_raw": {
-        "from": 100000,
-        "to": 130000,
+        "from": 70000,
+        "to": 90000,
         "currency": "RUR",
         "gross": false
       },
-      "experience": "От 1 года до 3 лет",
+      "experience": "Нет опыта",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "Опыт работы от 1 до 3 лет в аналогичной должности. Знание операционной системы Windows, знание ОС Linux будет преимуществом.",
-      "responsibility": "Обеспечение бесперебойной работы ИТ-инфраструктуры. Мониторинг и анализ производительности систем. Обеспечение информационной безопасности и защита данных. Администрирование серверной платформы Windows...",
+      "requirement": "Знание операционной системы Windows, знание ОС Linux будет преимуществом. Понимание принципов информационной безопасности. Умение работать в команде. Знание принципов работы...",
+      "responsibility": "Обеспечение бесперебойной работы ИТ-инфраструктуры. Мониторинг и анализ производительности систем. Администрирование серверной платформы Windows Server (установка, настройка, мониторинг, troubleshooting).",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -26082,105 +26115,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее образование. Опыт работы на аналогичной должности. Знание Excel.",
       "responsibility": "Обеспечивать бесперебойную работу компьютерной техники и оргтехники предприятия. Устанавливать, настраивать компьютерную и оргтехнику. Настройка сетевого оборудования, роутеров, Wi-Fi сетей...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122992775",
-      "name": "Системный администратор",
-      "company": "Иж-Лада",
-      "company_id": "3547351",
-      "company_url": "https://hh.ru/employer/3547351",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/837865.jpg",
-      "url": "https://hh.ru/vacancy/122992775",
-      "published_at": "2025-07-31T13:29:06+0300",
-      "created_at": "2025-07-31T13:29:06+0300",
-      "area": "Ижевск",
-      "salary": "от 60 000 RUR на руки",
-      "salary_raw": {
-        "from": 60000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Стрессоустойчивость, дисциплинированность, ответственность. Опыт работы системным администратором от 3 лет. Опыт работы с Windows Server 2016+, Active Directory, RDP...",
-      "responsibility": "Настройка и обслуживание ЛВС предприятия (DHCP, DNS, NAT, VPN, гостевая сеть). - Установка и настройка программного обеспечения серверов и рабочих станций...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123466138",
-      "name": "Системный администратор",
-      "company": "Ликс-Лайн",
-      "company_id": "3294575",
-      "company_url": "https://hh.ru/employer/3294575",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/123466138",
-      "published_at": "2025-07-31T13:07:18+0300",
-      "created_at": "2025-07-31T13:07:18+0300",
-      "area": "Симферополь",
-      "salary": "от 60 000 RUR на руки",
-      "salary_raw": {
-        "from": 60000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание компьютерной техники, желание обучаться.",
-      "responsibility": "Ремонт и обслуживание компьютерной техники, периферии и торгового оборудования.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123464920",
-      "name": "Системный администратор",
-      "company": "Логистическая Компания Автолайф",
-      "company_id": "2355714",
-      "company_url": "https://hh.ru/employer/2355714",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/927604.jpg",
-      "url": "https://hh.ru/vacancy/123464920",
-      "published_at": "2025-07-31T12:45:25+0300",
-      "created_at": "2025-07-31T12:45:25+0300",
-      "area": "Ижевск",
-      "salary": "до 140 000 RUR на руки",
-      "salary_raw": {
-        "from": null,
-        "to": 140000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "Функционал: Сервер телефонии: - Поддержка и администрирование системы телефонии. Система видеонаблюдения: - Управление и настройка системы видеонаблюдения. Межсетевые экраны: - Настройка и администрирование...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
