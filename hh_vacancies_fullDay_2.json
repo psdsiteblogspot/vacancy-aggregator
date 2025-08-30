@@ -10,16 +10,77 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-30T06:48:44Z",
+  "updated": "2025-08-30T07:43:47Z",
   "statistics": {
-    "total": 829,
-    "with_salary": 638,
-    "companies": 640,
-    "cities": 137,
+    "total": 828,
+    "with_salary": 637,
+    "companies": 639,
+    "cities": 136,
     "premium": 1,
     "with_test": 12
   },
   "vacancies": [
+    {
+      "id": "123240669",
+      "name": "Ведущий системный администратор (г. Самара)",
+      "company": "ПУЛЬС АЙТИМ",
+      "company_id": "9777651",
+      "company_url": "https://hh.ru/employer/9777651",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1358893.jpg",
+      "url": "https://hh.ru/vacancy/123240669",
+      "published_at": "2025-08-30T09:48:40+0300",
+      "created_at": "2025-08-30T09:48:40+0300",
+      "area": "Самара",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Пожелания по опыту: Опыт работы в поддержке от 1 года. Знание технологий работы с Windows клиентами и офисным программным обеспечением.",
+      "responsibility": "Участвовать в поддержке пользователей и обеспечивать бесперебойную работу бизнес-процессов. Консультировать пользователей по работе информационных систем. Создавать пользовательские инструкции по...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": true,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124305606",
+      "name": "Системный администратор",
+      "company": "Завод оконных конструкций ФАВОРИТ",
+      "company_id": "2961019",
+      "company_url": "https://hh.ru/employer/2961019",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1174253.jpg",
+      "url": "https://hh.ru/vacancy/124305606",
+      "published_at": "2025-08-30T08:41:18+0300",
+      "created_at": "2025-08-30T08:41:18+0300",
+      "area": "Сарапул",
+      "salary": "от 55 000 RUR на руки",
+      "salary_raw": {
+        "from": 55000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Образование высшее техническое или средне-специальное. Опыт работы от 1 года в сфере системного администрирования. Ответственность. Исполнительность.",
+      "responsibility": "Обслуживание / ремонт периферийного оборудования предприятия. Выполнение монтажных работ оборудования информационно-коммуникационных сетей. Администрирование систем хранения данных, резервного копирования.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "124517958",
       "name": "Помощник руководителя швейного Ателье/системный администратор",
@@ -5809,34 +5870,6 @@
       "accept_temporary": false
     },
     {
-      "id": "123240669",
-      "name": "Ведущий системный администратор (г. Самара)",
-      "company": "ПУЛЬС АЙТИМ",
-      "company_id": "9777651",
-      "company_url": "https://hh.ru/employer/9777651",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1358893.jpg",
-      "url": "https://hh.ru/vacancy/123240669",
-      "published_at": "2025-08-27T09:48:40+0300",
-      "created_at": "2025-08-27T09:48:40+0300",
-      "area": "Самара",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Пожелания по опыту: Опыт работы в поддержке от 1 года. Знание технологий работы с Windows клиентами и офисным программным обеспечением.",
-      "responsibility": "Участвовать в поддержке пользователей и обеспечивать бесперебойную работу бизнес-процессов. Консультировать пользователей по работе информационных систем. Создавать пользовательские инструкции по...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": true,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "124527889",
       "name": "Системный администратор",
       "company": "КГКУ Приморский проектный институт",
@@ -5892,39 +5925,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание протоколов TCP/IP. Опыт администрирования серверов Active Directory, DNS, DHCP. Обслуживание оборудования локальной сети. Опыт администрирования серверов Windows будет...",
       "responsibility": "Обслуживание офисной техники, оргтехники (более 100 Пк). Обеспечение бесперебойной работы системного ПО. Установка, настройка офисного и прикладного ПО. Техподдержка пользователей.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124305606",
-      "name": "Системный администратор",
-      "company": "Завод оконных конструкций ФАВОРИТ",
-      "company_id": "2961019",
-      "company_url": "https://hh.ru/employer/2961019",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1174253.jpg",
-      "url": "https://hh.ru/vacancy/124305606",
-      "published_at": "2025-08-27T08:41:18+0300",
-      "created_at": "2025-08-27T08:41:18+0300",
-      "area": "Сарапул",
-      "salary": "от 55 000 RUR на руки",
-      "salary_raw": {
-        "from": 55000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Образование высшее техническое или средне-специальное. Опыт работы от 1 года в сфере системного администрирования. Ответственность. Исполнительность.",
-      "responsibility": "Обслуживание / ремонт периферийного оборудования предприятия. Выполнение монтажных работ оборудования информационно-коммуникационных сетей. Администрирование систем хранения данных, резервного копирования.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -21328,16 +21328,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123751352",
+      "id": "123751354",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123751352",
+      "url": "https://hh.ru/vacancy/123751354",
       "published_at": "2025-08-07T14:30:38+0300",
       "created_at": "2025-08-07T14:30:38+0300",
-      "area": "Котельнич",
+      "area": "Зуевка",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -21361,16 +21361,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123751354",
+      "id": "123751352",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123751354",
+      "url": "https://hh.ru/vacancy/123751352",
       "published_at": "2025-08-07T14:30:38+0300",
       "created_at": "2025-08-07T14:30:38+0300",
-      "area": "Зуевка",
+      "area": "Котельнич",
       "salary": "до 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": null,
@@ -26379,39 +26379,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт от 2 лет в администрировании Windows/Linux-серверов (или чего-то одного). Опыт настройки и поддержки Active Directory, DNS...",
       "responsibility": "Full-stack сборка и администрирование : от рабочих станций до серверов. Обеспечивать бесперебойную работу терминалов, серверов, коммутаторов, рабочих мест.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123453106",
-      "name": "Системный администратор / Главный специалист по информационным технологиям и связи",
-      "company": "Запсибгазпром-Газификация",
-      "company_id": "1988557",
-      "company_url": "https://hh.ru/employer/1988557",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/579548.gif",
-      "url": "https://hh.ru/vacancy/123453106",
-      "published_at": "2025-07-31T09:55:08+0300",
-      "created_at": "2025-07-31T09:55:08+0300",
-      "area": "Вилючинск",
-      "salary": "от 170 000 RUR на руки",
-      "salary_raw": {
-        "from": 170000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Вахтовый метод",
-      "employment": "Полная занятость",
-      "requirement": "Высшее техническое образование. Опытом работы по специальности не менее 3-х лет. Знания сетевого стека (TCP/IP, DNS,DHCP, VPN...",
-      "responsibility": "Обеспечение бесперебойного функционирования вверенного оборудования связи, вычислительной и оргтехники, программного обеспечения. Обеспечение бесперебойное функционирование компьютерной сети, оперативное устранение нарушений и...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
