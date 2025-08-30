@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-08-30T18:40:43Z",
+  "updated": "2025-08-30T19:27:49Z",
   "statistics": {
     "total": 896,
     "with_salary": 684,
@@ -20,6 +20,39 @@
     "with_test": 10
   },
   "vacancies": [
+    {
+      "id": "124671760",
+      "name": "Системный администратор",
+      "company": "МАОУ СОШ № 58",
+      "company_id": "4675782",
+      "company_url": "https://hh.ru/employer/4675782",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/789482.jpg",
+      "url": "https://hh.ru/vacancy/124671760",
+      "published_at": "2025-08-30T21:43:11+0300",
+      "created_at": "2025-08-30T21:43:11+0300",
+      "area": "Калининград",
+      "salary": "от 47 800 RUR на руки",
+      "salary_raw": {
+        "from": 47800,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Образование – высшее или среднее профессиональное. Знание операционной системы Windows. Опыт в поддержке сотрудников предприятия офисный пакетов MS Office.",
+      "responsibility": "Обязанности: Поддержание работы информационно-технической инфраструктуры школы: серверов, компьютеров и орг. техники. Эксплуатация сетевой инфраструктуры компании: техническое обслуживание работы компьютеров...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Учитель, преподаватель, педагог"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "124671165",
       "name": "Помощник системного администратора",
@@ -1565,16 +1598,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124075048",
+      "id": "124075055",
       "name": "Электромеханик связи/системный администратор",
       "company": "Первая Сервисная Компания",
       "company_id": "1480991",
       "company_url": "https://hh.ru/employer/1480991",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
-      "url": "https://hh.ru/vacancy/124075048",
+      "url": "https://hh.ru/vacancy/124075055",
       "published_at": "2025-08-29T15:15:29+0300",
       "created_at": "2025-08-29T15:15:29+0300",
-      "area": "Янаул",
+      "area": "Дюртюли",
       "salary": "55 000 - 80 000 RUR на руки",
       "salary_raw": {
         "from": 55000,
@@ -1598,16 +1631,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124075055",
+      "id": "124075048",
       "name": "Электромеханик связи/системный администратор",
       "company": "Первая Сервисная Компания",
       "company_id": "1480991",
       "company_url": "https://hh.ru/employer/1480991",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
-      "url": "https://hh.ru/vacancy/124075055",
+      "url": "https://hh.ru/vacancy/124075048",
       "published_at": "2025-08-29T15:15:29+0300",
       "created_at": "2025-08-29T15:15:29+0300",
-      "area": "Дюртюли",
+      "area": "Янаул",
       "salary": "55 000 - 80 000 RUR на руки",
       "salary_raw": {
         "from": 55000,
@@ -3832,39 +3865,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание протоколов TCP/IP. Знание операционных систем: WINDOWS (Active Directory, DNS, DHCP и т.д.), LINUX (samba, iptables и т...",
       "responsibility": "Настройка и обслуживание серверов и рабочих станций. Работа с доменом AD, поддержка пользователей. Сборка, настройка и установка компьютеров и сетевого...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123864443",
-      "name": "Системный администратор / IT-специалист (Windows Server, 1С, PostgreSQL)",
-      "company": "Текстиль центр",
-      "company_id": "5209090",
-      "company_url": "https://hh.ru/employer/5209090",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1437157.png",
-      "url": "https://hh.ru/vacancy/123864443",
-      "published_at": "2025-08-28T18:21:43+0300",
-      "created_at": "2025-08-28T18:21:43+0300",
-      "area": "Омск",
-      "salary": "от 70 000 RUR на руки",
-      "salary_raw": {
-        "from": 70000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт администрирования Windows Server 2019 (AD, DNS, DHCP, RDP) настройка, права доступа, политики безопасности, работа с логами. Глубокое понимание работы...",
-      "responsibility": "Администрирование и сопровождение собственного сервера компании обеспечение его бесперебойной работы, безопасности, своевременных обновлений и резервного копирования. Мониторинг состояния сервера и...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -20994,6 +20994,34 @@
       "accept_temporary": true
     },
     {
+      "id": "123981586",
+      "name": "Системный администратор/инженер",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/123981586",
+      "published_at": "2025-08-12T18:31:37+0300",
+      "created_at": "2025-08-12T18:31:37+0300",
+      "area": "Усть-Кут",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. опыт работы по настройке операционных...",
+      "responsibility": "установка и настройка OC Windows, а также офисных приложений. установка и настройка различного рода ПО. подключение и настройка периферийного оборудования...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
       "id": "123981579",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
@@ -21088,34 +21116,6 @@
       "published_at": "2025-08-12T18:31:37+0300",
       "created_at": "2025-08-12T18:31:37+0300",
       "area": "Шарыпово",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. опыт работы по настройке операционных...",
-      "responsibility": "установка и настройка OC Windows, а также офисных приложений. установка и настройка различного рода ПО. подключение и настройка периферийного оборудования...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
-      "id": "123981586",
-      "name": "Системный администратор/инженер",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123981586",
-      "published_at": "2025-08-12T18:31:37+0300",
-      "created_at": "2025-08-12T18:31:37+0300",
-      "area": "Усть-Кут",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -21932,39 +21932,6 @@
       "accept_temporary": false
     },
     {
-      "id": "123929743",
-      "name": "Системный администратор",
-      "company": "РОСТ, Группа компаний",
-      "company_id": "1449838",
-      "company_url": "https://hh.ru/employer/1449838",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1404906.png",
-      "url": "https://hh.ru/vacancy/123929743",
-      "published_at": "2025-08-12T09:06:27+0300",
-      "created_at": "2025-08-12T09:06:27+0300",
-      "area": "Шумиха",
-      "salary": "54 000 - 54 000 RUR на руки",
-      "salary_raw": {
-        "from": 54000,
-        "to": 54000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Должен обладать широким спектром знаний и навыков, включающих администрирование операционных систем (Windows, Linux), настройку и поддержку сетевого оборудования, понимание сетевых...",
-      "responsibility": "Установка, настройка и обслуживание компьютерного оборудования, серверов, сетевых устройств и программного обеспечения, обеспечение безопасности данных, решение технических проблем, а также...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "123929744",
       "name": "Системный администратор",
       "company": "РОСТ, Группа компаний",
@@ -22008,6 +21975,39 @@
       "published_at": "2025-08-12T09:06:27+0300",
       "created_at": "2025-08-12T09:06:27+0300",
       "area": "Миасское",
+      "salary": "54 000 - 54 000 RUR на руки",
+      "salary_raw": {
+        "from": 54000,
+        "to": 54000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Должен обладать широким спектром знаний и навыков, включающих администрирование операционных систем (Windows, Linux), настройку и поддержку сетевого оборудования, понимание сетевых...",
+      "responsibility": "Установка, настройка и обслуживание компьютерного оборудования, серверов, сетевых устройств и программного обеспечения, обеспечение безопасности данных, решение технических проблем, а также...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123929743",
+      "name": "Системный администратор",
+      "company": "РОСТ, Группа компаний",
+      "company_id": "1449838",
+      "company_url": "https://hh.ru/employer/1449838",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1404906.png",
+      "url": "https://hh.ru/vacancy/123929743",
+      "published_at": "2025-08-12T09:06:27+0300",
+      "created_at": "2025-08-12T09:06:27+0300",
+      "area": "Шумиха",
       "salary": "54 000 - 54 000 RUR на руки",
       "salary_raw": {
         "from": 54000,
