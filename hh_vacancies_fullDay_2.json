@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-01T13:09:06Z",
+  "updated": "2025-09-01T13:48:48Z",
   "statistics": {
     "total": 809,
     "with_salary": 622,
-    "companies": 630,
+    "companies": 629,
     "cities": 130,
     "premium": 2,
     "with_test": 12
   },
   "vacancies": [
+    {
+      "id": "124523425",
+      "name": "Системный администратор на предприятие",
+      "company": "Завод Гидропром",
+      "company_id": "2758937",
+      "company_url": "https://hh.ru/employer/2758937",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1045856.png",
+      "url": "https://hh.ru/vacancy/124523425",
+      "published_at": "2025-09-01T16:42:37+0300",
+      "created_at": "2025-09-01T16:42:37+0300",
+      "area": "Курск",
+      "salary": "от 75 000 RUR на руки",
+      "salary_raw": {
+        "from": 75000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы от 1 года. Высшее образование. Дисциплинированность, умение планирования деятельности.",
+      "responsibility": "Своевременное и качественное техническое обслуживание компьютерного оборудования (80 комп.) и оргтехники предприятия, серверов. Администрирование сети MikroTik, Windows Server (AD, DHCP).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124724667",
+      "name": "Выездной инженер технической поддержки/системный администратор",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/124724667",
+      "published_at": "2025-09-01T16:17:59+0300",
+      "created_at": "2025-09-01T16:17:59+0300",
+      "area": "Орел",
+      "salary": "200 - 10 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 200,
+        "to": 10000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "124537450",
       "name": "Помощник системного администратора / Специалист технической поддержки",
@@ -4264,39 +4330,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт настройки Zoho CRM или аналогичных систем, ERPNext, Odoo. Опыт в развертке и настройке IP телефонии. Опыт создания и настройки...",
       "responsibility": "Локальная и удалённая поддержка пользователей, оказание технической помощи и консультаций по вопросам эксплуатации IT-оборудования и программного обеспечения.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124523425",
-      "name": "Системный администратор на предприятие",
-      "company": "Завод Гидропром",
-      "company_id": "2758937",
-      "company_url": "https://hh.ru/employer/2758937",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1045856.png",
-      "url": "https://hh.ru/vacancy/124523425",
-      "published_at": "2025-08-29T13:14:50+0300",
-      "created_at": "2025-08-29T13:14:50+0300",
-      "area": "Курск",
-      "salary": "от 75 000 RUR на руки",
-      "salary_raw": {
-        "from": 75000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы от 1 года. Высшее образование. Дисциплинированность, умение планирования деятельности.",
-      "responsibility": "Своевременное и качественное техническое обслуживание компьютерного оборудования (80 комп.) и оргтехники предприятия, серверов. Администрирование сети MikroTik, Windows Server (AD, DHCP).",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -14547,39 +14580,6 @@
       "accept_temporary": false
     },
     {
-      "id": "123303055",
-      "name": "Системный администратор",
-      "company": "МОЙ-КА! DS Business",
-      "company_id": "1308592",
-      "company_url": "https://hh.ru/employer/1308592",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1113371.png",
-      "url": "https://hh.ru/vacancy/123303055",
-      "published_at": "2025-08-19T10:06:23+0300",
-      "created_at": "2025-08-19T10:06:23+0300",
-      "area": "Воронеж",
-      "salary": "от 60 000 RUR на руки",
-      "salary_raw": {
-        "from": 60000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с 1С. Знание Windows Server, Active Directory, баз данных (PostgreSQL). Навыки работы с сетевым оборудованием (MikroTik, VLAN...",
-      "responsibility": "Техническая поддержка сотрудников. Обслуживание серверов (Windows Server, Linux), настройка резервного копирования. Мониторинг и администрирование сетевой инфраструктуры (MikroTik, VPN, Wi-Fi).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "124206196",
       "name": "Системный администратор",
       "company": "СКОПИНФАРМ",
@@ -24382,7 +24382,7 @@
       "schedule": "Полный день",
       "employment": "Полная занятость",
       "requirement": "Образование высшее. Базовые навыки в использовании графических редакторов. Базовые навыки администрирования ПК.",
-      "responsibility": "Создание, редактирование и управление контентом на сайте, соцсетях и др. онлайн-платформах. Наполнение сайта. Обновление компонентов сайта, устранение неполадок на...",
+      "responsibility": "Обновление компонентов сайта, устранение неполадок на сайте (1С Битрикс). Оказание IT поддержки пользователям. Поддержание работоспособности и корпоративной сети.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
