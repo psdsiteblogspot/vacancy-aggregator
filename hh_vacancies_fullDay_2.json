@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-02T13:09:34Z",
+  "updated": "2025-09-02T13:49:32Z",
   "statistics": {
-    "total": 835,
-    "with_salary": 641,
-    "companies": 646,
+    "total": 836,
+    "with_salary": 642,
+    "companies": 647,
     "cities": 136,
     "premium": 2,
     "with_test": 12
   },
   "vacancies": [
+    {
+      "id": "124784201",
+      "name": "Системный администратор",
+      "company": "Бионовация",
+      "company_id": "8963211",
+      "company_url": "https://hh.ru/employer/8963211",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1416548.png",
+      "url": "https://hh.ru/vacancy/124784201",
+      "published_at": "2025-09-02T16:35:12+0300",
+      "created_at": "2025-09-02T16:35:12+0300",
+      "area": "Рыбинск",
+      "salary": "от 45 000 RUR на руки",
+      "salary_raw": {
+        "from": 45000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Базовые знания Windows, офисного ПО, сетей. Ответственность, внимательность, желание развиваться в IT. Обязательно: профильное образование по системному администрированию.",
+      "responsibility": "Обслуживание видеонаблюдения, роутеров, Wi-Fi. Ведение учёта техники и расходников. Выполнение поручений старшего системного администратора. Участие в проектах по автоматизации...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "118205354",
+      "name": "Главный системный администратор",
+      "company": "ГБУ ЯО Электронный регион",
+      "company_id": "796393",
+      "company_url": "https://hh.ru/employer/796393",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/653852.png",
+      "url": "https://hh.ru/vacancy/118205354",
+      "published_at": "2025-09-02T16:20:24+0300",
+      "created_at": "2025-09-02T16:20:24+0300",
+      "area": "Ярославль",
+      "salary": "75 000 - 95 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 75000,
+        "to": 95000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Требования (желательные навыки): Опыт работы не менее 2 лет. Высшее образование. Знание ОС РедОС, Ubuntu, FreeBSD. Опыт работы с системами...",
+      "responsibility": "Конфигурация, настройка и администрирование серверов, персональных компьютеров и периферийных устройств. Поддержка локальной (LAN), глобальной (WAN) и телефоннои...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "124782132",
       "name": "Системный администратор",
@@ -3963,16 +4029,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124688705",
+      "id": "124688704",
       "name": "Инженер 1 категории (Системный администратор)",
       "company": "Администрация Городецкого Муниципального Округа Нижегородской Области",
       "company_id": "12251653",
       "company_url": "https://hh.ru/employer/12251653",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/124688705",
+      "url": "https://hh.ru/vacancy/124688704",
       "published_at": "2025-09-01T08:32:13+0300",
       "created_at": "2025-09-01T08:32:13+0300",
-      "area": "Заволжье",
+      "area": "Городец",
       "salary": "от 35 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 35000,
@@ -3996,16 +4062,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124688704",
+      "id": "124688705",
       "name": "Инженер 1 категории (Системный администратор)",
       "company": "Администрация Городецкого Муниципального Округа Нижегородской Области",
       "company_id": "12251653",
       "company_url": "https://hh.ru/employer/12251653",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/124688704",
+      "url": "https://hh.ru/vacancy/124688705",
       "published_at": "2025-09-01T08:32:13+0300",
       "created_at": "2025-09-01T08:32:13+0300",
-      "area": "Городец",
+      "area": "Заволжье",
       "salary": "от 35 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 35000,
@@ -25371,39 +25437,6 @@
       "employment": "Частичная занятость",
       "requirement": "Ищем опытного специалиста, имеющего возможность подключаться оперативно к решению возникающей проблемы и при необходимости способного быстро выехать на место для...",
       "responsibility": "Системное администрирование. Проектирование и настройка ЛВС. Поддержка и конфигурирование SQL. Обслуживание серверов и рабочих станций. Диагностика и устранение неполадок ПК.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "118205354",
-      "name": "Главный системный администратор",
-      "company": "ГБУ ЯО Электронный регион",
-      "company_id": "796393",
-      "company_url": "https://hh.ru/employer/796393",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/653852.png",
-      "url": "https://hh.ru/vacancy/118205354",
-      "published_at": "2025-08-05T10:55:25+0300",
-      "created_at": "2025-08-05T10:55:25+0300",
-      "area": "Ярославль",
-      "salary": "75 000 - 95 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 75000,
-        "to": 95000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Требования (желательные навыки): Опыт работы не менее 2 лет. Высшее образование. Знание ОС РедОС, Ubuntu, FreeBSD. Опыт работы с системами...",
-      "responsibility": "Конфигурация, настройка и администрирование серверов, персональных компьютеров и периферийных устройств. Поддержка локальной (LAN), глобальной (WAN) и телефоннои...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
