@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-03T03:48:36Z",
+  "updated": "2025-09-03T04:47:10Z",
   "statistics": {
-    "total": 839,
-    "with_salary": 643,
-    "companies": 651,
+    "total": 840,
+    "with_salary": 644,
+    "companies": 652,
     "cities": 136,
     "premium": 2,
     "with_test": 12
   },
   "vacancies": [
+    {
+      "id": "124795881",
+      "name": "Помощник системного администратора",
+      "company": "Декларант Плюс",
+      "company_id": "5913771",
+      "company_url": "https://hh.ru/employer/5913771",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/124795881",
+      "published_at": "2025-09-03T07:11:16+0300",
+      "created_at": "2025-09-03T07:11:16+0300",
+      "area": "Владивосток",
+      "salary": "от 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Желателен опыт работы системным администратором от 1 года. - Знание ОС: Windows Server, Linux (на уровне администрирования). - Понимание TCP/IP, DNS...",
+      "responsibility": "Компания «Декларант Плюс» - это команда опытных специалистов, предоставляющих услуги по продаже, сопровождению и разработке специализированного программного обеспечения и сервисов для...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124409382",
+      "name": "Системный администратор",
+      "company": "Бристоль, сеть магазинов",
+      "company_id": "1189320",
+      "company_url": "https://hh.ru/employer/1189320",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/60208.jpg",
+      "url": "https://hh.ru/vacancy/124409382",
+      "published_at": "2025-09-03T06:40:33+0300",
+      "created_at": "2025-09-03T06:40:33+0300",
+      "area": "Уссурийск",
+      "salary": "от 103 000 RUR на руки",
+      "salary_raw": {
+        "from": 103000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы от 1 года на аналогичной должности. - Профильное среднее или профессиональное образование. - Желателен опыт администрирования серверов 1С 8...",
+      "responsibility": "...Ламода», «СДЭК» и «Дикси» или в организациях на позициях: системный администратор, мастер по настройке и ремонту компьютеров, выездной сервисный инженер...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "122204066",
       "name": "Системный администратор",
@@ -1314,16 +1380,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124746318",
+      "id": "124746317",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124746318",
+      "url": "https://hh.ru/vacancy/124746317",
       "published_at": "2025-09-02T09:31:20+0300",
       "created_at": "2025-09-02T09:31:20+0300",
-      "area": "Буинск",
+      "area": "Мамадыш",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -1342,16 +1408,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124746317",
+      "id": "124746318",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124746317",
+      "url": "https://hh.ru/vacancy/124746318",
       "published_at": "2025-09-02T09:31:20+0300",
       "created_at": "2025-09-02T09:31:20+0300",
-      "area": "Мамадыш",
+      "area": "Буинск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -5496,39 +5562,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание семейства ОС Windows. Знание ОС Linux (Ubuntu, Centos). Опыт настройки сетевого оборудования. Опыт установки ПО. Знание стека протоколов TCP...",
       "responsibility": "Техническая поддержка пользователей. Установка, настройка и обновление офисного и прикладного ПО (MS Office, программные телефоны, настройка сетевых дисков, антивирусов).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124409382",
-      "name": "Системный администратор",
-      "company": "Бристоль, сеть магазинов",
-      "company_id": "1189320",
-      "company_url": "https://hh.ru/employer/1189320",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/60208.jpg",
-      "url": "https://hh.ru/vacancy/124409382",
-      "published_at": "2025-08-31T06:40:33+0300",
-      "created_at": "2025-08-31T06:40:33+0300",
-      "area": "Уссурийск",
-      "salary": "от 103 000 RUR на руки",
-      "salary_raw": {
-        "from": 103000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы от 1 года на аналогичной должности. - Профильное среднее или профессиональное образование. - Желателен опыт администрирования серверов 1С 8...",
-      "responsibility": "...Ламода», «СДЭК» и «Дикси» или в организациях на позициях: системный администратор, мастер по настройке и ремонту компьютеров, выездной сервисный инженер...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
