@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-03T15:45:25Z",
+  "updated": "2025-09-03T16:49:38Z",
   "statistics": {
-    "total": 827,
-    "with_salary": 625,
-    "companies": 650,
+    "total": 828,
+    "with_salary": 626,
+    "companies": 651,
     "cities": 131,
     "premium": 2,
     "with_test": 12
   },
   "vacancies": [
+    {
+      "id": "124841452",
+      "name": "Системный администратор",
+      "company": "Здоровье",
+      "company_id": "3158418",
+      "company_url": "https://hh.ru/employer/3158418",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/124841452",
+      "published_at": "2025-09-03T19:32:18+0300",
+      "created_at": "2025-09-03T19:32:18+0300",
+      "area": "Пенза",
+      "salary": "от 75 000 RUR на руки",
+      "salary_raw": {
+        "from": 75000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Добросовестность, исполнительность, пунктуальность, хорошие коммуникативные навыки, обучаемость, стрессоустойчивость и многозадачность. Опыт работы в медицинских организациях, а также с медицинским оборудованием.",
+      "responsibility": "Администрирование серверов под управлением WIndows. Администрирование, настройка и обслуживание сетевого оборудования. Администрирование серверов 1С: Предприятие 8 и MS SQL...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123763768",
+      "name": "TechLead/Старший системный администратор",
+      "company": "TravelLine",
+      "company_id": "1136961",
+      "company_url": "https://hh.ru/employer/1136961",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1370529.png",
+      "url": "https://hh.ru/vacancy/123763768",
+      "published_at": "2025-09-03T18:42:41+0300",
+      "created_at": "2025-09-03T18:42:41+0300",
+      "area": "Казань",
+      "salary": "от 230 000 RUR на руки",
+      "salary_raw": {
+        "from": 230000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Более 6 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Ответственно относишься к своей работе — совсем не здóрово, если вечером произошел критический инцидент, а админ уходит домой, игнорируя ситуацию.",
+      "responsibility": "Администрировать домен Active Directory. Администрировать сервера приложений, почты, телефонии (Exchange, Asterisk, Bitrix24, JIRA и т.д.). Администрировать сетевое оборудование...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "124840006",
       "name": "Системный администратор",
@@ -52,6 +118,39 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": true
+    },
+    {
+      "id": "124384764",
+      "name": "Системный администратор / Инженер",
+      "company": "Трио",
+      "company_id": "2362218",
+      "company_url": "https://hh.ru/employer/2362218",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1398420.png",
+      "url": "https://hh.ru/vacancy/124384764",
+      "published_at": "2025-09-03T18:07:18+0300",
+      "created_at": "2025-09-03T18:07:18+0300",
+      "area": "Тольятти",
+      "salary": "от 90 000 RUR на руки",
+      "salary_raw": {
+        "from": 90000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Более 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "GPO. MS CA. Желательно знать: Apache. IPTables.",
+      "responsibility": "Разработка и внедрение. Создаем и адаптируем решения на платформе «1С:Предприятие 8» в соответствии с бизнес-задачами клиентов.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
     },
     {
       "id": "123758028",
@@ -6562,72 +6661,6 @@
       ],
       "has_test": false,
       "premium": true,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123763768",
-      "name": "TechLead/Старший системный администратор",
-      "company": "TravelLine",
-      "company_id": "1136961",
-      "company_url": "https://hh.ru/employer/1136961",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1370529.png",
-      "url": "https://hh.ru/vacancy/123763768",
-      "published_at": "2025-08-31T18:42:41+0300",
-      "created_at": "2025-08-31T18:42:41+0300",
-      "area": "Казань",
-      "salary": "от 230 000 RUR на руки",
-      "salary_raw": {
-        "from": 230000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Более 6 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Ответственно относишься к своей работе — совсем не здóрово, если вечером произошел критический инцидент, а админ уходит домой, игнорируя ситуацию.",
-      "responsibility": "Администрировать домен Active Directory. Администрировать сервера приложений, почты, телефонии (Exchange, Asterisk, Bitrix24, JIRA и т.д.). Администрировать сетевое оборудование...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124384764",
-      "name": "Системный администратор / Инженер",
-      "company": "Трио",
-      "company_id": "2362218",
-      "company_url": "https://hh.ru/employer/2362218",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1398420.png",
-      "url": "https://hh.ru/vacancy/124384764",
-      "published_at": "2025-08-31T18:07:18+0300",
-      "created_at": "2025-08-31T18:07:18+0300",
-      "area": "Тольятти",
-      "salary": "от 90 000 RUR на руки",
-      "salary_raw": {
-        "from": 90000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Более 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "GPO. MS CA. Желательно знать: Apache. IPTables.",
-      "responsibility": "Разработка и внедрение. Создаем и адаптируем решения на платформе «1С:Предприятие 8» в соответствии с бизнес-задачами клиентов.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный инженер"
-      ],
-      "has_test": false,
-      "premium": false,
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": false
