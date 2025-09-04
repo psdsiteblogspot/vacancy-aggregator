@@ -10,16 +10,143 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-04T03:42:27Z",
+  "updated": "2025-09-04T04:38:28Z",
   "statistics": {
-    "total": 925,
-    "with_salary": 704,
-    "companies": 715,
-    "cities": 189,
+    "total": 926,
+    "with_salary": 705,
+    "companies": 717,
+    "cities": 188,
     "premium": 0,
     "with_test": 12
   },
   "vacancies": [
+    {
+      "id": "124851459",
+      "name": "Младший системный администратор",
+      "company": "Акведук-софт",
+      "company_id": "2636679",
+      "company_url": "https://hh.ru/employer/2636679",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/378846.jpg",
+      "url": "https://hh.ru/vacancy/124851459",
+      "published_at": "2025-09-04T07:36:51+0300",
+      "created_at": "2025-09-04T07:36:51+0300",
+      "area": "Томск",
+      "salary": "35 000 - 55 000 RUR на руки",
+      "salary_raw": {
+        "from": 35000,
+        "to": 55000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "",
+      "responsibility": "",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122764952",
+      "name": "Старший системный администратор (Windows, AD)",
+      "company": "Lime Credit Group",
+      "company_id": "1516420",
+      "company_url": "https://hh.ru/employer/1516420",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1388130.png",
+      "url": "https://hh.ru/vacancy/122764952",
+      "published_at": "2025-09-04T07:31:13+0300",
+      "created_at": "2025-09-04T07:31:13+0300",
+      "area": "Новосибирск",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Уверенные знания Windows Server, в том числе в части роли AD, Exchange. Знакомство с Ubuntu, Astra Linux. Знакомство с принципами...",
+      "responsibility": "Работа с MS AD. Работа с MS Exchange. Работа с системой виртуализации ESXi. Эксплуатация парка серверов. Поддержка на уровне 3...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124851118",
+      "name": "Системный администратор",
+      "company": "Городские Зрелищные Кассы",
+      "company_id": "5295696",
+      "company_url": "https://hh.ru/employer/5295696",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/984046.png",
+      "url": "https://hh.ru/vacancy/124851118",
+      "published_at": "2025-09-04T07:23:10+0300",
+      "created_at": "2025-09-04T07:23:10+0300",
+      "area": "Красноярск",
+      "salary": "55 000 - 65 000 RUR на руки",
+      "salary_raw": {
+        "from": 55000,
+        "to": 65000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт обслуживания ПК и ПО. Базовые знания ПО Linux. Будет плюсом опыт обслуживания ККТ, написание скриптов postgresql. Знание основ TCP...",
+      "responsibility": "Обслуживание ПК , периферийной техники и других устройств. Подбор оборудования по установленным критериям, сборка. Обслуживание ПО (ОС Windows, офисные пакеты, банк...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124850170",
+      "name": "Системный администратор",
+      "company": "Группа компаний Троя",
+      "company_id": "49433",
+      "company_url": "https://hh.ru/employer/49433",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1310881.png",
+      "url": "https://hh.ru/vacancy/124850170",
+      "published_at": "2025-09-04T06:52:26+0300",
+      "created_at": "2025-09-04T06:52:26+0300",
+      "area": "Красноярск",
+      "salary": "90 000 - 90 000 RUR на руки",
+      "salary_raw": {
+        "from": 90000,
+        "to": 90000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Аналогичный опыт работы от 2 лет. (рассматриваем кандидатов с меньшим опытом, но с сильным желанием развиваться и изучать новые навыки).",
+      "responsibility": "Установка, настройка, обновление и поддержка оборудования и программного обеспечения. Администрирование серверов (преимущественно Windows Server и Linux-семейства: CentOS, Ubuntu).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123289806",
       "name": "Системный администратор",
@@ -69,8 +196,8 @@
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "",
+      "requirement": "Знание Linux на уровне администрирования (Debian, Ubuntu, CentOS). Опыт работы с СУБД (MariaDB, MySQL, PostgreSQL). Понимание основ сетевых технологий и...",
+      "responsibility": "Обеспечивать стабильную работу телематических сервисов. Поддерживать и развивать серверную инфраструктуру. Выполнять плановую модернизацию и обновление оборудования. Обеспечивать бесперебойную работу кластеров...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -135,8 +262,8 @@
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "Наши преимущества: Имеет навыки работы с CRM-Битрикс24, 1С. Опыт обслуживания офисной и компьютерной техники (программное и техническое...",
-      "responsibility": "Услуги по предоставлению подвижного состава. Складская реализация реквизита крепления. Производство и поставка трубной продукции в нефтегазовую отрасль. Обеспечивать информационную безопасность...",
+      "requirement": "Имеет навыки работы с CRM-Битрикс24 (опыт работы с 1С будет плюсом). Опыт обслуживания офисной и компьютерной техники...",
+      "responsibility": "Обеспечивать информационную безопасность компании. Управлять и поддерживать IT-инфраструктуру, базы данных и системы связи. Следить за бесперебойной работой сервисов (сайт...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -7029,16 +7156,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124075055",
+      "id": "124075047",
       "name": "Электромеханик связи/системный администратор",
       "company": "Первая Сервисная Компания",
       "company_id": "1480991",
       "company_url": "https://hh.ru/employer/1480991",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
-      "url": "https://hh.ru/vacancy/124075055",
+      "url": "https://hh.ru/vacancy/124075047",
       "published_at": "2025-09-01T15:15:29+0300",
       "created_at": "2025-09-01T15:15:29+0300",
-      "area": "Дюртюли",
+      "area": "Белорецк",
       "salary": "55 000 - 80 000 RUR на руки",
       "salary_raw": {
         "from": 55000,
@@ -7062,16 +7189,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124075047",
+      "id": "124075055",
       "name": "Электромеханик связи/системный администратор",
       "company": "Первая Сервисная Компания",
       "company_id": "1480991",
       "company_url": "https://hh.ru/employer/1480991",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
-      "url": "https://hh.ru/vacancy/124075047",
+      "url": "https://hh.ru/vacancy/124075055",
       "published_at": "2025-09-01T15:15:29+0300",
       "created_at": "2025-09-01T15:15:29+0300",
-      "area": "Белорецк",
+      "area": "Дюртюли",
       "salary": "55 000 - 80 000 RUR на руки",
       "salary_raw": {
         "from": 55000,
@@ -11113,9 +11240,9 @@
       "published_at": "2025-08-29T07:20:09+0300",
       "created_at": "2025-08-29T07:20:09+0300",
       "area": "Новосибирск",
-      "salary": "от 70 000 RUR на руки",
+      "salary": "от 80 000 RUR на руки",
       "salary_raw": {
-        "from": 70000,
+        "from": 80000,
         "to": null,
         "currency": "RUR",
         "gross": false
@@ -14513,34 +14640,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание офисных программ на уровне продвинутого пользователя. Умение и знание работы с RAID контроллерами на SAS дисках (создание и обслуживание...",
       "responsibility": "Обеспечение работоспособности в офисе и магазинах компьютерной техники и сети, программного обеспечения, (кроме администрирования в 1С и решений на...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122764952",
-      "name": "Старший системный администратор (Windows, AD)",
-      "company": "Lime Credit Group",
-      "company_id": "1516420",
-      "company_url": "https://hh.ru/employer/1516420",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1388130.png",
-      "url": "https://hh.ru/vacancy/122764952",
-      "published_at": "2025-08-26T09:37:22+0300",
-      "created_at": "2025-08-26T09:37:22+0300",
-      "area": "Новосибирск",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Уверенные знания Windows Server, в том числе в части роли AD, Exchange. Знакомство с Ubuntu, Astra Linux. Знакомство с принципами...",
-      "responsibility": "Работа с MS AD. Работа с MS Exchange. Работа с системой виртуализации ESXi. Эксплуатация парка серверов. Поддержка на уровне 3...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -24757,16 +24856,16 @@
       "accept_temporary": true
     },
     {
-      "id": "123981584",
+      "id": "123981585",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123981584",
+      "url": "https://hh.ru/vacancy/123981585",
       "published_at": "2025-08-12T18:31:37+0300",
       "created_at": "2025-08-12T18:31:37+0300",
-      "area": "Радужный (Ханты-Мансийский АО - Югра)",
+      "area": "Тавда",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -24785,16 +24884,16 @@
       "accept_temporary": true
     },
     {
-      "id": "123981585",
+      "id": "123981584",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123981585",
+      "url": "https://hh.ru/vacancy/123981584",
       "published_at": "2025-08-12T18:31:37+0300",
       "created_at": "2025-08-12T18:31:37+0300",
-      "area": "Тавда",
+      "area": "Радужный (Ханты-Мансийский АО - Югра)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -25700,16 +25799,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123929743",
+      "id": "123929745",
       "name": "Системный администратор",
       "company": "РОСТ, Группа компаний",
       "company_id": "1449838",
       "company_url": "https://hh.ru/employer/1449838",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1404906.png",
-      "url": "https://hh.ru/vacancy/123929743",
+      "url": "https://hh.ru/vacancy/123929745",
       "published_at": "2025-08-12T09:06:27+0300",
       "created_at": "2025-08-12T09:06:27+0300",
-      "area": "Шумиха",
+      "area": "Миасское",
       "salary": "54 000 - 54 000 RUR на руки",
       "salary_raw": {
         "from": 54000,
@@ -25733,16 +25832,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123929745",
+      "id": "123929743",
       "name": "Системный администратор",
       "company": "РОСТ, Группа компаний",
       "company_id": "1449838",
       "company_url": "https://hh.ru/employer/1449838",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1404906.png",
-      "url": "https://hh.ru/vacancy/123929745",
+      "url": "https://hh.ru/vacancy/123929743",
       "published_at": "2025-08-12T09:06:27+0300",
       "created_at": "2025-08-12T09:06:27+0300",
-      "area": "Миасское",
+      "area": "Шумиха",
       "salary": "54 000 - 54 000 RUR на руки",
       "salary_raw": {
         "from": 54000,
@@ -28425,39 +28524,6 @@
       "accept_temporary": false
     },
     {
-      "id": "123686884",
-      "name": "Системный администратор",
-      "company": "КАУ ДПО Алтайский Институт Развития Образования Имени А. М. Топорова",
-      "company_id": "4242261",
-      "company_url": "https://hh.ru/employer/4242261",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/123686884",
-      "published_at": "2025-08-06T10:23:39+0300",
-      "created_at": "2025-08-06T10:23:39+0300",
-      "area": "Барнаул",
-      "salary": "45 000 - 45 000 RUR на руки",
-      "salary_raw": {
-        "from": 45000,
-        "to": 45000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Kaspersky Security Center. - уверенное администрирование: Windows Server, Unix Servers, виртуализация Hyper-V, Kaspersky Endpoint Security, Active Directory. - опыт конфигурирования: Web...",
-      "responsibility": "Администрирование систем: Локальная вычислительная сеть (маршрутизация, межсетевой экран, сетевые протоколы). Системы аппаратной виртуализации (Hyper-V). WEB сервер (nginx, PHP, php...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "123147487",
       "name": "Системный администратор",
       "company": "Пичугин Евгений Сергеевич",
@@ -29397,39 +29463,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт системного администрирования ОС на базе Linux от 3-х лет. Опыт работы с системой управления конфигурацией (Ansible или SaltStack).",
       "responsibility": "Установка, настройка и сопровождение импортозамещенных операционных систем семейства Linux. Сопровождение информационных систем и сервисов, развернутых на серверах под управлением Linux.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123621899",
-      "name": "Системный администратор, Нефтеюганск",
-      "company": "Кейтеринбург",
-      "company_id": "5866454",
-      "company_url": "https://hh.ru/employer/5866454",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1388936.png",
-      "url": "https://hh.ru/vacancy/123621899",
-      "published_at": "2025-08-05T07:16:01+0300",
-      "created_at": "2025-08-05T07:16:01+0300",
-      "area": "Нефтеюганск",
-      "salary": "80 000 - 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": 80000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Системный подход в решении поставленных задач. Опыт администрирование операционных систем семейства Windows, в том числе и серверной платформы.",
-      "responsibility": "Установка, настройка, обновление, администрирование ОС Windows, прочего ПО. Решение типовых обращений от сотрудников по вопросам работы программного обеспечения и ИТ...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
