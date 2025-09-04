@@ -10,16 +10,115 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-04T13:40:15Z",
+  "updated": "2025-09-04T14:37:38Z",
   "statistics": {
-    "total": 925,
-    "with_salary": 710,
-    "companies": 718,
+    "total": 926,
+    "with_salary": 711,
+    "companies": 720,
     "cities": 192,
     "premium": 0,
     "with_test": 14
   },
   "vacancies": [
+    {
+      "id": "124889997",
+      "name": "Системный администратор",
+      "company": "Федеральная пассажирская компания (АО ФПК)",
+      "company_id": "9014957",
+      "company_url": "https://hh.ru/employer/9014957",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1042810.png",
+      "url": "https://hh.ru/vacancy/124889997",
+      "published_at": "2025-09-04T17:20:50+0300",
+      "created_at": "2025-09-04T17:20:50+0300",
+      "area": "Ростов-на-Дону",
+      "salary": "70 000 - 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 70000,
+        "to": 80000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее, техническое, опыт работы от года.",
+      "responsibility": "Настройка аппаратуры и автоматизированного рабочего места (АРМ). Оформление, учет и контроль заявок на подключение к информационным ресурсам. Установка/переустановка/обновление...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124889060",
+      "name": "Системный администратор / Ведущий инженер",
+      "company": "Курганская генерирующая компания",
+      "company_id": "979539",
+      "company_url": "https://hh.ru/employer/979539",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/124889060",
+      "published_at": "2025-09-04T17:01:26+0300",
+      "created_at": "2025-09-04T17:01:26+0300",
+      "area": "Курган",
+      "salary": "до 120 000 RUR на руки",
+      "salary_raw": {
+        "from": null,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание ОС Windows(2012-2019), Linux (CentOS, Ubunutu, Astra, Debian) на уровне системного администратора. Уверенное владение консолью Linux систем.",
+      "responsibility": "Администрирование серверов(Windows 2012-2019, Astra, CentOS, Debian). Администрирование MS ActiveDirectory, управление групповыми политикам. Администрирование систем виртуализации Proxmox, Xen, Hyper...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124726878",
+      "name": "Системный администратор",
+      "company": "Техноавиа-Краснодар",
+      "company_id": "903863",
+      "company_url": "https://hh.ru/employer/903863",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/115063.jpg",
+      "url": "https://hh.ru/vacancy/124726878",
+      "published_at": "2025-09-04T16:56:54+0300",
+      "created_at": "2025-09-04T16:56:54+0300",
+      "area": "Краснодар",
+      "salary": "от 80 500 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 80500,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Среднее специальное, высшее профессиональное образование. Опыт работы от 1 года. Знание AD,DNS, DHCP. Знание 1С, MS Office.",
+      "responsibility": "Обеспечение информационной безопасности и связи. Организация работы с поставщиками услуг (интернет - провайдеры, мобильная связь). Ведение актуального склада расходных материалов(заказ...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123872835",
       "name": "Системный администратор",
@@ -71,6 +170,39 @@
       "employment": "Полная занятость",
       "requirement": "Знание операционных систем MS Windows XP – 2019. Знание основ AD, DNS, WINS, DHCP, TS, FTP, VPN, ЛВС (модель OSI, стек...",
       "responsibility": "Обеспечение бесперебойной работы ИТ оборудования компании (ПК ~ 150-200 единиц, оргтехника ~ 20 единиц). Осуществление диагностики и блочного ремонта.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124645584",
+      "name": "Системный администратор",
+      "company": "ПРОФ ИТ",
+      "company_id": "9933267",
+      "company_url": "https://hh.ru/employer/9933267",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1182235.png",
+      "url": "https://hh.ru/vacancy/124645584",
+      "published_at": "2025-09-04T16:11:33+0300",
+      "created_at": "2025-09-04T16:11:33+0300",
+      "area": "Краснодар",
+      "salary": "60 000 - 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": 80000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы: Опыт администрирования рабочих мест и серверов на платформах Windows и Unix. Опыт работы с Unix-системами (FreeBSD, Linux).",
+      "responsibility": "Обеспечение стабильной работы ИТ-инфраструктуры: администрирование серверов, сетевого оборудования и рабочих мест. Техническая и программная поддержка пользователей, консультации по вопросам...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -9632,39 +9764,6 @@
       "accept_temporary": false
     },
     {
-      "id": "124726878",
-      "name": "Системный администратор",
-      "company": "Техноавиа-Краснодар",
-      "company_id": "903863",
-      "company_url": "https://hh.ru/employer/903863",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/115063.jpg",
-      "url": "https://hh.ru/vacancy/124726878",
-      "published_at": "2025-09-01T16:56:54+0300",
-      "created_at": "2025-09-01T16:56:54+0300",
-      "area": "Краснодар",
-      "salary": "от 80 500 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 80500,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Среднее специальное, высшее профессиональное образование. Опыт работы от 1 года. Знание AD,DNS, DHCP. Знание 1С, MS Office.",
-      "responsibility": "Обеспечение информационной безопасности и связи. Организация работы с поставщиками услуг (интернет - провайдеры, мобильная связь). Ведение актуального склада расходных материалов(заказ...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "123941307",
       "name": "Системный администратор Linux",
       "company": "Кубань Кредит, КБ",
@@ -9682,39 +9781,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы в аналогичном направлении не менее одного года. Базовые навыки администрирования в операционных системах Linux и windows.",
       "responsibility": "Администрирование серверов на базе ОС Linux. Работа в средах виртуализации XenServer, Hyper-V, KVM. Сопровождение кластеров высокой доступности Nginx, Haproxy.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124645584",
-      "name": "Системный администратор",
-      "company": "ПРОФ ИТ",
-      "company_id": "9933267",
-      "company_url": "https://hh.ru/employer/9933267",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1182235.png",
-      "url": "https://hh.ru/vacancy/124645584",
-      "published_at": "2025-09-01T16:11:33+0300",
-      "created_at": "2025-09-01T16:11:33+0300",
-      "area": "Краснодар",
-      "salary": "60 000 - 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 60000,
-        "to": 80000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы: Опыт администрирования рабочих мест и серверов на платформах Windows и Unix. Опыт работы с Unix-системами (FreeBSD, Linux).",
-      "responsibility": "Обеспечение стабильной работы ИТ-инфраструктуры: администрирование серверов, сетевого оборудования и рабочих мест. Техническая и программная поддержка пользователей, консультации по вопросам...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -10569,39 +10635,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124691261",
-      "name": "Территориальный системный администратор",
-      "company": "Мегаполис",
-      "company_id": "57045",
-      "company_url": "https://hh.ru/employer/57045",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1446481.png",
-      "url": "https://hh.ru/vacancy/124691261",
-      "published_at": "2025-09-01T09:13:41+0300",
-      "created_at": "2025-09-01T09:13:41+0300",
-      "area": "Краснодар",
-      "salary": "71 000 - 85 200 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 71000,
-        "to": 85200,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Образование не ниже средне-специального. Знание программного/аппаратного обеспечения: ноутбуки и ПК Apple, HP, Dell, планшеты и смартфоны на базе...",
-      "responsibility": "Организация рабочих мест и обеспечение пользователей ИТ ресурсами (установка ПК, настройка телефонов, перемещение рабочих мест, замена комплектующих в ПК, чистка...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Специалист технической поддержки"
       ],
       "has_test": false,
       "premium": false,
@@ -25694,6 +25727,34 @@
       "accept_temporary": true
     },
     {
+      "id": "123981578",
+      "name": "Системный администратор/инженер",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/123981578",
+      "published_at": "2025-08-12T18:31:37+0300",
+      "created_at": "2025-08-12T18:31:37+0300",
+      "area": "Лесосибирск",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. опыт работы по настройке операционных...",
+      "responsibility": "установка и настройка OC Windows, а также офисных приложений. установка и настройка различного рода ПО. подключение и настройка периферийного оборудования...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
       "id": "123981586",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
@@ -25732,34 +25793,6 @@
       "published_at": "2025-08-12T18:31:37+0300",
       "created_at": "2025-08-12T18:31:37+0300",
       "area": "Лазаревское",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. опыт работы по настройке операционных...",
-      "responsibility": "установка и настройка OC Windows, а также офисных приложений. установка и настройка различного рода ПО. подключение и настройка периферийного оборудования...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
-      "id": "123981578",
-      "name": "Системный администратор/инженер",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123981578",
-      "published_at": "2025-08-12T18:31:37+0300",
-      "created_at": "2025-08-12T18:31:37+0300",
-      "area": "Лесосибирск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
