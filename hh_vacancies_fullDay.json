@@ -10,16 +10,176 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-04T03:06:15Z",
+  "updated": "2025-09-04T03:42:27Z",
   "statistics": {
-    "total": 923,
-    "with_salary": 702,
-    "companies": 713,
+    "total": 925,
+    "with_salary": 704,
+    "companies": 715,
     "cities": 189,
     "premium": 0,
     "with_test": 12
   },
   "vacancies": [
+    {
+      "id": "123289806",
+      "name": "Системный администратор",
+      "company": "ШИНИНВЕСТ",
+      "company_id": "571846",
+      "company_url": "https://hh.ru/employer/571846",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1398771.png",
+      "url": "https://hh.ru/vacancy/123289806",
+      "published_at": "2025-09-04T06:40:27+0300",
+      "created_at": "2025-09-04T06:40:27+0300",
+      "area": "Челябинск",
+      "salary": "70 000 - 90 000 RUR на руки",
+      "salary_raw": {
+        "from": 70000,
+        "to": 90000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее техническое образование (IT технологии). Опыт работы в аналогичной должности от 2-х лет, желателен опыт работы в организациях с...",
+      "responsibility": "Настройка, обслуживание и обеспечение бесперебойной работы серверного и коммутационного оборудования Предприятия, а также серверного программного обеспечения и серверных приложений (в...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124849775",
+      "name": "Системный администратор Linux",
+      "company": "Электронный город (ООО Новотелеком)",
+      "company_id": "69797",
+      "company_url": "https://hh.ru/employer/69797",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1385142.png",
+      "url": "https://hh.ru/vacancy/124849775",
+      "published_at": "2025-09-04T06:40:12+0300",
+      "created_at": "2025-09-04T06:40:12+0300",
+      "area": "Новосибирск",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "",
+      "responsibility": "",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124849560",
+      "name": "Дежурный системный администратор",
+      "company": "Предприятие «Таврия»",
+      "company_id": "748502",
+      "company_url": "https://hh.ru/employer/748502",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1323363.png",
+      "url": "https://hh.ru/vacancy/124849560",
+      "published_at": "2025-09-04T06:29:01+0300",
+      "created_at": "2025-09-04T06:29:01+0300",
+      "area": "Челябинск",
+      "salary": "от 40 000 RUR на руки",
+      "salary_raw": {
+        "from": 40000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Умение разбираться в причинах неисправностей офисной техники. Рассмотрим кандидатов без опыта работы — обучим всему сами! Базовое понимание IT-инфраструктуры приветствуется.",
+      "responsibility": "Прием и обработка заявок от пользователей по телефону, e-mail и через сайт в системе Service Desk. Решение заявок с...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124849536",
+      "name": "Системный администратор (в офис)",
+      "company": "Строительно-инвестиционная компания",
+      "company_id": "2260731",
+      "company_url": "https://hh.ru/employer/2260731",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1385670.png",
+      "url": "https://hh.ru/vacancy/124849536",
+      "published_at": "2025-09-04T06:26:36+0300",
+      "created_at": "2025-09-04T06:26:36+0300",
+      "area": "Екатеринбург",
+      "salary": "от 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Наши преимущества: Имеет навыки работы с CRM-Битрикс24, 1С. Опыт обслуживания офисной и компьютерной техники (программное и техническое...",
+      "responsibility": "Услуги по предоставлению подвижного состава. Складская реализация реквизита крепления. Производство и поставка трубной продукции в нефтегазовую отрасль. Обеспечивать информационную безопасность...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124848746",
+      "name": "Системный администратор",
+      "company": "ГБУ РС(Я) Центр Спид",
+      "company_id": "5626673",
+      "company_url": "https://hh.ru/employer/5626673",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1364881.png",
+      "url": "https://hh.ru/vacancy/124848746",
+      "published_at": "2025-09-04T06:06:27+0300",
+      "created_at": "2025-09-04T06:06:27+0300",
+      "area": "Якутск",
+      "salary": "56 100 - 56 100 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 56100,
+        "to": 56100,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Абстрактно-логическое мышление. Аналитический склад ума. Доминирующая склонность к работе с техникой. Выраженная склонность к работе с информацией.",
+      "responsibility": "Настройки оборудования – компьютеров, оргтехники. Консультация и поддержка пользователей. Работа с программным обеспечением – установка, наладка, обслуживание. Мониторинг и настройки сервера.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "122297702",
       "name": "Сервисный инженер / Системный администратор",
@@ -4377,34 +4537,6 @@
       "accept_temporary": false
     },
     {
-      "id": "124764665",
-      "name": "Ведущий системный администратор",
-      "company": "Гранд Байкал, туристическая компания",
-      "company_id": "81352",
-      "company_url": "https://hh.ru/employer/81352",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1222696.png",
-      "url": "https://hh.ru/vacancy/124764665",
-      "published_at": "2025-09-02T12:11:56+0300",
-      "created_at": "2025-09-02T12:11:56+0300",
-      "area": "Иркутск",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Образование не ниже среднего (ИТ, АСУ ТП). Опыт работы не менее 2х лет по направлению. Рабочее место в г.Байкальск...",
-      "responsibility": "Администрирование рабочих мест. Сетевой и серверный администратор уровня мидл. Сопровождение орг. техники и торгового оборудования (инициирование заявок подрядчику, контроль выполнения...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "124764666",
       "name": "Ведущий системный администратор",
       "company": "Гранд Байкал, туристическая компания",
@@ -6015,39 +6147,6 @@
       "employment": "Полная занятость",
       "requirement": "Профильное среднее-специальное образование, высшее (рассмотрим также студентов последних курсов).",
       "responsibility": "настройка и мелкий ремонт компьютерной техники. - прокладка локальных сетей. - установка и настройка программного обеспечения.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123289806",
-      "name": "Системный администратор",
-      "company": "ШИНИНВЕСТ",
-      "company_id": "571846",
-      "company_url": "https://hh.ru/employer/571846",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1398771.png",
-      "url": "https://hh.ru/vacancy/123289806",
-      "published_at": "2025-09-02T07:31:35+0300",
-      "created_at": "2025-09-02T07:31:35+0300",
-      "area": "Челябинск",
-      "salary": "70 000 - 90 000 RUR на руки",
-      "salary_raw": {
-        "from": 70000,
-        "to": 90000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее техническое образование (IT технологии). Опыт работы в аналогичной должности от 2-х лет, желателен опыт работы в организациях с...",
-      "responsibility": "Настройка, обслуживание и обеспечение бесперебойной работы серверного и коммутационного оборудования Предприятия, а также серверного программного обеспечения и серверных приложений (в...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -29331,39 +29430,6 @@
       "employment": "Полная занятость",
       "requirement": "Системный подход в решении поставленных задач. Опыт администрирование операционных систем семейства Windows, в том числе и серверной платформы.",
       "responsibility": "Установка, настройка, обновление, администрирование ОС Windows, прочего ПО. Решение типовых обращений от сотрудников по вопросам работы программного обеспечения и ИТ...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123620741",
-      "name": "Системный администратор",
-      "company": "Мега-Маркет",
-      "company_id": "12166212",
-      "company_url": "https://hh.ru/employer/12166212",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/123620741",
-      "published_at": "2025-08-05T06:07:28+0300",
-      "created_at": "2025-08-05T06:07:28+0300",
-      "area": "Томск",
-      "salary": "от 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы от 3 до 6 лет в аналогичной должности. Глубокие знания в области администрирования серверов и сетей.",
-      "responsibility": "Управление и поддержка серверов и сетевой инфраструктуры. Мониторинг и оптимизация работы систем. Установка и обновление программного обеспечения. Обеспечение безопасности данных...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
