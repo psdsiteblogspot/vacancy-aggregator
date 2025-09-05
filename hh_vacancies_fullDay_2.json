@@ -10,16 +10,44 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-05T08:49:50Z",
+  "updated": "2025-09-05T09:44:50Z",
   "statistics": {
-    "total": 817,
-    "with_salary": 617,
-    "companies": 642,
+    "total": 816,
+    "with_salary": 615,
+    "companies": 641,
     "cities": 136,
     "premium": 1,
     "with_test": 11
   },
   "vacancies": [
+    {
+      "id": "124928826",
+      "name": "Системный администратор",
+      "company": "Группа Компаний Аскона",
+      "company_id": "544224",
+      "company_url": "https://hh.ru/employer/544224",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/916895.png",
+      "url": "https://hh.ru/vacancy/124928826",
+      "published_at": "2025-09-05T12:02:09+0300",
+      "created_at": "2025-09-05T12:02:09+0300",
+      "area": "Ковров",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Навыки настройки серверного оборудования и СХД (желательно IBM, Huawei, Dell). Опыт построения и сопровождения кластеров высокой доступности MS Hyper-V.",
+      "responsibility": "Обработка задач в системе Service Desk. Поддержка инфраструктурных сервисов и серверного оборудования компании. Взаимодействие с сотрудниками и внешними контрагентами по...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "124924109",
       "name": "Системный администратор",
@@ -9188,8 +9216,8 @@
       "experience": "От 3 до 6 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "Обязательный опыт:​​​​​​​. - высшее техническое образование. - опыт внедрения информационных систем. - навыки и знания в администрировании Windows-based систем. - Microsoft Exchange. -",
-      "responsibility": "администрирование систем виртуализации (VMWare VSphere, Horizon). - администрирование систем хранения данных (СХД NetApp), SAN. - администрирование Microsoft Active Directory (доменные политики, разработка...",
+      "requirement": "Навыки и знания в администрировании Windows-based систем. Microsoft Exchange. Microsoft Skype For Business. VmWare vSphere, Horizon. Системы резервного копирования.",
+      "responsibility": "Администрирование систем виртуализации (VMWare VSphere, Horizon). Администрирование систем хранения данных (СХД NetApp), SAN. Администрирование Microsoft Active Directory (доменные политики, разработка...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -25908,72 +25936,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123695736",
-      "name": "Системный администратор",
-      "company": "Cosmos Hotel Group",
-      "company_id": "1046599",
-      "company_url": "https://hh.ru/employer/1046599",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/668921.png",
-      "url": "https://hh.ru/vacancy/123695736",
-      "published_at": "2025-08-06T12:19:01+0300",
-      "created_at": "2025-08-06T12:19:01+0300",
-      "area": "Ярославль",
-      "salary": "от 55 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 55000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт системного администрирования под Windows. Знание линейки ОС Microsoft. Высшее профессиональное образование в области ИТ. Понимание основ информационной безопасности и...",
-      "responsibility": "Осуществлять поддержку локальных и удаленных пользователей по различным вопросам, связанным с ИТ. Контроль за работой серверного, сетевого оборудования, оргтехники, телефонии...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123694390",
-      "name": "Системный администратор в офис",
-      "company": "Политехник",
-      "company_id": "3361005",
-      "company_url": "https://hh.ru/employer/3361005",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/123694390",
-      "published_at": "2025-08-06T11:59:55+0300",
-      "created_at": "2025-08-06T11:59:55+0300",
-      "area": "Нижний Новгород",
-      "salary": "до 100 000 RUR на руки",
-      "salary_raw": {
-        "from": null,
-        "to": 100000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее \\ среднее специальное профильное образование. Навыки администрирование серверов Windows и Linux. Знание и умение использовать современные технологии и системы видео...",
-      "responsibility": "Поддержка рабочего состояния программного обеспечения серверов и рабочих мест, удаленных рабочих мест, сетевого оборудования, периферийной оргтехники. Обеспечение своевременного копирования и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Другое"
       ],
       "has_test": false,
       "premium": false,
