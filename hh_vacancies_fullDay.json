@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-04T23:30:08Z",
+  "updated": "2025-09-05T02:02:37Z",
   "statistics": {
-    "total": 926,
-    "with_salary": 710,
-    "companies": 720,
+    "total": 927,
+    "with_salary": 711,
+    "companies": 721,
     "cities": 191,
     "premium": 0,
     "with_test": 14
   },
   "vacancies": [
+    {
+      "id": "124895231",
+      "name": "Системный администратор МКУ Новосибирского района Новосибирской области «Центр муниципальных услуг»",
+      "company": "Администрация Новосибирского района Новосибирской области",
+      "company_id": "1480454",
+      "company_url": "https://hh.ru/employer/1480454",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/124895231",
+      "published_at": "2025-09-05T04:34:01+0300",
+      "created_at": "2025-09-05T04:34:01+0300",
+      "area": "Новосибирск",
+      "salary": "от 72 000 RUR на руки",
+      "salary_raw": {
+        "from": 72000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование (профильное). Понимание принципов и технологий построения вычислительных сетей. Понимание принципов работы серверного, активного сетевого оборудования, стека протоколов TCP...",
+      "responsibility": "Техническая поддержка пользователей: настройка принтеров, телефонии, почты, связи, организация рабочих мест, заведение и удаление новых пользователей. Обслуживание инфраструктуры: сети, компьютеры...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124734494",
+      "name": "Системный инженер/системный администратор",
+      "company": "ФОРА",
+      "company_id": "11124891",
+      "company_url": "https://hh.ru/employer/11124891",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/124734494",
+      "published_at": "2025-09-05T04:33:29+0300",
+      "created_at": "2025-09-05T04:33:29+0300",
+      "area": "Новосибирск",
+      "salary": "от 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Операционный системы: Linux(raspbian, Ubuntu, etc.), Windows 10/11. Ethernet, DHCP, WiFi, DNS, сервера, 10gigEthernet, multicast, LACP.",
+      "responsibility": "Облачные провайдеры: Selectel/timeweb и ему подобные (VM, S3, etc.). Формирование шаблонов виртуальных машин/ контейнеров. Подготовка инфраструктуры проведения соревнований.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "124732402",
       "name": "Системный администратор",
@@ -478,6 +544,39 @@
       "accept_temporary": false
     },
     {
+      "id": "124075046",
+      "name": "Электромеханик связи/системный администратор",
+      "company": "Первая Сервисная Компания",
+      "company_id": "1480991",
+      "company_url": "https://hh.ru/employer/1480991",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
+      "url": "https://hh.ru/vacancy/124075046",
+      "published_at": "2025-09-04T15:15:29+0300",
+      "created_at": "2025-09-04T15:15:29+0300",
+      "area": "Зилаир",
+      "salary": "55 000 - 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 55000,
+        "to": 80000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Вахтовый метод",
+      "employment": "Полная занятость",
+      "requirement": "Средне-специальное или высшее образование. Умение расключать щитки, проверять кабельные линии. Исполнительность, оперативность, аккуратность. Личное ТС будет являться преимуществом.",
+      "responsibility": "Электромонтаж. Обеспечение связи и видеонаблюдения. Выезд по объектам на территории РБ.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "124075049",
       "name": "Электромеханик связи/системный администратор",
       "company": "Первая Сервисная Компания",
@@ -587,39 +686,6 @@
       "published_at": "2025-09-04T15:15:29+0300",
       "created_at": "2025-09-04T15:15:29+0300",
       "area": "Дюртюли",
-      "salary": "55 000 - 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 55000,
-        "to": 80000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Вахтовый метод",
-      "employment": "Полная занятость",
-      "requirement": "Средне-специальное или высшее образование. Умение расключать щитки, проверять кабельные линии. Исполнительность, оперативность, аккуратность. Личное ТС будет являться преимуществом.",
-      "responsibility": "Электромонтаж. Обеспечение связи и видеонаблюдения. Выезд по объектам на территории РБ.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124075046",
-      "name": "Электромеханик связи/системный администратор",
-      "company": "Первая Сервисная Компания",
-      "company_id": "1480991",
-      "company_url": "https://hh.ru/employer/1480991",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
-      "url": "https://hh.ru/vacancy/124075046",
-      "published_at": "2025-09-04T15:15:29+0300",
-      "created_at": "2025-09-04T15:15:29+0300",
-      "area": "Зилаир",
       "salary": "55 000 - 80 000 RUR на руки",
       "salary_raw": {
         "from": 55000,
@@ -2088,16 +2154,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124863837",
+      "id": "124863836",
       "name": "Системный администратор",
       "company": "Новые Технологии",
       "company_id": "5636737",
       "company_url": "https://hh.ru/employer/5636737",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1298223.jpeg",
-      "url": "https://hh.ru/vacancy/124863837",
+      "url": "https://hh.ru/vacancy/124863836",
       "published_at": "2025-09-04T10:47:05+0300",
       "created_at": "2025-09-04T10:47:05+0300",
-      "area": "Полесск",
+      "area": "Правдинск (Калининградская область)",
       "salary": "от 70 000 RUR на руки",
       "salary_raw": {
         "from": 70000,
@@ -2121,16 +2187,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124863836",
+      "id": "124863837",
       "name": "Системный администратор",
       "company": "Новые Технологии",
       "company_id": "5636737",
       "company_url": "https://hh.ru/employer/5636737",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1298223.jpeg",
-      "url": "https://hh.ru/vacancy/124863836",
+      "url": "https://hh.ru/vacancy/124863837",
       "published_at": "2025-09-04T10:47:05+0300",
       "created_at": "2025-09-04T10:47:05+0300",
-      "area": "Правдинск (Калининградская область)",
+      "area": "Полесск",
       "salary": "от 70 000 RUR на руки",
       "salary_raw": {
         "from": 70000,
@@ -9535,39 +9601,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124734494",
-      "name": "Системный инженер/системный администратор",
-      "company": "ФОРА",
-      "company_id": "11124891",
-      "company_url": "https://hh.ru/employer/11124891",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/124734494",
-      "published_at": "2025-09-02T04:33:29+0300",
-      "created_at": "2025-09-02T04:33:29+0300",
-      "area": "Новосибирск",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Операционный системы: Linux(raspbian, Ubuntu, etc.), Windows 10/11. Ethernet, DHCP, WiFi, DNS, сервера, 10gigEthernet, multicast, LACP.",
-      "responsibility": "Облачные провайдеры: Selectel/timeweb и ему подобные (VM, S3, etc.). Формирование шаблонов виртуальных машин/ контейнеров. Подготовка инфраструктуры проведения соревнований.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный инженер"
       ],
       "has_test": false,
       "premium": false,
@@ -25806,16 +25839,16 @@
       "accept_temporary": true
     },
     {
-      "id": "123981580",
+      "id": "123981579",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123981580",
+      "url": "https://hh.ru/vacancy/123981579",
       "published_at": "2025-08-12T18:31:37+0300",
       "created_at": "2025-08-12T18:31:37+0300",
-      "area": "Усть-Илимск",
+      "area": "Шадринск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -25834,16 +25867,16 @@
       "accept_temporary": true
     },
     {
-      "id": "123981579",
+      "id": "123981580",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123981579",
+      "url": "https://hh.ru/vacancy/123981580",
       "published_at": "2025-08-12T18:31:37+0300",
       "created_at": "2025-08-12T18:31:37+0300",
-      "area": "Шадринск",
+      "area": "Усть-Илимск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
