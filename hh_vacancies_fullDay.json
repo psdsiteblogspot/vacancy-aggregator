@@ -10,9 +10,9 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-06T03:40:13Z",
+  "updated": "2025-09-06T04:36:40Z",
   "statistics": {
-    "total": 934,
+    "total": 935,
     "with_salary": 717,
     "companies": 726,
     "cities": 188,
@@ -20,6 +20,67 @@
     "with_test": 14
   },
   "vacancies": [
+    {
+      "id": "124968818",
+      "name": "Системный администратор ЦОД",
+      "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
+      "company_id": "1864933",
+      "company_url": "https://hh.ru/employer/1864933",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/657972.png",
+      "url": "https://hh.ru/vacancy/124968818",
+      "published_at": "2025-09-06T07:01:32+0300",
+      "created_at": "2025-09-06T07:01:32+0300",
+      "area": "Уфа",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "Нет опыта",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Понимание сетевых моделей (OSI, TCP/IP), базовых принципов коммутации и маршрутизации. Реальный опыт использования ОС семейства *nix, с уровнем знаний...",
+      "responsibility": "Работа в составе дежурной смены технической поддержки. Создание/обработка возникающих инцидентов, диагностика, устранение проблем в рамках компетенции или дальнейшая эскалация...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124346199",
+      "name": "Системный администратор/Специалист по информационной безопасности",
+      "company": "Фонд модернизации ЖКХ",
+      "company_id": "4248086",
+      "company_url": "https://hh.ru/employer/4248086",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1254535.png",
+      "url": "https://hh.ru/vacancy/124346199",
+      "published_at": "2025-09-06T06:22:08+0300",
+      "created_at": "2025-09-06T06:22:08+0300",
+      "area": "Новосибирск",
+      "salary": "78 680 - 90 680 RUR на руки",
+      "salary_raw": {
+        "from": 78680,
+        "to": 90680,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знания основных требований следующих документов: Руководящих документов ФСТЭК России в области технической защиты конфиденциальной информации, государственных информационных систем и систем...",
+      "responsibility": "сопровождение и администрирование средств защиты информации. - Разработка проектной, эксплуатационной, рабочей документации по системе защиты информации. - Участие во внедрении и настройке...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "124968013",
       "name": "Системный администратор ПО/БД",
@@ -3259,16 +3320,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124075043",
+      "id": "124075051",
       "name": "Электромеханик связи/системный администратор",
       "company": "Первая Сервисная Компания",
       "company_id": "1480991",
       "company_url": "https://hh.ru/employer/1480991",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
-      "url": "https://hh.ru/vacancy/124075043",
+      "url": "https://hh.ru/vacancy/124075051",
       "published_at": "2025-09-04T15:15:29+0300",
       "created_at": "2025-09-04T15:15:29+0300",
-      "area": "Киргиз-Мияки",
+      "area": "Стерлитамак",
       "salary": "55 000 - 80 000 RUR на руки",
       "salary_raw": {
         "from": 55000,
@@ -3292,16 +3353,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124075051",
+      "id": "124075043",
       "name": "Электромеханик связи/системный администратор",
       "company": "Первая Сервисная Компания",
       "company_id": "1480991",
       "company_url": "https://hh.ru/employer/1480991",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
-      "url": "https://hh.ru/vacancy/124075051",
+      "url": "https://hh.ru/vacancy/124075043",
       "published_at": "2025-09-04T15:15:29+0300",
       "created_at": "2025-09-04T15:15:29+0300",
-      "area": "Стерлитамак",
+      "area": "Киргиз-Мияки",
       "salary": "55 000 - 80 000 RUR на руки",
       "salary_raw": {
         "from": 55000,
@@ -9191,39 +9252,6 @@
       "employment": "Полная занятость",
       "requirement": "Умение работать с Windows Server и Linux. Знание Active Directory, групповых политик. Знание TCP/IP: Принципы адресации. Назначение портов.",
       "responsibility": "Организация, обслуживание рабочих мест: Windows, ip-телефоны. Установка, настройка, обслуживание серверного оборудования. Администрирование сетевого оборудования: коммутаторы, маршрутизаторы. Поддержание в работоспособном...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124346199",
-      "name": "Системный администратор/Специалист по информационной безопасности",
-      "company": "Фонд модернизации ЖКХ",
-      "company_id": "4248086",
-      "company_url": "https://hh.ru/employer/4248086",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1254535.png",
-      "url": "https://hh.ru/vacancy/124346199",
-      "published_at": "2025-09-03T06:22:08+0300",
-      "created_at": "2025-09-03T06:22:08+0300",
-      "area": "Новосибирск",
-      "salary": "78 680 - 90 680 RUR на руки",
-      "salary_raw": {
-        "from": 78680,
-        "to": 90680,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знания основных требований следующих документов: Руководящих документов ФСТЭК России в области технической защиты конфиденциальной информации, государственных информационных систем и систем...",
-      "responsibility": "сопровождение и администрирование средств защиты информации. - Разработка проектной, эксплуатационной, рабочей документации по системе защиты информации. - Участие во внедрении и настройке...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
