@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-06T05:43:55Z",
+  "updated": "2025-09-06T06:47:52Z",
   "statistics": {
-    "total": 814,
+    "total": 812,
     "with_salary": 611,
-    "companies": 640,
-    "cities": 134,
+    "companies": 639,
+    "cities": 133,
     "premium": 1,
     "with_test": 11
   },
   "vacancies": [
+    {
+      "id": "123728161",
+      "name": "Системный администратор",
+      "company": "Компания Студент",
+      "company_id": "9966179",
+      "company_url": "https://hh.ru/employer/9966179",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1421471.png",
+      "url": "https://hh.ru/vacancy/123728161",
+      "published_at": "2025-09-06T08:55:46+0300",
+      "created_at": "2025-09-06T08:55:46+0300",
+      "area": "Вологда",
+      "salary": "35 000 - 50 000 RUR на руки",
+      "salary_raw": {
+        "from": 35000,
+        "to": 50000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт установки и поддержки операционных систем и офисных программ. Навыки работы с сервисным оборудованием, локальными сетями. Знание аппаратной части персональных...",
+      "responsibility": "Установкa и обслуживание кoмпьютеpной и oфиснoй техники, оpгтexники, внутpeннeй AТС. Обecпeчeние безoшибoчной paбoты систeмнoгo пpoгpaммнoго обеспeчeния (OC Windоws, Windоws Server).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124969376",
+      "name": "Специалист ИТ-поддержки/Системный администратор",
+      "company": "Эмэстим",
+      "company_id": "4455261",
+      "company_url": "https://hh.ru/employer/4455261",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1390233.png",
+      "url": "https://hh.ru/vacancy/124969376",
+      "published_at": "2025-09-06T08:46:41+0300",
+      "created_at": "2025-09-06T08:46:41+0300",
+      "area": "Казань",
+      "salary": "50 000 - 65 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 50000,
+        "to": 65000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование (старшие курсы) или среднее специальное образование (техническое). Желательно базовые знания сетевых технологий. Желательно знание и опыт администрирования ОС...",
+      "responsibility": "Администрирование рабочих станций на ОС Windows. Администрирование серверов на Windows Server. Администрирование сетевой инфраструктуры. Администрирование систем мониторинга. Решение возникающих инцидентов.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
     {
       "id": "124795881",
       "name": "Помощник системного администратора",
@@ -6208,39 +6274,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание серверных ОС от Microsoft. Понимание работы сервисов - AD, DNS, DHCP, GPO и т.д. Навыки работы с дисковыми массивами...",
       "responsibility": "Настройка и администрирование серверов на базе серверных операционных систем Microsoft Windows. Мониторинг производительности, доступности, безопасности существующих систем. Анализ производительности серверов...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123729403",
-      "name": "Помощник системного администратора",
-      "company": "Пища орлов",
-      "company_id": "1976523",
-      "company_url": "https://hh.ru/employer/1976523",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/903516.png",
-      "url": "https://hh.ru/vacancy/123729403",
-      "published_at": "2025-09-03T09:10:48+0300",
-      "created_at": "2025-09-03T09:10:48+0300",
-      "area": "Белгород",
-      "salary": "40 000 - 45 000 RUR на руки",
-      "salary_raw": {
-        "from": 40000,
-        "to": 45000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Внимательность, исполнительность, умение работать в коллективе. Образование: Высшее, среднeе-специальное образование. Специальность по образованию: Программное обеспечение вычислительной техники и автоматизированных...",
-      "responsibility": "Обеспечивает бесперебойную работу компьютеров и оргтехники на предприятии, предоставление связи между компьютерами офиса и магазинов, устранение обнаруженных неполадок в работе...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -18617,16 +18650,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124214164",
+      "id": "124214165",
       "name": "Системный администратор",
       "company": "Алабуга, ОЭЗ ППТ",
       "company_id": "68587",
       "company_url": "https://hh.ru/employer/68587",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1392604.png",
-      "url": "https://hh.ru/vacancy/124214164",
+      "url": "https://hh.ru/vacancy/124214165",
       "published_at": "2025-08-19T10:37:50+0300",
       "created_at": "2025-08-19T10:37:50+0300",
-      "area": "Альметьевск",
+      "area": "Казань",
       "salary": "от 105 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 105000,
@@ -18650,16 +18683,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124214165",
+      "id": "124214164",
       "name": "Системный администратор",
       "company": "Алабуга, ОЭЗ ППТ",
       "company_id": "68587",
       "company_url": "https://hh.ru/employer/68587",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1392604.png",
-      "url": "https://hh.ru/vacancy/124214165",
+      "url": "https://hh.ru/vacancy/124214164",
       "published_at": "2025-08-19T10:37:50+0300",
       "created_at": "2025-08-19T10:37:50+0300",
-      "area": "Казань",
+      "area": "Альметьевск",
       "salary": "от 105 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 105000,
@@ -20951,16 +20984,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124085628",
+      "id": "124085632",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124085628",
+      "url": "https://hh.ru/vacancy/124085632",
       "published_at": "2025-08-14T23:05:08+0300",
       "created_at": "2025-08-14T23:05:08+0300",
-      "area": "Ардатов",
+      "area": "Ясный (Оренбургская область)",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -20984,16 +21017,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124085632",
+      "id": "124085628",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124085632",
+      "url": "https://hh.ru/vacancy/124085628",
       "published_at": "2025-08-14T23:05:08+0300",
       "created_at": "2025-08-14T23:05:08+0300",
-      "area": "Ясный (Оренбургская область)",
+      "area": "Ардатов",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -25768,95 +25801,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание технико-эксплуатационных характеристик, конструктивные особенности, назначение и режимы работы ПК, правила их технической эксплуатации, технологии автоматизированной обработки информации, виды...",
       "responsibility": "Следит за обеспечением целостности, и сохранности циркулирующих в автоматизированной системе данных. Участвует в определении возможности использования программных продуктов.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "115904239",
-      "name": "Системный администратор",
-      "company": "КВК ГРУПП",
-      "company_id": "1055302",
-      "company_url": "https://hh.ru/employer/1055302",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1096865.png",
-      "url": "https://hh.ru/vacancy/115904239",
-      "published_at": "2025-08-07T09:25:25+0300",
-      "created_at": "2025-08-07T09:25:25+0300",
-      "area": "Симферополь",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы на менее 4 лет в сфере IT. Специальное образование не обязательно. Уверенные знания в области аппаратной и программной...",
-      "responsibility": "Администрирование серверов (Windows, Linux). Настройка сетевого оборудования. Настройки IP-телефонии. Сопровождение пользователей (оргтехника, рабочие места).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123728161",
-      "name": "Системный администратор",
-      "company": "Компания Студент",
-      "company_id": "9966179",
-      "company_url": "https://hh.ru/employer/9966179",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1421471.png",
-      "url": "https://hh.ru/vacancy/123728161",
-      "published_at": "2025-08-07T08:55:45+0300",
-      "created_at": "2025-08-07T08:55:45+0300",
-      "area": "Вологда",
-      "salary": "35 000 - 50 000 RUR на руки",
-      "salary_raw": {
-        "from": 35000,
-        "to": 50000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт установки и поддержки операционных систем и офисных программ. Навыки работы с сервисным оборудованием, локальными сетями. Знание аппаратной части персональных...",
-      "responsibility": "Установкa и обслуживание кoмпьютеpной и oфиснoй техники, оpгтexники, внутpeннeй AТС. Обecпeчeние безoшибoчной paбoты систeмнoгo пpoгpaммнoго обеспeчeния (OC Windоws, Windоws Server).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123727422",
-      "name": "Системный администратор/инженер (IT-аутсорсинг)",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123727422",
-      "published_at": "2025-08-07T08:40:16+0300",
-      "created_at": "2025-08-07T08:40:16+0300",
-      "area": "Медногорск",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "",
-      "responsibility": "",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
