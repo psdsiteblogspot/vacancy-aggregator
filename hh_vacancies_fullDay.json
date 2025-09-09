@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-09T03:11:46Z",
+  "updated": "2025-09-09T03:45:04Z",
   "statistics": {
     "total": 931,
-    "with_salary": 712,
+    "with_salary": 714,
     "companies": 713,
     "cities": 195,
     "premium": 1,
     "with_test": 15
   },
   "vacancies": [
+    {
+      "id": "125074320",
+      "name": "Системный администратор",
+      "company": "МАОУ Ангарский лицей №2 имени М. К. Янгеля",
+      "company_id": "10644552",
+      "company_url": "https://hh.ru/employer/10644552",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/125074320",
+      "published_at": "2025-09-09T06:34:45+0300",
+      "created_at": "2025-09-09T06:34:45+0300",
+      "area": "Ангарск",
+      "salary": "31 000 - 40 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 31000,
+        "to": 40000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы от 1 до 3 лет в аналогичной должности. Знание операционных систем Windows и Linux. Умение работать с сетевым...",
+      "responsibility": "Установка и настройка компьютерного оборудования и программного обеспечения. Обслуживание и ремонт оргтехники. Настройка и поддержка локальной сети. Обеспечение безопасности данных...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125074094",
+      "name": "Младший системный администратор",
+      "company": "АйтиСФ",
+      "company_id": "4562612",
+      "company_url": "https://hh.ru/employer/4562612",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/906685.jpg",
+      "url": "https://hh.ru/vacancy/125074094",
+      "published_at": "2025-09-09T06:16:52+0300",
+      "created_at": "2025-09-09T06:16:52+0300",
+      "area": "Новосибирск",
+      "salary": "55 000 - 75 000 RUR на руки",
+      "salary_raw": {
+        "from": 55000,
+        "to": 75000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее или среднее специальное по профильному направлению. Опыт работы от 1 года по направлению. Иметь понимание основ сети.",
+      "responsibility": "Обслуживание АРМ. Обслуживание сетевого оборудования и ЛВС. Администрирование Windows-серверов. Администрирование AD, DNS, GPO.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "121149624",
       "name": "Системный администратор",
@@ -3635,34 +3701,6 @@
       "accept_temporary": false
     },
     {
-      "id": "124986914",
-      "name": "Системный администратор Linux",
-      "company": "ФТО",
-      "company_id": "131539",
-      "company_url": "https://hh.ru/employer/131539",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1308836.png",
-      "url": "https://hh.ru/vacancy/124986914",
-      "published_at": "2025-09-08T07:33:49+0300",
-      "created_at": "2025-09-08T07:33:49+0300",
-      "area": "Краснодар",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Опыт обслуживания серверного парка от 100 единиц. Практический опыт использования централизованной системы управления конфигурациями серверов (Ansible). Опыт администрирования и настройки...",
-      "responsibility": "Обслуживание серверов Linux. Техническая поддержка системных администраторов в филиалах. Работа с системами контроля версий и непрерывного развёртывания. Миграция с Windows...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "124986847",
       "name": "Системный администратор",
       "company": "СКИФ",
@@ -3866,8 +3904,13 @@
       "published_at": "2025-09-08T07:07:59+0300",
       "created_at": "2025-09-08T07:07:59+0300",
       "area": "Челябинск",
-      "salary": "не указана",
-      "salary_raw": null,
+      "salary": "от 60 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 60000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
@@ -23494,39 +23537,6 @@
       "accept_temporary": false
     },
     {
-      "id": "124251405",
-      "name": "Системный техник (администратор)",
-      "company": "ГАПОУ НСО Новосибирский медицинский колледж",
-      "company_id": "5685839",
-      "company_url": "https://hh.ru/employer/5685839",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/124251405",
-      "published_at": "2025-08-20T06:53:02+0300",
-      "created_at": "2025-08-20T06:53:02+0300",
-      "area": "Бердск",
-      "salary": "от 45 000 RUR на руки",
-      "salary_raw": {
-        "from": 45000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Среднее профессиональное образование. Высшее образование. Активность, внимательность, ответственность. Возможно рассмотрение кандидатуры без опыта.",
-      "responsibility": "Сопровождение пользователей (установка необходимого программного обеспечения, помощь при возникновении сбоев программного обеспечения, подключение и настройка периферийных устройств, установка ключей ЭЦП...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "124250978",
       "name": "Системный администратор",
       "company": "Novomet Group of Companies",
@@ -28003,6 +28013,34 @@
       "accept_temporary": true
     },
     {
+      "id": "123981578",
+      "name": "Системный администратор/инженер",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/123981578",
+      "published_at": "2025-08-12T18:31:37+0300",
+      "created_at": "2025-08-12T18:31:37+0300",
+      "area": "Лесосибирск",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. опыт работы по настройке операционных...",
+      "responsibility": "установка и настройка OC Windows, а также офисных приложений. установка и настройка различного рода ПО. подключение и настройка периферийного оборудования...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
       "id": "123981581",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
@@ -28041,34 +28079,6 @@
       "published_at": "2025-08-12T18:31:37+0300",
       "created_at": "2025-08-12T18:31:37+0300",
       "area": "Шарыпово",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. опыт работы по настройке операционных...",
-      "responsibility": "установка и настройка OC Windows, а также офисных приложений. установка и настройка различного рода ПО. подключение и настройка периферийного оборудования...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
-      "id": "123981578",
-      "name": "Системный администратор/инженер",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/123981578",
-      "published_at": "2025-08-12T18:31:37+0300",
-      "created_at": "2025-08-12T18:31:37+0300",
-      "area": "Лесосибирск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
