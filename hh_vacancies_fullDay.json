@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-10T02:00:30Z",
+  "updated": "2025-09-10T03:05:43Z",
   "statistics": {
-    "total": 951,
-    "with_salary": 737,
-    "companies": 728,
+    "total": 950,
+    "with_salary": 736,
+    "companies": 727,
     "cities": 197,
     "premium": 1,
     "with_test": 15
   },
   "vacancies": [
+    {
+      "id": "124681317",
+      "name": "Системный администратор",
+      "company": "Управление Росреестра по Омской области",
+      "company_id": "12183744",
+      "company_url": "https://hh.ru/employer/12183744",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/124681317",
+      "published_at": "2025-09-10T05:34:23+0300",
+      "created_at": "2025-09-10T05:34:23+0300",
+      "area": "Омск",
+      "salary": "от 50 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 50000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Углубленное знания операционных систем Windows и Astra Linux. Понимание работы технологии виртуальных машин. Понимание принципов работы сетевых протоколов.",
+      "responsibility": "Установка и настройка операционных систем Windows и Astra Linux. Администрирование и поддержка серверов и рабочих станций(Windows и Astra Linux).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124896674",
+      "name": "Системный администратор",
+      "company": "Редукционно-Охладительные Установки",
+      "company_id": "1147048",
+      "company_url": "https://hh.ru/employer/1147048",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/261505.jpg",
+      "url": "https://hh.ru/vacancy/124896674",
+      "published_at": "2025-09-10T05:31:03+0300",
+      "created_at": "2025-09-10T05:31:03+0300",
+      "area": "Барнаул",
+      "salary": "от 75 000 RUR на руки",
+      "salary_raw": {
+        "from": 75000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее, желательно техническое образование. Знание виртуализации Hyper-v, WMware, умение работать с доменами и VPS. Знание стека TCP/IP, умение...",
+      "responsibility": "Поддержка сетевой инфраструктуры (Active Directory, TCP/IP, Windows server, Cервер 1С). Поддержка систем безопасности предприятия (видеонаблюдения TRASSIR, PERCo-WEB...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "125123091",
       "name": "Системный администратор KINEXT",
@@ -5001,16 +5067,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124998244",
+      "id": "124998258",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124998244",
+      "url": "https://hh.ru/vacancy/124998258",
       "published_at": "2025-09-08T10:24:27+0300",
       "created_at": "2025-09-08T10:24:27+0300",
-      "area": "Хилок",
+      "area": "Чернышевск",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -5034,16 +5100,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124998258",
+      "id": "124998244",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124998258",
+      "url": "https://hh.ru/vacancy/124998244",
       "published_at": "2025-09-08T10:24:27+0300",
       "created_at": "2025-09-08T10:24:27+0300",
-      "area": "Чернышевск",
+      "area": "Хилок",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -5706,39 +5772,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы настройки сетевого оборудования (коммутаторы, маршрутизаторы). Опыт администрирования серверов (Windows, Linux). Опыт работы с AD. Образование высшее профильное.",
       "responsibility": "Администрирование серверов (Windows, Linux). Администрирование сети организации (Коммутаторы 3 уровня, маршрутизаторы, межсетевой экран). Администрирование антивирусного ПО. Администрирование AD, файлового сервера...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124896674",
-      "name": "Системный администратор",
-      "company": "Редукционно-Охладительные Установки",
-      "company_id": "1147048",
-      "company_url": "https://hh.ru/employer/1147048",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/261505.jpg",
-      "url": "https://hh.ru/vacancy/124896674",
-      "published_at": "2025-09-08T08:49:34+0300",
-      "created_at": "2025-09-08T08:49:34+0300",
-      "area": "Барнаул",
-      "salary": "от 75 000 RUR на руки",
-      "salary_raw": {
-        "from": 75000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее, желательно техническое образование. Знание виртуализации Hyper-v, WMware, умение работать с доменами и VPS. Знание стека TCP/IP, умение...",
-      "responsibility": "Поддержка сетевой инфраструктуры (Active Directory, TCP/IP, Windows server, Cервер 1С). Поддержка систем безопасности предприятия (видеонаблюдения TRASSIR, PERCo-WEB...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -7205,16 +7238,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124075052",
+      "id": "124075043",
       "name": "Электромеханик связи/системный администратор",
       "company": "Первая Сервисная Компания",
       "company_id": "1480991",
       "company_url": "https://hh.ru/employer/1480991",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
-      "url": "https://hh.ru/vacancy/124075052",
+      "url": "https://hh.ru/vacancy/124075043",
       "published_at": "2025-09-07T15:15:29+0300",
       "created_at": "2025-09-07T15:15:29+0300",
-      "area": "Верхние Татышлы",
+      "area": "Киргиз-Мияки",
       "salary": "55 000 - 80 000 RUR на руки",
       "salary_raw": {
         "from": 55000,
@@ -7238,16 +7271,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124075043",
+      "id": "124075052",
       "name": "Электромеханик связи/системный администратор",
       "company": "Первая Сервисная Компания",
       "company_id": "1480991",
       "company_url": "https://hh.ru/employer/1480991",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
-      "url": "https://hh.ru/vacancy/124075043",
+      "url": "https://hh.ru/vacancy/124075052",
       "published_at": "2025-09-07T15:15:29+0300",
       "created_at": "2025-09-07T15:15:29+0300",
-      "area": "Киргиз-Мияки",
+      "area": "Верхние Татышлы",
       "salary": "55 000 - 80 000 RUR на руки",
       "salary_raw": {
         "from": 55000,
@@ -8461,39 +8494,6 @@
       "employment": "Полная занятость",
       "requirement": "Среднее профессиональное образование. Уверенное пользование ПК. Хорошее здоровье. Знание и умение работать с ОС Windows, ОС Linux, MS Office, 1...",
       "responsibility": "Обеспечивать бесперебойную работу оргтехники. Выявлять и устранять причины неисправностей в работе оргтехники. Осуществлять настройку, техническое обслуживание оргтехники.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124681317",
-      "name": "Системный администратор",
-      "company": "Управление Росреестра по Омской области",
-      "company_id": "12183744",
-      "company_url": "https://hh.ru/employer/12183744",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/124681317",
-      "published_at": "2025-09-07T05:34:23+0300",
-      "created_at": "2025-09-07T05:34:23+0300",
-      "area": "Омск",
-      "salary": "от 50 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 50000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Углубленное знания операционных систем Windows и Astra Linux. Понимание работы технологии виртуальных машин. Понимание принципов работы сетевых протоколов.",
-      "responsibility": "Установка и настройка операционных систем Windows и Astra Linux. Администрирование и поддержка серверов и рабочих станций(Windows и Astra Linux).",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -30290,39 +30290,6 @@
       "employment": "Полная занятость",
       "requirement": "профильное образование в сфере компьютерных технологий. - желателен работы системным администратором. - опыт работы с сетевым оборудованием. - инициативность, стрессоустойчивость, исполнительность.",
       "responsibility": "обслуживание персональных компьютеров сотрудников на рабочем месте и другой оргтехники. - оказание тех поддержки сотрудникам организации. - обеспечение бесперебойного функционирования серверного и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123867620",
-      "name": "Системный администратор",
-      "company": "Управление Жилищно-Коммунального Хозяйства, Гражданской Обороны и Чрезвычайных Ситуаций Администрации Томского Района",
-      "company_id": "6071502",
-      "company_url": "https://hh.ru/employer/6071502",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/123867620",
-      "published_at": "2025-08-11T05:17:28+0300",
-      "created_at": "2025-08-11T05:17:28+0300",
-      "area": "Томск",
-      "salary": "42 000 - 45 000 RUR на руки",
-      "salary_raw": {
-        "from": 42000,
-        "to": 45000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы по установке, настройке и эксплуатации информационных систем, систем автоматизированной обработки информации, навыки работы с персональными электронно-вычислительными машинами...",
-      "responsibility": "Обеспечение функционирования комплекса технических и программных средств автоматизации деятельности Администрации Томского района. Оказание технической поддержки (работа с обращениями пользователей, взаимодействие...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
