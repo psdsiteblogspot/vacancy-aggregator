@@ -10,16 +10,77 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-13T02:58:54Z",
+  "updated": "2025-09-13T03:35:23Z",
   "statistics": {
-    "total": 918,
-    "with_salary": 717,
-    "companies": 709,
+    "total": 917,
+    "with_salary": 716,
+    "companies": 708,
     "cities": 183,
     "premium": 1,
     "with_test": 17
   },
   "vacancies": [
+    {
+      "id": "125156551",
+      "name": "Системный администратор",
+      "company": "Rubius",
+      "company_id": "709383",
+      "company_url": "https://hh.ru/employer/709383",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1393460.png",
+      "url": "https://hh.ru/vacancy/125156551",
+      "published_at": "2025-09-13T06:23:11+0300",
+      "created_at": "2025-09-13T06:23:11+0300",
+      "area": "Томск",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее или неоконченное высшее техническое образование (последний курс обучения). Навыки эффективного, терпеливого и корректного общения с пользователями. Опыт администрирования ОС...",
+      "responsibility": "Администрированием клиентских и серверных ОС семейства Windows и Linux. Использованием систем мониторинга (zabbix, wazuh), реагированием на инциденты. Защитой инфраструктуры (firewall...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": true,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124681317",
+      "name": "Системный администратор",
+      "company": "Управление Росреестра по Омской области",
+      "company_id": "12183744",
+      "company_url": "https://hh.ru/employer/12183744",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/124681317",
+      "published_at": "2025-09-13T05:34:23+0300",
+      "created_at": "2025-09-13T05:34:23+0300",
+      "area": "Омск",
+      "salary": "от 50 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 50000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Углубленное знания операционных систем Windows и Astra Linux. Понимание работы технологии виртуальных машин. Понимание принципов работы сетевых протоколов.",
+      "responsibility": "Установка и настройка операционных систем Windows и Astra Linux. Администрирование и поддержка серверов и рабочих станций(Windows и Astra Linux).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "125287073",
       "name": "Выездной инженер технической поддержки/системный администратор",
@@ -6535,34 +6596,6 @@
       "accept_temporary": false
     },
     {
-      "id": "125156551",
-      "name": "Системный администратор",
-      "company": "Rubius",
-      "company_id": "709383",
-      "company_url": "https://hh.ru/employer/709383",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1393460.png",
-      "url": "https://hh.ru/vacancy/125156551",
-      "published_at": "2025-09-10T13:51:56+0300",
-      "created_at": "2025-09-10T13:51:56+0300",
-      "area": "Томск",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее или неоконченное высшее техническое образование (последний курс обучения). Навыки эффективного, терпеливого и корректного общения с пользователями. Опыт администрирования ОС...",
-      "responsibility": "Администрированием клиентских и серверных ОС семейства Windows и Linux. Использованием систем мониторинга (zabbix, wazuh), реагированием на инциденты. Защитой инфраструктуры (firewall...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": true,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "125076832",
       "name": "Системный администратор",
       "company": "Магнитогорский металлургический комбинат",
@@ -8124,39 +8157,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание Windows Win10 (стандартный набор офисного ПО, клиент-банки и т.п.), Windows Server 2012/2016 (AD, DNS, DHCP...",
       "responsibility": "Поддержка пользователей (компьютеры с Windows 10, Windows 7). -Поддержка работы IT инфраструктуры (файловый сервер, прокси). -Обеспечение работы периферийного оборудования (принтера...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124681317",
-      "name": "Системный администратор",
-      "company": "Управление Росреестра по Омской области",
-      "company_id": "12183744",
-      "company_url": "https://hh.ru/employer/12183744",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/124681317",
-      "published_at": "2025-09-10T05:34:23+0300",
-      "created_at": "2025-09-10T05:34:23+0300",
-      "area": "Омск",
-      "salary": "от 50 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 50000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Углубленное знания операционных систем Windows и Astra Linux. Понимание работы технологии виртуальных машин. Понимание принципов работы сетевых протоколов.",
-      "responsibility": "Установка и настройка операционных систем Windows и Astra Linux. Администрирование и поддержка серверов и рабочих станций(Windows и Astra Linux).",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -18546,39 +18546,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы в технической поддержке или смежной области от 1 года. Уверенные навыки работы с ОС MS Windows 10 и...",
       "responsibility": "Техническая поддержка и консультация клиентов. Регистрация обращений и решение сложных задач. Подготовка и настройка телематического оборудования (ГЛОНАСС/GPS терминалы, видеотерминалы...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124678304",
-      "name": "Системный администратор",
-      "company": "Степанов В.А.",
-      "company_id": "537073",
-      "company_url": "https://hh.ru/employer/537073",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/180711.jpg",
-      "url": "https://hh.ru/vacancy/124678304",
-      "published_at": "2025-08-31T16:04:11+0300",
-      "created_at": "2025-08-31T16:04:11+0300",
-      "area": "Бийск",
-      "salary": "от 74 000 RUR на руки",
-      "salary_raw": {
-        "from": 74000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание основ системного и сетевого администрирования. Знание систем виртуализации hyper-v. Знание оборудования Cisco, Zixel. Знание системы администрирования 1с...",
-      "responsibility": "Обеспечение бесперебойной работы локальных сетей предприятия, серверов, сетевых устройств, персональных компьютеров, принтеров, факсов, сканеров, копировальных машин и другой электронной техники.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
