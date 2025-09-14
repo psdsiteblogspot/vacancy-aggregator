@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-14T09:29:56Z",
+  "updated": "2025-09-14T10:32:16Z",
   "statistics": {
-    "total": 878,
-    "with_salary": 680,
-    "companies": 687,
+    "total": 876,
+    "with_salary": 678,
+    "companies": 685,
     "cities": 170,
     "premium": 0,
     "with_test": 17
   },
   "vacancies": [
+    {
+      "id": "121673596",
+      "name": "Системный администратор",
+      "company": "Инженерные технологии",
+      "company_id": "1081982",
+      "company_url": "https://hh.ru/employer/1081982",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/909071.jpg",
+      "url": "https://hh.ru/vacancy/121673596",
+      "published_at": "2025-09-14T13:03:54+0300",
+      "created_at": "2025-09-14T13:03:54+0300",
+      "area": "Красноярск",
+      "salary": "70 000 - 70 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 70000,
+        "to": 70000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование по профилю. Опыт работы с АТС (цифровыми, аналоговыми, IP). Знание ОС семейства Windows от XP до 10.",
+      "responsibility": "Комплексное обслуживание компьютеров, серверов и локальной сети. Сопровождение 1С и бухгалтерских программ. Анализ и настройка системы ИТ-безопасности компании.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124321170",
+      "name": "Системный администратор",
+      "company": "ТАЙГА",
+      "company_id": "8997768",
+      "company_url": "https://hh.ru/employer/8997768",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1201480.jpg",
+      "url": "https://hh.ru/vacancy/124321170",
+      "published_at": "2025-09-14T12:15:40+0300",
+      "created_at": "2025-09-14T12:15:40+0300",
+      "area": "Екатеринбург",
+      "salary": "от 100 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Понятная система адаптации и наставничество, четкие задачи и понимание ожидаемого результата. - Уверенное владение операционными системами Windows/Linux. - Знание принципов построения...",
+      "responsibility": "1. Администрирование инфраструктуры: - установка, настройка и обслуживание серверов (физических и виртуальных), рабочих станций, сетевого оборудования. - администрирование доменной среды (Active Directory...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "124067919",
       "name": "Системный администратор в рознице",
@@ -5278,39 +5344,6 @@
       "accept_temporary": false
     },
     {
-      "id": "122890630",
-      "name": "Системный администратор",
-      "company": "СИНЕРГИЯ",
-      "company_id": "127256",
-      "company_url": "https://hh.ru/employer/127256",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1343971.jpg",
-      "url": "https://hh.ru/vacancy/122890630",
-      "published_at": "2025-09-11T13:15:50+0300",
-      "created_at": "2025-09-11T13:15:50+0300",
-      "area": "Омск",
-      "salary": "до 69 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": null,
-        "to": 69000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование в области информационных технологий, программирования или смежных областях. Опыт работы на руководящих должностях в IT-сфере не менее...",
-      "responsibility": "Мы поддерживаем нестандартное мышление: Передовые идеи и инновации. Мы вдохновляемся научными разработками и созданием уникальных продуктов в различных направлениях.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "125221091",
       "name": "Ведущий инженер-электроник ОСиТО (системный администратор)",
       "company": "Уфимское приборостроительное производственное объединение",
@@ -5521,39 +5554,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее техническое образование. Наличие курсов по docker, linux, по сетевым технологиям (CCNA, MTCNA и аналоги) очень желательно. Опыт работы в...",
       "responsibility": "Подготовка технической документации на используемые сервисы. Развертывание сервисов для бизнеса на базе linux с возможным использованием docker. Обслуживание сетевого и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124321170",
-      "name": "Системный администратор",
-      "company": "ТАЙГА",
-      "company_id": "8997768",
-      "company_url": "https://hh.ru/employer/8997768",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1201480.jpg",
-      "url": "https://hh.ru/vacancy/124321170",
-      "published_at": "2025-09-11T12:15:40+0300",
-      "created_at": "2025-09-11T12:15:40+0300",
-      "area": "Екатеринбург",
-      "salary": "от 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Понятная система адаптации и наставничество, четкие задачи и понимание ожидаемого результата. - Уверенное владение операционными системами Windows/Linux. - Знание принципов построения...",
-      "responsibility": "1. Администрирование инфраструктуры: - установка, настройка и обслуживание серверов (физических и виртуальных), рабочих станций, сетевого оборудования. - администрирование доменной среды (Active Directory...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -27928,72 +27928,6 @@
       "employment": "Полная занятость",
       "requirement": "Проактивность, ответственность за результат, исполнительность. Стремление получить опыт разных сферах системного администрирования. Готовы к обучению начинающих специалистов, выпускников.",
       "responsibility": "Управление мобильными устройствами. Развертывание новых АРМ пользователей. Техническая поддержка сотрудников компании на предприятии и удалённо. Администрирование и настройка рабочих станций...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121673596",
-      "name": "Системный администратор",
-      "company": "Инженерные технологии",
-      "company_id": "1081982",
-      "company_url": "https://hh.ru/employer/1081982",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/909071.jpg",
-      "url": "https://hh.ru/vacancy/121673596",
-      "published_at": "2025-08-15T13:03:53+0300",
-      "created_at": "2025-08-15T13:03:53+0300",
-      "area": "Красноярск",
-      "salary": "70 000 - 70 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 70000,
-        "to": 70000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование по профилю. Опыт работы с АТС (цифровыми, аналоговыми, IP). Знание ОС семейства Windows от XP до 10.",
-      "responsibility": "Комплексное обслуживание компьютеров, серверов и локальной сети. Сопровождение 1С и бухгалтерских программ. Анализ и настройка системы ИТ-безопасности компании.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124106107",
-      "name": "Системный администратор (Видеонаблюдение)",
-      "company": "Компания Техновек-Сервис",
-      "company_id": "10296742",
-      "company_url": "https://hh.ru/employer/10296742",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/124106107",
-      "published_at": "2025-08-15T12:32:12+0300",
-      "created_at": "2025-08-15T12:32:12+0300",
-      "area": "Нижневартовск",
-      "salary": "100 000 - 120 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы: - Опыт работы от 1 года в сфере монтажа, настройки и обслуживания систем видеонаблюдения. - Умение работать с IP-камерами. -",
-      "responsibility": "Сборка новых комплексов видеонаблюдения. - Ремонт и обслуживание действующих комплексов. - Оказание технической поддержки клиентам. - Монтаж и настройка камер, регистраторов, серверов. -",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
