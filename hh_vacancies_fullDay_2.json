@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-15T08:51:07Z",
+  "updated": "2025-09-15T09:46:36Z",
   "statistics": {
-    "total": 768,
-    "with_salary": 571,
-    "companies": 598,
+    "total": 767,
+    "with_salary": 570,
+    "companies": 597,
     "cities": 139,
     "premium": 1,
     "with_test": 10
   },
   "vacancies": [
+    {
+      "id": "125147989",
+      "name": "Системный администратор (Аквапарк Лимпопо)",
+      "company": "Mallino development group",
+      "company_id": "78933",
+      "company_url": "https://hh.ru/employer/78933",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1391389.png",
+      "url": "https://hh.ru/vacancy/125147989",
+      "published_at": "2025-09-15T12:39:53+0300",
+      "created_at": "2025-09-15T12:39:53+0300",
+      "area": "Оренбург",
+      "salary": "65 500 - 65 500 RUR на руки",
+      "salary_raw": {
+        "from": 65500,
+        "to": 65500,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы с серверами/системами хранения данных. Базовые знания операционных систем семейства Linux, опыт эксплуатации приветствуется. Базовые знание по информационной...",
+      "responsibility": "Управление, мониторинг, настройка серверной ИТ-инфраструктуры на базе ОС Windows сервисов AD, GPO, WSUS, Exchange, DNS, DHCP. Виртуализация серверов на...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124430301",
+      "name": "Системный администратор",
+      "company": "Металлопродукция",
+      "company_id": "3674100",
+      "company_url": "https://hh.ru/employer/3674100",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1413952.png",
+      "url": "https://hh.ru/vacancy/124430301",
+      "published_at": "2025-09-15T11:51:53+0300",
+      "created_at": "2025-09-15T11:51:53+0300",
+      "area": "Тольятти",
+      "salary": "от 87 000 RUR на руки",
+      "salary_raw": {
+        "from": 87000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы на аналогичной должности от 1 года. Базовый словарный запас английского языка в области информационных технологий.",
+      "responsibility": "Подготовка автоматизированных рабочих мест сотрудников Организации. Поддержка рабочего состояния серверов и АРМ пользователей. Обновление серверных/АРМ Пользователей операционных систем и...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "125322833",
       "name": "Системный администратор",
@@ -3715,39 +3781,6 @@
       "accept_temporary": false
     },
     {
-      "id": "124430301",
-      "name": "Системный администратор",
-      "company": "Металлопродукция",
-      "company_id": "3674100",
-      "company_url": "https://hh.ru/employer/3674100",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1413952.png",
-      "url": "https://hh.ru/vacancy/124430301",
-      "published_at": "2025-09-12T11:51:53+0300",
-      "created_at": "2025-09-12T11:51:53+0300",
-      "area": "Тольятти",
-      "salary": "от 87 000 RUR на руки",
-      "salary_raw": {
-        "from": 87000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы на аналогичной должности от 1 года. Базовый словарный запас английского языка в области информационных технологий.",
-      "responsibility": "Подготовка автоматизированных рабочих мест сотрудников Организации. Поддержка рабочего состояния серверов и АРМ пользователей. Обновление серверных/АРМ Пользователей операционных систем и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "125265963",
       "name": "Системный администратор",
       "company": "Банк 131",
@@ -5507,39 +5540,6 @@
       "employment": "Полная занятость",
       "requirement": "Базовые знания ОС Windows (Windows 10/11; Windows Server будет плюсом). Понимание работы локальной сети уровней L1–L3...",
       "responsibility": "Поддержка сотрудников компании: решение инцидентов с компьютерами, периферией и ПО. Установка и настройка рабочих мест (ПК, ноутбуки, принтеры, сетевое оборудование).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125147989",
-      "name": "Системный администратор (Аквапарк Лимпопо)",
-      "company": "Mallino development group",
-      "company_id": "78933",
-      "company_url": "https://hh.ru/employer/78933",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1391389.png",
-      "url": "https://hh.ru/vacancy/125147989",
-      "published_at": "2025-09-10T12:10:57+0300",
-      "created_at": "2025-09-10T12:10:57+0300",
-      "area": "Оренбург",
-      "salary": "65 500 - 65 500 RUR на руки",
-      "salary_raw": {
-        "from": 65500,
-        "to": 65500,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с серверами/системами хранения данных. Базовые знания операционных систем семейства Linux, опыт эксплуатации приветствуется. Базовые знание по информационной...",
-      "responsibility": "Управление, мониторинг, настройка серверной ИТ-инфраструктуры на базе ОС Windows сервисов AD, GPO, WSUS, Exchange, DNS, DHCP. Виртуализация серверов на...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -11456,16 +11456,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124865702",
+      "id": "124865703",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124865702",
+      "url": "https://hh.ru/vacancy/124865703",
       "published_at": "2025-09-04T11:11:59+0300",
       "created_at": "2025-09-04T11:11:59+0300",
-      "area": "Ижевск",
+      "area": "Пенза",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -11484,16 +11484,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124865703",
+      "id": "124865702",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124865703",
+      "url": "https://hh.ru/vacancy/124865702",
       "published_at": "2025-09-04T11:11:59+0300",
       "created_at": "2025-09-04T11:11:59+0300",
-      "area": "Пенза",
+      "area": "Ижевск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -22945,16 +22945,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124213703",
+      "id": "124213702",
       "name": "Системный администратор",
       "company": "Алабуга, ОЭЗ ППТ",
       "company_id": "68587",
       "company_url": "https://hh.ru/employer/68587",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1392604.png",
-      "url": "https://hh.ru/vacancy/124213703",
+      "url": "https://hh.ru/vacancy/124213702",
       "published_at": "2025-08-19T10:32:32+0300",
       "created_at": "2025-08-19T10:32:32+0300",
-      "area": "Казань",
+      "area": "Набережные Челны",
       "salary": "от 105 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 105000,
@@ -22978,16 +22978,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124213702",
+      "id": "124213703",
       "name": "Системный администратор",
       "company": "Алабуга, ОЭЗ ППТ",
       "company_id": "68587",
       "company_url": "https://hh.ru/employer/68587",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1392604.png",
-      "url": "https://hh.ru/vacancy/124213702",
+      "url": "https://hh.ru/vacancy/124213703",
       "published_at": "2025-08-19T10:32:32+0300",
       "created_at": "2025-08-19T10:32:32+0300",
-      "area": "Набережные Челны",
+      "area": "Казань",
       "salary": "от 105 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 105000,
@@ -23955,39 +23955,6 @@
       "employment": "Полная занятость",
       "requirement": "Общее понимание работы компьютерных систем. Базовые знания работы сетевых протоколов IP TCP/UDP (желательно знания работы всех сетевых протоколов, в...",
       "responsibility": "",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124157722",
-      "name": "Системный администратор",
-      "company": "Чистый источник",
-      "company_id": "5191098",
-      "company_url": "https://hh.ru/employer/5191098",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1118328.png",
-      "url": "https://hh.ru/vacancy/124157722",
-      "published_at": "2025-08-18T10:44:13+0300",
-      "created_at": "2025-08-18T10:44:13+0300",
-      "area": "Воронеж",
-      "salary": "от 87 000 RUR на руки",
-      "salary_raw": {
-        "from": 87000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание ОС семейства Windows, Windows Server. Знание сетевых технологий и протоколов: TCP/IP, DNS, DHCP. Понимание структуры Active Directory.",
-      "responsibility": "Организация и обслуживание рабочих мест, установка, настройка и своевременное обновление программного обеспечения (OC Windows, офисное ПО, специализированное ПО).",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
