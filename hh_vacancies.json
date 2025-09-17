@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-17T19:16:01Z",
+  "updated": "2025-09-17T20:22:16Z",
   "statistics": {
-    "total": 1407,
-    "with_salary": 803,
-    "companies": 1147,
+    "total": 1405,
+    "with_salary": 801,
+    "companies": 1145,
     "cities": 77,
     "premium": 1,
     "with_test": 65
   },
   "vacancies": [
+    {
+      "id": "124514456",
+      "name": "Системный администратор",
+      "company": "Открытая клиника",
+      "company_id": "1589706",
+      "company_url": "https://hh.ru/employer/1589706",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/235441.jpg",
+      "url": "https://hh.ru/vacancy/124514456",
+      "published_at": "2025-09-17T22:03:08+0300",
+      "created_at": "2025-09-17T22:03:08+0300",
+      "area": "Москва",
+      "salary": "от 100 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы от 3-х лет. Опыт работы в Linux системах. Опыт администрирования клиентских и серверных Windows. Опыт настройки...",
+      "responsibility": "Первоочередное - поддержка пользователей. Администрирование Windows Server (AD, расшаренные ресурсы). Администрирование Linux-серверов (Ubuntu, Debian), автоматизация процессов. Администрирование сети (MIKROTIK) и...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "125455299",
       "name": "Системный администратор",
@@ -2425,34 +2458,6 @@
       "accept_temporary": false
     },
     {
-      "id": "125068446",
-      "name": "Системный администратор (Центральный склад)",
-      "company": "Hoff Tech",
-      "company_id": "9152133",
-      "company_url": "https://hh.ru/employer/9152133",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1216082.png",
-      "url": "https://hh.ru/vacancy/125068446",
-      "published_at": "2025-09-17T14:29:50+0300",
-      "created_at": "2025-09-17T14:29:50+0300",
-      "area": "Домодедово (Московская область)",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в области IT не менее 1 года. Основы сети: модель OSI (TCP/IP), VLAN, NAT, статическая маршрутизация, протоколы...",
-      "responsibility": "Обслуживание центрального склада Hoff: профилактика, тех обслуживание, решение локальных задач. Поддержка других объектов в формате единого helpdesk: удаленная помощь пользователям...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "125068409",
       "name": "Старший системный администратор Linux",
       "company": "Hoff Tech",
@@ -2470,6 +2475,34 @@
       "employment": "Полная занятость",
       "requirement": "Опыт централизованного управления парком рабочих станций и серверов от 500 единиц на ОС Linux от 2-х лет.",
       "responsibility": "Поддержка, сопровождение и развитие ИТ инфраструктуры, с несколькими тысячами пользователей. Развитие и модернизация инфраструктуры Linux. Участие в реализации ИТ-проектов...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125068446",
+      "name": "Системный администратор (Центральный склад)",
+      "company": "Hoff Tech",
+      "company_id": "9152133",
+      "company_url": "https://hh.ru/employer/9152133",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1216082.png",
+      "url": "https://hh.ru/vacancy/125068446",
+      "published_at": "2025-09-17T14:29:50+0300",
+      "created_at": "2025-09-17T14:29:50+0300",
+      "area": "Домодедово (Московская область)",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в области IT не менее 1 года. Основы сети: модель OSI (TCP/IP), VLAN, NAT, статическая маршрутизация, протоколы...",
+      "responsibility": "Обслуживание центрального склада Hoff: профилактика, тех обслуживание, решение локальных задач. Поддержка других объектов в формате единого helpdesk: удаленная помощь пользователям...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -6529,6 +6562,39 @@
       "accept_temporary": false
     },
     {
+      "id": "125401016",
+      "name": "Старший системный администратор",
+      "company": "Конгресс-отель Ареал",
+      "company_id": "5156941",
+      "company_url": "https://hh.ru/employer/5156941",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/818803.png",
+      "url": "https://hh.ru/vacancy/125401016",
+      "published_at": "2025-09-16T16:23:36+0300",
+      "created_at": "2025-09-16T16:23:36+0300",
+      "area": "Балашиха (Московская область)",
+      "salary": "от 200 000 RUR на руки",
+      "salary_raw": {
+        "from": 200000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование. Опыт от 3 лет на должности руководителя службы поддержки (преимущественно отельная сфера). Уверенный пользователь Excel, 1С, Симфони...",
+      "responsibility": "Обеспечение бесперебойной работы программ в соответствии с техническим регламентом разработчиков: Birox, Fidelio (управление отелем), Micros (ресторанная система), TNG (система лояльности...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Специалист технической поддержки"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "125401018",
       "name": "Старший системный администратор",
       "company": "Конгресс-отель Ареал",
@@ -6572,39 +6638,6 @@
       "published_at": "2025-09-16T16:23:36+0300",
       "created_at": "2025-09-16T16:23:36+0300",
       "area": "Ногинск (Московская область)",
-      "salary": "от 200 000 RUR на руки",
-      "salary_raw": {
-        "from": 200000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование. Опыт от 3 лет на должности руководителя службы поддержки (преимущественно отельная сфера). Уверенный пользователь Excel, 1С, Симфони...",
-      "responsibility": "Обеспечение бесперебойной работы программ в соответствии с техническим регламентом разработчиков: Birox, Fidelio (управление отелем), Micros (ресторанная система), TNG (система лояльности...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Специалист технической поддержки"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125401016",
-      "name": "Старший системный администратор",
-      "company": "Конгресс-отель Ареал",
-      "company_id": "5156941",
-      "company_url": "https://hh.ru/employer/5156941",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/818803.png",
-      "url": "https://hh.ru/vacancy/125401016",
-      "published_at": "2025-09-16T16:23:36+0300",
-      "created_at": "2025-09-16T16:23:36+0300",
-      "area": "Балашиха (Московская область)",
       "salary": "от 200 000 RUR на руки",
       "salary_raw": {
         "from": 200000,
@@ -16947,39 +16980,6 @@
       "accept_temporary": false
     },
     {
-      "id": "124514456",
-      "name": "Системный администратор",
-      "company": "Открытая клиника",
-      "company_id": "1589706",
-      "company_url": "https://hh.ru/employer/1589706",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/235441.jpg",
-      "url": "https://hh.ru/vacancy/124514456",
-      "published_at": "2025-09-14T22:03:08+0300",
-      "created_at": "2025-09-14T22:03:08+0300",
-      "area": "Москва",
-      "salary": "от 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы от 3-х лет. Опыт работы в Linux системах. Опыт администрирования клиентских и серверных Windows. Опыт настройки...",
-      "responsibility": "Первоочередное - поддержка пользователей. Администрирование Windows Server (AD, расшаренные ресурсы). Администрирование Linux-серверов (Ubuntu, Debian), автоматизация процессов. Администрирование сети (MIKROTIK) и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "124548635",
       "name": "Специалист технической поддержки (помощник системного администратора)",
       "company": "Выборгский районный суд Санкт-Петербурга",
@@ -17223,39 +17223,6 @@
       "employment": "Полная занятость",
       "requirement": "Среднее специальное или высшее техническое образование. Уверенный пользователь ПК, знание операционных систем (Windows) и стандартного пакета Microsoft Office.",
       "responsibility": "Установка, настройка и обновление программного обеспечения на рабочих станциях пользователей. Обучение и консультирование пользователей по работе с программным обеспечением и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125289837",
-      "name": "Инженер / Системный администратор Windows",
-      "company": "Рейканен",
-      "company_id": "1311383",
-      "company_url": "https://hh.ru/employer/1311383",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1042642.png",
-      "url": "https://hh.ru/vacancy/125289837",
-      "published_at": "2025-09-12T23:18:58+0300",
-      "created_at": "2025-09-12T23:18:58+0300",
-      "area": "Санкт-Петербург",
-      "salary": "95 000 - 120 000 RUR на руки",
-      "salary_raw": {
-        "from": 95000,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание английского языка на уровне необходимом для чтения тех. документации. Профильное инженерное высшее образование либо подтвержденные курсы. Базовые навыки администрирования...",
-      "responsibility": "Изучение сетей и применение знаний на практике, предстоит плотно работать с оборудованием Mikrotik. Взаимодействие с системным администратором 2 линии поддержки...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -43388,39 +43355,6 @@
       "employment": "Частичная занятость",
       "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
       "responsibility": "Установка и настройка OC Windows, а также офисных приложений. Установка и настройка различного рода ПО. Подключение и настройка периферийного оборудования...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124194435",
-      "name": "Системный администратор",
-      "company": "Западный Лед",
-      "company_id": "5534127",
-      "company_url": "https://hh.ru/employer/5534127",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1120589.png",
-      "url": "https://hh.ru/vacancy/124194435",
-      "published_at": "2025-08-18T22:52:00+0300",
-      "created_at": "2025-08-18T22:52:00+0300",
-      "area": "Москва",
-      "salary": "от 135 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 135000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Исполнительность, самостоятельность, аккуратность, хорошие коммуникативные способности (умение общаться с пользователями, помогать им в решении их проблем). Требования: Опыт работы на...",
-      "responsibility": "...внешними поставщиками и подрядчиками для решения технических вопросов. - Контроль за своевременными оплатами договоров. - Фильтрация, анализ и распределение заявок системным администраторам.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
