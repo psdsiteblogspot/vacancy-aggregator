@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-19T09:45:04Z",
+  "updated": "2025-09-19T10:46:35Z",
   "statistics": {
-    "total": 797,
-    "with_salary": 585,
-    "companies": 630,
+    "total": 794,
+    "with_salary": 583,
+    "companies": 628,
     "cities": 142,
     "premium": 1,
-    "with_test": 10
+    "with_test": 9
   },
   "vacancies": [
+    {
+      "id": "125527928",
+      "name": "Системный администратор",
+      "company": "Мартынов Андрей Алексеевич",
+      "company_id": "9330109",
+      "company_url": "https://hh.ru/employer/9330109",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1462717.png",
+      "url": "https://hh.ru/vacancy/125527928",
+      "published_at": "2025-09-19T12:57:10+0300",
+      "created_at": "2025-09-19T12:57:10+0300",
+      "area": "Ижевск",
+      "salary": "30 000 - 40 000 RUR на руки",
+      "salary_raw": {
+        "from": 30000,
+        "to": 40000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание устройства компьютера. Умение составлять ТЗ для программистов.",
+      "responsibility": "Обслуживание техники в офисе. Работа с битрикс24(его администрирование).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125527735",
+      "name": "Ведущий системный администратор",
+      "company": "БУЗ ВО Вологодская городская больница№2",
+      "company_id": "3048423",
+      "company_url": "https://hh.ru/employer/3048423",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/125527735",
+      "published_at": "2025-09-19T12:54:27+0300",
+      "created_at": "2025-09-19T12:54:27+0300",
+      "area": "Вологда",
+      "salary": "50 000 - 50 000 RUR на руки",
+      "salary_raw": {
+        "from": 50000,
+        "to": 50000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее профессиональное (техническое) образование.",
+      "responsibility": "Обеспечивает работу системного программного обеспечения (ОС Windows, Windows Server, Linux, Asterisk), бесперебойную работы сети, VPN, серверов. Устанавливает и обслуживает компьютерную...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "125525316",
       "name": "Системный администратор",
@@ -92,10 +158,10 @@
       "published_at": "2025-09-19T11:31:42+0300",
       "created_at": "2025-09-19T11:31:42+0300",
       "area": "Йошкар-Ола",
-      "salary": "100 000 - 100 000 RUR до вычета налогов",
+      "salary": "от 100 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 100000,
-        "to": 100000,
+        "to": null,
         "currency": "RUR",
         "gross": true
       },
@@ -10319,39 +10385,6 @@
       "accept_temporary": false
     },
     {
-      "id": "125207185",
-      "name": "Системный администратор Linux",
-      "company": "Эво",
-      "company_id": "9303946",
-      "company_url": "https://hh.ru/employer/9303946",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1389041.png",
-      "url": "https://hh.ru/vacancy/125207185",
-      "published_at": "2025-09-11T11:13:08+0300",
-      "created_at": "2025-09-11T11:13:08+0300",
-      "area": "Ульяновск",
-      "salary": "от 110 000 RUR на руки",
-      "salary_raw": {
-        "from": 110000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Администрирование сервисов на базе Linux. Знание сервисов AD, DNS, DHCP. Знание Zabbix, Prometheus, Grafana, ELK Stack. Управление пакетами и репозиториями...",
-      "responsibility": "Обслуживание серверов и сервисов компании. Знание операционных систем Linux на уровне администратора. Работа с системами мониторинга и логирования (Zabbix, Prometheus...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "125206983",
       "name": "Системный администратор",
       "company": "ИТ-Решения",
@@ -13410,16 +13443,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124998270",
+      "id": "124998246",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124998270",
+      "url": "https://hh.ru/vacancy/124998246",
       "published_at": "2025-09-08T10:24:27+0300",
       "created_at": "2025-09-08T10:24:27+0300",
-      "area": "Касимов",
+      "area": "Сасово",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -13443,16 +13476,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124998246",
+      "id": "124998270",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124998246",
+      "url": "https://hh.ru/vacancy/124998270",
       "published_at": "2025-09-08T10:24:27+0300",
       "created_at": "2025-09-08T10:24:27+0300",
-      "area": "Сасово",
+      "area": "Касимов",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -17504,39 +17537,6 @@
       "employment": "Полная занятость",
       "requirement": "высшее техническое или средне-специальное образование. - опыт работы от 1 года будет вашим преимуществом. - знание принципов построения локальных сетей, их...",
       "responsibility": "обеспечение работы локальных сетей, серверов, сетевых устройств. - обеспечение бесперебойной работы и обслуживание офисной техники (заправка картриджей, отправка техники в ремонт). -",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123574301",
-      "name": "Системный администратор",
-      "company": "Вологодский мясокомбинат",
-      "company_id": "793057",
-      "company_url": "https://hh.ru/employer/793057",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/939728.jpg",
-      "url": "https://hh.ru/vacancy/123574301",
-      "published_at": "2025-09-02T14:38:25+0300",
-      "created_at": "2025-09-02T14:38:25+0300",
-      "area": "Вологда",
-      "salary": "от 50 000 RUR на руки",
-      "salary_raw": {
-        "from": 50000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание основ администрирования компьютерных сетей.",
-      "responsibility": "Администрирование, ремонт и обслуживание вычислительной техники и периферийного оборудования.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -25166,100 +25166,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": false
-    },
-    {
-      "id": "124277063",
-      "name": "Системный администратор",
-      "company": "ЭГС-Телеком",
-      "company_id": "1850509",
-      "company_url": "https://hh.ru/employer/1850509",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/124277063",
-      "published_at": "2025-08-20T13:05:19+0300",
-      "created_at": "2025-08-20T13:05:19+0300",
-      "area": "Самара",
-      "salary": "90 000 - 130 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 90000,
-        "to": 130000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в аналогичной должности от 3х лет; Знание сетевых протоколов и технологий L2/L3: vlan 802...",
-      "responsibility": "Главная Задача – поддержание исправной работу активного сетевого оборудования. Основные обязанности: Мониторинг работоспособности сервисов, служб, серверов и каналов доступа.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123052301",
-      "name": "Системный администратор/Инженер технической поддержки 1Л",
-      "company": "GITWISE (ООО ЦТП)",
-      "company_id": "11417739",
-      "company_url": "https://hh.ru/employer/11417739",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1329869.png",
-      "url": "https://hh.ru/vacancy/123052301",
-      "published_at": "2025-08-20T12:57:55+0300",
-      "created_at": "2025-08-20T12:57:55+0300",
-      "area": "Нижний Новгород",
-      "salary": "51 500 - 63 000 RUR на руки",
-      "salary_raw": {
-        "from": 51500,
-        "to": 63000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Умение решать технические проблемы с РМ пользователей. Способность одновременно решать несколько задач. Навык быстрого поиска информации, необходимой для решения запросов.",
-      "responsibility": "Решение обращений от клиентов ( примеры: восстановление работоспособности 1С, почтовых клиентов, настройка и восстановление основных компьютерных программ, создание учетной записи...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Специалист технической поддержки"
-      ],
-      "has_test": true,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124276068",
-      "name": "System Administrator (middle)",
-      "company": "ДРИМВИАР",
-      "company_id": "2548891",
-      "company_url": "https://hh.ru/employer/2548891",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/816850.png",
-      "url": "https://hh.ru/vacancy/124276068",
-      "published_at": "2025-08-20T12:52:25+0300",
-      "created_at": "2025-08-20T12:52:25+0300",
-      "area": "Тверь",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Уверенное знание серверных версий Linux (без GUI), опыт работы через терминал. Знание Windows Server и её компонентов (AD, DNS, SMB...",
-      "responsibility": "Поддержка и администрирование серверов на Linux и Windows. Мониторинг и обеспечение работоспособности ИТ-инфраструктуры. Сборка новых рабочих мест и модернизация...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
     }
   ]
 }
