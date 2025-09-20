@@ -10,16 +10,44 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-20T14:44:01Z",
+  "updated": "2025-09-20T15:43:54Z",
   "statistics": {
-    "total": 778,
-    "with_salary": 575,
-    "companies": 613,
+    "total": 776,
+    "with_salary": 574,
+    "companies": 611,
     "cities": 141,
     "premium": 1,
     "with_test": 9
   },
   "vacancies": [
+    {
+      "id": "124785983",
+      "name": "Программист/системный администратор",
+      "company": "Самовар",
+      "company_id": "5031474",
+      "company_url": "https://hh.ru/employer/5031474",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1163438.jpg",
+      "url": "https://hh.ru/vacancy/124785983",
+      "published_at": "2025-09-20T17:08:56+0300",
+      "created_at": "2025-09-20T17:08:56+0300",
+      "area": "Череповец",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы с СУБД, знание SQL. Администрирование СУБД, в том числе MS SQL Server 2008 и более поздних версий.",
+      "responsibility": "Настройка и обслуживание сетевой компьютерной системы, включая оборудование, системное программное обеспечение и приложения. Обеспечение безопасного хранения данных и регулярное резервное...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Программист, разработчик"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "125450043",
       "name": "Системный администратор",
@@ -4978,34 +5006,6 @@
       "accept_temporary": false
     },
     {
-      "id": "124785983",
-      "name": "Программист/системный администратор",
-      "company": "Самовар",
-      "company_id": "5031474",
-      "company_url": "https://hh.ru/employer/5031474",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1163438.jpg",
-      "url": "https://hh.ru/vacancy/124785983",
-      "published_at": "2025-09-17T17:08:56+0300",
-      "created_at": "2025-09-17T17:08:56+0300",
-      "area": "Череповец",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с СУБД, знание SQL. Администрирование СУБД, в том числе MS SQL Server 2008 и более поздних версий.",
-      "responsibility": "Настройка и обслуживание сетевой компьютерной системы, включая оборудование, системное программное обеспечение и приложения. Обеспечение безопасного хранения данных и регулярное резервное...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Программист, разработчик"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "125450824",
       "name": "Системный администратор",
       "company": "ВГТРК (Всероссийская государственная телевизионная и радиовещательная компания)",
@@ -8126,16 +8126,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125332159",
+      "id": "125332160",
       "name": "Системный администратор",
       "company": "ЭФКО",
       "company_id": "53797",
       "company_url": "https://hh.ru/employer/53797",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/752189.jpg",
-      "url": "https://hh.ru/vacancy/125332159",
+      "url": "https://hh.ru/vacancy/125332160",
       "published_at": "2025-09-15T13:41:32+0300",
       "created_at": "2025-09-15T13:41:32+0300",
-      "area": "Тольятти",
+      "area": "Самара",
       "salary": "до 204 450 RUR на руки",
       "salary_raw": {
         "from": null,
@@ -8159,16 +8159,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125332160",
+      "id": "125332159",
       "name": "Системный администратор",
       "company": "ЭФКО",
       "company_id": "53797",
       "company_url": "https://hh.ru/employer/53797",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/752189.jpg",
-      "url": "https://hh.ru/vacancy/125332160",
+      "url": "https://hh.ru/vacancy/125332159",
       "published_at": "2025-09-15T13:41:32+0300",
       "created_at": "2025-09-15T13:41:32+0300",
-      "area": "Самара",
+      "area": "Тольятти",
       "salary": "до 204 450 RUR на руки",
       "salary_raw": {
         "from": null,
@@ -24608,67 +24608,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы с Unix системами. Опыт работы с системами мониторинга и логирования. Опыт работы с kubernetes. Владение puppet или ansible.",
       "responsibility": "Администрирование систем виртаулизации базе OpenNebula, хранилища на базе CEPH. Администрирование СХД, коммутационного оборудования. Администрирование серверов на ОС Windows и *nix.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124342355",
-      "name": "Системный администратор",
-      "company": "Простые сети",
-      "company_id": "4705311",
-      "company_url": "https://hh.ru/employer/4705311",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/872495.png",
-      "url": "https://hh.ru/vacancy/124342355",
-      "published_at": "2025-08-21T18:19:20+0300",
-      "created_at": "2025-08-21T18:19:20+0300",
-      "area": "Казань",
-      "salary": "от 90 000 RUR на руки",
-      "salary_raw": {
-        "from": 90000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Готовы осваивать новые технологии. Человек с активной жизненной позицией который готов оперативно решать вопросы и с \"живым\" интересом подходить к...",
-      "responsibility": "Устанавливать и поддерживать программное обеспечение на рабочих станциях: установка операционной системы Windows, настройка сети, подключение к интернету, оптимизация системы, администрирование...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124341555",
-      "name": "Системный администратор",
-      "company": "ОГУП Фармация",
-      "company_id": "1411005",
-      "company_url": "https://hh.ru/employer/1411005",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/921543.jpg",
-      "url": "https://hh.ru/vacancy/124341555",
-      "published_at": "2025-08-21T17:50:24+0300",
-      "created_at": "2025-08-21T17:50:24+0300",
-      "area": "Тверь",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "настройка прав доступа и пр. * Профильное образование. * Опыт работы. * Исполнительность, ответственность, добросовестное отношение к работе. * Любовь к своему делу (необходима).",
-      "responsibility": "работа с пользователями из структурных подразделений города и области, техническая поддержка пользователей по вопросам функционирования ПО на конечных устройствах. *",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
