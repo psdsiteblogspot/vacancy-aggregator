@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-20T10:35:14Z",
+  "updated": "2025-09-20T11:27:43Z",
   "statistics": {
-    "total": 889,
-    "with_salary": 676,
-    "companies": 679,
-    "cities": 189,
+    "total": 888,
+    "with_salary": 675,
+    "companies": 678,
+    "cities": 188,
     "premium": 0,
     "with_test": 19
   },
   "vacancies": [
+    {
+      "id": "125022402",
+      "name": "Сервисный инженер в IT-компанию/Системный администратор в РЦ",
+      "company": "ДатаКрат-С",
+      "company_id": "3395797",
+      "company_url": "https://hh.ru/employer/3395797",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/717077.png",
+      "url": "https://hh.ru/vacancy/125022402",
+      "published_at": "2025-09-20T13:34:37+0300",
+      "created_at": "2025-09-20T13:34:37+0300",
+      "area": "Кемерово",
+      "salary": "от 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Полная занятость",
+      "requirement": "Приветствуются Базовые знания аппаратной части компьютеров. Приветствуется умение работать с паяльником. Среднее или высшее техническое образование. Уметь налаживать контакт с...",
+      "responsibility": "Диагностика и ремонт кассовой техники, видеонаблюдения, торгового оборудования, ПК. Разъездной характер работы. Запуск объектов (прокладка СКС, монтаж и настройка оборудования...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124770261",
+      "name": "Системный администратор по железу и технике",
+      "company": "НПО ГРАНЬ",
+      "company_id": "11496164",
+      "company_url": "https://hh.ru/employer/11496164",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/124770261",
+      "published_at": "2025-09-20T13:25:41+0300",
+      "created_at": "2025-09-20T13:25:41+0300",
+      "area": "Таганрог",
+      "salary": "от 100 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Администрирование linux (опыт Astra Linux приветствуется) и OS Microsoft Windows. Установка и настройка коммутаторов, маршрутизаторов (Cisco, HP, Huawei и др...",
+      "responsibility": "Установка и настройка средств ЗИ на производственных объектах в Таганроге (АПМДЗ, СЗИ Astra Linux, Secret Net, СКЗИ). Проектирование вычислительной сети...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "125554214",
       "name": "Начинающий системный администратор",
@@ -6035,16 +6101,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125455384",
+      "id": "125455385",
       "name": "Электромеханик связи/системный администратор",
       "company": "Первая Сервисная Компания",
       "company_id": "1480991",
       "company_url": "https://hh.ru/employer/1480991",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
-      "url": "https://hh.ru/vacancy/125455384",
+      "url": "https://hh.ru/vacancy/125455385",
       "published_at": "2025-09-17T19:59:49+0300",
       "created_at": "2025-09-17T19:59:49+0300",
-      "area": "Учалы",
+      "area": "Зилаир",
       "salary": "50 000 - 80 000 RUR на руки",
       "salary_raw": {
         "from": 50000,
@@ -6068,16 +6134,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125455385",
+      "id": "125455384",
       "name": "Электромеханик связи/системный администратор",
       "company": "Первая Сервисная Компания",
       "company_id": "1480991",
       "company_url": "https://hh.ru/employer/1480991",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
-      "url": "https://hh.ru/vacancy/125455385",
+      "url": "https://hh.ru/vacancy/125455384",
       "published_at": "2025-09-17T19:59:49+0300",
       "created_at": "2025-09-17T19:59:49+0300",
-      "area": "Зилаир",
+      "area": "Учалы",
       "salary": "50 000 - 80 000 RUR на руки",
       "salary_raw": {
         "from": 50000,
@@ -6918,72 +6984,6 @@
       "employment": "Полная занятость",
       "requirement": "Антивирусного ПО Касперский. Технические: Опыт работы системным администратором не менее 3 лет. Практический (собственный) опыт установки, настройки и обслуживания серверов...",
       "responsibility": "Виртуальных и физических серверов под управлением ОС Windows и Linux. Гипервизоров на базе ESXi (VmWare) и Hyper-V.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125022402",
-      "name": "Сервисный инженер в IT-компанию/Системный администратор в РЦ",
-      "company": "ДатаКрат-С",
-      "company_id": "3395797",
-      "company_url": "https://hh.ru/employer/3395797",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/717077.png",
-      "url": "https://hh.ru/vacancy/125022402",
-      "published_at": "2025-09-17T13:34:37+0300",
-      "created_at": "2025-09-17T13:34:37+0300",
-      "area": "Кемерово",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Полная занятость",
-      "requirement": "Приветствуются Базовые знания аппаратной части компьютеров. Приветствуется умение работать с паяльником. Среднее или высшее техническое образование. Уметь налаживать контакт с...",
-      "responsibility": "Диагностика и ремонт кассовой техники, видеонаблюдения, торгового оборудования, ПК. Разъездной характер работы. Запуск объектов (прокладка СКС, монтаж и настройка оборудования...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124770261",
-      "name": "Системный администратор по железу и технике",
-      "company": "НПО ГРАНЬ",
-      "company_id": "11496164",
-      "company_url": "https://hh.ru/employer/11496164",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/124770261",
-      "published_at": "2025-09-17T13:25:41+0300",
-      "created_at": "2025-09-17T13:25:41+0300",
-      "area": "Таганрог",
-      "salary": "от 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Администрирование linux (опыт Astra Linux приветствуется) и OS Microsoft Windows. Установка и настройка коммутаторов, маршрутизаторов (Cisco, HP, Huawei и др...",
-      "responsibility": "Установка и настройка средств ЗИ на производственных объектах в Таганроге (АПМДЗ, СЗИ Astra Linux, Secret Net, СКЗИ). Проектирование вычислительной сети...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -28252,39 +28252,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Сетевой инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124328995",
-      "name": "Программист/системный администратор (г.Понежукай)",
-      "company": "ГБУЗРА Адыгейская межрайонная больница им. К.М. Батмена",
-      "company_id": "1462948",
-      "company_url": "https://hh.ru/employer/1462948",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/124328995",
-      "published_at": "2025-08-21T14:23:15+0300",
-      "created_at": "2025-08-21T14:23:15+0300",
-      "area": "Понежукай",
-      "salary": "от 30 000 RUR на руки",
-      "salary_raw": {
-        "from": 30000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Законченное высшее образование по специальности. Послевузовское образование или профессиональная переподготовка по специальности. Опыт работы приветствуется.",
-      "responsibility": "",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
       ],
       "has_test": false,
       "premium": false,
