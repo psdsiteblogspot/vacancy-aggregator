@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-20T07:29:19Z",
+  "updated": "2025-09-20T08:37:57Z",
   "statistics": {
     "total": 896,
     "with_salary": 682,
@@ -20,6 +20,133 @@
     "with_test": 19
   },
   "vacancies": [
+    {
+      "id": "125206447",
+      "name": "Системный администратор",
+      "company": "Brooma",
+      "company_id": "1933808",
+      "company_url": "https://hh.ru/employer/1933808",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1402567.png",
+      "url": "https://hh.ru/vacancy/125206447",
+      "published_at": "2025-09-20T11:01:08+0300",
+      "created_at": "2025-09-20T11:01:08+0300",
+      "area": "Новосибирск",
+      "salary": "от 90 000 RUR на руки",
+      "salary_raw": {
+        "from": 90000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт администрирования Linux-серверов (Ubuntu/CentOS). Опыт работы с реляционными БД (запросы, мониторинг, анализ проблем производительности). Умение писать и поддерживать...",
+      "responsibility": "ОС: Ubuntu, CentOS, Windows Server. Стек: Java, Spring, Tomcat, PostgreSQL, Redis, ActiveMQ. Frontend: ReactJS. Прокси/Балансировщики: HAproxy, Nginx.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125425904",
+      "name": "Системный администратор Linux",
+      "company": "Farpost IT",
+      "company_id": "10859375",
+      "company_url": "https://hh.ru/employer/10859375",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/125425904",
+      "published_at": "2025-09-20T10:50:50+0300",
+      "created_at": "2025-09-20T10:50:50+0300",
+      "area": "Томск",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "Более 6 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Умеете писать скрипты на { bash | awk | python }. Работали с системами контроля версий (git). Хорошо знаете Unix-ы (системные вызовы, процессы...",
+      "responsibility": "Linux (CentOS). Nginx и php-fpm. MySQL, MongoDB, Clickhouse, Elasticsearch. Декларативное управление конфигурацией на Puppet. Виртуализация на KVM, а также...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124403181",
+      "name": "Электромеханик связи/системный администратор",
+      "company": "Первая Сервисная Компания",
+      "company_id": "1480991",
+      "company_url": "https://hh.ru/employer/1480991",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
+      "url": "https://hh.ru/vacancy/124403181",
+      "published_at": "2025-09-20T10:38:46+0300",
+      "created_at": "2025-09-20T10:38:46+0300",
+      "area": "Баймак",
+      "salary": "55 000 - 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 55000,
+        "to": 80000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Вахтовый метод",
+      "employment": "Полная занятость",
+      "requirement": "Средне-специальное или высшее образование. Умение расключать щитки, проверять кабельные линии. Исполнительность, оперативность, аккуратность.",
+      "responsibility": "Электромонтаж. Обеспечение связи и видеонаблюдения. Выезд по объектам на территории РБ.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124403182",
+      "name": "Электромеханик связи/системный администратор",
+      "company": "Первая Сервисная Компания",
+      "company_id": "1480991",
+      "company_url": "https://hh.ru/employer/1480991",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
+      "url": "https://hh.ru/vacancy/124403182",
+      "published_at": "2025-09-20T10:38:46+0300",
+      "created_at": "2025-09-20T10:38:46+0300",
+      "area": "Сибай",
+      "salary": "55 000 - 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 55000,
+        "to": 80000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Вахтовый метод",
+      "employment": "Полная занятость",
+      "requirement": "Средне-специальное или высшее образование. Умение расключать щитки, проверять кабельные линии. Исполнительность, оперативность, аккуратность.",
+      "responsibility": "Электромонтаж. Обеспечение связи и видеонаблюдения. Выезд по объектам на территории РБ.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "119853641",
       "name": "Системный администратор",
@@ -43,6 +170,39 @@
       "employment": "Полная занятость",
       "requirement": "Понимание принципов работы операционных систем (Windows, Linux) и их администрирование. Установка и настройка серверного и сетевого оборудования. Знание протоколов сети...",
       "responsibility": "Техническое сопровождение серверной инфраструктуры, рабочих мест, оргтехники, телефонии. Установка, настройка и оптимизация программного обеспечения. Устранение аварийных ситуаций, связанных с повреждением...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124913526",
+      "name": "Системный администратор",
+      "company": "Промэнерго",
+      "company_id": "795149",
+      "company_url": "https://hh.ru/employer/795149",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/408394.gif",
+      "url": "https://hh.ru/vacancy/124913526",
+      "published_at": "2025-09-20T10:10:13+0300",
+      "created_at": "2025-09-20T10:10:13+0300",
+      "area": "Пермь",
+      "salary": "от 85 000 RUR на руки",
+      "salary_raw": {
+        "from": 85000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее техническое образование. Системный подход в проектировании инфраструктуры и обслуживании ИТ сервисов. Практический опыт работы с MS Hyper-V, терминальными...",
+      "responsibility": "Обеспечение бесперебойной работы (в части функционирования ИТ) офиса 60+ человек, эксплуатация и операционное развитие ИТ сервисов и ЛВС.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -7376,67 +7536,6 @@
       "accept_temporary": false
     },
     {
-      "id": "125206447",
-      "name": "Системный администратор",
-      "company": "Brooma",
-      "company_id": "1933808",
-      "company_url": "https://hh.ru/employer/1933808",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1402567.png",
-      "url": "https://hh.ru/vacancy/125206447",
-      "published_at": "2025-09-17T11:01:08+0300",
-      "created_at": "2025-09-17T11:01:08+0300",
-      "area": "Новосибирск",
-      "salary": "от 90 000 RUR на руки",
-      "salary_raw": {
-        "from": 90000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт администрирования Linux-серверов (Ubuntu/CentOS). Опыт работы с реляционными БД (запросы, мониторинг, анализ проблем производительности). Умение писать и поддерживать...",
-      "responsibility": "ОС: Ubuntu, CentOS, Windows Server. Стек: Java, Spring, Tomcat, PostgreSQL, Redis, ActiveMQ. Frontend: ReactJS. Прокси/Балансировщики: HAproxy, Nginx.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125425904",
-      "name": "Системный администратор Linux",
-      "company": "Farpost IT",
-      "company_id": "10859375",
-      "company_url": "https://hh.ru/employer/10859375",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/125425904",
-      "published_at": "2025-09-17T10:50:50+0300",
-      "created_at": "2025-09-17T10:50:50+0300",
-      "area": "Томск",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "Более 6 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Умеете писать скрипты на { bash | awk | python }. Работали с системами контроля версий (git). Хорошо знаете Unix-ы (системные вызовы, процессы...",
-      "responsibility": "Linux (CentOS). Nginx и php-fpm. MySQL, MongoDB, Clickhouse, Elasticsearch. Декларативное управление конфигурацией на Puppet. Виртуализация на KVM, а также...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "125425749",
       "name": "Системный администратор",
       "company": "ВДЦ-Медицинский Центр",
@@ -7487,72 +7586,6 @@
       "employment": "Частичная занятость",
       "requirement": "Опыт работы: не менее 6 месяцев. Владение программами: Windows, CRM, 1C. Ключевые знания, умения: знание устройства ПК, знание ОС...",
       "responsibility": "Настройки CRM. Интеграция 1С, CRM. Настройки сети внутри организации. Настройка техники (роутеры, МФУ). Коммуникации программ по тендерам.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124403181",
-      "name": "Электромеханик связи/системный администратор",
-      "company": "Первая Сервисная Компания",
-      "company_id": "1480991",
-      "company_url": "https://hh.ru/employer/1480991",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
-      "url": "https://hh.ru/vacancy/124403181",
-      "published_at": "2025-09-17T10:38:46+0300",
-      "created_at": "2025-09-17T10:38:46+0300",
-      "area": "Баймак",
-      "salary": "55 000 - 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 55000,
-        "to": 80000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Вахтовый метод",
-      "employment": "Полная занятость",
-      "requirement": "Средне-специальное или высшее образование. Умение расключать щитки, проверять кабельные линии. Исполнительность, оперативность, аккуратность.",
-      "responsibility": "Электромонтаж. Обеспечение связи и видеонаблюдения. Выезд по объектам на территории РБ.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124403182",
-      "name": "Электромеханик связи/системный администратор",
-      "company": "Первая Сервисная Компания",
-      "company_id": "1480991",
-      "company_url": "https://hh.ru/employer/1480991",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/634648.jpg",
-      "url": "https://hh.ru/vacancy/124403182",
-      "published_at": "2025-09-17T10:38:46+0300",
-      "created_at": "2025-09-17T10:38:46+0300",
-      "area": "Сибай",
-      "salary": "55 000 - 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 55000,
-        "to": 80000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Вахтовый метод",
-      "employment": "Полная занятость",
-      "requirement": "Средне-специальное или высшее образование. Умение расключать щитки, проверять кабельные линии. Исполнительность, оперативность, аккуратность.",
-      "responsibility": "Электромонтаж. Обеспечение связи и видеонаблюдения. Выезд по объектам на территории РБ.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -7647,39 +7680,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание принципов работы ЛВС, систем видеонаблюдения, навык работы монтажным инструментом, электроинструментом. Желателен опыт монтажа СКС. Знание ОС семейства Windows.",
       "responsibility": "Монтаж кабельной сити (СКС). Сборка, настройка , диагностирование компьютерной и орг. техники. Установка, настройка прикладного ПО. Решение задач пользователей в 1...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124913526",
-      "name": "Системный администратор",
-      "company": "Промэнерго",
-      "company_id": "795149",
-      "company_url": "https://hh.ru/employer/795149",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/408394.gif",
-      "url": "https://hh.ru/vacancy/124913526",
-      "published_at": "2025-09-17T10:10:13+0300",
-      "created_at": "2025-09-17T10:10:13+0300",
-      "area": "Пермь",
-      "salary": "от 85 000 RUR на руки",
-      "salary_raw": {
-        "from": 85000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее техническое образование. Системный подход в проектировании инфраструктуры и обслуживании ИТ сервисов. Практический опыт работы с MS Hyper-V, терминальными...",
-      "responsibility": "Обеспечение бесперебойной работы (в части функционирования ИТ) офиса 60+ человек, эксплуатация и операционное развитие ИТ сервисов и ЛВС.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -18945,16 +18945,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124922162",
+      "id": "124922160",
       "name": "Системный администратор",
       "company": "Мангазея Майнинг",
       "company_id": "4914451",
       "company_url": "https://hh.ru/employer/4914451",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/971647.png",
-      "url": "https://hh.ru/vacancy/124922162",
+      "url": "https://hh.ru/vacancy/124922160",
       "published_at": "2025-09-05T11:00:40+0300",
       "created_at": "2025-09-05T11:00:40+0300",
-      "area": "Улан-Удэ",
+      "area": "Чита",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -18973,16 +18973,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124922160",
+      "id": "124922162",
       "name": "Системный администратор",
       "company": "Мангазея Майнинг",
       "company_id": "4914451",
       "company_url": "https://hh.ru/employer/4914451",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/971647.png",
-      "url": "https://hh.ru/vacancy/124922160",
+      "url": "https://hh.ru/vacancy/124922162",
       "published_at": "2025-09-05T11:00:40+0300",
       "created_at": "2025-09-05T11:00:40+0300",
-      "area": "Чита",
+      "area": "Улан-Удэ",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -26340,16 +26340,16 @@
       "accept_temporary": false
     },
     {
-      "id": "119087920",
+      "id": "119088014",
       "name": "Системный администратор",
       "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
       "company_id": "1864933",
       "company_url": "https://hh.ru/employer/1864933",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/657972.png",
-      "url": "https://hh.ru/vacancy/119087920",
+      "url": "https://hh.ru/vacancy/119088014",
       "published_at": "2025-08-26T10:06:04+0300",
       "created_at": "2025-08-26T10:06:04+0300",
-      "area": "Новочеркасск",
+      "area": "Волгодонск",
       "salary": "32 000 - 44 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 32000,
@@ -26373,16 +26373,16 @@
       "accept_temporary": false
     },
     {
-      "id": "119088014",
+      "id": "119087920",
       "name": "Системный администратор",
       "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
       "company_id": "1864933",
       "company_url": "https://hh.ru/employer/1864933",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/657972.png",
-      "url": "https://hh.ru/vacancy/119088014",
+      "url": "https://hh.ru/vacancy/119087920",
       "published_at": "2025-08-26T10:06:04+0300",
       "created_at": "2025-08-26T10:06:04+0300",
-      "area": "Волгодонск",
+      "area": "Новочеркасск",
       "salary": "32 000 - 44 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 32000,
