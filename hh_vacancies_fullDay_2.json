@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-19T23:43:57Z",
+  "updated": "2025-09-20T02:07:56Z",
   "statistics": {
     "total": 792,
     "with_salary": 585,
@@ -20,6 +20,72 @@
     "with_test": 9
   },
   "vacancies": [
+    {
+      "id": "123498672",
+      "name": "Системный администратор",
+      "company": "Аэровокзал Южно-Сахалинск",
+      "company_id": "6123371",
+      "company_url": "https://hh.ru/employer/6123371",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1096048.png",
+      "url": "https://hh.ru/vacancy/123498672",
+      "published_at": "2025-09-20T04:20:54+0300",
+      "created_at": "2025-09-20T04:20:54+0300",
+      "area": "Южно-Сахалинск",
+      "salary": "150 000 - 210 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 150000,
+        "to": 210000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Образование не ниже среднего специального образования. Опыт работы с СХД обязателен (используем протокол Fibre Channel). Опыт работы с системами виртуализации...",
+      "responsibility": "Обеспечение бесперебойной работы IT инфраструктуры и её сервисов. Участие в проектах по развитию и оптимизации IT-инфраструктуры. Администрирование, конфигурирование виртуальных...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124894695",
+      "name": "Системный администратор",
+      "company": "Программные Информационные Системы",
+      "company_id": "3630681",
+      "company_url": "https://hh.ru/employer/3630681",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/666777.jpg",
+      "url": "https://hh.ru/vacancy/124894695",
+      "published_at": "2025-09-20T02:10:51+0300",
+      "created_at": "2025-09-20T02:10:51+0300",
+      "area": "Магадан",
+      "salary": "от 100 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Желателен опыт работы в следующих областях: - Работа в роли системного администратора. - Знания компьютерного «железа», его конфигурации и настройки. -",
+      "responsibility": "Первая линия поддержки пользователей по работе офисного ПО и оборудования (в пределах города). - Работа в офисе и на объектах заказчика...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "125547623",
       "name": "Системный администратор",
@@ -6349,39 +6415,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание принципов маршрутизации, модель OSI, стек протоколов TCP/IP. Понимание принципов построения распределенной инфраструктуры. Знание сетевого оборудования Mikrotik.",
       "responsibility": "Обеспечение бесперебойной работы IT-инфраструктуры компании. Развитие IT-инфраструктуры компании в соответствии с потребностями. Поддержка пользователей.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124894695",
-      "name": "Системный администратор",
-      "company": "Программные Информационные Системы",
-      "company_id": "3630681",
-      "company_url": "https://hh.ru/employer/3630681",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/666777.jpg",
-      "url": "https://hh.ru/vacancy/124894695",
-      "published_at": "2025-09-17T02:10:51+0300",
-      "created_at": "2025-09-17T02:10:51+0300",
-      "area": "Магадан",
-      "salary": "от 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Желателен опыт работы в следующих областях: - Работа в роли системного администратора. - Знания компьютерного «железа», его конфигурации и настройки. -",
-      "responsibility": "Первая линия поддержки пользователей по работе офисного ПО и оборудования (в пределах города). - Работа в офисе и на объектах заказчика...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -13359,16 +13392,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124998269",
+      "id": "124998245",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124998269",
+      "url": "https://hh.ru/vacancy/124998245",
       "published_at": "2025-09-08T10:24:27+0300",
       "created_at": "2025-09-08T10:24:27+0300",
-      "area": "Обоянь",
+      "area": "Советская Гавань",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -13392,16 +13425,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124998245",
+      "id": "124998269",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124998245",
+      "url": "https://hh.ru/vacancy/124998269",
       "published_at": "2025-09-08T10:24:27+0300",
       "created_at": "2025-09-08T10:24:27+0300",
-      "area": "Советская Гавань",
+      "area": "Обоянь",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -13854,16 +13887,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124998248",
+      "id": "124998256",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124998248",
+      "url": "https://hh.ru/vacancy/124998256",
       "published_at": "2025-09-08T10:24:27+0300",
       "created_at": "2025-09-08T10:24:27+0300",
-      "area": "Оха",
+      "area": "Углегорск",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -13887,16 +13920,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124998256",
+      "id": "124998248",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124998256",
+      "url": "https://hh.ru/vacancy/124998248",
       "published_at": "2025-09-08T10:24:27+0300",
       "created_at": "2025-09-08T10:24:27+0300",
-      "area": "Углегорск",
+      "area": "Оха",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -25078,39 +25111,6 @@
       "employment": "Полная занятость",
       "requirement": "Профильное образование.",
       "responsibility": "Устанавливает на серверы и рабочие станции сетевое программное обеспечение. Обеспечивает интегрирование программного обеспечения на файл-серверах, серверах систем управления базами...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123498672",
-      "name": "Системный администратор",
-      "company": "Аэровокзал Южно-Сахалинск",
-      "company_id": "6123371",
-      "company_url": "https://hh.ru/employer/6123371",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1096048.png",
-      "url": "https://hh.ru/vacancy/123498672",
-      "published_at": "2025-08-21T04:20:53+0300",
-      "created_at": "2025-08-21T04:20:53+0300",
-      "area": "Южно-Сахалинск",
-      "salary": "150 000 - 210 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 150000,
-        "to": 210000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Образование не ниже среднего специального образования. Опыт работы с СХД обязателен (используем протокол Fibre Channel). Опыт работы с системами виртуализации...",
-      "responsibility": "Обеспечение бесперебойной работы IT инфраструктуры и её сервисов. Участие в проектах по развитию и оптимизации IT-инфраструктуры. Администрирование, конфигурирование виртуальных...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
