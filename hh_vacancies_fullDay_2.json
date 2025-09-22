@@ -10,16 +10,77 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-22T10:48:24Z",
+  "updated": "2025-09-22T11:44:24Z",
   "statistics": {
-    "total": 774,
-    "with_salary": 569,
-    "companies": 609,
+    "total": 777,
+    "with_salary": 571,
+    "companies": 612,
     "cities": 141,
     "premium": 1,
     "with_test": 9
   },
   "vacancies": [
+    {
+      "id": "125609260",
+      "name": "Системный администратор",
+      "company": "ГрандТехСервис",
+      "company_id": "8882551",
+      "company_url": "https://hh.ru/employer/8882551",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/974487.png",
+      "url": "https://hh.ru/vacancy/125609260",
+      "published_at": "2025-09-22T14:13:02+0300",
+      "created_at": "2025-09-22T14:13:02+0300",
+      "area": "Симферополь",
+      "salary": "80 000 - 80 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 80000,
+        "to": 80000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Образование среднее специальное или высшее образование по специальности. Опыт работы не менее 1 года в аналогичной должности.",
+      "responsibility": "Обслуживание и модернизация компьютерного оборудования. -Обеспечение бесперебойной работы информационной инфраструктуры организации. -Установка, настройка и обслуживание компьютеров, ноутбуков, серверов, сетевого оборудования...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125608402",
+      "name": "Системный администратор информационной безопасности",
+      "company": "ФГБУ Федеральный центр охраны здоровья животных",
+      "company_id": "1070520",
+      "company_url": "https://hh.ru/employer/1070520",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/83374.png",
+      "url": "https://hh.ru/vacancy/125608402",
+      "published_at": "2025-09-22T13:59:49+0300",
+      "created_at": "2025-09-22T13:59:49+0300",
+      "area": "Владимир",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование (в области информационной безопасности или информационных технологий). Опыт работы с операционными системами Windows, Linux, AD на уровне администратора.",
+      "responsibility": "Обеспечение функционирования и сопровождение технических средств и решений, обеспечивающих защиту информации, включая настройку, мониторинг и обслуживание средств защиты в рамках...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Специалист по информационной безопасности"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "114926548",
       "name": "Системный администратор",
@@ -38,6 +99,39 @@
       "employment": "Полная занятость",
       "requirement": "Умение работать в команде: слышать, объяснять и давать обратную связь. Самостоятельность в работе и персональная ответственность за результат.",
       "responsibility": "Поддержка высоконагруженных приложений. Помощь клиентам в работе с Altcraft Platform, через чат. Настройка новой и поддержка существующей инфраструктуры компании.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124495400",
+      "name": "Помощник системного администратора",
+      "company": "Фотосеть СИВМА",
+      "company_id": "1659491",
+      "company_url": "https://hh.ru/employer/1659491",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1385589.png",
+      "url": "https://hh.ru/vacancy/124495400",
+      "published_at": "2025-09-22T13:29:15+0300",
+      "created_at": "2025-09-22T13:29:15+0300",
+      "area": "Воронеж",
+      "salary": "от 40 000 RUR на руки",
+      "salary_raw": {
+        "from": 40000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Уверенные знания Windows на уровне продвинутого пользователя. Понимание работы сетей и знание, что такое IP, роутеры, свитчи и ЛВС.",
+      "responsibility": "Установка и настройка программного обеспечения на базе Windows. Настройка параметров системы и обеспечение безопасности через пароли и доступы.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -4122,39 +4216,6 @@
       "employment": "Полная занятость",
       "requirement": "Базовые знания работы с ПК и периферийными устройствами. Умение работать с офисными программами (Word, Excel). Готовность обучаться и развиваться в...",
       "responsibility": "Обработка заявок пользователей и решение технических проблем. Установка и настройка программного обеспечения. Поддержка и обслуживание компьютерной техники, включая ПК и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124495400",
-      "name": "Помощник системного администратора",
-      "company": "Фотосеть СИВМА",
-      "company_id": "1659491",
-      "company_url": "https://hh.ru/employer/1659491",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1385589.png",
-      "url": "https://hh.ru/vacancy/124495400",
-      "published_at": "2025-09-19T13:29:15+0300",
-      "created_at": "2025-09-19T13:29:15+0300",
-      "area": "Воронеж",
-      "salary": "от 40 000 RUR на руки",
-      "salary_raw": {
-        "from": 40000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Уверенные знания Windows на уровне продвинутого пользователя. Понимание работы сетей и знание, что такое IP, роутеры, свитчи и ЛВС.",
-      "responsibility": "Установка и настройка программного обеспечения на базе Windows. Настройка параметров системы и обеспечение безопасности через пароли и доступы.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -9391,16 +9452,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125332160",
+      "id": "125332159",
       "name": "Системный администратор",
       "company": "ЭФКО",
       "company_id": "53797",
       "company_url": "https://hh.ru/employer/53797",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/752189.jpg",
-      "url": "https://hh.ru/vacancy/125332160",
+      "url": "https://hh.ru/vacancy/125332159",
       "published_at": "2025-09-15T13:41:32+0300",
       "created_at": "2025-09-15T13:41:32+0300",
-      "area": "Самара",
+      "area": "Тольятти",
       "salary": "до 204 450 RUR на руки",
       "salary_raw": {
         "from": null,
@@ -9424,16 +9485,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125332159",
+      "id": "125332160",
       "name": "Системный администратор",
       "company": "ЭФКО",
       "company_id": "53797",
       "company_url": "https://hh.ru/employer/53797",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/752189.jpg",
-      "url": "https://hh.ru/vacancy/125332159",
+      "url": "https://hh.ru/vacancy/125332160",
       "published_at": "2025-09-15T13:41:32+0300",
       "created_at": "2025-09-15T13:41:32+0300",
-      "area": "Тольятти",
+      "area": "Самара",
       "salary": "до 204 450 RUR на руки",
       "salary_raw": {
         "from": null,
@@ -9639,6 +9700,39 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы с серверами/системами хранения данных. Базовые знания операционных систем семейства Linux, опыт эксплуатации приветствуется. Базовые знание по информационной...",
       "responsibility": "Управление, мониторинг, настройка серверной ИТ-инфраструктуры на базе ОС Windows сервисов AD, GPO, WSUS, Exchange, DNS, DHCP. Виртуализация серверов на...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125322833",
+      "name": "Системный администратор",
+      "company": "ВОЛГАТРАНССТРОЙ, Группа компаний",
+      "company_id": "35909",
+      "company_url": "https://hh.ru/employer/35909",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/224620.gif",
+      "url": "https://hh.ru/vacancy/125322833",
+      "published_at": "2025-09-15T11:36:15+0300",
+      "created_at": "2025-09-15T11:36:15+0300",
+      "area": "Самара",
+      "salary": "40 000 - 40 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 40000,
+        "to": 40000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Частичная занятость",
+      "requirement": "Профильное образование. Опыт аналогичной работы будет плюсом, но и кандидатов без опыта рассмотрим.",
+      "responsibility": "Подготовка и установка рабочего места пользователя. Установка ПО: Windows, MS Office, Autocad и пр. Обслуживание копировальной техники: замена картриджей, устранение...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -16991,16 +17085,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124865703",
+      "id": "124865702",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124865703",
+      "url": "https://hh.ru/vacancy/124865702",
       "published_at": "2025-09-04T11:11:59+0300",
       "created_at": "2025-09-04T11:11:59+0300",
-      "area": "Пенза",
+      "area": "Ижевск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -17019,16 +17113,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124865702",
+      "id": "124865703",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124865702",
+      "url": "https://hh.ru/vacancy/124865703",
       "published_at": "2025-09-04T11:11:59+0300",
       "created_at": "2025-09-04T11:11:59+0300",
-      "area": "Ижевск",
+      "area": "Пенза",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
