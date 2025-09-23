@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-23T15:35:07Z",
+  "updated": "2025-09-23T16:41:57Z",
   "statistics": {
-    "total": 930,
-    "with_salary": 705,
-    "companies": 716,
+    "total": 929,
+    "with_salary": 704,
+    "companies": 715,
     "cities": 190,
     "premium": 1,
     "with_test": 17
   },
   "vacancies": [
+    {
+      "id": "125614479",
+      "name": "Системный администратор",
+      "company": "Киноплан",
+      "company_id": "2457900",
+      "company_url": "https://hh.ru/employer/2457900",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/125614479",
+      "published_at": "2025-09-23T19:35:53+0300",
+      "created_at": "2025-09-23T19:35:53+0300",
+      "area": "Ростов-на-Дону",
+      "salary": "от 70 000 RUR на руки",
+      "salary_raw": {
+        "from": 70000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Приглашаем к себе в команду системного администратора с опытом работы и желанием активно расти и развиваться. - Уверенное знание ОС Windows...",
+      "responsibility": "Видеопанели, где транслируются трейлеры и расписание сеансов. Кассовое оборудование, на котором вы выбираете себе места в зале. Сайты и приложения...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "125673119",
       "name": "Системный администратор",
@@ -46,6 +79,39 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124788560",
+      "name": "Оператор технической поддержки (Системный администратор)",
+      "company": "Ирбис Телеком",
+      "company_id": "1082063",
+      "company_url": "https://hh.ru/employer/1082063",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/80899.png",
+      "url": "https://hh.ru/vacancy/124788560",
+      "published_at": "2025-09-23T18:06:53+0300",
+      "created_at": "2025-09-23T18:06:53+0300",
+      "area": "Краснодар",
+      "salary": "35 000 - 50 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 35000,
+        "to": 50000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Умение доходчиво и вежливо излагать свои мысли в устном и письменном виде (приветствуется опыт работы в тех. поддержке).",
+      "responsibility": "Прием входящих звонков, регистрация и классификация заявок, полученных по различным источникам. Взаимодействие с клиентами в рамках поступивших обращений.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Специалист технической поддержки"
       ],
       "has_test": false,
       "premium": false,
@@ -1466,16 +1532,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125065574",
+      "id": "125065575",
       "name": "IT-специалист/системный администратор/администратор баз данных",
       "company": "К-Сервис",
       "company_id": "6215724",
       "company_url": "https://hh.ru/employer/6215724",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1043597.png",
-      "url": "https://hh.ru/vacancy/125065574",
+      "url": "https://hh.ru/vacancy/125065575",
       "published_at": "2025-09-23T10:31:47+0300",
       "created_at": "2025-09-23T10:31:47+0300",
-      "area": "Новосёлово",
+      "area": "Дивногорск",
       "salary": "от 74 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 74000,
@@ -1499,16 +1565,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125065575",
+      "id": "125065574",
       "name": "IT-специалист/системный администратор/администратор баз данных",
       "company": "К-Сервис",
       "company_id": "6215724",
       "company_url": "https://hh.ru/employer/6215724",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1043597.png",
-      "url": "https://hh.ru/vacancy/125065575",
+      "url": "https://hh.ru/vacancy/125065574",
       "published_at": "2025-09-23T10:31:47+0300",
       "created_at": "2025-09-23T10:31:47+0300",
-      "area": "Дивногорск",
+      "area": "Новосёлово",
       "salary": "от 74 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 74000,
@@ -3198,39 +3264,6 @@
       "accept_temporary": false
     },
     {
-      "id": "124726878",
-      "name": "Системный администратор",
-      "company": "Техноавиа-Краснодар",
-      "company_id": "903863",
-      "company_url": "https://hh.ru/employer/903863",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/115063.jpg",
-      "url": "https://hh.ru/vacancy/124726878",
-      "published_at": "2025-09-22T16:56:54+0300",
-      "created_at": "2025-09-22T16:56:54+0300",
-      "area": "Краснодар",
-      "salary": "от 80 500 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 80500,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Среднее специальное, высшее профессиональное образование. Опыт работы от 1 года. Знание AD,DNS, DHCP. Знание 1С, MS Office.",
-      "responsibility": "Обеспечение информационной безопасности и связи. Организация работы с поставщиками услуг (интернет - провайдеры, мобильная связь). Ведение актуального склада расходных материалов(заказ...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "125619206",
       "name": "Системный администратор",
       "company": "Семена для Сибири",
@@ -3396,16 +3429,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125616317",
+      "id": "125616318",
       "name": "Старший системный администратор",
       "company": "Грин Рэй Кубань",
       "company_id": "2813961",
       "company_url": "https://hh.ru/employer/2813961",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1309932.png",
-      "url": "https://hh.ru/vacancy/125616317",
+      "url": "https://hh.ru/vacancy/125616318",
       "published_at": "2025-09-22T15:53:31+0300",
       "created_at": "2025-09-22T15:53:31+0300",
-      "area": "Каневская",
+      "area": "Ленинградская станица",
       "salary": "до 91 960 RUR на руки",
       "salary_raw": {
         "from": null,
@@ -3429,16 +3462,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125616318",
+      "id": "125616317",
       "name": "Старший системный администратор",
       "company": "Грин Рэй Кубань",
       "company_id": "2813961",
       "company_url": "https://hh.ru/employer/2813961",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1309932.png",
-      "url": "https://hh.ru/vacancy/125616318",
+      "url": "https://hh.ru/vacancy/125616317",
       "published_at": "2025-09-22T15:53:31+0300",
       "created_at": "2025-09-22T15:53:31+0300",
-      "area": "Ленинградская станица",
+      "area": "Каневская",
       "salary": "до 91 960 RUR на руки",
       "salary_raw": {
         "from": null,
@@ -3540,39 +3573,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы системным администратором от 3-ех лет. Обязательные твердые знания и опыт: ОС: Windows Server 2012-2022, Active Directory...",
       "responsibility": "Обеспечение бесперебойной работы, безопасности и развития корпоративной IT-инфраструктуры компании. Администрирование и поддержка серверной инфраструктуры на базе Windows Server и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125614479",
-      "name": "Системный администратор",
-      "company": "Киноплан",
-      "company_id": "2457900",
-      "company_url": "https://hh.ru/employer/2457900",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/125614479",
-      "published_at": "2025-09-22T15:25:28+0300",
-      "created_at": "2025-09-22T15:25:28+0300",
-      "area": "Ростов-на-Дону",
-      "salary": "от 70 000 RUR на руки",
-      "salary_raw": {
-        "from": 70000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Приглашаем к себе в команду системного администратора с опытом работы и желанием активно расти и развиваться. - Уверенное знание ОС Windows...",
-      "responsibility": "Видеопанели, где транслируются трейлеры и расписание сеансов. Кассовое оборудование, на котором вы выбираете себе места в зале. Сайты и приложения...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -6472,16 +6472,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125573981",
+      "id": "125573982",
       "name": "Системный администратор",
       "company": "РОСТ, Группа компаний",
       "company_id": "1449838",
       "company_url": "https://hh.ru/employer/1449838",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1404906.png",
-      "url": "https://hh.ru/vacancy/125573981",
+      "url": "https://hh.ru/vacancy/125573982",
       "published_at": "2025-09-22T06:35:10+0300",
       "created_at": "2025-09-22T06:35:10+0300",
-      "area": "Курган",
+      "area": "Челябинск",
       "salary": "56 000 - 56 000 RUR на руки",
       "salary_raw": {
         "from": 56000,
@@ -6505,16 +6505,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125573982",
+      "id": "125573981",
       "name": "Системный администратор",
       "company": "РОСТ, Группа компаний",
       "company_id": "1449838",
       "company_url": "https://hh.ru/employer/1449838",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1404906.png",
-      "url": "https://hh.ru/vacancy/125573982",
+      "url": "https://hh.ru/vacancy/125573981",
       "published_at": "2025-09-22T06:35:10+0300",
       "created_at": "2025-09-22T06:35:10+0300",
-      "area": "Челябинск",
+      "area": "Курган",
       "salary": "56 000 - 56 000 RUR на руки",
       "salary_raw": {
         "from": 56000,
@@ -7894,39 +7894,6 @@
       "accept_temporary": false
     },
     {
-      "id": "124788560",
-      "name": "Оператор технической поддержки (Системный администратор)",
-      "company": "Ирбис Телеком",
-      "company_id": "1082063",
-      "company_url": "https://hh.ru/employer/1082063",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/80899.png",
-      "url": "https://hh.ru/vacancy/124788560",
-      "published_at": "2025-09-20T18:06:53+0300",
-      "created_at": "2025-09-20T18:06:53+0300",
-      "area": "Краснодар",
-      "salary": "35 000 - 50 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 35000,
-        "to": 50000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Нет опыта",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Умение доходчиво и вежливо излагать свои мысли в устном и письменном виде (приветствуется опыт работы в тех. поддержке).",
-      "responsibility": "Прием входящих звонков, регистрация и классификация заявок, полученных по различным источникам. Взаимодействие с клиентами в рамках поступивших обращений.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Специалист технической поддержки"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "125554214",
       "name": "Начинающий системный администратор",
       "company": "Экскурсионная студия Краски",
@@ -8158,39 +8125,6 @@
       "accept_temporary": false
     },
     {
-      "id": "125537172",
-      "name": "Системный администратор",
-      "company": "Сеть магазинов Народный",
-      "company_id": "1379982",
-      "company_url": "https://hh.ru/employer/1379982",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/555930.jpg",
-      "url": "https://hh.ru/vacancy/125537172",
-      "published_at": "2025-09-19T15:29:53+0300",
-      "created_at": "2025-09-19T15:29:53+0300",
-      "area": "Иркутск",
-      "salary": "70 000 - 70 000 RUR на руки",
-      "salary_raw": {
-        "from": 70000,
-        "to": 70000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы Системным Администратором или специалистом технической поддержки. Опыт администрирования ОС Windows 7/8/10/2012R2/2016.",
-      "responsibility": "Поддержка работоспособности информационных систем организации. Удалённое администрирование ПК или выезд на торговые точки для решения поставленных задач. Взаимодействие с поставщиками...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "125537173",
       "name": "Системный администратор",
       "company": "Сеть магазинов Народный",
@@ -8224,16 +8158,49 @@
       "accept_temporary": false
     },
     {
-      "id": "125536576",
+      "id": "125537172",
+      "name": "Системный администратор",
+      "company": "Сеть магазинов Народный",
+      "company_id": "1379982",
+      "company_url": "https://hh.ru/employer/1379982",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/555930.jpg",
+      "url": "https://hh.ru/vacancy/125537172",
+      "published_at": "2025-09-19T15:29:53+0300",
+      "created_at": "2025-09-19T15:29:53+0300",
+      "area": "Иркутск",
+      "salary": "70 000 - 70 000 RUR на руки",
+      "salary_raw": {
+        "from": 70000,
+        "to": 70000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы Системным Администратором или специалистом технической поддержки. Опыт администрирования ОС Windows 7/8/10/2012R2/2016.",
+      "responsibility": "Поддержка работоспособности информационных систем организации. Удалённое администрирование ПК или выезд на торговые точки для решения поставленных задач. Взаимодействие с поставщиками...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125536577",
       "name": "Системный администратор",
       "company": "Велесстрой",
       "company_id": "681883",
       "company_url": "https://hh.ru/employer/681883",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/526364.png",
-      "url": "https://hh.ru/vacancy/125536576",
+      "url": "https://hh.ru/vacancy/125536577",
       "published_at": "2025-09-19T15:18:14+0300",
       "created_at": "2025-09-19T15:18:14+0300",
-      "area": "Геленджик",
+      "area": "Новороссийск",
       "salary": "110 000 - 130 000 RUR на руки",
       "salary_raw": {
         "from": 110000,
@@ -8257,16 +8224,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125536577",
+      "id": "125536576",
       "name": "Системный администратор",
       "company": "Велесстрой",
       "company_id": "681883",
       "company_url": "https://hh.ru/employer/681883",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/526364.png",
-      "url": "https://hh.ru/vacancy/125536577",
+      "url": "https://hh.ru/vacancy/125536576",
       "published_at": "2025-09-19T15:18:14+0300",
       "created_at": "2025-09-19T15:18:14+0300",
-      "area": "Новороссийск",
+      "area": "Геленджик",
       "salary": "110 000 - 130 000 RUR на руки",
       "salary_raw": {
         "from": 110000,
@@ -20200,16 +20167,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124998261",
+      "id": "124998258",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124998261",
+      "url": "https://hh.ru/vacancy/124998258",
       "published_at": "2025-09-08T10:24:27+0300",
       "created_at": "2025-09-08T10:24:27+0300",
-      "area": "Петропавловка (Республика Бурятия)",
+      "area": "Чернышевск",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -20233,16 +20200,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124998258",
+      "id": "124998261",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124998258",
+      "url": "https://hh.ru/vacancy/124998261",
       "published_at": "2025-09-08T10:24:27+0300",
       "created_at": "2025-09-08T10:24:27+0300",
-      "area": "Чернышевск",
+      "area": "Петропавловка (Республика Бурятия)",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
