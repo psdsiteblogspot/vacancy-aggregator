@@ -10,16 +10,214 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-23T12:59:54Z",
+  "updated": "2025-09-23T13:42:17Z",
   "statistics": {
-    "total": 924,
-    "with_salary": 700,
-    "companies": 710,
+    "total": 926,
+    "with_salary": 702,
+    "companies": 712,
     "cities": 189,
     "premium": 1,
     "with_test": 17
   },
   "vacancies": [
+    {
+      "id": "125667938",
+      "name": "Системный администратор",
+      "company": "Балтсервис",
+      "company_id": "3189646",
+      "company_url": "https://hh.ru/employer/3189646",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/125667938",
+      "published_at": "2025-09-23T16:22:14+0300",
+      "created_at": "2025-09-23T16:22:14+0300",
+      "area": "Мурманск",
+      "salary": "от 100 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы.",
+      "responsibility": "1.Обеспечение бесперебойной работы локальной сети предприятия, сетевых устройств. 2. Техническая и программная поддержка пользователей, консультирование пользователей по вопросам работы в...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125667931",
+      "name": "Системный администратор",
+      "company": "Группа компаний «ФИТОФАРМ»",
+      "company_id": "4518579",
+      "company_url": "https://hh.ru/employer/4518579",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1039947.jpg",
+      "url": "https://hh.ru/vacancy/125667931",
+      "published_at": "2025-09-23T16:22:00+0300",
+      "created_at": "2025-09-23T16:22:00+0300",
+      "area": "Анапа",
+      "salary": "50 000 - 60 000 RUR на руки",
+      "salary_raw": {
+        "from": 50000,
+        "to": 60000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Что мы хотим видеть у кандидата? Опыт работы с Windows Server 2019. Опыт работы с сетевым оборудованием. Знание современных комплектующих...",
+      "responsibility": "",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125190684",
+      "name": "Помощник системного администратора",
+      "company": "Технопром",
+      "company_id": "4381956",
+      "company_url": "https://hh.ru/employer/4381956",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1366882.png",
+      "url": "https://hh.ru/vacancy/125190684",
+      "published_at": "2025-09-23T15:59:42+0300",
+      "created_at": "2025-09-23T15:59:42+0300",
+      "area": "Уфа",
+      "salary": "от 75 000 RUR на руки",
+      "salary_raw": {
+        "from": 75000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование в области информационных технологий, компьютерных наук или смежных областях. Углубленные знания операционных систем (Windows Server, Linux).",
+      "responsibility": "Консультация и техническая поддержка пользователей при работе с ПО и оборудованием, 1С. Администрирование серверов 1С (Обновление платформ, конфигураций...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125045664",
+      "name": "Специалист по обслуживанию майнинг ферм / Системный администратор",
+      "company": "Интелион Дата",
+      "company_id": "3137030",
+      "company_url": "https://hh.ru/employer/3137030",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1027990.jpg",
+      "url": "https://hh.ru/vacancy/125045664",
+      "published_at": "2025-09-23T15:55:28+0300",
+      "created_at": "2025-09-23T15:55:28+0300",
+      "area": "Черногорск",
+      "salary": "50 000 - 75 000 RUR на руки",
+      "salary_raw": {
+        "from": 50000,
+        "to": 75000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Хорошее знание компьютерного железа и железа майнинг оборудования. Опыт работы сборщиком (сборка, установка ПО, тестирование). Знание сетевых технологий, умение настройки...",
+      "responsibility": "Обслуживание, настройка и контроль работы оборудования. Устранение физических дефектов и текущий модульный ремонт оборудования. Настройка и подключение к локальной сети.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
+      "id": "124553683",
+      "name": "Системный администратор",
+      "company": "Мальчонки и Девчонки",
+      "company_id": "2557804",
+      "company_url": "https://hh.ru/employer/2557804",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1065126.png",
+      "url": "https://hh.ru/vacancy/124553683",
+      "published_at": "2025-09-23T15:26:08+0300",
+      "created_at": "2025-09-23T15:26:08+0300",
+      "area": "Волгоград",
+      "salary": "75 000 - 90 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 75000,
+        "to": 90000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт эксплуатации и администрирования серверов, систем хранения данных. Опыт работы с продуктами 1С (обязательно). Опыт администрирования и разворачивания 1...",
+      "responsibility": "Настройка, управление и обеспечение бесперебойной работой локальных сетей,серверов( ПО Windows Server 2016), сетевых устройств, рабочих мест пользователей.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125233560",
+      "name": "Системный администратор",
+      "company": "Агро-Строительные Технологии",
+      "company_id": "80699",
+      "company_url": "https://hh.ru/employer/80699",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/635423.png",
+      "url": "https://hh.ru/vacancy/125233560",
+      "published_at": "2025-09-23T15:25:26+0300",
+      "created_at": "2025-09-23T15:25:26+0300",
+      "area": "Краснодар",
+      "salary": "60 000 - 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": 80000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Базовые знания и навыки администрирования операционных систем семейства Windows Server (роли Active Directory, DNS, DHCP, Terminal Services, WSUS).",
+      "responsibility": "Установка и конфигурирование аппаратного и программного обеспечения ИТ-оборудования. Управление рабочими станциями и пользователями на основе групповых политик.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "125664035",
       "name": "Системный администратор (Ведущий инженер)",
@@ -71,6 +269,39 @@
       "employment": "Полная занятость",
       "requirement": "...Системные администраторы, системные аналитики. Высшее или среднее профессиональное образование в области информационных технологий, информационной безопасности, автоматизированных систем. Опыт работы системным...",
       "responsibility": "Администрирование ОС: Windows, Linux. - Active Directory: Настройка GPO, ввод устройств в домен, проведение инвентаризации, аудит доступов к ИТ-Инфраструктуре и...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124552423",
+      "name": "Системный администратор",
+      "company": "ВолгаАвтоТрейд",
+      "company_id": "1015676",
+      "company_url": "https://hh.ru/employer/1015676",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/124552423",
+      "published_at": "2025-09-23T15:07:51+0300",
+      "created_at": "2025-09-23T15:07:51+0300",
+      "area": "Волгоград",
+      "salary": "от 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Базовые знания администрирования MS SQL Server. Администрирование серверов 1С Предприятия. Знание технологий AD/DNS/DHCP/RDP и Hyper-V.",
+      "responsibility": "Администрирование локальных вычислительных систем на базе Windows - установка, настройка, управление безопасностью, администрирование пользователей, удаленный доступ RDP, драйверы устройств, доступ к...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -2939,39 +3170,6 @@
       "accept_temporary": false
     },
     {
-      "id": "125190684",
-      "name": "Помощник системного администратора",
-      "company": "Технопром",
-      "company_id": "4381956",
-      "company_url": "https://hh.ru/employer/4381956",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1366882.png",
-      "url": "https://hh.ru/vacancy/125190684",
-      "published_at": "2025-09-22T15:57:25+0300",
-      "created_at": "2025-09-22T15:57:25+0300",
-      "area": "Уфа",
-      "salary": "от 75 000 RUR на руки",
-      "salary_raw": {
-        "from": 75000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование в области информационных технологий, компьютерных наук или смежных областях. Углубленные знания операционных систем (Windows Server, Linux).",
-      "responsibility": "Консультация и техническая поддержка пользователей при работе с ПО и оборудованием, 1С. Администрирование серверов 1С (Обновление платформ, конфигураций...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "125094654",
       "name": "Системный администратор (с функциями СИБ)",
       "company": "OmniLine",
@@ -4729,7 +4927,7 @@
         "currency": "RUR",
         "gross": true
       },
-      "experience": "Нет опыта",
+      "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
       "requirement": "Понимание принципов построения и прокладки локальных сетей. Работа в команде системных администраторов, которая занимается поддержкой 40 библиотечных филиалов, разбросанных по...",
@@ -7594,138 +7792,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Специалист технической поддержки"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125045664",
-      "name": "Специалист по обслуживанию майнинг ферм / Системный администратор",
-      "company": "Интелион Дата",
-      "company_id": "3137030",
-      "company_url": "https://hh.ru/employer/3137030",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1027990.jpg",
-      "url": "https://hh.ru/vacancy/125045664",
-      "published_at": "2025-09-20T15:55:28+0300",
-      "created_at": "2025-09-20T15:55:28+0300",
-      "area": "Черногорск",
-      "salary": "50 000 - 75 000 RUR на руки",
-      "salary_raw": {
-        "from": 50000,
-        "to": 75000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Хорошее знание компьютерного железа и железа майнинг оборудования. Опыт работы сборщиком (сборка, установка ПО, тестирование). Знание сетевых технологий, умение настройки...",
-      "responsibility": "Обслуживание, настройка и контроль работы оборудования. Устранение физических дефектов и текущий модульный ремонт оборудования. Настройка и подключение к локальной сети.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
-      "id": "124553683",
-      "name": "Системный администратор",
-      "company": "Мальчонки и Девчонки",
-      "company_id": "2557804",
-      "company_url": "https://hh.ru/employer/2557804",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1065126.png",
-      "url": "https://hh.ru/vacancy/124553683",
-      "published_at": "2025-09-20T15:26:08+0300",
-      "created_at": "2025-09-20T15:26:08+0300",
-      "area": "Волгоград",
-      "salary": "75 000 - 90 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 75000,
-        "to": 90000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт эксплуатации и администрирования серверов, систем хранения данных. Опыт работы с продуктами 1С (обязательно). Опыт администрирования и разворачивания 1...",
-      "responsibility": "Настройка, управление и обеспечение бесперебойной работой локальных сетей,серверов( ПО Windows Server 2016), сетевых устройств, рабочих мест пользователей.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125233560",
-      "name": "Системный администратор",
-      "company": "Агро-Строительные Технологии",
-      "company_id": "80699",
-      "company_url": "https://hh.ru/employer/80699",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/635423.png",
-      "url": "https://hh.ru/vacancy/125233560",
-      "published_at": "2025-09-20T15:25:26+0300",
-      "created_at": "2025-09-20T15:25:26+0300",
-      "area": "Краснодар",
-      "salary": "60 000 - 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 60000,
-        "to": 80000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Базовые знания и навыки администрирования операционных систем семейства Windows Server (роли Active Directory, DNS, DHCP, Terminal Services, WSUS).",
-      "responsibility": "Установка и конфигурирование аппаратного и программного обеспечения ИТ-оборудования. Управление рабочими станциями и пользователями на основе групповых политик.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124552423",
-      "name": "Системный администратор",
-      "company": "ВолгаАвтоТрейд",
-      "company_id": "1015676",
-      "company_url": "https://hh.ru/employer/1015676",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/124552423",
-      "published_at": "2025-09-20T15:07:51+0300",
-      "created_at": "2025-09-20T15:07:51+0300",
-      "area": "Волгоград",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Базовые знания администрирования MS SQL Server. Администрирование серверов 1С Предприятия. Знание технологий AD/DNS/DHCP/RDP и Hyper-V.",
-      "responsibility": "Администрирование локальных вычислительных систем на базе Windows - установка, настройка, управление безопасностью, администрирование пользователей, удаленный доступ RDP, драйверы устройств, доступ к...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
       ],
       "has_test": false,
       "premium": false,
