@@ -10,27 +10,55 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-24T18:27:45Z",
+  "updated": "2025-09-24T19:17:37Z",
   "statistics": {
-    "total": 1356,
-    "with_salary": 784,
-    "companies": 1112,
+    "total": 1358,
+    "with_salary": 785,
+    "companies": 1113,
     "cities": 68,
     "premium": 4,
     "with_test": 62
   },
   "vacancies": [
     {
-      "id": "125731598",
+      "id": "125732214",
+      "name": "Системный администратор",
+      "company": "ANCOR",
+      "company_id": "1947314",
+      "company_url": "https://hh.ru/employer/1947314",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1394389.png",
+      "url": "https://hh.ru/vacancy/125732214",
+      "published_at": "2025-09-24T22:09:39+0300",
+      "created_at": "2025-09-24T22:09:39+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Обязательные: Опыт работы системным администратором от 3-х лет (именно системным администратором, не включая смежные области). Знание Linux (продвинутый уровень).",
+      "responsibility": "Системное администрирование: Администрирование сетевых устройств (маршрутизаторы MikroTik, коммутаторы, точки доступа). Администрирование сервера виртуализации (Proxmox). Администрирование корпоративных сервисов: Яндекс 360, Netlux...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125731597",
       "name": "Младший специалист технической поддержки (Системный администратор)",
       "company": "Димитрикс",
       "company_id": "4013410",
       "company_url": "https://hh.ru/employer/4013410",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/805940.jpg",
-      "url": "https://hh.ru/vacancy/125731598",
+      "url": "https://hh.ru/vacancy/125731597",
       "published_at": "2025-09-24T20:01:32+0300",
       "created_at": "2025-09-24T20:01:32+0300",
-      "area": "Королев (Московская область)",
+      "area": "Мытищи (Московская область)",
       "salary": "от 80 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 80000,
@@ -54,16 +82,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125731597",
+      "id": "125731598",
       "name": "Младший специалист технической поддержки (Системный администратор)",
       "company": "Димитрикс",
       "company_id": "4013410",
       "company_url": "https://hh.ru/employer/4013410",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/805940.jpg",
-      "url": "https://hh.ru/vacancy/125731597",
+      "url": "https://hh.ru/vacancy/125731598",
       "published_at": "2025-09-24T20:01:32+0300",
       "created_at": "2025-09-24T20:01:32+0300",
-      "area": "Мытищи (Московская область)",
+      "area": "Королев (Московская область)",
       "salary": "от 80 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 80000,
@@ -7078,6 +7106,39 @@
       "employment": "Полная занятость",
       "requirement": "Высшее техническое образование. Уверенные знания MS Windows Server, Exchange, Active Directory. Знания ОС Linux, сервисы Exim, Bind, Nginx.",
       "responsibility": "Администрированием и развитием инфраструктуры. Поддержкой и сопровождением виртуализации VMware (vSphere). Настройкой и контролем систем резервного копирования Veeam. Обслуживанием серверного и...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125663934",
+      "name": "Помощник системного администратора",
+      "company": "ТОК",
+      "company_id": "1246359",
+      "company_url": "https://hh.ru/employer/1246359",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1363524.jpg",
+      "url": "https://hh.ru/vacancy/125663934",
+      "published_at": "2025-09-23T15:12:02+0300",
+      "created_at": "2025-09-23T15:12:02+0300",
+      "area": "Москва",
+      "salary": "от 70 000 RUR на руки",
+      "salary_raw": {
+        "from": 70000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание работы семейства Microsoft Office (Word, Excel, PowerPoint) на пользовательском уровне и исправление неполадок.",
+      "responsibility": "Поддержка ОС Windows (установка и настройка, решение различных неполадок и ошибок. Установка обновлений и ПО, настройка прав доступа папок и...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
