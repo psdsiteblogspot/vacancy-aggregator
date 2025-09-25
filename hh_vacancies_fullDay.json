@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-25T13:42:40Z",
+  "updated": "2025-09-25T14:40:27Z",
   "statistics": {
-    "total": 911,
-    "with_salary": 692,
-    "companies": 704,
+    "total": 912,
+    "with_salary": 693,
+    "companies": 705,
     "cities": 196,
     "premium": 1,
     "with_test": 17
   },
   "vacancies": [
+    {
+      "id": "125801362",
+      "name": "Инженер-электроник (системный администратор)",
+      "company": "ФГБУ Санаторно-курортный комплекс Северокавказский МО РФ",
+      "company_id": "1171838",
+      "company_url": "https://hh.ru/employer/1171838",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/125801362",
+      "published_at": "2025-09-25T16:57:42+0300",
+      "created_at": "2025-09-25T16:57:42+0300",
+      "area": "Пятигорск",
+      "salary": "от 45 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 45000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее или среднее специальное образование в области информационных технологий. Знание операционных систем Windows и Linux. Навыки работы с сетевым оборудованием...",
+      "responsibility": "Обеспечение бесперебойной работы серверов и сетевого оборудования. Установка и настройка программного обеспечения. Мониторинг и оптимизация производительности системы. Резервное копирование данных...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "125795293",
       "name": "Системный администратор",
@@ -76,6 +109,39 @@
       "employment": "Частичная занятость",
       "requirement": "Опыт работы в аналогичной должности от 3 до 6 лет. Умение работать с серверным и сетевым оборудованием. Навыки диагностики и...",
       "responsibility": "Обслуживание и поддержка небольшого компьютерного парка, включая установку и настройку программного обеспечения. Управление и мониторинг систем видеонаблюдения и СКУД.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124645584",
+      "name": "Системный администратор",
+      "company": "ПРОФ ИТ",
+      "company_id": "9933267",
+      "company_url": "https://hh.ru/employer/9933267",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1182235.png",
+      "url": "https://hh.ru/vacancy/124645584",
+      "published_at": "2025-09-25T16:11:33+0300",
+      "created_at": "2025-09-25T16:11:33+0300",
+      "area": "Краснодар",
+      "salary": "от 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы: Опыт администрирования рабочих мест и серверов на платформах Windows и Unix. Опыт работы с Unix-системами (FreeBSD, Linux).",
+      "responsibility": "Обеспечение стабильной работы ИТ-инфраструктуры: администрирование серверов, сетевого оборудования и рабочих мест. Техническая и программная поддержка пользователей, консультации по вопросам...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -1664,16 +1730,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125486862",
+      "id": "125486768",
       "name": "Системный администратор",
       "company": "сеть магазинов Красное и Белое",
       "company_id": "7098801",
       "company_url": "https://hh.ru/employer/7098801",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1385487.png",
-      "url": "https://hh.ru/vacancy/125486862",
+      "url": "https://hh.ru/vacancy/125486768",
       "published_at": "2025-09-25T09:15:59+0300",
       "created_at": "2025-09-25T09:15:59+0300",
-      "area": "Нефтеюганск",
+      "area": "Нягань",
       "salary": "до 120 000 RUR на руки",
       "salary_raw": {
         "from": null,
@@ -1697,16 +1763,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125486768",
+      "id": "125486862",
       "name": "Системный администратор",
       "company": "сеть магазинов Красное и Белое",
       "company_id": "7098801",
       "company_url": "https://hh.ru/employer/7098801",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1385487.png",
-      "url": "https://hh.ru/vacancy/125486768",
+      "url": "https://hh.ru/vacancy/125486862",
       "published_at": "2025-09-25T09:15:59+0300",
       "created_at": "2025-09-25T09:15:59+0300",
-      "area": "Нягань",
+      "area": "Нефтеюганск",
       "salary": "до 120 000 RUR на руки",
       "salary_raw": {
         "from": null,
@@ -3061,16 +3127,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125065572",
+      "id": "125065578",
       "name": "IT-специалист/системный администратор/администратор баз данных",
       "company": "К-Сервис",
       "company_id": "6215724",
       "company_url": "https://hh.ru/employer/6215724",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1043597.png",
-      "url": "https://hh.ru/vacancy/125065572",
+      "url": "https://hh.ru/vacancy/125065578",
       "published_at": "2025-09-24T14:46:35+0300",
       "created_at": "2025-09-24T14:46:35+0300",
-      "area": "Каратузское",
+      "area": "Лесосибирск",
       "salary": "от 74 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 74000,
@@ -3094,16 +3160,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125065578",
+      "id": "125065572",
       "name": "IT-специалист/системный администратор/администратор баз данных",
       "company": "К-Сервис",
       "company_id": "6215724",
       "company_url": "https://hh.ru/employer/6215724",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1043597.png",
-      "url": "https://hh.ru/vacancy/125065578",
+      "url": "https://hh.ru/vacancy/125065572",
       "published_at": "2025-09-24T14:46:35+0300",
       "created_at": "2025-09-24T14:46:35+0300",
-      "area": "Лесосибирск",
+      "area": "Каратузское",
       "salary": "от 74 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 74000,
@@ -3193,16 +3259,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125065575",
+      "id": "125065573",
       "name": "IT-специалист/системный администратор/администратор баз данных",
       "company": "К-Сервис",
       "company_id": "6215724",
       "company_url": "https://hh.ru/employer/6215724",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1043597.png",
-      "url": "https://hh.ru/vacancy/125065575",
+      "url": "https://hh.ru/vacancy/125065573",
       "published_at": "2025-09-24T14:46:35+0300",
       "created_at": "2025-09-24T14:46:35+0300",
-      "area": "Дивногорск",
+      "area": "Краснотуранск",
       "salary": "от 74 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 74000,
@@ -3226,16 +3292,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125065573",
+      "id": "125065575",
       "name": "IT-специалист/системный администратор/администратор баз данных",
       "company": "К-Сервис",
       "company_id": "6215724",
       "company_url": "https://hh.ru/employer/6215724",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1043597.png",
-      "url": "https://hh.ru/vacancy/125065573",
+      "url": "https://hh.ru/vacancy/125065575",
       "published_at": "2025-09-24T14:46:35+0300",
       "created_at": "2025-09-24T14:46:35+0300",
-      "area": "Краснотуранск",
+      "area": "Дивногорск",
       "salary": "от 74 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 74000,
@@ -8616,39 +8682,6 @@
       "employment": "Полная занятость",
       "requirement": "Администрирование серверных платформ на базе Windows Server (Active Directory, DNS, DHCP, HyperV). Знание систем на базе ОС Linux.",
       "responsibility": "Администрирование ИТ-инфраструктуры: сервера, пользовательские компьютеры, оргтехника, система видеонаблюдения, IP-телефония. Установка и обслуживание компьютерной и офисной техники, оргтехники, телефонии...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124645584",
-      "name": "Системный администратор",
-      "company": "ПРОФ ИТ",
-      "company_id": "9933267",
-      "company_url": "https://hh.ru/employer/9933267",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1182235.png",
-      "url": "https://hh.ru/vacancy/124645584",
-      "published_at": "2025-09-22T16:11:33+0300",
-      "created_at": "2025-09-22T16:11:33+0300",
-      "area": "Краснодар",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы: Опыт администрирования рабочих мест и серверов на платформах Windows и Unix. Опыт работы с Unix-системами (FreeBSD, Linux).",
-      "responsibility": "Обеспечение стабильной работы ИТ-инфраструктуры: администрирование серверов, сетевого оборудования и рабочих мест. Техническая и программная поддержка пользователей, консультации по вопросам...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -21838,16 +21871,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124998255",
+      "id": "124998258",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124998255",
+      "url": "https://hh.ru/vacancy/124998258",
       "published_at": "2025-09-08T10:24:27+0300",
       "created_at": "2025-09-08T10:24:27+0300",
-      "area": "Сафоново",
+      "area": "Чернышевск",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -21871,16 +21904,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124998258",
+      "id": "124998255",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124998258",
+      "url": "https://hh.ru/vacancy/124998255",
       "published_at": "2025-09-08T10:24:27+0300",
       "created_at": "2025-09-08T10:24:27+0300",
-      "area": "Чернышевск",
+      "area": "Сафоново",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
