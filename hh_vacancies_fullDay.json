@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-28T10:34:15Z",
+  "updated": "2025-09-28T11:27:47Z",
   "statistics": {
     "total": 885,
     "with_salary": 663,
@@ -20,6 +20,72 @@
     "with_test": 17
   },
   "vacancies": [
+    {
+      "id": "124712143",
+      "name": "Системный администратор",
+      "company": "Транском",
+      "company_id": "1897894",
+      "company_url": "https://hh.ru/employer/1897894",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1189769.png",
+      "url": "https://hh.ru/vacancy/124712143",
+      "published_at": "2025-09-28T13:36:06+0300",
+      "created_at": "2025-09-28T13:36:06+0300",
+      "area": "Вязьма",
+      "salary": "95 000 - 95 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 95000,
+        "to": 95000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высокая работоспособность в условиях многозадачности. Опыт работы в аналогичной должности. Ответственность. Опыт технического обслуживания и ремонта персональных компьютеров и оргтехники.",
+      "responsibility": "Обеспечение бесперебойной работы оборудования, локальных сетей компании, серверов, сетевых устройств. Устранение аварийных ситуаций, связанных с повреждением программного обеспечения и баз...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125605613",
+      "name": "Системный администратор",
+      "company": "КОМЕК МАШИНЕРИ",
+      "company_id": "42504",
+      "company_url": "https://hh.ru/employer/42504",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1388858.png",
+      "url": "https://hh.ru/vacancy/125605613",
+      "published_at": "2025-09-28T13:18:19+0300",
+      "created_at": "2025-09-28T13:18:19+0300",
+      "area": "Екатеринбург",
+      "salary": "от 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание принципов работы сетевых протоколов, принципов построения компьютерных сетей (AD, DHCP, DNS). Понимание основ работы в терминальном режиме.",
+      "responsibility": "Сопровождение рабочих станций (около 400 шт. в т.ч. удаленные). Консультация и помощь пользователям. Обслуживание оргтехники, мелкий ремонт ПК и...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "124706738",
       "name": "Системный администратор",
@@ -5728,39 +5794,6 @@
       "accept_temporary": false
     },
     {
-      "id": "124712143",
-      "name": "Системный администратор",
-      "company": "Транском",
-      "company_id": "1897894",
-      "company_url": "https://hh.ru/employer/1897894",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1189769.png",
-      "url": "https://hh.ru/vacancy/124712143",
-      "published_at": "2025-09-25T13:36:06+0300",
-      "created_at": "2025-09-25T13:36:06+0300",
-      "area": "Вязьма",
-      "salary": "95 000 - 95 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 95000,
-        "to": 95000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высокая работоспособность в условиях многозадачности. Опыт работы в аналогичной должности. Ответственность. Опыт технического обслуживания и ремонта персональных компьютеров и оргтехники.",
-      "responsibility": "Обеспечение бесперебойной работы оборудования, локальных сетей компании, серверов, сетевых устройств. Устранение аварийных ситуаций, связанных с повреждением программного обеспечения и баз...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "124525912",
       "name": "Системный администратор",
       "company": "СНС, Группа компаний",
@@ -5816,39 +5849,6 @@
       "employment": "Полная занятость",
       "requirement": "Приветствуется опыт работы: * Системным администратором от 6 месяцев. * В сфере обслуживания ресторанов или розничной торговли.",
       "responsibility": "Установка и настройка рабочих мест и серверов на базе Windows 10 / Windows Server 2012. * Администрирование Windows Server 2012, Active Directory...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125605613",
-      "name": "Системный администратор",
-      "company": "КОМЕК МАШИНЕРИ",
-      "company_id": "42504",
-      "company_url": "https://hh.ru/employer/42504",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1388858.png",
-      "url": "https://hh.ru/vacancy/125605613",
-      "published_at": "2025-09-25T13:18:19+0300",
-      "created_at": "2025-09-25T13:18:19+0300",
-      "area": "Екатеринбург",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание принципов работы сетевых протоколов, принципов построения компьютерных сетей (AD, DHCP, DNS). Понимание основ работы в терминальном режиме.",
-      "responsibility": "Сопровождение рабочих станций (около 400 шт. в т.ч. удаленные). Консультация и помощь пользователям. Обслуживание оргтехники, мелкий ремонт ПК и...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -22720,16 +22720,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124998261",
+      "id": "124998249",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124998261",
+      "url": "https://hh.ru/vacancy/124998249",
       "published_at": "2025-09-08T10:24:27+0300",
       "created_at": "2025-09-08T10:24:27+0300",
-      "area": "Петропавловка (Республика Бурятия)",
+      "area": "Нерчинск",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -22753,16 +22753,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124998249",
+      "id": "124998261",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124998249",
+      "url": "https://hh.ru/vacancy/124998261",
       "published_at": "2025-09-08T10:24:27+0300",
       "created_at": "2025-09-08T10:24:27+0300",
-      "area": "Нерчинск",
+      "area": "Петропавловка (Республика Бурятия)",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
