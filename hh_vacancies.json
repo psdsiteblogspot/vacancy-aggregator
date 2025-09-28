@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-28T21:17:03Z",
+  "updated": "2025-09-28T22:18:15Z",
   "statistics": {
     "total": 1280,
     "with_salary": 736,
@@ -20,6 +20,39 @@
     "with_test": 64
   },
   "vacancies": [
+    {
+      "id": "124894472",
+      "name": "Старший системный администратор",
+      "company": "Старт",
+      "company_id": "4782128",
+      "company_url": "https://hh.ru/employer/4782128",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1233568.png",
+      "url": "https://hh.ru/vacancy/124894472",
+      "published_at": "2025-09-29T00:03:25+0300",
+      "created_at": "2025-09-29T00:03:25+0300",
+      "area": "Москва",
+      "salary": "130 000 - 160 000 RUR на руки",
+      "salary_raw": {
+        "from": 130000,
+        "to": 160000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Навыки оперативной диагностики и решения проблем в условиях многозадачности. Обучаемость и стремление к профессиональному росту. Опыт работы системным администратором от...",
+      "responsibility": "Обеспечение бесперебойной работы и доступности распределённой ИТ-инфраструктуры в режиме 24/7. Администрирование ИТ-инфраструктуры, сетевого и серверного оборудования.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "125547537",
       "name": "SRE/System Administrator",
@@ -5531,16 +5564,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123354774",
+      "id": "123354775",
       "name": "Системный администратор",
       "company": "ПрофХолод",
       "company_id": "190764",
       "company_url": "https://hh.ru/employer/190764",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/709263.png",
-      "url": "https://hh.ru/vacancy/123354774",
+      "url": "https://hh.ru/vacancy/123354775",
       "published_at": "2025-09-27T10:46:03+0300",
       "created_at": "2025-09-27T10:46:03+0300",
-      "area": "Электросталь (Московская область)",
+      "area": "Ногинск (Московская область)",
       "salary": "130 000 - 150 000 RUR на руки",
       "salary_raw": {
         "from": 130000,
@@ -5564,16 +5597,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123354775",
+      "id": "123354774",
       "name": "Системный администратор",
       "company": "ПрофХолод",
       "company_id": "190764",
       "company_url": "https://hh.ru/employer/190764",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/709263.png",
-      "url": "https://hh.ru/vacancy/123354775",
+      "url": "https://hh.ru/vacancy/123354774",
       "published_at": "2025-09-27T10:46:03+0300",
       "created_at": "2025-09-27T10:46:03+0300",
-      "area": "Ногинск (Московская область)",
+      "area": "Электросталь (Московская область)",
       "salary": "130 000 - 150 000 RUR на руки",
       "salary_raw": {
         "from": 130000,
@@ -9261,16 +9294,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121339036",
+      "id": "121339037",
       "name": "Системный (сетевой) администратор",
       "company": "Шерлэнд, Складской комплекс",
       "company_id": "2212",
       "company_url": "https://hh.ru/employer/2212",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/232498.jpg",
-      "url": "https://hh.ru/vacancy/121339036",
+      "url": "https://hh.ru/vacancy/121339037",
       "published_at": "2025-09-26T12:12:28+0300",
       "created_at": "2025-09-26T12:12:28+0300",
-      "area": "Зеленоград",
+      "area": "Долгопрудный (Московская область)",
       "salary": "120 000 - 130 000 RUR на руки",
       "salary_raw": {
         "from": 120000,
@@ -9294,16 +9327,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121339037",
+      "id": "121339036",
       "name": "Системный (сетевой) администратор",
       "company": "Шерлэнд, Складской комплекс",
       "company_id": "2212",
       "company_url": "https://hh.ru/employer/2212",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/232498.jpg",
-      "url": "https://hh.ru/vacancy/121339037",
+      "url": "https://hh.ru/vacancy/121339036",
       "published_at": "2025-09-26T12:12:28+0300",
       "created_at": "2025-09-26T12:12:28+0300",
-      "area": "Долгопрудный (Московская область)",
+      "area": "Зеленоград",
       "salary": "120 000 - 130 000 RUR на руки",
       "salary_raw": {
         "from": 120000,
@@ -10665,39 +10698,6 @@
       "employment": "Полная занятость",
       "requirement": "Хорошее знание ОС Linux (Debian). Навыки администрирование серверов на ОС Linux (Debian). Опыт работы с Ansible, Docker, системы виртуализации (KVM).",
       "responsibility": "Ночное дежурство, мониторинг инфраструктуры. Оперативное подключение к проблемным серверам для их отладки. Взаимодействие с разработчиками, автоматизация, улучшение мониторинга.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124894472",
-      "name": "Старший системный администратор",
-      "company": "Старт",
-      "company_id": "4782128",
-      "company_url": "https://hh.ru/employer/4782128",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1233568.png",
-      "url": "https://hh.ru/vacancy/124894472",
-      "published_at": "2025-09-26T00:03:25+0300",
-      "created_at": "2025-09-26T00:03:25+0300",
-      "area": "Москва",
-      "salary": "130 000 - 160 000 RUR на руки",
-      "salary_raw": {
-        "from": 130000,
-        "to": 160000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Навыки оперативной диагностики и решения проблем в условиях многозадачности. Обучаемость и стремление к профессиональному росту. Опыт работы системным администратором от...",
-      "responsibility": "Обеспечение бесперебойной работы и доступности распределённой ИТ-инфраструктуры в режиме 24/7. Администрирование ИТ-инфраструктуры, сетевого и серверного оборудования.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -12511,16 +12511,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125731597",
+      "id": "125731598",
       "name": "Младший специалист технической поддержки (Системный администратор)",
       "company": "Димитрикс",
       "company_id": "4013410",
       "company_url": "https://hh.ru/employer/4013410",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/805940.jpg",
-      "url": "https://hh.ru/vacancy/125731597",
+      "url": "https://hh.ru/vacancy/125731598",
       "published_at": "2025-09-24T20:01:32+0300",
       "created_at": "2025-09-24T20:01:32+0300",
-      "area": "Мытищи (Московская область)",
+      "area": "Королев (Московская область)",
       "salary": "от 80 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 80000,
@@ -12544,16 +12544,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125731598",
+      "id": "125731597",
       "name": "Младший специалист технической поддержки (Системный администратор)",
       "company": "Димитрикс",
       "company_id": "4013410",
       "company_url": "https://hh.ru/employer/4013410",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/805940.jpg",
-      "url": "https://hh.ru/vacancy/125731598",
+      "url": "https://hh.ru/vacancy/125731597",
       "published_at": "2025-09-24T20:01:32+0300",
       "created_at": "2025-09-24T20:01:32+0300",
-      "area": "Королев (Московская область)",
+      "area": "Мытищи (Московская область)",
       "salary": "от 80 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 80000,
@@ -18447,16 +18447,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125566320",
+      "id": "125566322",
       "name": "Системный администратор",
       "company": "ДСК АВТОБАН",
       "company_id": "184497",
       "company_url": "https://hh.ru/employer/184497",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/709896.PNG",
-      "url": "https://hh.ru/vacancy/125566320",
+      "url": "https://hh.ru/vacancy/125566322",
       "published_at": "2025-09-21T14:43:01+0300",
       "created_at": "2025-09-21T14:43:01+0300",
-      "area": "Подольск (Московская область)",
+      "area": "Чехов (Московская область)",
       "salary": "90 000 - 110 000 RUR на руки",
       "salary_raw": {
         "from": 90000,
@@ -18480,16 +18480,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125566322",
+      "id": "125566320",
       "name": "Системный администратор",
       "company": "ДСК АВТОБАН",
       "company_id": "184497",
       "company_url": "https://hh.ru/employer/184497",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/709896.PNG",
-      "url": "https://hh.ru/vacancy/125566322",
+      "url": "https://hh.ru/vacancy/125566320",
       "published_at": "2025-09-21T14:43:01+0300",
       "created_at": "2025-09-21T14:43:01+0300",
-      "area": "Чехов (Московская область)",
+      "area": "Подольск (Московская область)",
       "salary": "90 000 - 110 000 RUR на руки",
       "salary_raw": {
         "from": 90000,
@@ -27734,16 +27734,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122216014",
+      "id": "122216011",
       "name": "Старший системный администратор",
       "company": "Международный аэропорт Жуковский",
       "company_id": "1648021",
       "company_url": "https://hh.ru/employer/1648021",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/488563.jpg",
-      "url": "https://hh.ru/vacancy/122216014",
+      "url": "https://hh.ru/vacancy/122216011",
       "published_at": "2025-09-12T10:30:24+0300",
       "created_at": "2025-09-12T10:30:24+0300",
-      "area": "Люберцы  (Московская область)",
+      "area": "Москва",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -27762,16 +27762,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122216011",
+      "id": "122216014",
       "name": "Старший системный администратор",
       "company": "Международный аэропорт Жуковский",
       "company_id": "1648021",
       "company_url": "https://hh.ru/employer/1648021",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/488563.jpg",
-      "url": "https://hh.ru/vacancy/122216011",
+      "url": "https://hh.ru/vacancy/122216014",
       "published_at": "2025-09-12T10:30:24+0300",
       "created_at": "2025-09-12T10:30:24+0300",
-      "area": "Москва",
+      "area": "Люберцы  (Московская область)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
