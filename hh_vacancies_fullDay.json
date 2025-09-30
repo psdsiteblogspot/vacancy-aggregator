@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-30T03:09:19Z",
+  "updated": "2025-09-30T03:44:14Z",
   "statistics": {
-    "total": 920,
-    "with_salary": 686,
-    "companies": 702,
+    "total": 921,
+    "with_salary": 687,
+    "companies": 703,
     "cities": 195,
     "premium": 0,
     "with_test": 18
   },
   "vacancies": [
+    {
+      "id": "124682236",
+      "name": "Системный администратор",
+      "company": "ТК Докер (АО Сиайти Терминал)",
+      "company_id": "10750602",
+      "company_url": "https://hh.ru/employer/10750602",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1458333.png",
+      "url": "https://hh.ru/vacancy/124682236",
+      "published_at": "2025-09-30T06:41:35+0300",
+      "created_at": "2025-09-30T06:41:35+0300",
+      "area": "Екатеринбург",
+      "salary": "от 60 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Дисциплинированность, пунктуальность, личная ответственность за результат выполнения задач. Обучаемость, стремление узнавать новое и применять знания на практике. - Навыки диагностики, поиска...",
+      "responsibility": "Техническая и консультационная поддержка пользователей. - Планирование работы и составление отчетов о проделанной работе. - Администрирование домена на базе Windows Server 2012...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125930965",
+      "name": "Системный администратор",
+      "company": "ПКФ Хозкомплект",
+      "company_id": "5489287",
+      "company_url": "https://hh.ru/employer/5489287",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/125930965",
+      "published_at": "2025-09-30T06:28:04+0300",
+      "created_at": "2025-09-30T06:28:04+0300",
+      "area": "Красноярск",
+      "salary": "80 000 - 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": 80000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Предпочтителен опыт работы (от 2 лет): системный администратор, инженер лвс, инженер систем видеонаблюдения. Приветствуется знания VMware, MS SQL, Zabbix, Veeam...",
+      "responsibility": "Диагностика и исправление неполадки в работе ПК. Установка ПО, настройка и администрирование. Монтаж ЛВС, систем видео - наблюдения (только на территории...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "124672418",
       "name": "Системный администратор, г. Соликамск",
@@ -24486,16 +24552,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124998255",
+      "id": "124998247",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124998255",
+      "url": "https://hh.ru/vacancy/124998247",
       "published_at": "2025-09-08T10:24:27+0300",
       "created_at": "2025-09-08T10:24:27+0300",
-      "area": "Сафоново",
+      "area": "Рославль",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -24519,16 +24585,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124998247",
+      "id": "124998255",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124998247",
+      "url": "https://hh.ru/vacancy/124998255",
       "published_at": "2025-09-08T10:24:27+0300",
       "created_at": "2025-09-08T10:24:27+0300",
-      "area": "Рославль",
+      "area": "Сафоново",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -29134,39 +29200,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее техническое, среднее-техническое образование по специальности. Опыт работы.",
       "responsibility": "Аппаратного и программного обеспечения серверного оборудования. Аппаратного обеспечения рабочих станций. Аппаратного обеспечения периферийного оборудования. Операционных систем семейства Windows.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124682236",
-      "name": "Системный администратор",
-      "company": "ТК Докер (АО Сиайти Терминал)",
-      "company_id": "10750602",
-      "company_url": "https://hh.ru/employer/10750602",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1458333.png",
-      "url": "https://hh.ru/vacancy/124682236",
-      "published_at": "2025-09-01T06:45:59+0300",
-      "created_at": "2025-09-01T06:45:59+0300",
-      "area": "Екатеринбург",
-      "salary": "от 60 000 RUR на руки",
-      "salary_raw": {
-        "from": 60000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Дисциплинированность, пунктуальность, личная ответственность за результат выполнения задач. Обучаемость, стремление узнавать новое и применять знания на практике. - Навыки диагностики, поиска...",
-      "responsibility": "Техническая и консультационная поддержка пользователей. - Планирование работы и составление отчетов о проделанной работе. - Администрирование домена на базе Windows Server 2012...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
