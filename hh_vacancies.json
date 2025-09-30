@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-30T21:18:22Z",
+  "updated": "2025-09-30T22:19:03Z",
   "statistics": {
-    "total": 1326,
-    "with_salary": 761,
-    "companies": 1094,
+    "total": 1327,
+    "with_salary": 762,
+    "companies": 1095,
     "cities": 64,
     "premium": 3,
     "with_test": 67
   },
   "vacancies": [
+    {
+      "id": "124280435",
+      "name": "Senior System Administrator / IT Engineer",
+      "company": "Николаев Артем Николаевич",
+      "company_id": "5236216",
+      "company_url": "https://hh.ru/employer/5236216",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1453149.png",
+      "url": "https://hh.ru/vacancy/124280435",
+      "published_at": "2025-10-01T00:55:41+0300",
+      "created_at": "2025-10-01T00:55:41+0300",
+      "area": "Москва",
+      "salary": "3 500 - 4 500 USD до вычета налогов",
+      "salary_raw": {
+        "from": 3500,
+        "to": 4500,
+        "currency": "USD",
+        "gross": true
+      },
+      "experience": "Более 6 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы 8 лет и более системным администратором/IT-инженером. Практический опыт работы с продакшен системами, требующими высокой доступности и...",
+      "responsibility": "Администрирование и поддержка внутренних IT-систем. Управление локальными и виртуализированными серверными средами. Поддержка и решение проблем пользователей внутри компании.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125984479",
+      "name": "Системный администратор / Инженер по интеграциям и мониторингу сервисов",
+      "company": "Городские Зрелищные Кассы",
+      "company_id": "5295696",
+      "company_url": "https://hh.ru/employer/5295696",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/984046.png",
+      "url": "https://hh.ru/vacancy/125984479",
+      "published_at": "2025-10-01T00:42:25+0300",
+      "created_at": "2025-10-01T00:42:25+0300",
+      "area": "Москва",
+      "salary": "90 000 - 120 000 RUR на руки",
+      "salary_raw": {
+        "from": 90000,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Интеграции и API: REST, JSON, XML, SOAP. Почтовые технологии: SMTP, MX, SPF, DKIM, DMARC. Мониторинг: Zabbix, Grafana, Prometheus.",
+      "responsibility": "Мониторинг состояния и доступности API, шлюзов и интеграционных точек. Сопровождение СКД системы. Контроль почтовой инфраструктуры: DNS, MX-записи, SMTP, фильтрация...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "125731325",
       "name": "Специалист по слаботочным системам / системный администратор ИТ",
@@ -10106,39 +10172,6 @@
       "accept_temporary": false
     },
     {
-      "id": "124591126",
-      "name": "Системный администратор / Помощник системного администратора",
-      "company": "ЭТАЛОН МЕНЕДЖМЕНТ",
-      "company_id": "2180488",
-      "company_url": "https://hh.ru/employer/2180488",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/562679.png",
-      "url": "https://hh.ru/vacancy/124591126",
-      "published_at": "2025-09-29T10:41:10+0300",
-      "created_at": "2025-09-29T10:41:10+0300",
-      "area": "Москва",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание операционных систем Windows 7, 8, 10. Windows Server 2012, 2016, 2019 на уровне первой линии поддержки - заведение пользователей, блокировка...",
-      "responsibility": "Поддержка пользователей; обработка заявок; решение запросов пользователей, возникающих при работе с программным и аппаратным обеспечением. Поддержка работоспособности копировальной техники; замена...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "124591196",
       "name": "Системный администратор",
       "company": "ЭТАЛОН МЕНЕДЖМЕНТ",
@@ -10161,6 +10194,39 @@
       "employment": "Полная занятость",
       "requirement": "Знание операционных систем Windows 7, 8, 10. Windows Server 2012, 2016, 2019 на уровне администрирования(AD, DNS, DHCP, DFS).",
       "responsibility": "Поддержка пользователей; обработка заявок; решение запросов пользователей, возникающих при работе с программным и аппаратным обеспечением. Поддержка работоспособности серверной инфраструктуры.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124591126",
+      "name": "Системный администратор / Помощник системного администратора",
+      "company": "ЭТАЛОН МЕНЕДЖМЕНТ",
+      "company_id": "2180488",
+      "company_url": "https://hh.ru/employer/2180488",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/562679.png",
+      "url": "https://hh.ru/vacancy/124591126",
+      "published_at": "2025-09-29T10:41:10+0300",
+      "created_at": "2025-09-29T10:41:10+0300",
+      "area": "Москва",
+      "salary": "от 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание операционных систем Windows 7, 8, 10. Windows Server 2012, 2016, 2019 на уровне первой линии поддержки - заведение пользователей, блокировка...",
+      "responsibility": "Поддержка пользователей; обработка заявок; решение запросов пользователей, возникающих при работе с программным и аппаратным обеспечением. Поддержка работоспособности копировальной техники; замена...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -11666,16 +11732,16 @@
       "accept_temporary": false
     },
     {
-      "id": "103517074",
+      "id": "103517153",
       "name": "Помощник системного администратора (на склад)",
       "company": "Красное & Белое, розничная сеть",
       "company_id": "1035394",
       "company_url": "https://hh.ru/employer/1035394",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/90459.jpg",
-      "url": "https://hh.ru/vacancy/103517074",
+      "url": "https://hh.ru/vacancy/103517153",
       "published_at": "2025-09-29T07:03:55+0300",
       "created_at": "2025-09-29T07:03:55+0300",
-      "area": "Клин (Московская область)",
+      "area": "Солнечногорск (Московская область)",
       "salary": "до 95 000 RUR на руки",
       "salary_raw": {
         "from": null,
@@ -11699,16 +11765,16 @@
       "accept_temporary": false
     },
     {
-      "id": "103517153",
+      "id": "103517074",
       "name": "Помощник системного администратора (на склад)",
       "company": "Красное & Белое, розничная сеть",
       "company_id": "1035394",
       "company_url": "https://hh.ru/employer/1035394",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/90459.jpg",
-      "url": "https://hh.ru/vacancy/103517153",
+      "url": "https://hh.ru/vacancy/103517074",
       "published_at": "2025-09-29T07:03:55+0300",
       "created_at": "2025-09-29T07:03:55+0300",
-      "area": "Солнечногорск (Московская область)",
+      "area": "Клин (Московская область)",
       "salary": "до 95 000 RUR на руки",
       "salary_raw": {
         "from": null,
@@ -15962,16 +16028,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121339035",
+      "id": "121339037",
       "name": "Системный (сетевой) администратор",
       "company": "Шерлэнд, Складской комплекс",
       "company_id": "2212",
       "company_url": "https://hh.ru/employer/2212",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/232498.jpg",
-      "url": "https://hh.ru/vacancy/121339035",
+      "url": "https://hh.ru/vacancy/121339037",
       "published_at": "2025-09-26T12:12:28+0300",
       "created_at": "2025-09-26T12:12:28+0300",
-      "area": "Химки (Московская область)",
+      "area": "Долгопрудный (Московская область)",
       "salary": "120 000 - 130 000 RUR на руки",
       "salary_raw": {
         "from": 120000,
@@ -15995,16 +16061,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121339037",
+      "id": "121339035",
       "name": "Системный (сетевой) администратор",
       "company": "Шерлэнд, Складской комплекс",
       "company_id": "2212",
       "company_url": "https://hh.ru/employer/2212",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/232498.jpg",
-      "url": "https://hh.ru/vacancy/121339037",
+      "url": "https://hh.ru/vacancy/121339035",
       "published_at": "2025-09-26T12:12:28+0300",
       "created_at": "2025-09-26T12:12:28+0300",
-      "area": "Долгопрудный (Московская область)",
+      "area": "Химки (Московская область)",
       "salary": "120 000 - 130 000 RUR на руки",
       "salary_raw": {
         "from": 120000,
@@ -17845,16 +17911,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125731598",
+      "id": "125731597",
       "name": "Младший специалист технической поддержки (Системный администратор)",
       "company": "Димитрикс",
       "company_id": "4013410",
       "company_url": "https://hh.ru/employer/4013410",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/805940.jpg",
-      "url": "https://hh.ru/vacancy/125731598",
+      "url": "https://hh.ru/vacancy/125731597",
       "published_at": "2025-09-24T20:01:32+0300",
       "created_at": "2025-09-24T20:01:32+0300",
-      "area": "Королев (Московская область)",
+      "area": "Мытищи (Московская область)",
       "salary": "от 80 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 80000,
@@ -17878,16 +17944,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125731597",
+      "id": "125731598",
       "name": "Младший специалист технической поддержки (Системный администратор)",
       "company": "Димитрикс",
       "company_id": "4013410",
       "company_url": "https://hh.ru/employer/4013410",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/805940.jpg",
-      "url": "https://hh.ru/vacancy/125731597",
+      "url": "https://hh.ru/vacancy/125731598",
       "published_at": "2025-09-24T20:01:32+0300",
       "created_at": "2025-09-24T20:01:32+0300",
-      "area": "Мытищи (Московская область)",
+      "area": "Королев (Московская область)",
       "salary": "от 80 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 80000,
@@ -22828,16 +22894,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125566323",
+      "id": "125566322",
       "name": "Системный администратор",
       "company": "ДСК АВТОБАН",
       "company_id": "184497",
       "company_url": "https://hh.ru/employer/184497",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/709896.PNG",
-      "url": "https://hh.ru/vacancy/125566323",
+      "url": "https://hh.ru/vacancy/125566322",
       "published_at": "2025-09-21T14:43:01+0300",
       "created_at": "2025-09-21T14:43:01+0300",
-      "area": "Серпухов (Московская область)",
+      "area": "Чехов (Московская область)",
       "salary": "90 000 - 110 000 RUR на руки",
       "salary_raw": {
         "from": 90000,
@@ -22861,16 +22927,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125566322",
+      "id": "125566323",
       "name": "Системный администратор",
       "company": "ДСК АВТОБАН",
       "company_id": "184497",
       "company_url": "https://hh.ru/employer/184497",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/709896.PNG",
-      "url": "https://hh.ru/vacancy/125566322",
+      "url": "https://hh.ru/vacancy/125566323",
       "published_at": "2025-09-21T14:43:01+0300",
       "created_at": "2025-09-21T14:43:01+0300",
-      "area": "Чехов (Московская область)",
+      "area": "Серпухов (Московская область)",
       "salary": "90 000 - 110 000 RUR на руки",
       "salary_raw": {
         "from": 90000,
@@ -27024,39 +27090,6 @@
       "accept_temporary": false
     },
     {
-      "id": "125401017",
-      "name": "Старший системный администратор",
-      "company": "Конгресс-отель Ареал",
-      "company_id": "5156941",
-      "company_url": "https://hh.ru/employer/5156941",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/818803.png",
-      "url": "https://hh.ru/vacancy/125401017",
-      "published_at": "2025-09-16T16:23:36+0300",
-      "created_at": "2025-09-16T16:23:36+0300",
-      "area": "Ногинск (Московская область)",
-      "salary": "от 200 000 RUR на руки",
-      "salary_raw": {
-        "from": 200000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование. Опыт от 3 лет на должности руководителя службы поддержки (преимущественно отельная сфера). Уверенный пользователь Excel, 1С, Симфони...",
-      "responsibility": "Обеспечение бесперебойной работы программ в соответствии с техническим регламентом разработчиков: Birox, Fidelio (управление отелем), Micros (ресторанная система), TNG (система лояльности...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Специалист технической поддержки"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "125401016",
       "name": "Старший системный администратор",
       "company": "Конгресс-отель Ареал",
@@ -27090,16 +27123,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125401018",
+      "id": "125401017",
       "name": "Старший системный администратор",
       "company": "Конгресс-отель Ареал",
       "company_id": "5156941",
       "company_url": "https://hh.ru/employer/5156941",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/818803.png",
-      "url": "https://hh.ru/vacancy/125401018",
+      "url": "https://hh.ru/vacancy/125401017",
       "published_at": "2025-09-16T16:23:36+0300",
       "created_at": "2025-09-16T16:23:36+0300",
-      "area": "Щелково (Московская область)",
+      "area": "Ногинск (Московская область)",
       "salary": "от 200 000 RUR на руки",
       "salary_raw": {
         "from": 200000,
@@ -27133,6 +27166,39 @@
       "published_at": "2025-09-16T16:23:36+0300",
       "created_at": "2025-09-16T16:23:36+0300",
       "area": "Старая Купавна (Московская область)",
+      "salary": "от 200 000 RUR на руки",
+      "salary_raw": {
+        "from": 200000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование. Опыт от 3 лет на должности руководителя службы поддержки (преимущественно отельная сфера). Уверенный пользователь Excel, 1С, Симфони...",
+      "responsibility": "Обеспечение бесперебойной работы программ в соответствии с техническим регламентом разработчиков: Birox, Fidelio (управление отелем), Micros (ресторанная система), TNG (система лояльности...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Специалист технической поддержки"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125401018",
+      "name": "Старший системный администратор",
+      "company": "Конгресс-отель Ареал",
+      "company_id": "5156941",
+      "company_url": "https://hh.ru/employer/5156941",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/818803.png",
+      "url": "https://hh.ru/vacancy/125401018",
+      "published_at": "2025-09-16T16:23:36+0300",
+      "created_at": "2025-09-16T16:23:36+0300",
+      "area": "Щелково (Московская область)",
       "salary": "от 200 000 RUR на руки",
       "salary_raw": {
         "from": 200000,
@@ -29591,16 +29657,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125321885",
+      "id": "125321884",
       "name": "Преподаватель курса “Программирование для системных администраторов” института ИБ",
       "company": "Университет Иннополис",
       "company_id": "1160188",
       "company_url": "https://hh.ru/employer/1160188",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1406431.png",
-      "url": "https://hh.ru/vacancy/125321885",
+      "url": "https://hh.ru/vacancy/125321884",
       "published_at": "2025-09-15T11:25:27+0300",
       "created_at": "2025-09-15T11:25:27+0300",
-      "area": "Санкт-Петербург",
+      "area": "Москва",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -29619,16 +29685,16 @@
       "accept_temporary": true
     },
     {
-      "id": "125321884",
+      "id": "125321885",
       "name": "Преподаватель курса “Программирование для системных администраторов” института ИБ",
       "company": "Университет Иннополис",
       "company_id": "1160188",
       "company_url": "https://hh.ru/employer/1160188",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1406431.png",
-      "url": "https://hh.ru/vacancy/125321884",
+      "url": "https://hh.ru/vacancy/125321885",
       "published_at": "2025-09-15T11:25:27+0300",
       "created_at": "2025-09-15T11:25:27+0300",
-      "area": "Москва",
+      "area": "Санкт-Петербург",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -31017,6 +31083,34 @@
       "accept_temporary": false
     },
     {
+      "id": "122216011",
+      "name": "Старший системный администратор",
+      "company": "Международный аэропорт Жуковский",
+      "company_id": "1648021",
+      "company_url": "https://hh.ru/employer/1648021",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/488563.jpg",
+      "url": "https://hh.ru/vacancy/122216011",
+      "published_at": "2025-09-12T10:30:24+0300",
+      "created_at": "2025-09-12T10:30:24+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование. Опыт работы в информационных технологиях от 3-х лет. Навыки администрирования и понимание принципов работы домена Windows и...",
+      "responsibility": "Администрирование серверной инфраструктуры на базе ОС Windows/Linux. Администрирование Active Directory (GPO, DNS, DHCP, сетевая печать и т.д.).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "122216013",
       "name": "Старший системный администратор",
       "company": "Международный аэропорт Жуковский",
@@ -31055,34 +31149,6 @@
       "published_at": "2025-09-12T10:30:24+0300",
       "created_at": "2025-09-12T10:30:24+0300",
       "area": "Люберцы  (Московская область)",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование. Опыт работы в информационных технологиях от 3-х лет. Навыки администрирования и понимание принципов работы домена Windows и...",
-      "responsibility": "Администрирование серверной инфраструктуры на базе ОС Windows/Linux. Администрирование Active Directory (GPO, DNS, DHCP, сетевая печать и т.д.).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122216011",
-      "name": "Старший системный администратор",
-      "company": "Международный аэропорт Жуковский",
-      "company_id": "1648021",
-      "company_url": "https://hh.ru/employer/1648021",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/488563.jpg",
-      "url": "https://hh.ru/vacancy/122216011",
-      "published_at": "2025-09-12T10:30:24+0300",
-      "created_at": "2025-09-12T10:30:24+0300",
-      "area": "Москва",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -38123,39 +38189,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Специалист по информационной безопасности"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124280435",
-      "name": "Senior System Administrator / IT Engineer",
-      "company": "Николаев Артем Николаевич",
-      "company_id": "5236216",
-      "company_url": "https://hh.ru/employer/5236216",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1453149.png",
-      "url": "https://hh.ru/vacancy/124280435",
-      "published_at": "2025-09-04T10:29:15+0300",
-      "created_at": "2025-09-04T10:29:15+0300",
-      "area": "Москва",
-      "salary": "3 500 - 4 500 USD до вычета налогов",
-      "salary_raw": {
-        "from": 3500,
-        "to": 4500,
-        "currency": "USD",
-        "gross": true
-      },
-      "experience": "Более 6 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы 8 лет и более системным администратором/IT-инженером. Практический опыт работы с продакшен системами, требующими высокой доступности и...",
-      "responsibility": "Администрирование и поддержка внутренних IT-систем. Управление локальными и виртуализированными серверными средами. Поддержка и решение проблем пользователей внутри компании.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
       ],
       "has_test": false,
       "premium": false,
