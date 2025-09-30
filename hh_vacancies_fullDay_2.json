@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-30T08:53:03Z",
+  "updated": "2025-09-30T09:46:30Z",
   "statistics": {
     "total": 771,
-    "with_salary": 550,
+    "with_salary": 551,
     "companies": 620,
     "cities": 137,
     "premium": 0,
     "with_test": 11
   },
   "vacancies": [
+    {
+      "id": "125129683",
+      "name": "Системный администратор",
+      "company": "Иж-Лада",
+      "company_id": "3547351",
+      "company_url": "https://hh.ru/employer/3547351",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/837865.jpg",
+      "url": "https://hh.ru/vacancy/125129683",
+      "published_at": "2025-09-30T11:54:04+0300",
+      "created_at": "2025-09-30T11:54:04+0300",
+      "area": "Ижевск",
+      "salary": "от 63 000 RUR на руки",
+      "salary_raw": {
+        "from": 63000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Стрессоустойчивость, дисциплинированность, ответственность. Опыт работы системным администратором от 3 лет. Опыт работы с Windows Server 2016+, Active Directory, RDP...",
+      "responsibility": "Настройка и обслуживание ЛВС предприятия (DHCP, DNS, NAT, VPN, гостевая сеть). - Установка и настройка программного обеспечения серверов и рабочих станций...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123646385",
       "name": "Системный администратор",
@@ -71,6 +104,39 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы с оборудованием и ПО 1С. Навыки администрирования операционных систем Windows. Понимание сетевых технологий и др.",
       "responsibility": "",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125264673",
+      "name": "Системный администратор",
+      "company": "Адреналин Сервис",
+      "company_id": "4344229",
+      "company_url": "https://hh.ru/employer/4344229",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1152580.jpg",
+      "url": "https://hh.ru/vacancy/125264673",
+      "published_at": "2025-09-30T11:07:55+0300",
+      "created_at": "2025-09-30T11:07:55+0300",
+      "area": "Набережные Челны",
+      "salary": "от 120 000 RUR на руки",
+      "salary_raw": {
+        "from": 120000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы, знание программ 1С. Знание устройств видеонаблюдения. Ответственность, исполнительность.",
+      "responsibility": "Установка, настройка, администрирование персональных компьютеров, сетей, телефонии, сервера. Техническая поддержка сотрудников и координация действий по устранению сбоев в работе.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -788,16 +854,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125932129",
+      "id": "125932126",
       "name": "Системный администратор (Якутия)",
       "company": "Артель старателей Дражник",
       "company_id": "1031898",
       "company_url": "https://hh.ru/employer/1031898",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/374307.jpg",
-      "url": "https://hh.ru/vacancy/125932129",
+      "url": "https://hh.ru/vacancy/125932126",
       "published_at": "2025-09-30T06:52:23+0300",
       "created_at": "2025-09-30T06:52:23+0300",
-      "area": "Владивосток",
+      "area": "Хабаровск",
       "salary": "до 180 000 RUR на руки",
       "salary_raw": {
         "from": null,
@@ -821,16 +887,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125932126",
+      "id": "125932129",
       "name": "Системный администратор (Якутия)",
       "company": "Артель старателей Дражник",
       "company_id": "1031898",
       "company_url": "https://hh.ru/employer/1031898",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/374307.jpg",
-      "url": "https://hh.ru/vacancy/125932126",
+      "url": "https://hh.ru/vacancy/125932129",
       "published_at": "2025-09-30T06:52:23+0300",
       "created_at": "2025-09-30T06:52:23+0300",
-      "area": "Хабаровск",
+      "area": "Владивосток",
       "salary": "до 180 000 RUR на руки",
       "salary_raw": {
         "from": null,
@@ -3242,8 +3308,13 @@
       "published_at": "2025-09-29T09:13:17+0300",
       "created_at": "2025-09-29T09:13:17+0300",
       "area": "Хабаровск",
-      "salary": "не указана",
-      "salary_raw": null,
+      "salary": "от 100 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
@@ -5154,39 +5225,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание и понимание сетевой модели OSI, основных протоколов. Обслуживание, настройка, администрирование локальных сетей Ethernet. Работа с настройкой и маршрутизацией компьютерных...",
       "responsibility": "Конфигурация, настройка и администрирование серверов, персональных компьютеров и периферийных устройств. Поддержка локальной (LAN), глобальной̆ (WAN) и телефонной сетей.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125264673",
-      "name": "Системный администратор",
-      "company": "Адреналин Сервис",
-      "company_id": "4344229",
-      "company_url": "https://hh.ru/employer/4344229",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1152580.jpg",
-      "url": "https://hh.ru/vacancy/125264673",
-      "published_at": "2025-09-27T11:07:55+0300",
-      "created_at": "2025-09-27T11:07:55+0300",
-      "area": "Набережные Челны",
-      "salary": "от 120 000 RUR на руки",
-      "salary_raw": {
-        "from": 120000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы, знание программ 1С. Знание устройств видеонаблюдения. Ответственность, исполнительность.",
-      "responsibility": "Установка, настройка, администрирование персональных компьютеров, сетей, телефонии, сервера. Техническая поддержка сотрудников и координация действий по устранению сбоев в работе.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -11166,39 +11204,6 @@
       "accept_temporary": false
     },
     {
-      "id": "125129683",
-      "name": "Системный администратор",
-      "company": "Иж-Лада",
-      "company_id": "3547351",
-      "company_url": "https://hh.ru/employer/3547351",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/837865.jpg",
-      "url": "https://hh.ru/vacancy/125129683",
-      "published_at": "2025-09-22T07:07:38+0300",
-      "created_at": "2025-09-22T07:07:38+0300",
-      "area": "Ижевск",
-      "salary": "от 63 000 RUR на руки",
-      "salary_raw": {
-        "from": 63000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Стрессоустойчивость, дисциплинированность, ответственность. Опыт работы системным администратором от 3 лет. Опыт работы с Windows Server 2016+, Active Directory, RDP...",
-      "responsibility": "Настройка и обслуживание ЛВС предприятия (DHCP, DNS, NAT, VPN, гостевая сеть). - Установка и настройка программного обеспечения серверов и рабочих станций...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "125577088",
       "name": "Старший системный администратор",
       "company": "ДИЛАН, Группа компаний",
@@ -15593,16 +15598,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125332159",
+      "id": "125332160",
       "name": "Системный администратор",
       "company": "ЭФКО",
       "company_id": "53797",
       "company_url": "https://hh.ru/employer/53797",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/752189.jpg",
-      "url": "https://hh.ru/vacancy/125332159",
+      "url": "https://hh.ru/vacancy/125332160",
       "published_at": "2025-09-15T13:41:32+0300",
       "created_at": "2025-09-15T13:41:32+0300",
-      "area": "Тольятти",
+      "area": "Самара",
       "salary": "до 204 450 RUR на руки",
       "salary_raw": {
         "from": null,
@@ -15626,16 +15631,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125332160",
+      "id": "125332159",
       "name": "Системный администратор",
       "company": "ЭФКО",
       "company_id": "53797",
       "company_url": "https://hh.ru/employer/53797",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/752189.jpg",
-      "url": "https://hh.ru/vacancy/125332160",
+      "url": "https://hh.ru/vacancy/125332159",
       "published_at": "2025-09-15T13:41:32+0300",
       "created_at": "2025-09-15T13:41:32+0300",
-      "area": "Самара",
+      "area": "Тольятти",
       "salary": "до 204 450 RUR на руки",
       "salary_raw": {
         "from": null,
@@ -19533,16 +19538,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125002987",
+      "id": "125002986",
       "name": "Системный администратор",
       "company": "ОГБУЗ Томаровская районная больница им. И.С. Сальтевского",
       "company_id": "4613597",
       "company_url": "https://hh.ru/employer/4613597",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/125002987",
+      "url": "https://hh.ru/vacancy/125002986",
       "published_at": "2025-09-08T11:18:55+0300",
       "created_at": "2025-09-08T11:18:55+0300",
-      "area": "Строитель (Белгородская область)",
+      "area": "Борисовка",
       "salary": "от 40 000 RUR на руки",
       "salary_raw": {
         "from": 40000,
@@ -19566,16 +19571,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125002986",
+      "id": "125002987",
       "name": "Системный администратор",
       "company": "ОГБУЗ Томаровская районная больница им. И.С. Сальтевского",
       "company_id": "4613597",
       "company_url": "https://hh.ru/employer/4613597",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/125002986",
+      "url": "https://hh.ru/vacancy/125002987",
       "published_at": "2025-09-08T11:18:55+0300",
       "created_at": "2025-09-08T11:18:55+0300",
-      "area": "Борисовка",
+      "area": "Строитель (Белгородская область)",
       "salary": "от 40 000 RUR на руки",
       "salary_raw": {
         "from": 40000,
@@ -21816,16 +21821,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124865700",
+      "id": "124865703",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124865700",
+      "url": "https://hh.ru/vacancy/124865703",
       "published_at": "2025-09-04T11:11:59+0300",
       "created_at": "2025-09-04T11:11:59+0300",
-      "area": "Зеленодольск (Республика Татарстан)",
+      "area": "Пенза",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -21844,16 +21849,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124865703",
+      "id": "124865700",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124865703",
+      "url": "https://hh.ru/vacancy/124865700",
       "published_at": "2025-09-04T11:11:59+0300",
       "created_at": "2025-09-04T11:11:59+0300",
-      "area": "Пенза",
+      "area": "Зеленодольск (Республика Татарстан)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -22522,8 +22527,8 @@
       "experience": "От 1 года до 3 лет",
       "schedule": "Удаленная работа",
       "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "",
+      "requirement": "Глубокие знания и опыт поддержки, проведения мониторинга, анализа и оптимизации производительности СХД, инфраструктуры виртуализации VMWare и Citrix AVC.",
+      "responsibility": "Обеспечение бесперебойной работы ИТ-инфраструктуры компании, систем виртуализации VMWare, Citrix AVC. Установка, настройка и администрирование текущего парка СХД.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
