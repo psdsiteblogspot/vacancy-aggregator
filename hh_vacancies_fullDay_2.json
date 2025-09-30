@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-09-30T13:09:52Z",
+  "updated": "2025-09-30T13:50:22Z",
   "statistics": {
-    "total": 779,
-    "with_salary": 558,
-    "companies": 628,
+    "total": 780,
+    "with_salary": 560,
+    "companies": 629,
     "cities": 138,
     "premium": 0,
     "with_test": 11
   },
   "vacancies": [
+    {
+      "id": "125975864",
+      "name": "Системный администратор",
+      "company": "АНИТ",
+      "company_id": "1644591",
+      "company_url": "https://hh.ru/employer/1644591",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1394181.png",
+      "url": "https://hh.ru/vacancy/125975864",
+      "published_at": "2025-09-30T16:26:17+0300",
+      "created_at": "2025-09-30T16:26:17+0300",
+      "area": "Хабаровск",
+      "salary": "80 000 - 120 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Мобильность, вежливость, обучаемость. Базовые навыки монтажа слаботочных систем. Знание системы Windows Server. Приветствуются знания Mikrotik, Linux, Zabbix.",
+      "responsibility": "Тестирование, диагностика, устранение сбоев и неисправностей работы ПК. Профилактическое обслуживание жестких дисков рабочих станций и серверов, диагностика состояния, рекомендации и...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125975760",
+      "name": "Ведущий системный администратор",
+      "company": "РАТИМИР",
+      "company_id": "245167",
+      "company_url": "https://hh.ru/employer/245167",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1405270.png",
+      "url": "https://hh.ru/vacancy/125975760",
+      "published_at": "2025-09-30T16:25:21+0300",
+      "created_at": "2025-09-30T16:25:21+0300",
+      "area": "Владивосток",
+      "salary": "150 000 - 150 000 RUR на руки",
+      "salary_raw": {
+        "from": 150000,
+        "to": 150000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Мы хотим видеть в кандидате: Высшее техническое образование (IT, автоматизация, физико-математические специальности). Отличное знание протоколов TCP/IP и модели...",
+      "responsibility": "Администрирование серверного оборудования на базе Windows Server. Настройка и сопровождение сетевой инфраструктуры (оборудование MikroTik). Управление бизнес-приложениями и внутренними IT...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "125657894",
       "name": "Начинающий системный администратор",
@@ -20226,16 +20292,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124998269",
+      "id": "124998256",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124998269",
+      "url": "https://hh.ru/vacancy/124998256",
       "published_at": "2025-09-08T10:24:27+0300",
       "created_at": "2025-09-08T10:24:27+0300",
-      "area": "Обоянь",
+      "area": "Углегорск",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -20259,16 +20325,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124998256",
+      "id": "124998269",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124998256",
+      "url": "https://hh.ru/vacancy/124998269",
       "published_at": "2025-09-08T10:24:27+0300",
       "created_at": "2025-09-08T10:24:27+0300",
-      "area": "Углегорск",
+      "area": "Обоянь",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -24584,34 +24650,6 @@
       "employment": "Полная занятость",
       "requirement": "Образование: техническое высшее или среднее профессиональное. Нормативные и методические материалы по организации связи. Знание основ локальных сетей (стек протоколов TCP...",
       "responsibility": "Устанавливает на серверы операционные системы и необходимое для работы программное обеспечение. Настраивает и администрирует операционную систему, 1С и прочее...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124678446",
-      "name": "Системный администратор",
-      "company": "СЗ Идель",
-      "company_id": "12211866",
-      "company_url": "https://hh.ru/employer/12211866",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1456507.png",
-      "url": "https://hh.ru/vacancy/124678446",
-      "published_at": "2025-08-31T16:30:07+0300",
-      "created_at": "2025-08-31T16:30:07+0300",
-      "area": "Нижний Новгород",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы системным администратором от 1-2 лет. Глубокие знания и опыт администрирования ОС Windows 10/11 и серверных ОС...",
-      "responsibility": "Техническая поддержка и обслуживание пользователей (офисные сотрудники, удаленные сотрудники): консультации, решение проблем с ПО и оборудованием. Поддержка и администрирование корпоративной...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
