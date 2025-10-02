@@ -10,16 +10,77 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-02T16:25:45Z",
+  "updated": "2025-10-02T17:16:26Z",
   "statistics": {
-    "total": 1312,
-    "with_salary": 740,
-    "companies": 1078,
+    "total": 1311,
+    "with_salary": 739,
+    "companies": 1077,
     "cities": 64,
     "premium": 0,
     "with_test": 61
   },
   "vacancies": [
+    {
+      "id": "125925818",
+      "name": "Системный администратор",
+      "company": "АНО ЦИСМ",
+      "company_id": "4563362",
+      "company_url": "https://hh.ru/employer/4563362",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1313621.png",
+      "url": "https://hh.ru/vacancy/125925818",
+      "published_at": "2025-10-02T19:58:55+0300",
+      "created_at": "2025-10-02T19:58:55+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в аналогичной должности от 1 года. Опыт установки настройки, эксплуатации ОС Windows/Офисного ПО/МФУ. Умение собрать/разобрать...",
+      "responsibility": "Настройка и обслуживание компьютеров пользователей. Установка новых рабочих мест и перенос существующих. Помощь пользователям офиса и удаленным сотрудникам.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": true,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125454785",
+      "name": "Системный администратор",
+      "company": "КИНАРИ СПА",
+      "company_id": "9550698",
+      "company_url": "https://hh.ru/employer/9550698",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1436698.png",
+      "url": "https://hh.ru/vacancy/125454785",
+      "published_at": "2025-10-02T19:12:05+0300",
+      "created_at": "2025-10-02T19:12:05+0300",
+      "area": "Москва",
+      "salary": "от 150 000 RUR на руки",
+      "salary_raw": {
+        "from": 150000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы системным администратором от 3 лет. Обязательный опыт работы с 1С sql: администрирование, устранение ошибок, взаимодействие с разработчиками.",
+      "responsibility": "Совместно с командой обеспечивать стабильное функционирование всех IT-систем компании. Устанавливать, настраивать и обслуживать информационные системы, включая 1С для...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "126082833",
       "name": "Системный администратор",
@@ -1431,39 +1492,6 @@
       "accept_temporary": false
     },
     {
-      "id": "125909341",
-      "name": "Системный администратор",
-      "company": "Film Direction",
-      "company_id": "6106642",
-      "company_url": "https://hh.ru/employer/6106642",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/950748.png",
-      "url": "https://hh.ru/vacancy/125909341",
-      "published_at": "2025-10-02T16:07:25+0300",
-      "created_at": "2025-10-02T16:07:25+0300",
-      "area": "Москва",
-      "salary": "от 150 000 RUR на руки",
-      "salary_raw": {
-        "from": 150000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Оборудование: рабочие станции, серверы, СХД. ОС: Windows, Linux. Дополнительно: Windows AD, виртуализация, резервное копирование, протоколы и технологии СХД, ключевые сетевые...",
-      "responsibility": "Администрирование и контроль работы рабочих станций, серверов, сервисов, пользователей и групп. Закупка оборудования и лицензий. Совместно с командой разработки внедрение...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "125909340",
       "name": "Младший системный администратор",
       "company": "RCNTEC RPCM",
@@ -1486,6 +1514,39 @@
       "employment": "Полная занятость",
       "requirement": "Теоретические знания ОС Linux/Windows Server (практика работы приветствуется). Теоретические знания компьютерных сетей. Критическое мышление, хорошие навыки самообучения (обязательно).",
       "responsibility": "Обрабатывать входящие технические обращения на русском и английском языках по производимому нами оборудованию RPCM Smart PDU (телефон, почта и чат).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125909341",
+      "name": "Системный администратор",
+      "company": "Film Direction",
+      "company_id": "6106642",
+      "company_url": "https://hh.ru/employer/6106642",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/950748.png",
+      "url": "https://hh.ru/vacancy/125909341",
+      "published_at": "2025-10-02T16:07:25+0300",
+      "created_at": "2025-10-02T16:07:25+0300",
+      "area": "Москва",
+      "salary": "от 150 000 RUR на руки",
+      "salary_raw": {
+        "from": 150000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Оборудование: рабочие станции, серверы, СХД. ОС: Windows, Linux. Дополнительно: Windows AD, виртуализация, резервное копирование, протоколы и технологии СХД, ключевые сетевые...",
+      "responsibility": "Администрирование и контроль работы рабочих станций, серверов, сервисов, пользователей и групп. Закупка оборудования и лицензий. Совместно с командой разработки внедрение...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -5753,16 +5814,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126029733",
+      "id": "126029734",
       "name": "Системный администратор",
       "company": "Частная школа Екатерининский лицей",
       "company_id": "1898218",
       "company_url": "https://hh.ru/employer/1898218",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1108987.jpg",
-      "url": "https://hh.ru/vacancy/126029733",
+      "url": "https://hh.ru/vacancy/126029734",
       "published_at": "2025-10-01T17:58:53+0300",
       "created_at": "2025-10-01T17:58:53+0300",
-      "area": "Зеленоград",
+      "area": "Химки (Московская область)",
       "salary": "от 75 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 75000,
@@ -5786,16 +5847,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126029734",
+      "id": "126029733",
       "name": "Системный администратор",
       "company": "Частная школа Екатерининский лицей",
       "company_id": "1898218",
       "company_url": "https://hh.ru/employer/1898218",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1108987.jpg",
-      "url": "https://hh.ru/vacancy/126029734",
+      "url": "https://hh.ru/vacancy/126029733",
       "published_at": "2025-10-01T17:58:53+0300",
       "created_at": "2025-10-01T17:58:53+0300",
-      "area": "Химки (Московская область)",
+      "area": "Зеленоград",
       "salary": "от 75 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 75000,
@@ -15443,34 +15504,6 @@
       "accept_temporary": false
     },
     {
-      "id": "125925818",
-      "name": "Системный администратор",
-      "company": "АНО ЦИСМ",
-      "company_id": "4563362",
-      "company_url": "https://hh.ru/employer/4563362",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1313621.png",
-      "url": "https://hh.ru/vacancy/125925818",
-      "published_at": "2025-09-29T19:58:55+0300",
-      "created_at": "2025-09-29T19:58:55+0300",
-      "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в аналогичной должности от 1 года. Опыт установки настройки, эксплуатации ОС Windows/Офисного ПО/МФУ. Умение собрать/разобрать...",
-      "responsibility": "Настройка и обслуживание компьютеров пользователей. Установка новых рабочих мест и перенос существующих. Помощь пользователям офиса и удаленным сотрудникам.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": true,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "125925788",
       "name": "Системный администратор (PostgreSQL/Linux/Docker/k&s)",
       "company": "Центральный банк Российской Федерации (Банк России)",
@@ -15524,39 +15557,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Делопроизводитель, архивариус"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125454785",
-      "name": "Системный администратор",
-      "company": "КИНАРИ СПА",
-      "company_id": "9550698",
-      "company_url": "https://hh.ru/employer/9550698",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1436698.png",
-      "url": "https://hh.ru/vacancy/125454785",
-      "published_at": "2025-09-29T19:12:05+0300",
-      "created_at": "2025-09-29T19:12:05+0300",
-      "area": "Москва",
-      "salary": "от 150 000 RUR на руки",
-      "salary_raw": {
-        "from": 150000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы системным администратором от 3 лет. Обязательный опыт работы с 1С sql: администрирование, устранение ошибок, взаимодействие с разработчиками.",
-      "responsibility": "Совместно с командой обеспечивать стабильное функционирование всех IT-систем компании. Устанавливать, настраивать и обслуживать информационные системы, включая 1С для...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
       ],
       "has_test": false,
       "premium": false,
@@ -16401,16 +16401,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125900781",
+      "id": "125900780",
       "name": "Системный администратор (командировки Северные регионы)",
       "company": "Запсибгазпром-Газификация",
       "company_id": "1988557",
       "company_url": "https://hh.ru/employer/1988557",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/579548.gif",
-      "url": "https://hh.ru/vacancy/125900781",
+      "url": "https://hh.ru/vacancy/125900780",
       "published_at": "2025-09-29T14:05:52+0300",
       "created_at": "2025-09-29T14:05:52+0300",
-      "area": "Москва",
+      "area": "Санкт-Петербург",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -16429,16 +16429,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125900780",
+      "id": "125900781",
       "name": "Системный администратор (командировки Северные регионы)",
       "company": "Запсибгазпром-Газификация",
       "company_id": "1988557",
       "company_url": "https://hh.ru/employer/1988557",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/579548.gif",
-      "url": "https://hh.ru/vacancy/125900780",
+      "url": "https://hh.ru/vacancy/125900781",
       "published_at": "2025-09-29T14:05:52+0300",
       "created_at": "2025-09-29T14:05:52+0300",
-      "area": "Санкт-Петербург",
+      "area": "Москва",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -40418,39 +40418,6 @@
         "Системный администратор"
       ],
       "has_test": true,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124790344",
-      "name": "Помощник Системного администратора (выездной)",
-      "company": "ЗЕОНИТ",
-      "company_id": "189323",
-      "company_url": "https://hh.ru/employer/189323",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/823496.png",
-      "url": "https://hh.ru/vacancy/124790344",
-      "published_at": "2025-09-02T20:06:31+0300",
-      "created_at": "2025-09-02T20:06:31+0300",
-      "area": "Москва",
-      "salary": "30 000 - 40 000 RUR на руки",
-      "salary_raw": {
-        "from": 30000,
-        "to": 40000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Понимание принципов построения локальных сетей, TCP/IP, умение пользоваться консолью ping, tracert, net, arp.",
-      "responsibility": "Работа с ServiceDesk. Оказание поддержки пользователям. Установка, настройка, обновление ПО на рабочих станциях и серверах. Обнаружение и устранение неполадок в...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
       "premium": false,
       "accept_handicapped": false,
       "accept_kids": false,
