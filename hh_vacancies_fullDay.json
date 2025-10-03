@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-03T14:36:41Z",
+  "updated": "2025-10-03T15:32:55Z",
   "statistics": {
     "total": 918,
     "with_salary": 687,
@@ -20,6 +20,39 @@
     "with_test": 21
   },
   "vacancies": [
+    {
+      "id": "125542727",
+      "name": "Помощник системного администратора",
+      "company": "ЦЕХ № 1",
+      "company_id": "10193392",
+      "company_url": "https://hh.ru/employer/10193392",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/125542727",
+      "published_at": "2025-10-03T18:09:21+0300",
+      "created_at": "2025-10-03T18:09:21+0300",
+      "area": "Пермь",
+      "salary": "от 40 000 RUR на руки",
+      "salary_raw": {
+        "from": 40000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы от полугода. Умение работать с большим объемом информации. Понимание модели OSI. Знание сетевого оборудования: маршрутизатор, точка доступа, коммутатор.",
+      "responsibility": "Прием, регистрация и первичная обработка заявок от пользователей. Устранение неисправностей рабочего места пользователя: ОС, офисные приложения, периферия. Подбор и закупка...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123065254",
       "name": "Системный администратор (интегратор)",
@@ -48,6 +81,34 @@
         "Системный администратор"
       ],
       "has_test": true,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125726090",
+      "name": "Системный администратор (1-я линия поддержки)",
+      "company": "Про-Медицина",
+      "company_id": "11705171",
+      "company_url": "https://hh.ru/employer/11705171",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1458998.png",
+      "url": "https://hh.ru/vacancy/125726090",
+      "published_at": "2025-10-03T17:13:29+0300",
+      "created_at": "2025-10-03T17:13:29+0300",
+      "area": "Тюмень",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Имеет опыт работы с AD (создание пользователей и групп, GPO) Обязательное требование. Знает принципы работы стека протоколов TCP/IP и...",
+      "responsibility": "Поддержка пользователей (1-я линия): Консультация и оперативное решение проблем пользователей (сотрудников) по телефону, в мессенджерах и лично.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
       "premium": false,
       "accept_handicapped": false,
       "accept_kids": false,
@@ -7018,34 +7079,6 @@
       "accept_temporary": false
     },
     {
-      "id": "125726090",
-      "name": "Системный администратор (1-я линия поддержки)",
-      "company": "Про-Медицина",
-      "company_id": "11705171",
-      "company_url": "https://hh.ru/employer/11705171",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1458998.png",
-      "url": "https://hh.ru/vacancy/125726090",
-      "published_at": "2025-09-30T17:13:29+0300",
-      "created_at": "2025-09-30T17:13:29+0300",
-      "area": "Тюмень",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Имеет опыт работы с AD (создание пользователей и групп, GPO) Обязательное требование. Знает принципы работы стека протоколов TCP/IP и...",
-      "responsibility": "Поддержка пользователей (1-я линия): Консультация и оперативное решение проблем пользователей (сотрудников) по телефону, в мессенджерах и лично.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "125469088",
       "name": "Системный администратор",
       "company": "SHEVEREV",
@@ -9655,16 +9688,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125899826",
+      "id": "125899825",
       "name": "Системный администратор",
       "company": "Велесстрой",
       "company_id": "681883",
       "company_url": "https://hh.ru/employer/681883",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/526364.png",
-      "url": "https://hh.ru/vacancy/125899826",
+      "url": "https://hh.ru/vacancy/125899825",
       "published_at": "2025-09-29T13:53:26+0300",
       "created_at": "2025-09-29T13:53:26+0300",
-      "area": "Краснодар",
+      "area": "Волгоград",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -9683,16 +9716,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125899825",
+      "id": "125899826",
       "name": "Системный администратор",
       "company": "Велесстрой",
       "company_id": "681883",
       "company_url": "https://hh.ru/employer/681883",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/526364.png",
-      "url": "https://hh.ru/vacancy/125899825",
+      "url": "https://hh.ru/vacancy/125899826",
       "published_at": "2025-09-29T13:53:26+0300",
       "created_at": "2025-09-29T13:53:26+0300",
-      "area": "Волгоград",
+      "area": "Краснодар",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -18130,39 +18163,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы от 1 до 3 лет в аналогичной должности. Знание операционных систем Windows и Linux. Опыт работы с сетевым...",
       "responsibility": "Поддержка и администрирование серверов и сетевого оборудования. Обеспечение безопасности и защиты данных. Установка и обновление программного обеспечения. Мониторинг и оптимизация...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125542727",
-      "name": "Помощник системного администратора",
-      "company": "ЦЕХ № 1",
-      "company_id": "10193392",
-      "company_url": "https://hh.ru/employer/10193392",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/125542727",
-      "published_at": "2025-09-19T17:23:25+0300",
-      "created_at": "2025-09-19T17:23:25+0300",
-      "area": "Пермь",
-      "salary": "от 40 000 RUR на руки",
-      "salary_raw": {
-        "from": 40000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы от полугода. Умение работать с большим объемом информации. Понимание модели OSI. Знание сетевого оборудования: маршрутизатор, точка доступа, коммутатор.",
-      "responsibility": "Прием, регистрация и первичная обработка заявок от пользователей. Устранение неисправностей рабочего места пользователя: ОС, офисные приложения, периферия. Подбор и закупка...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -27184,6 +27184,39 @@
       "accept_temporary": false
     },
     {
+      "id": "124998247",
+      "name": "Выездной инженер технической поддержки/системный администратор",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/124998247",
+      "published_at": "2025-09-08T10:24:27+0300",
+      "created_at": "2025-09-08T10:24:27+0300",
+      "area": "Рославль",
+      "salary": "200 - 10 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 200,
+        "to": 10000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "124998265",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
@@ -27227,39 +27260,6 @@
       "published_at": "2025-09-08T10:24:27+0300",
       "created_at": "2025-09-08T10:24:27+0300",
       "area": "Мирный (Республика Саха (Якутия))",
-      "salary": "200 - 10 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 200,
-        "to": 10000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
-      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124998247",
-      "name": "Выездной инженер технической поддержки/системный администратор",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/124998247",
-      "published_at": "2025-09-08T10:24:27+0300",
-      "created_at": "2025-09-08T10:24:27+0300",
-      "area": "Рославль",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
