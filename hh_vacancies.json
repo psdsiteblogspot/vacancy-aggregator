@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-04T17:15:54Z",
+  "updated": "2025-10-04T18:26:42Z",
   "statistics": {
     "total": 1305,
     "with_salary": 737,
@@ -20,6 +20,67 @@
     "with_test": 63
   },
   "vacancies": [
+    {
+      "id": "125547537",
+      "name": "SRE/System Administrator",
+      "company": "Americor Funding Inc",
+      "company_id": "4354272",
+      "company_url": "https://hh.ru/employer/4354272",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/690861.png",
+      "url": "https://hh.ru/vacancy/125547537",
+      "published_at": "2025-10-04T20:57:59+0300",
+      "created_at": "2025-10-04T20:57:59+0300",
+      "area": "Москва",
+      "salary": "4 500 - 6 000 USD на руки",
+      "salary_raw": {
+        "from": 4500,
+        "to": 6000,
+        "currency": "USD",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "5+ лет опыта поддержки высокодоступной инфраструктуры в условиях высокой нагрузки. Экспертные знания в системах Linux и веб-стеке (Nginx...",
+      "responsibility": "Операционные системы: CentOS / AlmaLinux OS. Хранение данных: GlusterFS. Инструменты мониторинга: Datadog, Sentry, Pingdom. IaC: Terraform, Ansible. Система оповещения: OpsGenie.",
+      "type": "Открытая",
+      "professional_roles": [
+        "DevOps-инженер"
+      ],
+      "has_test": true,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126032200",
+      "name": "Системный администратор",
+      "company": "Ит-Финанс",
+      "company_id": "6150428",
+      "company_url": "https://hh.ru/employer/6150428",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1018308.png",
+      "url": "https://hh.ru/vacancy/126032200",
+      "published_at": "2025-10-04T20:41:38+0300",
+      "created_at": "2025-10-04T20:41:38+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в качестве системного администратора от 3-х лет. Опыт администрирования 1С и linux серверов. Опыт настройки vpn.",
+      "responsibility": "Администрирование 1С. Администрирование linux серверов. Настройка vpn серверов/удаленного доступа. Настройка мониторинга. Выпуск сертификатов.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "125408958",
       "name": "Системный администратор / Специалист технической поддержки",
@@ -13141,39 +13202,6 @@
       "accept_temporary": false
     },
     {
-      "id": "125547537",
-      "name": "SRE/System Administrator",
-      "company": "Americor Funding Inc",
-      "company_id": "4354272",
-      "company_url": "https://hh.ru/employer/4354272",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/690861.png",
-      "url": "https://hh.ru/vacancy/125547537",
-      "published_at": "2025-10-01T20:57:59+0300",
-      "created_at": "2025-10-01T20:57:59+0300",
-      "area": "Москва",
-      "salary": "4 500 - 6 000 USD на руки",
-      "salary_raw": {
-        "from": 4500,
-        "to": 6000,
-        "currency": "USD",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "5+ лет опыта поддержки высокодоступной инфраструктуры в условиях высокой нагрузки. Экспертные знания в системах Linux и веб-стеке (Nginx...",
-      "responsibility": "Операционные системы: CentOS / AlmaLinux OS. Хранение данных: GlusterFS. Инструменты мониторинга: Datadog, Sentry, Pingdom. IaC: Terraform, Ansible. Система оповещения: OpsGenie.",
-      "type": "Открытая",
-      "professional_roles": [
-        "DevOps-инженер"
-      ],
-      "has_test": true,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126032551",
       "name": "Системный администратор",
       "company": "Юнион",
@@ -13196,34 +13224,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание и опыт работы в 1С (типовые конфигурации). Навыки работы с оргтехникой (принтеры, сканеры и т.п.).",
       "responsibility": "...техники; замена картриджей и расходных материалов. Ведение первичного учёта орг. техники. Взаимодействие с поставщиками услуг. Выполнение заданий Ведущего системного администратора.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126032200",
-      "name": "Системный администратор",
-      "company": "Ит-Финанс",
-      "company_id": "6150428",
-      "company_url": "https://hh.ru/employer/6150428",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1018308.png",
-      "url": "https://hh.ru/vacancy/126032200",
-      "published_at": "2025-10-01T20:41:38+0300",
-      "created_at": "2025-10-01T20:41:38+0300",
-      "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в качестве системного администратора от 3-х лет. Опыт администрирования 1С и linux серверов. Опыт настройки vpn.",
-      "responsibility": "Администрирование 1С. Администрирование linux серверов. Настройка vpn серверов/удаленного доступа. Настройка мониторинга. Выпуск сертификатов.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -30664,16 +30664,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125401016",
+      "id": "125401017",
       "name": "Старший системный администратор",
       "company": "Конгресс-отель Ареал",
       "company_id": "5156941",
       "company_url": "https://hh.ru/employer/5156941",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/818803.png",
-      "url": "https://hh.ru/vacancy/125401016",
+      "url": "https://hh.ru/vacancy/125401017",
       "published_at": "2025-09-16T16:23:36+0300",
       "created_at": "2025-09-16T16:23:36+0300",
-      "area": "Балашиха (Московская область)",
+      "area": "Ногинск (Московская область)",
       "salary": "от 200 000 RUR на руки",
       "salary_raw": {
         "from": 200000,
@@ -30697,16 +30697,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125401017",
+      "id": "125401016",
       "name": "Старший системный администратор",
       "company": "Конгресс-отель Ареал",
       "company_id": "5156941",
       "company_url": "https://hh.ru/employer/5156941",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/818803.png",
-      "url": "https://hh.ru/vacancy/125401017",
+      "url": "https://hh.ru/vacancy/125401016",
       "published_at": "2025-09-16T16:23:36+0300",
       "created_at": "2025-09-16T16:23:36+0300",
-      "area": "Ногинск (Московская область)",
+      "area": "Балашиха (Московская область)",
       "salary": "от 200 000 RUR на руки",
       "salary_raw": {
         "from": 200000,
