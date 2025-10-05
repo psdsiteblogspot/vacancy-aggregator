@@ -10,16 +10,143 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-05T07:43:44Z",
+  "updated": "2025-10-05T08:46:05Z",
   "statistics": {
-    "total": 733,
-    "with_salary": 537,
-    "companies": 596,
+    "total": 730,
+    "with_salary": 534,
+    "companies": 594,
     "cities": 134,
     "premium": 0,
     "with_test": 11
   },
   "vacancies": [
+    {
+      "id": "125646982",
+      "name": "Системный администратор",
+      "company": "Базис",
+      "company_id": "995157",
+      "company_url": "https://hh.ru/employer/995157",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/269496.png",
+      "url": "https://hh.ru/vacancy/125646982",
+      "published_at": "2025-10-05T11:02:46+0300",
+      "created_at": "2025-10-05T11:02:46+0300",
+      "area": "Самара",
+      "salary": "80 000 - 90 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 80000,
+        "to": 90000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы с Proxmox и Hiper-V.",
+      "responsibility": "Поддержка ИТ систем клиентов (в основном Windows). Выезды к клиентам - крайне редко. Установка и настройка пользовательского ПО. Настройка простого сетевого...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125201926",
+      "name": "Ведущий системный администратор",
+      "company": "ГКУ СО Центр Учета",
+      "company_id": "5041928",
+      "company_url": "https://hh.ru/employer/5041928",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/125201926",
+      "published_at": "2025-10-05T10:26:50+0300",
+      "created_at": "2025-10-05T10:26:50+0300",
+      "area": "Самара",
+      "salary": "от 73 563 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 73563,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Среднее профессиональное образование – программы подготовки специалистов среднего звена или высшее образование - бакалавриат. Опыт работы не менее одного года в области...",
+      "responsibility": "Технические работы по обслуживанию информационно-коммуникационной системы. Установка и настройка периферийных устройств. Установка и подключение сетевых устройств. Подготовка заявок на...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125199558",
+      "name": "Помощник системного администратора",
+      "company": "ТрудЭксперт",
+      "company_id": "1117026",
+      "company_url": "https://hh.ru/employer/1117026",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1389747.png",
+      "url": "https://hh.ru/vacancy/125199558",
+      "published_at": "2025-10-05T10:15:07+0300",
+      "created_at": "2025-10-05T10:15:07+0300",
+      "area": "Нижний Новгород",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание клиентских ОС Windows 7/10/11 и MsOffice на уровне администрирования. Базовые знание серверных ОС Windows и Linux, TCP...",
+      "responsibility": "Техническая поддержка пользователей, консультации. Подготовка рабочих мест, установка и настройка системного и прикладного программного обеспечения (в том числе через удаленный...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124205769",
+      "name": "Системный администратор",
+      "company": "Росгосстрах",
+      "company_id": "2245",
+      "company_url": "https://hh.ru/employer/2245",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/792069.JPG",
+      "url": "https://hh.ru/vacancy/124205769",
+      "published_at": "2025-10-05T10:07:51+0300",
+      "created_at": "2025-10-05T10:07:51+0300",
+      "area": "Рязань",
+      "salary": "70 000 - 70 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 70000,
+        "to": 70000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание операционных систем семейства Windows на уровне администратора. Знание AD и администрирования доступов. Практическое знание компьютерного «железа». Понимание работы оргтехники.",
+      "responsibility": "Поддержка пользователей, в том числе удаленно. Обеспечение функционирования офисной техники, телефонии и устранение неисправностей. Установка ОС, ПО, в том числе...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "125827824",
       "name": "Специалист технической поддержки с функцией системного администратора",
@@ -4077,39 +4204,6 @@
       "accept_temporary": false
     },
     {
-      "id": "125646982",
-      "name": "Системный администратор",
-      "company": "Базис",
-      "company_id": "995157",
-      "company_url": "https://hh.ru/employer/995157",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/269496.png",
-      "url": "https://hh.ru/vacancy/125646982",
-      "published_at": "2025-10-02T11:02:46+0300",
-      "created_at": "2025-10-02T11:02:46+0300",
-      "area": "Самара",
-      "salary": "80 000 - 90 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 80000,
-        "to": 90000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с Proxmox и Hiper-V.",
-      "responsibility": "Поддержка ИТ систем клиентов (в основном Windows). Выезды к клиентам - крайне редко. Установка и настройка пользовательского ПО. Настройка простого сетевого...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126054422",
       "name": "Системный администратор",
       "company": "Альбатрос Спорт",
@@ -4199,67 +4293,6 @@
       "accept_temporary": false
     },
     {
-      "id": "125201926",
-      "name": "Ведущий системный администратор",
-      "company": "ГКУ СО Центр Учета",
-      "company_id": "5041928",
-      "company_url": "https://hh.ru/employer/5041928",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/125201926",
-      "published_at": "2025-10-02T10:26:50+0300",
-      "created_at": "2025-10-02T10:26:50+0300",
-      "area": "Самара",
-      "salary": "от 73 563 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 73563,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Среднее профессиональное образование – программы подготовки специалистов среднего звена или высшее образование - бакалавриат. Опыт работы не менее одного года в области...",
-      "responsibility": "Технические работы по обслуживанию информационно-коммуникационной системы. Установка и настройка периферийных устройств. Установка и подключение сетевых устройств. Подготовка заявок на...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125199558",
-      "name": "Помощник системного администратора",
-      "company": "ТрудЭксперт",
-      "company_id": "1117026",
-      "company_url": "https://hh.ru/employer/1117026",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1389747.png",
-      "url": "https://hh.ru/vacancy/125199558",
-      "published_at": "2025-10-02T10:15:07+0300",
-      "created_at": "2025-10-02T10:15:07+0300",
-      "area": "Нижний Новгород",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание клиентских ОС Windows 7/10/11 и MsOffice на уровне администрирования. Базовые знание серверных ОС Windows и Linux, TCP...",
-      "responsibility": "Техническая поддержка пользователей, консультации. Подготовка рабочих мест, установка и настройка системного и прикладного программного обеспечения (в том числе через удаленный...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126050065",
       "name": "Системный администратор",
       "company": "Фармаполторг+",
@@ -4277,39 +4310,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее техническое образование IT (будет преимуществом). Стаж работы – не менее 3 лет. Windows на уровне администратора. Знания и опыт работы...",
       "responsibility": "Администрирование Windows, серверов на базе Linux и MS Windows Server. Поддержка сетевого и серверного оборудования. Организация и обеспечение бесперебойной работы...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124205769",
-      "name": "Системный администратор",
-      "company": "Росгосстрах",
-      "company_id": "2245",
-      "company_url": "https://hh.ru/employer/2245",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/792069.JPG",
-      "url": "https://hh.ru/vacancy/124205769",
-      "published_at": "2025-10-02T10:07:51+0300",
-      "created_at": "2025-10-02T10:07:51+0300",
-      "area": "Рязань",
-      "salary": "70 000 - 70 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 70000,
-        "to": 70000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание операционных систем семейства Windows на уровне администратора. Знание AD и администрирования доступов. Практическое знание компьютерного «железа». Понимание работы оргтехники.",
-      "responsibility": "Поддержка пользователей, в том числе удаленно. Обеспечение функционирования офисной техники, телефонии и устранение неисправностей. Установка ОС, ПО, в том числе...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -23120,105 +23120,6 @@
       "employment": "Полная занятость",
       "requirement": "Навыки настройки серверного оборудования и СХД (желательно IBM, Huawei, Dell). Опыт построения и сопровождения кластеров высокой доступности MS Hyper-V.",
       "responsibility": "Обработка задач в системе Service Desk. Поддержка инфраструктурных сервисов и серверного оборудования компании. Взаимодействие с сотрудниками и внешними контрагентами по...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124924109",
-      "name": "Системный администратор",
-      "company": "Агросила",
-      "company_id": "2510056",
-      "company_url": "https://hh.ru/employer/2510056",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/388071.jpg",
-      "url": "https://hh.ru/vacancy/124924109",
-      "published_at": "2025-09-05T11:22:26+0300",
-      "created_at": "2025-09-05T11:22:26+0300",
-      "area": "Набережные Челны",
-      "salary": "84 840 - 100 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 84840,
-        "to": 100000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Работали с виртуализацией: VMware (vSphere, ESXi) или Hyper-V.. Администрировали серверы на Windows и Linux. Умеете быстро разобраться в проблеме...",
-      "responsibility": "Следить, чтобы техника, сервера и сети работали стабильно и не «падали». Обслуживать и проверять серверы, сетевое оборудование — вовремя, по регламенту.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123560081",
-      "name": "Системный администратор",
-      "company": "Налог-Сервис ФНС России, ФКУ Филиал в Нижегородской области",
-      "company_id": "992325",
-      "company_url": "https://hh.ru/employer/992325",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/123560081",
-      "published_at": "2025-09-05T11:14:45+0300",
-      "created_at": "2025-09-05T11:14:45+0300",
-      "area": "Арзамас",
-      "salary": "от 40 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 40000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Требования: Образование - высшее, незаконченное высшеее, среднее профессиональное. Личное качество - обучаемость, исполнительность, стремление к саморазвитию. Опыт работы не обязателен.",
-      "responsibility": "Обязанности: Работа по заявкам на устранение проблем с аппаратной и программной частью рабочих станций пользователей; поддержка функционирования аппаратной части рабочих...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124919282",
-      "name": "Системный администратор",
-      "company": "Самара - Волгоэлектромонтаж",
-      "company_id": "2732408",
-      "company_url": "https://hh.ru/employer/2732408",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/398858.png",
-      "url": "https://hh.ru/vacancy/124919282",
-      "published_at": "2025-09-05T10:43:14+0300",
-      "created_at": "2025-09-05T10:43:14+0300",
-      "area": "Самара",
-      "salary": "до 55 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": null,
-        "to": 55000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Образование высшее или среднее профессиональное техническое (информационные технологии). Стаж работы не менее одного года. Знание аппаратных платформ ПК и сетевого...",
-      "responsibility": "Конфигурация, настройка и администрирование серверов, персональных компьютеров, сетевых устройств, периферийных устройств. Администрирование локальной (LAN), глобальной (WAN) и телефонной сетей.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
