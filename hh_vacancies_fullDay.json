@@ -10,16 +10,77 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-05T09:30:16Z",
+  "updated": "2025-10-05T10:33:55Z",
   "statistics": {
-    "total": 877,
-    "with_salary": 655,
-    "companies": 677,
+    "total": 876,
+    "with_salary": 654,
+    "companies": 676,
     "cities": 187,
     "premium": 0,
     "with_test": 20
   },
   "vacancies": [
+    {
+      "id": "126062624",
+      "name": "Системный администратор (в офис)",
+      "company": "Альфа-К",
+      "company_id": "725141",
+      "company_url": "https://hh.ru/employer/725141",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/146353.jpg",
+      "url": "https://hh.ru/vacancy/126062624",
+      "published_at": "2025-10-05T12:59:35+0300",
+      "created_at": "2025-10-05T12:59:35+0300",
+      "area": "Березовский (Свердловская область)",
+      "salary": "от 100 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы. Высшее или среднее специальное образование (ИТ). Знание систем виртуализации Hyper-V. Знание платформ 1С на уровне администрирования.",
+      "responsibility": "Настройка, обслуживание и обеспечение бесперебойной работы серверного оборудования. Администрирование платформ Linux, Windows (7, 10, 11), Windows Server 2012/2016/2019).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126061174",
+      "name": "Системный администратор ИБ",
+      "company": "Инконтрол",
+      "company_id": "4469308",
+      "company_url": "https://hh.ru/employer/4469308",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1387251.png",
+      "url": "https://hh.ru/vacancy/126061174",
+      "published_at": "2025-10-05T12:35:31+0300",
+      "created_at": "2025-10-05T12:35:31+0300",
+      "area": "Стерлитамак",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Образование: высшее техническое. Готовность к командировкам. Понимание работы сети: коммутация, маршрутизация, межсетевое экранирование. Навыки первоначальной настройки оборудования. Опыт администрирования современных...",
+      "responsibility": "Cистемная интеграция: подготовка и ввод в эксплуатацию ИТ оборудования (компьютеры, серверы, сетевое оборудование, СЗИ), установка, настройка, администрирование. Разработка технической документации.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Специалист по информационной безопасности"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "124067919",
       "name": "Системный администратор в рознице",
@@ -5060,39 +5121,6 @@
       "accept_temporary": false
     },
     {
-      "id": "126062624",
-      "name": "Системный администратор (в офис)",
-      "company": "Альфа-К",
-      "company_id": "725141",
-      "company_url": "https://hh.ru/employer/725141",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/146353.jpg",
-      "url": "https://hh.ru/vacancy/126062624",
-      "published_at": "2025-10-02T12:59:35+0300",
-      "created_at": "2025-10-02T12:59:35+0300",
-      "area": "Березовский (Свердловская область)",
-      "salary": "от 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы. Высшее или среднее специальное образование (ИТ). Знание систем виртуализации Hyper-V. Знание платформ 1С на уровне администрирования.",
-      "responsibility": "Настройка, обслуживание и обеспечение бесперебойной работы серверного оборудования. Администрирование платформ Linux, Windows (7, 10, 11), Windows Server 2012/2016/2019).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126062491",
       "name": "Системный администратор",
       "company": "Бизнес Трак Центр",
@@ -5217,34 +5245,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126061174",
-      "name": "Системный администратор ИБ",
-      "company": "Инконтрол",
-      "company_id": "4469308",
-      "company_url": "https://hh.ru/employer/4469308",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1387251.png",
-      "url": "https://hh.ru/vacancy/126061174",
-      "published_at": "2025-10-02T12:35:31+0300",
-      "created_at": "2025-10-02T12:35:31+0300",
-      "area": "Стерлитамак",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Образование: высшее техническое. Готовность к командировкам. Понимание работы сети: коммутация, маршрутизация, межсетевое экранирование. Навыки первоначальной настройки оборудования. Опыт администрирования современных...",
-      "responsibility": "Cистемная интеграция: подготовка и ввод в эксплуатацию ИТ оборудования (компьютеры, серверы, сетевое оборудование, СЗИ), установка, настройка, администрирование. Разработка технической документации.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Специалист по информационной безопасности"
       ],
       "has_test": false,
       "premium": false,
@@ -7125,16 +7125,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125975562",
+      "id": "125975563",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/125975562",
+      "url": "https://hh.ru/vacancy/125975563",
       "published_at": "2025-09-30T16:22:58+0300",
       "created_at": "2025-09-30T16:22:58+0300",
-      "area": "Усть-Илимск",
+      "area": "Тавда",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -7153,16 +7153,16 @@
       "accept_temporary": true
     },
     {
-      "id": "125975563",
+      "id": "125975562",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/125975563",
+      "url": "https://hh.ru/vacancy/125975562",
       "published_at": "2025-09-30T16:22:58+0300",
       "created_at": "2025-09-30T16:22:58+0300",
-      "area": "Тавда",
+      "area": "Усть-Илимск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -16686,16 +16686,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125616319",
+      "id": "125616320",
       "name": "Старший системный администратор",
       "company": "Грин Рэй Кубань",
       "company_id": "2813961",
       "company_url": "https://hh.ru/employer/2813961",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1309932.png",
-      "url": "https://hh.ru/vacancy/125616319",
+      "url": "https://hh.ru/vacancy/125616320",
       "published_at": "2025-09-22T15:53:32+0300",
       "created_at": "2025-09-22T15:53:32+0300",
-      "area": "Павловская",
+      "area": "Тихорецк",
       "salary": "до 91 960 RUR на руки",
       "salary_raw": {
         "from": null,
@@ -16719,16 +16719,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125616320",
+      "id": "125616319",
       "name": "Старший системный администратор",
       "company": "Грин Рэй Кубань",
       "company_id": "2813961",
       "company_url": "https://hh.ru/employer/2813961",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1309932.png",
-      "url": "https://hh.ru/vacancy/125616320",
+      "url": "https://hh.ru/vacancy/125616319",
       "published_at": "2025-09-22T15:53:32+0300",
       "created_at": "2025-09-22T15:53:32+0300",
-      "area": "Тихорецк",
+      "area": "Павловская",
       "salary": "до 91 960 RUR на руки",
       "salary_raw": {
         "from": null,
@@ -22605,16 +22605,16 @@
       "accept_temporary": false
     },
     {
-      "id": "98245020",
+      "id": "98245019",
       "name": "Ведущий системный администратор",
       "company": "Агрофирма АРИАНТ",
       "company_id": "902760",
       "company_url": "https://hh.ru/employer/902760",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1392087.png",
-      "url": "https://hh.ru/vacancy/98245020",
+      "url": "https://hh.ru/vacancy/98245019",
       "published_at": "2025-09-15T08:17:41+0300",
       "created_at": "2025-09-15T08:17:41+0300",
-      "area": "Красногорский (Челябинская область)",
+      "area": "Еманжелинск",
       "salary": "от 67 000 RUR на руки",
       "salary_raw": {
         "from": 67000,
@@ -22638,16 +22638,16 @@
       "accept_temporary": false
     },
     {
-      "id": "98245019",
+      "id": "98245020",
       "name": "Ведущий системный администратор",
       "company": "Агрофирма АРИАНТ",
       "company_id": "902760",
       "company_url": "https://hh.ru/employer/902760",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1392087.png",
-      "url": "https://hh.ru/vacancy/98245019",
+      "url": "https://hh.ru/vacancy/98245020",
       "published_at": "2025-09-15T08:17:41+0300",
       "created_at": "2025-09-15T08:17:41+0300",
-      "area": "Еманжелинск",
+      "area": "Красногорский (Челябинская область)",
       "salary": "от 67 000 RUR на руки",
       "salary_raw": {
         "from": 67000,
@@ -27808,39 +27808,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее профильное образование. Опыт работы от 3 лет в ИТ. Базовый уровень английского языка (для чтения документации). Уверенное владение системным...",
       "responsibility": "Поддержка и сопровождение работы ККМ. Настройка программного и аппаратного обеспечения ККМ. Обслуживание POS-терминалов, сканеров, периферии. Работа с программным обеспечением...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124932826",
-      "name": "Системный администратор (DevOps)",
-      "company": "МИТРА",
-      "company_id": "5995061",
-      "company_url": "https://hh.ru/employer/5995061",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1210843.png",
-      "url": "https://hh.ru/vacancy/124932826",
-      "published_at": "2025-09-05T13:02:07+0300",
-      "created_at": "2025-09-05T13:02:07+0300",
-      "area": "Ростов-на-Дону",
-      "salary": "от 100 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 100000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Желание быстро развиваться и перенимать опыт системного администратора и DevOps. Знанию серверного оборудования или желания изучать (мы в Yandex облаке...",
-      "responsibility": "Сопровождение и развитие текущей инфраструктуры в части доступности и отказоустойчивости: кластеризация, зеркалирование на другое облако, обслуживания (пополнение балансов, оптимизация, увеличение...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
