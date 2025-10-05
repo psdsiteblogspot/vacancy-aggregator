@@ -10,16 +10,115 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-05T11:43:42Z",
+  "updated": "2025-10-05T13:01:41Z",
   "statistics": {
-    "total": 725,
-    "with_salary": 530,
-    "companies": 589,
-    "cities": 134,
+    "total": 723,
+    "with_salary": 529,
+    "companies": 588,
+    "cities": 133,
     "premium": 0,
     "with_test": 11
   },
   "vacancies": [
+    {
+      "id": "123709112",
+      "name": "Системный администратор (в подразделение ЖК Весна)",
+      "company": "ГАУЗ Городская поликлиника №20",
+      "company_id": "1842117",
+      "company_url": "https://hh.ru/employer/1842117",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/916840.jpg",
+      "url": "https://hh.ru/vacancy/123709112",
+      "published_at": "2025-10-05T15:49:43+0300",
+      "created_at": "2025-10-05T15:49:43+0300",
+      "area": "Казань",
+      "salary": "от 40 000 RUR на руки",
+      "salary_raw": {
+        "from": 40000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Среднее специальное образование. Владение ОС Windows 7, 10 и Linux на уровне администратора. Знание офисного ПО. Знание аппаратной части ПК...",
+      "responsibility": "Обучение и консультация пользователей по вопросам использования программного обеспечения. Администрирование парка компьютеров. Установка, настройка офисного и сетевого оборудования.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125904313",
+      "name": "Системный администратор",
+      "company": "Российские железные дороги",
+      "company_id": "23427",
+      "company_url": "https://hh.ru/employer/23427",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/227200.gif",
+      "url": "https://hh.ru/vacancy/125904313",
+      "published_at": "2025-10-05T14:57:23+0300",
+      "created_at": "2025-10-05T14:57:23+0300",
+      "area": "Орск",
+      "salary": "68 000 - 68 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 68000,
+        "to": 68000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Образование не ниже среднего-профессионального (сетевое и системное администрирование, обеспечение и администрирование информационных систем, информационные системы и технологии).",
+      "responsibility": "Вести учет вычислительной техники. Осуществлять контроль за внедрением информационных технологий: Вести учет и внедрение электронных ключей, подготавливать документы на изготовление...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124939504",
+      "name": "Системный администратор",
+      "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
+      "company_id": "1864933",
+      "company_url": "https://hh.ru/employer/1864933",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/657972.png",
+      "url": "https://hh.ru/vacancy/124939504",
+      "published_at": "2025-10-05T14:46:20+0300",
+      "created_at": "2025-10-05T14:46:20+0300",
+      "area": "Орел",
+      "salary": "30 000 - 35 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 30000,
+        "to": 35000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование по профилю информационных систем и технологий. Знание устройства ПК, наличие опыта устранения технических неисправностей ПК. Умение подключать к...",
+      "responsibility": "Администрирование аппаратного обеспечения рабочих станций. Администрирование аппаратного обеспечения периферийного оборудования. Администрирование систем телефонии. Техническая поддержка проведения видеоконференций. Администрирование локальной вычислительной...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "125018816",
       "name": "Старший системный администратор",
@@ -3675,39 +3774,6 @@
       "employment": "Частичная занятость",
       "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
       "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125904313",
-      "name": "Системный администратор",
-      "company": "Российские железные дороги",
-      "company_id": "23427",
-      "company_url": "https://hh.ru/employer/23427",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/227200.gif",
-      "url": "https://hh.ru/vacancy/125904313",
-      "published_at": "2025-10-02T14:57:23+0300",
-      "created_at": "2025-10-02T14:57:23+0300",
-      "area": "Орск",
-      "salary": "68 000 - 68 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 68000,
-        "to": 68000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Образование не ниже среднего-профессионального (сетевое и системное администрирование, обеспечение и администрирование информационных систем, информационные системы и технологии).",
-      "responsibility": "Вести учет вычислительной техники. Осуществлять контроль за внедрением информационных технологий: Вести учет и внедрение электронных ключей, подготавливать документы на изготовление...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -22842,133 +22908,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": true
-    },
-    {
-      "id": "123709112",
-      "name": "Системный администратор (в подразделение ЖК Весна)",
-      "company": "ГАУЗ Городская поликлиника №20",
-      "company_id": "1842117",
-      "company_url": "https://hh.ru/employer/1842117",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/916840.jpg",
-      "url": "https://hh.ru/vacancy/123709112",
-      "published_at": "2025-09-05T15:49:42+0300",
-      "created_at": "2025-09-05T15:49:42+0300",
-      "area": "Казань",
-      "salary": "от 40 000 RUR на руки",
-      "salary_raw": {
-        "from": 40000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Среднее специальное образование. Владение ОС Windows 7, 10 и Linux на уровне администратора. Знание офисного ПО. Знание аппаратной части ПК...",
-      "responsibility": "Обучение и консультация пользователей по вопросам использования программного обеспечения. Администрирование парка компьютеров. Установка, настройка офисного и сетевого оборудования.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124941598",
-      "name": "Системный администратор",
-      "company": "Цифармед",
-      "company_id": "9307688",
-      "company_url": "https://hh.ru/employer/9307688",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1022473.png",
-      "url": "https://hh.ru/vacancy/124941598",
-      "published_at": "2025-09-05T15:20:32+0300",
-      "created_at": "2025-09-05T15:20:32+0300",
-      "area": "Липецк",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание ОС семейства Windows (установка, настройка, администрирование). Опыт сборки/разборки ПК, знание компьютерного железа. Опыт работы с системой видеонаблюдения приветствуется.",
-      "responsibility": "Настройка/Блочный ремонт ИТ оборудования. Учет ИТ оборудования. Оборудование АРМ. Монтаж ЛВС. Отправка/приемка ИТ оборудования.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124939504",
-      "name": "Системный администратор",
-      "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
-      "company_id": "1864933",
-      "company_url": "https://hh.ru/employer/1864933",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/657972.png",
-      "url": "https://hh.ru/vacancy/124939504",
-      "published_at": "2025-09-05T14:46:19+0300",
-      "created_at": "2025-09-05T14:46:19+0300",
-      "area": "Орел",
-      "salary": "30 000 - 35 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 30000,
-        "to": 35000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование по профилю информационных систем и технологий. Знание устройства ПК, наличие опыта устранения технических неисправностей ПК. Умение подключать к...",
-      "responsibility": "Администрирование аппаратного обеспечения рабочих станций. Администрирование аппаратного обеспечения периферийного оборудования. Администрирование систем телефонии. Техническая поддержка проведения видеоконференций. Администрирование локальной вычислительной...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124939484",
-      "name": "Системный администратор",
-      "company": "Ак Барс Банк",
-      "company_id": "47939",
-      "company_url": "https://hh.ru/employer/47939",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1416191.png",
-      "url": "https://hh.ru/vacancy/124939484",
-      "published_at": "2025-09-05T14:46:01+0300",
-      "created_at": "2025-09-05T14:46:01+0300",
-      "area": "Зеленодольск (Республика Татарстан)",
-      "salary": "от 55 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 55000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее/среднее профессиональное образование по направлению ИТ. Понимание принципов устройства устройств самообслуживания, POS-терминалов, ЛВС, АТС и инфраструктуры.",
-      "responsibility": "Поддерживать работоспособности локальной сети. Устранять проблемы, связанные с аппаратной частью, на персональных компьютерах сотрудников. Осуществлять установку, обновление и устранение неполадок...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
     }
   ]
 }
