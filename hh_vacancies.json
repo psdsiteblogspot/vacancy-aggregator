@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-06T18:30:43Z",
+  "updated": "2025-10-06T19:16:44Z",
   "statistics": {
     "total": 1320,
     "with_salary": 737,
@@ -20,6 +20,39 @@
     "with_test": 65
   },
   "vacancies": [
+    {
+      "id": "126129289",
+      "name": "Системный администратор",
+      "company": "Форвард Транс Сервис",
+      "company_id": "3345800",
+      "company_url": "https://hh.ru/employer/3345800",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/516248.jpg",
+      "url": "https://hh.ru/vacancy/126129289",
+      "published_at": "2025-10-06T21:41:13+0300",
+      "created_at": "2025-10-06T21:41:13+0300",
+      "area": "Санкт-Петербург",
+      "salary": "от 130 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 130000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Частичная занятость",
+      "requirement": "1С БУХ и ЗУП на уровне администратора. Уверенные знания SQL. Опыт работы с виртуализацией VMware ESXi 8.",
+      "responsibility": "Сопровождать 1С:Предприятие 8.3 (Бухгалтерия 3.0, ЗУП 3.0, Документооборот): установка и обновление платформы и типовой конфигураций...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "126211413",
       "name": "Системный администратор",
@@ -12623,39 +12656,6 @@
       "accept_temporary": false
     },
     {
-      "id": "126129289",
-      "name": "Системный администратор",
-      "company": "Форвард Транс Сервис",
-      "company_id": "3345800",
-      "company_url": "https://hh.ru/employer/3345800",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/516248.jpg",
-      "url": "https://hh.ru/vacancy/126129289",
-      "published_at": "2025-10-03T21:41:13+0300",
-      "created_at": "2025-10-03T21:41:13+0300",
-      "area": "Санкт-Петербург",
-      "salary": "от 130 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 130000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Частичная занятость",
-      "requirement": "1С БУХ и ЗУП на уровне администратора. Уверенные знания SQL. Опыт работы с виртуализацией VMware ESXi 8.",
-      "responsibility": "Сопровождать 1С:Предприятие 8.3 (Бухгалтерия 3.0, ЗУП 3.0, Документооборот): установка и обновление платформы и типовой конфигураций...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126126585",
       "name": "Системный администратор / Инженер IT",
       "company": "ОПУС-Контракт",
@@ -13863,16 +13863,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126114775",
+      "id": "126114776",
       "name": "Системный администратор",
       "company": "АЛ5",
       "company_id": "57302",
       "company_url": "https://hh.ru/employer/57302",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/445411.png",
-      "url": "https://hh.ru/vacancy/126114775",
+      "url": "https://hh.ru/vacancy/126114776",
       "published_at": "2025-10-03T14:14:00+0300",
       "created_at": "2025-10-03T14:14:00+0300",
-      "area": "Электросталь (Московская область)",
+      "area": "Ногинск (Московская область)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -13891,16 +13891,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126114776",
+      "id": "126114775",
       "name": "Системный администратор",
       "company": "АЛ5",
       "company_id": "57302",
       "company_url": "https://hh.ru/employer/57302",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/445411.png",
-      "url": "https://hh.ru/vacancy/126114776",
+      "url": "https://hh.ru/vacancy/126114775",
       "published_at": "2025-10-03T14:14:00+0300",
       "created_at": "2025-10-03T14:14:00+0300",
-      "area": "Ногинск (Московская область)",
+      "area": "Электросталь (Московская область)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -30961,7 +30961,7 @@
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "Базовые знания принципов работы сетей IP/Ethernet и основных сетевых протоколов. Знания ОС семейства Linux на уровне опытного пользователя.",
+      "requirement": "Базовые знания принципов работы сетей IP/Ethernet и основных сетевых протоколов. Знания ОС семейства Linux на уровне опытного пользователя (опыт...",
       "responsibility": "Участие в разработке ПО. Пуско-наладочные работы аппаратного и программного обеспечения на объектах заказчиков. Автоматизация процессов установки и настройки ПО...",
       "type": "Открытая",
       "professional_roles": [
