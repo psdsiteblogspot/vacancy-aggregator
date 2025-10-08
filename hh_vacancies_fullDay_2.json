@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-08T16:50:53Z",
+  "updated": "2025-10-08T17:47:49Z",
   "statistics": {
-    "total": 731,
-    "with_salary": 529,
-    "companies": 600,
-    "cities": 121,
+    "total": 732,
+    "with_salary": 530,
+    "companies": 601,
+    "cities": 122,
     "premium": 0,
     "with_test": 8
   },
   "vacancies": [
+    {
+      "id": "126332514",
+      "name": "Системный администратор",
+      "company": "Ликс-Лайн",
+      "company_id": "3294575",
+      "company_url": "https://hh.ru/employer/3294575",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/126332514",
+      "published_at": "2025-10-08T20:19:08+0300",
+      "created_at": "2025-10-08T20:19:08+0300",
+      "area": "Джанкой",
+      "salary": "от 60 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание компьютерной техники, желание обучаться.",
+      "responsibility": "Ремонт и обслуживание компьютерной техники, периферии и торгового оборудования.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "125672946",
       "name": "Системный администратор",
@@ -1967,39 +2000,6 @@
       "accept_temporary": false
     },
     {
-      "id": "126283861",
-      "name": "Системный администратор/специалист по установке ПО",
-      "company": "РеМо",
-      "company_id": "844534",
-      "company_url": "https://hh.ru/employer/844534",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/710828.png",
-      "url": "https://hh.ru/vacancy/126283861",
-      "published_at": "2025-10-08T07:47:10+0300",
-      "created_at": "2025-10-08T07:47:10+0300",
-      "area": "Саратов",
-      "salary": "от 50 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 50000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Нет опыта",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Практический опыт переустановки операционных систем. Ответственный подход к работе.",
-      "responsibility": "Переустановка Windows на Linux на компьютерах заказчика. Проверка работоспособности системы после установки.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Другое"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126283860",
       "name": "Системный администратор/специалист по установке ПО",
       "company": "РеМо",
@@ -2019,6 +2019,39 @@
       },
       "experience": "Нет опыта",
       "schedule": "Полный день",
+      "employment": "Частичная занятость",
+      "requirement": "Практический опыт переустановки операционных систем. Ответственный подход к работе.",
+      "responsibility": "Переустановка Windows на Linux на компьютерах заказчика. Проверка работоспособности системы после установки.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Другое"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126283861",
+      "name": "Системный администратор/специалист по установке ПО",
+      "company": "РеМо",
+      "company_id": "844534",
+      "company_url": "https://hh.ru/employer/844534",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/710828.png",
+      "url": "https://hh.ru/vacancy/126283861",
+      "published_at": "2025-10-08T07:47:10+0300",
+      "created_at": "2025-10-08T07:47:10+0300",
+      "area": "Саратов",
+      "salary": "от 50 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 50000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Гибкий график",
       "employment": "Частичная занятость",
       "requirement": "Практический опыт переустановки операционных систем. Ответственный подход к работе.",
       "responsibility": "Переустановка Windows на Linux на компьютерах заказчика. Проверка работоспособности системы после установки.",
