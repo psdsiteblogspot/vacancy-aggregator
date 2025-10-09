@@ -10,16 +10,176 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-09T05:20:44Z",
+  "updated": "2025-10-09T06:32:17Z",
   "statistics": {
     "total": 1336,
-    "with_salary": 740,
+    "with_salary": 739,
     "companies": 1087,
-    "cities": 69,
+    "cities": 68,
     "premium": 1,
     "with_test": 61
   },
   "vacancies": [
+    {
+      "id": "117872797",
+      "name": "Ведущий системный администратор Linux",
+      "company": "Московский прожекторный завод",
+      "company_id": "3534",
+      "company_url": "https://hh.ru/employer/3534",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/231922.png",
+      "url": "https://hh.ru/vacancy/117872797",
+      "published_at": "2025-10-09T09:25:33+0300",
+      "created_at": "2025-10-09T09:25:33+0300",
+      "area": "Москва",
+      "salary": "250 000 - 250 000 RUR на руки",
+      "salary_raw": {
+        "from": 250000,
+        "to": 250000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Администрирование операционных систем на базе Linux. Желателен опыт работы с RedOS, BaseALT, Astra. Знание и опыт работы с FreeIPA, Samba.",
+      "responsibility": "Установка, администрирование и настройка серверов и сервисов на Linux. Установка на серверы программного обеспечения, их конфигурирование, выявление ошибок в работе...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126341997",
+      "name": "Системный администратор Microsoft",
+      "company": "ГАЗИНФОРМСЕРВИС",
+      "company_id": "61166",
+      "company_url": "https://hh.ru/employer/61166",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/983613.png",
+      "url": "https://hh.ru/vacancy/126341997",
+      "published_at": "2025-10-09T09:07:04+0300",
+      "created_at": "2025-10-09T09:07:04+0300",
+      "area": "Санкт-Петербург",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Документирование задач и ведение базы знаний. Требования. ‒ Понимание основ ITIL, ITSM. ‒ Желание развиваться. Знания и опыт работы. MS Exchange.",
+      "responsibility": "Выполнение задач в роли 2 линии поддержки по ИТ системам. Malwarebytes Anti-Malware (MBAM). Microsoft Certificate Authority (MSCA).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122109722",
+      "name": "Ведущий системный администратор",
+      "company": "ГК «РОСОХРАНА»",
+      "company_id": "197216",
+      "company_url": "https://hh.ru/employer/197216",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1309533.png",
+      "url": "https://hh.ru/vacancy/122109722",
+      "published_at": "2025-10-09T09:04:12+0300",
+      "created_at": "2025-10-09T09:04:12+0300",
+      "area": "Санкт-Петербург",
+      "salary": "180 000 - 180 000 RUR на руки",
+      "salary_raw": {
+        "from": 180000,
+        "to": 180000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Более 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее профильное образование. Знание промышленных сред виртуализации на базе решений VMware vSphere, в том числе и в кластерах.",
+      "responsibility": "Реализация требований политики по информационной безопасности (требования по настройке серверов и рабочих станций). Наставничество системных администраторов в части решения сложных...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126159697",
+      "name": "Помощник системного администратора / младший системный администратор",
+      "company": "ТД В1 Электроникс",
+      "company_id": "231086",
+      "company_url": "https://hh.ru/employer/231086",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/126159697",
+      "published_at": "2025-10-09T09:04:02+0300",
+      "created_at": "2025-10-09T09:04:02+0300",
+      "area": "Москва",
+      "salary": "75 000 - 75 000 RUR на руки",
+      "salary_raw": {
+        "from": 75000,
+        "to": 75000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание аппаратной части ПК. Знание ОС Windows. Опыт прокладки СКС. DNS, DHCP, GPO, AD. Приветствуются: Навыки работы с OS Linux.",
+      "responsibility": "прием и обработка заявок и звонков от сотрудников (55 чел.). — настройка и устранение проблем компьютеров на Windows. — настройка и подключение...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126157969",
+      "name": "Младший системный администратор / Помощник системного администратора",
+      "company": "Континент",
+      "company_id": "2162669",
+      "company_url": "https://hh.ru/employer/2162669",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1322127.jpg",
+      "url": "https://hh.ru/vacancy/126157969",
+      "published_at": "2025-10-09T08:37:43+0300",
+      "created_at": "2025-10-09T08:37:43+0300",
+      "area": "Санкт-Петербург",
+      "salary": "от 70 000 RUR на руки",
+      "salary_raw": {
+        "from": 70000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание ОС семейство windows и *nix. Знание пакета MS Office на уровне уверенного пользователя. Опыт установки, настройки и диагностики ОС.",
+      "responsibility": "Работа с заявками пользователей. Консультирование сотрудников по работе с ПО. Установка и настройка ПО. Установка и настройка принтеров, сканеров, МФУ.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "125254039",
       "name": "Системный администратор",
@@ -3418,16 +3578,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126298780",
+      "id": "126298782",
       "name": "Системный администратор",
       "company": "SDSTART",
       "company_id": "3332859",
       "company_url": "https://hh.ru/employer/3332859",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1438860.png",
-      "url": "https://hh.ru/vacancy/126298780",
+      "url": "https://hh.ru/vacancy/126298782",
       "published_at": "2025-10-08T11:44:10+0300",
       "created_at": "2025-10-08T11:44:10+0300",
-      "area": "Пушкино (Московская область)",
+      "area": "Фрязино (Московская область)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -3446,16 +3606,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126298782",
+      "id": "126298780",
       "name": "Системный администратор",
       "company": "SDSTART",
       "company_id": "3332859",
       "company_url": "https://hh.ru/employer/3332859",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1438860.png",
-      "url": "https://hh.ru/vacancy/126298782",
+      "url": "https://hh.ru/vacancy/126298780",
       "published_at": "2025-10-08T11:44:10+0300",
       "created_at": "2025-10-08T11:44:10+0300",
-      "area": "Фрязино (Московская область)",
+      "area": "Пушкино (Московская область)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -4515,39 +4675,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы с MS Windows Server 2012/2016/2019, Linux. Опыт администрирования Active Directory, DNS, GPO, Exchange, RDS, MSSQL.",
       "responsibility": "Администрирование пользователей (создание, изменение, удаление, разграничение прав). Администрирование ЛВС (активное и пассивное оборудование). Администрирование серверов на базе Windows Server: 2012...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122109722",
-      "name": "Ведущий системный администратор",
-      "company": "ГК «РОСОХРАНА»",
-      "company_id": "197216",
-      "company_url": "https://hh.ru/employer/197216",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1309533.png",
-      "url": "https://hh.ru/vacancy/122109722",
-      "published_at": "2025-10-08T09:41:02+0300",
-      "created_at": "2025-10-08T09:41:02+0300",
-      "area": "Санкт-Петербург",
-      "salary": "180 000 - 180 000 RUR на руки",
-      "salary_raw": {
-        "from": 180000,
-        "to": 180000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Более 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее профильное образование. Знание промышленных сред виртуализации на базе решений VMware vSphere, в том числе и в кластерах.",
-      "responsibility": "Реализация требований политики по информационной безопасности (требования по настройке серверов и рабочих станций). Наставничество системных администраторов в части решения сложных...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -16832,39 +16959,6 @@
       "accept_temporary": false
     },
     {
-      "id": "126159697",
-      "name": "Помощник системного администратора / младший системный администратор",
-      "company": "ТД В1 Электроникс",
-      "company_id": "231086",
-      "company_url": "https://hh.ru/employer/231086",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/126159697",
-      "published_at": "2025-10-06T09:04:02+0300",
-      "created_at": "2025-10-06T09:04:02+0300",
-      "area": "Москва",
-      "salary": "75 000 - 75 000 RUR на руки",
-      "salary_raw": {
-        "from": 75000,
-        "to": 75000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание аппаратной части ПК. Знание ОС Windows. Опыт прокладки СКС. DNS, DHCP, GPO, AD. Приветствуются: Навыки работы с OS Linux.",
-      "responsibility": "прием и обработка заявок и звонков от сотрудников (55 чел.). — настройка и устранение проблем компьютеров на Windows. — настройка и подключение...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "123700990",
       "name": "Системный администратор",
       "company": "Газпром сеть АЗС",
@@ -16910,72 +17004,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт администрирования Windows-серверов (Active Directory, Terminal server, GPO, DNS, DHCP, CA, Print Server). Знание и опыт настройки сетевого оборудования...",
       "responsibility": "Основные задачи на этой позиции: настройка сетевого и серверного оборудования, техническая поддержка пользователей. В первое время вы будете заниматься настройкой...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "117872797",
-      "name": "Ведущий системный администратор Linux",
-      "company": "Московский прожекторный завод",
-      "company_id": "3534",
-      "company_url": "https://hh.ru/employer/3534",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/231922.png",
-      "url": "https://hh.ru/vacancy/117872797",
-      "published_at": "2025-10-06T08:55:33+0300",
-      "created_at": "2025-10-06T08:55:33+0300",
-      "area": "Москва",
-      "salary": "250 000 - 250 000 RUR на руки",
-      "salary_raw": {
-        "from": 250000,
-        "to": 250000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Администрирование операционных систем на базе Linux. Желателен опыт работы с RedOS, BaseALT, Astra. Знание и опыт работы с FreeIPA, Samba.",
-      "responsibility": "Установка, администрирование и настройка серверов и сервисов на Linux. Установка на серверы программного обеспечения, их конфигурирование, выявление ошибок в работе...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126157969",
-      "name": "Младший системный администратор / Помощник системного администратора",
-      "company": "Континент",
-      "company_id": "2162669",
-      "company_url": "https://hh.ru/employer/2162669",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1322127.jpg",
-      "url": "https://hh.ru/vacancy/126157969",
-      "published_at": "2025-10-06T08:37:43+0300",
-      "created_at": "2025-10-06T08:37:43+0300",
-      "area": "Санкт-Петербург",
-      "salary": "от 70 000 RUR на руки",
-      "salary_raw": {
-        "from": 70000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание ОС семейство windows и *nix. Знание пакета MS Office на уровне уверенного пользователя. Опыт установки, настройки и диагностики ОС.",
-      "responsibility": "Работа с заявками пользователей. Консультирование сотрудников по работе с ПО. Установка и настройка ПО. Установка и настройка принтеров, сканеров, МФУ.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -17096,10 +17124,10 @@
       "published_at": "2025-10-06T06:47:28+0300",
       "created_at": "2025-10-06T06:47:28+0300",
       "area": "Москва",
-      "salary": "120 000 - 150 000 RUR на руки",
+      "salary": "120 000 - 120 000 RUR на руки",
       "salary_raw": {
         "from": 120000,
-        "to": 150000,
+        "to": 120000,
         "currency": "RUR",
         "gross": false
       },
@@ -41088,39 +41116,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125079851",
-      "name": "Системный администратор",
-      "company": "ФГБУ Всероссийский центр карантина растений (ФГБУ ВНИИКР)",
-      "company_id": "2075271",
-      "company_url": "https://hh.ru/employer/2075271",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/909824.png",
-      "url": "https://hh.ru/vacancy/125079851",
-      "published_at": "2025-09-09T09:01:51+0300",
-      "created_at": "2025-09-09T09:01:51+0300",
-      "area": "Быково (Московская область)",
-      "salary": "от 200 000 RUR на руки",
-      "salary_raw": {
-        "from": 200000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знания Windows Server 2016-2022 на уровне администратора. Уверенные знания Active Directory (AD, DNS, DHCP, GPO, DFS и тд.).",
-      "responsibility": "Администрирование физических серверов, платформ виртуализации, сетевого оборудования, сервисов. Обеспечение бесперебойного функционирования инфраструктуры предприятия. Мониторинг инфраструктуры. Обновление программного обеспечения, обновление устройств...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Другое"
       ],
       "has_test": false,
       "premium": false,
