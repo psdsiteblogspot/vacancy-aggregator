@@ -10,16 +10,143 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-10T10:47:28Z",
+  "updated": "2025-10-10T11:43:43Z",
   "statistics": {
-    "total": 714,
-    "with_salary": 517,
+    "total": 716,
+    "with_salary": 520,
     "companies": 589,
     "cities": 122,
     "premium": 0,
     "with_test": 6
   },
   "vacancies": [
+    {
+      "id": "126408133",
+      "name": "Системный администратор",
+      "company": "Ак Барс Банк",
+      "company_id": "47939",
+      "company_url": "https://hh.ru/employer/47939",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1416191.png",
+      "url": "https://hh.ru/vacancy/126408133",
+      "published_at": "2025-10-10T14:27:06+0300",
+      "created_at": "2025-10-10T14:27:06+0300",
+      "area": "Казань",
+      "salary": "от 73 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 73000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в технической поддержке или в сопровождении. Понимание компьютерного железа.",
+      "responsibility": "Исполнять заявки на обслуживание и инциденты в рамках сопровождения рабочих мест. Устанавливать/исправлять неисправности в работе ОС и локального программного...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124700973",
+      "name": "Системный администратор",
+      "company": "ГК Фармасинтез",
+      "company_id": "829326",
+      "company_url": "https://hh.ru/employer/829326",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1125177.jpg",
+      "url": "https://hh.ru/vacancy/124700973",
+      "published_at": "2025-10-10T14:19:03+0300",
+      "created_at": "2025-10-10T14:19:03+0300",
+      "area": "Калуга",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "От 2–5 лет в роли системного администратора или в смежной области (например, техническая поддержка, IT-специалист). Опыт работы в...",
+      "responsibility": "Обеспечение настройки, обслуживания и технической поддержки пользовательского вычислительного оборудования (ПК, ноутбуки, принтеры) и копировально-множительной техники. Администрирование и поддержка сетевого...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126406397",
+      "name": "Системный администратор",
+      "company": "Ликс-Лайн",
+      "company_id": "3294575",
+      "company_url": "https://hh.ru/employer/3294575",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/126406397",
+      "published_at": "2025-10-10T14:03:12+0300",
+      "created_at": "2025-10-10T14:03:12+0300",
+      "area": "Севастополь",
+      "salary": "от 60 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание компьютерной техники, желание обучаться.",
+      "responsibility": "Ремонт и обслуживание компьютерной техники, периферии и торгового оборудования.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126406316",
+      "name": "Системный администратор",
+      "company": "ГК Александровский Парк",
+      "company_id": "5246571",
+      "company_url": "https://hh.ru/employer/5246571",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1400476.png",
+      "url": "https://hh.ru/vacancy/126406316",
+      "published_at": "2025-10-10T14:02:06+0300",
+      "created_at": "2025-10-10T14:02:06+0300",
+      "area": "Ульяновск",
+      "salary": "до 55 000 RUR на руки",
+      "salary_raw": {
+        "from": null,
+        "to": 55000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы системным администратором от 2 лет. Знание протоколов и сетевых сервисов VPN, RDP, DNS, AD, GPO. Опыт пуско-наладки...",
+      "responsibility": "Администрирование IT - инфраструктуры: сервера на базе Windows, Hyper-V. Администрирование специализированного ПО (ППС Datakrat Bars, Micros fidelio suite 8, R...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "126403007",
       "name": "Системный администратор",
@@ -4854,10 +4981,10 @@
         "currency": "RUR",
         "gross": true
       },
-      "experience": "Нет опыта",
+      "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "Высшее образование. Опытный пользователь ПК. Навыки работы с серверами и рабочими станциями.",
+      "requirement": "Высшее образование ОБЯЗАТЕЛЬНО. Опытный пользователь ПК. Навыки работы с серверами и рабочими станциями.",
       "responsibility": "Обеспечение бесперебойной работы компьютерной и оргтехники в учреждение. Предоставление прямой связи между компьютерами, наладка локальной сети. Установка компьютерных программ, работа...",
       "type": "Открытая",
       "professional_roles": [
@@ -7183,34 +7310,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы от 1 до 3 лет в аналогичной должности. Знание операционных систем Windows 7-11 и Linux.",
       "responsibility": "Поддержка и администрирование серверов и сетевого оборудования. Обеспечение безопасности и защиты данных компании. Настройка и поддержка рабочих станций сотрудников.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124700973",
-      "name": "Системный администратор",
-      "company": "ГК Фармасинтез",
-      "company_id": "829326",
-      "company_url": "https://hh.ru/employer/829326",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1125177.jpg",
-      "url": "https://hh.ru/vacancy/124700973",
-      "published_at": "2025-10-06T14:24:03+0300",
-      "created_at": "2025-10-06T14:24:03+0300",
-      "area": "Калуга",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "От 2–5 лет в роли системного администратора или в смежной области (например, техническая поддержка, IT-специалист). Опыт работы в...",
-      "responsibility": "Обеспечение настройки, обслуживания и технической поддержки пользовательского вычислительного оборудования (ПК, ноутбуки, принтеры) и копировально-множительной техники. Администрирование и поддержка сетевого...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -21311,7 +21410,7 @@
     },
     {
       "id": "120684054",
-      "name": "Системный администратор ПО/БД",
+      "name": "SRE junior/middle",
       "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
       "company_id": "1864933",
       "company_url": "https://hh.ru/employer/1864933",
@@ -22568,34 +22667,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": false
-    },
-    {
-      "id": "125155978",
-      "name": "Системный администратор",
-      "company": "TeamLead",
-      "company_id": "3453803",
-      "company_url": "https://hh.ru/employer/3453803",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1404476.png",
-      "url": "https://hh.ru/vacancy/125155978",
-      "published_at": "2025-09-10T13:45:00+0300",
-      "created_at": "2025-09-10T13:45:00+0300",
-      "area": "Нижний Новгород",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы системным администратором от 1 года. Глубокие знания и практический опыт работы с MikroTik (роутинг, firewall, VPN).",
-      "responsibility": "Администрирование и поддержка сетевой инфраструктуры (акцент на оборудование MikroTik). Настройка и обслуживание VPN, проброс портов, обеспечение сетевой безопасности.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
     }
   ]
 }
