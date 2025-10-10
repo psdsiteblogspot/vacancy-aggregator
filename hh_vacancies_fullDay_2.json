@@ -10,16 +10,143 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-10T05:45:20Z",
+  "updated": "2025-10-10T06:53:43Z",
   "statistics": {
-    "total": 711,
-    "with_salary": 513,
-    "companies": 586,
+    "total": 713,
+    "with_salary": 515,
+    "companies": 587,
     "cities": 122,
     "premium": 0,
     "with_test": 7
   },
   "vacancies": [
+    {
+      "id": "126386897",
+      "name": "Системный администратор",
+      "company": "ВОГ, Торговая компания",
+      "company_id": "90597",
+      "company_url": "https://hh.ru/employer/90597",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1405867.png",
+      "url": "https://hh.ru/vacancy/126386897",
+      "published_at": "2025-10-10T09:48:35+0300",
+      "created_at": "2025-10-10T09:48:35+0300",
+      "area": "Симферополь",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Диагностика неисправностей ПК и ОС Windows. Уверенная работа в MS Office.",
+      "responsibility": "Установка и настройка ОС Windows и сопутствующих программ. Выявления неисправностей сети (мелкий ремонт без применения строительных инструментов). Обслуживание (поддержание в...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
+      "id": "124120595",
+      "name": "Системный администратор / IT - специалист",
+      "company": "ККМ.ЦЕНТР",
+      "company_id": "3437044",
+      "company_url": "https://hh.ru/employer/3437044",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/532795.jpg",
+      "url": "https://hh.ru/vacancy/124120595",
+      "published_at": "2025-10-10T09:33:44+0300",
+      "created_at": "2025-10-10T09:33:44+0300",
+      "area": "Липецк",
+      "salary": "50 000 - 76 000 RUR на руки",
+      "salary_raw": {
+        "from": 50000,
+        "to": 76000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Уверенное знание ОС Windows и прикладных программ. Опыт работы с компьютерами (сборка, настройка). Знание основ электроники.",
+      "responsibility": "Обнаружение/устранение аппаратных и программных сбоев ПК. Сопровождение и поддержка ПК и ПО. Настройка и сопровождение 1С.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126385425",
+      "name": "Системный администратор",
+      "company": "Европа, Торговая сеть",
+      "company_id": "200686",
+      "company_url": "https://hh.ru/employer/200686",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1411329.png",
+      "url": "https://hh.ru/vacancy/126385425",
+      "published_at": "2025-10-10T09:21:24+0300",
+      "created_at": "2025-10-10T09:21:24+0300",
+      "area": "Белгород",
+      "salary": "60 000 - 62 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 60000,
+        "to": 62000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Высшее профильное образование. Опыт работы в программе 1С 7.7 и в розничной торговле приветствуется. Желателен опыт работы по...",
+      "responsibility": "Выполнять поручения и задания руководителя , касающиеся должностных обязанностей системного администратора, а также функций и задач подразделений. Контроль AD.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125474641",
+      "name": "Системный администратор",
+      "company": "МКУ Ресурсный центр дошкольного образования",
+      "company_id": "10380752",
+      "company_url": "https://hh.ru/employer/10380752",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/125474641",
+      "published_at": "2025-10-10T09:00:15+0300",
+      "created_at": "2025-10-10T09:00:15+0300",
+      "area": "Тамбов",
+      "salary": "от 40 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 40000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее или среднее профессиональное образование (по профилю). Ответственность.",
+      "responsibility": "Техническое обслуживание компьютерной и оргтехники, серверного оборудования. Организовывать удаленный доступ к внутренним информационным ресурсам обслуживаемых учреждений. Реализовать комплекс организационных, технических...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "123808798",
       "name": "Системный администратор",
@@ -5571,16 +5698,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126228400",
+      "id": "126228401",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/126228400",
+      "url": "https://hh.ru/vacancy/126228401",
       "published_at": "2025-10-07T10:21:15+0300",
       "created_at": "2025-10-07T10:21:15+0300",
-      "area": "Добринка",
+      "area": "Задонск",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -5604,16 +5731,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126228401",
+      "id": "126228400",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/126228401",
+      "url": "https://hh.ru/vacancy/126228400",
       "published_at": "2025-10-07T10:21:15+0300",
       "created_at": "2025-10-07T10:21:15+0300",
-      "area": "Задонск",
+      "area": "Добринка",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -6361,8 +6488,13 @@
       "published_at": "2025-10-06T17:03:58+0300",
       "created_at": "2025-10-06T17:03:58+0300",
       "area": "Казань",
-      "salary": "не указана",
-      "salary_raw": null,
+      "salary": "73 800 - 73 800 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 73800,
+        "to": 73800,
+        "currency": "RUR",
+        "gross": true
+      },
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
@@ -7090,39 +7222,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Специалист по информационной безопасности"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124120595",
-      "name": "Системный администратор / IT - специалист",
-      "company": "ККМ.ЦЕНТР",
-      "company_id": "3437044",
-      "company_url": "https://hh.ru/employer/3437044",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/532795.jpg",
-      "url": "https://hh.ru/vacancy/124120595",
-      "published_at": "2025-10-06T11:16:17+0300",
-      "created_at": "2025-10-06T11:16:17+0300",
-      "area": "Липецк",
-      "salary": "48 000 - 76 000 RUR на руки",
-      "salary_raw": {
-        "from": 48000,
-        "to": 76000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Уверенное знание ОС Windows и прикладных программ. Опыт работы с компьютерами (сборка, настройка). Знание основ электроники.",
-      "responsibility": "Обнаружение/устранение аппаратных и программных сбоев ПК. Сопровождение и поддержка ПК и ПО. Настройка и сопровождение 1С.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
       ],
       "has_test": false,
       "premium": false,
@@ -11819,16 +11918,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125932126",
+      "id": "125932128",
       "name": "Системный администратор (Якутия)",
       "company": "Артель старателей Дражник",
       "company_id": "1031898",
       "company_url": "https://hh.ru/employer/1031898",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1467399.png",
-      "url": "https://hh.ru/vacancy/125932126",
+      "url": "https://hh.ru/vacancy/125932128",
       "published_at": "2025-09-30T06:52:23+0300",
       "created_at": "2025-09-30T06:52:23+0300",
-      "area": "Хабаровск",
+      "area": "Луганск",
       "salary": "до 180 000 RUR на руки",
       "salary_raw": {
         "from": null,
@@ -11852,16 +11951,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125932128",
+      "id": "125932126",
       "name": "Системный администратор (Якутия)",
       "company": "Артель старателей Дражник",
       "company_id": "1031898",
       "company_url": "https://hh.ru/employer/1031898",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1467399.png",
-      "url": "https://hh.ru/vacancy/125932128",
+      "url": "https://hh.ru/vacancy/125932126",
       "published_at": "2025-09-30T06:52:23+0300",
       "created_at": "2025-09-30T06:52:23+0300",
-      "area": "Луганск",
+      "area": "Хабаровск",
       "salary": "до 180 000 RUR на руки",
       "salary_raw": {
         "from": null,
@@ -18565,39 +18664,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": true
-    },
-    {
-      "id": "125474641",
-      "name": "Системный администратор",
-      "company": "МКУ Ресурсный центр дошкольного образования",
-      "company_id": "10380752",
-      "company_url": "https://hh.ru/employer/10380752",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/125474641",
-      "published_at": "2025-09-18T11:22:01+0300",
-      "created_at": "2025-09-18T11:22:01+0300",
-      "area": "Тамбов",
-      "salary": "от 40 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 40000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее или среднее профессиональное образование (по профилю). Ответственность.",
-      "responsibility": "Техническое обслуживание компьютерной и оргтехники, серверного оборудования. Организовывать удаленный доступ к внутренним информационным ресурсам обслуживаемых учреждений. Реализовать комплекс организационных, технических...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
     },
     {
       "id": "125472999",
