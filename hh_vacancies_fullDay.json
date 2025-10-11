@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-11T13:32:32Z",
+  "updated": "2025-10-11T14:30:38Z",
   "statistics": {
-    "total": 899,
-    "with_salary": 654,
-    "companies": 699,
+    "total": 897,
+    "with_salary": 652,
+    "companies": 697,
     "cities": 195,
     "premium": 0,
     "with_test": 14
   },
   "vacancies": [
+    {
+      "id": "125852978",
+      "name": "Системный администратор",
+      "company": "ГАУК СО Свердловский государственный академический театр драмы",
+      "company_id": "1689459",
+      "company_url": "https://hh.ru/employer/1689459",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/125852978",
+      "published_at": "2025-10-11T17:14:17+0300",
+      "created_at": "2025-10-11T17:14:17+0300",
+      "area": "Екатеринбург",
+      "salary": "от 42 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 42000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "",
+      "responsibility": "Устанавливать на серверы и рабочие станции операционные системы и необходимое для работы программное обеспечение. - Осуществлять конфигурацию программного обеспечения на серверах...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "125443307",
       "name": "Системный администратор",
@@ -6685,39 +6718,6 @@
       "employment": "Полная занятость",
       "requirement": "ВЫСОКИЙ УРОВЕНЬ ДОХОДА, который соответствует уровню твоей квалификации и опыту. Экспертные знания в работе с Windows и Linux.",
       "responsibility": "Что предстоит делать: - Поддерживать и развивать ИТ-инфраструктуру предприятий. - ️ Повышать надежность и доступность ИТ-сервисов компании. - Разрабатывать и внедрять процедуры...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125852978",
-      "name": "Системный администратор",
-      "company": "ГАУК СО Свердловский государственный академический театр драмы",
-      "company_id": "1689459",
-      "company_url": "https://hh.ru/employer/1689459",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/125852978",
-      "published_at": "2025-10-08T17:14:17+0300",
-      "created_at": "2025-10-08T17:14:17+0300",
-      "area": "Екатеринбург",
-      "salary": "от 42 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 42000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "Устанавливать на серверы и рабочие станции операционные системы и необходимое для работы программное обеспечение. - Осуществлять конфигурацию программного обеспечения на серверах...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -18689,16 +18689,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125834307",
+      "id": "125834308",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/125834307",
+      "url": "https://hh.ru/vacancy/125834308",
       "published_at": "2025-09-26T11:26:12+0300",
       "created_at": "2025-09-26T11:26:12+0300",
-      "area": "Сыктывкар",
+      "area": "Кондопога",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -18717,16 +18717,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125834308",
+      "id": "125834307",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/125834308",
+      "url": "https://hh.ru/vacancy/125834307",
       "published_at": "2025-09-26T11:26:12+0300",
       "created_at": "2025-09-26T11:26:12+0300",
-      "area": "Кондопога",
+      "area": "Сыктывкар",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -28386,72 +28386,6 @@
       "employment": "Полная занятость",
       "requirement": "Экспертные знания linux систем. Опыт администрирования linux систем. Глубокое понимание принципов работы DNS. Опыт администрирования DNS серверов (BIND, PowerDNS или...",
       "responsibility": "Сопровождение высоконагруженного сервиса разрешения имен. Развитие сервиса разрешения имен. Написание технической документации. Участие в развитии команды, наставничество.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125244605",
-      "name": "Сетевой администратор/Системный администратор",
-      "company": "Объединение РОСИНКАС",
-      "company_id": "125886",
-      "company_url": "https://hh.ru/employer/125886",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/204826.png",
-      "url": "https://hh.ru/vacancy/125244605",
-      "published_at": "2025-09-11T17:15:22+0300",
-      "created_at": "2025-09-11T17:15:22+0300",
-      "area": "Владикавказ",
-      "salary": "30 000 - 60 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 30000,
-        "to": 60000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в территориально-распределенных компаниях в должности системного администратора не менее одного года. Понимание работы стека TCP/IP.",
-      "responsibility": "Поддержка и развитие серверной и сетевой инфраструктуры. Управление корпоративной сетью передачи данных (оборудование Cisco, HP, Huawei) . Проведение регламентных работ.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Сетевой инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125243798",
-      "name": "Системный администратор",
-      "company": "Энергоремонт",
-      "company_id": "5771871",
-      "company_url": "https://hh.ru/employer/5771871",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/125243798",
-      "published_at": "2025-09-11T16:56:42+0300",
-      "created_at": "2025-09-11T16:56:42+0300",
-      "area": "Уфа",
-      "salary": "155 000 - 207 000 RUR на руки",
-      "salary_raw": {
-        "from": 155000,
-        "to": 207000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Вахтовый метод",
-      "employment": "Полная занятость",
-      "requirement": "Уверенное знание операционных систем (Windows Server 2003/2019, Windows XP/11). Знание систем виртуализации (Hyper-V, VMware, KVM).",
-      "responsibility": "Администрирование Серверов на базе ОС Windows Server 2003 – 2019, включая сервера в зоне DMZ. Администрирование, техническое сопровождение и консультация РМ...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
