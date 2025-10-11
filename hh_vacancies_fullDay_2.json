@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-11T13:01:32Z",
+  "updated": "2025-10-11T13:44:04Z",
   "statistics": {
-    "total": 721,
-    "with_salary": 523,
-    "companies": 591,
+    "total": 718,
+    "with_salary": 520,
+    "companies": 589,
     "cities": 122,
     "premium": 0,
     "with_test": 6
   },
   "vacancies": [
+    {
+      "id": "125657894",
+      "name": "Начинающий системный администратор",
+      "company": "NEXT Contact",
+      "company_id": "2848751",
+      "company_url": "https://hh.ru/employer/2848751",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1398708.png",
+      "url": "https://hh.ru/vacancy/125657894",
+      "published_at": "2025-10-11T16:12:15+0300",
+      "created_at": "2025-10-11T16:12:15+0300",
+      "area": "Энгельс",
+      "salary": "от 34 750 RUR на руки",
+      "salary_raw": {
+        "from": 34750,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Знание устройства ПК. Знание AD, DHCP, DNS. Иметь представление о сетях, сетевом оборудовании (желательно). Опыт администрирования рабочих станций на Windows...",
+      "responsibility": "Диагностика и решение проблем с ПК и программами. Техническая поддержка сотрудников офиса.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "125904313",
       "name": "Системный администратор",
@@ -1013,39 +1046,6 @@
       "employment": "Полная занятость",
       "requirement": "Понимание принципов устройства сетей, маршрутизации, работы сетевых протоколов. Опыт работы с RDP, DHCP, DNS, VPN. Умение адаптироваться в сложных ситуациях...",
       "responsibility": "Базовое администрирование Windows, Linux, Active Directory. Организация рабочих мест сотрудников. Предоставление удаленных доступов, подключений RDP. Поддержание актуальности ПО (антивирус, КриптопроCSP).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125657894",
-      "name": "Начинающий системный администратор",
-      "company": "NEXT Contact",
-      "company_id": "2848751",
-      "company_url": "https://hh.ru/employer/2848751",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1398708.png",
-      "url": "https://hh.ru/vacancy/125657894",
-      "published_at": "2025-10-10T16:12:09+0300",
-      "created_at": "2025-10-10T16:12:09+0300",
-      "area": "Энгельс",
-      "salary": "от 34 750 RUR на руки",
-      "salary_raw": {
-        "from": 34750,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "Знание устройства ПК. Знание AD, DHCP, DNS. Иметь представление о сетях, сетевом оборудовании (желательно). Опыт администрирования рабочих станций на Windows...",
-      "responsibility": "Диагностика и решение проблем с ПК и программами. Техническая поддержка сотрудников офиса.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -22714,105 +22714,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее или средне-специальное образование (техническое). Опыт работы от 1 года. Навыки администрирования ОС Linux, Unix-систем. Знание принципов работы...",
       "responsibility": "Настройка и поддержание работоспособности рабочих мест и офисного оборудования. Администрирование серверов Linux. Поддержка пользователей и пр.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124227268",
-      "name": "Ведущий системный администратор",
-      "company": "Ак Барс Банк",
-      "company_id": "47939",
-      "company_url": "https://hh.ru/employer/47939",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1416191.png",
-      "url": "https://hh.ru/vacancy/124227268",
-      "published_at": "2025-09-11T16:17:04+0300",
-      "created_at": "2025-09-11T16:17:04+0300",
-      "area": "Казань",
-      "salary": "от 140 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 140000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование в области информационных технологий или смежных областях. Опыт работы системным администратором не менее 3 лет. Уверенные знания и...",
-      "responsibility": "Управлять инфраструктурой Remote Desktop Session (RDS). Администрировать серверы под управлением Windows Server и Linux. Распределять задачи внутри команды системных администраторов...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125237911",
-      "name": "Системный администратор",
-      "company": "Смарт-Софт",
-      "company_id": "11203900",
-      "company_url": "https://hh.ru/employer/11203900",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/125237911",
-      "published_at": "2025-09-11T16:12:04+0300",
-      "created_at": "2025-09-11T16:12:04+0300",
-      "area": "Кострома",
-      "salary": "40 000 - 90 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 40000,
-        "to": 90000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Операционные системы: глубокие знания Windows, опыт администрирования. Желателен опыт администрирования Linux. Сетевые технологии: понимание базовых принципов работы коммутаторов и маршрутизаторов.",
-      "responsibility": "Администрирование систем: обслуживание и поддержка работоспособности IT-инфраструктуры. Техническая поддержка: консультирование сотрудников, решение возникающих проблем. Удалённая работа: диагностика и устранение...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125237763",
-      "name": "Системный администратор",
-      "company": "Корпоративные информационные технологии",
-      "company_id": "89998",
-      "company_url": "https://hh.ru/employer/89998",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1160473.jpg",
-      "url": "https://hh.ru/vacancy/125237763",
-      "published_at": "2025-09-11T16:11:12+0300",
-      "created_at": "2025-09-11T16:11:12+0300",
-      "area": "Ижевск",
-      "salary": "от 70 000 RUR на руки",
-      "salary_raw": {
-        "from": 70000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт администрирования продуктов 1С (установка, обновления, резервное копирование, настройка прав доступа). Навыки работы с СУБД (MS SQL, PostgreSQL).",
-      "responsibility": "Поддерживать и развивать ИТ-инфраструктуру компании: рабочие станции, серверы, сетевое оборудование, базы данных. Администрировать и оптимизировать производительность серверов 1С.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
