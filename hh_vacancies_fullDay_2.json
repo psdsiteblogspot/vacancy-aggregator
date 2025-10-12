@@ -10,16 +10,44 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-12T14:43:47Z",
+  "updated": "2025-10-12T15:43:57Z",
   "statistics": {
     "total": 702,
-    "with_salary": 509,
+    "with_salary": 508,
     "companies": 575,
     "cities": 118,
     "premium": 0,
-    "with_test": 6
+    "with_test": 7
   },
   "vacancies": [
+    {
+      "id": "126435661",
+      "name": "Системный администратор (Devops)",
+      "company": "Газпром нефть",
+      "company_id": "39305",
+      "company_url": "https://hh.ru/employer/39305",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1448441.png",
+      "url": "https://hh.ru/vacancy/126435661",
+      "published_at": "2025-10-12T17:44:14+0300",
+      "created_at": "2025-10-12T17:44:14+0300",
+      "area": "Воронеж",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Имеешь знание Docker. Опыт работы с Kubernetes, OpenShift, знание Helm для управления чартами. Базовое знание Linux. Опыт работы с Apache...",
+      "responsibility": "Консультирование пользователя по штатному функционалу системы, принятому на сервис, в рамках имеющихся инструкций к системе. Корректировка данных по запросу пользователей.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": true,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "126204679",
       "name": "Системный администратор",
@@ -11278,10 +11306,10 @@
       "published_at": "2025-10-01T15:55:03+0300",
       "created_at": "2025-10-01T15:55:03+0300",
       "area": "Тула",
-      "salary": "от 80 000 RUR на руки",
+      "salary": "80 000 - 90 000 RUR на руки",
       "salary_raw": {
         "from": 80000,
-        "to": null,
+        "to": 90000,
         "currency": "RUR",
         "gross": false
       },
@@ -22178,39 +22206,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее образование. Опыт работы на аналогичных позициях не менее 3 лет. Уверенные знания серверных технологий Microsoft (уровень MCSE) – Windows Server...",
       "responsibility": "Установка, настройка и поддержка ОС (Windows 10, Windows Server, Linux). Обслуживание виртуальных машин (VMware, Hyper-V, KVM). Мониторинг и оптимизация...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124026337",
-      "name": "Системный администратор",
-      "company": "ЖИВАГО БАНК",
-      "company_id": "2339141",
-      "company_url": "https://hh.ru/employer/2339141",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/600262.png",
-      "url": "https://hh.ru/vacancy/124026337",
-      "published_at": "2025-09-12T17:48:37+0300",
-      "created_at": "2025-09-12T17:48:37+0300",
-      "area": "Рязань",
-      "salary": "от 69 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 69000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание и навыки администрирования операционных систем семейства Windows Server и Linux. Опыт администрирования активного сетевого оборудования (маршрутизаторы, коммутаторы, точки доступа).",
-      "responsibility": "Администрирование серверного и прикладного ПО банка, интернет-сервисов, систем виртуализации. Администрирование систем резервного копирования. Мониторинг работы сети, настройка и обслуживание...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
