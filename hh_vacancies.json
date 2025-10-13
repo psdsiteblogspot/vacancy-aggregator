@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-13T19:16:16Z",
+  "updated": "2025-10-13T20:23:30Z",
   "statistics": {
-    "total": 1319,
-    "with_salary": 738,
-    "companies": 1073,
+    "total": 1320,
+    "with_salary": 739,
+    "companies": 1074,
     "cities": 68,
     "premium": 2,
     "with_test": 61
   },
   "vacancies": [
+    {
+      "id": "125548037",
+      "name": "Системный администратор Linux",
+      "company": "МСН Телеком",
+      "company_id": "17866",
+      "company_url": "https://hh.ru/employer/17866",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/468988.png",
+      "url": "https://hh.ru/vacancy/125548037",
+      "published_at": "2025-10-13T23:09:18+0300",
+      "created_at": "2025-10-13T23:09:18+0300",
+      "area": "Москва",
+      "salary": "150 000 - 250 000 RUR на руки",
+      "salary_raw": {
+        "from": 150000,
+        "to": 250000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы системным администратором/Devops. Предпочтения работать в офисе, а не на удаленке. Практический опыт автоматизации с помощью Ansible и...",
+      "responsibility": "Операционные системы: Системное администрирование Linux (Ubunta, Centos): Управление пользователями и правами доступа Keycloack, FreeIPA. Работа с файловыми системами, хранилищами S...",
+      "type": "Открытая",
+      "professional_roles": [
+        "DevOps-инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126489660",
+      "name": "Системный администратор",
+      "company": "Лаборатория Чебышева",
+      "company_id": "12368099",
+      "company_url": "https://hh.ru/employer/12368099",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/126489660",
+      "published_at": "2025-10-13T22:52:59+0300",
+      "created_at": "2025-10-13T22:52:59+0300",
+      "area": "Санкт-Петербург",
+      "salary": "от 120 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 120000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Полная занятость",
+      "requirement": "Высшее или среднее профессиональное образование в области информационных технологий. Владение основами администрирования Linux. Владение основами организации компьютерных сетей, TCP/IP.",
+      "responsibility": "Администрирование рабочих станций и серверов на базе Linux. Установка и замена аппаратных компонентов. Диагностика неисправностей. Установка ОС и ПО.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "125547537",
       "name": "SRE/System Administrator",
@@ -12641,39 +12707,6 @@
       "accept_temporary": false
     },
     {
-      "id": "125548037",
-      "name": "Системный администратор Linux",
-      "company": "МСН Телеком",
-      "company_id": "17866",
-      "company_url": "https://hh.ru/employer/17866",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/468988.png",
-      "url": "https://hh.ru/vacancy/125548037",
-      "published_at": "2025-10-10T23:09:18+0300",
-      "created_at": "2025-10-10T23:09:18+0300",
-      "area": "Москва",
-      "salary": "150 000 - 250 000 RUR на руки",
-      "salary_raw": {
-        "from": 150000,
-        "to": 250000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы системным администратором/Devops. Предпочтения работать в офисе, а не на удаленке. Практический опыт автоматизации с помощью Ansible и...",
-      "responsibility": "Операционные системы: Системное администрирование Linux (Ubunta, Centos): Управление пользователями и правами доступа Keycloack, FreeIPA. Работа с файловыми системами, хранилищами S...",
-      "type": "Открытая",
-      "professional_roles": [
-        "DevOps-инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126421224",
       "name": "Системный администратор iiko",
       "company": "Ice Beru",
@@ -18984,16 +19017,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126236253",
+      "id": "126236254",
       "name": "Специалист технической поддержки / Технический специалист / Системный администратор",
       "company": "МАСТЕРФУД",
       "company_id": "20465",
       "company_url": "https://hh.ru/employer/20465",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1442946.png",
-      "url": "https://hh.ru/vacancy/126236253",
+      "url": "https://hh.ru/vacancy/126236254",
       "published_at": "2025-10-07T11:38:33+0300",
       "created_at": "2025-10-07T11:38:33+0300",
-      "area": "Подольск (Московская область)",
+      "area": "Домодедово (Московская область)",
       "salary": "от 138 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 138000,
@@ -19017,16 +19050,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126236254",
+      "id": "126236253",
       "name": "Специалист технической поддержки / Технический специалист / Системный администратор",
       "company": "МАСТЕРФУД",
       "company_id": "20465",
       "company_url": "https://hh.ru/employer/20465",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1442946.png",
-      "url": "https://hh.ru/vacancy/126236254",
+      "url": "https://hh.ru/vacancy/126236253",
       "published_at": "2025-10-07T11:38:33+0300",
       "created_at": "2025-10-07T11:38:33+0300",
-      "area": "Домодедово (Московская область)",
+      "area": "Подольск (Московская область)",
       "salary": "от 138 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 138000,
@@ -25213,16 +25246,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126050501",
+      "id": "126050500",
       "name": "Системный администратор",
       "company": "Проектная Мастерская Янушкевич",
       "company_id": "5022851",
       "company_url": "https://hh.ru/employer/5022851",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/4272386.png",
-      "url": "https://hh.ru/vacancy/126050501",
+      "url": "https://hh.ru/vacancy/126050500",
       "published_at": "2025-10-02T10:14:35+0300",
       "created_at": "2025-10-02T10:14:35+0300",
-      "area": "Фрязино (Московская область)",
+      "area": "Лосино-Петровский  (Московская область)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -25241,16 +25274,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126050500",
+      "id": "126050501",
       "name": "Системный администратор",
       "company": "Проектная Мастерская Янушкевич",
       "company_id": "5022851",
       "company_url": "https://hh.ru/employer/5022851",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/4272386.png",
-      "url": "https://hh.ru/vacancy/126050500",
+      "url": "https://hh.ru/vacancy/126050501",
       "published_at": "2025-10-02T10:14:35+0300",
       "created_at": "2025-10-02T10:14:35+0300",
-      "area": "Лосино-Петровский  (Московская область)",
+      "area": "Фрязино (Московская область)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -34914,16 +34947,16 @@
       "accept_temporary": true
     },
     {
-      "id": "125611806",
+      "id": "125611808",
       "name": "Ведущий системный администратор/Системный администратор/IT специалист",
       "company": "RGW",
       "company_id": "3856969",
       "company_url": "https://hh.ru/employer/3856969",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/909741.png",
-      "url": "https://hh.ru/vacancy/125611806",
+      "url": "https://hh.ru/vacancy/125611808",
       "published_at": "2025-09-22T14:54:51+0300",
       "created_at": "2025-09-22T14:54:51+0300",
-      "area": "Щербинка (Московская область)",
+      "area": "Видное (Московская область)",
       "salary": "от 200 000 RUR на руки",
       "salary_raw": {
         "from": 200000,
@@ -34947,16 +34980,16 @@
       "accept_temporary": true
     },
     {
-      "id": "125611808",
+      "id": "125611806",
       "name": "Ведущий системный администратор/Системный администратор/IT специалист",
       "company": "RGW",
       "company_id": "3856969",
       "company_url": "https://hh.ru/employer/3856969",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/909741.png",
-      "url": "https://hh.ru/vacancy/125611808",
+      "url": "https://hh.ru/vacancy/125611806",
       "published_at": "2025-09-22T14:54:51+0300",
       "created_at": "2025-09-22T14:54:51+0300",
-      "area": "Видное (Московская область)",
+      "area": "Щербинка (Московская область)",
       "salary": "от 200 000 RUR на руки",
       "salary_raw": {
         "from": 200000,
@@ -35768,16 +35801,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125566321",
+      "id": "125566323",
       "name": "Системный администратор",
       "company": "ДСК АВТОБАН",
       "company_id": "184497",
       "company_url": "https://hh.ru/employer/184497",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/709896.PNG",
-      "url": "https://hh.ru/vacancy/125566321",
+      "url": "https://hh.ru/vacancy/125566323",
       "published_at": "2025-09-21T14:43:01+0300",
       "created_at": "2025-09-21T14:43:01+0300",
-      "area": "Москва",
+      "area": "Серпухов (Московская область)",
       "salary": "90 000 - 110 000 RUR на руки",
       "salary_raw": {
         "from": 90000,
@@ -35801,16 +35834,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125566323",
+      "id": "125566321",
       "name": "Системный администратор",
       "company": "ДСК АВТОБАН",
       "company_id": "184497",
       "company_url": "https://hh.ru/employer/184497",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/709896.PNG",
-      "url": "https://hh.ru/vacancy/125566323",
+      "url": "https://hh.ru/vacancy/125566321",
       "published_at": "2025-09-21T14:43:01+0300",
       "created_at": "2025-09-21T14:43:01+0300",
-      "area": "Серпухов (Московская область)",
+      "area": "Москва",
       "salary": "90 000 - 110 000 RUR на руки",
       "salary_raw": {
         "from": 90000,
