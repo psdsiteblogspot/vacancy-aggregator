@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-14T10:40:15Z",
+  "updated": "2025-10-14T11:30:18Z",
   "statistics": {
     "total": 901,
     "with_salary": 663,
@@ -20,6 +20,100 @@
     "with_test": 12
   },
   "vacancies": [
+    {
+      "id": "126214878",
+      "name": "Системный администратор",
+      "company": "Клепинина Ксения Максимовна",
+      "company_id": "9455199",
+      "company_url": "https://hh.ru/employer/9455199",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1041955.jpg",
+      "url": "https://hh.ru/vacancy/126214878",
+      "published_at": "2025-10-14T14:09:50+0300",
+      "created_at": "2025-10-14T14:09:50+0300",
+      "area": "Барнаул",
+      "salary": "от 65 000 RUR на руки",
+      "salary_raw": {
+        "from": 65000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Образование - высшее. Знание ОС MS Windows на уровне системного администратора. Знание компьютерного \"железа\". Знание основных компонентов персональных компьютеров, серверов.",
+      "responsibility": "Настройкой и администрированием 1С.. Плановое и автоматическое копирование баз данных (1С). Поддержка пользователей специализированных программ. Администрирование сетевой инфраструктуры...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125315066",
+      "name": "Ведущий системный администратор",
+      "company": "Филиал ФГУП РТРС Челябинский ОРТПЦ",
+      "company_id": "11526068",
+      "company_url": "https://hh.ru/employer/11526068",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/7002528.png",
+      "url": "https://hh.ru/vacancy/125315066",
+      "published_at": "2025-10-14T14:08:20+0300",
+      "created_at": "2025-10-14T14:08:20+0300",
+      "area": "Челябинск",
+      "salary": "от 90 000 RUR на руки",
+      "salary_raw": {
+        "from": 90000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее (техническое) образование. Наличие опыта работы системным администратором, инженером отдела ИТ от 2-х лет. Приветствуется опыт работы в компаниях...",
+      "responsibility": "Настройка, диагностика сетевого оборудования, устранение аварий. Cisco – коммутаторы, маршрутизаторы, контроллеры точек доступа, точки доступа. Mikrotik – маршрутизаторы. Eltex – коммутаторы.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Программист, разработчик"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126521159",
+      "name": "Системный администратор",
+      "company": "Автоскан-Сибирь",
+      "company_id": "5246449",
+      "company_url": "https://hh.ru/employer/5246449",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1402409.png",
+      "url": "https://hh.ru/vacancy/126521159",
+      "published_at": "2025-10-14T14:07:08+0300",
+      "created_at": "2025-10-14T14:07:08+0300",
+      "area": "Новосибирск",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание компьютерного железа. Знание операционных систем Windows 10,11. Понимание работы сети и сетевого оборудования. Опыт настройки сетевого оборудования, принтеров.",
+      "responsibility": "Компания является официальным партнером фирмы 1С. Оказываем полный комплекс услуг по автоматизации учета, включая продажу, внедрение, сопровождение программных продуктов...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "126519248",
       "name": "Начинающий системный администратор Linux",
@@ -41,8 +135,8 @@
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "",
+      "requirement": "Понимание основ Unix/Linux (файловая система, процессы, права, базовые команды). Желание освоить Asterisk и понять, как работает VoIP-инфраструктура.",
+      "responsibility": "Администрирование серверов на Linux (с ПО Asterisk). Разработка и доработка диалпланов на Lua. Обеспечение бесперебойной работы VoIP-сервисов компании.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -328,39 +422,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Специалист по информационной безопасности"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126214878",
-      "name": "Системный администратор",
-      "company": "Клепинина Ксения Максимовна",
-      "company_id": "9455199",
-      "company_url": "https://hh.ru/employer/9455199",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1041955.jpg",
-      "url": "https://hh.ru/vacancy/126214878",
-      "published_at": "2025-10-14T12:13:48+0300",
-      "created_at": "2025-10-14T12:13:48+0300",
-      "area": "Барнаул",
-      "salary": "от 65 000 RUR на руки",
-      "salary_raw": {
-        "from": 65000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Образование - высшее. Знание ОС MS Windows на уровне системного администратора. Знание компьютерного \"железа\". Знание основных компонентов персональных компьютеров, серверов.",
-      "responsibility": "Настройкой и администрированием 1С.. Плановое и автоматическое копирование баз данных (1С). Поддержка пользователей специализированных программ. Администрирование сетевой инфраструктуры...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
       ],
       "has_test": false,
       "premium": false,
@@ -8044,7 +8105,7 @@
       "company": "СтройТехИнвест",
       "company_id": "2914949",
       "company_url": "https://hh.ru/employer/2914949",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1336275.jpg",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1469544.png",
       "url": "https://hh.ru/vacancy/126388666",
       "published_at": "2025-10-10T10:15:53+0300",
       "created_at": "2025-10-10T10:15:53+0300",
@@ -9807,16 +9868,16 @@
       "accept_temporary": true
     },
     {
-      "id": "126316758",
+      "id": "126316762",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/126316758",
+      "url": "https://hh.ru/vacancy/126316762",
       "published_at": "2025-10-08T16:10:13+0300",
       "created_at": "2025-10-08T16:10:13+0300",
-      "area": "Исилькуль",
+      "area": "Куртамыш",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -9835,16 +9896,16 @@
       "accept_temporary": true
     },
     {
-      "id": "126316762",
+      "id": "126316758",
       "name": "Системный администратор/инженер (IT-аутсорсинг)",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/126316762",
+      "url": "https://hh.ru/vacancy/126316758",
       "published_at": "2025-10-08T16:10:13+0300",
       "created_at": "2025-10-08T16:10:13+0300",
-      "area": "Куртамыш",
+      "area": "Исилькуль",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -12646,7 +12707,7 @@
         "currency": "RUR",
         "gross": false
       },
-      "experience": "От 1 года до 3 лет",
+      "experience": "Нет опыта",
       "schedule": "Полный день",
       "employment": "Полная занятость",
       "requirement": "Желательные навыки и знания: настройка и администрирование ОС Linux на серверах и рабочих станциях. Достаточные навыки и знания: работа с...",
@@ -15497,16 +15558,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126071515",
+      "id": "126071516",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/126071515",
+      "url": "https://hh.ru/vacancy/126071516",
       "published_at": "2025-10-02T15:16:40+0300",
       "created_at": "2025-10-02T15:16:40+0300",
-      "area": "Белебей",
+      "area": "Дюртюли",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -15525,16 +15586,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126071516",
+      "id": "126071515",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/126071516",
+      "url": "https://hh.ru/vacancy/126071515",
       "published_at": "2025-10-02T15:16:40+0300",
       "created_at": "2025-10-02T15:16:40+0300",
-      "area": "Дюртюли",
+      "area": "Белебей",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -16723,34 +16784,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание технологий построения сетей. Опыт работы от 3 лет. Высшее, среднее профессиональное образование.",
       "responsibility": "Администрирование сети офиса. Администрирование, настройка и обслуживание серверов на базе MS Windows Server. Администрирование IP Телефонии Asterisk. Администрирование Active Directory.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124016563",
-      "name": "Системный администратор",
-      "company": "Брусника",
-      "company_id": "1066018",
-      "company_url": "https://hh.ru/employer/1066018",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/879461.png",
-      "url": "https://hh.ru/vacancy/124016563",
-      "published_at": "2025-10-01T09:48:34+0300",
-      "created_at": "2025-10-01T09:48:34+0300",
-      "area": "Екатеринбург",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Администрирование базовой инфраструктуры: AD, DNS/DHCP; Windows 10/11, macOS и Windows Server. Сеть: основы TCP/IP, VLAN, VPN.",
-      "responsibility": "Подготовка, диагностика и ремонт пользовательской техники: ПК/ноутбуки/мониторы/периферия; переустановка ОС и драйверов, восстановление работоспособности, первичная проверка после ремонта.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -24573,16 +24606,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125573979",
+      "id": "125573980",
       "name": "Системный администратор",
       "company": "РОСТ, Группа компаний",
       "company_id": "1449838",
       "company_url": "https://hh.ru/employer/1449838",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1404906.png",
-      "url": "https://hh.ru/vacancy/125573979",
+      "url": "https://hh.ru/vacancy/125573980",
       "published_at": "2025-09-22T06:35:10+0300",
       "created_at": "2025-09-22T06:35:10+0300",
-      "area": "Шумиха",
+      "area": "Щучье",
       "salary": "56 000 - 56 000 RUR на руки",
       "salary_raw": {
         "from": 56000,
@@ -24606,16 +24639,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125573980",
+      "id": "125573979",
       "name": "Системный администратор",
       "company": "РОСТ, Группа компаний",
       "company_id": "1449838",
       "company_url": "https://hh.ru/employer/1449838",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1404906.png",
-      "url": "https://hh.ru/vacancy/125573980",
+      "url": "https://hh.ru/vacancy/125573979",
       "published_at": "2025-09-22T06:35:10+0300",
       "created_at": "2025-09-22T06:35:10+0300",
-      "area": "Щучье",
+      "area": "Шумиха",
       "salary": "56 000 - 56 000 RUR на руки",
       "salary_raw": {
         "from": 56000,
@@ -28165,39 +28198,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125315066",
-      "name": "Ведущий системный администратор",
-      "company": "Филиал ФГУП РТРС Челябинский ОРТПЦ",
-      "company_id": "11526068",
-      "company_url": "https://hh.ru/employer/11526068",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/7002528.png",
-      "url": "https://hh.ru/vacancy/125315066",
-      "published_at": "2025-09-15T10:04:55+0300",
-      "created_at": "2025-09-15T10:04:55+0300",
-      "area": "Челябинск",
-      "salary": "от 90 000 RUR на руки",
-      "salary_raw": {
-        "from": 90000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее (техническое) образование. Наличие опыта работы системным администратором, инженером отдела ИТ от 2-х лет. Приветствуется опыт работы в компаниях...",
-      "responsibility": "Настройка, диагностика сетевого оборудования, устранение аварий. Cisco – коммутаторы, маршрутизаторы, контроллеры точек доступа, точки доступа. Mikrotik – маршрутизаторы. Eltex – коммутаторы.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Программист, разработчик"
       ],
       "has_test": false,
       "premium": false,
