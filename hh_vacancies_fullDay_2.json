@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-14T15:45:10Z",
+  "updated": "2025-10-14T16:50:50Z",
   "statistics": {
-    "total": 735,
-    "with_salary": 531,
-    "companies": 599,
+    "total": 736,
+    "with_salary": 532,
+    "companies": 600,
     "cities": 120,
     "premium": 0,
     "with_test": 7
   },
   "vacancies": [
+    {
+      "id": "126536776",
+      "name": "Системный администратор",
+      "company": "МБОУ СОШ № 24 г. Кирова",
+      "company_id": "12335815",
+      "company_url": "https://hh.ru/employer/12335815",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/126536776",
+      "published_at": "2025-10-14T19:10:08+0300",
+      "created_at": "2025-10-14T19:10:08+0300",
+      "area": "Киров (Кировская область)",
+      "salary": "от 45 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 45000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы от 3 до 6 лет в аналогичной должности. Глубокие знания в области администрирования сетей и серверов.",
+      "responsibility": "Обслуживание компьютерной сети и оргтехники. Установка и обновление программного обеспечения. Сопровождение сайтов закупок и заказов ЭП. Настройка и управление сертификатами...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "125672946",
       "name": "Системный администратор",
@@ -8498,39 +8531,6 @@
       "accept_temporary": false
     },
     {
-      "id": "126283860",
-      "name": "Системный администратор/специалист по установке ПО",
-      "company": "РеМо",
-      "company_id": "844534",
-      "company_url": "https://hh.ru/employer/844534",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/710828.png",
-      "url": "https://hh.ru/vacancy/126283860",
-      "published_at": "2025-10-08T07:47:10+0300",
-      "created_at": "2025-10-08T07:47:10+0300",
-      "area": "Пенза",
-      "salary": "от 50 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 50000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Частичная занятость",
-      "requirement": "Практический опыт переустановки операционных систем. Ответственный подход к работе.",
-      "responsibility": "Переустановка Windows на Linux на компьютерах заказчика. Проверка работоспособности системы после установки.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Другое"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126283861",
       "name": "Системный администратор/специалист по установке ПО",
       "company": "РеМо",
@@ -8550,6 +8550,39 @@
       },
       "experience": "Нет опыта",
       "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Практический опыт переустановки операционных систем. Ответственный подход к работе.",
+      "responsibility": "Переустановка Windows на Linux на компьютерах заказчика. Проверка работоспособности системы после установки.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Другое"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126283860",
+      "name": "Системный администратор/специалист по установке ПО",
+      "company": "РеМо",
+      "company_id": "844534",
+      "company_url": "https://hh.ru/employer/844534",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/710828.png",
+      "url": "https://hh.ru/vacancy/126283860",
+      "published_at": "2025-10-08T07:47:10+0300",
+      "created_at": "2025-10-08T07:47:10+0300",
+      "area": "Пенза",
+      "salary": "от 50 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 50000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
       "employment": "Частичная занятость",
       "requirement": "Практический опыт переустановки операционных систем. Ответственный подход к работе.",
       "responsibility": "Переустановка Windows на Linux на компьютерах заказчика. Проверка работоспособности системы после установки.",
