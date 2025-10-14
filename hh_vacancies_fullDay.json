@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-14T03:12:02Z",
+  "updated": "2025-10-14T03:44:51Z",
   "statistics": {
-    "total": 900,
-    "with_salary": 660,
-    "companies": 705,
+    "total": 898,
+    "with_salary": 659,
+    "companies": 703,
     "cities": 195,
     "premium": 1,
     "with_test": 12
   },
   "vacancies": [
+    {
+      "id": "126047314",
+      "name": "Системный администратор",
+      "company": "УБОЙНЫЙ КОРМ",
+      "company_id": "1945235",
+      "company_url": "https://hh.ru/employer/1945235",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1187490.jpg",
+      "url": "https://hh.ru/vacancy/126047314",
+      "published_at": "2025-10-14T06:38:54+0300",
+      "created_at": "2025-10-14T06:38:54+0300",
+      "area": "Барнаул",
+      "salary": "от 75 000 RUR на руки",
+      "salary_raw": {
+        "from": 75000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Среднее специальное или высшее образование в сфере ИТ. Опыт работы системным администратором от 3-х лет. Навыки ремонта и обслуживания...",
+      "responsibility": "Установка и настройка компьютерного оборудования. Обслуживание и модернизация IT-инфраструктуры. Диагностика и устранение технических неисправностей. Обновление программного обеспечения.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125137167",
+      "name": "Выездной системный администратор",
+      "company": "ВинАГрад",
+      "company_id": "2515894",
+      "company_url": "https://hh.ru/employer/2515894",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/354811.jpg",
+      "url": "https://hh.ru/vacancy/125137167",
+      "published_at": "2025-10-14T06:31:38+0300",
+      "created_at": "2025-10-14T06:31:38+0300",
+      "area": "Омск",
+      "salary": "60 000 - 60 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": 60000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "образование профильное, либо опыт в аналогичной должности от 1 года. Знание пк, основных сетевых технологий, протоколов, сервисов, модели osi.",
+      "responsibility": "Обслуживание офисной и торговой техники (принтеры, бесперебойники и т.д.). ​ монтаж и настройка ЛВС, сетевого оборудования, систем видеонаблюдения. ​",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "125152143",
       "name": "Системный администратор",
@@ -3493,16 +3559,16 @@
       "accept_temporary": false
     },
     {
-      "id": "98245018",
+      "id": "98245020",
       "name": "Ведущий системный администратор",
       "company": "Агрофирма АРИАНТ",
       "company_id": "902760",
       "company_url": "https://hh.ru/employer/902760",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1392087.png",
-      "url": "https://hh.ru/vacancy/98245018",
+      "url": "https://hh.ru/vacancy/98245020",
       "published_at": "2025-10-13T06:15:52+0300",
       "created_at": "2025-10-13T06:15:52+0300",
-      "area": "Южноуральск",
+      "area": "Красногорский (Челябинская область)",
       "salary": "от 67 000 RUR на руки",
       "salary_raw": {
         "from": 67000,
@@ -3526,16 +3592,16 @@
       "accept_temporary": false
     },
     {
-      "id": "98245020",
+      "id": "98245018",
       "name": "Ведущий системный администратор",
       "company": "Агрофирма АРИАНТ",
       "company_id": "902760",
       "company_url": "https://hh.ru/employer/902760",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1392087.png",
-      "url": "https://hh.ru/vacancy/98245020",
+      "url": "https://hh.ru/vacancy/98245018",
       "published_at": "2025-10-13T06:15:52+0300",
       "created_at": "2025-10-13T06:15:52+0300",
-      "area": "Красногорский (Челябинская область)",
+      "area": "Южноуральск",
       "salary": "от 67 000 RUR на руки",
       "salary_raw": {
         "from": 67000,
@@ -3680,39 +3746,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы в аналогичной должности. Знание офисных и почтовых программ. Опыт программного и аппаратного ремонта. Понимание устройства локальных сетей и...",
       "responsibility": "Обслуживание ПК и орг. техники, торгового оборудования, систем видеонаблюдения на магазинах торговой сети.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126047314",
-      "name": "Системный администратор",
-      "company": "УБОЙНЫЙ КОРМ",
-      "company_id": "1945235",
-      "company_url": "https://hh.ru/employer/1945235",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1187490.jpg",
-      "url": "https://hh.ru/vacancy/126047314",
-      "published_at": "2025-10-13T05:56:12+0300",
-      "created_at": "2025-10-13T05:56:12+0300",
-      "area": "Барнаул",
-      "salary": "от 75 000 RUR на руки",
-      "salary_raw": {
-        "from": 75000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Среднее специальное или высшее образование в сфере ИТ. Опыт работы системным администратором от 3-х лет. Навыки ремонта и обслуживания...",
-      "responsibility": "Установка и настройка компьютерного оборудования. Обслуживание и модернизация IT-инфраструктуры. Диагностика и устранение технических неисправностей. Обновление программного обеспечения.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -7450,34 +7483,6 @@
       "accept_temporary": false
     },
     {
-      "id": "126380422",
-      "name": "Системный администратор",
-      "company": "ЦПКиО им. В.В. Маяковского",
-      "company_id": "1096579",
-      "company_url": "https://hh.ru/employer/1096579",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1314507.png",
-      "url": "https://hh.ru/vacancy/126380422",
-      "published_at": "2025-10-10T07:00:20+0300",
-      "created_at": "2025-10-10T07:00:20+0300",
-      "area": "Екатеринбург",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Имеет опыт работы от 1 года на похожей позиции. Уверенно чувствует себя в среде Windows 7/8/10/11 и...",
-      "responsibility": "Быть нашим главным IT-супергероем: оперативно решать вопросы пользователей и поддерживать рабочее настроение в коллективе. Обеспечивать бесперебойную работу компьютеров: устанавливать...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "125820428",
       "name": "Системный администратор",
       "company": "Витязь, ОП",
@@ -8425,39 +8430,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Специалист технической поддержки"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125137167",
-      "name": "Выездной системный администратор",
-      "company": "ВинАГрад",
-      "company_id": "2515894",
-      "company_url": "https://hh.ru/employer/2515894",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/354811.jpg",
-      "url": "https://hh.ru/vacancy/125137167",
-      "published_at": "2025-10-09T09:06:27+0300",
-      "created_at": "2025-10-09T09:06:27+0300",
-      "area": "Омск",
-      "salary": "50 000 - 50 000 RUR на руки",
-      "salary_raw": {
-        "from": 50000,
-        "to": 50000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "образование профильное, либо опыт в аналогичной должности от 1 года. Знание пк, основных сетевых технологий, протоколов, сервисов, модели osi.",
-      "responsibility": "Обслуживание офисной и торговой техники (принтеры, бесперебойники и т.д.). ​ монтаж и настройка ЛВС, сетевого оборудования, систем видеонаблюдения. ​",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
       ],
       "has_test": false,
       "premium": false,
@@ -22175,39 +22147,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание ОС на уровне администратора. Опыт работы с обращениями пользователей. Умение анализировать и определять направление решения проблемы. Знание серверных ОС...",
       "responsibility": "Разбираться с IP-телефонией, видео и СКУД. Настраивать 1С (в плане системного администратора) и ТО. Взаимодействовать с технической поддержкой...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125677251",
-      "name": "Системный администратор",
-      "company": "Компания Водяной,ООО",
-      "company_id": "559907",
-      "company_url": "https://hh.ru/employer/559907",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1345498.png",
-      "url": "https://hh.ru/vacancy/125677251",
-      "published_at": "2025-09-24T06:07:06+0300",
-      "created_at": "2025-09-24T06:07:06+0300",
-      "area": "Томск",
-      "salary": "75 000 - 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 75000,
-        "to": 100000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в аналогичной должности от 3-х лет. Знание операционных систем (Windows, Linux). Опыт работы с сетевым оборудованием и...",
-      "responsibility": "1. Установка и настройка оборудования и ПО (сервер, рабочие станции, сетевое оборудование, различное ПО). 2. Обеспечение безопасности (защита информации от...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
