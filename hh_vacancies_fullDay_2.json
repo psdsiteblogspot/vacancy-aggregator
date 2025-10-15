@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-14T23:44:01Z",
+  "updated": "2025-10-15T02:16:11Z",
   "statistics": {
-    "total": 738,
-    "with_salary": 534,
-    "companies": 601,
+    "total": 737,
+    "with_salary": 533,
+    "companies": 600,
     "cities": 120,
     "premium": 0,
     "with_test": 7
   },
   "vacancies": [
+    {
+      "id": "124984378",
+      "name": "Системный администратор",
+      "company": "АЭРО - ХИТ",
+      "company_id": "11171782",
+      "company_url": "https://hh.ru/employer/11171782",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6781960.png",
+      "url": "https://hh.ru/vacancy/124984378",
+      "published_at": "2025-10-15T03:56:34+0300",
+      "created_at": "2025-10-15T03:56:34+0300",
+      "area": "Хабаровск",
+      "salary": "90 000 - 120 000 RUR на руки",
+      "salary_raw": {
+        "from": 90000,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы от 3 лет в системном администрировании. Навыки работы с серверным оборудованием обязательно. Навыки работы с телекоммуникационным оборудованием L...",
+      "responsibility": "Поддержка и администрирование серверов и сетевого оборудования. Поддержка и администрирование рабочих мест Windows, Linux. Обеспечение бесперебойной работы IT-инфраструктуры.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Специалист технической поддержки"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "125580974",
       "name": "Старший системный администратор",
@@ -4842,39 +4875,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124984378",
-      "name": "Системный администратор",
-      "company": "АЭРО - ХИТ",
-      "company_id": "11171782",
-      "company_url": "https://hh.ru/employer/11171782",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6781960.png",
-      "url": "https://hh.ru/vacancy/124984378",
-      "published_at": "2025-10-12T03:56:34+0300",
-      "created_at": "2025-10-12T03:56:34+0300",
-      "area": "Хабаровск",
-      "salary": "90 000 - 120 000 RUR на руки",
-      "salary_raw": {
-        "from": 90000,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы от 3 лет в системном администрировании. Навыки работы с серверным оборудованием обязательно. Навыки работы с телекоммуникационным оборудованием L...",
-      "responsibility": "Поддержка и администрирование серверов и сетевого оборудования. Поддержка и администрирование рабочих мест Windows, Linux. Обеспечение бесперебойной работы IT-инфраструктуры.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Специалист технической поддержки"
       ],
       "has_test": false,
       "premium": false,
@@ -23311,39 +23311,6 @@
       "employment": "Полная занятость",
       "requirement": "Образование: средне-профессиональное/высшее техническое. Опыт работы в области информационных технологий не менее двух лет. Уверенный пользователь ПК.",
       "responsibility": "Системное администрирование, администрирование серверного оборудования, администрирование контролера домена. Установка, обновление ОС на серверном оборудовании. Обновление ПО на серверах.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125301392",
-      "name": "Системный администратор",
-      "company": "Воздвиженский хлеб",
-      "company_id": "5990878",
-      "company_url": "https://hh.ru/employer/5990878",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/125301392",
-      "published_at": "2025-09-15T04:08:21+0300",
-      "created_at": "2025-09-15T04:08:21+0300",
-      "area": "Уссурийск",
-      "salary": "100 000 - 100 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 100000,
-        "to": 100000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Отличное знание десктопных операционных систем линейки Microsoft Windows. Хорошее знание операционных систем Windows Server 2019 (AD, DHCP, DNS, GPO, WSUS...",
-      "responsibility": "Поддержание в рабочем состоянии серверов и локальных машин (35 машин), орг. техники. Оказание тех. поддержки пользователям. Установка и настройка ПО.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
