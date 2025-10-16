@@ -10,16 +10,181 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-16T13:11:10Z",
+  "updated": "2025-10-16T13:51:13Z",
   "statistics": {
-    "total": 720,
-    "with_salary": 525,
-    "companies": 584,
+    "total": 719,
+    "with_salary": 526,
+    "companies": 583,
     "cities": 122,
     "premium": 0,
     "with_test": 7
   },
   "vacancies": [
+    {
+      "id": "126621882",
+      "name": "Системный администратор",
+      "company": "Редуктор",
+      "company_id": "74259",
+      "company_url": "https://hh.ru/employer/74259",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/7493143.jpg",
+      "url": "https://hh.ru/vacancy/126621882",
+      "published_at": "2025-10-16T16:18:43+0300",
+      "created_at": "2025-10-16T16:18:43+0300",
+      "area": "Ижевск",
+      "salary": "от 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы системным администратором от 3 лет. Знание операционных систем Windows, Linux. Знание сетевых протоколов и принципов построения сетей.",
+      "responsibility": "обеспечение бесперебойной работы локальной сети серверов, сетевых устройств. -блочный ремонт ПК. -администрирование серверов с ОС Windows Server, Linux, Freebsd. -",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126267481",
+      "name": "Главный системный администратор",
+      "company": "ГБУ НО Уполномоченный МФЦ",
+      "company_id": "3733111",
+      "company_url": "https://hh.ru/employer/3733111",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1385910.png",
+      "url": "https://hh.ru/vacancy/126267481",
+      "published_at": "2025-10-16T16:12:49+0300",
+      "created_at": "2025-10-16T16:12:49+0300",
+      "area": "Бор",
+      "salary": "от 40 000 RUR на руки",
+      "salary_raw": {
+        "from": 40000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Понимание принципов устройства сетей, маршрутизации, работы сетевых протоколов. Опыт работы с RDP, DHCP, DNS, VPN. Умение адаптироваться в сложных ситуациях...",
+      "responsibility": "Базовое администрирование Windows, Linux, Active Directory. Организация рабочих мест сотрудников. Предоставление удаленных доступов, подключений RDP. Поддержание актуальности ПО (антивирус, КриптопроCSP).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126521092",
+      "name": "Начинающий системный администратор Linux",
+      "company": "NEXT Contact",
+      "company_id": "2848751",
+      "company_url": "https://hh.ru/employer/2848751",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1398708.png",
+      "url": "https://hh.ru/vacancy/126521092",
+      "published_at": "2025-10-16T16:12:34+0300",
+      "created_at": "2025-10-16T16:12:34+0300",
+      "area": "Энгельс",
+      "salary": "от 50 000 RUR на руки",
+      "salary_raw": {
+        "from": 50000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Понимание основ Unix/Linux (файловая система, процессы, права, базовые команды). Желание освоить Asterisk и понять, как работает VoIP-инфраструктура.",
+      "responsibility": "Администрирование серверов на Linux (с ПО Asterisk). Разработка и доработка диалпланов на Lua. Обеспечение бесперебойной работы VoIP-сервисов компании.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125657894",
+      "name": "Начинающий системный администратор",
+      "company": "NEXT Contact",
+      "company_id": "2848751",
+      "company_url": "https://hh.ru/employer/2848751",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1398708.png",
+      "url": "https://hh.ru/vacancy/125657894",
+      "published_at": "2025-10-16T16:12:34+0300",
+      "created_at": "2025-10-16T16:12:34+0300",
+      "area": "Энгельс",
+      "salary": "от 34 750 RUR на руки",
+      "salary_raw": {
+        "from": 34750,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Знание устройства ПК. Знание AD, DHCP, DNS. Иметь представление о сетях, сетевом оборудовании (желательно). Опыт администрирования рабочих станций на Windows...",
+      "responsibility": "Диагностика и решение проблем с ПК и программами. Техническая поддержка сотрудников офиса.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125793058",
+      "name": "Помощник системного администратора",
+      "company": "Айти Бюро",
+      "company_id": "3037696",
+      "company_url": "https://hh.ru/employer/3037696",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/7081732.jpg",
+      "url": "https://hh.ru/vacancy/125793058",
+      "published_at": "2025-10-16T16:11:21+0300",
+      "created_at": "2025-10-16T16:11:21+0300",
+      "area": "Симферополь",
+      "salary": "от 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Практический опыт работы с ОС Windows и аппаратным обеспечением ПК. Базовые знания сетевых технологий и принципов шифрования данных.",
+      "responsibility": "Формат работы - разъездной. На личном транспорте (мотоцикл, мопед, электросамокат, авто тп.). Настройка и обслуживание банковских POS-терминалов. Диагностика и ремонт...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
     {
       "id": "126619681",
       "name": "Системный администратор (офис г. Чебоксары)",
@@ -104,6 +269,34 @@
       "employment": "Полная занятость",
       "requirement": "Уверенный пользователь ПК (понимание, как устроен компьютер, установка ОС и программ). Опыт работы с сетевыми технологиями и настройкой сетевых устройств...",
       "responsibility": "КУЗОВИК - компания топ-1 по онлайн продажам кузовных автозапчастей на маркетплейсах. В городе Липецк располагается штаб-квартира и центральный фулфилмент...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126478103",
+      "name": "Системный администратор",
+      "company": "Компания Интерлабор",
+      "company_id": "4333665",
+      "company_url": "https://hh.ru/employer/4333665",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/126478103",
+      "published_at": "2025-10-16T15:29:57+0300",
+      "created_at": "2025-10-16T15:29:57+0300",
+      "area": "Симферополь",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в сфере информационных технологий (желательно в медицинской сфере). Знание ОС Windows на уровне опытного пользователя. Понимание общих принципов...",
+      "responsibility": "Установка, настройка ПК (Windows) и поддержка офисной оргтехники, периферийных устройств. Техническое сопровождение установленной Лабораторной Информационной Системы (ЛИС АльфаЛаб) (с обучением).",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -1550,8 +1743,13 @@
       "published_at": "2025-10-15T21:38:00+0300",
       "created_at": "2025-10-15T21:38:00+0300",
       "area": "Иваново (Ивановская область)",
-      "salary": "не указана",
-      "salary_raw": null,
+      "salary": "от 30 000 RUR на руки",
+      "salary_raw": {
+        "from": 30000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
@@ -2050,72 +2248,6 @@
       "employment": "Полная занятость",
       "requirement": "",
       "responsibility": "Настройка ПО на рабочих станциях. Устранение неисправностей ПК, мониторов, периферии. Подключение принтеров, сканеров, МФУ. Первичная диагностика проблем. Консультации пользователей.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126521092",
-      "name": "Начинающий системный администратор Linux",
-      "company": "NEXT Contact",
-      "company_id": "2848751",
-      "company_url": "https://hh.ru/employer/2848751",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1398708.png",
-      "url": "https://hh.ru/vacancy/126521092",
-      "published_at": "2025-10-15T16:12:29+0300",
-      "created_at": "2025-10-15T16:12:29+0300",
-      "area": "Энгельс",
-      "salary": "от 50 000 RUR на руки",
-      "salary_raw": {
-        "from": 50000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Понимание основ Unix/Linux (файловая система, процессы, права, базовые команды). Желание освоить Asterisk и понять, как работает VoIP-инфраструктура.",
-      "responsibility": "Администрирование серверов на Linux (с ПО Asterisk). Разработка и доработка диалпланов на Lua. Обеспечение бесперебойной работы VoIP-сервисов компании.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125657894",
-      "name": "Начинающий системный администратор",
-      "company": "NEXT Contact",
-      "company_id": "2848751",
-      "company_url": "https://hh.ru/employer/2848751",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1398708.png",
-      "url": "https://hh.ru/vacancy/125657894",
-      "published_at": "2025-10-15T16:12:29+0300",
-      "created_at": "2025-10-15T16:12:29+0300",
-      "area": "Энгельс",
-      "salary": "от 34 750 RUR на руки",
-      "salary_raw": {
-        "from": 34750,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "Знание устройства ПК. Знание AD, DHCP, DNS. Иметь представление о сетях, сетевом оборудовании (желательно). Опыт администрирования рабочих станций на Windows...",
-      "responsibility": "Диагностика и решение проблем с ПК и программами. Техническая поддержка сотрудников офиса.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -5447,72 +5579,6 @@
       "accept_temporary": false
     },
     {
-      "id": "126267481",
-      "name": "Главный системный администратор",
-      "company": "ГБУ НО Уполномоченный МФЦ",
-      "company_id": "3733111",
-      "company_url": "https://hh.ru/employer/3733111",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1385910.png",
-      "url": "https://hh.ru/vacancy/126267481",
-      "published_at": "2025-10-13T16:12:49+0300",
-      "created_at": "2025-10-13T16:12:49+0300",
-      "area": "Бор",
-      "salary": "от 40 000 RUR на руки",
-      "salary_raw": {
-        "from": 40000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Понимание принципов устройства сетей, маршрутизации, работы сетевых протоколов. Опыт работы с RDP, DHCP, DNS, VPN. Умение адаптироваться в сложных ситуациях...",
-      "responsibility": "Базовое администрирование Windows, Linux, Active Directory. Организация рабочих мест сотрудников. Предоставление удаленных доступов, подключений RDP. Поддержание актуальности ПО (антивирус, КриптопроCSP).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125793058",
-      "name": "Помощник системного администратора",
-      "company": "Айти Бюро",
-      "company_id": "3037696",
-      "company_url": "https://hh.ru/employer/3037696",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/7081732.jpg",
-      "url": "https://hh.ru/vacancy/125793058",
-      "published_at": "2025-10-13T16:11:21+0300",
-      "created_at": "2025-10-13T16:11:21+0300",
-      "area": "Симферополь",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Практический опыт работы с ОС Windows и аппаратным обеспечением ПК. Базовые знания сетевых технологий и принципов шифрования данных.",
-      "responsibility": "Формат работы - разъездной. На личном транспорте (мотоцикл, мопед, электросамокат, авто тп.). Настройка и обслуживание банковских POS-терминалов. Диагностика и ремонт...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
       "id": "126480751",
       "name": "Системный администратор",
       "company": "Банк Прио-Внешторгбанк",
@@ -5624,34 +5690,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы желателен, но не обязателен. Знание базовых программ из пакета MS Office, знание локальной сети. Умение выявлять и устранять...",
       "responsibility": "Обеспечение бесперебойного функционирования IT инфраструктуры компании. Техническая поддержка и консультации пользователей. Устранение неполадок.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126478103",
-      "name": "Системный администратор",
-      "company": "Компания Интерлабор",
-      "company_id": "4333665",
-      "company_url": "https://hh.ru/employer/4333665",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/126478103",
-      "published_at": "2025-10-13T15:29:57+0300",
-      "created_at": "2025-10-13T15:29:57+0300",
-      "area": "Симферополь",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в сфере информационных технологий (желательно в медицинской сфере). Знание ОС Windows на уровне опытного пользователя. Понимание общих принципов...",
-      "responsibility": "Установка, настройка ПК (Windows) и поддержка офисной оргтехники, периферийных устройств. Техническое сопровождение установленной Лабораторной Информационной Системы (ЛИС АльфаЛаб) (с обучением).",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -11180,16 +11218,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122623818",
+      "id": "122623820",
       "name": "Старший системный администратор в ИТ-компанию",
       "company": "ALP GROUP",
       "company_id": "16237",
       "company_url": "https://hh.ru/employer/16237",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/362820.png",
-      "url": "https://hh.ru/vacancy/122623818",
+      "url": "https://hh.ru/vacancy/122623820",
       "published_at": "2025-10-07T08:57:21+0300",
       "created_at": "2025-10-07T08:57:21+0300",
-      "area": "Самара",
+      "area": "Саранск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "Более 6 лет",
@@ -11208,16 +11246,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122623820",
+      "id": "122623818",
       "name": "Старший системный администратор в ИТ-компанию",
       "company": "ALP GROUP",
       "company_id": "16237",
       "company_url": "https://hh.ru/employer/16237",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/362820.png",
-      "url": "https://hh.ru/vacancy/122623820",
+      "url": "https://hh.ru/vacancy/122623818",
       "published_at": "2025-10-07T08:57:21+0300",
       "created_at": "2025-10-07T08:57:21+0300",
-      "area": "Саранск",
+      "area": "Самара",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "Более 6 лет",
@@ -17563,39 +17601,6 @@
       "accept_temporary": false
     },
     {
-      "id": "125834855",
-      "name": "Ведущий инженер (системный администратор)",
-      "company": "КУ ВО Региональный Центр Безопасности",
-      "company_id": "4254752",
-      "company_url": "https://hh.ru/employer/4254752",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/125834855",
-      "published_at": "2025-09-26T11:37:27+0300",
-      "created_at": "2025-09-26T11:37:27+0300",
-      "area": "Воронеж",
-      "salary": "от 65 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 65000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование - бакалавриат, магистратура, специалитет. Ведущий инженер должен знать: Общие принципы функционирования аппаратных, программных и программно-аппаратных средств администрируемой сети.",
-      "responsibility": "Установка персональных компьютеров, подключение периферийных и абонентских устройств. Управление доступом к программно-аппаратным средствам и информационных служб инфокоммуникационной системы.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "124587728",
       "name": "Системный администратор IP-телефонии",
       "company": "Ак Барс Банк",
@@ -22776,34 +22781,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": false
-    },
-    {
-      "id": "125399816",
-      "name": "Системный администратор",
-      "company": "Краев Сергей Станиславович",
-      "company_id": "3639406",
-      "company_url": "https://hh.ru/employer/3639406",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/125399816",
-      "published_at": "2025-09-16T16:08:41+0300",
-      "created_at": "2025-09-16T16:08:41+0300",
-      "area": "Кострома",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Установка, настройка и администрирование операционных систем Windows (7, 8, 10, 11) и Windows Server (2008-2025). Знание AD. -",
-      "responsibility": "Диагностика, ремонт и модернизация персональных компьютеров и ноутбуков. - Обеспечение работы сетевых систем IT-коммуникаций, включая интернет, внутреннюю сеть. -",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
     }
   ]
 }
