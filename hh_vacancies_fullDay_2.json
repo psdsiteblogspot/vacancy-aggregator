@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-16T08:54:21Z",
+  "updated": "2025-10-16T09:49:14Z",
   "statistics": {
-    "total": 723,
-    "with_salary": 525,
+    "total": 721,
+    "with_salary": 526,
     "companies": 585,
     "cities": 122,
     "premium": 0,
     "with_test": 7
   },
   "vacancies": [
+    {
+      "id": "126606879",
+      "name": "Системный администратор",
+      "company": "ОТК Тандем",
+      "company_id": "1291084",
+      "company_url": "https://hh.ru/employer/1291084",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/705320.png",
+      "url": "https://hh.ru/vacancy/126606879",
+      "published_at": "2025-10-16T12:21:47+0300",
+      "created_at": "2025-10-16T12:21:47+0300",
+      "area": "Тверь",
+      "salary": "от 60 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы системным администратором или помощником системного администратора (ЛВС от 50 ПК) – не менее 2 лет. Опыт диагностики и устранения...",
+      "responsibility": "Обеспечение непрерывной работы корпоративных сервисов и доступов к ним для сотрудников офиса (Active Directory, DNS, GPO, MS SQL, 1C...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125597706",
+      "name": "Системный администратор",
+      "company": "ТЕХПОДДЕРЖКА",
+      "company_id": "1575305",
+      "company_url": "https://hh.ru/employer/1575305",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1045373.png",
+      "url": "https://hh.ru/vacancy/125597706",
+      "published_at": "2025-10-16T11:37:28+0300",
+      "created_at": "2025-10-16T11:37:28+0300",
+      "area": "Воронеж",
+      "salary": "60 000 - 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": 80000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Ответственность, пунктуальность, коммуникабельность. Понимание принципов работы и построения ЛВС. Соблюдение правил безопасности при построении сетей, понимание и умение настроить Firewall...",
+      "responsibility": "Техническая поддержка ИТ инфраструктур. Работа с серверами, сетевым оборудованием, рабочими станциями. Плановые профилактические работы на серверах наших заказчиков.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "126603682",
       "name": "Системный администратор",
@@ -76,6 +142,39 @@
       "employment": "Полная занятость",
       "requirement": "...обслуживания торгового оборудования приветствуется. Опыт работы в 1С любой редакции. Опыт сопровождения пользователей. Опыт работы в ретейле системным администратором.",
       "responsibility": "Установка, настройка программного обеспечения, оборудования. Диагностика, ремонт и обслуживание вверенного ИТ оборудования. Учёт оборудования и расходных материалов. Работа с программами...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126457278",
+      "name": "Специалист IT направления / Системный администратор",
+      "company": "Росгосстрах",
+      "company_id": "2245",
+      "company_url": "https://hh.ru/employer/2245",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/792069.JPG",
+      "url": "https://hh.ru/vacancy/126457278",
+      "published_at": "2025-10-16T11:19:12+0300",
+      "created_at": "2025-10-16T11:19:12+0300",
+      "area": "Тверь",
+      "salary": "70 000 - 70 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 70000,
+        "to": 70000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание Windows на уровне администратора. Знание AD и администрирования доступов. Знание принципов работы сетевых протоколов, принципов построения компьютерных сетей, компьютерного...",
+      "responsibility": "Поддержка пользователей, в том числе удаленно. Обеспечение функционирования офисной техники, телефонии и устранение неисправностей. Установка ОС, ПО, в том числе...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -1709,7 +1808,7 @@
     },
     {
       "id": "125886224",
-      "name": "Системный администратор",
+      "name": "Специалист по IT-поддержке / системный администратор",
       "company": "Атента",
       "company_id": "3893902",
       "company_url": "https://hh.ru/employer/3893902",
@@ -5648,39 +5747,6 @@
       "accept_temporary": false
     },
     {
-      "id": "125597706",
-      "name": "Системный администратор",
-      "company": "ТЕХПОДДЕРЖКА",
-      "company_id": "1575305",
-      "company_url": "https://hh.ru/employer/1575305",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1045373.png",
-      "url": "https://hh.ru/vacancy/125597706",
-      "published_at": "2025-10-13T11:37:28+0300",
-      "created_at": "2025-10-13T11:37:28+0300",
-      "area": "Воронеж",
-      "salary": "60 000 - 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 60000,
-        "to": 80000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Ответственность, пунктуальность, коммуникабельность. Понимание принципов работы и построения ЛВС. Соблюдение правил безопасности при построении сетей, понимание и умение настроить Firewall...",
-      "responsibility": "Техническая поддержка ИТ инфраструктур. Работа с серверами, сетевым оборудованием, рабочими станциями. Плановые профилактические работы на серверах наших заказчиков.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126458943",
       "name": "Системный администратор",
       "company": "МБУ Молодежный Центр Высота Муниципального Образования ЛМР РТ",
@@ -5703,39 +5769,6 @@
       "employment": "Полная занятость",
       "requirement": "Образование: среднее или высшее профессиональное образование. Основные навыки и обязанности: -умение работать с молодежью. Приветствуется коммуникабельность, творческий подход к работе...",
       "responsibility": "настройка и сопровождение работы ПК, оргетхники. -подключение, настройка рабочих мест. -установка ОС и прикладных программ. -решение вопросов пользователей.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126457278",
-      "name": "Специалист IT направления / Системный администратор",
-      "company": "Росгосстрах",
-      "company_id": "2245",
-      "company_url": "https://hh.ru/employer/2245",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/792069.JPG",
-      "url": "https://hh.ru/vacancy/126457278",
-      "published_at": "2025-10-13T11:19:12+0300",
-      "created_at": "2025-10-13T11:19:12+0300",
-      "area": "Тверь",
-      "salary": "70 000 - 70 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 70000,
-        "to": 70000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание Windows на уровне администратора. Знание AD и администрирования доступов. Знание принципов работы сетевых протоколов, принципов построения компьютерных сетей, компьютерного...",
-      "responsibility": "Поддержка пользователей, в том числе удаленно. Обеспечение функционирования офисной техники, телефонии и устранение неисправностей. Установка ОС, ПО, в том числе...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -11556,34 +11589,6 @@
       "accept_temporary": false
     },
     {
-      "id": "126183883",
-      "name": "Системный администратор Linux",
-      "company": "Лига Цифровой Экономики",
-      "company_id": "2733062",
-      "company_url": "https://hh.ru/employer/2733062",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/948220.png",
-      "url": "https://hh.ru/vacancy/126183883",
-      "published_at": "2025-10-06T13:25:35+0300",
-      "created_at": "2025-10-06T13:25:35+0300",
-      "area": "Курск",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знания операционных систем RHEL/Debian на уровне системного администратора (работа без GUI). Понимание протоколов TCP/IP. Понимание общих принципов администрирования...",
-      "responsibility": "Заниматься администрированием операционных систем Linux и ПО. Устанавливать и настраивать системы Linux. Заниматься установкой, администрированием и поддержкой специфического ПО.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126183856",
       "name": "Системный администратор Linux",
       "company": "Лига Цифровой Экономики",
@@ -11599,8 +11604,8 @@
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "Знания операционных систем RHEL/Debian на уровне системного администратора (работа без GUI). Понимание протоколов TCP/IP. Понимание общих принципов администрирования...",
-      "responsibility": "Заниматься администрированием операционных систем Linux и ПО. Устанавливать и настраивать системы Linux. Заниматься установкой, администрированием и поддержкой специфического ПО.",
+      "requirement": "",
+      "responsibility": "",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -16541,62 +16546,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание TCP\\IP стека. Опыт администрирования коммутаторов, маршрутизаторов , межсетевых экранов. Опыт администрирования WIFI систем. Опыт создания, автоматизации, восстановления резервных копий.",
       "responsibility": "Администрирование коммутаторов на базе D-Link,Huawei,Cisco (возможно Eltex). Администрирование WIFI систем на базе UBNT, Mikrotik (Cisco будет плюсом).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124121880",
-      "name": "Системный администратор Windows",
-      "company": "Совкомбанк Технологии",
-      "company_id": "5390761",
-      "company_url": "https://hh.ru/employer/5390761",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1310092.png",
-      "url": "https://hh.ru/vacancy/124121880",
-      "published_at": "2025-09-29T10:19:39+0300",
-      "created_at": "2025-09-29T10:19:39+0300",
-      "area": "Саратов",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы на должности системного администратора от пяти лет. Уверенные знания ОС Microsoft Windows Server. Навыки администрирования и понимание принципов...",
-      "responsibility": "Сопровождение и развитие инфраструктуры на базе технологий Microsoft Windows Server. Сопровождение и развитие инфраструктуры почтовых серверов на базе MS Exchange...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124121879",
-      "name": "Системный администратор Windows",
-      "company": "Совкомбанк Технологии",
-      "company_id": "5390761",
-      "company_url": "https://hh.ru/employer/5390761",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1310092.png",
-      "url": "https://hh.ru/vacancy/124121879",
-      "published_at": "2025-09-29T10:19:32+0300",
-      "created_at": "2025-09-29T10:19:32+0300",
-      "area": "Казань",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы на должности системного администратора от пяти лет. Уверенные знания ОС Microsoft Windows Server. Навыки администрирования и понимание принципов...",
-      "responsibility": "Сопровождение и развитие инфраструктуры на базе технологий Microsoft Windows Server. Сопровождение и развитие инфраструктуры почтовых серверов на базе MS Exchange...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
