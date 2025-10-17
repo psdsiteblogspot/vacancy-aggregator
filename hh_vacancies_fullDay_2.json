@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-16T23:43:47Z",
+  "updated": "2025-10-17T02:13:41Z",
   "statistics": {
     "total": 720,
     "with_salary": 527,
@@ -20,6 +20,39 @@
     "with_test": 7
   },
   "vacancies": [
+    {
+      "id": "125819141",
+      "name": "Системный администратор",
+      "company": "САТ",
+      "company_id": "3024031",
+      "company_url": "https://hh.ru/employer/3024031",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/991729.png",
+      "url": "https://hh.ru/vacancy/125819141",
+      "published_at": "2025-10-17T04:35:35+0300",
+      "created_at": "2025-10-17T04:35:35+0300",
+      "area": "Магадан",
+      "salary": "от 100 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в ИТ не менее 2-х лет. - Глубокие знания в области сетевых технологий: TCP/IP, DNS, DHCP, VLAN...",
+      "responsibility": "Обеспечение бесперебойной работы серверов, сетевого оборудования и рабочих станций. - Контроль безопасности информационных систем и данных. - Мониторинг и управление резервным копированием...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
     {
       "id": "126276256",
       "name": "Системный администратор",
@@ -5475,39 +5508,6 @@
       "accept_temporary": false
     },
     {
-      "id": "125819141",
-      "name": "Системный администратор",
-      "company": "САТ",
-      "company_id": "3024031",
-      "company_url": "https://hh.ru/employer/3024031",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/991729.png",
-      "url": "https://hh.ru/vacancy/125819141",
-      "published_at": "2025-10-14T04:35:35+0300",
-      "created_at": "2025-10-14T04:35:35+0300",
-      "area": "Магадан",
-      "salary": "от 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в ИТ не менее 2-х лет. - Глубокие знания в области сетевых технологий: TCP/IP, DNS, DHCP, VLAN...",
-      "responsibility": "Обеспечение бесперебойной работы серверов, сетевого оборудования и рабочих станций. - Контроль безопасности информационных систем и данных. - Мониторинг и управление резервным копированием...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
       "id": "126490827",
       "name": "Системный администратор информационно-коммуникационных систем",
       "company": "КГБУЗ Перинатальный центр Имени Профессора Г.С. Постола Министерства Здравоохранения Хабаровского Края",
@@ -9882,16 +9882,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126297781",
+      "id": "126297778",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/126297781",
+      "url": "https://hh.ru/vacancy/126297778",
       "published_at": "2025-10-08T11:30:40+0300",
       "created_at": "2025-10-08T11:30:40+0300",
-      "area": "Пугачев",
+      "area": "Мамадыш",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -9910,16 +9910,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126297778",
+      "id": "126297781",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/126297778",
+      "url": "https://hh.ru/vacancy/126297781",
       "published_at": "2025-10-08T11:30:40+0300",
       "created_at": "2025-10-08T11:30:40+0300",
-      "area": "Мамадыш",
+      "area": "Пугачев",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -20083,6 +20083,34 @@
       "accept_temporary": false
     },
     {
+      "id": "97787508",
+      "name": "Системный администратор",
+      "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
+      "company_id": "1864933",
+      "company_url": "https://hh.ru/employer/1864933",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/657972.png",
+      "url": "https://hh.ru/vacancy/97787508",
+      "published_at": "2025-09-22T17:09:11+0300",
+      "created_at": "2025-09-22T17:09:11+0300",
+      "area": "Саров",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание и навыки обслуживания персональных компьютеров (сборка, замена частей, профилактические работы, выявление проблем). Знания и навыки обслуживания периферийного оборудования (принтеры...",
+      "responsibility": "Администрирование аппаратной части серверного оборудования, рабочих станций, периферийного оборудования, телекоммуникационных узлов (сборка, выявление проблем, замена составных частей). Администрирование операционных систем...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "97449258",
       "name": "Системный администратор",
       "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
@@ -20105,34 +20133,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт администрирования серверного, коммутационного , телекоммуникационного оборудования, оборудования телефонной связи, администрирования САЗ Касперский, WSUS, DHCP. Понимание принципов администрирования СУБД (MSSQL и...",
       "responsibility": "Администрирование серверного оборудования (ОС семейства Windows и Linux, Vmware, Hyper-V). Администрирование коммутационного оборудования (Cisco, Brocade, Q-tech, D-link...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "97787508",
-      "name": "Системный администратор",
-      "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
-      "company_id": "1864933",
-      "company_url": "https://hh.ru/employer/1864933",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/657972.png",
-      "url": "https://hh.ru/vacancy/97787508",
-      "published_at": "2025-09-22T17:09:11+0300",
-      "created_at": "2025-09-22T17:09:11+0300",
-      "area": "Саров",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание и навыки обслуживания персональных компьютеров (сборка, замена частей, профилактические работы, выявление проблем). Знания и навыки обслуживания периферийного оборудования (принтеры...",
-      "responsibility": "Администрирование аппаратной части серверного оборудования, рабочих станций, периферийного оборудования, телекоммуникационных узлов (сборка, выявление проблем, замена составных частей). Администрирование операционных систем...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
