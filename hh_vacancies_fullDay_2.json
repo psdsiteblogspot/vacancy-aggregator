@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-18T03:11:12Z",
+  "updated": "2025-10-18T03:49:58Z",
   "statistics": {
     "total": 726,
     "with_salary": 532,
@@ -20,6 +20,67 @@
     "with_test": 7
   },
   "vacancies": [
+    {
+      "id": "124260312",
+      "name": "Системный администратор Linux",
+      "company": "Farpost IT",
+      "company_id": "10859375",
+      "company_url": "https://hh.ru/employer/10859375",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/124260312",
+      "published_at": "2025-10-18T06:15:11+0300",
+      "created_at": "2025-10-18T06:15:11+0300",
+      "area": "Владивосток",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "Более 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Умеете писать скрипты на { bash | awk | python }. Работали с системами контроля версий (git). Хорошо знаете Unix-ы (системные вызовы, процессы...",
+      "responsibility": "Linux (CentOS). Nginx и php-fpm. MySQL, MongoDB, Clickhouse, Elasticsearch. Декларативное управление конфигурацией на Puppet. Виртуализация на KVM, а также...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126152218",
+      "name": "Системный администратор",
+      "company": "Бристоль, сеть магазинов",
+      "company_id": "1189320",
+      "company_url": "https://hh.ru/employer/1189320",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/60208.jpg",
+      "url": "https://hh.ru/vacancy/126152218",
+      "published_at": "2025-10-18T05:50:46+0300",
+      "created_at": "2025-10-18T05:50:46+0300",
+      "area": "Владивосток",
+      "salary": "от 103 000 RUR на руки",
+      "salary_raw": {
+        "from": 103000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы от 1 года на аналогичной должности. - Профильное образование. - Желателен опыт администрирования серверов 1С 8.2. -",
+      "responsibility": "...Ламода», «СДЭК» и «Дикси» или в организациях на позициях: системный администратор, мастер по настройке и ремонту компьютеров, выездной сервисный инженер...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "124984378",
       "name": "Системный администратор",
@@ -1720,6 +1781,39 @@
       "accept_temporary": false
     },
     {
+      "id": "126637010",
+      "name": "Выездной инженер технической поддержки/системный администратор",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/126637010",
+      "published_at": "2025-10-17T09:00:51+0300",
+      "created_at": "2025-10-17T09:00:51+0300",
+      "area": "Ржев",
+      "salary": "200 - 10 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 200,
+        "to": 10000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "126637026",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
@@ -1763,39 +1857,6 @@
       "published_at": "2025-10-17T09:00:51+0300",
       "created_at": "2025-10-17T09:00:51+0300",
       "area": "Почеп",
-      "salary": "200 - 10 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 200,
-        "to": 10000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
-      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126637010",
-      "name": "Выездной инженер технической поддержки/системный администратор",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/126637010",
-      "published_at": "2025-10-17T09:00:51+0300",
-      "created_at": "2025-10-17T09:00:51+0300",
-      "area": "Ржев",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -5878,39 +5939,6 @@
       "accept_temporary": false
     },
     {
-      "id": "126152218",
-      "name": "Системный администратор",
-      "company": "Бристоль, сеть магазинов",
-      "company_id": "1189320",
-      "company_url": "https://hh.ru/employer/1189320",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/60208.jpg",
-      "url": "https://hh.ru/vacancy/126152218",
-      "published_at": "2025-10-15T05:50:46+0300",
-      "created_at": "2025-10-15T05:50:46+0300",
-      "area": "Владивосток",
-      "salary": "от 103 000 RUR на руки",
-      "salary_raw": {
-        "from": 103000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы от 1 года на аналогичной должности. - Профильное образование. - Желателен опыт администрирования серверов 1С 8.2. -",
-      "responsibility": "...Ламода», «СДЭК» и «Дикси» или в организациях на позициях: системный администратор, мастер по настройке и ремонту компьютеров, выездной сервисный инженер...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126538518",
       "name": "Системный администратор (Service Desk)",
       "company": "iSpring",
@@ -7814,16 +7842,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126455594",
+      "id": "126455595",
       "name": "Системный администратор Linux и баз данных PostgreSQL",
       "company": "Итера",
       "company_id": "5596920",
       "company_url": "https://hh.ru/employer/5596920",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/872950.jpeg",
-      "url": "https://hh.ru/vacancy/126455594",
+      "url": "https://hh.ru/vacancy/126455595",
       "published_at": "2025-10-13T10:59:40+0300",
       "created_at": "2025-10-13T10:59:40+0300",
-      "area": "Обнинск",
+      "area": "Балабаново",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -7842,16 +7870,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126455595",
+      "id": "126455594",
       "name": "Системный администратор Linux и баз данных PostgreSQL",
       "company": "Итера",
       "company_id": "5596920",
       "company_url": "https://hh.ru/employer/5596920",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/872950.jpeg",
-      "url": "https://hh.ru/vacancy/126455595",
+      "url": "https://hh.ru/vacancy/126455594",
       "published_at": "2025-10-13T10:59:40+0300",
       "created_at": "2025-10-13T10:59:40+0300",
-      "area": "Балабаново",
+      "area": "Обнинск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -22970,34 +22998,6 @@
       "employment": "Полная занятость",
       "requirement": "1. Выполняет работы по проектированию и внедрению автоматизированных систем управления технологическими процессами (АСУТП) на основе применения экономико-математических методов, современных...",
       "responsibility": "2. Осуществляет подготовку необходимых данных и участвует в составлении технического задания на проектирование АСУТП и ее отдельных этапов и подсистем...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124260312",
-      "name": "Системный администратор Linux",
-      "company": "Farpost IT",
-      "company_id": "10859375",
-      "company_url": "https://hh.ru/employer/10859375",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/124260312",
-      "published_at": "2025-09-18T06:15:09+0300",
-      "created_at": "2025-09-18T06:15:09+0300",
-      "area": "Владивосток",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "Более 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Умеете писать скрипты на { bash | awk | python }. Работали с системами контроля версий (git). Хорошо знаете Unix-ы (системные вызовы, процессы...",
-      "responsibility": "Linux (CentOS). Nginx и php-fpm. MySQL, MongoDB, Clickhouse, Elasticsearch. Декларативное управление конфигурацией на Puppet. Виртуализация на KVM, а также...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
