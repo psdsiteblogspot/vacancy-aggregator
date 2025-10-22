@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-21T23:44:40Z",
+  "updated": "2025-10-22T02:20:37Z",
   "statistics": {
-    "total": 736,
-    "with_salary": 542,
-    "companies": 579,
+    "total": 737,
+    "with_salary": 543,
+    "companies": 580,
     "cities": 141,
     "premium": 0,
     "with_test": 7
   },
   "vacancies": [
+    {
+      "id": "119943020",
+      "name": "Системный администратор",
+      "company": "Первая Розничная Компания",
+      "company_id": "712125",
+      "company_url": "https://hh.ru/employer/712125",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1106432.png",
+      "url": "https://hh.ru/vacancy/119943020",
+      "published_at": "2025-10-22T04:16:07+0300",
+      "created_at": "2025-10-22T04:16:07+0300",
+      "area": "Южно-Сахалинск",
+      "salary": "от 150 000 RUR на руки",
+      "salary_raw": {
+        "from": 150000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Глубокое знание сетевых протоколов (TCP/IP, DNS, DHCP, VLAN). - Опыт работы с оборудованием Cisco, MikroTik, Ubiquiti или аналогичными брендами. -",
+      "responsibility": "Функционал: - Настройка, мониторинг и обслуживание сетевого оборудования (маршрутизаторы, коммутаторы, точки доступа Wi-Fi). - Управление IP-адресацией, VLAN, DHCP и DNS...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126798134",
+      "name": "Системный администратор",
+      "company": "КГАУ МФЦ Приморского края",
+      "company_id": "2985295",
+      "company_url": "https://hh.ru/employer/2985295",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1258321.jpg",
+      "url": "https://hh.ru/vacancy/126798134",
+      "published_at": "2025-10-22T02:53:46+0300",
+      "created_at": "2025-10-22T02:53:46+0300",
+      "area": "Артем",
+      "salary": "60 000 - 60 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 60000,
+        "to": 60000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Средне-специальное и (или) высшее образование (преимуществом будет образование в сфере информационных технологий). - Умение самостоятельно искать информацию и решать возникающие...",
+      "responsibility": "Поддержка компьютерного оборудования. - Обеспечение бесперебойной работы ИТ- инфраструктуры отделения. - Поддержка локальной сети и серверного оборудования. - Обеспечение информационной безопасности. -",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "126334641",
       "name": "Системный администратор Linux",
@@ -6112,16 +6178,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126637007",
+      "id": "126637019",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/126637007",
+      "url": "https://hh.ru/vacancy/126637019",
       "published_at": "2025-10-17T09:00:51+0300",
       "created_at": "2025-10-17T09:00:51+0300",
-      "area": "Южно-Сахалинск",
+      "area": "Судогда",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -6145,16 +6211,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126637019",
+      "id": "126637007",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/126637019",
+      "url": "https://hh.ru/vacancy/126637007",
       "published_at": "2025-10-17T09:00:51+0300",
       "created_at": "2025-10-17T09:00:51+0300",
-      "area": "Судогда",
+      "area": "Южно-Сахалинск",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -23295,39 +23361,6 @@
       "employment": "Полная занятость",
       "requirement": "Специалиста с профильным высшим образованием. С опытом работы в администрировании от 2 лет, знанием работы Linux серверов. Со знанием систем...",
       "responsibility": "Оказывать техническую поддержку пользователей (парк около 70 ПК). Администрировать серверы Microsoft Windows Server 2008/2012. Работать с сетевым оборудованием Mikrotik.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "119943020",
-      "name": "Системный администратор",
-      "company": "Первая Розничная Компания",
-      "company_id": "712125",
-      "company_url": "https://hh.ru/employer/712125",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1106432.png",
-      "url": "https://hh.ru/vacancy/119943020",
-      "published_at": "2025-09-22T08:39:32+0300",
-      "created_at": "2025-09-22T08:39:32+0300",
-      "area": "Южно-Сахалинск",
-      "salary": "от 150 000 RUR на руки",
-      "salary_raw": {
-        "from": 150000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Глубокое знание сетевых протоколов (TCP/IP, DNS, DHCP, VLAN). - Опыт работы с оборудованием Cisco, MikroTik, Ubiquiti или аналогичными брендами. -",
-      "responsibility": "Функционал: - Настройка, мониторинг и обслуживание сетевого оборудования (маршрутизаторы, коммутаторы, точки доступа Wi-Fi). - Управление IP-адресацией, VLAN, DHCP и DNS...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
