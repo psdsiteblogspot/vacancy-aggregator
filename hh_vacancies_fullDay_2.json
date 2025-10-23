@@ -10,16 +10,110 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-23T10:47:24Z",
+  "updated": "2025-10-23T11:44:29Z",
   "statistics": {
-    "total": 735,
-    "with_salary": 547,
-    "companies": 574,
+    "total": 734,
+    "with_salary": 545,
+    "companies": 573,
     "cities": 140,
     "premium": 0,
-    "with_test": 8
+    "with_test": 7
   },
   "vacancies": [
+    {
+      "id": "126876640",
+      "name": "Ведущий системный администратор",
+      "company": "ИДС Боржоми",
+      "company_id": "6",
+      "company_url": "https://hh.ru/employer/6",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/233731.jpg",
+      "url": "https://hh.ru/vacancy/126876640",
+      "published_at": "2025-10-23T14:04:18+0300",
+      "created_at": "2025-10-23T14:04:18+0300",
+      "area": "Кострома",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в технической поддержке. Хорошо развитые коммуникативные навыки. Техническое образование. Опыт работы с Jira.",
+      "responsibility": "Работа на 2ой линий поддержке пользователей, обработка обращений (приём и анализ заявок; диагностика проблем). Решение технических проблем (устранение сбоев...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Специалист технической поддержки"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126876098",
+      "name": "Дежурный системный администратор (2-я линия ТП)",
+      "company": "Интеркон",
+      "company_id": "55895",
+      "company_url": "https://hh.ru/employer/55895",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1413706.png",
+      "url": "https://hh.ru/vacancy/126876098",
+      "published_at": "2025-10-23T13:56:25+0300",
+      "created_at": "2025-10-23T13:56:25+0300",
+      "area": "Воронеж",
+      "salary": "от 55 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 55000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы с сетевым оборудованием. Знание ОС семейства Windows. Опыт обслуживания компьютерной техники. Умение общаться с людьми, грамотная речь, стрессоустойчивость.",
+      "responsibility": "Мониторинг и общий контроль состояния работоспособности сети. Диагностика и удаленное устранение технических неисправностей на стороне клиента и сети провайдера.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126729477",
+      "name": "Системный администратор/Специалист техподдержки",
+      "company": "Такси 434343",
+      "company_id": "1092209",
+      "company_url": "https://hh.ru/employer/1092209",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/78781.jpg",
+      "url": "https://hh.ru/vacancy/126729477",
+      "published_at": "2025-10-23T13:28:13+0300",
+      "created_at": "2025-10-23T13:28:13+0300",
+      "area": "Ижевск",
+      "salary": "110 000 - 110 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 110000,
+        "to": 110000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание Debian/Ubuntu Linux. Знание сетей TCP/IP. Владение техническим английским языком в объеме, достаточном для понимания технической документации.",
+      "responsibility": "Консультирование пользователей по работе в ПО. Консультирование системных администраторов по работе и настройке ПО, помощь в решении технических проблем.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "126873352",
       "name": "Специалист технического сопровождения (системный администратор)",
@@ -5825,39 +5919,6 @@
       "accept_temporary": false
     },
     {
-      "id": "126729477",
-      "name": "Системный администратор/Специалист техподдержки",
-      "company": "Такси 434343",
-      "company_id": "1092209",
-      "company_url": "https://hh.ru/employer/1092209",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/78781.jpg",
-      "url": "https://hh.ru/vacancy/126729477",
-      "published_at": "2025-10-20T13:28:13+0300",
-      "created_at": "2025-10-20T13:28:13+0300",
-      "area": "Ижевск",
-      "salary": "110 000 - 110 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 110000,
-        "to": 110000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание Debian/Ubuntu Linux. Знание сетей TCP/IP. Владение техническим английским языком в объеме, достаточном для понимания технической документации.",
-      "responsibility": "Консультирование пользователей по работе в ПО. Консультирование системных администраторов по работе и настройке ПО, помощь в решении технических проблем.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126729404",
       "name": "Ведущий системный администратор",
       "company": "БУЗ ВО Вологодская городская больница№2",
@@ -9759,16 +9820,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126554340",
+      "id": "126554343",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/126554340",
+      "url": "https://hh.ru/vacancy/126554343",
       "published_at": "2025-10-15T11:04:47+0300",
       "created_at": "2025-10-15T11:04:47+0300",
-      "area": "Киров (Кировская область)",
+      "area": "Абдулино",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -9787,16 +9848,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126554343",
+      "id": "126554340",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/126554343",
+      "url": "https://hh.ru/vacancy/126554340",
       "published_at": "2025-10-15T11:04:47+0300",
       "created_at": "2025-10-15T11:04:47+0300",
-      "area": "Абдулино",
+      "area": "Киров (Кировская область)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -16831,39 +16892,6 @@
       "accept_temporary": false
     },
     {
-      "id": "126161356",
-      "name": "Системный администратор",
-      "company": "СпецВагонСервис",
-      "company_id": "4390460",
-      "company_url": "https://hh.ru/employer/4390460",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/126161356",
-      "published_at": "2025-10-06T09:16:09+0300",
-      "created_at": "2025-10-06T09:16:09+0300",
-      "area": "Брянск",
-      "salary": "от 70 000 RUR на руки",
-      "salary_raw": {
-        "from": 70000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "Осуществляет подготовку компьютеров и отдельных устройств к работе, их технический осмотр, проводит проверку наличия неисправностей, устраняет неисправности и предотвращает появление...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126158632",
       "name": "Системный администратор",
       "company": "А2Мед Самара",
@@ -23259,72 +23287,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание компьютерного железа и принципов его работы. Знание операционных систем на уровне администратора (Windows, Linux и Mac OS).",
       "responsibility": "Подготовка рабочих мест. Подбор комплектующих. Проведение закупок (оформление ТЗ, проведение техоценки). Обслуживание оргтехники (замена, заказ и учет расходных материалов).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125661058",
-      "name": "Инженер технической поддержки 1L (Младший системный администратор)",
-      "company": "GITWISE (ООО ЦТП)",
-      "company_id": "11417739",
-      "company_url": "https://hh.ru/employer/11417739",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1329869.png",
-      "url": "https://hh.ru/vacancy/125661058",
-      "published_at": "2025-09-23T14:27:20+0300",
-      "created_at": "2025-09-23T14:27:20+0300",
-      "area": "Нижний Новгород",
-      "salary": "51 500 - 68 000 RUR на руки",
-      "salary_raw": {
-        "from": 51500,
-        "to": 68000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Уверенное владение Windows (установка, настройка, диагностика); базовые навыки Linux, macOS — приветствуются. Знание основ сетевых технологий: IP-адресация, маршрутизация, VPN, диагностика...",
-      "responsibility": "Принимать обращения пользователей через ServiceDesk, почту и телефон. Диагностировать и решать типовые инциденты: восстановление работы ПО (1С, почтовые клиенты...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Специалист технической поддержки"
-      ],
-      "has_test": true,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125660230",
-      "name": "Системный администратор",
-      "company": "Министерство социальной защиты населения Владимирской области",
-      "company_id": "11719433",
-      "company_url": "https://hh.ru/employer/11719433",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/125660230",
-      "published_at": "2025-09-23T14:15:09+0300",
-      "created_at": "2025-09-23T14:15:09+0300",
-      "area": "Владимир",
-      "salary": "50 000 - 65 000 RUR на руки",
-      "salary_raw": {
-        "from": 50000,
-        "to": 65000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование.",
-      "responsibility": "Системное и сетевое администрирование Windows, немного Linux, работа с документами.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
