@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-24T14:49:56Z",
+  "updated": "2025-10-24T15:47:08Z",
   "statistics": {
-    "total": 740,
-    "with_salary": 551,
-    "companies": 570,
+    "total": 738,
+    "with_salary": 550,
+    "companies": 569,
     "cities": 148,
     "premium": 0,
     "with_test": 7
   },
   "vacancies": [
+    {
+      "id": "126566549",
+      "name": "Системный администратор",
+      "company": "Профессиональный Партнер",
+      "company_id": "732036",
+      "company_url": "https://hh.ru/employer/732036",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1387255.png",
+      "url": "https://hh.ru/vacancy/126566549",
+      "published_at": "2025-10-24T17:57:36+0300",
+      "created_at": "2025-10-24T17:57:36+0300",
+      "area": "Тверь",
+      "salary": "60 000 - 70 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": 70000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Умение настроить и администрировать сервера на базе Linux (Ubuntu, CentOS, Proxmox). Понимание основ работы бд (MongoDB и Postgresql).",
+      "responsibility": "Настройка сетевого оборудование. Администрирование парка компьютеров с ОС Windows. Прокладка СКС. Поддержка сотрудников - Anykey. Поддержка клиентов - КриптоАРМ. Мониторинг (zabbix).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "115123750",
       "name": "Системный администратор",
@@ -1555,16 +1588,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126898068",
+      "id": "126898067",
       "name": "Системный администратор",
       "company": "Пластик",
       "company_id": "541232",
       "company_url": "https://hh.ru/employer/541232",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/280884.png",
-      "url": "https://hh.ru/vacancy/126898068",
+      "url": "https://hh.ru/vacancy/126898067",
       "published_at": "2025-10-24T09:28:01+0300",
       "created_at": "2025-10-24T09:28:01+0300",
-      "area": "Донской",
+      "area": "Узловая",
       "salary": "от 50 000 RUR на руки",
       "salary_raw": {
         "from": 50000,
@@ -1588,16 +1621,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126898067",
+      "id": "126898068",
       "name": "Системный администратор",
       "company": "Пластик",
       "company_id": "541232",
       "company_url": "https://hh.ru/employer/541232",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/280884.png",
-      "url": "https://hh.ru/vacancy/126898067",
+      "url": "https://hh.ru/vacancy/126898068",
       "published_at": "2025-10-24T09:28:01+0300",
       "created_at": "2025-10-24T09:28:01+0300",
-      "area": "Узловая",
+      "area": "Донской",
       "salary": "от 50 000 RUR на руки",
       "salary_raw": {
         "from": 50000,
@@ -5964,34 +5997,6 @@
       "accept_temporary": false
     },
     {
-      "id": "125730674",
-      "name": "Системный администратор",
-      "company": "ПК РАД КОП",
-      "company_id": "9499791",
-      "company_url": "https://hh.ru/employer/9499791",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5809371.jpg",
-      "url": "https://hh.ru/vacancy/125730674",
-      "published_at": "2025-10-21T18:34:15+0300",
-      "created_at": "2025-10-21T18:34:15+0300",
-      "area": "Брянск",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Опыт в роли системного администратора / инженера. Понимание ОС Windows и Linux, сетевых протоколов (TCP/IP, DHCP, DNS). Навыки работы с...",
-      "responsibility": "Развертывание и управление серверами на Windows/Linux, экспертиза в VMWare/Proxmox. Планирование архитектуры под задачи бизнеса (зачем, что, как?).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126795317",
       "name": "Системный администратор в Информационный центр по атомной энергии Обнинска",
       "company": "Информационный центр атомной отрасли",
@@ -6929,39 +6934,6 @@
       "employment": "Полная занятость",
       "requirement": "",
       "responsibility": "Установка и настройка серверов, компьютеров, сетевого оборудования. Установка и настройка программного обеспечения. Требования: Работа с настройкой и маршрутизацией.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126566549",
-      "name": "Системный администратор",
-      "company": "Профессиональный Партнер",
-      "company_id": "732036",
-      "company_url": "https://hh.ru/employer/732036",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1387255.png",
-      "url": "https://hh.ru/vacancy/126566549",
-      "published_at": "2025-10-20T17:20:27+0300",
-      "created_at": "2025-10-20T17:20:27+0300",
-      "area": "Тверь",
-      "salary": "60 000 - 70 000 RUR на руки",
-      "salary_raw": {
-        "from": 60000,
-        "to": 70000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Умение настроить и администрировать сервера на базе Linux (Ubuntu, CentOS, Proxmox). Понимание основ работы бд (MongoDB и Postgresql).",
-      "responsibility": "Настройка сетевого оборудование. Администрирование парка компьютеров с ОС Windows. Прокладка СКС. Поддержка сотрудников - Anykey. Поддержка клиентов - КриптоАРМ. Мониторинг (zabbix).",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -9353,16 +9325,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126637008",
+      "id": "126637010",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/126637008",
+      "url": "https://hh.ru/vacancy/126637010",
       "published_at": "2025-10-17T09:00:51+0300",
       "created_at": "2025-10-17T09:00:51+0300",
-      "area": "Россошь",
+      "area": "Ржев",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -9386,16 +9358,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126637010",
+      "id": "126637008",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/126637010",
+      "url": "https://hh.ru/vacancy/126637008",
       "published_at": "2025-10-17T09:00:51+0300",
       "created_at": "2025-10-17T09:00:51+0300",
-      "area": "Ржев",
+      "area": "Россошь",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -18085,39 +18057,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы от 3 лет.",
       "responsibility": "Управление почтовыми сервисами. Тех. поддержка пользователей. IP - телефония Asterisk. Active Directory Пользователи. Монтаж ЛВС, СКУД. Администрирование систем видео наблюдения.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126158584",
-      "name": "Системный администратор",
-      "company": "МАГНИТ, Розничная сеть",
-      "company_id": "49357",
-      "company_url": "https://hh.ru/employer/49357",
-      "company_logo": "https://img.hhcdn.ru/ichameleon/258991.png",
-      "url": "https://hh.ru/vacancy/126158584",
-      "published_at": "2025-10-06T08:48:17+0300",
-      "created_at": "2025-10-06T08:48:17+0300",
-      "area": "Тверь",
-      "salary": "81 000 - 81 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 81000,
-        "to": 81000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "среднее профессиональное образование, высшее по профилю должности. - знание системы контроля и управления доступом (СКУД). - знание TRASSIR — программа для видеонаблюдения. -",
-      "responsibility": "конфигурировать операционную систему на серверах, а также поддерживать рабочее состояние программного обеспечения серверов. - контролировать установку программного обеспечения на серверы и...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
