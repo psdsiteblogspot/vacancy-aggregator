@@ -10,16 +10,166 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-27T13:12:00Z",
+  "updated": "2025-10-27T13:52:38Z",
   "statistics": {
-    "total": 725,
+    "total": 727,
     "with_salary": 544,
-    "companies": 557,
+    "companies": 559,
     "cities": 145,
     "premium": 0,
-    "with_test": 7
+    "with_test": 6
   },
   "vacancies": [
+    {
+      "id": "127016746",
+      "name": "Системный администратор",
+      "company": "Группа компаний Современные транспортные технологии",
+      "company_id": "4677559",
+      "company_url": "https://hh.ru/employer/4677559",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1072358.png",
+      "url": "https://hh.ru/vacancy/127016746",
+      "published_at": "2025-10-27T16:42:15+0300",
+      "created_at": "2025-10-27T16:42:15+0300",
+      "area": "Нижний Новгород",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в области системного администрирования от 2 лет. Знание серверных операционных систем (Windows, Linux). Опыт администрирования серверов под управлением...",
+      "responsibility": "Установка и обслуживание серверов, компьютеров и оргтехники. Установка и поддержка нормальной работы операционных систем, офисных, антивирусных программ, а также иного...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127014928",
+      "name": "Системный администратор",
+      "company": "ГК ЛидерТекс",
+      "company_id": "1087156",
+      "company_url": "https://hh.ru/employer/1087156",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1328838.jpg",
+      "url": "https://hh.ru/vacancy/127014928",
+      "published_at": "2025-10-27T16:28:32+0300",
+      "created_at": "2025-10-27T16:28:32+0300",
+      "area": "Иваново (Ивановская область)",
+      "salary": "от 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Ответственность, желание учиться. Учиться первое время придется много, различного оборудования довольно много.",
+      "responsibility": "Обслуживание и мелкий ремонт парка компьютерной техники: рабочие станции (ubuntu, win), сервера (linux, windows), сетевое оборудование. Используются Proxmox, Asterisk, RDP...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127013105",
+      "name": "Системный администратор",
+      "company": "Автоэкспресс-Плюс",
+      "company_id": "1212092",
+      "company_url": "https://hh.ru/employer/1212092",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/798620.jpg",
+      "url": "https://hh.ru/vacancy/127013105",
+      "published_at": "2025-10-27T16:15:01+0300",
+      "created_at": "2025-10-27T16:15:01+0300",
+      "area": "Вологда",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Образование высшее техническое. Опыт работы на аналогичной должности, желателен. Понимание принципов маршрутизации и коммутации.",
+      "responsibility": "Администрирование сетей. Управление доменом. Поддержка пользователей.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126521092",
+      "name": "Начинающий системный администратор Linux",
+      "company": "NEXT Contact",
+      "company_id": "2848751",
+      "company_url": "https://hh.ru/employer/2848751",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1398708.png",
+      "url": "https://hh.ru/vacancy/126521092",
+      "published_at": "2025-10-27T16:13:28+0300",
+      "created_at": "2025-10-27T16:13:28+0300",
+      "area": "Энгельс",
+      "salary": "от 50 000 RUR на руки",
+      "salary_raw": {
+        "from": 50000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Понимание основ Unix/Linux (файловая система, процессы, права, базовые команды). Желание освоить Asterisk и понять, как работает VoIP-инфраструктура.",
+      "responsibility": "Администрирование серверов на Linux (с ПО Asterisk). Разработка и доработка диалпланов на Lua. Обеспечение бесперебойной работы VoIP-сервисов компании.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127012643",
+      "name": "Системный администратор",
+      "company": "Муром",
+      "company_id": "2138888",
+      "company_url": "https://hh.ru/employer/2138888",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1411357.png",
+      "url": "https://hh.ru/vacancy/127012643",
+      "published_at": "2025-10-27T16:11:55+0300",
+      "created_at": "2025-10-27T16:11:55+0300",
+      "area": "Муром",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Наши преимущества: Понимание принципов работы оптических линий связи и SFP-модулей. Имеете опыт работы на аналогичной должности от 2-х...",
+      "responsibility": "Администрирование серверной инфраструктуры: Обслуживание и поддержка серверов на базе Windows Server и Linux. Работа с системами виртуализации VMware и Proxmox.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "126603225",
       "name": "Ведущий системный администратор",
@@ -212,6 +362,72 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": false
+    },
+    {
+      "id": "117955415",
+      "name": "Системный администратор",
+      "company": "Красное & Белое, розничная сеть",
+      "company_id": "1035394",
+      "company_url": "https://hh.ru/employer/1035394",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/90459.jpg",
+      "url": "https://hh.ru/vacancy/117955415",
+      "published_at": "2025-10-27T16:01:39+0300",
+      "created_at": "2025-10-27T16:01:39+0300",
+      "area": "Калуга",
+      "salary": "до 102 000 RUR на руки",
+      "salary_raw": {
+        "from": null,
+        "to": 102000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в аналогичной должности. Знание офисных и почтовых программ. Опыт программного и аппаратного ремонта. Понимание устройства локальных сетей и...",
+      "responsibility": "Обслуживание ПК и орг. техники, торгового оборудования, систем видеонаблюдения на магазинах торговой сети.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126920293",
+      "name": "Системный администратор / DevOps-инженер (React Native / Java / инфраструктура)",
+      "company": "Вальшин Ильнар Кяшафович",
+      "company_id": "5412558",
+      "company_url": "https://hh.ru/employer/5412558",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/126920293",
+      "published_at": "2025-10-27T15:53:49+0300",
+      "created_at": "2025-10-27T15:53:49+0300",
+      "area": "Самара",
+      "salary": "от 100 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы с Linux-системами и сетевым оборудованием. Базовые знания Java и/или React Native (для поддержки внутреннего приложения).",
+      "responsibility": "Администрирование, поддержка и доработка внутреннего приложения (фронтенд — React Native, бэкенд — Java). Настройка, мониторинг и резервное копирование связанных сервисов и оборудования.",
+      "type": "Открытая",
+      "professional_roles": [
+        "DevOps-инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
     },
     {
       "id": "127009798",
@@ -788,16 +1004,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126987445",
+      "id": "126987447",
       "name": "Системный администратор",
       "company": "Сварочно-Монтажная Компания",
       "company_id": "11222106",
       "company_url": "https://hh.ru/employer/11222106",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6897005.jpeg",
-      "url": "https://hh.ru/vacancy/126987445",
+      "url": "https://hh.ru/vacancy/126987447",
       "published_at": "2025-10-27T13:02:03+0300",
       "created_at": "2025-10-27T13:02:03+0300",
-      "area": "Благовещенск (Амурская область)",
+      "area": "Казань",
       "salary": "от 120 000 RUR на руки",
       "salary_raw": {
         "from": 120000,
@@ -821,16 +1037,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126987447",
+      "id": "126987445",
       "name": "Системный администратор",
       "company": "Сварочно-Монтажная Компания",
       "company_id": "11222106",
       "company_url": "https://hh.ru/employer/11222106",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6897005.jpeg",
-      "url": "https://hh.ru/vacancy/126987447",
+      "url": "https://hh.ru/vacancy/126987445",
       "published_at": "2025-10-27T13:02:03+0300",
       "created_at": "2025-10-27T13:02:03+0300",
-      "area": "Казань",
+      "area": "Благовещенск (Амурская область)",
       "salary": "от 120 000 RUR на руки",
       "salary_raw": {
         "from": 120000,
@@ -2574,39 +2790,6 @@
       "accept_temporary": false
     },
     {
-      "id": "126521092",
-      "name": "Начинающий системный администратор Linux",
-      "company": "NEXT Contact",
-      "company_id": "2848751",
-      "company_url": "https://hh.ru/employer/2848751",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1398708.png",
-      "url": "https://hh.ru/vacancy/126521092",
-      "published_at": "2025-10-26T16:13:24+0300",
-      "created_at": "2025-10-26T16:13:24+0300",
-      "area": "Энгельс",
-      "salary": "от 50 000 RUR на руки",
-      "salary_raw": {
-        "from": 50000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Понимание основ Unix/Linux (файловая система, процессы, права, базовые команды). Желание освоить Asterisk и понять, как работает VoIP-инфраструктура.",
-      "responsibility": "Администрирование серверов на Linux (с ПО Asterisk). Разработка и доработка диалпланов на Lua. Обеспечение бесперебойной работы VoIP-сервисов компании.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126881384",
       "name": "Младший системный администратор",
       "company": "МАЯКМЕТАЛЛ",
@@ -4090,39 +4273,6 @@
       "accept_temporary": false
     },
     {
-      "id": "117955415",
-      "name": "Системный администратор",
-      "company": "Красное & Белое, розничная сеть",
-      "company_id": "1035394",
-      "company_url": "https://hh.ru/employer/1035394",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/90459.jpg",
-      "url": "https://hh.ru/vacancy/117955415",
-      "published_at": "2025-10-24T16:01:39+0300",
-      "created_at": "2025-10-24T16:01:39+0300",
-      "area": "Калуга",
-      "salary": "до 102 000 RUR на руки",
-      "salary_raw": {
-        "from": null,
-        "to": 102000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в аналогичной должности. Знание офисных и почтовых программ. Опыт программного и аппаратного ремонта. Понимание устройства локальных сетей и...",
-      "responsibility": "Обслуживание ПК и орг. техники, торгового оборудования, систем видеонаблюдения на магазинах торговой сети.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126920464",
       "name": "Системный администратор",
       "company": "ПКК ВЕСНА",
@@ -4149,39 +4299,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": false
-    },
-    {
-      "id": "126920293",
-      "name": "Системный администратор / DevOps-инженер (React Native / Java / инфраструктура)",
-      "company": "Вальшин Ильнар Кяшафович",
-      "company_id": "5412558",
-      "company_url": "https://hh.ru/employer/5412558",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/126920293",
-      "published_at": "2025-10-24T15:53:49+0300",
-      "created_at": "2025-10-24T15:53:49+0300",
-      "area": "Самара",
-      "salary": "от 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с Linux-системами и сетевым оборудованием. Базовые знания Java и/или React Native (для поддержки внутреннего приложения).",
-      "responsibility": "Администрирование, поддержка и доработка внутреннего приложения (фронтенд — React Native, бэкенд — Java). Настройка, мониторинг и резервное копирование связанных сервисов и оборудования.",
-      "type": "Открытая",
-      "professional_roles": [
-        "DevOps-инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
     },
     {
       "id": "126919108",
@@ -6144,34 +6261,6 @@
         "Системный администратор"
       ],
       "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125917785",
-      "name": "Ведущий системный администратор (г. Воронеж)",
-      "company": "ПУЛЬС АЙТИМ",
-      "company_id": "9777651",
-      "company_url": "https://hh.ru/employer/9777651",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1358893.jpg",
-      "url": "https://hh.ru/vacancy/125917785",
-      "published_at": "2025-10-23T10:21:01+0300",
-      "created_at": "2025-10-23T10:21:01+0300",
-      "area": "Воронеж",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Пожелания по опыту: Опыт работы в поддержке от 1 года. Знание технологий работы с Windows клиентами и офисным программным обеспечением.",
-      "responsibility": "Участвовать в поддержке пользователей и обеспечивать бесперебойную работу бизнес-процессов. Консультировать пользователей по работе информационных систем. Создавать пользовательские инструкции по...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": true,
       "premium": false,
       "accept_handicapped": false,
       "accept_kids": false,
@@ -17959,39 +18048,6 @@
       "accept_temporary": false
     },
     {
-      "id": "126232656",
-      "name": "Системный администратор",
-      "company": "ПРАНАФАРМ",
-      "company_id": "1136494",
-      "company_url": "https://hh.ru/employer/1136494",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/976107.png",
-      "url": "https://hh.ru/vacancy/126232656",
-      "published_at": "2025-10-07T11:16:44+0300",
-      "created_at": "2025-10-07T11:16:44+0300",
-      "area": "Самара",
-      "salary": "от 69 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 69000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Нет опыта",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "Знания ОС Windows, в том числе серверных. Понимание работы протоколов TCP/IP, http, https. Умение выполнять мелкий ремонт «железа», сборку...",
-      "responsibility": "Поддержание ИТ инфраструктуры компании (компьютеры, принтеры. Локальная сеть, программное обеспечение). Сопровождение пользователей, удаленных рабочих мест. Сопровождение корпоративной связи компании (сотовая...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126232496",
       "name": "Системный администратор",
       "company": "Филиал ПАО Россети Волга - Мордовэнерго",
@@ -19371,16 +19427,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126127391",
+      "id": "126127392",
       "name": "Системный администратор",
       "company": "Трансэнерго",
       "company_id": "774557",
       "company_url": "https://hh.ru/employer/774557",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1030075.png",
-      "url": "https://hh.ru/vacancy/126127391",
+      "url": "https://hh.ru/vacancy/126127392",
       "published_at": "2025-10-03T18:59:06+0300",
       "created_at": "2025-10-03T18:59:06+0300",
-      "area": "Нижний Новгород",
+      "area": "Кстово",
       "salary": "от 80 000 RUR на руки",
       "salary_raw": {
         "from": 80000,
@@ -19404,16 +19460,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126127392",
+      "id": "126127391",
       "name": "Системный администратор",
       "company": "Трансэнерго",
       "company_id": "774557",
       "company_url": "https://hh.ru/employer/774557",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1030075.png",
-      "url": "https://hh.ru/vacancy/126127392",
+      "url": "https://hh.ru/vacancy/126127391",
       "published_at": "2025-10-03T18:59:06+0300",
       "created_at": "2025-10-03T18:59:06+0300",
-      "area": "Кстово",
+      "area": "Нижний Новгород",
       "salary": "от 80 000 RUR на руки",
       "salary_raw": {
         "from": 80000,
