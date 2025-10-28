@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-28T03:17:58Z",
+  "updated": "2025-10-28T03:50:30Z",
   "statistics": {
-    "total": 872,
-    "with_salary": 622,
-    "companies": 652,
+    "total": 870,
+    "with_salary": 620,
+    "companies": 650,
     "cities": 207,
     "premium": 2,
     "with_test": 15
   },
   "vacancies": [
+    {
+      "id": "123128822",
+      "name": "Помощник системного администратора",
+      "company": "Автотрейд",
+      "company_id": "114735",
+      "company_url": "https://hh.ru/employer/114735",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1421878.png",
+      "url": "https://hh.ru/vacancy/123128822",
+      "published_at": "2025-10-28T06:33:20+0300",
+      "created_at": "2025-10-28T06:33:20+0300",
+      "area": "Краснодар",
+      "salary": "60 000 - 70 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": 70000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание устройства ПК и оргтехники. Умение распознавать следствие/причины некорректной работы ПО или техники. Умение выполнять первичную установку и настройку...",
+      "responsibility": "Сборка, профилактика, блочный ремонт, обслуживание рабочих мест пользователей. Работа с пользователями в части технической поддержки офисного оборудования, программного обеспечения.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127033224",
+      "name": "Системный администратор",
+      "company": "ГБУЗ Бурятский республиканский клинический онкологический диспансер",
+      "company_id": "4469904",
+      "company_url": "https://hh.ru/employer/4469904",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/127033224",
+      "published_at": "2025-10-28T06:22:47+0300",
+      "created_at": "2025-10-28T06:22:47+0300",
+      "area": "Улан-Удэ",
+      "salary": "от 75 000 RUR на руки",
+      "salary_raw": {
+        "from": 75000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы с сетевыми технологиями: Модель OSI, DNS, DHCP, Vlan, NAT, VPN, Port security, DHCP snooping. Опыт администрирования серверов (Windows...",
+      "responsibility": "Администрирование серверов (Windows, Linux). Администрирование сети организации (Коммутаторы 3 уровня, маршрутизаторы, межсетевой экран). Администрирование AD, файлового сервера, серверов резервного хранения.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "126800125",
       "name": "Системный администратор (офис)",
@@ -1024,16 +1090,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126991359",
+      "id": "126991360",
       "name": "Системный администратор (ЯНАО)",
       "company": "Группа компаний НГ-сервис",
       "company_id": "222884",
       "company_url": "https://hh.ru/employer/222884",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/626627.jpg",
-      "url": "https://hh.ru/vacancy/126991359",
+      "url": "https://hh.ru/vacancy/126991360",
       "published_at": "2025-10-27T13:31:44+0300",
       "created_at": "2025-10-27T13:31:44+0300",
-      "area": "Тюмень",
+      "area": "Сургут",
       "salary": "130 000 - 150 000 RUR на руки",
       "salary_raw": {
         "from": 130000,
@@ -1057,16 +1123,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126991360",
+      "id": "126991359",
       "name": "Системный администратор (ЯНАО)",
       "company": "Группа компаний НГ-сервис",
       "company_id": "222884",
       "company_url": "https://hh.ru/employer/222884",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/626627.jpg",
-      "url": "https://hh.ru/vacancy/126991360",
+      "url": "https://hh.ru/vacancy/126991359",
       "published_at": "2025-10-27T13:31:44+0300",
       "created_at": "2025-10-27T13:31:44+0300",
-      "area": "Сургут",
+      "area": "Тюмень",
       "salary": "130 000 - 150 000 RUR на руки",
       "salary_raw": {
         "from": 130000,
@@ -8861,12 +8927,12 @@
       "published_at": "2025-10-22T05:19:50+0300",
       "created_at": "2025-10-22T05:19:50+0300",
       "area": "Красноярск",
-      "salary": "от 70 000 RUR до вычета налогов",
+      "salary": "от 90 000 RUR на руки",
       "salary_raw": {
-        "from": 70000,
+        "from": 90000,
         "to": null,
         "currency": "RUR",
-        "gross": true
+        "gross": false
       },
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
@@ -8940,16 +9006,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126795594",
+      "id": "126795592",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/126795594",
+      "url": "https://hh.ru/vacancy/126795592",
       "published_at": "2025-10-21T18:39:56+0300",
       "created_at": "2025-10-21T18:39:56+0300",
-      "area": "Братск",
+      "area": "Асбест",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -8968,16 +9034,16 @@
       "accept_temporary": true
     },
     {
-      "id": "126795592",
+      "id": "126795594",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/126795592",
+      "url": "https://hh.ru/vacancy/126795594",
       "published_at": "2025-10-21T18:39:56+0300",
       "created_at": "2025-10-21T18:39:56+0300",
-      "area": "Асбест",
+      "area": "Братск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -11148,16 +11214,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122623821",
+      "id": "122623819",
       "name": "Старший системный администратор в ИТ-компанию",
       "company": "ALP GROUP",
       "company_id": "16237",
       "company_url": "https://hh.ru/employer/16237",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/362820.png",
-      "url": "https://hh.ru/vacancy/122623821",
+      "url": "https://hh.ru/vacancy/122623819",
       "published_at": "2025-10-20T13:34:12+0300",
       "created_at": "2025-10-20T13:34:12+0300",
-      "area": "Краснодар",
+      "area": "Калининград",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "Более 6 лет",
@@ -11176,16 +11242,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122623819",
+      "id": "122623821",
       "name": "Старший системный администратор в ИТ-компанию",
       "company": "ALP GROUP",
       "company_id": "16237",
       "company_url": "https://hh.ru/employer/16237",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/362820.png",
-      "url": "https://hh.ru/vacancy/122623819",
+      "url": "https://hh.ru/vacancy/122623821",
       "published_at": "2025-10-20T13:34:12+0300",
       "created_at": "2025-10-20T13:34:12+0300",
-      "area": "Калининград",
+      "area": "Краснодар",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "Более 6 лет",
@@ -13319,39 +13385,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт системного администрирования от 2-х лет. Знание основ минимум одноранговых сетей, сетевой безопасности и модели OSI. Опыт администрирования Linux...",
       "responsibility": "Администрирование парка АРМ контактного центра, SIP телефонии, сервисов и серверов компании. - Обеспечение информационной безопасности. - Работа с сетевым оборудованием. -",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123128822",
-      "name": "Помощник системного администратора",
-      "company": "Автотрейд",
-      "company_id": "114735",
-      "company_url": "https://hh.ru/employer/114735",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1421878.png",
-      "url": "https://hh.ru/vacancy/123128822",
-      "published_at": "2025-10-17T10:30:00+0300",
-      "created_at": "2025-10-17T10:30:00+0300",
-      "area": "Краснодар",
-      "salary": "60 000 - 70 000 RUR на руки",
-      "salary_raw": {
-        "from": 60000,
-        "to": 70000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание устройства ПК и оргтехники. Умение распознавать следствие/причины некорректной работы ПО или техники. Умение выполнять первичную установку и настройку...",
-      "responsibility": "Сборка, профилактика, блочный ремонт, обслуживание рабочих мест пользователей. Работа с пользователями в части технической поддержки офисного оборудования, программного обеспечения.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -20218,39 +20251,6 @@
       "accept_temporary": true
     },
     {
-      "id": "126352066",
-      "name": "Системный администратор",
-      "company": "ИТС-Консалт",
-      "company_id": "843164",
-      "company_url": "https://hh.ru/employer/843164",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1447351.png",
-      "url": "https://hh.ru/vacancy/126352066",
-      "published_at": "2025-10-09T11:34:11+0300",
-      "created_at": "2025-10-09T11:34:11+0300",
-      "area": "Иркутск",
-      "salary": "от 70 000 RUR на руки",
-      "salary_raw": {
-        "from": 70000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы системным администратором не менее 1 года. Знания операционных систем Windows, сетей TCP-IP, основ маршрутизации, сетевого оборудования, офисного...",
-      "responsibility": "Удаленное системное администрирование серверного и сетевого оборудования, удаленная техническая поддержка пользователей, мониторинг состояния ИТ-инфраструктуры.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126351513",
       "name": "Системный администратор",
       "company": "Школа 21",
@@ -26053,39 +26053,6 @@
       "accept_temporary": false
     },
     {
-      "id": "125945354",
-      "name": "Системный администратор",
-      "company": "Корпоративный Центр",
-      "company_id": "12030192",
-      "company_url": "https://hh.ru/employer/12030192",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/125945354",
-      "published_at": "2025-09-30T10:44:52+0300",
-      "created_at": "2025-09-30T10:44:52+0300",
-      "area": "Омск",
-      "salary": "от 80 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в системном администрировании от 1 года. Понимание принципов работы операционных систем Linux и Windows. Умение администрировать Active Directory.",
-      "responsibility": "Установка, настройка и обновление программного обеспечения, необходимого для работы компании, включая операционные системы Windows и Linux. Мониторинг и устранение ошибок...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "125944154",
       "name": "Системный администратор",
       "company": "Кисилев Иван Александрович",
@@ -27437,39 +27404,6 @@
       "employment": "Полная занятость",
       "requirement": "Широкий кругозор в области ИТ-технологий (\"железо\", софт). Понимание модели OSI или стеков TCP/IP. Понимание принципов построения сетей TCP...",
       "responsibility": "3 линиях поддержки, взаимодействие с пользователями в системе учета и регистрации инцидентов. Выполнение задач по администрированию сети (конфигурирование сетевого оборудования...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124681719",
-      "name": "Системный администратор, специалист технической поддержки",
-      "company": "Астра-Мед,ООО",
-      "company_id": "636640",
-      "company_url": "https://hh.ru/employer/636640",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/530015.png",
-      "url": "https://hh.ru/vacancy/124681719",
-      "published_at": "2025-09-29T05:49:52+0300",
-      "created_at": "2025-09-29T05:49:52+0300",
-      "area": "Новосибирск",
-      "salary": "80 000 - 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": 80000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с сервисами: Windows AD, Group Policy, DNS, DHCP, Terminal Services, Kaspersky Security Center 10/11 (Endpoint). -",
-      "responsibility": "Поддержка бесперебойного функционирования офисного программного обеспечения (в том числе на терминальных серверах), локальных сетей. - Администрирование ОС Windows 7/10, прикладного...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
