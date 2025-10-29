@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-29T02:24:37Z",
+  "updated": "2025-10-29T03:39:27Z",
   "statistics": {
     "total": 737,
     "with_salary": 552,
@@ -20,6 +20,105 @@
     "with_test": 6
   },
   "vacancies": [
+    {
+      "id": "124896442",
+      "name": "Системный администратор (г.Ярославль)",
+      "company": "ГБУЗ ЯО Областной перинатальный центр",
+      "company_id": "3126386",
+      "company_url": "https://hh.ru/employer/3126386",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/124896442",
+      "published_at": "2025-10-29T06:38:09+0300",
+      "created_at": "2025-10-29T06:38:09+0300",
+      "area": "Ярославль",
+      "salary": "от 90 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 90000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее техническое образование по направлению. Опыт работы в программе 1С приветствуется.",
+      "responsibility": "Работа в 1С:Медицина. Больница: Администрирование системы, обучение врачей. - Обслуживание парка из 280 ПК, 7 Серверов на PROXMOX, 190...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127083914",
+      "name": "Системный администратор",
+      "company": "Азиатско-Тихоокеанский Банк",
+      "company_id": "176941",
+      "company_url": "https://hh.ru/employer/176941",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1376329.jpg",
+      "url": "https://hh.ru/vacancy/127083914",
+      "published_at": "2025-10-29T06:16:56+0300",
+      "created_at": "2025-10-29T06:16:56+0300",
+      "area": "Казань",
+      "salary": "121 000 - 121 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 121000,
+        "to": 121000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее или средне-специальное образование (техническое, математическое, информационные технологии). Опыт работы в сфере информационных технологий обязателен.",
+      "responsibility": "Обслуживание компьютерной и оргтехники. ИТ-поддержка пользователей регионального офиса. Работа с сетевым оборудованием (маршрутизаторы, коммутаторы) и серверами. Установка и настройка...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122204066",
+      "name": "Системный администратор",
+      "company": "ГБУЗ Самарская городская клиническая больница №2 имени Н.А. Семашко",
+      "company_id": "2919562",
+      "company_url": "https://hh.ru/employer/2919562",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/436833.jpg",
+      "url": "https://hh.ru/vacancy/122204066",
+      "published_at": "2025-10-29T06:14:19+0300",
+      "created_at": "2025-10-29T06:14:19+0300",
+      "area": "Самара",
+      "salary": "от 40 000 RUR на руки",
+      "salary_raw": {
+        "from": 40000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Навыки работы в IT выше уверенного пользователя. Знания настройки ОС Windows и работы основных офисных программ. В/о.",
+      "responsibility": "Работа в медицинских информационных системах (ЕМИАС). Консультация пользователей по работе с ПК и МИС. Решение текущих ошибок МИС. Обслуживание оргтехники.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "127081547",
       "name": "Системный администратор",
@@ -1671,39 +1770,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт администрирования Linux. - Опыт администрирования систем виртуализации Proxmox VE, KVM. - Опыт администрирования СУБД PostgreSQL, Clickhouse и др.. - Знание технологий резервного...",
       "responsibility": "Администрирование серверов на базе ОС Linux. - Администрирование систем виртуализации Proxmox VE, KVM. - Автоматизация CI/CD процессов. - Администрирование СУБД PostgreSQL, Clickhouse...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122204066",
-      "name": "Системный администратор",
-      "company": "ГБУЗ Самарская городская клиническая больница №2 имени Н.А. Семашко",
-      "company_id": "2919562",
-      "company_url": "https://hh.ru/employer/2919562",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/436833.jpg",
-      "url": "https://hh.ru/vacancy/122204066",
-      "published_at": "2025-10-28T06:50:35+0300",
-      "created_at": "2025-10-28T06:50:35+0300",
-      "area": "Самара",
-      "salary": "от 40 000 RUR на руки",
-      "salary_raw": {
-        "from": 40000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Навыки работы в IT выше уверенного пользователя. Знания настройки ОС Windows и работы основных офисных программ. В/о.",
-      "responsibility": "Работа в медицинских информационных системах (ЕМИАС). Консультация пользователей по работе с ПК и МИС. Решение текущих ошибок МИС. Обслуживание оргтехники.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -11779,39 +11845,6 @@
       "accept_temporary": false
     },
     {
-      "id": "126637010",
-      "name": "Выездной инженер технической поддержки/системный администратор",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/126637010",
-      "published_at": "2025-10-17T09:00:51+0300",
-      "created_at": "2025-10-17T09:00:51+0300",
-      "area": "Ржев",
-      "salary": "200 - 10 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 200,
-        "to": 10000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
-      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126637016",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
@@ -11845,16 +11878,49 @@
       "accept_temporary": false
     },
     {
-      "id": "126637019",
+      "id": "126637010",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/126637019",
+      "url": "https://hh.ru/vacancy/126637010",
       "published_at": "2025-10-17T09:00:51+0300",
       "created_at": "2025-10-17T09:00:51+0300",
-      "area": "Судогда",
+      "area": "Ржев",
+      "salary": "200 - 10 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 200,
+        "to": 10000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126637008",
+      "name": "Выездной инженер технической поддержки/системный администратор",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/126637008",
+      "published_at": "2025-10-17T09:00:51+0300",
+      "created_at": "2025-10-17T09:00:51+0300",
+      "area": "Россошь",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -11911,16 +11977,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126637008",
+      "id": "126637019",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/126637008",
+      "url": "https://hh.ru/vacancy/126637019",
       "published_at": "2025-10-17T09:00:51+0300",
       "created_at": "2025-10-17T09:00:51+0300",
-      "area": "Россошь",
+      "area": "Судогда",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -17692,39 +17758,6 @@
       "accept_temporary": false
     },
     {
-      "id": "124896442",
-      "name": "Системный администратор (г.Ярославль)",
-      "company": "ГБУЗ ЯО Областной перинатальный центр",
-      "company_id": "3126386",
-      "company_url": "https://hh.ru/employer/3126386",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/124896442",
-      "published_at": "2025-10-08T11:42:41+0300",
-      "created_at": "2025-10-08T11:42:41+0300",
-      "area": "Ярославль",
-      "salary": "от 90 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 90000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее техническое образование по направлению. Опыт работы в программе 1С приветствуется.",
-      "responsibility": "Работа в 1С:Медицина. Больница: Администрирование системы, обучение врачей. - Обслуживание парка из 280 ПК, 7 Серверов на PROXMOX, 190...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126297784",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
@@ -22113,39 +22146,6 @@
       "employment": "Полная занятость",
       "requirement": "Основы построения и администрирования серверной и сетевой инфраструктуры (Windows Server, Hyper-V, маршрутизаторы, коммутаторы, СХД). Принципы работы и архитектуры локальных...",
       "responsibility": "Сопровождение предприятий, сервисов и операций ГК в части ИТ инфраструктуры. Добавлять и отключать доступы сотрудникам на основании официальных обращений.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125986072",
-      "name": "Системный администратор",
-      "company": "Центр цифрового образования детей IT-куб в Благовещенске",
-      "company_id": "12219472",
-      "company_url": "https://hh.ru/employer/12219472",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1460694.png",
-      "url": "https://hh.ru/vacancy/125986072",
-      "published_at": "2025-10-01T03:43:14+0300",
-      "created_at": "2025-10-01T03:43:14+0300",
-      "area": "Благовещенск (Амурская область)",
-      "salary": "50 000 - 55 000 RUR на руки",
-      "salary_raw": {
-        "from": 50000,
-        "to": 55000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы от 1 до 3 лет в аналогичной должности. Знание принципов работы сетевых технологий и оборудования. Умение быстро решать...",
-      "responsibility": "Поддержка стабильной работы Интернета и локальной сети. Установка и обновление программного обеспечения на учебные компьютеры. Обслуживание и поддержка компьютерного и...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
