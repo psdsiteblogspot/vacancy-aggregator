@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-10-31T04:26:42Z",
+  "updated": "2025-10-31T05:22:29Z",
   "statistics": {
-    "total": 1336,
-    "with_salary": 741,
-    "companies": 1082,
+    "total": 1335,
+    "with_salary": 740,
+    "companies": 1081,
     "cities": 77,
     "premium": 2,
     "with_test": 76
   },
   "vacancies": [
+    {
+      "id": "125772968",
+      "name": "Сетевой инженер/Системный администратор",
+      "company": "Производство компании Хлебник",
+      "company_id": "12312828",
+      "company_url": "https://hh.ru/employer/12312828",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/125772968",
+      "published_at": "2025-10-31T08:18:41+0300",
+      "created_at": "2025-10-31T08:18:41+0300",
+      "area": "Всеволожск",
+      "salary": "от 103 448 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 103448,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее профильное образование. Опыт работы на позиции сетевого инженера от 0,5 года. Умение писать несложные скрипты на bash/perl...",
+      "responsibility": "Мониторинг сети: отслеживание работоспособности сетевого оборудования и обеспечение стабильной работы сети. Управление доступом: контроль доступа к сети, настройка пользователей и...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126443204",
+      "name": "Системный администратор vsphere NSX",
+      "company": "ROSSKO",
+      "company_id": "245592",
+      "company_url": "https://hh.ru/employer/245592",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1428317.png",
+      "url": "https://hh.ru/vacancy/126443204",
+      "published_at": "2025-10-31T08:10:27+0300",
+      "created_at": "2025-10-31T08:10:27+0300",
+      "area": "Москва",
+      "salary": "от 200 000 RUR на руки",
+      "salary_raw": {
+        "from": 200000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Принципы работы VMware vSphere и VMware NSX. Принципы построения сетей и сетевых протоколов.(BGP, OSPF), основы работы с сетевым оборудованием...",
+      "responsibility": "Развивают 37 внутренних продуктов (включая логистику, e-commerce, финансы и BI). Поддерживают собственную инфраструктуру: 5 ЦОД, 1000+ виртуальных серверов...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "126620301",
       "name": "Системный администратор",
@@ -11468,39 +11534,6 @@
       "accept_temporary": false
     },
     {
-      "id": "125772968",
-      "name": "Сетевой инженер/Системный администратор",
-      "company": "Производство компании Хлебник",
-      "company_id": "12312828",
-      "company_url": "https://hh.ru/employer/12312828",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/125772968",
-      "published_at": "2025-10-28T16:59:52+0300",
-      "created_at": "2025-10-28T16:59:52+0300",
-      "area": "Всеволожск",
-      "salary": "от 103 448 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 103448,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее профильное образование. Опыт работы на позиции сетевого инженера от 0,5 года. Умение писать несложные скрипты на bash/perl...",
-      "responsibility": "Мониторинг сети: отслеживание работоспособности сетевого оборудования и обеспечение стабильной работы сети. Управление доступом: контроль доступа к сети, настройка пользователей и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126363858",
       "name": "Старший системный администратор",
       "company": "2Лекс",
@@ -15455,39 +15488,6 @@
       "accept_temporary": false
     },
     {
-      "id": "126443204",
-      "name": "Системный администратор vsphere NSX",
-      "company": "ROSSKO",
-      "company_id": "245592",
-      "company_url": "https://hh.ru/employer/245592",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1428317.png",
-      "url": "https://hh.ru/vacancy/126443204",
-      "published_at": "2025-10-28T08:10:27+0300",
-      "created_at": "2025-10-28T08:10:27+0300",
-      "area": "Москва",
-      "salary": "от 200 000 RUR на руки",
-      "salary_raw": {
-        "from": 200000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Принципы работы VMware vSphere и VMware NSX. Принципы построения сетей и сетевых протоколов.(BGP, OSPF), основы работы с сетевым оборудованием...",
-      "responsibility": "Развивают 37 внутренних продуктов (включая логистику, e-commerce, финансы и BI). Поддерживают собственную инфраструктуру: 5 ЦОД, 1000+ виртуальных серверов...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "125531264",
       "name": "IT - специалист / Системный администратор",
       "company": "Автономная Некоммерческая организация по Развитию Городской Среды МосводостокСтройТрест",
@@ -15510,39 +15510,6 @@
       "employment": "Полная занятость",
       "requirement": "Серверных ОС семейства Linux, Windows (2008R2, 2012R2, 2016, 2019): АD, DНСР, DNS, GРО, простые скрипты Power...",
       "responsibility": "Проектирование, развёртывание и администрирование: - Конфигурирование и обслуживание сетевого оборудования Mikrotik, CISCO, Huawei. - Системы резервного копирования данных. - Пользовательских ОС семейства Windows...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125989849",
-      "name": "Системный администратор",
-      "company": "Клиника MED YU MED",
-      "company_id": "3757416",
-      "company_url": "https://hh.ru/employer/3757416",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/681236.jpg",
-      "url": "https://hh.ru/vacancy/125989849",
-      "published_at": "2025-10-28T07:30:49+0300",
-      "created_at": "2025-10-28T07:30:49+0300",
-      "area": "Москва",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы системным администратором или IT-специалистом широкого профиля от 1 года. Практический опыт администрирования и глубокого понимания системы yclients...",
-      "responsibility": "Полное администрирование и техническая поддержка системы yclients (настройка, обновление, права доступа, справочники, услуги, филиалы). Настройка и поддержка интеграций yclients.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -35609,16 +35576,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126298780",
+      "id": "126298781",
       "name": "Системный администратор",
       "company": "SDSTART",
       "company_id": "3332859",
       "company_url": "https://hh.ru/employer/3332859",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1438860.png",
-      "url": "https://hh.ru/vacancy/126298780",
+      "url": "https://hh.ru/vacancy/126298781",
       "published_at": "2025-10-08T11:44:10+0300",
       "created_at": "2025-10-08T11:44:10+0300",
-      "area": "Пушкино (Московская область)",
+      "area": "Щелково (Московская область)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -35637,16 +35604,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126298781",
+      "id": "126298780",
       "name": "Системный администратор",
       "company": "SDSTART",
       "company_id": "3332859",
       "company_url": "https://hh.ru/employer/3332859",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1438860.png",
-      "url": "https://hh.ru/vacancy/126298781",
+      "url": "https://hh.ru/vacancy/126298780",
       "published_at": "2025-10-08T11:44:10+0300",
       "created_at": "2025-10-08T11:44:10+0300",
-      "area": "Щелково (Московская область)",
+      "area": "Пушкино (Московская область)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
