@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-02T13:34:34Z",
+  "updated": "2025-11-02T14:32:49Z",
   "statistics": {
     "total": 853,
     "with_salary": 616,
@@ -20,6 +20,72 @@
     "with_test": 14
   },
   "vacancies": [
+    {
+      "id": "127169432",
+      "name": "Начинающий системный администратор",
+      "company": "NEXT Contact",
+      "company_id": "2848751",
+      "company_url": "https://hh.ru/employer/2848751",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1398708.png",
+      "url": "https://hh.ru/vacancy/127169432",
+      "published_at": "2025-11-02T17:03:30+0300",
+      "created_at": "2025-11-02T17:03:30+0300",
+      "area": "Волгоград",
+      "salary": "от 34 000 RUR на руки",
+      "salary_raw": {
+        "from": 34000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Знание устройства ПК. Знание AD, DHCP, DNS. Иметь представление о сетях, сетевом оборудовании (желательно). Опыт администрирования рабочих станций на Windows...",
+      "responsibility": "Диагностика и решение проблем с ПК и программами. Техническая поддержка сотрудников офиса.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126200132",
+      "name": "Системный администратор (на склад г. Копейск)",
+      "company": "Красное & Белое, розничная сеть",
+      "company_id": "1035394",
+      "company_url": "https://hh.ru/employer/1035394",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/90459.jpg",
+      "url": "https://hh.ru/vacancy/126200132",
+      "published_at": "2025-11-02T16:36:18+0300",
+      "created_at": "2025-11-02T16:36:18+0300",
+      "area": "Челябинск",
+      "salary": "до 72 000 RUR на руки",
+      "salary_raw": {
+        "from": null,
+        "to": 72000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в аналогичной должности. Знание устройства ПК на уровне администратора. Знание офисных и почтовых программ. Знание принципов построения сетей...",
+      "responsibility": "Обслуживание рабочих мест (около 100 станций). Обслуживание оргтехники. Контроль работоспособности серверов. Проведение локальных ревизий на складе. Обработка заявок.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "126196998",
       "name": "Системный администратор",
@@ -1099,39 +1165,6 @@
       "employment": "Полная занятость",
       "requirement": "Базовые знания в области администрирования операционных систем (Windows, Linux). Желателен опыт работы в аналогичной должности не менее 2 лет(рассматриваем...",
       "responsibility": "Администрирование мониторинг серверов Windows, Linux. Установка и настройка ОС и ПО на компьютерах пользователей, установка и настройка телекоммуникационного оборудования и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127169432",
-      "name": "Начинающий системный администратор",
-      "company": "NEXT Contact",
-      "company_id": "2848751",
-      "company_url": "https://hh.ru/employer/2848751",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1398708.png",
-      "url": "https://hh.ru/vacancy/127169432",
-      "published_at": "2025-11-01T17:03:03+0300",
-      "created_at": "2025-11-01T17:03:03+0300",
-      "area": "Волгоград",
-      "salary": "от 34 000 RUR на руки",
-      "salary_raw": {
-        "from": 34000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "Знание устройства ПК. Знание AD, DHCP, DNS. Иметь представление о сетях, сетевом оборудовании (желательно). Опыт администрирования рабочих станций на Windows...",
-      "responsibility": "Диагностика и решение проблем с ПК и программами. Техническая поддержка сотрудников офиса.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -5503,39 +5536,6 @@
       "employment": "Полная занятость",
       "requirement": "Умение работать в системе контроля версий GIT. Работа с консолью Linux. Понимание особенностей функционирования операционных систем Linux, Windows Server.",
       "responsibility": "Развертывание ВМ, установка ОС Linux, Windows Server. Сопровождение и развертывание различного ПО на серверах в OS Linux, Windows (СУБД, Proxy).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126200132",
-      "name": "Системный администратор (на склад г. Копейск)",
-      "company": "Красное & Белое, розничная сеть",
-      "company_id": "1035394",
-      "company_url": "https://hh.ru/employer/1035394",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/90459.jpg",
-      "url": "https://hh.ru/vacancy/126200132",
-      "published_at": "2025-10-30T16:36:18+0300",
-      "created_at": "2025-10-30T16:36:18+0300",
-      "area": "Челябинск",
-      "salary": "до 72 000 RUR на руки",
-      "salary_raw": {
-        "from": null,
-        "to": 72000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в аналогичной должности. Знание устройства ПК на уровне администратора. Знание офисных и почтовых программ. Знание принципов построения сетей...",
-      "responsibility": "Обслуживание рабочих мест (около 100 станций). Обслуживание оргтехники. Контроль работоспособности серверов. Проведение локальных ревизий на складе. Обработка заявок.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -19477,6 +19477,34 @@
       "accept_temporary": true
     },
     {
+      "id": "126602276",
+      "name": "Системный администратор/инженер",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/126602276",
+      "published_at": "2025-10-16T11:10:50+0300",
+      "created_at": "2025-10-16T11:10:50+0300",
+      "area": "Приморско-Ахтарск",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. опыт работы по настройке операционных...",
+      "responsibility": "установка и настройка OC Windows, а также офисных приложений, различного рода ПО. подключение и настройка периферийного оборудования, включая торговое (ККТ...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
       "id": "126602287",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
@@ -19515,34 +19543,6 @@
       "published_at": "2025-10-16T11:10:50+0300",
       "created_at": "2025-10-16T11:10:50+0300",
       "area": "Александровское (Ставропольский край)",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. опыт работы по настройке операционных...",
-      "responsibility": "установка и настройка OC Windows, а также офисных приложений, различного рода ПО. подключение и настройка периферийного оборудования, включая торговое (ККТ...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
-      "id": "126602276",
-      "name": "Системный администратор/инженер",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/126602276",
-      "published_at": "2025-10-16T11:10:50+0300",
-      "created_at": "2025-10-16T11:10:50+0300",
-      "area": "Приморско-Ахтарск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
