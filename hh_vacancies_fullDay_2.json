@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-03T08:54:49Z",
+  "updated": "2025-11-03T09:49:30Z",
   "statistics": {
     "total": 688,
     "with_salary": 512,
-    "companies": 522,
+    "companies": 521,
     "cities": 144,
     "premium": 1,
     "with_test": 5
   },
   "vacancies": [
+    {
+      "id": "127252022",
+      "name": "Помощник системного администратора",
+      "company": "Розничное направление ГК Невада",
+      "company_id": "641527",
+      "company_url": "https://hh.ru/employer/641527",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1051087.jpg",
+      "url": "https://hh.ru/vacancy/127252022",
+      "published_at": "2025-11-03T12:10:04+0300",
+      "created_at": "2025-11-03T12:10:04+0300",
+      "area": "Комсомольск-на-Амуре",
+      "salary": "от 40 000 RUR на руки",
+      "salary_raw": {
+        "from": 40000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в ОС MS Windows всех редакций на уровне администратора. Уверенный пользователь пакета MS Office. Умение распознать следствие/причины...",
+      "responsibility": "Установка, настройка программного обеспечения, оборудования. Диагностика, ремонт и обслуживание вверенного ИТ оборудования. Учёт оборудования и расходных материалов. Работа с программами...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "119578711",
       "name": "Системный администратор",
@@ -21801,39 +21834,6 @@
       "employment": "Полная занятость",
       "requirement": "Базовые знания AD, DHCP, DNS, GPO, Firewall, IMAP/SMTP, SMB. 1С. Понимание принципов работы локальной сети, адресации.",
       "responsibility": "Установка, настройка и обслуживание оргтехники, рабочих мест, телефонии. Установка и настройка программного обеспечения, включая банк-клиенты, ключи защиты, программное обеспечение...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126131988",
-      "name": "Системный администратор",
-      "company": "ЭЛЬГА",
-      "company_id": "85385",
-      "company_url": "https://hh.ru/employer/85385",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1196832.jpg",
-      "url": "https://hh.ru/vacancy/126131988",
-      "published_at": "2025-10-04T12:37:56+0300",
-      "created_at": "2025-10-04T12:37:56+0300",
-      "area": "Хабаровск",
-      "salary": "до 247 000 RUR на руки",
-      "salary_raw": {
-        "from": null,
-        "to": 247000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Вахтовый метод",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с системами мониторинга Zabbix, Grafana. Опыт работы с системами виртуализации. Высшее или среднее профессиональное образование в сфере информационных...",
-      "responsibility": "Консультация и техническая поддержка пользователей по решению возникающих проблем. Администрирование сетевого оборудования MikroTik, Huawei. Администрирование рабочих станций на базе Windows...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
