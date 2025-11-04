@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-04T13:47:25Z",
+  "updated": "2025-11-04T14:41:39Z",
   "statistics": {
     "total": 851,
     "with_salary": 615,
@@ -20,6 +20,39 @@
     "with_test": 14
   },
   "vacancies": [
+    {
+      "id": "127169432",
+      "name": "Начинающий системный администратор",
+      "company": "NEXT Contact",
+      "company_id": "2848751",
+      "company_url": "https://hh.ru/employer/2848751",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1398708.png",
+      "url": "https://hh.ru/vacancy/127169432",
+      "published_at": "2025-11-04T17:04:28+0300",
+      "created_at": "2025-11-04T17:04:28+0300",
+      "area": "Волгоград",
+      "salary": "от 34 000 RUR на руки",
+      "salary_raw": {
+        "from": 34000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Знание устройства ПК. Знание AD, DHCP, DNS. Иметь представление о сетях, сетевом оборудовании (желательно). Опыт администрирования рабочих станций на Windows...",
+      "responsibility": "Диагностика и решение проблем с ПК и программами. Техническая поддержка сотрудников офиса.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "127087209",
       "name": "Начинающий системный администратор",
@@ -678,39 +711,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание аппаратной составляющей ПК и ПО (умение собирать ПК, проводить базовую диагностику и настройку ПО). Опыт взаимодействия с офисным, прикладным...",
       "responsibility": "Настройка и работа с базами данных на MS SQL. Установка и настройка программного обеспечения. Поддержание работоспособности ЛВС (локально-вычислительной сети).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127169432",
-      "name": "Начинающий системный администратор",
-      "company": "NEXT Contact",
-      "company_id": "2848751",
-      "company_url": "https://hh.ru/employer/2848751",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1398708.png",
-      "url": "https://hh.ru/vacancy/127169432",
-      "published_at": "2025-11-03T17:04:01+0300",
-      "created_at": "2025-11-03T17:04:01+0300",
-      "area": "Волгоград",
-      "salary": "от 34 000 RUR на руки",
-      "salary_raw": {
-        "from": 34000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "Знание устройства ПК. Знание AD, DHCP, DNS. Иметь представление о сетях, сетевом оборудовании (желательно). Опыт администрирования рабочих станций на Windows...",
-      "responsibility": "Диагностика и решение проблем с ПК и программами. Техническая поддержка сотрудников офиса.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -19749,6 +19749,34 @@
       "accept_temporary": true
     },
     {
+      "id": "126602282",
+      "name": "Системный администратор/инженер",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
+      "url": "https://hh.ru/vacancy/126602282",
+      "published_at": "2025-10-16T11:10:50+0300",
+      "created_at": "2025-10-16T11:10:50+0300",
+      "area": "Полтавская",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. опыт работы по настройке операционных...",
+      "responsibility": "установка и настройка OC Windows, а также офисных приложений, различного рода ПО. подключение и настройка периферийного оборудования, включая торговое (ККТ...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
       "id": "126602278",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
@@ -19787,34 +19815,6 @@
       "published_at": "2025-10-16T11:10:50+0300",
       "created_at": "2025-10-16T11:10:50+0300",
       "area": "Кизляр",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. опыт работы по настройке операционных...",
-      "responsibility": "установка и настройка OC Windows, а также офисных приложений, различного рода ПО. подключение и настройка периферийного оборудования, включая торговое (ККТ...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
-      "id": "126602282",
-      "name": "Системный администратор/инженер",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1011042.jpg",
-      "url": "https://hh.ru/vacancy/126602282",
-      "published_at": "2025-10-16T11:10:50+0300",
-      "created_at": "2025-10-16T11:10:50+0300",
-      "area": "Полтавская",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -25352,16 +25352,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126287176",
+      "id": "126287175",
       "name": "Системный администратор",
       "company": "Новые Технологии",
       "company_id": "5636737",
       "company_url": "https://hh.ru/employer/5636737",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1298223.jpeg",
-      "url": "https://hh.ru/vacancy/126287176",
+      "url": "https://hh.ru/vacancy/126287175",
       "published_at": "2025-10-08T09:09:09+0300",
       "created_at": "2025-10-08T09:09:09+0300",
-      "area": "Полесск",
+      "area": "Гусев",
       "salary": "от 70 000 RUR на руки",
       "salary_raw": {
         "from": 70000,
@@ -25385,16 +25385,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126287175",
+      "id": "126287176",
       "name": "Системный администратор",
       "company": "Новые Технологии",
       "company_id": "5636737",
       "company_url": "https://hh.ru/employer/5636737",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1298223.jpeg",
-      "url": "https://hh.ru/vacancy/126287175",
+      "url": "https://hh.ru/vacancy/126287176",
       "published_at": "2025-10-08T09:09:09+0300",
       "created_at": "2025-10-08T09:09:09+0300",
-      "area": "Гусев",
+      "area": "Полесск",
       "salary": "от 70 000 RUR на руки",
       "salary_raw": {
         "from": 70000,
