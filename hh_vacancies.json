@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-05T16:29:27Z",
+  "updated": "2025-11-05T17:20:50Z",
   "statistics": {
-    "total": 1252,
-    "with_salary": 692,
+    "total": 1253,
+    "with_salary": 694,
     "companies": 1009,
     "cities": 76,
     "premium": 1,
-    "with_test": 72
+    "with_test": 73
   },
   "vacancies": [
+    {
+      "id": "127335632",
+      "name": "Системный администратор",
+      "company": "АЙ ТИ ОНТАЙМ",
+      "company_id": "2703601",
+      "company_url": "https://hh.ru/employer/2703601",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1273442.png",
+      "url": "https://hh.ru/vacancy/127335632",
+      "published_at": "2025-11-05T19:59:10+0300",
+      "created_at": "2025-11-05T19:59:10+0300",
+      "area": "Москва",
+      "salary": "от 40 000 RUR на руки",
+      "salary_raw": {
+        "from": 40000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Частичная занятость",
+      "requirement": "Если есть желание поучаствовать в создании обучающих курсов для системных администраторов по какой-либо области данной профессии, мы также готовы...",
+      "responsibility": "Писать сценарии для ролика длительностью 10-20 минут.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127335490",
+      "name": "Стажер системный администратор",
+      "company": "Правительство Москвы",
+      "company_id": "895945",
+      "company_url": "https://hh.ru/employer/895945",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/596590.png",
+      "url": "https://hh.ru/vacancy/127335490",
+      "published_at": "2025-11-05T19:40:51+0300",
+      "created_at": "2025-11-05T19:40:51+0300",
+      "area": "Москва",
+      "salary": "37 500 - 75 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 37500,
+        "to": 75000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Linux, PostgreSQL, СУБД, Bash, Git (CI\\CD), Docker. Плюсом будет знание SQL, Python, API.",
+      "responsibility": "Установка, настройка, эксплуатация и мониторинг корректности работы СУБД. Взаимодействие с группами разработки и эксплуатации ПО для постановки на мониторинг новых...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": true,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "127215139",
       "name": "Дежурный системный администратор / сервисный инженер",
@@ -6909,34 +6975,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127268355",
-      "name": "Системный администратор (сети, автоматизация, VPN)",
-      "company": "Серяков Виктор Юрьевич",
-      "company_id": "9452437",
-      "company_url": "https://hh.ru/employer/9452437",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1041917.jpg",
-      "url": "https://hh.ru/vacancy/127268355",
-      "published_at": "2025-11-05T00:32:21+0300",
-      "created_at": "2025-11-05T00:32:21+0300",
-      "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Частичная занятость",
-      "requirement": "Системность: умеешь смотреть на систему целиком, видеть закономерности, не тонуть в деталях. Креативность: Любишь простые решения сложных проблем.",
-      "responsibility": "Обходить whitelist-блокировки, оптимизировать маршруты и решать сложные сетевые задачи (через обфускацию, chaining, ротацию IP). Поддерживать и развивать нашу серверную...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
       ],
       "has_test": false,
       "premium": false,
@@ -36374,16 +36412,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122216012",
+      "id": "122216014",
       "name": "Старший системный администратор",
       "company": "Международный аэропорт Жуковский",
       "company_id": "1648021",
       "company_url": "https://hh.ru/employer/1648021",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/2396004.jpeg",
-      "url": "https://hh.ru/vacancy/122216012",
+      "url": "https://hh.ru/vacancy/122216014",
       "published_at": "2025-10-09T10:00:02+0300",
       "created_at": "2025-10-09T10:00:02+0300",
-      "area": "Жуковский  (Московская область)",
+      "area": "Люберцы  (Московская область)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -36402,16 +36440,16 @@
       "accept_temporary": false
     },
     {
-      "id": "122216014",
+      "id": "122216012",
       "name": "Старший системный администратор",
       "company": "Международный аэропорт Жуковский",
       "company_id": "1648021",
       "company_url": "https://hh.ru/employer/1648021",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/2396004.jpeg",
-      "url": "https://hh.ru/vacancy/122216014",
+      "url": "https://hh.ru/vacancy/122216012",
       "published_at": "2025-10-09T10:00:02+0300",
       "created_at": "2025-10-09T10:00:02+0300",
-      "area": "Люберцы  (Московская область)",
+      "area": "Жуковский  (Московская область)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
