@@ -10,16 +10,181 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-09T06:51:26Z",
+  "updated": "2025-11-09T07:44:05Z",
   "statistics": {
-    "total": 805,
-    "with_salary": 590,
-    "companies": 588,
+    "total": 804,
+    "with_salary": 589,
+    "companies": 587,
     "cities": 145,
     "premium": 0,
     "with_test": 9
   },
   "vacancies": [
+    {
+      "id": "126388995",
+      "name": "Дежурный системный администратор ЦОД",
+      "company": "Тензор",
+      "company_id": "67611",
+      "company_url": "https://hh.ru/employer/67611",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/2558696.png",
+      "url": "https://hh.ru/vacancy/126388995",
+      "published_at": "2025-11-09T10:21:29+0300",
+      "created_at": "2025-11-09T10:21:29+0300",
+      "area": "Ярославль",
+      "salary": "92 000 - 140 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 92000,
+        "to": 140000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Уверенный пользователь Linux, работа в консоли, bash. Знание основ ОС, сетевого взаимодействия, принципов построения web приложений. Готовность работать в сменном...",
+      "responsibility": "Наблюдение за системой мониторинга ЦОД. Реагирование на нештатные ситуации согласно внутренним инструкциям. Работа в команде на обновлениях прикладных сервисов.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124623575",
+      "name": "Системный администратор (на склад)",
+      "company": "Красное & Белое, розничная сеть",
+      "company_id": "1035394",
+      "company_url": "https://hh.ru/employer/1035394",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/706153.jpeg",
+      "url": "https://hh.ru/vacancy/124623575",
+      "published_at": "2025-11-09T10:07:19+0300",
+      "created_at": "2025-11-09T10:07:19+0300",
+      "area": "Ижевск",
+      "salary": "82 000 - 90 000 RUR на руки",
+      "salary_raw": {
+        "from": 82000,
+        "to": 90000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в аналогичной должности. Знание устройства ПК на уровне администратора. Знание офисных и почтовых программ. Знание принципов построения сетей...",
+      "responsibility": "Обслуживание рабочих мест (100 станций). Обслуживание оргтехники. Контроль работоспособности серверов. Контроль остатков ИТ склада. Проведение локальных ревизий ИТ склада.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126387377",
+      "name": "Системный администратор",
+      "company": "Красное & Белое, розничная сеть",
+      "company_id": "1035394",
+      "company_url": "https://hh.ru/employer/1035394",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/706153.jpeg",
+      "url": "https://hh.ru/vacancy/126387377",
+      "published_at": "2025-11-09T09:57:47+0300",
+      "created_at": "2025-11-09T09:57:47+0300",
+      "area": "Хабаровск",
+      "salary": "от 130 000 RUR на руки",
+      "salary_raw": {
+        "from": 130000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в аналогичной должности. Знание офисных и почтовых программ. Опыт программного и аппаратного ремонта. Понимание устройства локальных сетей и...",
+      "responsibility": "Обслуживание ПК и орг. техники, торгового оборудования, систем видеонаблюдения на магазинах торговой сети.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124623056",
+      "name": "Помощник системного администратора (на склад)",
+      "company": "Красное & Белое, розничная сеть",
+      "company_id": "1035394",
+      "company_url": "https://hh.ru/employer/1035394",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/706153.jpeg",
+      "url": "https://hh.ru/vacancy/124623056",
+      "published_at": "2025-11-09T09:57:18+0300",
+      "created_at": "2025-11-09T09:57:18+0300",
+      "area": "Ижевск",
+      "salary": "80 000 - 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": 80000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в аналогичной должности. Знание устройства ПК на уровне опытного пользователя. Работа на складе. Сборка заявок техники, опыт работы...",
+      "responsibility": "Прием техники с магазинов, диагностика, сортировка на рабочее/не рабочее. Подготовка оборудования к отправке. Сбор заявок. Прием/размещение оборудования на...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126596526",
+      "name": "Системный администратор",
+      "company": "АльфаДорПроект",
+      "company_id": "1384271",
+      "company_url": "https://hh.ru/employer/1384271",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6585539.png",
+      "url": "https://hh.ru/vacancy/126596526",
+      "published_at": "2025-11-09T09:44:40+0300",
+      "created_at": "2025-11-09T09:44:40+0300",
+      "area": "Иваново (Ивановская область)",
+      "salary": "45 000 - 50 000 RUR на руки",
+      "salary_raw": {
+        "from": 45000,
+        "to": 50000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание принципов работы компьютерных сетей (TCP/IP, DHCP, DNS, Active directory). Знание и навыки администрирования операционных систем Windows.",
+      "responsibility": "Создание, обслуживание, усовершенствование серверов, компьютеров, локальной сети. - Обслуживание офисной техники (принтеры, ip телефоны и т.д.). - Систематизировать большой объем данных. (",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
     {
       "id": "127427797",
       "name": "Администратор компьютерного клуба",
@@ -4621,105 +4786,6 @@
       "accept_temporary": false
     },
     {
-      "id": "124623575",
-      "name": "Системный администратор (на склад)",
-      "company": "Красное & Белое, розничная сеть",
-      "company_id": "1035394",
-      "company_url": "https://hh.ru/employer/1035394",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/706153.jpeg",
-      "url": "https://hh.ru/vacancy/124623575",
-      "published_at": "2025-11-06T10:07:19+0300",
-      "created_at": "2025-11-06T10:07:19+0300",
-      "area": "Ижевск",
-      "salary": "82 000 - 90 000 RUR на руки",
-      "salary_raw": {
-        "from": 82000,
-        "to": 90000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в аналогичной должности. Знание устройства ПК на уровне администратора. Знание офисных и почтовых программ. Знание принципов построения сетей...",
-      "responsibility": "Обслуживание рабочих мест (100 станций). Обслуживание оргтехники. Контроль работоспособности серверов. Контроль остатков ИТ склада. Проведение локальных ревизий ИТ склада.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126387377",
-      "name": "Системный администратор",
-      "company": "Красное & Белое, розничная сеть",
-      "company_id": "1035394",
-      "company_url": "https://hh.ru/employer/1035394",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/706153.jpeg",
-      "url": "https://hh.ru/vacancy/126387377",
-      "published_at": "2025-11-06T09:57:46+0300",
-      "created_at": "2025-11-06T09:57:46+0300",
-      "area": "Хабаровск",
-      "salary": "от 130 000 RUR на руки",
-      "salary_raw": {
-        "from": 130000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в аналогичной должности. Знание офисных и почтовых программ. Опыт программного и аппаратного ремонта. Понимание устройства локальных сетей и...",
-      "responsibility": "Обслуживание ПК и орг. техники, торгового оборудования, систем видеонаблюдения на магазинах торговой сети.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124623056",
-      "name": "Помощник системного администратора (на склад)",
-      "company": "Красное & Белое, розничная сеть",
-      "company_id": "1035394",
-      "company_url": "https://hh.ru/employer/1035394",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/706153.jpeg",
-      "url": "https://hh.ru/vacancy/124623056",
-      "published_at": "2025-11-06T09:57:18+0300",
-      "created_at": "2025-11-06T09:57:18+0300",
-      "area": "Ижевск",
-      "salary": "80 000 - 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": 80000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в аналогичной должности. Знание устройства ПК на уровне опытного пользователя. Работа на складе. Сборка заявок техники, опыт работы...",
-      "responsibility": "Прием техники с магазинов, диагностика, сортировка на рабочее/не рабочее. Подготовка оборудования к отправке. Сбор заявок. Прием/размещение оборудования на...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "127349608",
       "name": "Ведущий системный администратор Linux",
       "company": "Алиасофт",
@@ -4779,39 +4845,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": false
-    },
-    {
-      "id": "126596526",
-      "name": "Системный администратор",
-      "company": "АльфаДорПроект",
-      "company_id": "1384271",
-      "company_url": "https://hh.ru/employer/1384271",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6585539.png",
-      "url": "https://hh.ru/vacancy/126596526",
-      "published_at": "2025-11-06T09:44:40+0300",
-      "created_at": "2025-11-06T09:44:40+0300",
-      "area": "Иваново (Ивановская область)",
-      "salary": "45 000 - 50 000 RUR на руки",
-      "salary_raw": {
-        "from": 45000,
-        "to": 50000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание принципов работы компьютерных сетей (TCP/IP, DHCP, DNS, Active directory). Знание и навыки администрирования операционных систем Windows.",
-      "responsibility": "Создание, обслуживание, усовершенствование серверов, компьютеров, локальной сети. - Обслуживание офисной техники (принтеры, ip телефоны и т.д.). - Систематизировать большой объем данных. (",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
     },
     {
       "id": "127348650",
@@ -11863,6 +11896,39 @@
       "accept_temporary": false
     },
     {
+      "id": "127086877",
+      "name": "Сетевой инженер",
+      "company": "Эксперт Плюс",
+      "company_id": "3983515",
+      "company_url": "https://hh.ru/employer/3983515",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/127086877",
+      "published_at": "2025-10-29T08:20:35+0300",
+      "created_at": "2025-10-29T08:20:35+0300",
+      "area": "Пенза",
+      "salary": "от 400 000 RUR на руки",
+      "salary_raw": {
+        "from": 400000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы с сетевыми протоколами и уровнями взаимодействия OSI (RIP, OSPF, BGP, MP-BGP, IS-IS, LDP). Опыт аппаратно-программного...",
+      "responsibility": "Проверка, конфигурация сетевого оборудования. Интернет, каналы передачи данных, IP телефония, IPTV. Проектирование, администрирование IP/MPLS сети на базе оборудования Juniper...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Сетевой инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "127086865",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
@@ -11929,16 +11995,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086877",
+      "id": "127086863",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086877",
+      "url": "https://hh.ru/vacancy/127086863",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Пенза",
+      "area": "Уссурийск",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -12005,39 +12071,6 @@
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
       "area": "Самара",
-      "salary": "от 400 000 RUR на руки",
-      "salary_raw": {
-        "from": 400000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с сетевыми протоколами и уровнями взаимодействия OSI (RIP, OSPF, BGP, MP-BGP, IS-IS, LDP). Опыт аппаратно-программного...",
-      "responsibility": "Проверка, конфигурация сетевого оборудования. Интернет, каналы передачи данных, IP телефония, IPTV. Проектирование, администрирование IP/MPLS сети на базе оборудования Juniper...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Сетевой инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127086863",
-      "name": "Сетевой инженер",
-      "company": "Эксперт Плюс",
-      "company_id": "3983515",
-      "company_url": "https://hh.ru/employer/3983515",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086863",
-      "published_at": "2025-10-29T08:20:35+0300",
-      "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Уссурийск",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -12226,16 +12259,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086884",
+      "id": "127086858",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086884",
+      "url": "https://hh.ru/vacancy/127086858",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Тольятти",
+      "area": "Владивосток",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -12259,16 +12292,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086858",
+      "id": "127086884",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086858",
+      "url": "https://hh.ru/vacancy/127086884",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Владивосток",
+      "area": "Тольятти",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -25443,72 +25476,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": false
-    },
-    {
-      "id": "126388995",
-      "name": "Дежурный системный администратор ЦОД",
-      "company": "Тензор",
-      "company_id": "67611",
-      "company_url": "https://hh.ru/employer/67611",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/2558696.png",
-      "url": "https://hh.ru/vacancy/126388995",
-      "published_at": "2025-10-10T10:21:28+0300",
-      "created_at": "2025-10-10T10:21:28+0300",
-      "area": "Ярославль",
-      "salary": "92 000 - 140 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 92000,
-        "to": 140000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "Уверенный пользователь Linux, работа в консоли, bash. Знание основ ОС, сетевого взаимодействия, принципов построения web приложений. Готовность работать в сменном...",
-      "responsibility": "Наблюдение за системой мониторинга ЦОД. Реагирование на нештатные ситуации согласно внутренним инструкциям. Работа в команде на обновлениях прикладных сервисов.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125517804",
-      "name": "Системный администратор",
-      "company": "Попутчик",
-      "company_id": "2668829",
-      "company_url": "https://hh.ru/employer/2668829",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/2744914.png",
-      "url": "https://hh.ru/vacancy/125517804",
-      "published_at": "2025-10-10T09:54:00+0300",
-      "created_at": "2025-10-10T09:54:00+0300",
-      "area": "Чебоксары",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы по организации крупных сетей, с различным функционалом и программами. Готовность решать возникающие проблемы в позднее вечернее (крайне редко).",
-      "responsibility": "Обеспечение бесперебойной работы сети. Обеспечение работоспособности оборудования пользователей. Администрирование сервера. Администрирование IP телефонии. Администрирование видеорегистраторов. Установка и настройка программ для...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
     }
   ]
 }
