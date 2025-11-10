@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-10T13:19:05Z",
+  "updated": "2025-11-10T13:51:34Z",
   "statistics": {
-    "total": 832,
-    "with_salary": 608,
-    "companies": 607,
+    "total": 834,
+    "with_salary": 610,
+    "companies": 609,
     "cities": 148,
     "premium": 0,
     "with_test": 14
   },
   "vacancies": [
+    {
+      "id": "127487262",
+      "name": "Системный администратор",
+      "company": "ТД Ак Барс Керамик",
+      "company_id": "9977721",
+      "company_url": "https://hh.ru/employer/9977721",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1388105.png",
+      "url": "https://hh.ru/vacancy/127487262",
+      "published_at": "2025-11-10T16:16:42+0300",
+      "created_at": "2025-11-10T16:16:42+0300",
+      "area": "Казань",
+      "salary": "60 000 - 70 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 60000,
+        "to": 70000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Законченное высшее образование в области IT или опыт работы в этой сфере. Способность к обучению, коммуникабельность. Ответственность, самостоятельность, стрессоустойчивость.",
+      "responsibility": "Установка и обслуживание офисных ПК, серверов, оргтехники, ИБП. Обеспечение работы системного программного обеспечения. Опыт установки и администрирования продуктов 1С.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "126671314",
       "name": "Системный администратор ИБ",
@@ -83,7 +116,7 @@
     },
     {
       "id": "127486689",
-      "name": "Системный администратор / программист 1 с",
+      "name": "Системный администратор / программист 1 С",
       "company": "Драмтара",
       "company_id": "578914",
       "company_url": "https://hh.ru/employer/578914",
@@ -237,39 +270,6 @@
       "accept_temporary": false
     },
     {
-      "id": "127484556",
-      "name": "Системный администратор",
-      "company": "Правильные ИТ Решения",
-      "company_id": "4808796",
-      "company_url": "https://hh.ru/employer/4808796",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3534489.jpg",
-      "url": "https://hh.ru/vacancy/127484556",
-      "published_at": "2025-11-10T15:41:51+0300",
-      "created_at": "2025-11-10T15:41:51+0300",
-      "area": "Чебоксары",
-      "salary": "60 000 - 70 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 60000,
-        "to": 70000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы системным администратором, специалистом технической поддержки от 3 лет. Знание архитектуры Microsoft Windows 7,8,10,11.",
-      "responsibility": "Техническая поддержка клиентов компании в чатах, электронной почте, по телефону. Установка программ, диагностика неисправностей. Настройка серверной инфраструктуры, сетевого оборудования, ip...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": true,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
       "id": "127484550",
       "name": "Системный администратор",
       "company": "Правильные ИТ Решения",
@@ -336,16 +336,16 @@
       "accept_temporary": true
     },
     {
-      "id": "127484551",
+      "id": "127484556",
       "name": "Системный администратор",
       "company": "Правильные ИТ Решения",
       "company_id": "4808796",
       "company_url": "https://hh.ru/employer/4808796",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3534489.jpg",
-      "url": "https://hh.ru/vacancy/127484551",
+      "url": "https://hh.ru/vacancy/127484556",
       "published_at": "2025-11-10T15:41:51+0300",
       "created_at": "2025-11-10T15:41:51+0300",
-      "area": "Кострома",
+      "area": "Чебоксары",
       "salary": "60 000 - 70 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 60000,
@@ -379,6 +379,39 @@
       "published_at": "2025-11-10T15:41:51+0300",
       "created_at": "2025-11-10T15:41:51+0300",
       "area": "Тамбов",
+      "salary": "60 000 - 70 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 60000,
+        "to": 70000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы системным администратором, специалистом технической поддержки от 3 лет. Знание архитектуры Microsoft Windows 7,8,10,11.",
+      "responsibility": "Техническая поддержка клиентов компании в чатах, электронной почте, по телефону. Установка программ, диагностика неисправностей. Настройка серверной инфраструктуры, сетевого оборудования, ip...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": true,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
+      "id": "127484551",
+      "name": "Системный администратор",
+      "company": "Правильные ИТ Решения",
+      "company_id": "4808796",
+      "company_url": "https://hh.ru/employer/4808796",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3534489.jpg",
+      "url": "https://hh.ru/vacancy/127484551",
+      "published_at": "2025-11-10T15:41:51+0300",
+      "created_at": "2025-11-10T15:41:51+0300",
+      "area": "Кострома",
       "salary": "60 000 - 70 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 60000,
@@ -12176,6 +12209,39 @@
       "accept_temporary": false
     },
     {
+      "id": "127161830",
+      "name": "Помощник системного администратора",
+      "company": "Останина Екатерина Леонидовна",
+      "company_id": "5135703",
+      "company_url": "https://hh.ru/employer/5135703",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1060171.jpg",
+      "url": "https://hh.ru/vacancy/127161830",
+      "published_at": "2025-10-31T01:03:53+0300",
+      "created_at": "2025-10-31T01:03:53+0300",
+      "area": "Киров (Кировская область)",
+      "salary": "12 000 - 15 000 RUR на руки",
+      "salary_raw": {
+        "from": 12000,
+        "to": 15000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "опыт работы в продажах или сфере услуг. - уверенность в пользовании ПК. - умение налаживать контакт с людьми, коммуникабельность и доброжелательность. -",
+      "responsibility": "консультирование родителей по услугам центра и продажа абонементов. - активная работа с существующей клиентской базой и сеткой занятий. - работа в CRM...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "127159095",
       "name": "Системный администратор",
       "company": "Румос-Авто",
@@ -13974,16 +14040,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086893",
+      "id": "127086885",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086893",
+      "url": "https://hh.ru/vacancy/127086885",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Хабаровск",
+      "area": "Казань",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -14007,16 +14073,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086885",
+      "id": "127086893",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086885",
+      "url": "https://hh.ru/vacancy/127086893",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Казань",
+      "area": "Хабаровск",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -14469,16 +14535,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086895",
+      "id": "127086889",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086895",
+      "url": "https://hh.ru/vacancy/127086889",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Чебоксары",
+      "area": "Тула",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -14502,16 +14568,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086889",
+      "id": "127086895",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086889",
+      "url": "https://hh.ru/vacancy/127086895",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Тула",
+      "area": "Чебоксары",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -23032,6 +23098,39 @@
       "accept_temporary": false
     },
     {
+      "id": "126637028",
+      "name": "Выездной инженер технической поддержки/системный администратор",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5664943.jpeg",
+      "url": "https://hh.ru/vacancy/126637028",
+      "published_at": "2025-10-17T09:00:51+0300",
+      "created_at": "2025-10-17T09:00:51+0300",
+      "area": "Почеп",
+      "salary": "200 - 10 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 200,
+        "to": 10000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "126637019",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
@@ -23075,39 +23174,6 @@
       "published_at": "2025-10-17T09:00:51+0300",
       "created_at": "2025-10-17T09:00:51+0300",
       "area": "Богородицк",
-      "salary": "200 - 10 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 200,
-        "to": 10000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
-      "responsibility": "Ремонт компьютерной техники (опыт обязателен) и кассовой аппаратуры. Установка и настройка OC Windows, а также офисных приложений. Установка и настройка...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126637028",
-      "name": "Выездной инженер технической поддержки/системный администратор",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5664943.jpeg",
-      "url": "https://hh.ru/vacancy/126637028",
-      "published_at": "2025-10-17T09:00:51+0300",
-      "created_at": "2025-10-17T09:00:51+0300",
-      "area": "Почеп",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
