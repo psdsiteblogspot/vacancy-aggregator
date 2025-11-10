@@ -10,16 +10,77 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-10T04:29:22Z",
+  "updated": "2025-11-10T05:22:51Z",
   "statistics": {
-    "total": 1633,
+    "total": 1634,
     "with_salary": 842,
     "companies": 1225,
     "cities": 79,
     "premium": 1,
-    "with_test": 101
+    "with_test": 102
   },
   "vacancies": [
+    {
+      "id": "127258403",
+      "name": "Системный администратор",
+      "company": "Ай Лайн",
+      "company_id": "2184390",
+      "company_url": "https://hh.ru/employer/2184390",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1469780.png",
+      "url": "https://hh.ru/vacancy/127258403",
+      "published_at": "2025-11-10T08:14:17+0300",
+      "created_at": "2025-11-10T08:14:17+0300",
+      "area": "Санкт-Петербург",
+      "salary": "110 000 - 140 000 RUR на руки",
+      "salary_raw": {
+        "from": 110000,
+        "to": 140000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы системным администратором от 3-x лет. Понимание принципов работы компьютерных сетей, включая протоколы IP, TCP, UDP, ICMP, DNS...",
+      "responsibility": "Курировать IT-инфраструктуру компаний, закреплённых за тобой (планирование, реализация проектов, контроль первой линии). Решать задачи, переданные с первой линии.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127439553",
+      "name": "Ведущий системный администратор",
+      "company": "ВТБ АРЕНА",
+      "company_id": "657372",
+      "company_url": "https://hh.ru/employer/657372",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/2389967.jpeg",
+      "url": "https://hh.ru/vacancy/127439553",
+      "published_at": "2025-11-10T08:11:13+0300",
+      "created_at": "2025-11-10T08:11:13+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее техническое образование. Знание сетевых протоколов и их взаимодействие. Опыт установки, настройки, обновления и администрирования серверов семейства Linux, Windows.",
+      "responsibility": "Контроль выполнения задач системных администраторов. Обеспечение работоспособности аппаратной части и программной части серверов, администрирование операционных систем (Windows, Linux), мониторинг состояния...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": true,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "103517074",
       "name": "Помощник системного администратора (на склад)",
@@ -13443,39 +13504,6 @@
       "accept_temporary": false
     },
     {
-      "id": "127258403",
-      "name": "Системный администратор",
-      "company": "Ай Лайн",
-      "company_id": "2184390",
-      "company_url": "https://hh.ru/employer/2184390",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1469780.png",
-      "url": "https://hh.ru/vacancy/127258403",
-      "published_at": "2025-11-07T08:14:17+0300",
-      "created_at": "2025-11-07T08:14:17+0300",
-      "area": "Санкт-Петербург",
-      "salary": "110 000 - 140 000 RUR на руки",
-      "salary_raw": {
-        "from": 110000,
-        "to": 140000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы системным администратором от 3-x лет. Понимание принципов работы компьютерных сетей, включая протоколы IP, TCP, UDP, ICMP, DNS...",
-      "responsibility": "Курировать IT-инфраструктуру компаний, закреплённых за тобой (планирование, реализация проектов, контроль первой линии). Решать задачи, переданные с первой линии.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "125851902",
       "name": "Старший системный администратор",
       "company": "ЛАТЕО",
@@ -16887,16 +16915,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124795442",
+      "id": "124795441",
       "name": "Администратор системы складского учета (WMS)",
       "company": "ОКЕЙ – Федеральная розничная сеть",
       "company_id": "1276",
       "company_url": "https://hh.ru/employer/1276",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3342939.png",
-      "url": "https://hh.ru/vacancy/124795442",
+      "url": "https://hh.ru/vacancy/124795441",
       "published_at": "2025-11-06T07:48:20+0300",
       "created_at": "2025-11-06T07:48:20+0300",
-      "area": "Зеленоград",
+      "area": "Химки (Московская область)",
       "salary": "95 000 - 126 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 95000,
@@ -16920,16 +16948,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124795441",
+      "id": "124795442",
       "name": "Администратор системы складского учета (WMS)",
       "company": "ОКЕЙ – Федеральная розничная сеть",
       "company_id": "1276",
       "company_url": "https://hh.ru/employer/1276",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3342939.png",
-      "url": "https://hh.ru/vacancy/124795441",
+      "url": "https://hh.ru/vacancy/124795442",
       "published_at": "2025-11-06T07:48:20+0300",
       "created_at": "2025-11-06T07:48:20+0300",
-      "area": "Химки (Московская область)",
+      "area": "Зеленоград",
       "salary": "95 000 - 126 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 95000,
