@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-11T16:29:03Z",
+  "updated": "2025-11-11T17:20:09Z",
   "statistics": {
-    "total": 1721,
+    "total": 1720,
     "with_salary": 891,
-    "companies": 1291,
+    "companies": 1290,
     "cities": 79,
     "premium": 3,
-    "with_test": 106
+    "with_test": 105
   },
   "vacancies": [
+    {
+      "id": "127028943",
+      "name": "Сетевой инженер",
+      "company": "Heaad",
+      "company_id": "5531122",
+      "company_url": "https://hh.ru/employer/5531122",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6383156.png",
+      "url": "https://hh.ru/vacancy/127028943",
+      "published_at": "2025-11-11T20:01:13+0300",
+      "created_at": "2025-11-11T20:01:13+0300",
+      "area": "Москва",
+      "salary": "250 000 - 400 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 250000,
+        "to": 400000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Более 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы в роли сетевого инженера в крупных, территориально-распределённых организациях от 5 лет. - Знание и навыки применения ИТ практик...",
+      "responsibility": "Администрирование отказоустойчивой сети на базе оборудования Cisco (маршрутизаторы, коммутаторы, контроллеры, точки доступа). - Поддержка работоспособности сетевого оборудования на трех площадках: два...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Сетевой инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "127160532",
       "name": "Системный администратор",
@@ -2043,34 +2076,6 @@
         "Системный администратор"
       ],
       "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124384775",
-      "name": "Системный администратор",
-      "company": "SARIA (ООО Сария Раша)",
-      "company_id": "9728743",
-      "company_url": "https://hh.ru/employer/9728743",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1389429.png",
-      "url": "https://hh.ru/vacancy/124384775",
-      "published_at": "2025-11-11T15:45:03+0300",
-      "created_at": "2025-11-11T15:45:03+0300",
-      "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "опыт работы системным администратором от 5 лет. — отличные знания Windows Server и хорошие практические навыки Linux. — уверенный опыт работы с...",
-      "responsibility": "администрирование серверов (Windows Server, Linux/Ubuntu). — поддержка доменной инфраструктуры (Active Directory, GPO, DNS, DHCP). — настройка ролей и сервисов Windows Server...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": true,
       "premium": false,
       "accept_handicapped": false,
       "accept_kids": false,
@@ -19476,39 +19481,6 @@
       "accept_temporary": false
     },
     {
-      "id": "127028943",
-      "name": "Сетевой инженер",
-      "company": "Heaad",
-      "company_id": "5531122",
-      "company_url": "https://hh.ru/employer/5531122",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6383156.png",
-      "url": "https://hh.ru/vacancy/127028943",
-      "published_at": "2025-11-07T15:30:45+0300",
-      "created_at": "2025-11-07T15:30:45+0300",
-      "area": "Москва",
-      "salary": "250 000 - 400 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 250000,
-        "to": 400000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Более 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в роли сетевого инженера в крупных, территориально-распределённых организациях от 5 лет. - Знание и навыки применения ИТ практик...",
-      "responsibility": "Администрирование отказоустойчивой сети на базе оборудования Cisco (маршрутизаторы, коммутаторы, контроллеры, точки доступа). - Поддержка работоспособности сетевого оборудования на трех площадках: два...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Сетевой инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "127413643",
       "name": "Системный администратор",
       "company": "МП ИТиС",
@@ -20820,7 +20792,7 @@
     },
     {
       "id": "127396847",
-      "name": "Стажер-системный администратор",
+      "name": "Стажер системный администратор",
       "company": "ГКУ Инфогород",
       "company_id": "2427329",
       "company_url": "https://hh.ru/employer/2427329",
@@ -32551,8 +32523,8 @@
       "experience": "Нет опыта",
       "schedule": "Гибкий график",
       "employment": "Полная занятость",
-      "requirement": "С удовольствием рассмотрим на данную должность кандидата без опыта работы, но с необходимым уровнем и багажом знаний и навыков, в...",
-      "responsibility": "встреча гостей, регистрация новых гостей в программе клуба. -информирование гостей о тарифах, скидках и акциях, действующих в клубе, информирование о...",
+      "requirement": "Быть техническим гуру: оперативно решать мелкие неполадки с ПК, софтом и сетью (всему научим, но база приветствуется!). Зарабатывать больше: активно...",
+      "responsibility": "Не просто работа, а билет в эпицентр игровой вселенной! Стать гостеприимным хозяином: встречать гостей, регистрировать новых и создавать дружелюбную атмосферу.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
