@@ -10,9 +10,9 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-11T04:27:06Z",
+  "updated": "2025-11-11T05:22:22Z",
   "statistics": {
-    "total": 1680,
+    "total": 1679,
     "with_salary": 874,
     "companies": 1257,
     "cities": 79,
@@ -20,6 +20,34 @@
     "with_test": 105
   },
   "vacancies": [
+    {
+      "id": "124213565",
+      "name": "Сетевой инженер Cisco",
+      "company": "Лоция",
+      "company_id": "5860936",
+      "company_url": "https://hh.ru/employer/5860936",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/124213565",
+      "published_at": "2025-11-11T07:46:57+0300",
+      "created_at": "2025-11-11T07:46:57+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание принципов работы, опыт настройки и сопровождения локальных вычислительных сетей на базе сетевого оборудования Cisco, Eltex, MikroTik. Знание принципов работы...",
+      "responsibility": "Настройкой, установкой и поддержкой оборудования локальных, глобальных, беспроводных вычислительных сетей. Обеспечением бесперебойной работы и правильной эксплуатацией оборудования локальных, глобальных, беспроводных...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "105951137",
       "name": "Инженер 1 категории (специалист по защите информации/системный администратор) (01040-1)",
@@ -11962,8 +11990,13 @@
       "published_at": "2025-11-09T09:02:51+0300",
       "created_at": "2025-11-09T09:02:51+0300",
       "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
+      "salary": "110 000 - 190 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 110000,
+        "to": 190000,
+        "currency": "RUR",
+        "gross": true
+      },
       "experience": "От 1 года до 3 лет",
       "schedule": "Удаленная работа",
       "employment": "Полная занятость",
@@ -17761,7 +17794,7 @@
       "experience": "От 3 до 6 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "Опыт системного администрирования Linux от трёх лет. Опыт администрирования доменов SAMBA(или аналоги). Практический опыт работы с системами виртуализации (VMware...",
+      "requirement": "Опыт системного администрирования Linux от трёх лет. Опыт администрирования доменов SAMBA(Samba DC, ALT Domain Server Pro (ALD PRO), RED...",
       "responsibility": "Администрировать, устанавливать, настраивать и устранять неполадки серверов Linux (Alt Linux SP, Astra Linux, CentOS). Управлять доменом SAMBA. Обеспечивать непрерывную и...",
       "type": "Открытая",
       "professional_roles": [
@@ -21498,39 +21531,6 @@
       "accept_temporary": false
     },
     {
-      "id": "127346457",
-      "name": "Системный администратор",
-      "company": "ГБУЗ МНПЦ Наркологии ДЗМ",
-      "company_id": "2013672",
-      "company_url": "https://hh.ru/employer/2013672",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6991613.png",
-      "url": "https://hh.ru/vacancy/127346457",
-      "published_at": "2025-11-06T09:08:46+0300",
-      "created_at": "2025-11-06T09:08:46+0300",
-      "area": "Москва",
-      "salary": "100 000 - 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": 100000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Умение диагностировать и восстановить работоспособность системы. Аккуратность, трудолюбие, способность к обучению. Образование не ниже средне-профессионального (техническое).",
-      "responsibility": "Осуществлять подготовку компьютеров и отдельных устройств к работе, их технический сопровождение. Обработка и исполнение заявок. Обеспечение необходимых доступов для работы...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "125272809",
       "name": "Системный администратор Windows",
       "company": "Ридан Трейд",
@@ -24585,34 +24585,6 @@
         "Системный администратор"
       ],
       "has_test": true,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124213565",
-      "name": "Сетевой инженер Cisco",
-      "company": "Лоция",
-      "company_id": "5860936",
-      "company_url": "https://hh.ru/employer/5860936",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/124213565",
-      "published_at": "2025-11-05T10:13:54+0300",
-      "created_at": "2025-11-05T10:13:54+0300",
-      "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание принципов работы, опыт настройки и сопровождения локальных вычислительных сетей на базе сетевого оборудования Cisco, Eltex, MikroTik. Знание принципов работы...",
-      "responsibility": "Настройкой, установкой и поддержкой оборудования локальных, глобальных, беспроводных вычислительных сетей. Обеспечением бесперебойной работы и правильной эксплуатацией оборудования локальных, глобальных, беспроводных...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный инженер"
-      ],
-      "has_test": false,
       "premium": false,
       "accept_handicapped": false,
       "accept_kids": false,
