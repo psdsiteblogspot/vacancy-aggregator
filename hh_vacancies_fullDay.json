@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-12T23:33:02Z",
+  "updated": "2025-11-13T02:19:38Z",
   "statistics": {
     "total": 1038,
     "with_salary": 736,
@@ -20,6 +20,39 @@
     "with_test": 29
   },
   "vacancies": [
+    {
+      "id": "127496126",
+      "name": "Старший системный администратор",
+      "company": "DNS Технологии",
+      "company_id": "9311920",
+      "company_url": "https://hh.ru/employer/9311920",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/127496126",
+      "published_at": "2025-11-13T05:06:44+0300",
+      "created_at": "2025-11-13T05:06:44+0300",
+      "area": "Новосибирск",
+      "salary": "от 172 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 172000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Более 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы системным администратором от 5 лет. Экспертное знание операционных систем Windows Server (2012, 2016, 2019, 2022) и дистрибутивов Linux...",
+      "responsibility": "Управление доменами. Установка и управление серверами Windows и Linux. Установка и управление серверами ESXi и ProxMox. Обеспечение надежности и безопасности...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "127610077",
       "name": "Администратор компьютерного клуба",
@@ -6380,39 +6413,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее/среднее техническое образование. Опыт работы в должности системного администратора или ведущего системного администратора, не менее 1 года.",
       "responsibility": "Администрирование Windows Server и Linux систем. Настройка серверного оборудования, отказоустойчивых кластеров и VM. Постановка на резервное копирование и восстановление (при...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127496126",
-      "name": "Старший системный администратор",
-      "company": "DNS Технологии",
-      "company_id": "9311920",
-      "company_url": "https://hh.ru/employer/9311920",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/127496126",
-      "published_at": "2025-11-11T04:41:47+0300",
-      "created_at": "2025-11-11T04:41:47+0300",
-      "area": "Новосибирск",
-      "salary": "от 172 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 172000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Более 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы системным администратором от 5 лет. Экспертное знание операционных систем Windows Server (2012, 2016, 2019, 2022) и дистрибутивов Linux...",
-      "responsibility": "Управление доменами. Установка и управление серверами Windows и Linux. Установка и управление серверами ESXi и ProxMox. Обеспечение надежности и безопасности...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -18450,16 +18450,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127141982",
+      "id": "127141981",
       "name": "Инженер по сетям и инженерным сооружениям",
       "company": "Дюна",
       "company_id": "10466101",
       "company_url": "https://hh.ru/employer/10466101",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127141982",
+      "url": "https://hh.ru/vacancy/127141981",
       "published_at": "2025-10-30T12:32:34+0300",
       "created_at": "2025-10-30T12:32:34+0300",
-      "area": "Новороссийск",
+      "area": "Анапа",
       "salary": "от 150 000 RUR на руки",
       "salary_raw": {
         "from": 150000,
@@ -18483,16 +18483,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127141981",
+      "id": "127141982",
       "name": "Инженер по сетям и инженерным сооружениям",
       "company": "Дюна",
       "company_id": "10466101",
       "company_url": "https://hh.ru/employer/10466101",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127141981",
+      "url": "https://hh.ru/vacancy/127141982",
       "published_at": "2025-10-30T12:32:34+0300",
       "created_at": "2025-10-30T12:32:34+0300",
-      "area": "Анапа",
+      "area": "Новороссийск",
       "salary": "от 150 000 RUR на руки",
       "salary_raw": {
         "from": 150000,
@@ -20332,16 +20332,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086855",
+      "id": "127086875",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086855",
+      "url": "https://hh.ru/vacancy/127086875",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Астрахань",
+      "area": "Омск",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -20365,16 +20365,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086875",
+      "id": "127086855",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086875",
+      "url": "https://hh.ru/vacancy/127086855",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Омск",
+      "area": "Астрахань",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -20530,16 +20530,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086850",
+      "id": "127086862",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086850",
+      "url": "https://hh.ru/vacancy/127086862",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Екатеринбург",
+      "area": "Иркутск",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -20563,16 +20563,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086862",
+      "id": "127086850",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086862",
+      "url": "https://hh.ru/vacancy/127086850",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Иркутск",
+      "area": "Екатеринбург",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -30897,6 +30897,34 @@
       "accept_temporary": true
     },
     {
+      "id": "126602282",
+      "name": "Системный администратор/инженер",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5664943.jpeg",
+      "url": "https://hh.ru/vacancy/126602282",
+      "published_at": "2025-10-16T11:10:50+0300",
+      "created_at": "2025-10-16T11:10:50+0300",
+      "area": "Полтавская",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. опыт работы по настройке операционных...",
+      "responsibility": "установка и настройка OC Windows, а также офисных приложений, различного рода ПО. подключение и настройка периферийного оборудования, включая торговое (ККТ...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
       "id": "126602283",
       "name": "Системный администратор/инженер",
       "company": "MCORE",
@@ -30935,34 +30963,6 @@
       "published_at": "2025-10-16T11:10:50+0300",
       "created_at": "2025-10-16T11:10:50+0300",
       "area": "Иловля",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. опыт работы по настройке операционных...",
-      "responsibility": "установка и настройка OC Windows, а также офисных приложений, различного рода ПО. подключение и настройка периферийного оборудования, включая торговое (ККТ...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
-      "id": "126602282",
-      "name": "Системный администратор/инженер",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5664943.jpeg",
-      "url": "https://hh.ru/vacancy/126602282",
-      "published_at": "2025-10-16T11:10:50+0300",
-      "created_at": "2025-10-16T11:10:50+0300",
-      "area": "Полтавская",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
