@@ -10,10 +10,10 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-14T17:20:05Z",
+  "updated": "2025-11-14T18:31:32Z",
   "statistics": {
     "total": 1699,
-    "with_salary": 884,
+    "with_salary": 885,
     "companies": 1279,
     "cities": 76,
     "premium": 3,
@@ -21,23 +21,28 @@
   },
   "vacancies": [
     {
-      "id": "127396332",
-      "name": "Администратор ИБ-инфраструктуры (Linux)",
-      "company": "Федеральная корпорация по развитию малого и среднего предпринимательства (АО Корпорация «МСП»)",
-      "company_id": "2155540",
-      "company_url": "https://hh.ru/employer/2155540",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6874365.png",
-      "url": "https://hh.ru/vacancy/127396332",
-      "published_at": "2025-11-14T20:17:24+0300",
-      "created_at": "2025-11-14T20:17:24+0300",
+      "id": "126796846",
+      "name": "Системный администратор 1С",
+      "company": "Данвита",
+      "company_id": "123065",
+      "company_url": "https://hh.ru/employer/123065",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/126796846",
+      "published_at": "2025-11-14T21:03:58+0300",
+      "created_at": "2025-11-14T21:03:58+0300",
       "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
+      "salary": "90 000 - 130 000 RUR на руки",
+      "salary_raw": {
+        "from": 90000,
+        "to": 130000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "Хорошие навыки коммуникации. Ответственность при планировании и выполнении задач. Аналитический склад ума. Нацеленность на результат (в т.ч.",
-      "responsibility": "ОС Astra Linux, РЕД ОС, CentOS. Клиенты KES, агенты (клиенты) СЗИ, средства доверенной загрузки, события безопасности. Kaspersky Security Center.",
+      "requirement": "Знание основ сетевых технологий. Базовые навыки работы с сетевым оборудованием, рабочими станциями на базе Windows, Mac. Способность самостоятельно диагностировать и...",
+      "responsibility": "Осуществляет работы, в том числе выездные, по техническому обслуживанию, ремонту и модернизации IT техники на всех объектах Компании (объекты находятся...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -47,6 +52,39 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": false
+    },
+    {
+      "id": "127733801",
+      "name": "Системный администратор",
+      "company": "Юшина Екатерина Андреевна",
+      "company_id": "10069901",
+      "company_url": "https://hh.ru/employer/10069901",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1443813.png",
+      "url": "https://hh.ru/vacancy/127733801",
+      "published_at": "2025-11-14T20:38:49+0300",
+      "created_at": "2025-11-14T20:38:49+0300",
+      "area": "Москва",
+      "salary": "от 60 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы системным администратором от 2 лет (офис и удалённые рабочие места). Знание Windows и Linux, навыки сетевого администрирования (Wi...",
+      "responsibility": "Обеспечивать стабильную работу офиса и складских объектов — компьютеры, серверы, периферия, сеть. Настраивать и обслуживать сетевое оборудование, VPN, Wi-Fi, обеспечивать...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
     },
     {
       "id": "127604444",
@@ -18814,39 +18852,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы с аналогичными обязанностями от 3 лет. Знание линейки операционных систем MS Windows и Windows Server, MS Exchange, MS...",
       "responsibility": "Поддержка 1С: обновление, подключение прав в 1С, в том числе новым пользователям. Консультация пользователей системы 1С ERP...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126796846",
-      "name": "Системный администратор 1С",
-      "company": "Данвита",
-      "company_id": "123065",
-      "company_url": "https://hh.ru/employer/123065",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/126796846",
-      "published_at": "2025-11-11T21:03:58+0300",
-      "created_at": "2025-11-11T21:03:58+0300",
-      "area": "Москва",
-      "salary": "90 000 - 130 000 RUR на руки",
-      "salary_raw": {
-        "from": 90000,
-        "to": 130000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание основ сетевых технологий. Базовые навыки работы с сетевым оборудованием, рабочими станциями на базе Windows, Mac. Способность самостоятельно диагностировать и...",
-      "responsibility": "Осуществляет работы, в том числе выездные, по техническому обслуживанию, ремонту и модернизации IT техники на всех объектах Компании (объекты находятся...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -50806,16 +50811,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126637033",
+      "id": "126637014",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5664943.jpeg",
-      "url": "https://hh.ru/vacancy/126637033",
+      "url": "https://hh.ru/vacancy/126637014",
       "published_at": "2025-10-17T09:00:51+0300",
       "created_at": "2025-10-17T09:00:51+0300",
-      "area": "Видное (Московская область)",
+      "area": "Озеры (Московская область)",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -50839,16 +50844,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126637014",
+      "id": "126637033",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5664943.jpeg",
-      "url": "https://hh.ru/vacancy/126637014",
+      "url": "https://hh.ru/vacancy/126637033",
       "published_at": "2025-10-17T09:00:51+0300",
       "created_at": "2025-10-17T09:00:51+0300",
-      "area": "Озеры (Московская область)",
+      "area": "Видное (Московская область)",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
