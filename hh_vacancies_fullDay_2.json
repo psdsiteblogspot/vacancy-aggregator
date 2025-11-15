@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-15T11:44:12Z",
+  "updated": "2025-11-15T13:04:23Z",
   "statistics": {
-    "total": 868,
-    "with_salary": 633,
-    "companies": 620,
+    "total": 864,
+    "with_salary": 630,
+    "companies": 617,
     "cities": 159,
     "premium": 0,
     "with_test": 13
   },
   "vacancies": [
+    {
+      "id": "126618408",
+      "name": "Системный администратор",
+      "company": "Горно-металлургический комплекс",
+      "company_id": "3968",
+      "company_url": "https://hh.ru/employer/3968",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/126618408",
+      "published_at": "2025-11-15T15:24:46+0300",
+      "created_at": "2025-11-15T15:24:46+0300",
+      "area": "Киров (Кировская область)",
+      "salary": "от 70 000 RUR на руки",
+      "salary_raw": {
+        "from": 70000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее или среднее профессиональное образование. Опыт работы от 1 года. Знание принципов работы и настроек современных ТСО. Навыки монтажа и...",
+      "responsibility": "Oбeспeчeниe бecперeбойной pабoты срeдcтв ТСО (OПС, cистемы видeонaблюдeния, СКУД) на объeктaх предприятия. Устранение неисправностей, повреждений и причин ложных срабатываний средств...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "123905788",
+      "name": "Администратор компьютерного клуба",
+      "company": "КиберПрайд",
+      "company_id": "9112940",
+      "company_url": "https://hh.ru/employer/9112940",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/7090917.jpeg",
+      "url": "https://hh.ru/vacancy/123905788",
+      "published_at": "2025-11-15T14:55:13+0300",
+      "created_at": "2025-11-15T14:55:13+0300",
+      "area": "Набережные Челны",
+      "salary": "53 000 - 64 000 RUR на руки",
+      "salary_raw": {
+        "from": 53000,
+        "to": 64000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Желателен опыт работы в сфере обслуживания (кандидатов без опыта так же рассматриваем). Грамотная речь, желание общаться и умение поддержать диалог.",
+      "responsibility": "Встречать и рассчитывать гостей за стойкой, консультировать их по актуальным акциям. Принимать входящие звонки, бронировать места ВК, выявлять потребности гостей.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Другое"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "126614815",
       "name": "Системный администратор",
@@ -4161,16 +4227,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127624888",
+      "id": "127624890",
       "name": "Сетевой инженер",
       "company": "Алабуга, ОЭЗ ППТ",
       "company_id": "68587",
       "company_url": "https://hh.ru/employer/68587",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1392604.png",
-      "url": "https://hh.ru/vacancy/127624888",
+      "url": "https://hh.ru/vacancy/127624890",
       "published_at": "2025-11-13T11:13:52+0300",
       "created_at": "2025-11-13T11:13:52+0300",
-      "area": "Елабуга",
+      "area": "Казань",
       "salary": "от 127 500 RUR до вычета налогов",
       "salary_raw": {
         "from": 127500,
@@ -4194,16 +4260,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127624890",
+      "id": "127624888",
       "name": "Сетевой инженер",
       "company": "Алабуга, ОЭЗ ППТ",
       "company_id": "68587",
       "company_url": "https://hh.ru/employer/68587",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1392604.png",
-      "url": "https://hh.ru/vacancy/127624890",
+      "url": "https://hh.ru/vacancy/127624888",
       "published_at": "2025-11-13T11:13:52+0300",
       "created_at": "2025-11-13T11:13:52+0300",
-      "area": "Казань",
+      "area": "Елабуга",
       "salary": "от 127 500 RUR до вычета налогов",
       "salary_raw": {
         "from": 127500,
@@ -6256,39 +6322,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123905788",
-      "name": "Администратор компьютерного клуба",
-      "company": "КиберПрайд",
-      "company_id": "9112940",
-      "company_url": "https://hh.ru/employer/9112940",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/7090917.jpeg",
-      "url": "https://hh.ru/vacancy/123905788",
-      "published_at": "2025-11-12T14:55:13+0300",
-      "created_at": "2025-11-12T14:55:13+0300",
-      "area": "Набережные Челны",
-      "salary": "53 000 - 64 000 RUR на руки",
-      "salary_raw": {
-        "from": 53000,
-        "to": 64000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Желателен опыт работы в сфере обслуживания (кандидатов без опыта так же рассматриваем). Грамотная речь, желание общаться и умение поддержать диалог.",
-      "responsibility": "Встречать и рассчитывать гостей за стойкой, консультировать их по актуальным акциям. Принимать входящие звонки, бронировать места ВК, выявлять потребности гостей.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Другое"
       ],
       "has_test": false,
       "premium": false,
@@ -18435,6 +18468,39 @@
       "accept_temporary": false
     },
     {
+      "id": "127086877",
+      "name": "Сетевой инженер",
+      "company": "Эксперт Плюс",
+      "company_id": "3983515",
+      "company_url": "https://hh.ru/employer/3983515",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/127086877",
+      "published_at": "2025-10-29T08:20:35+0300",
+      "created_at": "2025-10-29T08:20:35+0300",
+      "area": "Пенза",
+      "salary": "от 400 000 RUR на руки",
+      "salary_raw": {
+        "from": 400000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы с сетевыми протоколами и уровнями взаимодействия OSI (RIP, OSPF, BGP, MP-BGP, IS-IS, LDP). Опыт аппаратно-программного...",
+      "responsibility": "Проверка, конфигурация сетевого оборудования. Интернет, каналы передачи данных, IP телефония, IPTV. Проектирование, администрирование IP/MPLS сети на базе оборудования Juniper...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Сетевой инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "127086874",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
@@ -18478,39 +18544,6 @@
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
       "area": "Тула",
-      "salary": "от 400 000 RUR на руки",
-      "salary_raw": {
-        "from": 400000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с сетевыми протоколами и уровнями взаимодействия OSI (RIP, OSPF, BGP, MP-BGP, IS-IS, LDP). Опыт аппаратно-программного...",
-      "responsibility": "Проверка, конфигурация сетевого оборудования. Интернет, каналы передачи данных, IP телефония, IPTV. Проектирование, администрирование IP/MPLS сети на базе оборудования Juniper...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Сетевой инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127086877",
-      "name": "Сетевой инженер",
-      "company": "Эксперт Плюс",
-      "company_id": "3983515",
-      "company_url": "https://hh.ru/employer/3983515",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086877",
-      "published_at": "2025-10-29T08:20:35+0300",
-      "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Пенза",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -18765,6 +18798,39 @@
       "accept_temporary": false
     },
     {
+      "id": "127086858",
+      "name": "Сетевой инженер",
+      "company": "Эксперт Плюс",
+      "company_id": "3983515",
+      "company_url": "https://hh.ru/employer/3983515",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/127086858",
+      "published_at": "2025-10-29T08:20:35+0300",
+      "created_at": "2025-10-29T08:20:35+0300",
+      "area": "Владивосток",
+      "salary": "от 400 000 RUR на руки",
+      "salary_raw": {
+        "from": 400000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы с сетевыми протоколами и уровнями взаимодействия OSI (RIP, OSPF, BGP, MP-BGP, IS-IS, LDP). Опыт аппаратно-программного...",
+      "responsibility": "Проверка, конфигурация сетевого оборудования. Интернет, каналы передачи данных, IP телефония, IPTV. Проектирование, администрирование IP/MPLS сети на базе оборудования Juniper...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Сетевой инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "127086872",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
@@ -18808,39 +18874,6 @@
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
       "area": "Тверь",
-      "salary": "от 400 000 RUR на руки",
-      "salary_raw": {
-        "from": 400000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с сетевыми протоколами и уровнями взаимодействия OSI (RIP, OSPF, BGP, MP-BGP, IS-IS, LDP). Опыт аппаратно-программного...",
-      "responsibility": "Проверка, конфигурация сетевого оборудования. Интернет, каналы передачи данных, IP телефония, IPTV. Проектирование, администрирование IP/MPLS сети на базе оборудования Juniper...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Сетевой инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127086858",
-      "name": "Сетевой инженер",
-      "company": "Эксперт Плюс",
-      "company_id": "3983515",
-      "company_url": "https://hh.ru/employer/3983515",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086858",
-      "published_at": "2025-10-29T08:20:35+0300",
-      "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Владивосток",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -23487,39 +23520,6 @@
       "accept_temporary": false
     },
     {
-      "id": "119088096",
-      "name": "Системный администратор",
-      "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
-      "company_id": "1864933",
-      "company_url": "https://hh.ru/employer/1864933",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3073035.png",
-      "url": "https://hh.ru/vacancy/119088096",
-      "published_at": "2025-10-22T17:09:15+0300",
-      "created_at": "2025-10-22T17:09:15+0300",
-      "area": "Фурманов",
-      "salary": "до 42 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": null,
-        "to": 42000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Среднее специальное или высшее профильное образование. Знания и навыки обслуживания аппаратного устройства рабочих станций, периферийного оборудования малой и средней производительности...",
-      "responsibility": "Сопровождение автоматизированных информационных и телекоммуникационных систем, систем телефонии, антивирусной защиты. Администрирование аппаратного обеспечения рабочих станций, периферийного оборудования и систем обеспечения...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "104840579",
       "name": "Системный администратор",
       "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
@@ -23542,6 +23542,39 @@
       "employment": "Полная занятость",
       "requirement": "Высшее образование в сфере информационных технологий.",
       "responsibility": "Администрирование аппаратного обеспечения серверного оборудования, рабочих станций, периферийного оборудования. Администрирование ОС семейства Windows, Unix, общесистемного программного обеспечения, системы управления баз...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "119088096",
+      "name": "Системный администратор",
+      "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
+      "company_id": "1864933",
+      "company_url": "https://hh.ru/employer/1864933",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3073035.png",
+      "url": "https://hh.ru/vacancy/119088096",
+      "published_at": "2025-10-22T17:09:15+0300",
+      "created_at": "2025-10-22T17:09:15+0300",
+      "area": "Фурманов",
+      "salary": "до 42 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": null,
+        "to": 42000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Среднее специальное или высшее профильное образование. Знания и навыки обслуживания аппаратного устройства рабочих станций, периферийного оборудования малой и средней производительности...",
+      "responsibility": "Сопровождение автоматизированных информационных и телекоммуникационных систем, систем телефонии, антивирусной защиты. Администрирование аппаратного обеспечения рабочих станций, периферийного оборудования и систем обеспечения...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -26213,39 +26246,6 @@
       "accept_temporary": false
     },
     {
-      "id": "126676584",
-      "name": "Администратор компьютерного клуба",
-      "company": "Гуд Гэйм",
-      "company_id": "3781021",
-      "company_url": "https://hh.ru/employer/3781021",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3882758.png",
-      "url": "https://hh.ru/vacancy/126676584",
-      "published_at": "2025-10-17T18:45:05+0300",
-      "created_at": "2025-10-17T18:45:05+0300",
-      "area": "Казань",
-      "salary": "45 000 - 60 000 RUR на руки",
-      "salary_raw": {
-        "from": 45000,
-        "to": 60000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "Есть опыт работы в качестве официанта или администратора, или желание такой опыт приобрести. Умение разбираться в компьютерных играх и играх...",
-      "responsibility": "Встречать посетителей клуба, проводить обзорную экскурсию по клубу, предоставлять гостям информацию о правилах работы клуба, в том числе о тарифах...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126676120",
       "name": "Devops / Системный администратор Linux",
       "company": "АВМ-Технология",
@@ -26807,16 +26807,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126637027",
+      "id": "126637028",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5664943.jpeg",
-      "url": "https://hh.ru/vacancy/126637027",
+      "url": "https://hh.ru/vacancy/126637028",
       "published_at": "2025-10-17T09:00:51+0300",
       "created_at": "2025-10-17T09:00:51+0300",
-      "area": "Карачев",
+      "area": "Почеп",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -26840,16 +26840,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126637028",
+      "id": "126637027",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5664943.jpeg",
-      "url": "https://hh.ru/vacancy/126637028",
+      "url": "https://hh.ru/vacancy/126637027",
       "published_at": "2025-10-17T09:00:51+0300",
       "created_at": "2025-10-17T09:00:51+0300",
-      "area": "Почеп",
+      "area": "Карачев",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -26906,16 +26906,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126637013",
+      "id": "126637016",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5664943.jpeg",
-      "url": "https://hh.ru/vacancy/126637013",
+      "url": "https://hh.ru/vacancy/126637016",
       "published_at": "2025-10-17T09:00:51+0300",
       "created_at": "2025-10-17T09:00:51+0300",
-      "area": "Киржач",
+      "area": "Богородицк",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -26939,16 +26939,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126637016",
+      "id": "126637013",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5664943.jpeg",
-      "url": "https://hh.ru/vacancy/126637016",
+      "url": "https://hh.ru/vacancy/126637013",
       "published_at": "2025-10-17T09:00:51+0300",
       "created_at": "2025-10-17T09:00:51+0300",
-      "area": "Богородицк",
+      "area": "Киржач",
       "salary": "200 - 10 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 200,
@@ -27361,133 +27361,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": true
-    },
-    {
-      "id": "126619681",
-      "name": "Системный администратор (офис г. Чебоксары)",
-      "company": "Limex",
-      "company_id": "5177357",
-      "company_url": "https://hh.ru/employer/5177357",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1457868.png",
-      "url": "https://hh.ru/vacancy/126619681",
-      "published_at": "2025-10-16T15:44:55+0300",
-      "created_at": "2025-10-16T15:44:55+0300",
-      "area": "Чебоксары",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание сетевых протоколов. Знание операционных систем UNIX/Linux, Windows. Опыт работы с почтовым ПО. Опыт системного Администрирования. Понимание принципов работы...",
-      "responsibility": "Администрирование ЛВС. Поддержание работоспособности АРМ и переферийных устройств. Администрирование офисных локальных служб (Почта, Bitrix, SMB и т.д.).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126618408",
-      "name": "Системный администратор",
-      "company": "Горно-металлургический комплекс",
-      "company_id": "3968",
-      "company_url": "https://hh.ru/employer/3968",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/126618408",
-      "published_at": "2025-10-16T15:24:44+0300",
-      "created_at": "2025-10-16T15:24:44+0300",
-      "area": "Киров (Кировская область)",
-      "salary": "от 70 000 RUR на руки",
-      "salary_raw": {
-        "from": 70000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее или среднее профессиональное образование. Опыт работы от 1 года. Знание принципов работы и настроек современных ТСО. Навыки монтажа и...",
-      "responsibility": "Oбeспeчeниe бecперeбойной pабoты срeдcтв ТСО (OПС, cистемы видeонaблюдeния, СКУД) на объeктaх предприятия. Устранение неисправностей, повреждений и причин ложных срабатываний средств...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126616499",
-      "name": "Менеджер по работе с сетями/ КАМ",
-      "company": "Центр-Т",
-      "company_id": "4596600",
-      "company_url": "https://hh.ru/employer/4596600",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1398043.png",
-      "url": "https://hh.ru/vacancy/126616499",
-      "published_at": "2025-10-16T14:55:04+0300",
-      "created_at": "2025-10-16T14:55:04+0300",
-      "area": "Нижний Новгород",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в продажах или управлении клиентами от 1 до 3 лет. Отличные коммуникативные и переговорные навыки. Умение работать в...",
-      "responsibility": "Развитие и поддержание долгосрочных отношений с федеральными и региональными торговыми сетями. Проведение переговоров и заключение договоров на выгодных условиях.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Менеджер по работе с партнерами"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126616367",
-      "name": "Системный администратор",
-      "company": "ТОГБУ Компьютерный центр",
-      "company_id": "4897089",
-      "company_url": "https://hh.ru/employer/4897089",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/126616367",
-      "published_at": "2025-10-16T14:53:34+0300",
-      "created_at": "2025-10-16T14:53:34+0300",
-      "area": "Тамбов",
-      "salary": "35 000 - 45 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 35000,
-        "to": 45000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Умение самостоятельно решать возникающие проблемы. Умение общаться с людьми. Ответственность и исполнительность.",
-      "responsibility": "Выполнение и контроль работ, позволяющих выявить потенциальные угрозы информационной системы. - подготовка документации по защите информации для внутреннего пользования. -",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
     }
   ]
 }
