@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-15T10:36:28Z",
+  "updated": "2025-11-15T11:28:27Z",
   "statistics": {
-    "total": 990,
-    "with_salary": 721,
-    "companies": 717,
+    "total": 988,
+    "with_salary": 719,
+    "companies": 715,
     "cities": 168,
     "premium": 0,
     "with_test": 30
   },
   "vacancies": [
+    {
+      "id": "126821943",
+      "name": "Системный администратор",
+      "company": "Железнодорожное Управление",
+      "company_id": "3616249",
+      "company_url": "https://hh.ru/employer/3616249",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3796770.jpeg",
+      "url": "https://hh.ru/vacancy/126821943",
+      "published_at": "2025-11-15T13:26:32+0300",
+      "created_at": "2025-11-15T13:26:32+0300",
+      "area": "Пермь",
+      "salary": "от 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее или среднее профессиональное образование в области компьютерных и телекоммуникационных технологий. Стаж работы от 3 лет в области технической поддержки...",
+      "responsibility": "Установка и конфигурирование ИТ-оборудования для оптимальной работы сети. Выявление и устранение угроз ИТ-инфраструктуре, отслеживание работоспособности сетевого оборудования, выявление...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127059453",
+      "name": "Системный администратор",
+      "company": "Е-Офис 24",
+      "company_id": "3688551",
+      "company_url": "https://hh.ru/employer/3688551",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3006898.png",
+      "url": "https://hh.ru/vacancy/127059453",
+      "published_at": "2025-11-15T13:22:56+0300",
+      "created_at": "2025-11-15T13:22:56+0300",
+      "area": "Екатеринбург",
+      "salary": "до 120 000 RUR на руки",
+      "salary_raw": {
+        "from": null,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее или среднее специальное образование – в области информационных технологий. Опыт эксплуатации виртуальной серверной инфраструктуры (Hyper-V). Опыт администрирования Windows Server...",
+      "responsibility": "Обеспечение бесперебойной работы большого количества серверов. Обеспечение безопасности информационных систем и сетей. Мониторинг работоспособности серверов и служб. Автоматизация ИТ-задач.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "126820176",
       "name": "Системный администратор",
@@ -1306,16 +1372,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127111806",
+      "id": "127102874",
       "name": "Ведущий системный администратор",
       "company": "iFCM",
       "company_id": "3558",
       "company_url": "https://hh.ru/employer/3558",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6917373.png",
-      "url": "https://hh.ru/vacancy/127111806",
+      "url": "https://hh.ru/vacancy/127102874",
       "published_at": "2025-11-14T15:41:57+0300",
       "created_at": "2025-11-14T15:41:57+0300",
-      "area": "Новосибирск",
+      "area": "Калининград",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -1334,16 +1400,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127102874",
+      "id": "127111806",
       "name": "Ведущий системный администратор",
       "company": "iFCM",
       "company_id": "3558",
       "company_url": "https://hh.ru/employer/3558",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6917373.png",
-      "url": "https://hh.ru/vacancy/127102874",
+      "url": "https://hh.ru/vacancy/127111806",
       "published_at": "2025-11-14T15:41:57+0300",
       "created_at": "2025-11-14T15:41:57+0300",
-      "area": "Калининград",
+      "area": "Новосибирск",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 3 до 6 лет",
@@ -6941,72 +7007,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы с фискальными регистраторами. Желательно знакомство с администрированием розничных сетей. Желателен опыт работы с ПО \"1С:ШТРИХ-М.",
       "responsibility": "Настройка кассового оборудования, выявление и устранение проблем. Поддержка пользователей торговой сети, офиса и склада. Обслуживание IT оборудования офиса и торгового...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126821943",
-      "name": "Системный администратор",
-      "company": "Железнодорожное Управление",
-      "company_id": "3616249",
-      "company_url": "https://hh.ru/employer/3616249",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3796770.jpeg",
-      "url": "https://hh.ru/vacancy/126821943",
-      "published_at": "2025-11-12T13:26:32+0300",
-      "created_at": "2025-11-12T13:26:32+0300",
-      "area": "Пермь",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее или среднее профессиональное образование в области компьютерных и телекоммуникационных технологий. Стаж работы от 3 лет в области технической поддержки...",
-      "responsibility": "Установка и конфигурирование ИТ-оборудования для оптимальной работы сети. Выявление и устранение угроз ИТ-инфраструктуре, отслеживание работоспособности сетевого оборудования, выявление...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127059453",
-      "name": "Системный администратор",
-      "company": "Е-Офис 24",
-      "company_id": "3688551",
-      "company_url": "https://hh.ru/employer/3688551",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3006898.png",
-      "url": "https://hh.ru/vacancy/127059453",
-      "published_at": "2025-11-12T13:22:56+0300",
-      "created_at": "2025-11-12T13:22:56+0300",
-      "area": "Екатеринбург",
-      "salary": "до 120 000 RUR на руки",
-      "salary_raw": {
-        "from": null,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее или среднее специальное образование – в области информационных технологий. Опыт эксплуатации виртуальной серверной инфраструктуры (Hyper-V). Опыт администрирования Windows Server...",
-      "responsibility": "Обеспечение бесперебойной работы большого количества серверов. Обеспечение безопасности информационных систем и сетей. Мониторинг работоспособности серверов и служб. Автоматизация ИТ-задач.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -31269,72 +31269,6 @@
       "employment": "Полная занятость",
       "requirement": "ЗНАНИЕ IIKOОБЯЗАТЕЛЬНО!!! - Навыки работы с ручным инструментом (перфоратор, шуруповерт). - Знание OS WINDOWS 7,10,11, MS Office, MIKROTIK, UBIQIUTI, сети...",
       "responsibility": "Прокладка и восстановление ЛВС, установка коммутационных шкафов, сетевого оборудования, настройка сетевого оборудования. - Установка, прокладка систем цифрового и аналогового видеонаблюдения. -",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126613563",
-      "name": "Сетевой инженер связи",
-      "company": "ЦССИ ФСО России в Иркутской области",
-      "company_id": "5325363",
-      "company_url": "https://hh.ru/employer/5325363",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/126613563",
-      "published_at": "2025-10-16T14:11:39+0300",
-      "created_at": "2025-10-16T14:11:39+0300",
-      "area": "Иркутск",
-      "salary": "75 000 - 95 000 RUR на руки",
-      "salary_raw": {
-        "from": 75000,
-        "to": 95000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Профильное техническое образование в области телекоммуникаций, радиотехники, радиофизики, инфокоммуникационных технологий и связи. Знание сетевых технологий, стека протоколов TCP/IP, модели...",
-      "responsibility": "Построение и поддержка функционирования сетей связи на базе медных, оптических и беспроводных линий. Администрирование ПК, ЛВС, сетевого и серверного оборудования...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Инженер-энергетик, инженер-электрик"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126612161",
-      "name": "Системный администратор",
-      "company": "Monogramm",
-      "company_id": "11075572",
-      "company_url": "https://hh.ru/employer/11075572",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/126612161",
-      "published_at": "2025-10-16T13:45:14+0300",
-      "created_at": "2025-10-16T13:45:14+0300",
-      "area": "Тюмень",
-      "salary": "20 000 - 25 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 20000,
-        "to": 25000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Более 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы системным администратором не менее 6 лет. Знание принципов работы и настройки сетевого оборудования. Умение работать с операционными системами...",
-      "responsibility": "Обеспечение бесперебойной работы серверов и сетевого оборудования. Установка и настройка программного обеспечения. Мониторинг и оптимизация производительности систем. Решение технических проблем...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
