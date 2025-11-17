@@ -10,16 +10,77 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-17T18:32:02Z",
+  "updated": "2025-11-17T19:17:47Z",
   "statistics": {
     "total": 1678,
-    "with_salary": 865,
+    "with_salary": 866,
     "companies": 1257,
     "cities": 74,
     "premium": 3,
     "with_test": 107
   },
   "vacancies": [
+    {
+      "id": "125483558",
+      "name": "Инженер-системный программист (системный администратор Linux)",
+      "company": "Радар ММС",
+      "company_id": "167893",
+      "company_url": "https://hh.ru/employer/167893",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/299170.png",
+      "url": "https://hh.ru/vacancy/125483558",
+      "published_at": "2025-11-17T21:56:25+0300",
+      "created_at": "2025-11-17T21:56:25+0300",
+      "area": "Санкт-Петербург",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Базовые знания принципов работы сетей IP/Ethernet и основных сетевых протоколов. Знания ОС семейства Linux на уровне опытного пользователя (опыт...",
+      "responsibility": "Участие в разработке ПО. Пуско-наладочные работы аппаратного и программного обеспечения на объектах заказчиков. Автоматизация процессов установки и настройки ПО...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127804194",
+      "name": "Администратор компьютерного клуба Colizeum (Семеновская)",
+      "company": "Лобачев Антон Александрович",
+      "company_id": "9403789",
+      "company_url": "https://hh.ru/employer/9403789",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5761114.jpeg",
+      "url": "https://hh.ru/vacancy/127804194",
+      "published_at": "2025-11-17T21:51:17+0300",
+      "created_at": "2025-11-17T21:51:17+0300",
+      "area": "Москва",
+      "salary": "40 000 - 50 000 RUR на руки",
+      "salary_raw": {
+        "from": 40000,
+        "to": 50000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Знание ПК на уровне уверенного пользователя. Умение решать рабочие задачи, устранять возникающие неполадки. Знание рынка киберспорта. Хорошо поставленная речь. Клиентоориентированность.",
+      "responsibility": "Встреча гостей. - Помощь в регистрации новых клиентов. - Работа с кассой. - Телефонный этикет. - Соблюдение чистоты в клубе. - Контроль порядка на ресепшене. -",
+      "type": "Открытая",
+      "professional_roles": [
+        "Администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
     {
       "id": "126796846",
       "name": "Системный администратор 1С",
@@ -17824,39 +17885,6 @@
       "accept_temporary": false
     },
     {
-      "id": "105951193",
-      "name": "Ведущий инженер (системный администратор)",
-      "company": "Моринформсистема-Агат, Концерн",
-      "company_id": "179533",
-      "company_url": "https://hh.ru/employer/179533",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/808966.png",
-      "url": "https://hh.ru/vacancy/105951193",
-      "published_at": "2025-11-14T08:52:01+0300",
-      "created_at": "2025-11-14T08:52:01+0300",
-      "area": "Москва",
-      "salary": "до 120 000 RUR на руки",
-      "salary_raw": {
-        "from": null,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание стека протоколов TCP/IP, Ethernet. - Знание базовых сетевых технологий (DHCP, DNS, VLAN, NAT, QoS и т.п.). ‑",
-      "responsibility": "Администрирование сетевого оборудования(коммутаторы, маршрутизаторы, межсетевые экраны). - Участие в тестированиинового оборудования. - Ввод в эксплуатацию нового оборудования. - Разработка и сопровождение технической...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "108825639",
       "name": "Системный администратор (AstraLinux, информационная безопасность)",
       "company": "Моринформсистема-Агат, Концерн",
@@ -17882,6 +17910,39 @@
       "type": "Открытая",
       "professional_roles": [
         "Специалист по информационной безопасности"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "105951193",
+      "name": "Ведущий инженер (системный администратор)",
+      "company": "Моринформсистема-Агат, Концерн",
+      "company_id": "179533",
+      "company_url": "https://hh.ru/employer/179533",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/808966.png",
+      "url": "https://hh.ru/vacancy/105951193",
+      "published_at": "2025-11-14T08:52:01+0300",
+      "created_at": "2025-11-14T08:52:01+0300",
+      "area": "Москва",
+      "salary": "до 120 000 RUR на руки",
+      "salary_raw": {
+        "from": null,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание стека протоколов TCP/IP, Ethernet. - Знание базовых сетевых технологий (DHCP, DNS, VLAN, NAT, QoS и т.п.). ‑",
+      "responsibility": "Администрирование сетевого оборудования(коммутаторы, маршрутизаторы, межсетевые экраны). - Участие в тестированиинового оборудования. - Ввод в эксплуатацию нового оборудования. - Разработка и сопровождение технической...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
       ],
       "has_test": false,
       "premium": false,
@@ -27943,8 +28004,8 @@
       "experience": "От 3 до 6 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "Отличное знание и опыт работы с вышеперечисленными системами в качестве системного администратора. Навыки диагностики и устранения проблем в высоконагруженных и...",
-      "responsibility": "Сборка/Апгрейд/Замена физических серверов и их администрирование ОС(AlmaLinux/Centos/Ubunta). - Платформа виртуализации Proxmox: установка, настройка сетей (VLAN, мосты...",
+      "requirement": "Отличное знание и опыт работы с вышеперечисленными системами в качестве ведущего системного администратора. Навыки диагностики и устранения проблем в высоконагруженных...",
+      "responsibility": "Платформа виртуализации Proxmox: установка, настройка сетей (VLAN, мосты), подключение хранилищ (локальные, NFS, Ceph), создание кластера узлов, распределение CPU/памяти/дисков...",
       "type": "Открытая",
       "professional_roles": [
         "DevOps-инженер"
@@ -29934,34 +29995,6 @@
       "accept_temporary": false
     },
     {
-      "id": "125483558",
-      "name": "Инженер-системный программист (системный администратор Linux)",
-      "company": "Радар ММС",
-      "company_id": "167893",
-      "company_url": "https://hh.ru/employer/167893",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/299170.png",
-      "url": "https://hh.ru/vacancy/125483558",
-      "published_at": "2025-11-06T17:57:15+0300",
-      "created_at": "2025-11-06T17:57:15+0300",
-      "area": "Санкт-Петербург",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Базовые знания принципов работы сетей IP/Ethernet и основных сетевых протоколов. Знания ОС семейства Linux на уровне опытного пользователя (опыт...",
-      "responsibility": "Участие в разработке ПО. Пуско-наладочные работы аппаратного и программного обеспечения на объектах заказчиков. Автоматизация процессов установки и настройки ПО...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "127382952",
       "name": "Помощник системного администратора/младший системный администратор",
       "company": "Радар ММС",
@@ -31110,34 +31143,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее техническое образование. Опыт работы с аналогичными задачами от 3 лет. Базовые знания ОС Linux, ОС Microsoft Server.",
       "responsibility": "Сменное дежурное администрирование и мониторинг ИТ- инфраструктуры и ключевых ИС. Выполнение плановых работ по инструкциям. Участие в устранении инцидентов связных...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127358215",
-      "name": "Системный администратор",
-      "company": "ГК Орбита",
-      "company_id": "4623486",
-      "company_url": "https://hh.ru/employer/4623486",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1403186.png",
-      "url": "https://hh.ru/vacancy/127358215",
-      "published_at": "2025-11-06T11:50:01+0300",
-      "created_at": "2025-11-06T11:50:01+0300",
-      "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы на позиции DevOps Engineer от 2 лет. Практический опыт с ключевыми инструментами нашего стека: Jenkins, Kubernetes, Terraform/Ansible...",
-      "responsibility": "Разработка и поддержка CI/CD пайплайнов для автоматизации сборки, тестирования и развертывания приложений. Управление и автоматизация инфраструктуры с использованием IaC...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
