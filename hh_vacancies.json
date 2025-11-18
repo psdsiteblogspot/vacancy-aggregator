@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-18T01:43:56Z",
+  "updated": "2025-11-18T03:14:30Z",
   "statistics": {
     "total": 1679,
     "with_salary": 867,
@@ -20,6 +20,34 @@
     "with_test": 107
   },
   "vacancies": [
+    {
+      "id": "123015192",
+      "name": "Сетевой инженер службы технической поддержки",
+      "company": "UserGate",
+      "company_id": "113649",
+      "company_url": "https://hh.ru/employer/113649",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3609738.png",
+      "url": "https://hh.ru/vacancy/123015192",
+      "published_at": "2025-11-18T05:33:41+0300",
+      "created_at": "2025-11-18T05:33:41+0300",
+      "area": "Санкт-Петербург",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Умение собрать необходимые данные и воспроизвести ситуацию, возникшую у заказчика, в тестовой среде. Опыт работы системным администратором или в службе...",
+      "responsibility": "Оказывать помощь по внедрению и эксплуатации решений UserGate: межсетевые экраны нового поколения, системы централизованного управления платформами, системы сбора, обработки и...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Специалист технической поддержки"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "127552173",
       "name": "Администратор компьютерного клуба",
@@ -13443,39 +13471,6 @@
       "accept_temporary": false
     },
     {
-      "id": "125401019",
-      "name": "Старший системный администратор",
-      "company": "Конгресс-отель Ареал",
-      "company_id": "5156941",
-      "company_url": "https://hh.ru/employer/5156941",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3716098.png",
-      "url": "https://hh.ru/vacancy/125401019",
-      "published_at": "2025-11-15T16:23:38+0300",
-      "created_at": "2025-11-15T16:23:38+0300",
-      "area": "Старая Купавна (Московская область)",
-      "salary": "от 150 000 RUR на руки",
-      "salary_raw": {
-        "from": 150000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование. Опыт от 3 лет на должности руководителя службы поддержки (преимущественно отельная сфера). Уверенный пользователь Excel, 1С, Симфони...",
-      "responsibility": "Обеспечение бесперебойной работы программ в соответствии с техническим регламентом разработчиков: Birox, Fidelio (управление отелем), Micros (ресторанная система), TNG (система лояльности...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Специалист технической поддержки"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "125401016",
       "name": "Старший системный администратор",
       "company": "Конгресс-отель Ареал",
@@ -13519,6 +13514,39 @@
       "published_at": "2025-11-15T16:23:38+0300",
       "created_at": "2025-11-15T16:23:38+0300",
       "area": "Ногинск (Московская область)",
+      "salary": "от 150 000 RUR на руки",
+      "salary_raw": {
+        "from": 150000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование. Опыт от 3 лет на должности руководителя службы поддержки (преимущественно отельная сфера). Уверенный пользователь Excel, 1С, Симфони...",
+      "responsibility": "Обеспечение бесперебойной работы программ в соответствии с техническим регламентом разработчиков: Birox, Fidelio (управление отелем), Micros (ресторанная система), TNG (система лояльности...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Специалист технической поддержки"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125401019",
+      "name": "Старший системный администратор",
+      "company": "Конгресс-отель Ареал",
+      "company_id": "5156941",
+      "company_url": "https://hh.ru/employer/5156941",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3716098.png",
+      "url": "https://hh.ru/vacancy/125401019",
+      "published_at": "2025-11-15T16:23:38+0300",
+      "created_at": "2025-11-15T16:23:38+0300",
+      "area": "Старая Купавна (Московская область)",
       "salary": "от 150 000 RUR на руки",
       "salary_raw": {
         "from": 150000,
@@ -40892,7 +40920,7 @@
     },
     {
       "id": "127072212",
-      "name": "Системный администратор Linux,удаленно",
+      "name": "Системный администратор Linux",
       "company": "Кадровое агентство ЕВА",
       "company_id": "2812717",
       "company_url": "https://hh.ru/employer/2812717",
@@ -48564,16 +48592,16 @@
       "accept_temporary": false
     },
     {
-      "id": "121728898",
+      "id": "123354774",
       "name": "Системный администратор",
       "company": "ПрофХолод",
       "company_id": "190764",
       "company_url": "https://hh.ru/employer/190764",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1474954.png",
-      "url": "https://hh.ru/vacancy/121728898",
+      "url": "https://hh.ru/vacancy/123354774",
       "published_at": "2025-10-21T18:21:06+0300",
       "created_at": "2025-10-21T18:21:06+0300",
-      "area": "Королев (Московская область)",
+      "area": "Электросталь (Московская область)",
       "salary": "130 000 - 150 000 RUR на руки",
       "salary_raw": {
         "from": 130000,
@@ -48597,16 +48625,16 @@
       "accept_temporary": false
     },
     {
-      "id": "123354774",
+      "id": "121728898",
       "name": "Системный администратор",
       "company": "ПрофХолод",
       "company_id": "190764",
       "company_url": "https://hh.ru/employer/190764",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1474954.png",
-      "url": "https://hh.ru/vacancy/123354774",
+      "url": "https://hh.ru/vacancy/121728898",
       "published_at": "2025-10-21T18:21:06+0300",
       "created_at": "2025-10-21T18:21:06+0300",
-      "area": "Электросталь (Московская область)",
+      "area": "Королев (Московская область)",
       "salary": "130 000 - 150 000 RUR на руки",
       "salary_raw": {
         "from": 130000,
@@ -51305,34 +51333,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": true
-    },
-    {
-      "id": "123015192",
-      "name": "Сетевой инженер службы технической поддержки",
-      "company": "UserGate",
-      "company_id": "113649",
-      "company_url": "https://hh.ru/employer/113649",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3609738.png",
-      "url": "https://hh.ru/vacancy/123015192",
-      "published_at": "2025-10-19T05:33:40+0300",
-      "created_at": "2025-10-19T05:33:40+0300",
-      "area": "Санкт-Петербург",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Умение собрать необходимые данные и воспроизвести ситуацию, возникшую у заказчика, в тестовой среде. Опыт работы системным администратором или в службе...",
-      "responsibility": "Оказывать помощь по внедрению и эксплуатации решений UserGate: межсетевые экраны нового поколения, системы централизованного управления платформами, системы сбора, обработки и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Специалист технической поддержки"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
     },
     {
       "id": "125151575",
