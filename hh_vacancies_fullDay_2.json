@@ -10,16 +10,133 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-18T13:18:38Z",
+  "updated": "2025-11-18T13:51:39Z",
   "statistics": {
     "total": 864,
-    "with_salary": 617,
-    "companies": 624,
+    "with_salary": 616,
+    "companies": 623,
     "cities": 150,
     "premium": 0,
     "with_test": 13
   },
   "vacancies": [
+    {
+      "id": "127605997",
+      "name": "Системный администратор/DevOps",
+      "company": "ЭлРос",
+      "company_id": "4463438",
+      "company_url": "https://hh.ru/employer/4463438",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1393735.png",
+      "url": "https://hh.ru/vacancy/127605997",
+      "published_at": "2025-11-18T16:46:14+0300",
+      "created_at": "2025-11-18T16:46:14+0300",
+      "area": "Владимир",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт системного администрирования / DevOps от 2 лет. Уверенное владение Linux (Debian, Ubuntu, Astra, ALT, RedOS) и базовыми инструментами администрирования.",
+      "responsibility": "Развёртывание, настройка и поддержка серверов (Linux / Windows / отечественные ОС: Astra, ALT, РЕД ОС). Администрирование и мониторинг виртуальной инфраструктуры (Hyper-V...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127177208",
+      "name": "Системный администратор",
+      "company": "КЖК",
+      "company_id": "3711377",
+      "company_url": "https://hh.ru/employer/3711377",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1476894.png",
+      "url": "https://hh.ru/vacancy/127177208",
+      "published_at": "2025-11-18T16:41:22+0300",
+      "created_at": "2025-11-18T16:41:22+0300",
+      "area": "Казань",
+      "salary": "от 75 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 75000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Аналитические способности. Умение эффективно работать в условиях многозадачности. Опыт работы на аналогичной должности от 1 года.",
+      "responsibility": "Установка и настройка прикладного ПО, а так же настольных и серверных ОС (семейство MS Windows, MS Windows Server).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127840908",
+      "name": "Системный администратор",
+      "company": "ГРУППА КОМПАНИЙ ЭКОНИВА",
+      "company_id": "226306",
+      "company_url": "https://hh.ru/employer/226306",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/2957483.png",
+      "url": "https://hh.ru/vacancy/127840908",
+      "published_at": "2025-11-18T16:41:18+0300",
+      "created_at": "2025-11-18T16:41:18+0300",
+      "area": "Калуга",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование. Опыт работы в аналогичной должности приветствуется. Навыки администрирования ОС Windows 10, 11 в доменной сети ActiveDirectory.",
+      "responsibility": "Молочная продукция по сниженной стоимости. Поддержка сетевой инфраструктуры. Участие в работах по оптимизации ИТ инфраструктуры. Техническая поддержка пользователей.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127762970",
+      "name": "Ведущий системный администратор",
+      "company": "ТензоТехСервис",
+      "company_id": "1331994",
+      "company_url": "https://hh.ru/employer/1331994",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1386949.png",
+      "url": "https://hh.ru/vacancy/127762970",
+      "published_at": "2025-11-18T16:36:58+0300",
+      "created_at": "2025-11-18T16:36:58+0300",
+      "area": "Казань",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы от 3-х лет. Высшее или среднее-профессиональное техническое образование. Знание методик работы по ITSM/ITIL будет преимуществом.",
+      "responsibility": "Обеспечение бесперебойной работы программного и аппаратного обеспечения. Развертывание, администрирование операционных систем семейства Windows Server (2012-2021). Знание GPO, служб и...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "120356574",
       "name": "Администратор компьютерного клуба Нижний Новгород",
@@ -4339,34 +4456,6 @@
       "employment": "Полная занятость",
       "requirement": "Требования, навыки. Знание принципов построения локальных сетей, межсетевого взаимодействия, работы базовых сетевых служб и протоколов. Знать устройство компьютерной техники, периферийного...",
       "responsibility": "Техническая поддержка и консультирование пользователей, обслуживание техники на рабочих местах. Настройка, обслуживание и модернизация типовых компьютеров компании. Техническая поддержка офисной...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127762970",
-      "name": "Ведущий системный администратор",
-      "company": "ТензоТехСервис",
-      "company_id": "1331994",
-      "company_url": "https://hh.ru/employer/1331994",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1386949.png",
-      "url": "https://hh.ru/vacancy/127762970",
-      "published_at": "2025-11-17T09:38:52+0300",
-      "created_at": "2025-11-17T09:38:52+0300",
-      "area": "Казань",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы от 3-х лет. Высшее или среднее-профессиональное техническое образование. Знание методик работы по ITSM/ITIL будет преимуществом.",
-      "responsibility": "Обеспечение бесперебойной работы программного и аппаратного обеспечения. Развертывание, администрирование операционных систем семейства Windows Server (2012-2021). Знание GPO, служб и...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -8998,34 +9087,6 @@
       "accept_temporary": false
     },
     {
-      "id": "127605997",
-      "name": "Системный администратор/DevOps",
-      "company": "ЭлРос",
-      "company_id": "4463438",
-      "company_url": "https://hh.ru/employer/4463438",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1393735.png",
-      "url": "https://hh.ru/vacancy/127605997",
-      "published_at": "2025-11-12T17:13:45+0300",
-      "created_at": "2025-11-12T17:13:45+0300",
-      "area": "Владимир",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт системного администрирования / DevOps от 2 лет. Уверенное владение Linux (Debian, Ubuntu, Astra, ALT, RedOS) и базовыми инструментами администрирования.",
-      "responsibility": "Развёртывание, настройка и поддержка серверов (Linux / Windows / отечественные ОС: Astra, ALT, РЕД ОС). Администрирование и мониторинг виртуальной инфраструктуры (Hyper-V...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "121078730",
       "name": "Системный администратор",
       "company": "АйТи-Консалтинг",
@@ -9175,39 +9236,6 @@
       "employment": "Полная занятость",
       "requirement": "Опыт работы в области IT не менее 1 года. Основы сети: модель OSI (TCP/IP), VLAN, NAT, статическая маршрутизация, протоколы...",
       "responsibility": "Обслуживание гипермаркета Hoff: профилактика, тех обслуживание, решение локальных задач. Поддержка других объектов в формате единого helpdesk: удаленная помощь пользователям, решение...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127177208",
-      "name": "Системный администратор",
-      "company": "КЖК",
-      "company_id": "3711377",
-      "company_url": "https://hh.ru/employer/3711377",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1476894.png",
-      "url": "https://hh.ru/vacancy/127177208",
-      "published_at": "2025-11-12T16:04:04+0300",
-      "created_at": "2025-11-12T16:04:04+0300",
-      "area": "Казань",
-      "salary": "от 75 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 75000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Аналитические способности. Умение эффективно работать в условиях многозадачности. Опыт работы на аналогичной должности от 1 года.",
-      "responsibility": "Установка и настройка прикладного ПО, а так же настольных и серверных ОС (семейство MS Windows, MS Windows Server).",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -15014,39 +15042,6 @@
       "accept_temporary": false
     },
     {
-      "id": "125027456",
-      "name": "Системный администратор",
-      "company": "ОКО",
-      "company_id": "1107065",
-      "company_url": "https://hh.ru/employer/1107065",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1476717.png",
-      "url": "https://hh.ru/vacancy/125027456",
-      "published_at": "2025-11-06T12:49:07+0300",
-      "created_at": "2025-11-06T12:49:07+0300",
-      "area": "Нижний Новгород",
-      "salary": "до 77 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": null,
-        "to": 77000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее или среднее профессиональное образование по специальностям \"Информатика и вычислительная техника\". Опыт работы от 1 года, будет являться преимуществом.",
-      "responsibility": "Установка и подключение ПК сетевых и периферийных устройств на рабочих мечтах пользователей. Установка и конфигурирование системного и прикладного программного обеспечения...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "127361192",
       "name": "Сетевой инженер (IP Engineer)",
       "company": "Coleman Group",
@@ -20503,6 +20498,39 @@
       "accept_temporary": false
     },
     {
+      "id": "127086887",
+      "name": "Сетевой инженер",
+      "company": "Эксперт Плюс",
+      "company_id": "3983515",
+      "company_url": "https://hh.ru/employer/3983515",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/127086887",
+      "published_at": "2025-10-29T08:20:35+0300",
+      "created_at": "2025-10-29T08:20:35+0300",
+      "area": "Тверь",
+      "salary": "от 400 000 RUR на руки",
+      "salary_raw": {
+        "from": 400000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы с сетевыми протоколами и уровнями взаимодействия OSI (RIP, OSPF, BGP, MP-BGP, IS-IS, LDP). Опыт аппаратно-программного...",
+      "responsibility": "Проверка, конфигурация сетевого оборудования. Интернет, каналы передачи данных, IP телефония, IPTV. Проектирование, администрирование IP/MPLS сети на базе оборудования Juniper...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Сетевой инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "127086884",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
@@ -20546,39 +20574,6 @@
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
       "area": "Белгород",
-      "salary": "от 400 000 RUR на руки",
-      "salary_raw": {
-        "from": 400000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с сетевыми протоколами и уровнями взаимодействия OSI (RIP, OSPF, BGP, MP-BGP, IS-IS, LDP). Опыт аппаратно-программного...",
-      "responsibility": "Проверка, конфигурация сетевого оборудования. Интернет, каналы передачи данных, IP телефония, IPTV. Проектирование, администрирование IP/MPLS сети на базе оборудования Juniper...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Сетевой инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127086887",
-      "name": "Сетевой инженер",
-      "company": "Эксперт Плюс",
-      "company_id": "3983515",
-      "company_url": "https://hh.ru/employer/3983515",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086887",
-      "published_at": "2025-10-29T08:20:35+0300",
-      "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Тверь",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
