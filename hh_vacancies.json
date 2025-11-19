@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-18T23:20:36Z",
+  "updated": "2025-11-19T01:44:14Z",
   "statistics": {
     "total": 1717,
     "with_salary": 893,
@@ -20,6 +20,39 @@
     "with_test": 115
   },
   "vacancies": [
+    {
+      "id": "127025423",
+      "name": "Системный администратор Linux",
+      "company": "МСН Телеком",
+      "company_id": "17866",
+      "company_url": "https://hh.ru/employer/17866",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/2317807.png",
+      "url": "https://hh.ru/vacancy/127025423",
+      "published_at": "2025-11-19T02:44:07+0300",
+      "created_at": "2025-11-19T02:44:07+0300",
+      "area": "Москва",
+      "salary": "250 000 - 300 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 250000,
+        "to": 300000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Отличное знание и опыт работы с вышеперечисленными системами в качестве ведущего системного администратора. Навыки диагностики и устранения проблем в высоконагруженных...",
+      "responsibility": "Платформа виртуализации Proxmox: установка, настройка сетей (VLAN, мосты), подключение хранилищ (локальные, NFS, Ceph), создание кластера узлов, распределение CPU/памяти/дисков...",
+      "type": "Открытая",
+      "professional_roles": [
+        "DevOps-инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "127082394",
       "name": "Специалист технической поддержки / системный администратор",
@@ -13509,16 +13542,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127768530",
+      "id": "127768533",
       "name": "Network engineer for PreSale support / Старший сетевой инженер по поддержке PreSale (KORNFELD)",
       "company": "YADRO",
       "company_id": "1993194",
       "company_url": "https://hh.ru/employer/1993194",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1395412.png",
-      "url": "https://hh.ru/vacancy/127768530",
+      "url": "https://hh.ru/vacancy/127768533",
       "published_at": "2025-11-17T10:45:50+0300",
       "created_at": "2025-11-17T10:45:50+0300",
-      "area": "Москва",
+      "area": "Казань",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "Более 6 лет",
@@ -13537,16 +13570,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127768533",
+      "id": "127768530",
       "name": "Network engineer for PreSale support / Старший сетевой инженер по поддержке PreSale (KORNFELD)",
       "company": "YADRO",
       "company_id": "1993194",
       "company_url": "https://hh.ru/employer/1993194",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1395412.png",
-      "url": "https://hh.ru/vacancy/127768533",
+      "url": "https://hh.ru/vacancy/127768530",
       "published_at": "2025-11-17T10:45:50+0300",
       "created_at": "2025-11-17T10:45:50+0300",
-      "area": "Казань",
+      "area": "Москва",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "Более 6 лет",
@@ -30291,39 +30324,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Специалист технической поддержки"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127025423",
-      "name": "Системный администратор Linux",
-      "company": "МСН Телеком",
-      "company_id": "17866",
-      "company_url": "https://hh.ru/employer/17866",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/2317807.png",
-      "url": "https://hh.ru/vacancy/127025423",
-      "published_at": "2025-11-09T21:36:52+0300",
-      "created_at": "2025-11-09T21:36:52+0300",
-      "area": "Москва",
-      "salary": "250 000 - 300 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 250000,
-        "to": 300000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Отличное знание и опыт работы с вышеперечисленными системами в качестве ведущего системного администратора. Навыки диагностики и устранения проблем в высоконагруженных...",
-      "responsibility": "Платформа виртуализации Proxmox: установка, настройка сетей (VLAN, мосты), подключение хранилищ (локальные, NFS, Ceph), создание кластера узлов, распределение CPU/памяти/дисков...",
-      "type": "Открытая",
-      "professional_roles": [
-        "DevOps-инженер"
       ],
       "has_test": false,
       "premium": false,
