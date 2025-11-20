@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-20T15:49:10Z",
+  "updated": "2025-11-20T16:58:10Z",
   "statistics": {
-    "total": 851,
+    "total": 850,
     "with_salary": 604,
-    "companies": 614,
+    "companies": 613,
     "cities": 148,
     "premium": 1,
     "with_test": 14
   },
   "vacancies": [
+    {
+      "id": "127550147",
+      "name": "Системный администратор (рабочие места)",
+      "company": "Стерхов Нетворкс",
+      "company_id": "4260042",
+      "company_url": "https://hh.ru/employer/4260042",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/127550147",
+      "published_at": "2025-11-20T19:11:53+0300",
+      "created_at": "2025-11-20T19:11:53+0300",
+      "area": "Ижевск",
+      "salary": "80 000 - 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": 80000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы от 3 лет. Знание и навыки обслуживания компьютерной техники и типичного ПО. Умение подключить/настроить принтер/МФУ/IP...",
+      "responsibility": "Консультации пользователей по работе с компьютерной техникой. Настройка и обслуживание рабочих мест. Оперативное решение проблем по заявкам (принятым по почте...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127550143",
+      "name": "Системный администратор (серверная инфраструктура)",
+      "company": "Стерхов Нетворкс",
+      "company_id": "4260042",
+      "company_url": "https://hh.ru/employer/4260042",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/127550143",
+      "published_at": "2025-11-20T19:11:52+0300",
+      "created_at": "2025-11-20T19:11:52+0300",
+      "area": "Ижевск",
+      "salary": "от 100 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы от 3 лет. Опыт построения инфраструктуры Active Directory в средних/крупных организациях. Опыт работы с серверной виртуализацией.",
+      "responsibility": "Серверная виртуализация (Hyper-V / vSphere / отечественные продукты). Доменные сети (AD, GPO, RDS, DFS и много того, что обычно применяют в...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "127929470",
       "name": "Системный администратор",
@@ -166,7 +232,7 @@
         "gross": false
       },
       "experience": "От 1 года до 3 лет",
-      "schedule": "Удаленная работа",
+      "schedule": "Полный день",
       "employment": "Полная занятость",
       "requirement": "Опыт работы системным администратором от 2-х лет. Опыт поддержки пользователей. Пунктуальность, клиентоориентированность, желание помочь. Вежливость и чувство такта, а...",
       "responsibility": "Настройка рабочих мест сотрудников. Администрирование, поддержка и обновление компьютеров (до 50 единиц). Взаимодействие с сотрудниками на рабочих местах, решение текущих...",
@@ -976,13 +1042,18 @@
       "published_at": "2025-11-20T12:03:19+0300",
       "created_at": "2025-11-20T12:03:19+0300",
       "area": "Казань",
-      "salary": "не указана",
-      "salary_raw": null,
+      "salary": "от 50 000 RUR на руки",
+      "salary_raw": {
+        "from": 50000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Частичная занятость",
-      "requirement": "Желание улучшать качества жизни клиента. Опыт работы с компьютерами, техникой, ПО и ОС. Желание и умение учиться новому.",
-      "responsibility": "Установка на наши программно-аппаратные комплексы специализированного ПО (последующее обновление). Администрирование программно-аппаратных комплексов. Выезд к клиентам на место установки...",
+      "requirement": "Опыт работы с компьютерами, техникой, ПО и ОС. Желание и умение учиться новому. Целеустремленность и настойчивость. РАБОТА В АМОТЕЛ 24...",
+      "responsibility": "Администрирование программно-аппаратных комплексов. Выезд к клиентам на место установки оборудования. Установка и последующее своевременно обновление ОС. Сборка и донастройка...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -6785,72 +6856,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее техническое образование. Знание принципов работы и опыт настройки ПК с нуля и периферийных устройств. Знания операционных систем Windows‚ программного...",
       "responsibility": "Поддержка пользователей и работа с заявками helpdesk. Обеспечение технической поддержки пользователей и решение технических вопросов. Поиск неисправностей, их устранение, анализ...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127550147",
-      "name": "Системный администратор (рабочие места)",
-      "company": "Стерхов Нетворкс",
-      "company_id": "4260042",
-      "company_url": "https://hh.ru/employer/4260042",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/127550147",
-      "published_at": "2025-11-17T19:11:53+0300",
-      "created_at": "2025-11-17T19:11:53+0300",
-      "area": "Ижевск",
-      "salary": "80 000 - 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": 80000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы от 3 лет. Знание и навыки обслуживания компьютерной техники и типичного ПО. Умение подключить/настроить принтер/МФУ/IP...",
-      "responsibility": "Консультации пользователей по работе с компьютерной техникой. Настройка и обслуживание рабочих мест. Оперативное решение проблем по заявкам (принятым по почте...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127550143",
-      "name": "Системный администратор (серверная инфраструктура)",
-      "company": "Стерхов Нетворкс",
-      "company_id": "4260042",
-      "company_url": "https://hh.ru/employer/4260042",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/127550143",
-      "published_at": "2025-11-17T19:11:52+0300",
-      "created_at": "2025-11-17T19:11:52+0300",
-      "area": "Ижевск",
-      "salary": "от 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы от 3 лет. Опыт построения инфраструктуры Active Directory в средних/крупных организациях. Опыт работы с серверной виртуализацией.",
-      "responsibility": "Серверная виртуализация (Hyper-V / vSphere / отечественные продукты). Доменные сети (AD, GPO, RDS, DFS и много того, что обычно применяют в...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -22363,16 +22368,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086863",
+      "id": "127086872",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086863",
+      "url": "https://hh.ru/vacancy/127086872",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Уссурийск",
+      "area": "Саранск",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -22396,16 +22401,49 @@
       "accept_temporary": false
     },
     {
-      "id": "127086872",
+      "id": "127086853",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086872",
+      "url": "https://hh.ru/vacancy/127086853",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Саранск",
+      "area": "Благовещенск (Амурская область)",
+      "salary": "от 400 000 RUR на руки",
+      "salary_raw": {
+        "from": 400000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы с сетевыми протоколами и уровнями взаимодействия OSI (RIP, OSPF, BGP, MP-BGP, IS-IS, LDP). Опыт аппаратно-программного...",
+      "responsibility": "Проверка, конфигурация сетевого оборудования. Интернет, каналы передачи данных, IP телефония, IPTV. Проектирование, администрирование IP/MPLS сети на базе оборудования Juniper...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Сетевой инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127086863",
+      "name": "Сетевой инженер",
+      "company": "Эксперт Плюс",
+      "company_id": "3983515",
+      "company_url": "https://hh.ru/employer/3983515",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/127086863",
+      "published_at": "2025-10-29T08:20:35+0300",
+      "created_at": "2025-10-29T08:20:35+0300",
+      "area": "Уссурийск",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -22495,39 +22533,6 @@
       "accept_temporary": false
     },
     {
-      "id": "127086853",
-      "name": "Сетевой инженер",
-      "company": "Эксперт Плюс",
-      "company_id": "3983515",
-      "company_url": "https://hh.ru/employer/3983515",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086853",
-      "published_at": "2025-10-29T08:20:35+0300",
-      "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Благовещенск (Амурская область)",
-      "salary": "от 400 000 RUR на руки",
-      "salary_raw": {
-        "from": 400000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с сетевыми протоколами и уровнями взаимодействия OSI (RIP, OSPF, BGP, MP-BGP, IS-IS, LDP). Опыт аппаратно-программного...",
-      "responsibility": "Проверка, конфигурация сетевого оборудования. Интернет, каналы передачи данных, IP телефония, IPTV. Проектирование, администрирование IP/MPLS сети на базе оборудования Juniper...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Сетевой инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "127086866",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
@@ -22561,16 +22566,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086897",
+      "id": "127086891",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086897",
+      "url": "https://hh.ru/vacancy/127086891",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Ярославль",
+      "area": "Ижевск",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -22594,16 +22599,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086891",
+      "id": "127086897",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086891",
+      "url": "https://hh.ru/vacancy/127086897",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Ижевск",
+      "area": "Ярославль",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -26828,39 +26833,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126796298",
-      "name": "Администратор компьютерного клуба",
-      "company": "Гуд Гэйм",
-      "company_id": "3781021",
-      "company_url": "https://hh.ru/employer/3781021",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3882758.png",
-      "url": "https://hh.ru/vacancy/126796298",
-      "published_at": "2025-10-21T19:32:25+0300",
-      "created_at": "2025-10-21T19:32:25+0300",
-      "area": "Казань",
-      "salary": "45 000 - 65 000 RUR на руки",
-      "salary_raw": {
-        "from": 45000,
-        "to": 65000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "Есть опыт работы в качестве официанта или администратора, или желание такой опыт приобрести. Умение разбираться в компьютерных играх и играх...",
-      "responsibility": "Встречать посетителей клуба, проводить обзорную экскурсию по клубу, предоставлять гостям информацию о правилах работы клуба, в том числе о тарифах...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Администратор"
       ],
       "has_test": false,
       "premium": false,
