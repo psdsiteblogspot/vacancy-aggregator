@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-20T16:29:55Z",
+  "updated": "2025-11-20T17:18:10Z",
   "statistics": {
-    "total": 1731,
+    "total": 1730,
     "with_salary": 899,
     "companies": 1281,
     "cities": 74,
     "premium": 2,
-    "with_test": 117
+    "with_test": 116
   },
   "vacancies": [
+    {
+      "id": "123960000",
+      "name": "Сетевой инженер (группа эксплуатации систем видеонаблюдения и контроля доступа)",
+      "company": "УК СМАРТ СЕРВИС",
+      "company_id": "3082370",
+      "company_url": "https://hh.ru/employer/3082370",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1386086.png",
+      "url": "https://hh.ru/vacancy/123960000",
+      "published_at": "2025-11-20T20:05:21+0300",
+      "created_at": "2025-11-20T20:05:21+0300",
+      "area": "Москва",
+      "salary": "от 200 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 200000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование (техническое), опыт работы от 3 лет. Чтение технической документацию на английском языке. Опыт работы по составлению скриптов для...",
+      "responsibility": "Ведение документации и выдача для работы пула адресов для работы оборудования связи. Поиск информации в сети интернет решений для выполнения...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Сетевой инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127803216",
+      "name": "Помощник системного администратора",
+      "company": "Симпл Вэй Групп",
+      "company_id": "11169348",
+      "company_url": "https://hh.ru/employer/11169348",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6818217.jpeg",
+      "url": "https://hh.ru/vacancy/127803216",
+      "published_at": "2025-11-20T20:02:02+0300",
+      "created_at": "2025-11-20T20:02:02+0300",
+      "area": "Москва",
+      "salary": "до 100 000 RUR на руки",
+      "salary_raw": {
+        "from": null,
+        "to": 100000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "",
+      "responsibility": "Помощь в обеспечении бесперебойной, безопасной и функциональной работы информационной системы компании, включая серверное оборудование, телефонию, 1С и офисное оборудование.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
     {
       "id": "127160532",
       "name": "Системный администратор",
@@ -4161,7 +4227,7 @@
     },
     {
       "id": "127915825",
-      "name": "DevOps-инженер/системный администратор",
+      "name": "Системный администратор ( DevOps-инженер)",
       "company": "StormWall™",
       "company_id": "1588798",
       "company_url": "https://hh.ru/employer/1588798",
@@ -7882,39 +7948,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123960000",
-      "name": "Сетевой инженер (группа эксплуатации систем видеонаблюдения и контроля доступа)",
-      "company": "УК СМАРТ СЕРВИС",
-      "company_id": "3082370",
-      "company_url": "https://hh.ru/employer/3082370",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1386086.png",
-      "url": "https://hh.ru/vacancy/123960000",
-      "published_at": "2025-11-19T19:25:24+0300",
-      "created_at": "2025-11-19T19:25:24+0300",
-      "area": "Москва",
-      "salary": "от 200 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 200000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование (техническое), опыт работы от 3 лет. Чтение технической документацию на английском языке. Опыт работы по составлению скриптов для...",
-      "responsibility": "Ведение документации и выдача для работы пула адресов для работы оборудования связи. Поиск информации в сети интернет решений для выполнения...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Сетевой инженер"
       ],
       "has_test": false,
       "premium": false,
@@ -20409,39 +20442,6 @@
       "employment": "Частичная занятость",
       "requirement": "Опыт работы системным администратором от 2 лет (офис и удалённые рабочие места). Знание Windows и Linux, навыки сетевого администрирования (Wi...",
       "responsibility": "Обеспечивать стабильную работу офиса и складских объектов — компьютеры, серверы, периферия, сеть. Настраивать и обслуживать сетевое оборудование, VPN, Wi-Fi, обеспечивать...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
-      "id": "127803216",
-      "name": "Помощник системного администратора",
-      "company": "Симпл Вэй Групп",
-      "company_id": "11169348",
-      "company_url": "https://hh.ru/employer/11169348",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6818217.jpeg",
-      "url": "https://hh.ru/vacancy/127803216",
-      "published_at": "2025-11-17T20:02:02+0300",
-      "created_at": "2025-11-17T20:02:02+0300",
-      "area": "Москва",
-      "salary": "до 100 000 RUR на руки",
-      "salary_raw": {
-        "from": null,
-        "to": 100000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "",
-      "responsibility": "Помощь в обеспечении бесперебойной, безопасной и функциональной работы информационной системы компании, включая серверное оборудование, телефонию, 1С и офисное оборудование.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -50793,34 +50793,6 @@
         "Системный администратор"
       ],
       "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126889445",
-      "name": "Системный администратор Linux",
-      "company": "Газпром нефть",
-      "company_id": "39305",
-      "company_url": "https://hh.ru/employer/39305",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1448441.png",
-      "url": "https://hh.ru/vacancy/126889445",
-      "published_at": "2025-10-23T19:09:30+0300",
-      "created_at": "2025-10-23T19:09:30+0300",
-      "area": "Санкт-Петербург",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Имеешь высшее образование. Администрирование Linux-систем.",
-      "responsibility": "Анализ логов, метрик и событий безопасности для выявления проблем. Участие в расследовании и устранении критичных инцидентов. Администрирование и обновление Astra...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": true,
       "premium": false,
       "accept_handicapped": false,
       "accept_kids": false,
