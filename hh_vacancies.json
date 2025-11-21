@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-21T17:19:49Z",
+  "updated": "2025-11-21T18:29:13Z",
   "statistics": {
     "total": 1725,
     "with_salary": 891,
@@ -20,6 +20,105 @@
     "with_test": 114
   },
   "vacancies": [
+    {
+      "id": "127963492",
+      "name": "Администратор компьютерного клуба Colizeum ( Южная )",
+      "company": "Colizeum (ИП Ярковая Оксана Николаевна)",
+      "company_id": "12296260",
+      "company_url": "https://hh.ru/employer/12296260",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/127963492",
+      "published_at": "2025-11-21T21:18:41+0300",
+      "created_at": "2025-11-21T21:18:41+0300",
+      "area": "Москва",
+      "salary": "40 000 - 50 000 RUR на руки",
+      "salary_raw": {
+        "from": 40000,
+        "to": 50000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Гибкий график",
+      "employment": "Полная занятость",
+      "requirement": "Знание ПК на уровне уверенного пользователя. Умение решать рабочие задачи, устранять возникающие неполадки. Знание рынка киберспорта. Хорошо поставленная речь. Клиентоориентированность.",
+      "responsibility": "Встреча гостей. - Помощь в регистрации новых клиентов. - Работа с кассой. - Телефонный этикет. - Соблюдение чистоты в клубе. - Контроль порядка на ресепшене. -",
+      "type": "Открытая",
+      "professional_roles": [
+        "Администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
+      "id": "127610018",
+      "name": "Системный администратор (digital)",
+      "company": "MSTech L.L.C-FZ",
+      "company_id": "11876827",
+      "company_url": "https://hh.ru/employer/11876827",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1403359.png",
+      "url": "https://hh.ru/vacancy/127610018",
+      "published_at": "2025-11-21T20:54:58+0300",
+      "created_at": "2025-11-21T20:54:58+0300",
+      "area": "Москва",
+      "salary": "от 500 USD на руки",
+      "salary_raw": {
+        "from": 500,
+        "to": null,
+        "currency": "USD",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Настройка и оптимизация рекламных аккаунтов в Google Ads (ваш опыт сисадмина поможет быстро разобраться в тонкостях). Технически подкованных специалистов с...",
+      "responsibility": "Самостоятельное развитие: Никаких лекций — Вы будете самостоятельно изучать материалы, гайды и ресурсы по настройке и оптимизации рекламных аккаунтов, а также...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
+      "id": "126937151",
+      "name": "Администратор компьютерного клуба",
+      "company": "КиберПрайд",
+      "company_id": "9112940",
+      "company_url": "https://hh.ru/employer/9112940",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/7090917.jpeg",
+      "url": "https://hh.ru/vacancy/126937151",
+      "published_at": "2025-11-21T20:31:24+0300",
+      "created_at": "2025-11-21T20:31:24+0300",
+      "area": "Москва",
+      "salary": "50 000 - 70 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 50000,
+        "to": 70000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Желателен опыт работы в сфере обслуживания (кандидатов без опыта так же рассматриваем). Грамотная речь, желание общаться и умение поддержать диалог.",
+      "responsibility": "Встречать и рассчитывать гостей за стойкой, консультировать их по актуальным акциям. Принимать входящие звонки, бронировать места ВК, выявлять потребности гостей.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Другое"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "127963252",
       "name": "Ведущий системный администратор",
@@ -41,8 +140,8 @@
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "",
-      "responsibility": "",
+      "requirement": "Высшее образование (Профильное). Уверенные знания TCP/IP, AD/DC, DNS/DHCP, SMTP/POPЗ/IMAP. Опыт эксплуатации средств виртуализации.",
+      "responsibility": "Обеспечение бесперебойной работы IT-инфраструктуры и сервисов (24/7). Администрирование: виртуальных серверов Hyper-V, KVM, Veeam B&R терминальных серверов...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -20095,16 +20194,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124795444",
+      "id": "124795441",
       "name": "Администратор системы складского учета (WMS)",
       "company": "ОКЕЙ – Федеральная розничная сеть",
       "company_id": "1276",
       "company_url": "https://hh.ru/employer/1276",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3342939.png",
-      "url": "https://hh.ru/vacancy/124795444",
+      "url": "https://hh.ru/vacancy/124795441",
       "published_at": "2025-11-19T07:32:20+0300",
       "created_at": "2025-11-19T07:32:20+0300",
-      "area": "Клин (Московская область)",
+      "area": "Химки (Московская область)",
       "salary": "95 000 - 126 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 95000,
@@ -20128,16 +20227,16 @@
       "accept_temporary": false
     },
     {
-      "id": "124795441",
+      "id": "124795444",
       "name": "Администратор системы складского учета (WMS)",
       "company": "ОКЕЙ – Федеральная розничная сеть",
       "company_id": "1276",
       "company_url": "https://hh.ru/employer/1276",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3342939.png",
-      "url": "https://hh.ru/vacancy/124795441",
+      "url": "https://hh.ru/vacancy/124795444",
       "published_at": "2025-11-19T07:32:20+0300",
       "created_at": "2025-11-19T07:32:20+0300",
-      "area": "Химки (Московская область)",
+      "area": "Клин (Московская область)",
       "salary": "95 000 - 126 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 95000,
@@ -20308,72 +20407,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Специалист по информационной безопасности"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127610018",
-      "name": "Системный администратор (digital)",
-      "company": "MSTech L.L.C-FZ",
-      "company_id": "11876827",
-      "company_url": "https://hh.ru/employer/11876827",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1403359.png",
-      "url": "https://hh.ru/vacancy/127610018",
-      "published_at": "2025-11-18T20:54:58+0300",
-      "created_at": "2025-11-18T20:54:58+0300",
-      "area": "Москва",
-      "salary": "от 500 USD на руки",
-      "salary_raw": {
-        "from": 500,
-        "to": null,
-        "currency": "USD",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Настройка и оптимизация рекламных аккаунтов в Google Ads (ваш опыт сисадмина поможет быстро разобраться в тонкостях). Технически подкованных специалистов с...",
-      "responsibility": "Самостоятельное развитие: Никаких лекций — Вы будете самостоятельно изучать материалы, гайды и ресурсы по настройке и оптимизации рекламных аккаунтов, а также...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
-      "id": "126937151",
-      "name": "Администратор компьютерного клуба",
-      "company": "КиберПрайд",
-      "company_id": "9112940",
-      "company_url": "https://hh.ru/employer/9112940",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/7090917.jpeg",
-      "url": "https://hh.ru/vacancy/126937151",
-      "published_at": "2025-11-18T20:31:24+0300",
-      "created_at": "2025-11-18T20:31:24+0300",
-      "area": "Москва",
-      "salary": "50 000 - 70 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 50000,
-        "to": 70000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Желателен опыт работы в сфере обслуживания (кандидатов без опыта так же рассматриваем). Грамотная речь, желание общаться и умение поддержать диалог.",
-      "responsibility": "Встречать и рассчитывать гостей за стойкой, консультировать их по актуальным акциям. Принимать входящие звонки, бронировать места ВК, выявлять потребности гостей.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Другое"
       ],
       "has_test": false,
       "premium": false,
@@ -52708,39 +52741,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": false
-    },
-    {
-      "id": "126838066",
-      "name": "Системный администратор",
-      "company": "Компьютерная помощь Станислава Синягина",
-      "company_id": "1539927",
-      "company_url": "https://hh.ru/employer/1539927",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/1066444.jpeg",
-      "url": "https://hh.ru/vacancy/126838066",
-      "published_at": "2025-10-22T20:25:31+0300",
-      "created_at": "2025-10-22T20:25:31+0300",
-      "area": "Зеленоград",
-      "salary": "от 120 000 RUR на руки",
-      "salary_raw": {
-        "from": 120000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Ответственное отношение к работе. Уважительное отношение к пользователям – ОБЯЗАТЕЛЬНО. Умение выявлять неисправности и устранять их. Умение работать с незнакомым ПО.",
-      "responsibility": "Администрирование MS Windows Server 2003\\2008R2. Администрирование БД 1С. Администрирование сетевой инфраструктуры: DNS, DHCP, VPN, firewall и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
     },
     {
       "id": "125151575",
