@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-22T05:45:32Z",
+  "updated": "2025-11-22T06:51:14Z",
   "statistics": {
-    "total": 850,
-    "with_salary": 606,
-    "companies": 615,
+    "total": 847,
+    "with_salary": 604,
+    "companies": 613,
     "cities": 148,
     "premium": 1,
-    "with_test": 16
+    "with_test": 15
   },
   "vacancies": [
+    {
+      "id": "127440075",
+      "name": "Системный администратор",
+      "company": "МОНЕТА",
+      "company_id": "5936246",
+      "company_url": "https://hh.ru/employer/5936246",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1401633.png",
+      "url": "https://hh.ru/vacancy/127440075",
+      "published_at": "2025-11-22T08:17:48+0300",
+      "created_at": "2025-11-22T08:17:48+0300",
+      "area": "Йошкар-Ола",
+      "salary": "117 000 - 180 000 RUR на руки",
+      "salary_raw": {
+        "from": 117000,
+        "to": 180000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Более 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знает матчасть сетевого и серверного железа, не боится его, оперативно и эффективно находит сбои и может их устранить.",
+      "responsibility": "В Монете мы разрабатываем свою технологичную SaaS-платформу, с помощью которой компании создают финансовые и платёжные решения в режиме «конструктора».",
+      "type": "Открытая",
+      "professional_roles": [
+        "Сетевой инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "126284739",
       "name": "Системный администратор",
@@ -181,6 +214,39 @@
       "accept_temporary": false
     },
     {
+      "id": "127961457",
+      "name": "Системный администратор/Специалист 1С",
+      "company": "Лето Групп",
+      "company_id": "425607",
+      "company_url": "https://hh.ru/employer/425607",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1474137.png",
+      "url": "https://hh.ru/vacancy/127961457",
+      "published_at": "2025-11-21T17:43:23+0300",
+      "created_at": "2025-11-21T17:43:23+0300",
+      "area": "Тула",
+      "salary": "от 120 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 120000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование. Опыт работы от 3-5 лет.",
+      "responsibility": "Системное администрирование серверного парка. Создание ЛВС/СКС. Конфигурирование сетевого оборудования L3/L2/L1. Обеспечение бесперебойной работы компьютерной...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "127961456",
       "name": "Системный администратор/Специалист 1С",
       "company": "Лето Групп",
@@ -224,39 +290,6 @@
       "published_at": "2025-11-21T17:43:23+0300",
       "created_at": "2025-11-21T17:43:23+0300",
       "area": "Заокский",
-      "salary": "от 120 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 120000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование. Опыт работы от 3-5 лет.",
-      "responsibility": "Системное администрирование серверного парка. Создание ЛВС/СКС. Конфигурирование сетевого оборудования L3/L2/L1. Обеспечение бесперебойной работы компьютерной...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127961457",
-      "name": "Системный администратор/Специалист 1С",
-      "company": "Лето Групп",
-      "company_id": "425607",
-      "company_url": "https://hh.ru/employer/425607",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1474137.png",
-      "url": "https://hh.ru/vacancy/127961457",
-      "published_at": "2025-11-21T17:43:23+0300",
-      "created_at": "2025-11-21T17:43:23+0300",
-      "area": "Тула",
       "salary": "от 120 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 120000,
@@ -6300,34 +6333,6 @@
       "accept_temporary": false
     },
     {
-      "id": "126846284",
-      "name": "Системный администратор / DevOps / Начинающий DevOps",
-      "company": "ics-it",
-      "company_id": "842621",
-      "company_url": "https://hh.ru/employer/842621",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/2304359.png",
-      "url": "https://hh.ru/vacancy/126846284",
-      "published_at": "2025-11-19T09:13:55+0300",
-      "created_at": "2025-11-19T09:13:55+0300",
-      "area": "Чебоксары",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт администрирования операционных систем (не менее года). Уверенное знание сетевых технологий и протоколов. Опыт работы с Active Directory.",
-      "responsibility": "Администрирование операционных систем (Windows и Linux). Поддержка и обслуживание пользователей, решение их технических запросов. Управление сетевыми инфраструктурами и настройка сетевого...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": true,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126546160",
       "name": "Системный администратор",
       "company": "Меркатор Холдинг",
@@ -6381,39 +6386,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127440075",
-      "name": "Системный администратор",
-      "company": "МОНЕТА",
-      "company_id": "5936246",
-      "company_url": "https://hh.ru/employer/5936246",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1401633.png",
-      "url": "https://hh.ru/vacancy/127440075",
-      "published_at": "2025-11-19T08:17:48+0300",
-      "created_at": "2025-11-19T08:17:48+0300",
-      "area": "Йошкар-Ола",
-      "salary": "117 000 - 180 000 RUR на руки",
-      "salary_raw": {
-        "from": 117000,
-        "to": 180000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Более 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знает матчасть сетевого и серверного железа, не боится его, оперативно и эффективно находит сбои и может их устранить.",
-      "responsibility": "В Монете мы разрабатываем свою технологичную SaaS-платформу, с помощью которой компании создают финансовые и платёжные решения в режиме «конструктора».",
-      "type": "Открытая",
-      "professional_roles": [
-        "Сетевой инженер"
       ],
       "has_test": false,
       "premium": false,
@@ -13279,16 +13251,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127564296",
+      "id": "127564297",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5664943.jpeg",
-      "url": "https://hh.ru/vacancy/127564296",
+      "url": "https://hh.ru/vacancy/127564297",
       "published_at": "2025-11-12T10:10:26+0300",
       "created_at": "2025-11-12T10:10:26+0300",
-      "area": "Ясный",
+      "area": "Бугуруслан",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -13307,16 +13279,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127564297",
+      "id": "127564296",
       "name": "Выездной инженер технической поддержки/системный администратор",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5664943.jpeg",
-      "url": "https://hh.ru/vacancy/127564297",
+      "url": "https://hh.ru/vacancy/127564296",
       "published_at": "2025-11-12T10:10:26+0300",
       "created_at": "2025-11-12T10:10:26+0300",
-      "area": "Бугуруслан",
+      "area": "Ясный",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -22965,16 +22937,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086876",
+      "id": "127086858",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086876",
+      "url": "https://hh.ru/vacancy/127086858",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Оренбург",
+      "area": "Владивосток",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -22998,16 +22970,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086858",
+      "id": "127086876",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086858",
+      "url": "https://hh.ru/vacancy/127086876",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Владивосток",
+      "area": "Оренбург",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -23394,16 +23366,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086897",
+      "id": "127086866",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086897",
+      "url": "https://hh.ru/vacancy/127086866",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Ярославль",
+      "area": "Кострома",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -23427,16 +23399,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086866",
+      "id": "127086897",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086866",
+      "url": "https://hh.ru/vacancy/127086897",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Кострома",
+      "area": "Ярославль",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -26774,72 +26746,6 @@
       "employment": "Полная занятость",
       "requirement": "Сетевые технологии: базовые знания и практический опыт работы. Администрирование Windows: уверенные навыки работы с операционными системами Windows 7/8/10.",
       "responsibility": "Техническая поддержка пользователей: диагностика и оперативное решение возникающих проблем. Администрирование сетей: настройка и обслуживание сетевого оборудования (D-Link, Mikrotik).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
-      "id": "125493648",
-      "name": "Менеджер IT проекта / Администратор IT проекта",
-      "company": "VERBA-group",
-      "company_id": "2538772",
-      "company_url": "https://hh.ru/employer/2538772",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1393865.png",
-      "url": "https://hh.ru/vacancy/125493648",
-      "published_at": "2025-10-23T09:42:23+0300",
-      "created_at": "2025-10-23T09:42:23+0300",
-      "area": "Киров (Кировская область)",
-      "salary": "от 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в продажах и маркетинге от 1 года. Любой опыт управления людьми от 1 года. Базовые знания интернет-маркетинга.",
-      "responsibility": "Аудит действующих бизнес-процессов проекта (маркетинг, продажи). Разработка и реализация мероприятий по увеличению эффективности показателей проекта (маркетинг, продажи).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Руководитель проектов"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126846567",
-      "name": "Системный администратор",
-      "company": "1C-Рарус",
-      "company_id": "172",
-      "company_url": "https://hh.ru/employer/172",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1396728.png",
-      "url": "https://hh.ru/vacancy/126846567",
-      "published_at": "2025-10-23T09:19:24+0300",
-      "created_at": "2025-10-23T09:19:24+0300",
-      "area": "Йошкар-Ола",
-      "salary": "от 30 000 RUR на руки",
-      "salary_raw": {
-        "from": 30000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Частичная занятость",
-      "requirement": "Проектировать, настраивать, прокладывать ЛВС. Знать основы и принципы электрических сетей. Внедрять решения не только Microsoft, но и Linux, в том...",
-      "responsibility": "Поддерживать работоспособность компьютерной и оргтехники. ПО клиентов компании. Диагностировать неисправности и производить модульный ремонт. Администрировать сети. Консультировать пользователей и оказывать...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
