@@ -10,16 +10,44 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-22T10:21:14Z",
+  "updated": "2025-11-22T11:16:33Z",
   "statistics": {
-    "total": 1706,
-    "with_salary": 882,
-    "companies": 1265,
+    "total": 1704,
+    "with_salary": 880,
+    "companies": 1264,
     "cities": 73,
     "premium": 2,
     "with_test": 113
   },
   "vacancies": [
+    {
+      "id": "127870429",
+      "name": "Ведущий системный администратор Linux, группа Kubernetes ops",
+      "company": "Ozon",
+      "company_id": "2180",
+      "company_url": "https://hh.ru/employer/2180",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5899116.png",
+      "url": "https://hh.ru/vacancy/127870429",
+      "published_at": "2025-11-22T14:02:02+0300",
+      "created_at": "2025-11-22T14:02:02+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "Более 6 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Экспертные знания Linux (процессы, сетевой стек, файловые системы). Опыт работы с Kubernetes (архитектура, компоненты, низкоуровневые механизмы). Опыт развертывания Kubernetes на...",
+      "responsibility": "Разворачивать и поддерживать Kubernetes на bare-metal \"the hard way\". Развивать инфраструктуру как код (Terraform, Ansible, Helm, Qbec) и писать...",
+      "type": "Открытая",
+      "professional_roles": [
+        "DevOps-инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "127869712",
       "name": "Ведущий системный администратор",
@@ -5193,34 +5221,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127870429",
-      "name": "Ведущий системный администратор Linux, группа Kubernetes ops",
-      "company": "Ozon",
-      "company_id": "2180",
-      "company_url": "https://hh.ru/employer/2180",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5899116.png",
-      "url": "https://hh.ru/vacancy/127870429",
-      "published_at": "2025-11-21T14:01:43+0300",
-      "created_at": "2025-11-21T14:01:43+0300",
-      "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "Более 6 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Экспертные знания Linux (процессы, сетевой стек, файловые системы). Опыт работы с Kubernetes (архитектура, компоненты, низкоуровневые механизмы). Опыт развертывания Kubernetes на...",
-      "responsibility": "Разворачивать и поддерживать Kubernetes на bare-metal \"the hard way\". Развивать инфраструктуру как код (Terraform, Ansible, Helm, Qbec) и писать...",
-      "type": "Открытая",
-      "professional_roles": [
-        "DevOps-инженер"
       ],
       "has_test": false,
       "premium": false,
@@ -52089,72 +52089,6 @@
       "employment": "Полная занятость",
       "requirement": "Образование не ниже среднего специального (ИТ-направление будет преимуществом). Знание принципов работы компьютерной и офисной техники, навыки диагностики и устранения...",
       "responsibility": "Обеспечение бесперебойной работы локальной сети и сетевого оборудования. Поддержка работоспособности компьютеров, ноутбуков, периферийных устройств и камер видеонаблюдения. Обслуживание и профилактика...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126876060",
-      "name": "Системный администратор",
-      "company": "Среда Возможностей",
-      "company_id": "4561908",
-      "company_url": "https://hh.ru/employer/4561908",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1403889.png",
-      "url": "https://hh.ru/vacancy/126876060",
-      "published_at": "2025-10-23T13:55:52+0300",
-      "created_at": "2025-10-23T13:55:52+0300",
-      "area": "Москва",
-      "salary": "от 106 000 RUR на руки",
-      "salary_raw": {
-        "from": 106000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование. Профессиональное знание ПК. Работа с корпоративным программного обеспечения, сервисами и службами. Работа с системами СКУД и Видеонаблюдения.",
-      "responsibility": "Настройка и поддержка информационных комплексов организации. Отладка информационных комплексов организации. Обеспечение высокой доступности внутренних сервисов организации. Сопровождение аппаратно-программной инфраструктуры...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126875044",
-      "name": "Системный администратор",
-      "company": "Зест-персонал",
-      "company_id": "21653",
-      "company_url": "https://hh.ru/employer/21653",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1465718.png",
-      "url": "https://hh.ru/vacancy/126875044",
-      "published_at": "2025-10-23T13:37:02+0300",
-      "created_at": "2025-10-23T13:37:02+0300",
-      "area": "Москва",
-      "salary": "100 000 - 120 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы в релевантной должности от 2-х лет. Знание TCP/IP, сетевого оборудования, принцип построения ЛВС. Базовые навыки администрирования...",
-      "responsibility": "Техническая поддержка пользователей (100 человек, локально и удалённо). Поддержка пользователей в корпоративной рабочей среде, сопровождение бизнес-процессов. Диагностика неисправностей ПК...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
