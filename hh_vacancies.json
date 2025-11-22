@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-22T05:20:46Z",
+  "updated": "2025-11-22T06:30:40Z",
   "statistics": {
-    "total": 1718,
+    "total": 1716,
     "with_salary": 885,
-    "companies": 1274,
+    "companies": 1273,
     "cities": 74,
     "premium": 2,
-    "with_test": 114
+    "with_test": 113
   },
   "vacancies": [
+    {
+      "id": "126699301",
+      "name": "Системный администратор",
+      "company": "Сентинел Кредит Менеджмент",
+      "company_id": "935653",
+      "company_url": "https://hh.ru/employer/935653",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1419344.png",
+      "url": "https://hh.ru/vacancy/126699301",
+      "published_at": "2025-11-22T08:38:39+0300",
+      "created_at": "2025-11-22T08:38:39+0300",
+      "area": "Москва",
+      "salary": "до 200 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": null,
+        "to": 200000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "VMware vSphere, Horizon, vSAN. Veeam Backup & Replication. Microsoft Windows Server и Exchange. Active Directory, GPO, DHCP, DNS, FS, Print Services...",
+      "responsibility": "Установка, настройка, поддержка серверов MS SQL 2008 – 2019. Создание, настройка планов обслуживания серверов БД (Бэкапы, очистка данных, оповещения, реорганизация индексов...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127965102",
+      "name": "Системный администратор",
+      "company": "San House",
+      "company_id": "566430",
+      "company_url": "https://hh.ru/employer/566430",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1388078.png",
+      "url": "https://hh.ru/vacancy/127965102",
+      "published_at": "2025-11-22T08:35:56+0300",
+      "created_at": "2025-11-22T08:35:56+0300",
+      "area": "Москва",
+      "salary": "до 130 000 RUR на руки",
+      "salary_raw": {
+        "from": null,
+        "to": 130000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы системным администратором не менее 3-х лет. Опыт работы c Windows Server 2019–2025,MDaemon server,Mikrotik,Ubiquiti.",
+      "responsibility": "Обеспечение бесперебойной работы информационных систем и IT-инфраструктуры компании. Локальная и удалённая поддержка пользователей, оказание технической помощи и консультаций по...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "127258403",
       "name": "Системный администратор",
@@ -20037,39 +20103,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": true
-    },
-    {
-      "id": "126699301",
-      "name": "Системный администратор",
-      "company": "Сентинел Кредит Менеджмент",
-      "company_id": "935653",
-      "company_url": "https://hh.ru/employer/935653",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1419344.png",
-      "url": "https://hh.ru/vacancy/126699301",
-      "published_at": "2025-11-19T08:38:39+0300",
-      "created_at": "2025-11-19T08:38:39+0300",
-      "area": "Москва",
-      "salary": "до 200 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": null,
-        "to": 200000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "VMware vSphere, Horizon, vSAN. Veeam Backup & Replication. Microsoft Windows Server и Exchange. Active Directory, GPO, DHCP, DNS, FS, Print Services...",
-      "responsibility": "Установка, настройка, поддержка серверов MS SQL 2008 – 2019. Создание, настройка планов обслуживания серверов БД (Бэкапы, очистка данных, оповещения, реорганизация индексов...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
     },
     {
       "id": "127281516",
@@ -52417,95 +52450,6 @@
       "employment": "Полная занятость",
       "requirement": "Наличие высшего технического образования (очного). Опыт работы системным администратором от 2-х лет. Навыки администрирования серверов на основе Windows.",
       "responsibility": "Администрировать серверы. Обеспечивать отказоустойчивость работы серверов и сетей, устранять неполадки в работе системы, оптимизировать работу серверов. Организовывать резервное копирование данных.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126846489",
-      "name": "Системный администратор / DevOps в Gramax",
-      "company": "ics-it",
-      "company_id": "842621",
-      "company_url": "https://hh.ru/employer/842621",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/2304359.png",
-      "url": "https://hh.ru/vacancy/126846489",
-      "published_at": "2025-10-23T09:18:01+0300",
-      "created_at": "2025-10-23T09:18:01+0300",
-      "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Опыт администрирования операционных систем (не менее года). Уверенное знание сетевых технологий и протоколов. Опыт работы с Active Directory.",
-      "responsibility": "Администрирование операционных систем (Windows и Linux). Поддержка и обслуживание пользователей, решение их технических запросов. Управление сетевыми инфраструктурами и настройка сетевого...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": true,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126456695",
-      "name": "Старший системный администратор",
-      "company": "Азиатско-Тихоокеанский Банк",
-      "company_id": "176941",
-      "company_url": "https://hh.ru/employer/176941",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/7125213.jpeg",
-      "url": "https://hh.ru/vacancy/126456695",
-      "published_at": "2025-10-23T09:13:29+0300",
-      "created_at": "2025-10-23T09:13:29+0300",
-      "area": "Москва",
-      "salary": "до 150 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": null,
-        "to": 150000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Аналогичный опыт работы от 2х лет. Готовность к офисному формату работы.",
-      "responsibility": "Поддержка пользователей. Подготовка рабочих мест. Организация и сопровождение ВКС. Обслуживание компьютерной и орг. Техники. Сопровождение ТОП Менеджеров. Работа по заявкам.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126844921",
-      "name": "DevOps / Системный администратор",
-      "company": "Терминальные Технологии",
-      "company_id": "1646055",
-      "company_url": "https://hh.ru/employer/1646055",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/1247535.jpeg",
-      "url": "https://hh.ru/vacancy/126844921",
-      "published_at": "2025-10-23T08:45:02+0300",
-      "created_at": "2025-10-23T08:45:02+0300",
-      "area": "Зеленоград",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с Linux-серверами. Навыки администрирования CI/CD систем. Знание систем конфигурационного управления. Опыт с виртуализацией (желательно Proxmox).",
-      "responsibility": "Поддержка стабильной работы высоконагруженной системы. Администрирование серверов Linux. CI/CD: Jenkins, GitLab CI, Git, SVN. Виртуализация на Proxmox.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
