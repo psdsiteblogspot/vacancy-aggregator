@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-22T15:19:46Z",
+  "updated": "2025-11-22T16:25:48Z",
   "statistics": {
-    "total": 1689,
-    "with_salary": 871,
-    "companies": 1252,
+    "total": 1688,
+    "with_salary": 870,
+    "companies": 1251,
     "cities": 72,
     "premium": 2,
     "with_test": 113
   },
   "vacancies": [
+    {
+      "id": "127422185",
+      "name": "Системный администратор",
+      "company": "КИНАРИ СПА",
+      "company_id": "9550698",
+      "company_url": "https://hh.ru/employer/9550698",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1436698.png",
+      "url": "https://hh.ru/vacancy/127422185",
+      "published_at": "2025-11-22T19:07:01+0300",
+      "created_at": "2025-11-22T19:07:01+0300",
+      "area": "Москва",
+      "salary": "от 150 000 RUR на руки",
+      "salary_raw": {
+        "from": 150000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы системным администратором от 3 лет. Обязательный опыт работы с 1С sql: администрирование, устранение ошибок, взаимодействие с разработчиками.",
+      "responsibility": "Совместно с командой обеспечивать стабильное функционирование всех IT-систем компании. Устанавливать, настраивать и обслуживать информационные системы, включая 1С для...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127122035",
+      "name": "Младший системный администратор (1-я линия)",
+      "company": "РИМА",
+      "company_id": "818810",
+      "company_url": "https://hh.ru/employer/818810",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5587823.png",
+      "url": "https://hh.ru/vacancy/127122035",
+      "published_at": "2025-11-22T18:54:18+0300",
+      "created_at": "2025-11-22T18:54:18+0300",
+      "area": "Москва",
+      "salary": "от 100 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 100000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Linux — обязательно: диагностика сети (ping/traceroute/ip/ss/journalctl), разметка дисков (fdisk/parted), ФС/монтирование, запуск приложений как сервисов (systemd...",
+      "responsibility": "Необходимые документы для получения отсрочки от частичной мобилизации (справка, выписка из реестра государственной аккредитации). Работа с заявками пользователей в Jira.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "127397279",
       "name": "Системный администратор",
@@ -17357,39 +17423,6 @@
       "accept_temporary": false
     },
     {
-      "id": "127422185",
-      "name": "Системный администратор",
-      "company": "КИНАРИ СПА",
-      "company_id": "9550698",
-      "company_url": "https://hh.ru/employer/9550698",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1436698.png",
-      "url": "https://hh.ru/vacancy/127422185",
-      "published_at": "2025-11-19T19:07:01+0300",
-      "created_at": "2025-11-19T19:07:01+0300",
-      "area": "Москва",
-      "salary": "от 150 000 RUR на руки",
-      "salary_raw": {
-        "from": 150000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы системным администратором от 3 лет. Обязательный опыт работы с 1С sql: администрирование, устранение ошибок, взаимодействие с разработчиками.",
-      "responsibility": "Совместно с командой обеспечивать стабильное функционирование всех IT-систем компании. Устанавливать, настраивать и обслуживать информационные системы, включая 1С для...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "127261501",
       "name": "Инженер технической поддержки платежных терминалов Банка (системный администратор)",
       "company": "Т1",
@@ -17489,39 +17522,6 @@
       "accept_temporary": false
     },
     {
-      "id": "127122035",
-      "name": "Младший системный администратор (1-я линия)",
-      "company": "РИМА",
-      "company_id": "818810",
-      "company_url": "https://hh.ru/employer/818810",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5587823.png",
-      "url": "https://hh.ru/vacancy/127122035",
-      "published_at": "2025-11-19T18:54:18+0300",
-      "created_at": "2025-11-19T18:54:18+0300",
-      "area": "Москва",
-      "salary": "от 100 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 100000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Linux — обязательно: диагностика сети (ping/traceroute/ip/ss/journalctl), разметка дисков (fdisk/parted), ФС/монтирование, запуск приложений как сервисов (systemd...",
-      "responsibility": "Необходимые документы для получения отсрочки от частичной мобилизации (справка, выписка из реестра государственной аккредитации). Работа с заявками пользователей в Jira.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126789056",
       "name": "Сетевой инженер",
       "company": "Медиа Бизнес Солюшенс",
@@ -17548,39 +17548,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": false
-    },
-    {
-      "id": "126888973",
-      "name": "Интегратор/Системный администратор",
-      "company": "Gate",
-      "company_id": "10278584",
-      "company_url": "https://hh.ru/employer/10278584",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6342341.png",
-      "url": "https://hh.ru/vacancy/126888973",
-      "published_at": "2025-11-19T18:25:50+0300",
-      "created_at": "2025-11-19T18:25:50+0300",
-      "area": "Казань",
-      "salary": "40 000 - 70 000 RUR на руки",
-      "salary_raw": {
-        "from": 40000,
-        "to": 70000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Какие навыки и знания нам нужны: Навыки автоматизации Битрикс24. Навыки интеграции телефонии и СРМ. Опыт работы в Ройстат.",
-      "responsibility": "Интеграция телефонии и СРМ. Создание дашбордов и вывод аналитики. Разработка и внедрение новых решений. Техническая поддержка пользователей. Мониторинг и оптимизация...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
     },
     {
       "id": "124213565",
@@ -19393,16 +19360,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127865289",
+      "id": "127865288",
       "name": "Системный администратор Linux (дежурный)",
       "company": "Ростелеком",
       "company_id": "2748",
       "company_url": "https://hh.ru/employer/2748",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/2812974.jpeg",
-      "url": "https://hh.ru/vacancy/127865289",
+      "url": "https://hh.ru/vacancy/127865288",
       "published_at": "2025-11-19T11:40:33+0300",
       "created_at": "2025-11-19T11:40:33+0300",
-      "area": "Ногинск (Московская область)",
+      "area": "Москва",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -19421,16 +19388,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127865288",
+      "id": "127865289",
       "name": "Системный администратор Linux (дежурный)",
       "company": "Ростелеком",
       "company_id": "2748",
       "company_url": "https://hh.ru/employer/2748",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/2812974.jpeg",
-      "url": "https://hh.ru/vacancy/127865288",
+      "url": "https://hh.ru/vacancy/127865289",
       "published_at": "2025-11-19T11:40:33+0300",
       "created_at": "2025-11-19T11:40:33+0300",
-      "area": "Москва",
+      "area": "Ногинск (Московская область)",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "От 1 года до 3 лет",
@@ -25163,16 +25130,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127768530",
+      "id": "127768531",
       "name": "Network engineer for PreSale support / Старший сетевой инженер по поддержке PreSale (KORNFELD)",
       "company": "YADRO",
       "company_id": "1993194",
       "company_url": "https://hh.ru/employer/1993194",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1395412.png",
-      "url": "https://hh.ru/vacancy/127768530",
+      "url": "https://hh.ru/vacancy/127768531",
       "published_at": "2025-11-17T10:45:50+0300",
       "created_at": "2025-11-17T10:45:50+0300",
-      "area": "Москва",
+      "area": "Екатеринбург",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "Более 6 лет",
@@ -25191,16 +25158,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127768531",
+      "id": "127768530",
       "name": "Network engineer for PreSale support / Старший сетевой инженер по поддержке PreSale (KORNFELD)",
       "company": "YADRO",
       "company_id": "1993194",
       "company_url": "https://hh.ru/employer/1993194",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1395412.png",
-      "url": "https://hh.ru/vacancy/127768531",
+      "url": "https://hh.ru/vacancy/127768530",
       "published_at": "2025-11-17T10:45:50+0300",
       "created_at": "2025-11-17T10:45:50+0300",
-      "area": "Екатеринбург",
+      "area": "Москва",
       "salary": "не указана",
       "salary_raw": null,
       "experience": "Более 6 лет",
@@ -26457,16 +26424,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125401017",
+      "id": "125401019",
       "name": "Старший системный администратор",
       "company": "Конгресс-отель Ареал",
       "company_id": "5156941",
       "company_url": "https://hh.ru/employer/5156941",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3716098.png",
-      "url": "https://hh.ru/vacancy/125401017",
+      "url": "https://hh.ru/vacancy/125401019",
       "published_at": "2025-11-15T16:23:38+0300",
       "created_at": "2025-11-15T16:23:38+0300",
-      "area": "Ногинск (Московская область)",
+      "area": "Старая Купавна (Московская область)",
       "salary": "от 150 000 RUR на руки",
       "salary_raw": {
         "from": 150000,
@@ -26490,16 +26457,16 @@
       "accept_temporary": false
     },
     {
-      "id": "125401019",
+      "id": "125401017",
       "name": "Старший системный администратор",
       "company": "Конгресс-отель Ареал",
       "company_id": "5156941",
       "company_url": "https://hh.ru/employer/5156941",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3716098.png",
-      "url": "https://hh.ru/vacancy/125401019",
+      "url": "https://hh.ru/vacancy/125401017",
       "published_at": "2025-11-15T16:23:38+0300",
       "created_at": "2025-11-15T16:23:38+0300",
-      "area": "Старая Купавна (Московская область)",
+      "area": "Ногинск (Московская область)",
       "salary": "от 150 000 RUR на руки",
       "salary_raw": {
         "from": 150000,
