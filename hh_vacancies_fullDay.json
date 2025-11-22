@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-22T04:39:20Z",
+  "updated": "2025-11-22T05:35:44Z",
   "statistics": {
-    "total": 933,
-    "with_salary": 681,
-    "companies": 683,
+    "total": 931,
+    "with_salary": 680,
+    "companies": 682,
     "cities": 148,
     "premium": 0,
     "with_test": 34
   },
   "vacancies": [
+    {
+      "id": "127439523",
+      "name": "Администратор компьютерного клуба",
+      "company": "Cyber Zone (ИП Маннанова Зилия Ульфатовна)",
+      "company_id": "9486088",
+      "company_url": "https://hh.ru/employer/9486088",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5800836.jpeg",
+      "url": "https://hh.ru/vacancy/127439523",
+      "published_at": "2025-11-22T08:10:25+0300",
+      "created_at": "2025-11-22T08:10:25+0300",
+      "area": "Уфа",
+      "salary": "33 000 - 37 000 RUR на руки",
+      "salary_raw": {
+        "from": 33000,
+        "to": 37000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Пунктуальность. Ответственность. Опрятный внешний вид. Стрессоустойчивость.",
+      "responsibility": "Прием оплаты за пользование компьютерами. Ведение отчётности. Поддержание чистоты в клубе. Контроль за соблюдением правил клиентами. Помощь в настройке девайсов...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127389433",
+      "name": "Системный администратор отдела технической поддержки системы \"112\"",
+      "company": "Бюджетное учреждение Омской области Безопасный Регион",
+      "company_id": "9232500",
+      "company_url": "https://hh.ru/employer/9232500",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/127389433",
+      "published_at": "2025-11-22T07:36:09+0300",
+      "created_at": "2025-11-22T07:36:09+0300",
+      "area": "Омск",
+      "salary": "25 000 - 29 000 RUR на руки",
+      "salary_raw": {
+        "from": 25000,
+        "to": 29000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Владение ПК на уровне уверенного пользователя. Знание ОС Windows / Linux. Знание настройки сетевого оборудования. Умение работать в коллективе.",
+      "responsibility": "Проведение полного анализа и мониторинга Системы-112. Обеспечение непрерывности работы аппаратно-программного комплекса при сбоях. Проведение профилактических и регламентных работ...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "127964525",
       "name": "Системный администратор ПО/БД",
@@ -5186,34 +5252,6 @@
       "accept_temporary": false
     },
     {
-      "id": "125875385",
-      "name": "Ведущий системный инженер / администратор",
-      "company": "ГБУЗ Республиканский кардиологический центр",
-      "company_id": "5059479",
-      "company_url": "https://hh.ru/employer/5059479",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/125875385",
-      "published_at": "2025-11-20T07:55:22+0300",
-      "created_at": "2025-11-20T07:55:22+0300",
-      "area": "Уфа",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование (информационные технологии). Ответственность, внимательность и хорошая коммуникация на горизонтальном и вертикальном уровне.",
-      "responsibility": "Поддержка и обеспечение бесперебойной работы сетевой инфраструктуры (WAN, LAN, VLAN), систем связи (VoIP, SIP), элементов информационной безопасности. Обеспечение бесперебойного функционирования...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126569632",
       "name": "Инженер сетей связи / Системный администратор",
       "company": "ГБУЗ Республиканский кардиологический центр",
@@ -5231,6 +5269,34 @@
       "employment": "Полная занятость",
       "requirement": "Высшее образование (информационные технологии). Умение быстро находить и устранять неисправности. Ответственность, внимательность и хорошая коммуникация на горизонтальном и вертикальном уровне.",
       "responsibility": "Администрирование серверов (Linux/Windows): сервер передачи медицинских изображений (PACS); сервер видеоконференцсвязи IVA, сервер технической системы безопасности (СКУД). Администрирование IP-телефонии...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125875385",
+      "name": "Ведущий системный инженер / администратор",
+      "company": "ГБУЗ Республиканский кардиологический центр",
+      "company_id": "5059479",
+      "company_url": "https://hh.ru/employer/5059479",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/125875385",
+      "published_at": "2025-11-20T07:55:22+0300",
+      "created_at": "2025-11-20T07:55:22+0300",
+      "area": "Уфа",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование (информационные технологии). Ответственность, внимательность и хорошая коммуникация на горизонтальном и вертикальном уровне.",
+      "responsibility": "Поддержка и обеспечение бесперебойной работы сетевой инфраструктуры (WAN, LAN, VLAN), систем связи (VoIP, SIP), элементов информационной безопасности. Обеспечение бесперебойного функционирования...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -7944,72 +8010,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание linux-систем на уровне администратора. Опыт написания скриптов на bash/Python/powershell/VBScript. Опыт работы с web-серверами nginx...",
       "responsibility": "Развертывание и сопровождение информационных систем и сервисов департамента на стороне заказчика и внутренних стендах. Организация мониторинга информационных систем и сервисов...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127439523",
-      "name": "Администратор компьютерного клуба",
-      "company": "Cyber Zone (ИП Маннанова Зилия Ульфатовна)",
-      "company_id": "9486088",
-      "company_url": "https://hh.ru/employer/9486088",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5800836.jpeg",
-      "url": "https://hh.ru/vacancy/127439523",
-      "published_at": "2025-11-19T08:10:25+0300",
-      "created_at": "2025-11-19T08:10:25+0300",
-      "area": "Уфа",
-      "salary": "33 000 - 37 000 RUR на руки",
-      "salary_raw": {
-        "from": 33000,
-        "to": 37000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "Пунктуальность. Ответственность. Опрятный внешний вид. Стрессоустойчивость.",
-      "responsibility": "Прием оплаты за пользование компьютерами. Ведение отчётности. Поддержание чистоты в клубе. Контроль за соблюдением правил клиентами. Помощь в настройке девайсов...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127389433",
-      "name": "Системный администратор отдела технической поддержки системы \"112\"",
-      "company": "Бюджетное учреждение Омской области Безопасный Регион",
-      "company_id": "9232500",
-      "company_url": "https://hh.ru/employer/9232500",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/127389433",
-      "published_at": "2025-11-19T07:36:09+0300",
-      "created_at": "2025-11-19T07:36:09+0300",
-      "area": "Омск",
-      "salary": "25 000 - 29 000 RUR на руки",
-      "salary_raw": {
-        "from": 25000,
-        "to": 29000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "Владение ПК на уровне уверенного пользователя. Знание ОС Windows / Linux. Знание настройки сетевого оборудования. Умение работать в коллективе.",
-      "responsibility": "Проведение полного анализа и мониторинга Системы-112. Обеспечение непрерывности работы аппаратно-программного комплекса при сбоях. Проведение профилактических и регламентных работ...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -25291,16 +25291,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086861",
+      "id": "127086890",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086861",
+      "url": "https://hh.ru/vacancy/127086890",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Махачкала",
+      "area": "Тюмень",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -25324,16 +25324,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086890",
+      "id": "127086861",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086890",
+      "url": "https://hh.ru/vacancy/127086861",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Тюмень",
+      "area": "Махачкала",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -25489,16 +25489,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086875",
+      "id": "127086888",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086875",
+      "url": "https://hh.ru/vacancy/127086888",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Омск",
+      "area": "Томск",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -25522,16 +25522,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086888",
+      "id": "127086875",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086888",
+      "url": "https://hh.ru/vacancy/127086875",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Томск",
+      "area": "Омск",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -29478,67 +29478,6 @@
       "employment": "Полная занятость",
       "requirement": "Имел начальный опыт в администрировании OC семейства Windows. Понимал работу стека протоколов TCP/IP, основных сетевых сервисов. Имел начальный опыт...",
       "responsibility": "Обслуживание компьютеров. Техническая поддержка пользователей. Диагностика и устранение неисправностей компьютеров и оргтехники.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126844248",
-      "name": "Системный администратор",
-      "company": "Стрелецкое-Агротрейд",
-      "company_id": "4998904",
-      "company_url": "https://hh.ru/employer/4998904",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3828058.jpeg",
-      "url": "https://hh.ru/vacancy/126844248",
-      "published_at": "2025-10-23T08:31:14+0300",
-      "created_at": "2025-10-23T08:31:14+0300",
-      "area": "Астрахань",
-      "salary": "от 50 000 RUR на руки",
-      "salary_raw": {
-        "from": 50000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы системным администратором от 2-х лет. Уверенное знание Windows, офисных программ, базовых принципов работы сетей. Навыки работы с...",
-      "responsibility": "Техническое сопровождение всех электронных систем предприятия: компьютеры, оргтехника, телефония, видеонаблюдение, сигнализация. Поддержка и настройка сервисов и программное обеспечение: почтовые сборы...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126843329",
-      "name": "Системный администратор",
-      "company": "Инфра",
-      "company_id": "10342419",
-      "company_url": "https://hh.ru/employer/10342419",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/126843329",
-      "published_at": "2025-10-23T08:07:29+0300",
-      "created_at": "2025-10-23T08:07:29+0300",
-      "area": "Оленегорск",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее или среднее профессиональное техническое образование (ИТ, телекоммуникации). Опыт работы от 1 года системным администратором или инженером техподдержки.",
-      "responsibility": "Настройка и обслуживание коммутаторов, маршрутизаторов, точек доступа Wi-Fi (MikroTik, D-Link). Конфигурирование VLAN, DHCP, маршрутизации. Мониторинг нагрузки и доступности...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
