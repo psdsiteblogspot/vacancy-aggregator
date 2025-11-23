@@ -10,16 +10,77 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-23T16:40:21Z",
+  "updated": "2025-11-23T17:33:06Z",
   "statistics": {
-    "total": 891,
-    "with_salary": 654,
-    "companies": 655,
+    "total": 890,
+    "with_salary": 653,
+    "companies": 654,
     "cities": 142,
     "premium": 0,
     "with_test": 35
   },
   "vacancies": [
+    {
+      "id": "121594841",
+      "name": "Системный администратор СЗИ на Linux",
+      "company": "Газпром нефть",
+      "company_id": "39305",
+      "company_url": "https://hh.ru/employer/39305",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1448441.png",
+      "url": "https://hh.ru/vacancy/121594841",
+      "published_at": "2025-11-23T19:43:28+0300",
+      "created_at": "2025-11-23T19:43:28+0300",
+      "area": "Екатеринбург",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Имеешь уверенные знания в области IT, теоретических основ работы ОС, стека протоколов TCP/IP, основ сетевой маршрутизации. Умеешь взаимодействовать с...",
+      "responsibility": "Изучать и анализировать работу имеющихся систем защиты информации. Внедрять и обслуживать системы защиты информации на уровне ПО. Решать технические проблемы...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": true,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127160586",
+      "name": "Старший системный администратор (core infrastructure)",
+      "company": "TravelLine",
+      "company_id": "1136961",
+      "company_url": "https://hh.ru/employer/1136961",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/7102017.png",
+      "url": "https://hh.ru/vacancy/127160586",
+      "published_at": "2025-11-23T19:20:18+0300",
+      "created_at": "2025-11-23T19:20:18+0300",
+      "area": "Новосибирск",
+      "salary": "250 000 - 450 000 RUR на руки",
+      "salary_raw": {
+        "from": 250000,
+        "to": 450000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Более 6 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Для нас важен опыт: Windows Server 2012R2/2016/2019 как платформа виртуализации, кластер Hyper-v + S2...",
+      "responsibility": "Установкой и настройкой серверов, сетевого оборудования, хранилищ данных. Проектированием и поддержкой отказоустойчивых сетевых каналов между распределенными дата-центрами.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "127728112",
       "name": "Администратор компьютерного клуба",
@@ -5389,39 +5450,6 @@
       "accept_temporary": false
     },
     {
-      "id": "127160586",
-      "name": "Старший системный администратор (core infrastructure)",
-      "company": "TravelLine",
-      "company_id": "1136961",
-      "company_url": "https://hh.ru/employer/1136961",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/7102017.png",
-      "url": "https://hh.ru/vacancy/127160586",
-      "published_at": "2025-11-20T19:20:18+0300",
-      "created_at": "2025-11-20T19:20:18+0300",
-      "area": "Новосибирск",
-      "salary": "250 000 - 450 000 RUR на руки",
-      "salary_raw": {
-        "from": 250000,
-        "to": 450000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Более 6 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Для нас важен опыт: Windows Server 2012R2/2016/2019 как платформа виртуализации, кластер Hyper-v + S2...",
-      "responsibility": "Установкой и настройкой серверов, сетевого оборудования, хранилищ данных. Проектированием и поддержкой отказоустойчивых сетевых каналов между распределенными дата-центрами.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "127927680",
       "name": "Системный администратор",
       "company": "Пересвет",
@@ -9303,34 +9331,6 @@
         "Системный администратор"
       ],
       "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "121594841",
-      "name": "Системный администратор СЗИ на Linux",
-      "company": "Газпром нефть",
-      "company_id": "39305",
-      "company_url": "https://hh.ru/employer/39305",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1448441.png",
-      "url": "https://hh.ru/vacancy/121594841",
-      "published_at": "2025-11-18T11:15:24+0300",
-      "created_at": "2025-11-18T11:15:24+0300",
-      "area": "Екатеринбург",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Имеешь уверенные знания в области IT, теоретических основ работы ОС, стека протоколов TCP/IP, основ сетевой маршрутизации. Умеешь взаимодействовать с...",
-      "responsibility": "Изучать и анализировать работу имеющихся систем защиты информации. Внедрять и обслуживать системы защиты информации на уровне ПО. Решать технические проблемы...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": true,
       "premium": false,
       "accept_handicapped": false,
       "accept_kids": false,
@@ -25621,16 +25621,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086888",
+      "id": "127086875",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086888",
+      "url": "https://hh.ru/vacancy/127086875",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Томск",
+      "area": "Омск",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -25654,16 +25654,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086875",
+      "id": "127086888",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086875",
+      "url": "https://hh.ru/vacancy/127086888",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Омск",
+      "area": "Томск",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -27076,16 +27076,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126991359",
+      "id": "126991360",
       "name": "Системный администратор (ЯНАО)",
       "company": "Группа компаний НГ-сервис",
       "company_id": "222884",
       "company_url": "https://hh.ru/employer/222884",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/2947659.jpeg",
-      "url": "https://hh.ru/vacancy/126991359",
+      "url": "https://hh.ru/vacancy/126991360",
       "published_at": "2025-10-27T13:31:44+0300",
       "created_at": "2025-10-27T13:31:44+0300",
-      "area": "Тюмень",
+      "area": "Сургут",
       "salary": "130 000 - 150 000 RUR на руки",
       "salary_raw": {
         "from": 130000,
@@ -27109,16 +27109,16 @@
       "accept_temporary": false
     },
     {
-      "id": "126991360",
+      "id": "126991359",
       "name": "Системный администратор (ЯНАО)",
       "company": "Группа компаний НГ-сервис",
       "company_id": "222884",
       "company_url": "https://hh.ru/employer/222884",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/2947659.jpeg",
-      "url": "https://hh.ru/vacancy/126991360",
+      "url": "https://hh.ru/vacancy/126991359",
       "published_at": "2025-10-27T13:31:44+0300",
       "created_at": "2025-10-27T13:31:44+0300",
-      "area": "Сургут",
+      "area": "Тюмень",
       "salary": "130 000 - 150 000 RUR на руки",
       "salary_raw": {
         "from": 130000,
@@ -28204,39 +28204,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": true
-    },
-    {
-      "id": "126675585",
-      "name": "Ведущий системный администратор Отдела инфраструктуры",
-      "company": "РостФинанс, КБ",
-      "company_id": "723219",
-      "company_url": "https://hh.ru/employer/723219",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/4258411.jpeg",
-      "url": "https://hh.ru/vacancy/126675585",
-      "published_at": "2025-10-24T19:42:36+0300",
-      "created_at": "2025-10-24T19:42:36+0300",
-      "area": "Ростов-на-Дону",
-      "salary": "от 150 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 150000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "AD, DNS, DHCP, WSUS, KMS, DFS, RDS, App-V). Практический опыт и глубокие знания в областях: - Знания в области администрирования...",
-      "responsibility": "Администрирование серверных ОС и сервисов Microsoft. - Участие в администрировании групповых политик (GPO). - Администрирование серверного ПО (MS SQL, MS Exchange, MS...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
     }
   ]
 }
