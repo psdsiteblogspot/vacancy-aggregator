@@ -10,7 +10,7 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-23T14:44:32Z",
+  "updated": "2025-11-23T15:44:25Z",
   "statistics": {
     "total": 813,
     "with_salary": 581,
@@ -20,6 +20,34 @@
     "with_test": 18
   },
   "vacancies": [
+    {
+      "id": "127333197",
+      "name": "Ведущий сетевой инженер",
+      "company": "Защищенные Телекоммуникации",
+      "company_id": "1234997",
+      "company_url": "https://hh.ru/employer/1234997",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6876197.png",
+      "url": "https://hh.ru/vacancy/127333197",
+      "published_at": "2025-11-23T17:45:45+0300",
+      "created_at": "2025-11-23T17:45:45+0300",
+      "area": "Москва",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Релевантный опыт работы от 3-х лет. Глубокое знание сетевых протоколов: IP, TCP/UDP, ICMP, OSPF, BGP. Опыт настройки маршрутизации...",
+      "responsibility": "Проектирование, развитие и сопровождение федеральной сетевой инфраструктуры (800+ филиалов, 2 ЦОД). Администрирование оборудования Cisco и Mikrotik — маршрутизаторы, коммутаторы, VPN...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Сетевой инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "127155094",
       "name": "Системный администратор",
@@ -4239,34 +4267,6 @@
       "accept_temporary": false
     },
     {
-      "id": "127333197",
-      "name": "Ведущий сетевой инженер",
-      "company": "Защищенные Телекоммуникации",
-      "company_id": "1234997",
-      "company_url": "https://hh.ru/employer/1234997",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6876197.png",
-      "url": "https://hh.ru/vacancy/127333197",
-      "published_at": "2025-11-20T17:45:45+0300",
-      "created_at": "2025-11-20T17:45:45+0300",
-      "area": "Москва",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Релевантный опыт работы от 3-х лет. Глубокое знание сетевых протоколов: IP, TCP/UDP, ICMP, OSPF, BGP. Опыт настройки маршрутизации...",
-      "responsibility": "Проектирование, развитие и сопровождение федеральной сетевой инфраструктуры (800+ филиалов, 2 ЦОД). Администрирование оборудования Cisco и Mikrotik — маршрутизаторы, коммутаторы, VPN...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Сетевой инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "127928416",
       "name": "Системный администратор",
       "company": "Алмаз-Холдинг",
@@ -5827,34 +5827,6 @@
       "accept_temporary": false
     },
     {
-      "id": "126479468",
-      "name": "Системный администратор",
-      "company": "ЛантаСервис",
-      "company_id": "1978722",
-      "company_url": "https://hh.ru/employer/1978722",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/1595933.png",
-      "url": "https://hh.ru/vacancy/126479468",
-      "published_at": "2025-11-19T12:53:26+0300",
-      "created_at": "2025-11-19T12:53:26+0300",
-      "area": "Нижний Новгород",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Среднее специальное или высшее образование, специальность Информационные системы и технологии или смежная. Администрирование серверов от 2 лет желательно.",
-      "responsibility": "Поддержка офисной ИТ инфраструктуры. Администрирование VMware. Установка и администрирование AD, Terminal Server. Настройка сетевого оборудования MikroTik или аналогов.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "127623070",
       "name": "Администратор информационных систем (Service Desk-системы)",
       "company": "ЛантаСервис",
@@ -5872,6 +5844,34 @@
       "employment": "Полная занятость",
       "requirement": "Высшее, среднее специальное профильное. Опыт администрирования Servisce Desk систем. Понимание принципов работы службы тех поддержки. Желательно хорошее знание SQL .",
       "responsibility": "Администрирование Service Desk-системы (Intraservice). Обеспечение бесперебойной работы SD. Корректировка работы SD с учетом бизнес процессов компании (жизненный цикл заявки...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126479468",
+      "name": "Системный администратор",
+      "company": "ЛантаСервис",
+      "company_id": "1978722",
+      "company_url": "https://hh.ru/employer/1978722",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/1595933.png",
+      "url": "https://hh.ru/vacancy/126479468",
+      "published_at": "2025-11-19T12:53:26+0300",
+      "created_at": "2025-11-19T12:53:26+0300",
+      "area": "Нижний Новгород",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Среднее специальное или высшее образование, специальность Информационные системы и технологии или смежная. Администрирование серверов от 2 лет желательно.",
+      "responsibility": "Поддержка офисной ИТ инфраструктуры. Администрирование VMware. Установка и администрирование AD, Terminal Server. Настройка сетевого оборудования MikroTik или аналогов.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -23064,6 +23064,39 @@
       "accept_temporary": false
     },
     {
+      "id": "127086858",
+      "name": "Сетевой инженер",
+      "company": "Эксперт Плюс",
+      "company_id": "3983515",
+      "company_url": "https://hh.ru/employer/3983515",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/127086858",
+      "published_at": "2025-10-29T08:20:35+0300",
+      "created_at": "2025-10-29T08:20:35+0300",
+      "area": "Владивосток",
+      "salary": "от 400 000 RUR на руки",
+      "salary_raw": {
+        "from": 400000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы с сетевыми протоколами и уровнями взаимодействия OSI (RIP, OSPF, BGP, MP-BGP, IS-IS, LDP). Опыт аппаратно-программного...",
+      "responsibility": "Проверка, конфигурация сетевого оборудования. Интернет, каналы передачи данных, IP телефония, IPTV. Проектирование, администрирование IP/MPLS сети на базе оборудования Juniper...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Сетевой инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "127086893",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
@@ -23163,39 +23196,6 @@
       "accept_temporary": false
     },
     {
-      "id": "127086858",
-      "name": "Сетевой инженер",
-      "company": "Эксперт Плюс",
-      "company_id": "3983515",
-      "company_url": "https://hh.ru/employer/3983515",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086858",
-      "published_at": "2025-10-29T08:20:35+0300",
-      "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Владивосток",
-      "salary": "от 400 000 RUR на руки",
-      "salary_raw": {
-        "from": 400000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с сетевыми протоколами и уровнями взаимодействия OSI (RIP, OSPF, BGP, MP-BGP, IS-IS, LDP). Опыт аппаратно-программного...",
-      "responsibility": "Проверка, конфигурация сетевого оборудования. Интернет, каналы передачи данных, IP телефония, IPTV. Проектирование, администрирование IP/MPLS сети на базе оборудования Juniper...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Сетевой инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "127086857",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
@@ -23262,16 +23262,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086881",
+      "id": "127086856",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086881",
+      "url": "https://hh.ru/vacancy/127086856",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Саратов",
+      "area": "Белгород",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -23295,16 +23295,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086856",
+      "id": "127086881",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086856",
+      "url": "https://hh.ru/vacancy/127086881",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Белгород",
+      "area": "Саратов",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
