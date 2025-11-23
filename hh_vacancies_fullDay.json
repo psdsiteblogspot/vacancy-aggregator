@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-23T14:34:07Z",
+  "updated": "2025-11-23T15:32:13Z",
   "statistics": {
-    "total": 893,
+    "total": 891,
     "with_salary": 654,
-    "companies": 657,
+    "companies": 655,
     "cities": 142,
     "premium": 0,
     "with_test": 35
   },
   "vacancies": [
+    {
+      "id": "127728112",
+      "name": "Администратор компьютерного клуба",
+      "company": "Лобанов Антон Андреевич",
+      "company_id": "9947443",
+      "company_url": "https://hh.ru/employer/9947443",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/127728112",
+      "published_at": "2025-11-23T17:36:17+0300",
+      "created_at": "2025-11-23T17:36:17+0300",
+      "area": "Пермь",
+      "salary": "37 500 - 40 000 RUR на руки",
+      "salary_raw": {
+        "from": 37500,
+        "to": 40000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "С хорошей организационной жилкой, умением анализировать процессы и доводить дела до результата. Грамотная речь и чёткая дикция. Активная жизненная позиция...",
+      "responsibility": "Старающегося не только выполнять задачи, но и предлагать идеи по улучшению работы клуба. Встречать гостей и создавать дружелюбную атмосферу с...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127158194",
+      "name": "Системный инженер/системный администратор",
+      "company": "ФОРА",
+      "company_id": "11124891",
+      "company_url": "https://hh.ru/employer/11124891",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/127158194",
+      "published_at": "2025-11-23T17:24:05+0300",
+      "created_at": "2025-11-23T17:24:05+0300",
+      "area": "Новосибирск",
+      "salary": "от 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Операционный системы: Linux(raspbian, Ubuntu, etc.), Windows 10/11. Ethernet, DHCP, WiFi, DNS, сервера, 10gigEthernet, multicast, LACP.",
+      "responsibility": "Облачные провайдеры: Selectel/timeweb и ему подобные (VM, S3, etc.). Формирование шаблонов виртуальных машин/ контейнеров. Подготовка инфраструктуры проведения соревнований.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "127971734",
       "name": "Помощник системного администратора",
@@ -5348,72 +5414,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127728112",
-      "name": "Администратор компьютерного клуба",
-      "company": "Лобанов Антон Андреевич",
-      "company_id": "9947443",
-      "company_url": "https://hh.ru/employer/9947443",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/127728112",
-      "published_at": "2025-11-20T17:36:17+0300",
-      "created_at": "2025-11-20T17:36:17+0300",
-      "area": "Пермь",
-      "salary": "37 500 - 40 000 RUR на руки",
-      "salary_raw": {
-        "from": 37500,
-        "to": 40000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "С хорошей организационной жилкой, умением анализировать процессы и доводить дела до результата. Грамотная речь и чёткая дикция. Активная жизненная позиция...",
-      "responsibility": "Старающегося не только выполнять задачи, но и предлагать идеи по улучшению работы клуба. Встречать гостей и создавать дружелюбную атмосферу с...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127158194",
-      "name": "Системный инженер/системный администратор",
-      "company": "ФОРА",
-      "company_id": "11124891",
-      "company_url": "https://hh.ru/employer/11124891",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/127158194",
-      "published_at": "2025-11-20T17:24:05+0300",
-      "created_at": "2025-11-20T17:24:05+0300",
-      "area": "Новосибирск",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Операционный системы: Linux(raspbian, Ubuntu, etc.), Windows 10/11. Ethernet, DHCP, WiFi, DNS, сервера, 10gigEthernet, multicast, LACP.",
-      "responsibility": "Облачные провайдеры: Selectel/timeweb и ему подобные (VM, S3, etc.). Формирование шаблонов виртуальных машин/ контейнеров. Подготовка инфраструктуры проведения соревнований.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный инженер"
       ],
       "has_test": false,
       "premium": false,
@@ -25489,6 +25489,39 @@
       "accept_temporary": false
     },
     {
+      "id": "127086868",
+      "name": "Сетевой инженер",
+      "company": "Эксперт Плюс",
+      "company_id": "3983515",
+      "company_url": "https://hh.ru/employer/3983515",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/127086868",
+      "published_at": "2025-10-29T08:20:35+0300",
+      "created_at": "2025-10-29T08:20:35+0300",
+      "area": "Красноярск",
+      "salary": "от 400 000 RUR на руки",
+      "salary_raw": {
+        "from": 400000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы с сетевыми протоколами и уровнями взаимодействия OSI (RIP, OSPF, BGP, MP-BGP, IS-IS, LDP). Опыт аппаратно-программного...",
+      "responsibility": "Проверка, конфигурация сетевого оборудования. Интернет, каналы передачи данных, IP телефония, IPTV. Проектирование, администрирование IP/MPLS сети на базе оборудования Juniper...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Сетевой инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "127086894",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
@@ -25532,39 +25565,6 @@
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
       "area": "Новосибирск",
-      "salary": "от 400 000 RUR на руки",
-      "salary_raw": {
-        "from": 400000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с сетевыми протоколами и уровнями взаимодействия OSI (RIP, OSPF, BGP, MP-BGP, IS-IS, LDP). Опыт аппаратно-программного...",
-      "responsibility": "Проверка, конфигурация сетевого оборудования. Интернет, каналы передачи данных, IP телефония, IPTV. Проектирование, администрирование IP/MPLS сети на базе оборудования Juniper...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Сетевой инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127086868",
-      "name": "Сетевой инженер",
-      "company": "Эксперт Плюс",
-      "company_id": "3983515",
-      "company_url": "https://hh.ru/employer/3983515",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086868",
-      "published_at": "2025-10-29T08:20:35+0300",
-      "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Красноярск",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -25753,16 +25753,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086882",
+      "id": "127086859",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086882",
+      "url": "https://hh.ru/vacancy/127086859",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Смоленск",
+      "area": "Волгоград",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -25786,16 +25786,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086859",
+      "id": "127086882",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086859",
+      "url": "https://hh.ru/vacancy/127086882",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Волгоград",
+      "area": "Смоленск",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -28228,62 +28228,6 @@
       "employment": "Полная занятость",
       "requirement": "AD, DNS, DHCP, WSUS, KMS, DFS, RDS, App-V). Практический опыт и глубокие знания в областях: - Знания в области администрирования...",
       "responsibility": "Администрирование серверных ОС и сервисов Microsoft. - Участие в администрировании групповых политик (GPO). - Администрирование серверного ПО (MS SQL, MS Exchange, MS...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126925173",
-      "name": "Старший системный администратор",
-      "company": "BLINBERRY GROUP",
-      "company_id": "761721",
-      "company_url": "https://hh.ru/employer/761721",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/126925173",
-      "published_at": "2025-10-24T17:58:26+0300",
-      "created_at": "2025-10-24T17:58:26+0300",
-      "area": "Волгоград",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание основ информационной безопасности. Опыт работы с системами резервного копирования. Базовые знания операционных систем и сервисов AD, DNS, DHCP.",
-      "responsibility": "Установка, настройка пользовательских ПК, ноутбуков, ОС и ПО. Консультация и помощь сотрудникам (очно и удаленно). Поддержка и настройка печати (включая...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "123385845",
-      "name": "Системный администратор",
-      "company": "Школа 21",
-      "company_id": "4612390",
-      "company_url": "https://hh.ru/employer/4612390",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3598930.png",
-      "url": "https://hh.ru/vacancy/123385845",
-      "published_at": "2025-10-24T17:42:23+0300",
-      "created_at": "2025-10-24T17:42:23+0300",
-      "area": "Пермь",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее техническое образование. Наличие курсов по docker, linux, по сетевым технологиям (CCNA, MTCNA и аналоги) очень желательно. Опыт работы в...",
-      "responsibility": "Подготовка технической документации на используемые сервисы. Развертывание сервисов для бизнеса на базе linux с возможным использованием docker. Обслуживание сетевого и...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
