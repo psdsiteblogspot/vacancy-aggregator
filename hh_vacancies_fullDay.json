@@ -10,16 +10,82 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-24T04:48:48Z",
+  "updated": "2025-11-24T05:40:47Z",
   "statistics": {
-    "total": 895,
-    "with_salary": 658,
-    "companies": 659,
+    "total": 893,
+    "with_salary": 656,
+    "companies": 657,
     "cities": 141,
     "premium": 0,
     "with_test": 35
   },
   "vacancies": [
+    {
+      "id": "127934827",
+      "name": "Системный администратор/DevOps-инженер/ИБ",
+      "company": "Плейспартс",
+      "company_id": "4514565",
+      "company_url": "https://hh.ru/employer/4514565",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/127934827",
+      "published_at": "2025-11-24T08:14:17+0300",
+      "created_at": "2025-11-24T08:14:17+0300",
+      "area": "Новосибирск",
+      "salary": "до 300 000 RUR на руки",
+      "salary_raw": {
+        "from": null,
+        "to": 300000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Отличное знание Linux (Ubuntu, Debian, CentOS). - Уверенные навыки работы с Proxmox и системами виртуализации. - Опыт работы с Mikrotik, понимание принципов...",
+      "responsibility": "Администрирование серверной инфраструктуры (Linux: Ubuntu, Debian, CentOS). - Управление системами виртуализации (Proxmox): настройка, сопровождение, интеграция с биллинг-системами, автоматизация развёртывания виртуальных...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": true,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
+      "id": "125206718",
+      "name": "Системный администратор (ИБ и ИТ)",
+      "company": "ИТ Дистрибуция",
+      "company_id": "1587384",
+      "company_url": "https://hh.ru/employer/1587384",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1410005.png",
+      "url": "https://hh.ru/vacancy/125206718",
+      "published_at": "2025-11-24T08:12:09+0300",
+      "created_at": "2025-11-24T08:12:09+0300",
+      "area": "Челябинск",
+      "salary": "80 000 - 100 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": 100000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт системного администрирования с навыками обслуживания серверов на ОС Windows. Опыт работы в консольной среде ОС Linux. Уверенное понимание работы...",
+      "responsibility": "Поддержка работоспособности офисной и серверной инфраструктуры компании (корпоративные почтовые сервисы, системы виртуализации, системы резервного копирования, управление мобильными устройствами).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "125884186",
       "name": "Системный администратор",
@@ -38,6 +104,39 @@
       "employment": "Полная занятость",
       "requirement": "Высшее/среднее специальное образование. Опыт работы в должности со схожими обязанностями от 2-х лет. Высокий уровень владения ПК.",
       "responsibility": "Конфигурация, настройка и администрирование персональных компьютеров, принтеров, плоттеров и других периферийных устройств, включая роутеры, HUB, ИБП. Поддержка: сетей DECT, Wi...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127808592",
+      "name": "Системный администратор",
+      "company": "КОМТЕК",
+      "company_id": "941566",
+      "company_url": "https://hh.ru/employer/941566",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1389675.png",
+      "url": "https://hh.ru/vacancy/127808592",
+      "published_at": "2025-11-24T07:30:27+0300",
+      "created_at": "2025-11-24T07:30:27+0300",
+      "area": "Нижневартовск",
+      "salary": "от 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Понимание базовых сетевых концепций: TCP/IP, DNS, DHCP, VLAN, маршрутизация, порты. Публикация ресурсов в сети Internet: NAT, проксирование ресурсов.",
+      "responsibility": "Сопровождение пользователей, регистрация заявок в системе ServiceDesk, консультации при необходимости. Выполнение базовых операций по основным направлениям администрирования. Управление службами и...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -5511,39 +5610,6 @@
       "accept_temporary": false
     },
     {
-      "id": "127934827",
-      "name": "Системный администратор/DevOps-инженер/ИБ",
-      "company": "Плейспартс",
-      "company_id": "4514565",
-      "company_url": "https://hh.ru/employer/4514565",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/127934827",
-      "published_at": "2025-11-21T08:14:17+0300",
-      "created_at": "2025-11-21T08:14:17+0300",
-      "area": "Новосибирск",
-      "salary": "до 300 000 RUR на руки",
-      "salary_raw": {
-        "from": null,
-        "to": 300000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Отличное знание Linux (Ubuntu, Debian, CentOS). - Уверенные навыки работы с Proxmox и системами виртуализации. - Опыт работы с Mikrotik, понимание принципов...",
-      "responsibility": "Администрирование серверной инфраструктуры (Linux: Ubuntu, Debian, CentOS). - Управление системами виртуализации (Proxmox): настройка, сопровождение, интеграция с биллинг-системами, автоматизация развёртывания виртуальных...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": true,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
       "id": "127934472",
       "name": "Системный администратор",
       "company": "Синара - Городские Транспортные Решения",
@@ -5665,39 +5731,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание ОС Windows, Битрикс 24. Знания и навыки работы с sql базами. (mySql). Желателен опыт в развертывании виртуальных машин.",
       "responsibility": "Содержание серверного оборудования, бэкапы и т.д. В редких случаях помощь с настройкой компьютерной оргтехники.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127808592",
-      "name": "Системный администратор",
-      "company": "КОМТЕК",
-      "company_id": "941566",
-      "company_url": "https://hh.ru/employer/941566",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1389675.png",
-      "url": "https://hh.ru/vacancy/127808592",
-      "published_at": "2025-11-21T07:30:27+0300",
-      "created_at": "2025-11-21T07:30:27+0300",
-      "area": "Нижневартовск",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Понимание базовых сетевых концепций: TCP/IP, DNS, DHCP, VLAN, маршрутизация, порты. Публикация ресурсов в сети Internet: NAT, проксирование ресурсов.",
-      "responsibility": "Сопровождение пользователей, регистрация заявок в системе ServiceDesk, консультации при необходимости. Выполнение базовых операций по основным направлениям администрирования. Управление службами и...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -7458,39 +7491,6 @@
       "employment": "Полная занятость",
       "requirement": "Необходимые знания: Практический опыт монтажа СКС, ЛВС, ОПС и т.д.. Понимание принципов работы сетей на основе TCP/IP (сетевая...",
       "responsibility": "Монтаж, техническое обслуживания и ремонт: - WiFi точек доступа Ubiquiti NanoStation. - радиомостов. - точек доступа систем связи. - копировано-множительной техники. - видео-наблюдения.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125206718",
-      "name": "Системный администратор (ИБ и ИТ)",
-      "company": "ИТ Дистрибуция",
-      "company_id": "1587384",
-      "company_url": "https://hh.ru/employer/1587384",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1410005.png",
-      "url": "https://hh.ru/vacancy/125206718",
-      "published_at": "2025-11-20T07:27:49+0300",
-      "created_at": "2025-11-20T07:27:49+0300",
-      "area": "Челябинск",
-      "salary": "80 000 - 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": 100000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт системного администрирования с навыками обслуживания серверов на ОС Windows. Опыт работы в консольной среде ОС Linux. Уверенное понимание работы...",
-      "responsibility": "Поддержка работоспособности офисной и серверной инфраструктуры компании (корпоративные почтовые сервисы, системы виртуализации, системы резервного копирования, управление мобильными устройствами).",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -15091,39 +15091,6 @@
       "accept_temporary": false
     },
     {
-      "id": "124619025",
-      "name": "Системный администратор",
-      "company": "Malina Bonita",
-      "company_id": "3772127",
-      "company_url": "https://hh.ru/employer/3772127",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3617226.png",
-      "url": "https://hh.ru/vacancy/124619025",
-      "published_at": "2025-11-12T07:32:47+0300",
-      "created_at": "2025-11-12T07:32:47+0300",
-      "area": "Новосибирск",
-      "salary": "80 000 - 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": 80000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы от 1 года в аналогичной должности. Знание 1С 8,3 на уровне администрирования. Знание администрирования корпоративного портала...",
-      "responsibility": "Техподдержка, администрирование и установка 1С. Техническая поддержка пользователей. Администрирование компьютеров Windows 7-11. Администрирование серверов компании на базе OC...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126441417",
       "name": "Системный администратор",
       "company": "Алтаймедтехника",
@@ -18201,7 +18168,7 @@
       "schedule": "Полный день",
       "employment": "Полная занятость",
       "requirement": "Высшее профессиональное (техническое) образование. Опыт работы от 3-х лет на аналогичной должности со схожими обязанностями.",
-      "responsibility": "Администрирование и внедрение средств защиты информации: - Полный цикл работ с ViPNet: развертывание и настройка ViPNet Client, ViPNet Coordinator HW, ViPNet...",
+      "responsibility": "Администрирование и внедрение средств защиты информации: - Установка, настройка и поддержка КриптоПРО CSP. -Работа с СЗИ (Secret Net, Dallas Lock). -",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -23142,39 +23109,6 @@
       "accept_temporary": false
     },
     {
-      "id": "127202594",
-      "name": "Системный администратор",
-      "company": "Химсталькон-Инжиниринг",
-      "company_id": "992978",
-      "company_url": "https://hh.ru/employer/992978",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1390536.png",
-      "url": "https://hh.ru/vacancy/127202594",
-      "published_at": "2025-11-01T09:11:43+0300",
-      "created_at": "2025-11-01T09:11:43+0300",
-      "area": "Мурманск",
-      "salary": "80 000 - 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": 100000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Полная занятость",
-      "requirement": "Высшее техническое (информационные технологии). Опыт работы от года в должности специалиста по поддержке пользователей.",
-      "responsibility": "Обслуживание компьютерной техники в офисе ОП Мурманск на 6 рабочих мест, устранение неисправностей. Выезд в п.Белокаменку по необходимости и обслуживание...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "127201988",
       "name": "Старший системный администратор",
       "company": "Газпром сеть АЗС",
@@ -25875,16 +25809,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086896",
+      "id": "127086864",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086896",
+      "url": "https://hh.ru/vacancy/127086864",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Сочи",
+      "area": "Калининград",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -25908,16 +25842,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086864",
+      "id": "127086896",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086864",
+      "url": "https://hh.ru/vacancy/127086896",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Калининград",
+      "area": "Сочи",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
