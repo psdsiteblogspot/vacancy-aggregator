@@ -10,16 +10,166 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-25T04:51:21Z",
+  "updated": "2025-11-25T05:48:53Z",
   "statistics": {
     "total": 844,
-    "with_salary": 605,
+    "with_salary": 604,
     "companies": 604,
     "cities": 144,
     "premium": 1,
     "with_test": 19
   },
   "vacancies": [
+    {
+      "id": "125653400",
+      "name": "Сетевой инженер",
+      "company": "Рельеф-Центр",
+      "company_id": "126025",
+      "company_url": "https://hh.ru/employer/126025",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3255447.png",
+      "url": "https://hh.ru/vacancy/125653400",
+      "published_at": "2025-11-25T08:39:39+0300",
+      "created_at": "2025-11-25T08:39:39+0300",
+      "area": "Рязань",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание основных протоколов: TCP/IP, OSPF, BGP, FHRP, RIP, STP, SNMP, IPv4 и IPv6 и других.",
+      "responsibility": "Замена межсетевого экрана. Реализация хранения резервных копий по схеме 3-2-1. Проектирование и перестроение сети в соответствии с требованиями...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Сетевой инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "126284739",
+      "name": "Системный администратор",
+      "company": "WellFoods",
+      "company_id": "1822182",
+      "company_url": "https://hh.ru/employer/1822182",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3286923.png",
+      "url": "https://hh.ru/vacancy/126284739",
+      "published_at": "2025-11-25T08:14:03+0300",
+      "created_at": "2025-11-25T08:14:03+0300",
+      "area": "Набережные Челны",
+      "salary": "70 000 - 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 70000,
+        "to": 80000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы от 2 лет, профильное образование. Знание ОС Windows, облачных платформ и систем резервирования данных. Умение работать самостоятельно и...",
+      "responsibility": "Управление учетными записями пользователей и доступами. Настройка и поддержка информационной безопасности (брандмауэры, антивирусы, мониторинг). Резервное копирование и восстановление данных (Acronis).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "128029950",
+      "name": "Системный администратор",
+      "company": "Регионсеть",
+      "company_id": "3019548",
+      "company_url": "https://hh.ru/employer/3019548",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3583410.png",
+      "url": "https://hh.ru/vacancy/128029950",
+      "published_at": "2025-11-25T07:58:41+0300",
+      "created_at": "2025-11-25T07:58:41+0300",
+      "area": "Железногорск (Курская область)",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание и понимание принципов работы с протоколами TCP/IP. Исполнительность. Коммуникабельность. Обучаемость. Стрессоустойчивость.",
+      "responsibility": "Обеспечение работоспособности основных сервисов в сети интернет провайдера.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "128029938",
+      "name": "Инженер (системный администратор)",
+      "company": "КОГКУ Кировская областная пожарно-спасательная служба",
+      "company_id": "3414068",
+      "company_url": "https://hh.ru/employer/3414068",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/128029938",
+      "published_at": "2025-11-25T07:58:07+0300",
+      "created_at": "2025-11-25T07:58:07+0300",
+      "area": "Киров (Кировская область)",
+      "salary": "40 000 - 55 000 RUR на руки",
+      "salary_raw": {
+        "from": 40000,
+        "to": 55000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее профессиональное образование не ниже уровня бакалавриат в сфере IT, программирования, системного администрирования.",
+      "responsibility": "Выполнение работ по выявлению и устранению инцидентов в информационно-коммуникационных системах. Обеспечение работы технических и программных средств информационно-коммуникационных систем.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "119911043",
+      "name": "Сетевой инженер",
+      "company": "Автоматизация Розничных Технологий",
+      "company_id": "11383625",
+      "company_url": "https://hh.ru/employer/11383625",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6917289.png",
+      "url": "https://hh.ru/vacancy/119911043",
+      "published_at": "2025-11-25T07:54:40+0300",
+      "created_at": "2025-11-25T07:54:40+0300",
+      "area": "Ульяновск",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы на позиции сетевого инженера от 3-х лет. Практический опыт администрирования оборудования Mikrotik, Cisco, HPE/Aruba.",
+      "responsibility": "Проектирование, настройка и поддержание сетевой инфраструктуры (LAN, WAN, Wi-Fi) для офисов, торговых точек и распределительных центров. Мониторинг производительности сети...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "128029188",
       "name": "Системный администратор/Программист (Новый город)",
@@ -4791,39 +4941,6 @@
       "accept_temporary": false
     },
     {
-      "id": "127637728",
-      "name": "Системный администратор",
-      "company": "Rerooms",
-      "company_id": "2954121",
-      "company_url": "https://hh.ru/employer/2954121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1386305.png",
-      "url": "https://hh.ru/vacancy/127637728",
-      "published_at": "2025-11-22T14:53:15+0300",
-      "created_at": "2025-11-22T14:53:15+0300",
-      "area": "Рязань",
-      "salary": "70 000 - 70 000 RUR на руки",
-      "salary_raw": {
-        "from": 70000,
-        "to": 70000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы системным администратором от 1–2 лет. Уверенное администрирование ОС Windows. Знание сетевых технологий, протоколов TCP/IP, принципов маршрутизации...",
-      "responsibility": "Организация рабочих мест. Администрирование серверов и сервисов. Учёт материальных ценностей. Техническая поддержка пользователей. Анализ текущих ИТ-процессов и поиск возможностей...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "127875686",
       "name": "Системный администратор",
       "company": "МАЯКМЕТАЛЛ",
@@ -5169,39 +5286,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Сетевой инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "126284739",
-      "name": "Системный администратор",
-      "company": "WellFoods",
-      "company_id": "1822182",
-      "company_url": "https://hh.ru/employer/1822182",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3286923.png",
-      "url": "https://hh.ru/vacancy/126284739",
-      "published_at": "2025-11-22T08:14:03+0300",
-      "created_at": "2025-11-22T08:14:03+0300",
-      "area": "Набережные Челны",
-      "salary": "70 000 - 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 70000,
-        "to": 80000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы от 2 лет, профильное образование. Знание ОС Windows, облачных платформ и систем резервирования данных. Умение работать самостоятельно и...",
-      "responsibility": "Управление учетными записями пользователей и доступами. Настройка и поддержка информационной безопасности (брандмауэры, антивирусы, мониторинг). Резервное копирование и восстановление данных (Acronis).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
       ],
       "has_test": false,
       "premium": false,
@@ -9760,9 +9844,9 @@
       "published_at": "2025-11-18T14:12:16+0300",
       "created_at": "2025-11-18T14:12:16+0300",
       "area": "Нижний Новгород",
-      "salary": "60 000 - 92 000 RUR на руки",
+      "salary": "до 92 000 RUR на руки",
       "salary_raw": {
-        "from": 60000,
+        "from": null,
         "to": 92000,
         "currency": "RUR",
         "gross": false
@@ -10141,34 +10225,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125653400",
-      "name": "Сетевой инженер",
-      "company": "Рельеф-Центр",
-      "company_id": "126025",
-      "company_url": "https://hh.ru/employer/126025",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3255447.png",
-      "url": "https://hh.ru/vacancy/125653400",
-      "published_at": "2025-11-18T10:53:04+0300",
-      "created_at": "2025-11-18T10:53:04+0300",
-      "area": "Рязань",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание основных протоколов: TCP/IP, OSPF, BGP, FHRP, RIP, STP, SNMP, IPv4 и IPv6 и других.",
-      "responsibility": "Замена межсетевого экрана. Реализация хранения резервных копий по схеме 3-2-1. Проектирование и перестроение сети в соответствии с требованиями...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Сетевой инженер"
       ],
       "has_test": false,
       "premium": false,
@@ -10918,34 +10974,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание принципов построения сетей передачи данных, стека протоколов TCP/IP. Сетевых служб и устройств. Протоколов STP/RSTP/MSTR (802.1...",
       "responsibility": "Администрирование сетевой и серверной инфраструктуры, системного программного обеспечения информационно-коммуникационных систем организации: Администрирование сетевого оборудования Cisco, Ubiquiti. Построение и администрирование...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "119911043",
-      "name": "Сетевой инженер",
-      "company": "Автоматизация Розничных Технологий",
-      "company_id": "11383625",
-      "company_url": "https://hh.ru/employer/11383625",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6917289.png",
-      "url": "https://hh.ru/vacancy/119911043",
-      "published_at": "2025-11-17T15:24:25+0300",
-      "created_at": "2025-11-17T15:24:25+0300",
-      "area": "Ульяновск",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы на позиции сетевого инженера от 3-х лет. Практический опыт администрирования оборудования Mikrotik, Cisco, HPE/Aruba.",
-      "responsibility": "Проектирование, настройка и поддержание сетевой инфраструктуры (LAN, WAN, Wi-Fi) для офисов, торговых точек и распределительных центров. Мониторинг производительности сети...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -24748,6 +24776,39 @@
       "accept_temporary": false
     },
     {
+      "id": "127086887",
+      "name": "Сетевой инженер",
+      "company": "Эксперт Плюс",
+      "company_id": "3983515",
+      "company_url": "https://hh.ru/employer/3983515",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/127086887",
+      "published_at": "2025-10-29T08:20:35+0300",
+      "created_at": "2025-10-29T08:20:35+0300",
+      "area": "Тверь",
+      "salary": "от 400 000 RUR на руки",
+      "salary_raw": {
+        "from": 400000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы с сетевыми протоколами и уровнями взаимодействия OSI (RIP, OSPF, BGP, MP-BGP, IS-IS, LDP). Опыт аппаратно-программного...",
+      "responsibility": "Проверка, конфигурация сетевого оборудования. Интернет, каналы передачи данных, IP телефония, IPTV. Проектирование, администрирование IP/MPLS сети на базе оборудования Juniper...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Сетевой инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "127086881",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
@@ -24791,39 +24852,6 @@
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
       "area": "Белгород",
-      "salary": "от 400 000 RUR на руки",
-      "salary_raw": {
-        "from": 400000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с сетевыми протоколами и уровнями взаимодействия OSI (RIP, OSPF, BGP, MP-BGP, IS-IS, LDP). Опыт аппаратно-программного...",
-      "responsibility": "Проверка, конфигурация сетевого оборудования. Интернет, каналы передачи данных, IP телефония, IPTV. Проектирование, администрирование IP/MPLS сети на базе оборудования Juniper...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Сетевой инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127086887",
-      "name": "Сетевой инженер",
-      "company": "Эксперт Плюс",
-      "company_id": "3983515",
-      "company_url": "https://hh.ru/employer/3983515",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086887",
-      "published_at": "2025-10-29T08:20:35+0300",
-      "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Тверь",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -25424,39 +25452,6 @@
       "accept_handicapped": false,
       "accept_kids": false,
       "accept_temporary": false
-    },
-    {
-      "id": "127061345",
-      "name": "Системный администратор",
-      "company": "Мебельная фабрика CUCINA",
-      "company_id": "3343067",
-      "company_url": "https://hh.ru/employer/3343067",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6483140.jpeg",
-      "url": "https://hh.ru/vacancy/127061345",
-      "published_at": "2025-10-28T13:42:37+0300",
-      "created_at": "2025-10-28T13:42:37+0300",
-      "area": "Ульяновск",
-      "salary": "от 60 000 RUR на руки",
-      "salary_raw": {
-        "from": 60000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Уверенное знание Linux (Debian). Опыт работы с сетевыми сервисами (DHCP, DNS, NAT, VPN, iptables). Базовые знания Windows Server.",
-      "responsibility": "Администрирование серверов на Linux (Debian/Ubuntu). Настройка и поддержка сетевой инфраструктуры (роутеры, VPN, файрволы, резервное копирование). Поддержка пользователей и рабочих...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
     },
     {
       "id": "127055229",
