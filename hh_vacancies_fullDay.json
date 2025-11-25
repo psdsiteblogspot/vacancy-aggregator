@@ -10,16 +10,440 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-25T05:40:02Z",
+  "updated": "2025-11-25T06:50:05Z",
   "statistics": {
-    "total": 912,
-    "with_salary": 672,
-    "companies": 675,
-    "cities": 147,
+    "total": 915,
+    "with_salary": 675,
+    "companies": 676,
+    "cities": 148,
     "premium": 0,
     "with_test": 35
   },
   "vacancies": [
+    {
+      "id": "128034789",
+      "name": "Системный администратор",
+      "company": "ИТ-Сворм",
+      "company_id": "3857563",
+      "company_url": "https://hh.ru/employer/3857563",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3689718.png",
+      "url": "https://hh.ru/vacancy/128034789",
+      "published_at": "2025-11-25T09:43:02+0300",
+      "created_at": "2025-11-25T09:43:02+0300",
+      "area": "Пермь",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Ты нам подходишь ещё больше, если у тебя есть опыт: - Опыт администрирования Ansible. - Опыт администрирования NGINX. - Опыт написания скриптов. -",
+      "responsibility": "Обеспечивать бесперебойную работу инфраструктуры ИТ-сервисов. - Устранять инциденты в инфраструктуре, решать задачи по развитию и поддержанию инфраструктуры. - Администрировать Linux серверы...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127938397",
+      "name": "Ведущий системный администратор",
+      "company": "Сибирский Гурман, КП",
+      "company_id": "51137",
+      "company_url": "https://hh.ru/employer/51137",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/7145842.png",
+      "url": "https://hh.ru/vacancy/127938397",
+      "published_at": "2025-11-25T09:37:23+0300",
+      "created_at": "2025-11-25T09:37:23+0300",
+      "area": "Новосибирск",
+      "salary": "от 135 000 RUR на руки",
+      "salary_raw": {
+        "from": 135000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание Windows Server и/или Linux. Умение работать из командной строки (Bash, PowerShell). Понимание моделей OSI/TCP-IP.",
+      "responsibility": "Установка, настройка, обновление и поддержание работоспособности серверного оборудования и ПО. Формирование и ведение технической документации: инструкции, регламенты. Управление пользователями и...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127895479",
+      "name": "Сетевой инженер",
+      "company": "Сибирский Гурман, КП",
+      "company_id": "51137",
+      "company_url": "https://hh.ru/employer/51137",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/7145842.png",
+      "url": "https://hh.ru/vacancy/127895479",
+      "published_at": "2025-11-25T09:37:22+0300",
+      "created_at": "2025-11-25T09:37:22+0300",
+      "area": "Новосибирск",
+      "salary": "от 100 000 RUR на руки",
+      "salary_raw": {
+        "from": 100000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Навык работы с сетевыми протоколами. Понимание особенностей настройки и оптимизации сетевой конфигурации. Желателен опыт работы с оборудованием Mikrotik, D-Link...",
+      "responsibility": "Установка и настройка сетевого оборудования: \"поднятие\" сети с нуля: настройка VLAN, маршрутизации, агрегации каналов (LACP), STP и других протоколов.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Сетевой инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127895741",
+      "name": "Ведущий сетевой инженер",
+      "company": "Сибирский Гурман, КП",
+      "company_id": "51137",
+      "company_url": "https://hh.ru/employer/51137",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/7145842.png",
+      "url": "https://hh.ru/vacancy/127895741",
+      "published_at": "2025-11-25T09:37:22+0300",
+      "created_at": "2025-11-25T09:37:22+0300",
+      "area": "Новосибирск",
+      "salary": "от 135 000 RUR на руки",
+      "salary_raw": {
+        "from": 135000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы с протоколами и технологиями: L2: Ethernet, VLAN, STP/RSTP/MSTP, LACP. L3: IP, TCP/UDP, OSPF...",
+      "responsibility": "Разработка сетевой архитектуры и выбор соответствующего оборудования. Создание планов по построению новой сети (ЛВС, СКС, ЦОД) или расширению существующей.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Сетевой инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "128034428",
+      "name": "Ведущий системный администратор",
+      "company": "Официальное представительство Фабрики Уральские пельмени и Фабрики мороженого РосФрост",
+      "company_id": "727086",
+      "company_url": "https://hh.ru/employer/727086",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/3959550.jpeg",
+      "url": "https://hh.ru/vacancy/128034428",
+      "published_at": "2025-11-25T09:35:54+0300",
+      "created_at": "2025-11-25T09:35:54+0300",
+      "area": "Челябинск",
+      "salary": "90 000 - 90 000 RUR на руки",
+      "salary_raw": {
+        "from": 90000,
+        "to": 90000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы от 2 лет. Высшее образование в сфере информационных технологий. Продвинутые знания линейки ОС Windows, Windows server и оборудования...",
+      "responsibility": "Обеспечение бесперебойной работы локальных сетей, серверов, сетевых устройств (MicroTik). Осуществление конфигурации программного обеспечения на серверах и рабочих станциях.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "128034093",
+      "name": "Системный администратор (место работы г. Лыткарино МО)",
+      "company": "Лыткаринская городская больница, ГБУЗ МО",
+      "company_id": "1821990",
+      "company_url": "https://hh.ru/employer/1821990",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1463035.png",
+      "url": "https://hh.ru/vacancy/128034093",
+      "published_at": "2025-11-25T09:29:50+0300",
+      "created_at": "2025-11-25T09:29:50+0300",
+      "area": "Жуковское",
+      "salary": "60 000 - 60 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": 60000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование по направлению информационных технологий/математики. Опыт работы в аналогичной должности от 1 года. Опыт работы в учреждениях здравоохранения...",
+      "responsibility": "Настройка и обеспечение бесперебойной работы серверного и сетевого оборудования. Установка и настройка программного обеспечения на серверах и рабочих станциях.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Повар, пекарь, кондитер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127613784",
+      "name": "Системный администратор",
+      "company": "НПО ЗМК",
+      "company_id": "2478926",
+      "company_url": "https://hh.ru/employer/2478926",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/2163469.png",
+      "url": "https://hh.ru/vacancy/127613784",
+      "published_at": "2025-11-25T09:19:17+0300",
+      "created_at": "2025-11-25T09:19:17+0300",
+      "area": "Омск",
+      "salary": "80 000 - 100 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": 100000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы системным администратором от 2-х лет. Отличные навыки диагностики и устранения неисправностей. Ответственность, коммуникабельность, умение работать как самостоятельно...",
+      "responsibility": "Поддержка инфраструктуры: Обеспечение бесперебойной работы серверов, локальной сети, персональных компьютеров и программного обеспечения. Сетевая безопасность: Обеспечение сетевой безопасности, защита от...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "128032895",
+      "name": "Системный администратор",
+      "company": "Кузбасский бройлер",
+      "company_id": "1201856",
+      "company_url": "https://hh.ru/employer/1201856",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1421989.png",
+      "url": "https://hh.ru/vacancy/128032895",
+      "published_at": "2025-11-25T09:10:28+0300",
+      "created_at": "2025-11-25T09:10:28+0300",
+      "area": "Новокузнецк",
+      "salary": "от 50 000 RUR на руки",
+      "salary_raw": {
+        "from": 50000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Уверенные знания Windows 10/11. Базовое понимание сетей (IP, DHCP, DNS, VPN). Навыки диагностики ПК и офисной техники.",
+      "responsibility": "Поддержка пользователей: настройка рабочих мест, установка ПО, решение инцидентов. Поддержка компьютеров, ноутбуков, принтеров, периферии. Участие в сопровождении локальной сети: коммутаторы...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127443803",
+      "name": "Администратор IT-школы",
+      "company": "РОБОКОD",
+      "company_id": "3886635",
+      "company_url": "https://hh.ru/employer/3886635",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6173691.jpg",
+      "url": "https://hh.ru/vacancy/127443803",
+      "published_at": "2025-11-25T09:08:06+0300",
+      "created_at": "2025-11-25T09:08:06+0300",
+      "area": "Новосибирск",
+      "salary": "50 000 - 60 000 RUR на руки",
+      "salary_raw": {
+        "from": 50000,
+        "to": 60000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Ответственное выполнение плановых задач. Многозадачность и стрессоустойчивость. Грамотную устную и письменную речь. Тихую обстановку для разговоров по телефону.",
+      "responsibility": "Обработка входящих звонков. Общение в мессенджерах. Исходящие звонки постоянным клиентам. Учет клиентов в Альфа CRM. Контроль оплат. Общение через соц.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
+      "id": "125137167",
+      "name": "Выездной системный администратор",
+      "company": "ВинАГрад",
+      "company_id": "2515894",
+      "company_url": "https://hh.ru/employer/2515894",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/1861505.jpeg",
+      "url": "https://hh.ru/vacancy/125137167",
+      "published_at": "2025-11-25T09:04:42+0300",
+      "created_at": "2025-11-25T09:04:42+0300",
+      "area": "Омск",
+      "salary": "60 000 - 60 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": 60000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "образование профильное, либо опыт в аналогичной должности от 1 года. Знание пк, основных сетевых технологий, протоколов, сервисов, модели osi.",
+      "responsibility": "Обслуживание офисной и торговой техники (принтеры, бесперебойники и т.д.). ​ монтаж и настройка ЛВС, сетевого оборудования, систем видеонаблюдения. ​",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127207879",
+      "name": "Системный администратор",
+      "company": "Специализированный Застройщик Атлант-Строй",
+      "company_id": "5536854",
+      "company_url": "https://hh.ru/employer/5536854",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/127207879",
+      "published_at": "2025-11-25T09:03:03+0300",
+      "created_at": "2025-11-25T09:03:03+0300",
+      "area": "Челябинск",
+      "salary": "от 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знание архитектуры серверов и рабочих станций. Знать сетевые протоколы и основы построения сети. Опыт администрирования станций под управлением Windows и...",
+      "responsibility": "Администрировать парка из 30 рабочих станций Windows и Debian-серверов. Администрировать домен. Администрировать и осуществлять монтаж локальной сети.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "124855370",
+      "name": "Системный администратор",
+      "company": "ТНС энерго Кубань",
+      "company_id": "1988724",
+      "company_url": "https://hh.ru/employer/1988724",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/2239946.png",
+      "url": "https://hh.ru/vacancy/124855370",
+      "published_at": "2025-11-25T08:58:16+0300",
+      "created_at": "2025-11-25T08:58:16+0300",
+      "area": "Краснодар",
+      "salary": "80 000 - 100 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 80000,
+        "to": 100000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Образование: высшее Информационные системы и технологии/прикладная информатика/программное обеспечение информационных технологий и др.. Опыт работы в аналогичных должностях: 1...",
+      "responsibility": "Установка, настройка, администрирование физических и виртуальных серверов на базе ОС Windows Server (2012-2022) и Linux (Centos, Ubuntu, Astra).",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": true,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "128032215",
+      "name": "Системный администратор",
+      "company": "База ЗВЕЗДА",
+      "company_id": "12285401",
+      "company_url": "https://hh.ru/employer/12285401",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/128032215",
+      "published_at": "2025-11-25T08:57:07+0300",
+      "created_at": "2025-11-25T08:57:07+0300",
+      "area": "Екатеринбург",
+      "salary": "90 000 - 100 000 RUR на руки",
+      "salary_raw": {
+        "from": 90000,
+        "to": 100000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы системным администратором от 3 лет. Глубокие знания Windows и/или Linux, понимание принципов работы сетей. Навыки настройки и...",
+      "responsibility": "Поддержка и администрирование серверов (Windows/Linux), рабочих станций и сетевого оборудования. Мониторинг и обеспечение бесперебойной работы IT-инфраструктуры.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "127399810",
       "name": "Системный администратор",
@@ -1556,7 +1980,7 @@
     },
     {
       "id": "128005192",
-      "name": "Кладовщик/Системный администратор",
+      "name": "Системный администратор",
       "company": "Региональный центр технического творчества Челябинской области",
       "company_id": "2625570",
       "company_url": "https://hh.ru/employer/2625570",
@@ -1567,14 +1991,14 @@
       "area": "Челябинск",
       "salary": "не указана",
       "salary_raw": null,
-      "experience": "Нет опыта",
+      "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "Желателен опыт работы в бюджетной организации. Знание 1С (8.2 государственного учреждения).",
+      "requirement": "Знание 1С (8.2 государственного учреждения) желательно. Имел техническое образование (желательно). Имел опыт работы (желательно).",
       "responsibility": "Поддержание в рабочем состоянии техники (компьютеры, принтеры и 1 прочее). Инженер (системный администратор). Обеспечение информационной безопасности и антивирусной защиты.",
       "type": "Открытая",
       "professional_roles": [
-        "Кладовщик"
+        "Системный администратор"
       ],
       "has_test": false,
       "premium": false,
@@ -7271,39 +7695,6 @@
       "accept_temporary": false
     },
     {
-      "id": "127443803",
-      "name": "Администратор IT-школы",
-      "company": "РОБОКОD",
-      "company_id": "3886635",
-      "company_url": "https://hh.ru/employer/3886635",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6173691.jpg",
-      "url": "https://hh.ru/vacancy/127443803",
-      "published_at": "2025-11-22T09:08:06+0300",
-      "created_at": "2025-11-22T09:08:06+0300",
-      "area": "Новосибирск",
-      "salary": "50 000 - 60 000 RUR на руки",
-      "salary_raw": {
-        "from": 50000,
-        "to": 60000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Удаленная работа",
-      "employment": "Полная занятость",
-      "requirement": "Ответственное выполнение плановых задач. Многозадачность и стрессоустойчивость. Грамотную устную и письменную речь. Тихую обстановку для разговоров по телефону.",
-      "responsibility": "Обработка входящих звонков. Общение в мессенджерах. Исходящие звонки постоянным клиентам. Учет клиентов в Альфа CRM. Контроль оплат. Общение через соц.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": true
-    },
-    {
       "id": "127964525",
       "name": "Системный администратор ПО/БД",
       "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
@@ -8145,39 +8536,6 @@
       "accept_temporary": false
     },
     {
-      "id": "127938397",
-      "name": "Ведущий системный администратор",
-      "company": "Сибирский Гурман, КП",
-      "company_id": "51137",
-      "company_url": "https://hh.ru/employer/51137",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/7145842.png",
-      "url": "https://hh.ru/vacancy/127938397",
-      "published_at": "2025-11-21T09:40:15+0300",
-      "created_at": "2025-11-21T09:40:15+0300",
-      "area": "Новосибирск",
-      "salary": "от 135 000 RUR на руки",
-      "salary_raw": {
-        "from": 135000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание Windows Server и/или Linux. Умение работать из командной строки (Bash, PowerShell). Понимание моделей OSI/TCP-IP.",
-      "responsibility": "Установка, настройка, обновление и поддержание работоспособности серверного оборудования и ПО. Формирование и ведение технической документации: инструкции, регламенты. Управление пользователями и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "127926253",
       "name": "Дежурный системный администратор",
       "company": "IDF Eurasia",
@@ -8470,72 +8828,6 @@
       "accept_temporary": false
     },
     {
-      "id": "127895479",
-      "name": "Сетевой инженер",
-      "company": "Сибирский Гурман, КП",
-      "company_id": "51137",
-      "company_url": "https://hh.ru/employer/51137",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/7145842.png",
-      "url": "https://hh.ru/vacancy/127895479",
-      "published_at": "2025-11-21T07:53:58+0300",
-      "created_at": "2025-11-21T07:53:58+0300",
-      "area": "Новосибирск",
-      "salary": "от 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 100000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Навык работы с сетевыми протоколами. Понимание особенностей настройки и оптимизации сетевой конфигурации. Желателен опыт работы с оборудованием Mikrotik, D-Link...",
-      "responsibility": "Установка и настройка сетевого оборудования: \"поднятие\" сети с нуля: настройка VLAN, маршрутизации, агрегации каналов (LACP), STP и других протоколов.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Сетевой инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127895741",
-      "name": "Ведущий сетевой инженер",
-      "company": "Сибирский Гурман, КП",
-      "company_id": "51137",
-      "company_url": "https://hh.ru/employer/51137",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/7145842.png",
-      "url": "https://hh.ru/vacancy/127895741",
-      "published_at": "2025-11-21T07:53:58+0300",
-      "created_at": "2025-11-21T07:53:58+0300",
-      "area": "Новосибирск",
-      "salary": "от 135 000 RUR на руки",
-      "salary_raw": {
-        "from": 135000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с протоколами и технологиями: L2: Ethernet, VLAN, STP/RSTP/MSTP, LACP. L3: IP, TCP/UDP, OSPF...",
-      "responsibility": "Разработка сетевой архитектуры и выбор соответствующего оборудования. Создание планов по построению новой сети (ЛВС, СКС, ЦОД) или расширению существующей.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Сетевой инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126453381",
       "name": "Системный администратор",
       "company": "Форштат",
@@ -8558,39 +8850,6 @@
       "employment": "Полная занятость",
       "requirement": "Знание ОС Windows, Битрикс 24. Знания и навыки работы с sql базами. (mySql). Желателен опыт в развертывании виртуальных машин.",
       "responsibility": "Содержание серверного оборудования, бэкапы и т.д. В редких случаях помощь с настройкой компьютерной оргтехники.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "125137167",
-      "name": "Выездной системный администратор",
-      "company": "ВинАГрад",
-      "company_id": "2515894",
-      "company_url": "https://hh.ru/employer/2515894",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/1861505.jpeg",
-      "url": "https://hh.ru/vacancy/125137167",
-      "published_at": "2025-11-21T07:12:21+0300",
-      "created_at": "2025-11-21T07:12:21+0300",
-      "area": "Омск",
-      "salary": "60 000 - 60 000 RUR на руки",
-      "salary_raw": {
-        "from": 60000,
-        "to": 60000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "образование профильное, либо опыт в аналогичной должности от 1 года. Знание пк, основных сетевых технологий, протоколов, сервисов, модели osi.",
-      "responsibility": "Обслуживание офисной и торговой техники (принтеры, бесперебойники и т.д.). ​ монтаж и настройка ЛВС, сетевого оборудования, систем видеонаблюдения. ​",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -9209,39 +9468,6 @@
       "accept_temporary": false
     },
     {
-      "id": "127613784",
-      "name": "Системный администратор",
-      "company": "НПО ЗМК",
-      "company_id": "2478926",
-      "company_url": "https://hh.ru/employer/2478926",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/2163469.png",
-      "url": "https://hh.ru/vacancy/127613784",
-      "published_at": "2025-11-20T13:59:46+0300",
-      "created_at": "2025-11-20T13:59:46+0300",
-      "area": "Омск",
-      "salary": "80 000 - 100 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": 100000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы системным администратором от 2-х лет. Отличные навыки диагностики и устранения неисправностей. Ответственность, коммуникабельность, умение работать как самостоятельно...",
-      "responsibility": "Поддержка инфраструктуры: Обеспечение бесперебойной работы серверов, локальной сети, персональных компьютеров и программного обеспечения. Сетевая безопасность: Обеспечение сетевой безопасности, защита от...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "127916520",
       "name": "Системный администратор / помощник системного администратора",
       "company": "Полиграфическая компания Астер-Ек",
@@ -9849,34 +10075,6 @@
       "accept_temporary": false
     },
     {
-      "id": "125875385",
-      "name": "Ведущий системный инженер / администратор",
-      "company": "ГБУЗ Республиканский кардиологический центр",
-      "company_id": "5059479",
-      "company_url": "https://hh.ru/employer/5059479",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/125875385",
-      "published_at": "2025-11-20T07:55:22+0300",
-      "created_at": "2025-11-20T07:55:22+0300",
-      "area": "Уфа",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование (информационные технологии). Ответственность, внимательность и хорошая коммуникация на горизонтальном и вертикальном уровне.",
-      "responsibility": "Поддержка и обеспечение бесперебойной работы сетевой инфраструктуры (WAN, LAN, VLAN), систем связи (VoIP, SIP), элементов информационной безопасности. Обеспечение бесперебойного функционирования...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "126569632",
       "name": "Инженер сетей связи / Системный администратор",
       "company": "ГБУЗ Республиканский кардиологический центр",
@@ -9894,6 +10092,34 @@
       "employment": "Полная занятость",
       "requirement": "Высшее образование (информационные технологии). Умение быстро находить и устранять неисправности. Ответственность, внимательность и хорошая коммуникация на горизонтальном и вертикальном уровне.",
       "responsibility": "Администрирование серверов (Linux/Windows): сервер передачи медицинских изображений (PACS); сервер видеоконференцсвязи IVA, сервер технической системы безопасности (СКУД). Администрирование IP-телефонии...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "125875385",
+      "name": "Ведущий системный инженер / администратор",
+      "company": "ГБУЗ Республиканский кардиологический центр",
+      "company_id": "5059479",
+      "company_url": "https://hh.ru/employer/5059479",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/125875385",
+      "published_at": "2025-11-20T07:55:22+0300",
+      "created_at": "2025-11-20T07:55:22+0300",
+      "area": "Уфа",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование (информационные технологии). Ответственность, внимательность и хорошая коммуникация на горизонтальном и вертикальном уровне.",
+      "responsibility": "Поддержка и обеспечение бесперебойной работы сетевой инфраструктуры (WAN, LAN, VLAN), систем связи (VoIP, SIP), элементов информационной безопасности. Обеспечение бесперебойного функционирования...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -24216,39 +24442,6 @@
       "accept_temporary": false
     },
     {
-      "id": "127207879",
-      "name": "Системный администратор",
-      "company": "Специализированный Застройщик Атлант-Строй",
-      "company_id": "5536854",
-      "company_url": "https://hh.ru/employer/5536854",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/127207879",
-      "published_at": "2025-11-01T11:05:18+0300",
-      "created_at": "2025-11-01T11:05:18+0300",
-      "area": "Челябинск",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знание архитектуры серверов и рабочих станций. Знать сетевые протоколы и основы построения сети. Опыт администрирования станций под управлением Windows и...",
-      "responsibility": "Администрировать парка из 30 рабочих станций Windows и Debian-серверов. Администрировать домен. Администрировать и осуществлять монтаж локальной сети.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "127206961",
       "name": "Системный администратор",
       "company": "Горторг",
@@ -26383,34 +26576,6 @@
       "accept_temporary": false
     },
     {
-      "id": "126749120",
-      "name": "Системный администратор",
-      "company": "Союзгидротранс",
-      "company_id": "9973125",
-      "company_url": "https://hh.ru/employer/9973125",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1463273.png",
-      "url": "https://hh.ru/vacancy/126749120",
-      "published_at": "2025-10-29T09:50:27+0300",
-      "created_at": "2025-10-29T09:50:27+0300",
-      "area": "Мурманск",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование (техническое). Аналогичный опыт работы от 2-х лет.",
-      "responsibility": "Обеспечение бесперебойной работы ПК, сетевого и периферийного оборудования. Управление сетевым оборудованием. Установка и обслуживание программного обеспечения. Настройка и поддержка локальных...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "127086879",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
@@ -26576,16 +26741,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086890",
+      "id": "127086868",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086890",
+      "url": "https://hh.ru/vacancy/127086868",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Тюмень",
+      "area": "Красноярск",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -26609,16 +26774,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086868",
+      "id": "127086890",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086868",
+      "url": "https://hh.ru/vacancy/127086890",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Красноярск",
+      "area": "Тюмень",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -26807,39 +26972,6 @@
       "accept_temporary": false
     },
     {
-      "id": "127086883",
-      "name": "Сетевой инженер",
-      "company": "Эксперт Плюс",
-      "company_id": "3983515",
-      "company_url": "https://hh.ru/employer/3983515",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086883",
-      "published_at": "2025-10-29T08:20:35+0300",
-      "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Ставрополь",
-      "salary": "от 400 000 RUR на руки",
-      "salary_raw": {
-        "from": 400000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с сетевыми протоколами и уровнями взаимодействия OSI (RIP, OSPF, BGP, MP-BGP, IS-IS, LDP). Опыт аппаратно-программного...",
-      "responsibility": "Проверка, конфигурация сетевого оборудования. Интернет, каналы передачи данных, IP телефония, IPTV. Проектирование, администрирование IP/MPLS сети на базе оборудования Juniper...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Сетевой инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "127086892",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
@@ -26850,39 +26982,6 @@
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
       "area": "Уфа",
-      "salary": "от 400 000 RUR на руки",
-      "salary_raw": {
-        "from": 400000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы с сетевыми протоколами и уровнями взаимодействия OSI (RIP, OSPF, BGP, MP-BGP, IS-IS, LDP). Опыт аппаратно-программного...",
-      "responsibility": "Проверка, конфигурация сетевого оборудования. Интернет, каналы передачи данных, IP телефония, IPTV. Проектирование, администрирование IP/MPLS сети на базе оборудования Juniper...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Сетевой инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127086851",
-      "name": "Сетевой инженер",
-      "company": "Эксперт Плюс",
-      "company_id": "3983515",
-      "company_url": "https://hh.ru/employer/3983515",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086851",
-      "published_at": "2025-10-29T08:20:35+0300",
-      "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Новосибирск",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -26939,16 +27038,49 @@
       "accept_temporary": false
     },
     {
-      "id": "127086873",
+      "id": "127086883",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086873",
+      "url": "https://hh.ru/vacancy/127086883",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Мурманск",
+      "area": "Ставрополь",
+      "salary": "от 400 000 RUR на руки",
+      "salary_raw": {
+        "from": 400000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы с сетевыми протоколами и уровнями взаимодействия OSI (RIP, OSPF, BGP, MP-BGP, IS-IS, LDP). Опыт аппаратно-программного...",
+      "responsibility": "Проверка, конфигурация сетевого оборудования. Интернет, каналы передачи данных, IP телефония, IPTV. Проектирование, администрирование IP/MPLS сети на базе оборудования Juniper...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Сетевой инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127086851",
+      "name": "Сетевой инженер",
+      "company": "Эксперт Плюс",
+      "company_id": "3983515",
+      "company_url": "https://hh.ru/employer/3983515",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/127086851",
+      "published_at": "2025-10-29T08:20:35+0300",
+      "created_at": "2025-10-29T08:20:35+0300",
+      "area": "Новосибирск",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -27015,6 +27147,39 @@
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
       "area": "Смоленск",
+      "salary": "от 400 000 RUR на руки",
+      "salary_raw": {
+        "from": 400000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы с сетевыми протоколами и уровнями взаимодействия OSI (RIP, OSPF, BGP, MP-BGP, IS-IS, LDP). Опыт аппаратно-программного...",
+      "responsibility": "Проверка, конфигурация сетевого оборудования. Интернет, каналы передачи данных, IP телефония, IPTV. Проектирование, администрирование IP/MPLS сети на базе оборудования Juniper...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Сетевой инженер"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127086873",
+      "name": "Сетевой инженер",
+      "company": "Эксперт Плюс",
+      "company_id": "3983515",
+      "company_url": "https://hh.ru/employer/3983515",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/127086873",
+      "published_at": "2025-10-29T08:20:35+0300",
+      "created_at": "2025-10-29T08:20:35+0300",
+      "area": "Мурманск",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -27220,39 +27385,6 @@
       "employment": "Частичная занятость",
       "requirement": "",
       "responsibility": "Обеспечение правильной эксплуатации, эффективной и бесперебойной работы инженерно-технического и технологического оборудования объекта. В зону ответственности входят: - системы безопасности объекта...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127084743",
-      "name": "Системный администратор (начинающий)",
-      "company": "Стоматология Ультра-Дент (ООО Ультра-Мед)",
-      "company_id": "10653845",
-      "company_url": "https://hh.ru/employer/10653845",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1420902.png",
-      "url": "https://hh.ru/vacancy/127084743",
-      "published_at": "2025-10-29T07:04:47+0300",
-      "created_at": "2025-10-29T07:04:47+0300",
-      "area": "Тюмень",
-      "salary": "75 000 - 75 000 RUR на руки",
-      "salary_raw": {
-        "from": 75000,
-        "to": 75000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "Нет опыта",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Готовность учиться и развиваться в сфере IT. Базовый опыт работы с Active Directory. Ответственность, аккуратность и умение работать в команде.",
-      "responsibility": "Помогать пользователям с техническими вопросами и обеспечивать бесперебойную работу офисной техники. Собирать, устанавливать и настраивать рабочие места сотрудников.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -27941,39 +28073,6 @@
         "Системный администратор"
       ],
       "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124855370",
-      "name": "Системный администратор",
-      "company": "ТНС энерго Кубань",
-      "company_id": "1988724",
-      "company_url": "https://hh.ru/employer/1988724",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/2239946.png",
-      "url": "https://hh.ru/vacancy/124855370",
-      "published_at": "2025-10-28T08:51:31+0300",
-      "created_at": "2025-10-28T08:51:31+0300",
-      "area": "Краснодар",
-      "salary": "80 000 - 100 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 80000,
-        "to": 100000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Образование: высшее Информационные системы и технологии/прикладная информатика/программное обеспечение информационных технологий и др.. Опыт работы в аналогичных должностях: 1...",
-      "responsibility": "Установка, настройка, администрирование физических и виртуальных серверов на базе ОС Windows Server (2012-2022) и Linux (Centos, Ubuntu, Astra).",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": true,
       "premium": false,
       "accept_handicapped": false,
       "accept_kids": false,
