@@ -10,16 +10,110 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-25T03:33:50Z",
+  "updated": "2025-11-25T04:43:42Z",
   "statistics": {
-    "total": 914,
-    "with_salary": 673,
+    "total": 913,
+    "with_salary": 672,
     "companies": 676,
     "cities": 147,
     "premium": 0,
     "with_test": 35
   },
   "vacancies": [
+    {
+      "id": "120054197",
+      "name": "Системный администратор Linux-серверов",
+      "company": "РМК Диджитал",
+      "company_id": "11017054",
+      "company_url": "https://hh.ru/employer/11017054",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6904865.jpeg",
+      "url": "https://hh.ru/vacancy/120054197",
+      "published_at": "2025-11-25T07:33:15+0300",
+      "created_at": "2025-11-25T07:33:15+0300",
+      "area": "Екатеринбург",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Что нужно знать и уметь: Особенности работы Ethernet и FiberChannel в Linux.",
+      "responsibility": "Отслеживать состояние наших серверов по мониторингу. Устанавливать Linux на новые серверы. Настраивать безопасную и быструю работу сервисов. Устанавливать и обновлять...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "128028591",
+      "name": "Системный администратор",
+      "company": "ФГБОУ ВО Иркутский Государственный Университет Путей Сообщения",
+      "company_id": "924971",
+      "company_url": "https://hh.ru/employer/924971",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1459416.png",
+      "url": "https://hh.ru/vacancy/128028591",
+      "published_at": "2025-11-25T06:58:04+0300",
+      "created_at": "2025-11-25T06:58:04+0300",
+      "area": "Иркутск",
+      "salary": "от 60 000 RUR на руки",
+      "salary_raw": {
+        "from": 60000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "",
+      "responsibility": "Администрирование серверов на ОС ALT Linux. Работа с операционными системами. Обслуживание серверов. Возможно предоставление служебного жилья, находящегося в ведении организации.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "127093890",
+      "name": "Системный администратор",
+      "company": "РУСПРОМТЕХСНАБ",
+      "company_id": "2622709",
+      "company_url": "https://hh.ru/employer/2622709",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/7143406.jpeg",
+      "url": "https://hh.ru/vacancy/127093890",
+      "published_at": "2025-11-25T06:39:36+0300",
+      "created_at": "2025-11-25T06:39:36+0300",
+      "area": "Челябинск",
+      "salary": "от 80 000 RUR на руки",
+      "salary_raw": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "1. Опыт работы системным администратором от 3 лет. 2. Знание принципов работы протоколов TCP/IP, протоколов передачи данных HTTP/S...",
+      "responsibility": "поддержка и администрирование пользователей (учетные записи, права доступа, почта, Битрикс). -установка, настройка и поддержка ОС. -сборка компьютеров, замена комплектующих. -",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "127438431",
       "name": "Системный администратор",
@@ -920,12 +1014,12 @@
       "published_at": "2025-11-24T15:22:24+0300",
       "created_at": "2025-11-24T15:22:24+0300",
       "area": "Екатеринбург",
-      "salary": "от 70 000 RUR до вычета налогов",
+      "salary": "от 70 000 RUR на руки",
       "salary_raw": {
         "from": 70000,
         "to": null,
         "currency": "RUR",
-        "gross": true
+        "gross": false
       },
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
@@ -1420,7 +1514,7 @@
       "experience": "От 1 года до 3 лет",
       "schedule": "Полный день",
       "employment": "Полная занятость",
-      "requirement": "Опыт работы системным администратором от 1 года. Уверенные знания Windows/Windows Server. Понимание сетей, СКС, основ информационной безопасности.",
+      "requirement": "Опыт работы системным администратором от 1 года. Базовые знания Windows/Windows Server. Понимание сетей, СКС, основ информационной безопасности.",
       "responsibility": "Поддержка ПК, Windows, установка и обновление ПО. Базовое администрирование Windows Server. Настройка и обслуживание мини-АТС Panasonic. Работа с видеонаблюдением...",
       "type": "Открытая",
       "professional_roles": [
@@ -3992,39 +4086,6 @@
       "employment": "Полная занятость",
       "requirement": "Желателен опыт работы ( если нет, предусмотрено обучение). Знание работы сети. Ответственность, исполнительность.",
       "responsibility": "Мониторинг работоспособности сети.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127093890",
-      "name": "Системный администратор",
-      "company": "РУСПРОМТЕХСНАБ",
-      "company_id": "2622709",
-      "company_url": "https://hh.ru/employer/2622709",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/7143406.jpeg",
-      "url": "https://hh.ru/vacancy/127093890",
-      "published_at": "2025-11-24T06:28:30+0300",
-      "created_at": "2025-11-24T06:28:30+0300",
-      "area": "Челябинск",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "1. Опыт работы системным администратором от 3 лет. 2. Знание принципов работы протоколов TCP/IP, протоколов передачи данных HTTP/S...",
-      "responsibility": "поддержка и администрирование пользователей (учетные записи, права доступа, почта, Битрикс). -установка, настройка и поддержка ОС. -сборка компьютеров, замена комплектующих. -",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -21630,72 +21691,6 @@
       "accept_temporary": false
     },
     {
-      "id": "127359527",
-      "name": "Системный администратор отеля",
-      "company": "Гранд -Крио Алтай",
-      "company_id": "5519975",
-      "company_url": "https://hh.ru/employer/5519975",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/127359527",
-      "published_at": "2025-11-06T11:50:53+0300",
-      "created_at": "2025-11-06T11:50:53+0300",
-      "area": "Барнаул",
-      "salary": "120 000 - 120 000 RUR на руки",
-      "salary_raw": {
-        "from": 120000,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы системным администратором от 3 лет (желательно в гостиничном или сервисном бизнесе). Отличное знание Windows Server 2022, Active Directory...",
-      "responsibility": "Обеспечение бесперебойной работы IT-инфраструктуры отеля (серверы, рабочие станции, сети, периферия). Администрирование Windows Server 2022, настройка и поддержка служб (AD...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127359526",
-      "name": "Системный администратор отеля",
-      "company": "Гранд -Крио Алтай",
-      "company_id": "5519975",
-      "company_url": "https://hh.ru/employer/5519975",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/127359526",
-      "published_at": "2025-11-06T11:50:53+0300",
-      "created_at": "2025-11-06T11:50:53+0300",
-      "area": "Новосибирск",
-      "salary": "120 000 - 120 000 RUR на руки",
-      "salary_raw": {
-        "from": 120000,
-        "to": 120000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы системным администратором от 3 лет (желательно в гостиничном или сервисном бизнесе). Отличное знание Windows Server 2022, Active Directory...",
-      "responsibility": "Обеспечение бесперебойной работы IT-инфраструктуры отеля (серверы, рабочие станции, сети, периферия). Администрирование Windows Server 2022, настройка и поддержка служб (AD...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "127358963",
       "name": "Системный администратор",
       "company": "Инфра",
@@ -26906,16 +26901,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086855",
+      "id": "127086851",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086855",
+      "url": "https://hh.ru/vacancy/127086851",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Астрахань",
+      "area": "Новосибирск",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -26939,16 +26934,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086851",
+      "id": "127086855",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086851",
+      "url": "https://hh.ru/vacancy/127086855",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Новосибирск",
+      "area": "Астрахань",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -28939,34 +28934,6 @@
       "employment": "Полная занятость",
       "requirement": "опыт установки и поддержки операционных систем и офисных программ. - навыки работы с серверным оборудованием. - знание типологий сетей, механизма работы сетевых...",
       "responsibility": "установка и обслуживание серверов, серверного ПО, локальной сети, компьютеров, периферийных устройств и оргтехники. - установка и поддержание нормальной работы операционных систем...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "120054197",
-      "name": "Системный администратор Linux-серверов",
-      "company": "РМК Диджитал",
-      "company_id": "11017054",
-      "company_url": "https://hh.ru/employer/11017054",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6904865.jpeg",
-      "url": "https://hh.ru/vacancy/120054197",
-      "published_at": "2025-10-26T07:33:14+0300",
-      "created_at": "2025-10-26T07:33:14+0300",
-      "area": "Екатеринбург",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Что нужно знать и уметь: Особенности работы Ethernet и FiberChannel в Linux.",
-      "responsibility": "Отслеживать состояние наших серверов по мониторингу. Устанавливать Linux на новые серверы. Настраивать безопасную и быструю работу сервисов. Устанавливать и обновлять...",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
