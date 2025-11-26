@@ -10,16 +10,49 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-26T17:50:36Z",
+  "updated": "2025-11-26T18:52:11Z",
   "statistics": {
-    "total": 882,
-    "with_salary": 622,
-    "companies": 611,
+    "total": 883,
+    "with_salary": 623,
+    "companies": 612,
     "cities": 163,
     "premium": 1,
     "with_test": 19
   },
   "vacancies": [
+    {
+      "id": "128105494",
+      "name": "Сетевой инженер / Разработчик транспортных протоколов (R&D)",
+      "company": "Микая Ираклий Гурамович",
+      "company_id": "11967602",
+      "company_url": "https://hh.ru/employer/11967602",
+      "company_logo": "",
+      "url": "https://hh.ru/vacancy/128105494",
+      "published_at": "2025-11-26T21:37:00+0300",
+      "created_at": "2025-11-26T21:37:00+0300",
+      "area": "Нижний Новгород",
+      "salary": "от 180 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 180000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "Более 6 лет",
+      "schedule": "Удаленная работа",
+      "employment": "Частичная занятость",
+      "requirement": "Транспортными уровнями (TCP/UDP). Современными технологиями мультиплексирования. Шифрованными каналами. Хорошо знает принципы TLS, QUIC, multiplexing, obfuscation, flow control.",
+      "responsibility": "Разработка собственных транспортных модулей и адаптивных сетевых механизмов. Модификация существующих реализаций протоколов (на Go, Rust или C++). Работа с: Механизмами...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Программист, разработчик"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
     {
       "id": "127550147",
       "name": "Системный администратор (рабочие места)",
@@ -2983,6 +3016,39 @@
       "accept_temporary": false
     },
     {
+      "id": "128056473",
+      "name": "Системный администратор Linux",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5664943.jpeg",
+      "url": "https://hh.ru/vacancy/128056473",
+      "published_at": "2025-11-25T15:33:51+0300",
+      "created_at": "2025-11-25T15:33:51+0300",
+      "area": "Красный Кут",
+      "salary": "1 000 - 5 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 1000,
+        "to": 5000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Установка и настройка OC ALT Linux. Работа на высоком техническом уровне с ПК. Выполнение в срок поставленных задач.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "128056474",
       "name": "Системный администратор Linux",
       "company": "MCORE",
@@ -3026,39 +3092,6 @@
       "published_at": "2025-11-25T15:33:51+0300",
       "created_at": "2025-11-25T15:33:51+0300",
       "area": "Рузаевка",
-      "salary": "1 000 - 5 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 1000,
-        "to": 5000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
-      "responsibility": "Установка и настройка OC ALT Linux. Работа на высоком техническом уровне с ПК. Выполнение в срок поставленных задач.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "128056473",
-      "name": "Системный администратор Linux",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5664943.jpeg",
-      "url": "https://hh.ru/vacancy/128056473",
-      "published_at": "2025-11-25T15:33:51+0300",
-      "created_at": "2025-11-25T15:33:51+0300",
-      "area": "Красный Кут",
       "salary": "1 000 - 5 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 1000,
@@ -4002,16 +4035,16 @@
       "accept_temporary": false
     },
     {
-      "id": "128042105",
+      "id": "128042107",
       "name": "Системный администратор Linux",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5664943.jpeg",
-      "url": "https://hh.ru/vacancy/128042105",
+      "url": "https://hh.ru/vacancy/128042107",
       "published_at": "2025-11-25T11:33:53+0300",
       "created_at": "2025-11-25T11:33:53+0300",
-      "area": "Новокуйбышевск",
+      "area": "Чапаевск",
       "salary": "1 000 - 5 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 1000,
@@ -4035,16 +4068,16 @@
       "accept_temporary": false
     },
     {
-      "id": "128042107",
+      "id": "128042105",
       "name": "Системный администратор Linux",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5664943.jpeg",
-      "url": "https://hh.ru/vacancy/128042107",
+      "url": "https://hh.ru/vacancy/128042105",
       "published_at": "2025-11-25T11:33:53+0300",
       "created_at": "2025-11-25T11:33:53+0300",
-      "area": "Чапаевск",
+      "area": "Новокуйбышевск",
       "salary": "1 000 - 5 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 1000,
@@ -4101,16 +4134,16 @@
       "accept_temporary": false
     },
     {
-      "id": "128042109",
+      "id": "128042112",
       "name": "Системный администратор Linux",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5664943.jpeg",
-      "url": "https://hh.ru/vacancy/128042109",
+      "url": "https://hh.ru/vacancy/128042112",
       "published_at": "2025-11-25T11:33:53+0300",
       "created_at": "2025-11-25T11:33:53+0300",
-      "area": "Сердобск",
+      "area": "Мокшан",
       "salary": "1 000 - 5 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 1000,
@@ -4134,16 +4167,16 @@
       "accept_temporary": false
     },
     {
-      "id": "128042112",
+      "id": "128042109",
       "name": "Системный администратор Linux",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5664943.jpeg",
-      "url": "https://hh.ru/vacancy/128042112",
+      "url": "https://hh.ru/vacancy/128042109",
       "published_at": "2025-11-25T11:33:53+0300",
       "created_at": "2025-11-25T11:33:53+0300",
-      "area": "Мокшан",
+      "area": "Сердобск",
       "salary": "1 000 - 5 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 1000,
@@ -8709,16 +8742,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127970057",
+      "id": "127970059",
       "name": "Системный администратор",
       "company": "Алабуга, ОЭЗ ППТ",
       "company_id": "68587",
       "company_url": "https://hh.ru/employer/68587",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1392604.png",
-      "url": "https://hh.ru/vacancy/127970057",
+      "url": "https://hh.ru/vacancy/127970059",
       "published_at": "2025-11-23T12:03:42+0300",
       "created_at": "2025-11-23T12:03:42+0300",
-      "area": "Елабуга",
+      "area": "Набережные Челны",
       "salary": "от 127 500 RUR до вычета налогов",
       "salary_raw": {
         "from": 127500,
@@ -8742,16 +8775,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127970059",
+      "id": "127970057",
       "name": "Системный администратор",
       "company": "Алабуга, ОЭЗ ППТ",
       "company_id": "68587",
       "company_url": "https://hh.ru/employer/68587",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original/1392604.png",
-      "url": "https://hh.ru/vacancy/127970059",
+      "url": "https://hh.ru/vacancy/127970057",
       "published_at": "2025-11-23T12:03:42+0300",
       "created_at": "2025-11-23T12:03:42+0300",
-      "area": "Набережные Челны",
+      "area": "Елабуга",
       "salary": "от 127 500 RUR до вычета налогов",
       "salary_raw": {
         "from": 127500,
@@ -26824,16 +26857,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086869",
+      "id": "127086865",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086869",
+      "url": "https://hh.ru/vacancy/127086865",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Курск",
+      "area": "Киров (Кировская область)",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -26857,16 +26890,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086853",
+      "id": "127086869",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086853",
+      "url": "https://hh.ru/vacancy/127086869",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Благовещенск (Амурская область)",
+      "area": "Курск",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
@@ -26923,16 +26956,16 @@
       "accept_temporary": false
     },
     {
-      "id": "127086865",
+      "id": "127086853",
       "name": "Сетевой инженер",
       "company": "Эксперт Плюс",
       "company_id": "3983515",
       "company_url": "https://hh.ru/employer/3983515",
       "company_logo": "",
-      "url": "https://hh.ru/vacancy/127086865",
+      "url": "https://hh.ru/vacancy/127086853",
       "published_at": "2025-10-29T08:20:35+0300",
       "created_at": "2025-10-29T08:20:35+0300",
-      "area": "Киров (Кировская область)",
+      "area": "Благовещенск (Амурская область)",
       "salary": "от 400 000 RUR на руки",
       "salary_raw": {
         "from": 400000,
