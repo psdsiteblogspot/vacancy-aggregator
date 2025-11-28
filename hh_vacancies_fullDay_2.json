@@ -10,16 +10,181 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-28T06:56:39Z",
+  "updated": "2025-11-28T07:45:42Z",
   "statistics": {
-    "total": 875,
-    "with_salary": 609,
-    "companies": 625,
+    "total": 877,
+    "with_salary": 610,
+    "companies": 627,
     "cities": 167,
     "premium": 0,
     "with_test": 21
   },
   "vacancies": [
+    {
+      "id": "124309318",
+      "name": "Системный администратор",
+      "company": "Объединенные кондитеры",
+      "company_id": "44877",
+      "company_url": "https://hh.ru/employer/44877",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/1868273.jpeg",
+      "url": "https://hh.ru/vacancy/124309318",
+      "published_at": "2025-11-28T10:22:36+0300",
+      "created_at": "2025-11-28T10:22:36+0300",
+      "area": "Казань",
+      "salary": "73 800 - 73 800 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 73800,
+        "to": 73800,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Знания работы ADDS, DNS, DHCP, TCP, UDP. ∙ Знание Windows Server 2003-2022, Windows XP/7/8/10,11. ∙",
+      "responsibility": "Поддержание работоспособности сервера , парка ПК и печатной техники. ∙ Установка, настройка программного обеспечения. ∙ Работа с периферийными устройствами (профилактика, обслуживание). ∙",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "128158592",
+      "name": "Системный администратор",
+      "company": "Дальрыбтехцентр",
+      "company_id": "3887148",
+      "company_url": "https://hh.ru/employer/3887148",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/2915223.png",
+      "url": "https://hh.ru/vacancy/128158592",
+      "published_at": "2025-11-28T10:22:06+0300",
+      "created_at": "2025-11-28T10:22:06+0300",
+      "area": "Владивосток",
+      "salary": "от 135 000 RUR на руки",
+      "salary_raw": {
+        "from": 135000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы от 3 лет. Знание основ работы с базами данных MSSQL / PostgreSQL будет дополнительным плюсом в пользу кандидата при...",
+      "responsibility": "Поддержка сетевой инфраструктуры предприятия. Администрирование серверов под управлением Debian GNU/Linux. Установка и настройка операционной системы (в том числе на...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "128158121",
+      "name": "Администратор компьютерного клуба",
+      "company": "Малянов Павел Павлович",
+      "company_id": "11583454",
+      "company_url": "https://hh.ru/employer/11583454",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/7034457.jpeg",
+      "url": "https://hh.ru/vacancy/128158121",
+      "published_at": "2025-11-28T10:13:05+0300",
+      "created_at": "2025-11-28T10:13:05+0300",
+      "area": "Казань",
+      "salary": "55 000 - 60 000 RUR на руки",
+      "salary_raw": {
+        "from": 55000,
+        "to": 60000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "Нет опыта",
+      "schedule": "Сменный график",
+      "employment": "Полная занятость",
+      "requirement": "Ты точно нам подойдешь, если: — любишь помогать людям и тебя не пугают сложные ситуации. — быстро учишься и адаптируешься к новым...",
+      "responsibility": "встречать и регистрировать гостей в программе клуба. — бронировать игровые места и сажать гостей за компьютеры и приставки. — быстро решать возникающие...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": true
+    },
+    {
+      "id": "127691789",
+      "name": "Сетевой администратор",
+      "company": "Банк Приморье",
+      "company_id": "741540",
+      "company_url": "https://hh.ru/employer/741540",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6179588.png",
+      "url": "https://hh.ru/vacancy/127691789",
+      "published_at": "2025-11-28T10:09:28+0300",
+      "created_at": "2025-11-28T10:09:28+0300",
+      "area": "Хабаровск",
+      "salary": "200 000 - 200 000 RUR на руки",
+      "salary_raw": {
+        "from": 200000,
+        "to": 200000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 3 до 6 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Опыт работы от 3 лет по профилю деятельности. Опыт проектирования, настройки, обслуживания и устранения неполадок в компьютерных сетях.",
+      "responsibility": "Разработка схем и конфигураций сетей. Настройка оборудованием Cisco/CheckPoint/Координатор, Континент (маршрутизаторы, коммутаторы, NGFW). Поиск и устранение неисправностей.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Специалист технической поддержки"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "128157468",
+      "name": "Системный администратор",
+      "company": "Специализированный застройщик BM GROUP",
+      "company_id": "3499705",
+      "company_url": "https://hh.ru/employer/3499705",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6844233.png",
+      "url": "https://hh.ru/vacancy/128157468",
+      "published_at": "2025-11-28T10:00:58+0300",
+      "created_at": "2025-11-28T10:00:58+0300",
+      "area": "Воронеж",
+      "salary": "от 90 000 RUR на руки",
+      "salary_raw": {
+        "from": 90000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее образование (АСУ ТП, Информационные технологии). Работа в производственной или строительной компании не менее 3 лет. Наличие опыта подключения удаленных...",
+      "responsibility": "Поддержание в работоспособном состоянии серверной инфраструктуры с учетом подключения удаленных пользователей на объектах строительства. Администрирование серверов и сетей для эффективной...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "128156946",
       "name": "Системный администратор",
@@ -935,6 +1100,34 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "128147014",
+      "name": "Выездной системный администратор",
+      "company": "Рексофт",
+      "company_id": "3984",
+      "company_url": "https://hh.ru/employer/3984",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1467820.png",
+      "url": "https://hh.ru/vacancy/128147014",
+      "published_at": "2025-11-27T17:11:43+0300",
+      "created_at": "2025-11-27T17:11:43+0300",
+      "area": "Воронеж",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "Нет опыта",
+      "schedule": "Удаленная работа",
+      "employment": "Полная занятость",
+      "requirement": "Базовые знания системного администрирования (Windows). Понимание сетевых настроек: DHCP, статические IP, маски подсети, DNS и т.п. Умение быстро находить...",
+      "responsibility": "Выезд к пользователям для настройки рабочих станций и сетевой среды. Диагностика технических проблем: отсутствие интернета, ошибки ПО, некорректная работа системы.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный инженер"
       ],
       "has_test": false,
       "premium": false,
@@ -5126,7 +5319,7 @@
         "currency": "RUR",
         "gross": false
       },
-      "experience": "От 1 года до 3 лет",
+      "experience": "Нет опыта",
       "schedule": "Полный день",
       "employment": "Полная занятость",
       "requirement": "Опыт работы в ОС MS Windows всех редакций на уровне администратора. Уверенный пользователь пакета MS Office. Умение распознать следствие/причины...",
@@ -5195,72 +5388,6 @@
       "type": "Открытая",
       "professional_roles": [
         "Системный инженер"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127660143",
-      "name": "Системный администратор",
-      "company": "Трансэнерго",
-      "company_id": "774557",
-      "company_url": "https://hh.ru/employer/774557",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5741059.png",
-      "url": "https://hh.ru/vacancy/127660143",
-      "published_at": "2025-11-25T17:17:41+0300",
-      "created_at": "2025-11-25T17:17:41+0300",
-      "area": "Кстово",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Средне-специальное образование либо незаконченное высшее.",
-      "responsibility": "Устанавливать, обновлять и обслуживать ПО и ОС (клиентское и серверное). Управлять резервным копированием данных. Управлять правами доступа. Управлять пользовательскими аккаунтами.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127660142",
-      "name": "Системный администратор",
-      "company": "Трансэнерго",
-      "company_id": "774557",
-      "company_url": "https://hh.ru/employer/774557",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5741059.png",
-      "url": "https://hh.ru/vacancy/127660142",
-      "published_at": "2025-11-25T17:17:41+0300",
-      "created_at": "2025-11-25T17:17:41+0300",
-      "area": "Нижний Новгород",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Средне-специальное образование либо незаконченное высшее.",
-      "responsibility": "Устанавливать, обновлять и обслуживать ПО и ОС (клиентское и серверное). Управлять резервным копированием данных. Управлять правами доступа. Управлять пользовательскими аккаунтами.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
       ],
       "has_test": false,
       "premium": false,
@@ -5907,16 +6034,16 @@
       "accept_temporary": false
     },
     {
-      "id": "128056474",
+      "id": "128056477",
       "name": "Системный администратор Linux",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5664943.jpeg",
-      "url": "https://hh.ru/vacancy/128056474",
+      "url": "https://hh.ru/vacancy/128056477",
       "published_at": "2025-11-25T15:33:51+0300",
       "created_at": "2025-11-25T15:33:51+0300",
-      "area": "Пугачев",
+      "area": "Рузаевка",
       "salary": "1 000 - 5 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 1000,
@@ -5973,16 +6100,16 @@
       "accept_temporary": false
     },
     {
-      "id": "128056477",
+      "id": "128056474",
       "name": "Системный администратор Linux",
       "company": "MCORE",
       "company_id": "622121",
       "company_url": "https://hh.ru/employer/622121",
       "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5664943.jpeg",
-      "url": "https://hh.ru/vacancy/128056477",
+      "url": "https://hh.ru/vacancy/128056474",
       "published_at": "2025-11-25T15:33:51+0300",
       "created_at": "2025-11-25T15:33:51+0300",
-      "area": "Рузаевка",
+      "area": "Пугачев",
       "salary": "1 000 - 5 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 1000,
@@ -7312,7 +7439,7 @@
       "company": "Информационные Технологии",
       "company_id": "11779176",
       "company_url": "https://hh.ru/employer/11779176",
-      "company_logo": "",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1479137.png",
       "url": "https://hh.ru/vacancy/128040517",
       "published_at": "2025-11-25T11:08:49+0300",
       "created_at": "2025-11-25T11:08:49+0300",
@@ -17812,39 +17939,6 @@
       "accept_temporary": false
     },
     {
-      "id": "127691789",
-      "name": "Сетевой администратор",
-      "company": "Банк Приморье",
-      "company_id": "741540",
-      "company_url": "https://hh.ru/employer/741540",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/6179588.png",
-      "url": "https://hh.ru/vacancy/127691789",
-      "published_at": "2025-11-14T04:32:09+0300",
-      "created_at": "2025-11-14T04:32:09+0300",
-      "area": "Хабаровск",
-      "salary": "180 000 - 180 000 RUR на руки",
-      "salary_raw": {
-        "from": 180000,
-        "to": 180000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 3 до 6 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Опыт работы от 3 лет по профилю деятельности. Опыт проектирования, настройки, обслуживания и устранения неполадок в компьютерных сетях.",
-      "responsibility": "Разработка схем и конфигураций сетей. Настройка оборудованием Cisco/CheckPoint/Координатор, Континент (маршрутизаторы, коммутаторы, NGFW). Поиск и устранение неисправностей.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Специалист технической поддержки"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "127691279",
       "name": "Системный администратор",
       "company": "ДВМ-Приморье",
@@ -25264,39 +25358,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее или среднее техническое образование. Желателен опыт работы в технической поддержке пользователей. Знание стандартных сетевых протоколов на начальном уровне, опыт...",
       "responsibility": "Обработка и исполнение заявок от пользователей в системе Service Desk и их решение, в рамках своей компетенции. Первичная диагностика проблем...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "124309318",
-      "name": "Системный администратор",
-      "company": "Объединенные кондитеры",
-      "company_id": "44877",
-      "company_url": "https://hh.ru/employer/44877",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/1868273.jpeg",
-      "url": "https://hh.ru/vacancy/124309318",
-      "published_at": "2025-11-01T16:11:46+0300",
-      "created_at": "2025-11-01T16:11:46+0300",
-      "area": "Казань",
-      "salary": "73 800 - 73 800 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 73800,
-        "to": 73800,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Знания работы ADDS, DNS, DHCP, TCP, UDP. ∙ Знание Windows Server 2003-2022, Windows XP/7/8/10,11. ∙",
-      "responsibility": "Поддержание работоспособности сервера , парка ПК и печатной техники. ∙ Установка, настройка программного обеспечения. ∙ Работа с периферийными устройствами (профилактика, обслуживание). ∙",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
