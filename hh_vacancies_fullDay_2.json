@@ -10,16 +10,77 @@
     "schedule": "Удалённая работа",
     "search_field": "В названии вакансии"
   },
-  "updated": "2025-11-28T08:55:32Z",
+  "updated": "2025-11-28T09:47:52Z",
   "statistics": {
-    "total": 878,
-    "with_salary": 610,
-    "companies": 627,
+    "total": 876,
+    "with_salary": 608,
+    "companies": 626,
     "cities": 168,
     "premium": 0,
     "with_test": 21
   },
   "vacancies": [
+    {
+      "id": "127874818",
+      "name": "Системный администратор",
+      "company": "АВТОЭЛЕКТРОНИКА",
+      "company_id": "229319",
+      "company_url": "https://hh.ru/employer/229319",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1386121.png",
+      "url": "https://hh.ru/vacancy/127874818",
+      "published_at": "2025-11-28T12:34:16+0300",
+      "created_at": "2025-11-28T12:34:16+0300",
+      "area": "Калуга",
+      "salary": "не указана",
+      "salary_raw": null,
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Высшее техническое образование. Знание TCP/IP, Понимание модели OSI. Знание операционных систем Unix/Linux, Windows. Навык управления и администрирование баз...",
+      "responsibility": "Обеспечение бесперебойной работы всех ПК, серверов, устранение неисправностей. Обеспечение бесперебойной работы всех ПЭВМ на предприятии, кластера серверов АО \"Автоэлектроника\", ЛВС...",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
+      "id": "122204066",
+      "name": "Системный администратор",
+      "company": "ГБУЗ Самарская городская клиническая больница №2 имени Н.А. Семашко",
+      "company_id": "2919562",
+      "company_url": "https://hh.ru/employer/2919562",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/2189302.jpeg",
+      "url": "https://hh.ru/vacancy/122204066",
+      "published_at": "2025-11-28T12:20:44+0300",
+      "created_at": "2025-11-28T12:20:44+0300",
+      "area": "Самара",
+      "salary": "от 40 000 RUR на руки",
+      "salary_raw": {
+        "from": 40000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Полный день",
+      "employment": "Полная занятость",
+      "requirement": "Навыки работы в IT выше уверенного пользователя. Знания настройки ОС Windows и работы основных офисных программ. В/о.",
+      "responsibility": "Работа в медицинских информационных системах (ЕМИАС). Консультация пользователей по работе с ПК и МИС. Решение текущих ошибок МИС. Обслуживание оргтехники.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
     {
       "id": "128162630",
       "name": "Помощник системного администратора",
@@ -1168,39 +1229,6 @@
       "employment": "Полная занятость",
       "requirement": "Хорошие знания и навыки в обслуживании компьютеров, серверного оборудования. Высшее образование.",
       "responsibility": "Техническое обслуживание и программная настройка телекоммуникационного, серверного оборудования, персональных электронных вычислительных машин. Ведение документации по информационной безопасности. Работа с пользователями...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "122204066",
-      "name": "Системный администратор",
-      "company": "ГБУЗ Самарская городская клиническая больница №2 имени Н.А. Семашко",
-      "company_id": "2919562",
-      "company_url": "https://hh.ru/employer/2919562",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/2189302.jpeg",
-      "url": "https://hh.ru/vacancy/122204066",
-      "published_at": "2025-11-28T06:19:59+0300",
-      "created_at": "2025-11-28T06:19:59+0300",
-      "area": "Самара",
-      "salary": "от 40 000 RUR на руки",
-      "salary_raw": {
-        "from": 40000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Навыки работы в IT выше уверенного пользователя. Знания настройки ОС Windows и работы основных офисных программ. В/о.",
-      "responsibility": "Работа в медицинских информационных системах (ЕМИАС). Консультация пользователей по работе с ПК и МИС. Решение текущих ошибок МИС. Обслуживание оргтехники.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -4814,34 +4842,6 @@
       "accept_temporary": false
     },
     {
-      "id": "127874818",
-      "name": "Системный администратор",
-      "company": "АВТОЭЛЕКТРОНИКА",
-      "company_id": "229319",
-      "company_url": "https://hh.ru/employer/229319",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1386121.png",
-      "url": "https://hh.ru/vacancy/127874818",
-      "published_at": "2025-11-26T11:05:47+0300",
-      "created_at": "2025-11-26T11:05:47+0300",
-      "area": "Калуга",
-      "salary": "не указана",
-      "salary_raw": null,
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее техническое образование. Знание TCP/IP, Понимание модели OSI. Знание операционных систем Unix/Linux, Windows. Навык управления и администрирование баз...",
-      "responsibility": "Обеспечение бесперебойной работы всех ПК, серверов, устранение неисправностей. Обеспечение бесперебойной работы всех ПЭВМ на предприятии, кластера серверов АО \"Автоэлектроника\", ЛВС...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
       "id": "128078065",
       "name": "Системный администратор (IT специалист)",
       "company": "САТУРН НН",
@@ -6326,6 +6326,39 @@
       "accept_temporary": false
     },
     {
+      "id": "128056473",
+      "name": "Системный администратор Linux",
+      "company": "MCORE",
+      "company_id": "622121",
+      "company_url": "https://hh.ru/employer/622121",
+      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5664943.jpeg",
+      "url": "https://hh.ru/vacancy/128056473",
+      "published_at": "2025-11-25T15:33:51+0300",
+      "created_at": "2025-11-25T15:33:51+0300",
+      "area": "Красный Кут",
+      "salary": "1 000 - 5 000 RUR до вычета налогов",
+      "salary_raw": {
+        "from": 1000,
+        "to": 5000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "experience": "От 1 года до 3 лет",
+      "schedule": "Гибкий график",
+      "employment": "Частичная занятость",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Установка и настройка OC ALT Linux. Работа на высоком техническом уровне с ПК. Выполнение в срок поставленных задач.",
+      "type": "Открытая",
+      "professional_roles": [
+        "Системный администратор"
+      ],
+      "has_test": false,
+      "premium": false,
+      "accept_handicapped": false,
+      "accept_kids": false,
+      "accept_temporary": false
+    },
+    {
       "id": "128056477",
       "name": "Системный администратор Linux",
       "company": "MCORE",
@@ -6369,39 +6402,6 @@
       "published_at": "2025-11-25T15:33:51+0300",
       "created_at": "2025-11-25T15:33:51+0300",
       "area": "Пугачев",
-      "salary": "1 000 - 5 000 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 1000,
-        "to": 5000,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Гибкий график",
-      "employment": "Частичная занятость",
-      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
-      "responsibility": "Установка и настройка OC ALT Linux. Работа на высоком техническом уровне с ПК. Выполнение в срок поставленных задач.",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "128056473",
-      "name": "Системный администратор Linux",
-      "company": "MCORE",
-      "company_id": "622121",
-      "company_url": "https://hh.ru/employer/622121",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original-round/5664943.jpeg",
-      "url": "https://hh.ru/vacancy/128056473",
-      "published_at": "2025-11-25T15:33:51+0300",
-      "created_at": "2025-11-25T15:33:51+0300",
-      "area": "Красный Кут",
       "salary": "1 000 - 5 000 RUR до вычета налогов",
       "salary_raw": {
         "from": 1000,
@@ -14389,8 +14389,8 @@
       "experience": "От 1 года до 3 лет",
       "schedule": "Гибкий график",
       "employment": "Проектная работа",
-      "requirement": "опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. опыт работы по настройке операционных...",
-      "responsibility": "В настоящее время под проект по миграции ПК на OC ALT Linux. Работа предстоит через специализированную платформу (MPro).",
+      "requirement": "Опыт работы по настройке и ремонту ПК (желательно уровень системного администратора), а также периферийного оборудования. Опыт работы по настройке операционных...",
+      "responsibility": "Установка и настройка OC ALT Linux. Работа на высоком техническом уровне с ПК. Выполнение в срок поставленных задач.",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
@@ -14399,7 +14399,7 @@
       "premium": false,
       "accept_handicapped": false,
       "accept_kids": false,
-      "accept_temporary": true
+      "accept_temporary": false
     },
     {
       "id": "127856588",
@@ -27578,72 +27578,6 @@
       "employment": "Полная занятость",
       "requirement": "Высшее техническое образование.",
       "responsibility": "модернизация сети предприятия и подключение новых пользователей. - обслуживание локальных сетей TCP/IP;DN;DHCP;FTPb WiFi сетей. -решение проблем и...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Системный администратор"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127101623",
-      "name": "Инженер по сетям",
-      "company": "СЗ Аркада Парк Пять",
-      "company_id": "11584393",
-      "company_url": "https://hh.ru/employer/11584393",
-      "company_logo": "",
-      "url": "https://hh.ru/vacancy/127101623",
-      "published_at": "2025-10-29T12:30:21+0300",
-      "created_at": "2025-10-29T12:30:21+0300",
-      "area": "Симферополь",
-      "salary": "от 80 000 RUR на руки",
-      "salary_raw": {
-        "from": 80000,
-        "to": null,
-        "currency": "RUR",
-        "gross": false
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Полный день",
-      "employment": "Полная занятость",
-      "requirement": "Высшее образование. Опыт работы от на подобной должности от 1-3 лет.",
-      "responsibility": "Анализ технической возможности и предварительная оценка стоимости подключения к инженерным сетям объекта. Получение ТУ, заключение договоров на вынос сетей с...",
-      "type": "Открытая",
-      "professional_roles": [
-        "Инженер по эксплуатации"
-      ],
-      "has_test": false,
-      "premium": false,
-      "accept_handicapped": false,
-      "accept_kids": false,
-      "accept_temporary": false
-    },
-    {
-      "id": "127099322",
-      "name": "Системный администратор (пр-т Дериглазова)",
-      "company": "Европа, Торговая сеть",
-      "company_id": "200686",
-      "company_url": "https://hh.ru/employer/200686",
-      "company_logo": "https://img.hhcdn.ru/employer-logo-original/1411329.png",
-      "url": "https://hh.ru/vacancy/127099322",
-      "published_at": "2025-10-29T11:53:28+0300",
-      "created_at": "2025-10-29T11:53:28+0300",
-      "area": "Курск",
-      "salary": "от 62 600 RUR до вычета налогов",
-      "salary_raw": {
-        "from": 62600,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "experience": "От 1 года до 3 лет",
-      "schedule": "Сменный график",
-      "employment": "Полная занятость",
-      "requirement": "активность, ответственность и доброжелательность. - готовность к обучению и развитию.",
-      "responsibility": "комплексное обслуживание и обеспечение бесперебойной работы компьютерной сети. - обслуживание оргтехники и спец. оборудования. - администрирование сети (компьютеры, терминалы, серверы). -",
       "type": "Открытая",
       "professional_roles": [
         "Системный администратор"
